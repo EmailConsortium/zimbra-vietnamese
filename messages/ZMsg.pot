@@ -1,0 +1,443 @@
+#. extracted from ZMsg.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 00:44+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2010 Zimbra, Inc.
+#. # 
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. # 
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#: errorEmptyResponse
+msgid "Received empty response from server"
+msgstr ""
+
+#: errorMaintenanceMode
+msgid "The account is in maintenance mode"
+msgstr ""
+
+#: BAD_JSON_RESPONSE
+msgctxt "BAD_JSON_RESPONSE"
+msgid "A network error has occurred."
+msgstr ""
+
+#: EMPTY_RESPONSE
+msgid "Cannot connect to server."
+msgstr ""
+
+#: NETWORK_ERROR
+msgctxt "NETWORK_ERROR"
+msgid "A network error has occurred."
+msgstr ""
+
+#: SOAP_ERROR
+msgctxt "SOAP_ERROR"
+msgid "A network error has occurred."
+msgstr ""
+
+#: CSFE_SVC_ERROR
+msgctxt "CSFE_SVC_ERROR"
+msgid "A network service error has occurred."
+msgstr ""
+
+#: account.AUTH_FAILED
+msgid ""
+"The username or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current username and password."
+msgstr ""
+
+#: account.CHANGE_PASSWORD
+msgid "Your password in no longer valid. Please choose a new password."
+msgstr ""
+
+#: account.INVALID_PASSWORD
+msgid "You have entered an invalid password."
+msgstr ""
+
+#: account.INVALID_PREF_NAME
+msgid "Invalid preference name."
+msgstr ""
+
+#: account.INVALID_PREF_VALUE
+msgid "Invalid preference value."
+msgstr ""
+
+#: account.MAINTENANCE_MODE
+msgctxt "account.MAINTENANCE_MODE"
+msgid "This account is currently in maintenance mode."
+msgstr ""
+
+#: account.NO_SUCH_ACCOUNT
+msgid "No such account exists."
+msgstr ""
+
+#: account.NO_SUCH_SAVED_SEARCH
+msgid "No such saved search exists."
+msgstr ""
+
+#: account.ACCT_NO_SUCH_TAG
+msgctxt "account.ACCT_NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr ""
+
+#: account.TOO_MANY_IDENTITIES
+msgid ""
+"The identity could not be created because you have exceeded your identity "
+"quota."
+msgstr ""
+
+#: account.PASSWORD_CHANGE_TOO_SOON
+msgid "Password cannot be changed too soon."
+msgstr ""
+
+#: account.PASSWORD_LOCKED
+msgid ""
+"Password locked. User not allowed to change password. Please contact your "
+"System Administrator."
+msgstr ""
+
+#: account.PASSWORD_RECENTLY_USED
+msgid ""
+"The password you submitted has recently been used. Please choose a different "
+"password."
+msgstr ""
+
+#. # The im.lower_case messages are received as part of a chat message
+#: im.forbidden
+msgid "Forbidden."
+msgstr ""
+
+#: im.internal_server_error
+msgid "An internal server error occurred."
+msgstr ""
+
+#: im.item_not_found
+msgid "The user was not found. The message may not have been sent."
+msgstr ""
+
+#: im.jid_malformed
+msgctxt "im.jid_malformed"
+msgid "The address is invalid."
+msgstr ""
+
+#: im.not_acceptable
+msgid "The message is not acceptable."
+msgstr ""
+
+#: im.not_allowed
+msgid "You are not allowed to send a message to the intended recipient."
+msgstr ""
+
+#: im.payment_required
+msgid "Payment required."
+msgstr ""
+
+#: im.recipient_unavailable
+msgid "The recipient is unavailable."
+msgstr ""
+
+#: im.redirect
+msgid "The user is at a different address."
+msgstr ""
+
+#: im.remote_server_not_found
+msgid "The remote server could not be found."
+msgstr ""
+
+#: im.remote_server_timeout
+msgid "The connection to the remote server timed out."
+msgstr ""
+
+#: im.resource_constraint
+msgid "The system is busy."
+msgstr ""
+
+#: im.service_unavailable
+msgid "Messages are not accepted by the service."
+msgstr ""
+
+#: im.undefined_condition
+msgid "An undefined error occurred."
+msgstr ""
+
+#: im.unknown_error
+msgid "An unknown error occurred."
+msgstr ""
+
+#: im.INVALID_ADDRESS
+msgctxt "im.INVALID_ADDRESS"
+msgid "The address is invalid."
+msgstr ""
+
+#: mail.ALREADY_EXISTS
+msgid "An object with that name already exists."
+msgstr ""
+
+#: mail.MODIFY_CONFLICT
+msgid ""
+"Item version number conflict. Another version was added between edit and "
+"save."
+msgstr ""
+
+#: mail.INVALID_NAME
+msgid ""
+"Sorry, \"{0}\" is not a valid name. It contains at least one invalid "
+"character."
+msgstr ""
+
+#: mail.MAINTENANCE
+msgctxt "mail.MAINTENANCE"
+msgid "This account is currently in maintenance mode."
+msgstr ""
+
+#: mail.MESSAGE_TOO_BIG
+msgid ""
+"This message cannot be sent because it has exceeded the maximum allowed "
+"size."
+msgstr ""
+
+#: mail.NO_SUCH_CONV
+msgid "No such conversation exists."
+msgstr ""
+
+#: mail.NO_SUCH_FOLDER
+msgid "No such folder exists."
+msgstr ""
+
+#: mail.NO_SUCH_ITEM
+msgid "Item \"{0}\" does not exist."
+msgstr ""
+
+#: mail.NO_SUCH_MSG
+msgid "No such message exists."
+msgstr ""
+
+#: mail.NO_SUCH_PART
+msgid "No such message part exists."
+msgstr ""
+
+#: mail.NO_SUCH_TAG
+msgctxt "mail.NO_SUCH_TAG"
+msgid "No such tag exists."
+msgstr ""
+
+#: mail.QUERY_PARSE_ERROR
+msgid "Unable to parse the search query."
+msgstr ""
+
+#: mail.QUOTA_EXCEEDED
+msgid ""
+"Your message could not be sent because you have exceeded your mail quota."
+msgstr ""
+
+#: mail.TOO_MANY_CONTACTS
+msgid ""
+"Contact could not be created because you have exceeded your contact quota."
+msgstr ""
+
+#: mail.TOO_MANY_QUERY_TERMS_EXPANDED
+msgid "Please be more specific in your search criteria."
+msgstr ""
+
+#: mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS
+msgctxt "mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS"
+msgid "Unable to import. The chosen file may be invalid."
+msgstr ""
+
+#: mail.MAIL_UNABLE_TO_IMPORT_CONTACTS
+msgctxt "mail.MAIL_UNABLE_TO_IMPORT_CONTACTS"
+msgid "Unable to import. The chosen file may be invalid."
+msgstr ""
+
+#: mail.SEND_FAILURE
+msgid "Could not send message: {0}"
+msgstr ""
+
+#: mail.SEND_ABORTED_ADDRESS_FAILURE
+msgid "Could not send message due to invalid address(es)"
+msgstr ""
+
+#: mail.TOO_MANY_TAGS
+msgid "A tag could not be created because you have exceeded the limit."
+msgstr ""
+
+#: offline.ONLINE_ONLY_OP
+msgid ""
+"You must be online to use this feature. Please check your network connection "
+"and try again."
+msgstr ""
+
+#: service.PARSE_ERROR
+msgid "A parsing error has occurred."
+msgstr ""
+
+#: service.PERM_DENIED
+msgid "Permission denied."
+msgstr ""
+
+#: service.FAILURE
+msgctxt "service.FAILURE"
+msgid "A network service error has occurred."
+msgstr ""
+
+#: service.INVALID_REQUEST
+msgid "An invalid request was made."
+msgstr ""
+
+#: service.UNKNOWN_DOCUMENT
+msgid "Server error (unknown command sent to server)."
+msgstr ""
+
+#: service.RESOURCE_UNREACHABLE
+msgid "Resource unreachable."
+msgstr ""
+
+#: service.TEMPORARILY_UNAVAILABLE
+msgid "Service temporarily unavailable."
+msgstr ""
+
+#: service.AUTH_REQUIRED
+msgid "Authentication Required"
+msgstr ""
+
+#: service.AUTH_EXPIRED
+msgid "Your session has expired. Please login again."
+msgstr ""
+
+#: service.WRONG_HOST
+msgid "Request was sent to the wrong server."
+msgstr ""
+
+#: service.NON_READONLY_OPERATION_DENIED
+msgid "The server is in read-only mode."
+msgstr ""
+
+#: service.PROXY_ERROR
+msgid "Proxy error."
+msgstr ""
+
+#: service.TOO_MANY_HOPS
+msgid "Too many hops between servers."
+msgstr ""
+
+#: service.ALREADY_IN_PROGRESS
+msgid "Operation already in progress."
+msgstr ""
+
+#: service.NOT_IN_PROGRESS
+msgid "Operation not in progress."
+msgstr ""
+
+#: service.INTERRUPTED
+msgid "The operation has been interrupted"
+msgstr ""
+
+#: service.NO_SPELL_CHECK_URL
+msgid "No spell check server defined."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_PROFILE_SUMMARY
+msgid ""
+"The system is currently unable to complete your request. We apologize for "
+"this inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_CALLLOGS
+msgid ""
+"We are currently unable to display call records. We apologize for this "
+"inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_FOLDER
+msgid "We are temporarily unable to display voice mail records."
+msgstr ""
+
+#: voice.UNABLE_TO_UPDATE_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_UPDATE_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_MODIFY_CALL_FEATURES
+msgctxt "voice.UNABLE_TO_MODIFY_CALL_FEATURES"
+msgid ""
+"We are temporarily unable to forward calls. We apologize for this "
+"inconvenience."
+msgstr ""
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_PREFS
+msgid ""
+"An error occurred while attempting to update your voice mail preferences. "
+"Please try again."
+msgstr ""
+
+#: voice.UNABLE_TO_FORWARD_VOICEMAIL
+msgid "Your email could not be forwarded at this time. Please try again later."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
+msgid "Unable to retrieve call features."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_CONTENT
+msgid "Unable to retrieve voice mail content."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_PREFS
+msgid "Unable to retrieve voice mail preferences."
+msgstr ""
+
+#: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_SUMMARY
+msgid "Unable to retrieve voice mail summary."
+msgstr ""
+
+#: voice.UNABLE_TO_MODIFY_VOICEMAIL_STATUS
+msgid "Unable to modify voice mail status. "
+msgstr ""
+
+#: voice.UNABLE_TO_EMPTY_VOICEMAIL_TRASH
+msgid "Unable to empty voice mail trash."
+msgstr ""
+
+#: voice.UNABLE_TO_DELETE_VOICEMAIL
+msgid "Unable to delete voice mail."
+msgstr ""
+
+#: voice.UNABLE_TO_UNDELETE_VOICEMAIL
+msgid "Unable to undelete voice mail."
+msgstr ""
+
+#: zclient.CLIENT_ERROR
+msgid "A network service error has occurred (zclient)."
+msgstr ""
+
+#: zclient.IO_ERROR
+msgid "A network service error has occurred (zclient/io)."
+msgstr ""
+
+#: ztaglib.TAG_EXCEPTION
+msgid "A client error occurred. Please try again."
+msgstr ""
+
+#: unknownError
+msgid "An unknown error ({0}) has occurred."
+msgstr ""

@@ -1,0 +1,1029 @@
+#. # 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2006, 2007, 2008, 2010 Zimbra, Inc.
+#. # 
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. # 
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#. extracted from AjxKeys.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 00:42+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # Keyboard Shortcuts for the Zimbra Ajax Toolkit
+#. #
+#. # Below is a list of properties that define shortcuts. Each shortcut belongs
+#. # to a "map", which is the context in which the shortcut applies. For these
+#. # shortcuts, that is typically determined by which widget (a button or a list,
+#. # for example) currently has focus.
+#. #
+#. # The property key consists of several parts joined by dots. The first part
+#. # is always the name of a map. The second part is either the name of an action,
+#. # or the name of a field. Field names are lowercase, and action names are mixed
+#. # case. The final part of the key may be a platform.
+#. #
+#. # Maps
+#. # ----
+#. #
+#. # The map names in this properties file refer to widgets (basic UI pieces)
+#. # in the toolkit. The map name is the first part of the property name and
+#. # comes before the period. The following are valid map names:
+#. #
+#. #	dialog					a dialog box (typically has OK/Cancel buttons)
+#. #	button					a pressable button, which may have a dropdown submenu
+#. #	list					a list view of a set of items
+#. #	menu					a menu of possible choices, may have submenus
+#. #	toolbarHorizontal		a horizontal set of widgets (usually buttons)
+#. #	toolbarVertical			a vertical set of widgets (usually buttons)
+#. #
+#. # There is a special map called "keys" that provides information about the
+#. # keyboard being used. It does not define any actual shortcuts.
+#. #
+#. # Fields
+#. # ------
+#. #
+#. #	display			What the user must type to run the shortcut
+#. #	keycode			Keyboard codes for the shortcut
+#. #	description		Explanatory text that appears on the Shortcuts page
+#. #	summary			Brief descriptive text used as a tooltip or in the
+#. #					printed guide (not yet implemented)
+#. #
+#. # Actions
+#. # -------
+#. #
+#. # An action is an event triggered by a shortcut. It is what the shortcut
+#. # does. Most of the time, the action invoked by a toolkit shortcut emulates
+#. # something that could have been done using the mouse. Note that an action
+#. # may be implemented by more than one widget; exactly what happens depends
+#. # on the widget. To see what actions are available and what each action does,
+#. # check the documentation within the shortcut definitions below.
+#. #
+#. # The action "INHERIT" has special meaning. When it is used, the name of a
+#. # map is given rather than a key sequence. The current map will copy all the
+#. # shortcuts of the given map, and then may add or override those shortcuts.
+#. # In general, you probably do not want to change those properties.
+#. #    
+#. # To define a shortcut that applies only on a particular platform (Windows,
+#. # Macintosh, or Linux), add a platform identifier to the action. The platform
+#. # identifier can be one of:
+#. #
+#. #    win mac linux
+#. #
+#. # For example:
+#. #
+#. #    list.ContextMenu.display.mac = ,; Shift+,; Ctrl+M
+#. #    list.ContextMenu.keycode.mac = 188; Shift+188; Ctrl+77
+#. #    
+#. # Key Sequences (shortcuts)
+#. # -------------
+#. #
+#. # A key sequence is a set of one or more keys that triggers an action. Each
+#. # key in the sequence may have a modifier (such as the Control or Shift key).
+#. # Most key sequences consist of just one key. The keys in multiple-key
+#. # sequences are separated with a comma. The next key in a sequence must be
+#. # struck within a short time for the sequence to continue.
+#. #
+#. # The following are valid modifiers:
+#. #
+#. #    Ctrl Alt Shift Meta
+#. #
+#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
+#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
+#. # another plus sign. For example: Ctrl+Alt+Del.
+#. #
+#. # If you want to have more than one shortcut for the same action, use a 
+#. # semicolon (and optional space) to separate the shortcuts. For example, to
+#. # specify three different shortcuts for the list action Foo:
+#. #
+#. #    list.Foo.display 		= A; B; C 
+#. #    list.Foo.keycode		= 65; 66; 67
+#. # 
+#. # Each key sequence must be defined in two ways. The 'display' version is used
+#. # on the Shortcuts page to tell the user how to run the shortcut:
+#. #
+#. #    dialog.Cancel.display = Esc
+#. #
+#. # The 'keycode' version is used to match the keystroke to the shortcut by looking
+#. # at the numeric keycode sent by the keyboard:
+#. #
+#. #    dialog.Cancel.keycode = 27
+#. #
+#. # Key sequences have no notion of upper case or lower case. They map to what
+#. # you see on your keyboard (for example, a "T"), rather than the character it
+#. # produces when you strike it (a "t"). To specify a keystroke that requires the
+#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
+#. # key, you'd use: Shift+2.
+#. #
+#. # Each letter, number, and non-shifted printable character represents itself:
+#. #
+#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
+#. #    ` - = [ ] ; ' , . /
+#. #
+#. # Non-printable keys are specified with special names. The following special
+#. # keys are available:
+#. #
+#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
+#. #
+#. #
+#. # Documentation
+#. # -------------
+#. #
+#. # Maps and actions can be documented by appending ".description" to the map
+#. # name or the action and using that as a property name. The descriptive
+#. # text is the property's value. The descriptions below show up as content in
+#. # the Shortcuts tab on the Options page.
+#. #
+#. # Since properties are unordered, we need to provide a hint about the order in
+#. # which we want them to appear. They will appear in low-to-high order of the value
+#. # for the ".sort" version of the property. That applies to both maps and
+#. # actions. By default, the sort values increment by ten so that it's easy
+#. # to insert a new item between two others without a ripple effect.
+#. # Map: keys
+#: keys.shift.display
+msgid "Shift"
+msgstr ""
+
+#: keys.shift.keycode
+msgid "16"
+msgstr ""
+
+#: keys.ctrl.display
+msgid "Ctrl"
+msgstr ""
+
+#: keys.ctrl.keycode
+msgid "17"
+msgstr ""
+
+#: keys.alt.display
+msgid "Alt"
+msgstr ""
+
+#: keys.alt.keycode
+msgid "18"
+msgstr ""
+
+#: keys.meta.display
+msgid "Meta"
+msgstr ""
+
+#: keys.meta.keycode.win
+msgid "91"
+msgstr ""
+
+#: keys.meta.keycode.mac
+msgid "224"
+msgstr ""
+
+#. # Map: dialog
+#: dialog.description
+msgid "Shortcuts in Dialog Boxes"
+msgstr ""
+
+#: dialog.summary
+msgid "Dialog Boxes"
+msgstr ""
+
+#: dialog.sort
+msgid "40000"
+msgstr ""
+
+#: dialog.Cancel.display
+msgctxt "dialog.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: dialog.Cancel.keycode
+msgctxt "dialog.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: dialog.Cancel.description
+msgid "Cancel changes in the dialog (same as \"Cancel\" button)"
+msgstr ""
+
+#: dialog.Cancel.summary
+msgid "Cancel changes"
+msgstr ""
+
+#: dialog.Cancel.sort
+msgid "40020"
+msgstr ""
+
+#: dialog.Enter.display
+msgid "Enter; Space"
+msgstr ""
+
+#: dialog.Enter.keycode
+msgid "13; 32"
+msgstr ""
+
+#: dialog.Enter.description
+msgid "Save changes in the dialog (same as \"OK\" button)"
+msgstr ""
+
+#: dialog.Enter.summary
+msgid "Save changes"
+msgstr ""
+
+#: dialog.Enter.sort
+msgid "40010"
+msgstr ""
+
+#. # Map: button
+#: button.description
+msgid "Shortcuts for Buttons"
+msgstr ""
+
+#: button.sort
+msgid "10000"
+msgstr ""
+
+#: button.Select.display
+msgctxt "button.Select.display"
+msgid "Enter"
+msgstr ""
+
+#: button.Select.keycode
+msgctxt "button.Select.keycode"
+msgid "13"
+msgstr ""
+
+#: button.Select.description
+msgid "Press the button"
+msgstr ""
+
+#: button.Select.sort
+msgid "10010"
+msgstr ""
+
+#: button.SubMenu.display
+msgctxt "button.SubMenu.display"
+msgid "ArrowDown"
+msgstr ""
+
+#: button.SubMenu.keycode
+msgctxt "button.SubMenu.keycode"
+msgid "40"
+msgstr ""
+
+#: button.SubMenu.description
+msgid "Display the pop-up menu for the button"
+msgstr ""
+
+#: button.SubMenu.sort
+msgid "10020;"
+msgstr ""
+
+#. # Map: list
+#: list.description
+msgid "Shortcuts in Lists"
+msgstr ""
+
+#: list.sort
+msgid "30000"
+msgstr ""
+
+#: list.AddNext.display
+msgid "Shift+ArrowDown"
+msgstr ""
+
+#: list.AddNext.keycode
+msgid "Shift+40"
+msgstr ""
+
+#: list.AddNext.description
+msgid "Add the next item to the selection"
+msgstr ""
+
+#: list.AddNext.sort
+msgid "30090"
+msgstr ""
+
+#: list.AddPrevious.display
+msgid "Shift+ArrowUp"
+msgstr ""
+
+#: list.AddPrevious.keycode
+msgid "Shift+38"
+msgstr ""
+
+#: list.AddPrevious.description
+msgid "Add the previous item to the selection"
+msgstr ""
+
+#: list.AddPrevious.sort
+msgid "30100"
+msgstr ""
+
+#: list.ContextMenu.display
+msgid ",; Shift+,; Ctrl+Enter"
+msgstr ""
+
+#: list.ContextMenu.keycode
+msgid "188; Shift+188; Ctrl+13"
+msgstr ""
+
+#: list.ContextMenu.display.mac
+msgid ",; Shift+,; Ctrl+M"
+msgstr ""
+
+#: list.ContextMenu.keycode.mac
+msgid "188; Shift+188; Ctrl+77"
+msgstr ""
+
+#: list.ContextMenu.description
+msgid "Show a menu to act on the selected items (same as right-click)"
+msgstr ""
+
+#: list.ContextMenu.summary
+msgid "Show right-click menu"
+msgstr ""
+
+#: list.ContextMenu.sort
+msgid "30080"
+msgstr ""
+
+#: list.DoubleClick.display
+msgctxt "list.DoubleClick.display"
+msgid "Enter"
+msgstr ""
+
+#: list.DoubleClick.keycode
+msgctxt "list.DoubleClick.keycode"
+msgid "13"
+msgstr ""
+
+#: list.DoubleClick.description
+msgid "Double-click the selected item"
+msgstr ""
+
+#: list.DoubleClick.sort
+msgid "30070"
+msgstr ""
+
+#: list.Next.display
+msgid "Ctrl+ArrowDown"
+msgstr ""
+
+#: list.Next.keycode
+msgid "Ctrl+40"
+msgstr ""
+
+#: list.Next.description
+msgid "Focus on the next item without selecting"
+msgstr ""
+
+#: list.Next.sort
+msgid "30110"
+msgstr ""
+
+#: list.Previous.display
+msgid "Ctrl+ArrowUp"
+msgstr ""
+
+#: list.Previous.keycode
+msgid "Ctrl+38"
+msgstr ""
+
+#: list.Previous.description
+msgid "Focus on the previous item without selecting"
+msgstr ""
+
+#: list.Previous.sort
+msgid "30120"
+msgstr ""
+
+#: list.SelectAll.display
+msgid "Ctrl+A"
+msgstr ""
+
+#: list.SelectAll.keycode
+msgid "Ctrl+65"
+msgstr ""
+
+#: list.SelectAll.description
+msgid "Select all visible items"
+msgstr ""
+
+#: list.SelectAll.sort
+msgid "30030"
+msgstr ""
+
+#: list.SelectCurrent.display
+msgid "Ctrl+`"
+msgstr ""
+
+#: list.SelectCurrent.keycode
+msgid "Ctrl+192"
+msgstr ""
+
+#: list.SelectCurrent.description
+msgid "Select/Unselect the focused item"
+msgstr ""
+
+#: list.SelectCurrent.sort
+msgid "30060"
+msgstr ""
+
+#: list.SelectFirst.display
+msgid "Home"
+msgstr ""
+
+#: list.SelectFirst.display.mac
+msgid "Home; Meta+ArrowLeft"
+msgstr ""
+
+#: list.SelectFirst.keycode
+msgid "36"
+msgstr ""
+
+#: list.SelectFirst.keycode.mac
+msgid "36; Meta+37"
+msgstr ""
+
+#: list.SelectFirst.description
+msgid "Select the first item"
+msgstr ""
+
+#: list.SelectFirst.sort
+msgid "30040"
+msgstr ""
+
+#: list.SelectLast.display
+msgid "End"
+msgstr ""
+
+#: list.SelectLast.display.mac
+msgid "Home; Meta+ArrowRight"
+msgstr ""
+
+#: list.SelectLast.keycode
+msgid "35"
+msgstr ""
+
+#: list.SelectLast.keycode.mac
+msgid "36; Meta+39"
+msgstr ""
+
+#: list.SelectLast.description
+msgid "Select the last item"
+msgstr ""
+
+#: list.SelectLast.sort
+msgid "30050"
+msgstr ""
+
+#: list.SelectNext.display
+msgid "ArrowDown; Space; J"
+msgstr ""
+
+#: list.SelectNext.keycode
+msgid "40; 32; 74"
+msgstr ""
+
+#: list.SelectNext.description
+msgid "Select the next item"
+msgstr ""
+
+#: list.SelectNext.sort
+msgid "30010"
+msgstr ""
+
+#: list.SelectPrevious.display
+msgid "ArrowUp; K"
+msgstr ""
+
+#: list.SelectPrevious.keycode
+msgid "38; 75"
+msgstr ""
+
+#: list.SelectPrevious.description
+msgid "Select the previous item"
+msgstr ""
+
+#: list.SelectPrevious.sort
+msgid "30020"
+msgstr ""
+
+#. # Map: menu
+#: menu.description
+msgid "Shortcuts for Pop-up Menus"
+msgstr ""
+
+#: menu.sort
+msgid "20000"
+msgstr ""
+
+#: menu.Cancel.display
+msgctxt "menu.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: menu.Cancel.keycode
+msgctxt "menu.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: menu.Cancel.description
+msgid "Dismiss the menu"
+msgstr ""
+
+#: menu.Cancel.sort
+msgid "20040"
+msgstr ""
+
+#: menu.ParentMenu.display
+msgctxt "menu.ParentMenu.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: menu.ParentMenu.keycode
+msgctxt "menu.ParentMenu.keycode"
+msgid "37"
+msgstr ""
+
+#: menu.ParentMenu.description
+msgid "Hide the sub-menu"
+msgstr ""
+
+#: menu.ParentMenu.sort
+msgid "20060"
+msgstr ""
+
+#: menu.Select.display
+msgctxt "menu.Select.display"
+msgid "Enter"
+msgstr ""
+
+#: menu.Select.keycode
+msgctxt "menu.Select.keycode"
+msgid "13"
+msgstr ""
+
+#: menu.Select.description
+msgid "Select the current item"
+msgstr ""
+
+#: menu.Select.sort
+msgid "20030"
+msgstr ""
+
+#: menu.SelectNext.display
+msgctxt "menu.SelectNext.display"
+msgid "ArrowDown"
+msgstr ""
+
+#: menu.SelectNext.keycode
+msgctxt "menu.SelectNext.keycode"
+msgid "40"
+msgstr ""
+
+#: menu.SelectNext.description
+msgid "Move to the next item"
+msgstr ""
+
+#: menu.SelectNext.sort
+msgid "20010"
+msgstr ""
+
+#: menu.SelectPrevious.display
+msgctxt "menu.SelectPrevious.display"
+msgid "ArrowUp"
+msgstr ""
+
+#: menu.SelectPrevious.keycode
+msgctxt "menu.SelectPrevious.keycode"
+msgid "38"
+msgstr ""
+
+#: menu.SelectPrevious.description
+msgid "Move to the previous item"
+msgstr ""
+
+#: menu.SelectPrevious.sort
+msgid "20020"
+msgstr ""
+
+#: menu.SubMenu.display
+msgctxt "menu.SubMenu.display"
+msgid "ArrowRight"
+msgstr ""
+
+#: menu.SubMenu.keycode
+msgctxt "menu.SubMenu.keycode"
+msgid "39"
+msgstr ""
+
+#: menu.SubMenu.description
+msgid "Show the sub-menu of the current item"
+msgstr ""
+
+#: menu.SubMenu.sort
+msgid "20050"
+msgstr ""
+
+#. # Map: toolbarHorizontal
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: toolbarHorizontal.INHERIT
+msgctxt "toolbarHorizontal.INHERIT"
+msgid "button"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: toolbarHorizontal.description
+msgid "Shortcuts for Horizontal Toolbars"
+msgstr ""
+
+#: toolbarHorizontal.sort
+msgid "50000"
+msgstr ""
+
+#: toolbarHorizontal.Next.display
+msgctxt "toolbarHorizontal.Next.display"
+msgid "ArrowRight"
+msgstr ""
+
+#: toolbarHorizontal.Next.keycode
+msgctxt "toolbarHorizontal.Next.keycode"
+msgid "39"
+msgstr ""
+
+#: toolbarHorizontal.Next.description
+msgctxt "toolbarHorizontal.Next.description"
+msgid "Focus on the next button"
+msgstr ""
+
+#: toolbarHorizontal.Next.sort
+msgid "50010"
+msgstr ""
+
+#: toolbarHorizontal.Previous.display
+msgctxt "toolbarHorizontal.Previous.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: toolbarHorizontal.Previous.keycode
+msgctxt "toolbarHorizontal.Previous.keycode"
+msgid "37"
+msgstr ""
+
+#: toolbarHorizontal.Previous.description
+msgctxt "toolbarHorizontal.Previous.description"
+msgid "Focus on the previous button"
+msgstr ""
+
+#: toolbarHorizontal.Previous.sort
+msgid "50020"
+msgstr ""
+
+#. # Map: toolbarVertical
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: toolbarVertical.INHERIT
+msgctxt "toolbarVertical.INHERIT"
+msgid "button"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: toolbarVertical.description
+msgid "Shortcuts for Vertical Toolbars"
+msgstr ""
+
+#: toolbarVertical.sort
+msgid "51000"
+msgstr ""
+
+#: toolbarVertical.Next.display
+msgctxt "toolbarVertical.Next.display"
+msgid "ArrowDown"
+msgstr ""
+
+#: toolbarVertical.Next.keycode
+msgctxt "toolbarVertical.Next.keycode"
+msgid "40"
+msgstr ""
+
+#: toolbarVertical.Next.description
+msgctxt "toolbarVertical.Next.description"
+msgid "Focus on the next button"
+msgstr ""
+
+#: toolbarVertical.Next.sort
+msgid "51010"
+msgstr ""
+
+#: toolbarVertical.Previous.display
+msgctxt "toolbarVertical.Previous.display"
+msgid "ArrowUp"
+msgstr ""
+
+#: toolbarVertical.Previous.keycode
+msgctxt "toolbarVertical.Previous.keycode"
+msgid "38"
+msgstr ""
+
+#: toolbarVertical.Previous.description
+msgctxt "toolbarVertical.Previous.description"
+msgid "Focus on the previous button"
+msgstr ""
+
+#: toolbarVertical.Previous.sort
+msgid "51020"
+msgstr ""
+
+#. # Map: editor
+#: editor.description
+msgid "Shortcuts within an HTML Editor"
+msgstr ""
+
+#: editor.sort
+msgid "60000"
+msgstr ""
+
+#: editor.Bold.display
+msgid "Ctrl+B"
+msgstr ""
+
+#: editor.Bold.keycode
+msgid "Ctrl+66"
+msgstr ""
+
+#: editor.Bold.description
+msgid "Make text bold"
+msgstr ""
+
+#: editor.Bold.summary
+msgid "Bold (Ctrl+B)"
+msgstr ""
+
+#: editor.Bold.sort
+msgid "60010"
+msgstr ""
+
+#: editor.CenterJustify.display
+msgid "Ctrl+E"
+msgstr ""
+
+#: editor.CenterJustify.keycode
+msgid "Ctrl+69"
+msgstr ""
+
+#: editor.CenterJustify.description
+msgid "Align text in the middle"
+msgstr ""
+
+#: editor.CenterJustify.summary
+msgid "Align Center (Ctrl+E)"
+msgstr ""
+
+#: editor.CenterJustify.sort
+msgid "60070"
+msgstr ""
+
+#: editor.FullJustify.display
+msgid "Ctrl+J"
+msgstr ""
+
+#: editor.FullJustify.keycode
+msgid "Ctrl+74"
+msgstr ""
+
+#: editor.FullJustify.description
+msgid "Align text so that text lines up on both sides"
+msgstr ""
+
+#: editor.FullJustify.summary
+msgid "Justify (Ctrl+J)"
+msgstr ""
+
+#: editor.FullJustify.sort
+msgid "60080"
+msgstr ""
+
+#: editor.Header1.display
+msgid "Ctrl+1"
+msgstr ""
+
+#: editor.Header1.keycode
+msgid "Ctrl+49"
+msgstr ""
+
+#: editor.Header1.description
+msgid "Make text a level 1 header"
+msgstr ""
+
+#: editor.Header1.sort
+msgid "60090"
+msgstr ""
+
+#: editor.Header2.display
+msgid "Ctrl+2"
+msgstr ""
+
+#: editor.Header2.keycode
+msgid "Ctrl+50"
+msgstr ""
+
+#: editor.Header2.description
+msgid "Make text a level 2 header"
+msgstr ""
+
+#: editor.Header2.sort
+msgid "60100"
+msgstr ""
+
+#: editor.Header3.display
+msgid "Ctrl+3"
+msgstr ""
+
+#: editor.Header3.keycode
+msgid "Ctrl+51"
+msgstr ""
+
+#: editor.Header3.description
+msgid "Make text a level 3 header"
+msgstr ""
+
+#: editor.Header3.sort
+msgid "60110"
+msgstr ""
+
+#: editor.Header4.display
+msgid "Ctrl+4"
+msgstr ""
+
+#: editor.Header4.keycode
+msgid "Ctrl+52"
+msgstr ""
+
+#: editor.Header4.description
+msgid "Make text a level 4 header"
+msgstr ""
+
+#: editor.Header4.sort
+msgid "60120"
+msgstr ""
+
+#: editor.Header5.display
+msgid "Ctrl+5"
+msgstr ""
+
+#: editor.Header5.keycode
+msgid "Ctrl+53"
+msgstr ""
+
+#: editor.Header5.description
+msgid "Make text a level 5 header"
+msgstr ""
+
+#: editor.Header5.sort
+msgid "60130"
+msgstr ""
+
+#: editor.Header6.display
+msgid "Ctrl+6"
+msgstr ""
+
+#: editor.Header6.keycode
+msgid "Ctrl+54"
+msgstr ""
+
+#: editor.Header6.description
+msgid "Make text a level 6 header"
+msgstr ""
+
+#: editor.Header6.sort
+msgid "60140"
+msgstr ""
+
+#: editor.Italic.display
+msgid "Ctrl+I"
+msgstr ""
+
+#: editor.Italic.keycode
+msgid "Ctrl+73"
+msgstr ""
+
+#: editor.Italic.description
+msgid "Make text italicized"
+msgstr ""
+
+#: editor.Italic.summary
+msgid "Italic (Ctrl+I)"
+msgstr ""
+
+#: editor.Italic.sort
+msgid "60020"
+msgstr ""
+
+#: editor.LeftJustify.display
+msgid "Ctrl+L"
+msgstr ""
+
+#: editor.LeftJustify.keycode
+msgid "Ctrl+76"
+msgstr ""
+
+#: editor.LeftJustify.description
+msgid "Align text to the left"
+msgstr ""
+
+#: editor.LeftJustify.summary
+msgid "Align Left (Ctrl+L)"
+msgstr ""
+
+#: editor.LeftJustify.sort
+msgid "60050"
+msgstr ""
+
+#: editor.RightJustify.display
+msgid "Ctrl+R"
+msgstr ""
+
+#: editor.RightJustify.keycode
+msgid "Ctrl+82"
+msgstr ""
+
+#: editor.RightJustify.description
+msgid "Align text to the right"
+msgstr ""
+
+#: editor.RightJustify.summary
+msgid "Align Right (Ctrl+R)"
+msgstr ""
+
+#: editor.RightJustify.sort
+msgid "60060"
+msgstr ""
+
+#: editor.Strikethru.display
+msgid "Ctrl+S"
+msgstr ""
+
+#: editor.Strikethru.keycode
+msgid "Ctrl+83"
+msgstr ""
+
+#: editor.Strikethru.description
+msgid "Add line through middle of text"
+msgstr ""
+
+#: editor.Strikethru.summary
+msgid "Strikethrough (Ctrl+S)"
+msgstr ""
+
+#: editor.Strikethru.sort
+msgid "60030"
+msgstr ""
+
+#: editor.SwitchMode.display
+msgid "Ctrl+0"
+msgstr ""
+
+#: editor.SwitchMode.keycode
+msgid "Ctrl+48"
+msgstr ""
+
+#: editor.SwitchMode.description
+msgid "Switch between HTML and text modes"
+msgstr ""
+
+#: editor.SwitchMode.sort
+msgid "60150"
+msgstr ""
+
+#: editor.Underline.display
+msgid "Ctrl+U"
+msgstr ""
+
+#: editor.Underline.keycode
+msgid "Ctrl+85"
+msgstr ""
+
+#: editor.Underline.description
+msgid "Underline text"
+msgstr ""
+
+#: editor.Underline.summary
+msgid "Underline (Ctrl+U)"
+msgstr ""
+
+#: editor.Underline.sort
+msgid "60040"
+msgstr ""

@@ -1,0 +1,1656 @@
+#. # 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2007, 2008, 2010 Zimbra, Inc.
+#. # 
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. # 
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#. extracted from ZhKeys.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 00:42+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # Keyboard Shortcuts for the ZCS Standard (HTML) Client
+#. #
+#. #
+#. # Below is a list of properties that define shortcuts. Each shortcut belongs
+#. # to a "map", which is the context in which the shortcut applies. For these
+#. # shortcuts, that is typically determined by the current view (for example,
+#. # a list of messages or a compose form).
+#. #
+#. # The property key consists of several parts joined by dots. The first part
+#. # is always the name of a map. The second part is either the name of an action,
+#. # or the name of a field. Field names are lowercase, and action names are mixed
+#. # case. The final part of the key may be a platform.
+#. #
+#. #
+#. # Maps
+#. # ----
+#. #
+#. # The map names in this properties file refer to views within the ZCS web 
+#. # client. The following are valid map names:
+#. #
+#. #    global					applies to all views
+#. #    compose				a form for creating a new message
+#. #    mail					a list of mail messages or conversations
+#. #    conversation			a single conversation, which is a list of mail messages,
+#. #							with the content of a message displayed in the reading pane
+#. #    message				the content of a single mail message
+#. #    contacts				a set of contacts
+#. #    editContact			a form for creating or editing a contact
+#. #    calendar				any of several calendar views (week, month, etc)
+#. #    editAppointment		a form for creating or editing an appointment
+#. #    options				a set of tabs for changing personal settings
+#. #    mixed					a view of different types of items (eg Trash)
+#. #    notebook				the wiki application
+#. #    voicemail				a list of voicemail messages
+#. #    call					a list of phone calls
+#. #
+#. # Actions
+#. # -------
+#. #
+#. # An action is an event triggered by a shortcut. It is what the shortcut
+#. # does. Most of the time, the action invoked by a web client shortcut emulates
+#. # something that could have been done using the mouse, for example by clicking
+#. # on a particular button. To see what actions are available and what each action does,
+#. # check the documentation section below. 
+#. #
+#. # To define a shortcut that applies only on a particular platform (Windows,
+#. # Macintosh, or Linux), add a platform identifier to the action. The platform
+#. # identifier can be one of:
+#. #
+#. #    win mac linux
+#. #
+#. # For example:
+#. #
+#. #    compose.Send.display.mac = Ctrl+Enter; Ctrl+S
+#. #    compose.Send.keycode.mac = Ctrl+13; Ctrl+83
+#. #    
+#. # Key Sequences (shortcuts)
+#. # -------------
+#. #
+#. # A key sequence is a set of one or more keys that triggers an action. Each
+#. # key in the sequence may have a modifier (such as the Control or Shift key).
+#. # Most key sequences consist of just one key. The keys in multiple-key
+#. # sequences are separated with a comma. The next key in a sequence must be
+#. # struck within a short time for the sequence to continue.
+#. #
+#. # The following are valid modifiers:
+#. #
+#. #    Ctrl Alt Shift Meta
+#. #
+#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
+#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
+#. # another plus sign. For example: Ctrl+Shift+O.
+#. #
+#. # If you want to have more than one shortcut for the same action, use a 
+#. # semicolon (and optional space) to separate the shortcuts. For example, to
+#. # specify three different shortcuts for the global action Foo:
+#. #
+#. #    global.Foo.display		= A; B; C 
+#. #    global.Foo.keycode		= 65; 66; 67
+#. # 
+#. # Key sequences have no notion of upper case or lower case. They map to what
+#. # you see on your keyboard (for example, a "T"), rather than the character it
+#. # produces when you strike it (a "t"). To specify a keystroke that requires the
+#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
+#. # key, you'd use: Shift+2.
+#. #
+#. # Each letter, number, and non-shifted printable character represents itself:
+#. #
+#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
+#. #    ` - = [ ] ' . /
+#. #
+#. # Non-printable keys are specified with special names. The following special
+#. # names are available:
+#. #
+#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
+#. #
+#. # The sequence "NNN" has a special meaning in shortcuts. It stands for "any
+#. # number". For example, with the shortcut
+#. #
+#. #    global.Tag.display = T,NNN
+#. #    global.Tag.keycode = 84,NNN
+#. #
+#. # the key sequence "T,3" will tag selected items with the tag which has
+#. # 3 as its alias. Only actions which contain "NNN" support that sort of mapping.
+#. #
+#. # Documentation
+#. # -------------
+#. #
+#. # Maps and actions can be documented by appending ".description" to the map
+#. # name or the action and using that as a property name. The descriptive
+#. # text is the property's value. The descriptions below show up as content in
+#. # the Shortcuts tab on the Options page.
+#. #
+#. # The "summary" text is used when printing the Quick Reference (not yet
+#. # implemented), or in a tooltip.
+#. #
+#. # The "sort" field sets the sorting order among either map names or among
+#. # the actions within a map, from low to high. There are gaps so that
+#. # properties may be inserted and given a sort order without having to
+#. # change the order of other properties.
+#. # Map: global
+#: global.description
+msgid "Shortcuts for All Applications"
+msgstr ""
+
+#: global.Cancel.display
+msgctxt "global.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: global.Cancel.keycode
+msgctxt "global.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: global.Cancel.description
+msgid "Close the current view"
+msgstr ""
+
+#: global.CheckAndNextItem.display
+msgid "Shift+J"
+msgstr ""
+
+#: global.CheckAndNextItem.keycode
+msgid "Shift+74"
+msgstr ""
+
+#: global.CheckAndNextItem.description
+msgid "Check the current item and move to next item"
+msgstr ""
+
+#: global.CheckAndPreviousItem.display
+msgid "Shift+K"
+msgstr ""
+
+#: global.CheckAndPreviousItem.keycode
+msgid "Shift+75"
+msgstr ""
+
+#: global.CheckAndPreviousItem.description
+msgid "Check the current item and move to previous item"
+msgstr ""
+
+#: global.CheckCheckBox.display
+msgid "Z"
+msgstr ""
+
+#: global.CheckCheckBox.keycode
+msgid "90"
+msgstr ""
+
+#: global.CheckCheckBox.description
+msgid "Check/Uncheck checkbox for current list item"
+msgstr ""
+
+#: global.GoToMail.display
+msgid "G,M"
+msgstr ""
+
+#: global.GoToMail.keycode
+msgid "71,77"
+msgstr ""
+
+#: global.GoToMail.description
+msgid "Switch (\"go\") to Mail"
+msgstr ""
+
+#: global.GoToOptions.display
+msgid "G,O"
+msgstr ""
+
+#: global.GoToOptions.keycode
+msgid "71,79"
+msgstr ""
+
+#: global.GoToOptions.description
+msgid "Switch to Options"
+msgstr ""
+
+#: global.GoToTag.display
+msgid "Y,NNN"
+msgstr ""
+
+#: global.GoToTag.keycode
+msgid "89,NNN"
+msgstr ""
+
+#: global.GoToTasks.description
+msgid "Switch to Tasks"
+msgstr ""
+
+#: global.GoToVoice.display
+msgid "G,V"
+msgstr ""
+
+#: global.GoToVoice.keycode
+msgid "71,86"
+msgstr ""
+
+#: global.GoToVoice.description
+msgid "Switch to Voice"
+msgstr ""
+
+#: global.NewMessage.display
+msgid "N,M; C"
+msgstr ""
+
+#: global.NewMessage.keycode
+msgid "78,77; 67"
+msgstr ""
+
+#: global.NewMessage.description
+msgid "New message (\"compose\")"
+msgstr ""
+
+#: global.NextItem.display
+msgid "Shift+ArrowDown; J"
+msgstr ""
+
+#: global.NextItem.keycode
+msgid "Shift+40; 74"
+msgstr ""
+
+#: global.NextItem.description
+msgid "Next item in a list"
+msgstr ""
+
+#: global.NextPage.display
+msgid "Shift+ArrowRight; L"
+msgstr ""
+
+#: global.NextPage.keycode
+msgid "Shift+39; 76"
+msgstr ""
+
+#: global.NextPage.description
+msgid "Next page of items"
+msgstr ""
+
+#: global.PreviousItem.display
+msgid "Shift+ArrowUp; K"
+msgstr ""
+
+#: global.PreviousItem.keycode
+msgid "Shift+38; 75"
+msgstr ""
+
+#: global.PreviousItem.description
+msgid "Previous item in a list"
+msgstr ""
+
+#: global.PreviousPage.display
+msgid "Shift+ArrowLeft; H"
+msgstr ""
+
+#: global.PreviousPage.keycode
+msgid "Shift+37; 72"
+msgstr ""
+
+#: global.PreviousPage.description
+msgid "Previous page of items"
+msgstr ""
+
+#: global.SavedSearch.display
+msgid "S,NNN"
+msgstr ""
+
+#: global.SavedSearch.keycode
+msgid "83,NNN"
+msgstr ""
+
+#: global.SelectAllCheckBoxes.display
+msgid "Ctrl+A"
+msgstr ""
+
+#: global.SelectAllCheckBoxes.keycode
+msgid "Ctrl+65"
+msgstr ""
+
+#: global.SelectAllCheckBoxes.description
+msgid "Select/Unselect all checkboxes in list"
+msgstr ""
+
+#: global.Tag.display
+msgid "T,NNN"
+msgstr ""
+
+#: global.Tag.keycode
+msgid "84,NNN"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: global.keys
+msgid "global.NewMessage, global.GoToMail, global.GoToOptions"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: mail
+#: mail.description
+msgid "Shortcuts in Mail"
+msgstr ""
+
+#: mail.Close.display
+msgctxt "mail.Close.display"
+msgid "Esc"
+msgstr ""
+
+#: mail.Close.keycode
+msgctxt "mail.Close.keycode"
+msgid "27"
+msgstr ""
+
+#: mail.Close.description
+msgid "Close current item"
+msgstr ""
+
+#: mail.Delete.display
+msgctxt "mail.Delete.display"
+msgid "D"
+msgstr ""
+
+#: mail.Delete.keycode
+msgctxt "mail.Delete.keycode"
+msgid "68"
+msgstr ""
+
+#: mail.Delete.description
+msgctxt "mail.Delete.description"
+msgid "Delete selected items"
+msgstr ""
+
+#: mail.Flag.display
+msgid "M,F"
+msgstr ""
+
+#: mail.Flag.keycode
+msgid "77,70"
+msgstr ""
+
+#: mail.Flag.description
+msgid "Flag messages"
+msgstr ""
+
+#: mail.Forward.display
+msgctxt "mail.Forward.display"
+msgid "F"
+msgstr ""
+
+#: mail.Forward.keycode
+msgctxt "mail.Forward.keycode"
+msgid "70"
+msgstr ""
+
+#: mail.Forward.description
+msgid "Forward message"
+msgstr ""
+
+#: mail.GoToDrafts.display
+msgid "V,D"
+msgstr ""
+
+#: mail.GoToDrafts.keycode
+msgid "86,68"
+msgstr ""
+
+#: mail.GoToDrafts.description
+msgid "Go to Drafts folder"
+msgstr ""
+
+#: mail.GoToFolder.display
+msgid "V,NNN"
+msgstr ""
+
+#: mail.GoToFolder.keycode
+msgid "86,NNN"
+msgstr ""
+
+#: mail.GoToInbox.display
+msgid "I; V,I"
+msgstr ""
+
+#: mail.GoToInbox.keycode
+msgid "73; 86,73"
+msgstr ""
+
+#: mail.GoToInbox.description
+msgid "Go to (\"visit\") inbox and Get Mail"
+msgstr ""
+
+#: mail.GoToSent.display
+msgid "V,S"
+msgstr ""
+
+#: mail.GoToSent.keycode
+msgid "86,83"
+msgstr ""
+
+#: mail.GoToSent.description
+msgid "Go to Sent folder"
+msgstr ""
+
+#: mail.GoToTrash.display
+msgid "V,T"
+msgstr ""
+
+#: mail.GoToTrash.keycode
+msgid "86,84"
+msgstr ""
+
+#: mail.GoToTrash.description
+msgid "Go to Trash folder"
+msgstr ""
+
+#: mail.MarkAllRead.display
+msgid "M,A"
+msgstr ""
+
+#: mail.MarkAllRead.keycode
+msgid "77,65"
+msgstr ""
+
+#: mail.MarkAllRead.description
+msgid "Mark all items read"
+msgstr ""
+
+#: mail.MarkRead.display
+msgid "M,R"
+msgstr ""
+
+#: mail.MarkRead.keycode
+msgid "77,82"
+msgstr ""
+
+#: mail.MarkRead.description
+msgid "Mark messages as read"
+msgstr ""
+
+#: mail.MarkUnread.display
+msgctxt "mail.MarkUnread.display"
+msgid "M,U"
+msgstr ""
+
+#: mail.MarkUnread.keycode
+msgctxt "mail.MarkUnread.keycode"
+msgid "77,85"
+msgstr ""
+
+#: mail.MarkUnread.description
+msgid "Mark messages as unread"
+msgstr ""
+
+#: mail.MoveToFolder.display
+msgid ".,NNN; Shift+.,NNN"
+msgstr ""
+
+#: mail.MoveToFolder.keycode
+msgid "190,NNN; Shift+190,NNN"
+msgstr ""
+
+#: mail.Open.display
+msgctxt "mail.Open.display"
+msgid "Enter; O"
+msgstr ""
+
+#: mail.Open.keycode
+msgctxt "mail.Open.keycode"
+msgid "13; 79"
+msgstr ""
+
+#: mail.Open.description
+msgid "Open current item"
+msgstr ""
+
+#: mail.Reply.display
+msgctxt "mail.Reply.display"
+msgid "R"
+msgstr ""
+
+#: mail.Reply.keycode
+msgctxt "mail.Reply.keycode"
+msgid "82"
+msgstr ""
+
+#: mail.Reply.description
+msgid "Reply to sender"
+msgstr ""
+
+#: mail.ReplyAll.display
+msgid "A"
+msgstr ""
+
+#: mail.ReplyAll.keycode
+msgid "65"
+msgstr ""
+
+#: mail.ReplyAll.description
+msgid "Reply to all recipients"
+msgstr ""
+
+#: mail.ShowExternalImages.display
+msgid "X"
+msgstr ""
+
+#: mail.ShowExternalImages.keycode
+msgid "88"
+msgstr ""
+
+#: mail.ShowExternalImages.description
+msgid "Show external images in message"
+msgstr ""
+
+#: mail.Spam.display
+msgid "Shift+1; M,J"
+msgstr ""
+
+#: mail.Spam.keycode
+msgid "Shift+49; 77,74"
+msgstr ""
+
+#: mail.Spam.display.mac
+msgid "M,J"
+msgstr ""
+
+#: mail.Spam.keycode.mac
+msgid "77,74"
+msgstr ""
+
+#: mail.Spam.description
+msgid "Mark messages as spam and move them to the Junk folder"
+msgstr ""
+
+#: mail.UnFlag.display
+msgid "M,N"
+msgstr ""
+
+#: mail.UnFlag.keycode
+msgid "77,78"
+msgstr ""
+
+#: mail.UnFlag.description
+msgid "Unflag messages"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mail.keys
+msgid ""
+"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, "
+"mail.GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, "
+"mail.UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, "
+"mail.ShowExternalImages, overview.folders, overview.tags"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: compose
+#: compose.description
+msgid "Shortcuts in Mail Compose form"
+msgstr ""
+
+#: compose.AddressPicker.display
+msgid "Alt+G"
+msgstr ""
+
+#: compose.AddressPicker.keycode
+msgid "Alt+71"
+msgstr ""
+
+#: compose.AddressPicker.display.mac
+msgid "Ctrl+G"
+msgstr ""
+
+#: compose.AddressPicker.keycode.mac
+msgid "Ctrl+71"
+msgstr ""
+
+#: compose.AddressPicker.description
+msgid "Choose (\"get\") recipients from Address Book"
+msgstr ""
+
+#: compose.Attachment.display
+msgid "Alt+Q"
+msgstr ""
+
+#: compose.Attachment.keycode
+msgid "Alt+81"
+msgstr ""
+
+#: compose.Attachment.display.mac
+msgid "Ctrl+Q"
+msgstr ""
+
+#: compose.Attachment.keycode.mac
+msgid "Ctrl+81"
+msgstr ""
+
+#: compose.Attachment.description
+msgid "Add an attachment to the message"
+msgstr ""
+
+#: compose.Cancel.description
+msgid "Cancel this message"
+msgstr ""
+
+#: compose.HighPriority.display
+msgid "Alt+H"
+msgstr ""
+
+#: compose.HighPriority.keycode
+msgid "Alt+72"
+msgstr ""
+
+#: compose.HighPriority.description
+msgid "Make the message high priority"
+msgstr ""
+
+#: compose.LowPriority.display
+msgid "Alt+L"
+msgstr ""
+
+#: compose.LowPriority.keycode
+msgid "Alt+76"
+msgstr ""
+
+#: compose.LowPriority.description
+msgid "Make the message low priority"
+msgstr ""
+
+#: compose.NormalPriority.display
+msgid "Alt+N"
+msgstr ""
+
+#: compose.NormalPriority.keycode
+msgid "Alt+78"
+msgstr ""
+
+#: compose.NormalPriority.description
+msgid "Make the message normal priority"
+msgstr ""
+
+#: compose.Save.display
+msgid "Alt+K"
+msgstr ""
+
+#: compose.Save.keycode
+msgid "Alt+75"
+msgstr ""
+
+#: compose.Save.display.mac
+msgid "Ctrl+D"
+msgstr ""
+
+#: compose.Save.keycode.mac
+msgid "Ctrl+68"
+msgstr ""
+
+#: compose.Save.description
+msgid "Save (\"keep\") the message as a draft"
+msgstr ""
+
+#: compose.Send.display
+msgid "Ctrl+Enter; Alt+S"
+msgstr ""
+
+#: compose.Send.keycode
+msgid "Ctrl+13; Alt+83"
+msgstr ""
+
+#: compose.Send.display.mac
+msgid "Ctrl+Enter; Ctrl+S"
+msgstr ""
+
+#: compose.Send.keycode.mac
+msgid "Ctrl+13; Ctrl+83"
+msgstr ""
+
+#: compose.Send.description
+msgid "Send the message"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: compose.keys
+msgid ""
+"compose.Send, compose.Save, compose.Attachment, compose.AddressPicker, "
+"compose.HighPriority, compose.NormalPriority, compose.LowPriority"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: conversation
+#: conversation.description
+msgid "Shortcuts in Mail Conversation View"
+msgstr ""
+
+#: conversation.NextConversationPage.display
+msgid "Shift+L"
+msgstr ""
+
+#: conversation.NextConversationPage.keycode
+msgid "Shift+76"
+msgstr ""
+
+#: conversation.NextConversationPage.description
+msgid "Show next page of messages in conversation"
+msgstr ""
+
+#: conversation.Open.display
+msgctxt "conversation.Open.display"
+msgid "Enter; O"
+msgstr ""
+
+#: conversation.Open.keycode
+msgctxt "conversation.Open.keycode"
+msgid "13; 79"
+msgstr ""
+
+#: conversation.PreviousConversationPage.display
+msgid "Shift+H"
+msgstr ""
+
+#: conversation.PreviousConversationPage.keycode
+msgid "Shift+72"
+msgstr ""
+
+#: conversation.PreviousConversationPage.description
+msgid "Show the previous page of messages in conversation"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: conversation.keys
+msgid ""
+"conversation.NextConversationPage, conversation.PreviousConversationPage"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: contacts
+#: contacts.description
+msgid "Shortcuts for Address Book"
+msgstr ""
+
+#: contacts.Delete.display
+msgctxt "contacts.Delete.display"
+msgid "D"
+msgstr ""
+
+#: contacts.Delete.keycode
+msgctxt "contacts.Delete.keycode"
+msgid "68"
+msgstr ""
+
+#: contacts.Delete.description
+msgid "Delete the selected contact"
+msgstr ""
+
+#: contacts.Edit.display
+msgid "Enter; E"
+msgstr ""
+
+#: contacts.Edit.keycode
+msgid "13; 69"
+msgstr ""
+
+#: contacts.Edit.description
+msgid "Edit the current contact"
+msgstr ""
+
+#: contacts.GoToContacts.display
+msgid "G,A"
+msgstr ""
+
+#: contacts.GoToContacts.keycode
+msgid "71,65"
+msgstr ""
+
+#: contacts.GoToContacts.description
+msgid "Switch to Contacts (\"address book\")"
+msgstr ""
+
+#: contacts.NewContact.display
+msgctxt "contacts.NewContact.display"
+msgid "N,C"
+msgstr ""
+
+#: contacts.NewContact.keycode
+msgctxt "contacts.NewContact.keycode"
+msgid "78,67"
+msgstr ""
+
+#: contacts.NewContact.description
+msgid "New contact"
+msgstr ""
+
+#: contacts.NewGroup.display
+msgid "N,G"
+msgstr ""
+
+#: contacts.NewGroup.keycode
+msgid "78,71"
+msgstr ""
+
+#: contacts.NewGroup.description
+msgid "New contact group"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: contacts.keys
+msgid ""
+"contacts.GoToContacts, contacts.NewContact, contacts.Delete, contacts.Edit, "
+"contacts.NewGroup, overview.addressbooks"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: editContact
+#: editContact.description
+msgid "Shortcuts in Edit Contact form"
+msgstr ""
+
+#: editContact.summary
+msgid "Edit Contact"
+msgstr ""
+
+#: editContact.sort
+msgid "60"
+msgstr ""
+
+#: editContact.Cancel.description
+msgid "Cancel editing the contact"
+msgstr ""
+
+#: editContact.Cancel.sort
+msgid "20"
+msgstr ""
+
+#: editContact.Save.display
+msgctxt "editContact.Save.display"
+msgid "Alt+S"
+msgstr ""
+
+#: editContact.Save.keycode
+msgctxt "editContact.Save.keycode"
+msgid "Alt+83"
+msgstr ""
+
+#: editContact.Save.display.mac
+msgctxt "editContact.Save.display.mac"
+msgid "Ctrl+S"
+msgstr ""
+
+#: editContact.Save.keycode.mac
+msgctxt "editContact.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr ""
+
+#: editContact.Save.description
+msgid "Save the contact"
+msgstr ""
+
+#: editContact.Save.sort
+msgctxt "editContact.Save.sort"
+msgid "10"
+msgstr ""
+
+#. # Map: editAppointment
+#: editAppointment.description
+msgid "Shortcuts in Edit Appointment form"
+msgstr ""
+
+#: editAppointment.AllDay.description
+msgid "Switch between timed and all-day appointment"
+msgstr ""
+
+#: editAppointment.Cancel.description
+msgid "Cancel editing the appointment"
+msgstr ""
+
+#: editAppointment.HtmlFormat.description
+msgid "Switch between HTML and Text formats"
+msgstr ""
+
+#: editAppointment.Save.display
+msgctxt "editAppointment.Save.display"
+msgid "Alt+S"
+msgstr ""
+
+#: editAppointment.Save.keycode
+msgctxt "editAppointment.Save.keycode"
+msgid "Alt+83"
+msgstr ""
+
+#: editAppointment.Save.display.mac
+msgctxt "editAppointment.Save.display.mac"
+msgid "Ctrl+S"
+msgstr ""
+
+#: editAppointment.Save.keycode.mac
+msgctxt "editAppointment.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr ""
+
+#: editAppointment.Save.description
+msgid "Save the appointment"
+msgstr ""
+
+#. # Map: calendar
+#: calendar.description
+msgid "Shortcuts for Calendar"
+msgstr ""
+
+#: calendar.DayView.display
+msgid "D; 1"
+msgstr ""
+
+#: calendar.DayView.keycode
+msgid "68; 49"
+msgstr ""
+
+#: calendar.DayView.description
+msgid "Show single-day view"
+msgstr ""
+
+#: calendar.GoToCalendar.display
+msgid "G,C"
+msgstr ""
+
+#: calendar.GoToCalendar.keycode
+msgid "71,67"
+msgstr ""
+
+#: calendar.GoToCalendar.description
+msgid "Switch to Calendar"
+msgstr ""
+
+#: calendar.MonthView.display
+msgid "M; 3"
+msgstr ""
+
+#: calendar.MonthView.keycode
+msgid "77; 51"
+msgstr ""
+
+#: calendar.MonthView.description
+msgid "Show month view"
+msgstr ""
+
+#: calendar.NewAppointment.display
+msgctxt "calendar.NewAppointment.display"
+msgid "N,A"
+msgstr ""
+
+#: calendar.NewAppointment.keycode
+msgctxt "calendar.NewAppointment.keycode"
+msgid "78,65"
+msgstr ""
+
+#: calendar.NewAppointment.description
+msgid "New appointment"
+msgstr ""
+
+#: calendar.Refresh.display
+msgctxt "calendar.Refresh.display"
+msgid "R"
+msgstr ""
+
+#: calendar.Refresh.keycode
+msgctxt "calendar.Refresh.keycode"
+msgid "82"
+msgstr ""
+
+#: calendar.Refresh.description
+msgid "Refresh the calendar"
+msgstr ""
+
+#: calendar.ScheduleView.display
+msgid "S; 0"
+msgstr ""
+
+#: calendar.ScheduleView.keycode
+msgid "83; 48"
+msgstr ""
+
+#: calendar.ScheduleView.description
+msgid "Show scheduling view"
+msgstr ""
+
+#: calendar.Today.display
+msgid "T"
+msgstr ""
+
+#: calendar.Today.keycode
+msgid "84"
+msgstr ""
+
+#: calendar.Today.description
+msgid "Show today"
+msgstr ""
+
+#: calendar.WeekView.display
+msgid "W; 7"
+msgstr ""
+
+#: calendar.WeekView.keycode
+msgid "87; 55"
+msgstr ""
+
+#: calendar.WeekView.description
+msgid "Show week view"
+msgstr ""
+
+#: calendar.WorkWeekView.display
+msgid "W,W; 5"
+msgstr ""
+
+#: calendar.WorkWeekView.keycode
+msgid "87,87; 53"
+msgstr ""
+
+#: calendar.WorkWeekView.description
+msgid "Show work-week view"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: calendar.keys
+msgid ""
+"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, "
+"calendar.WeekView, calendar.WorkWeekView, calendar.MonthView, "
+"calendar.ScheduleView, calendar.Today, calendar.Refresh, global.NextPage, "
+"global.PreviousPage, overview.calendars"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: overview
+#: overview.addressbooks.display
+msgid "E,A"
+msgstr ""
+
+#: overview.addressbooks.keycode
+msgid "69,65"
+msgstr ""
+
+#: overview.addressbooks.description
+msgid "Edit Address Books"
+msgstr ""
+
+#: overview.calendars.display
+msgid "E,C"
+msgstr ""
+
+#: overview.calendars.keycode
+msgid "69,67"
+msgstr ""
+
+#: overview.calendars.description
+msgid "Edit Calendars"
+msgstr ""
+
+#: overview.folders.display
+msgctxt "overview.folders.display"
+msgid "E,F"
+msgstr ""
+
+#: overview.folders.keycode
+msgctxt "overview.folders.keycode"
+msgid "69,70"
+msgstr ""
+
+#: overview.folders.description
+msgid "Edit Folders"
+msgstr ""
+
+#: overview.tags.display
+msgid "E,T"
+msgstr ""
+
+#: overview.tags.keycode
+msgid "69,84"
+msgstr ""
+
+#: overview.tags.description
+msgid "Edit Tags"
+msgstr ""
+
+#. # Map: mfolders
+#: mfolders.description
+msgid "Manage Folders"
+msgstr ""
+
+#: mfolders.EmptyFolder.display
+msgctxt "mfolders.EmptyFolder.display"
+msgid "E,F"
+msgstr ""
+
+#: mfolders.EmptyFolder.keycode
+msgctxt "mfolders.EmptyFolder.keycode"
+msgid "69,70"
+msgstr ""
+
+#: mfolders.EmptyFolder.description
+msgid "Empty folder (Trash/Junk only)"
+msgstr ""
+
+#: mfolders.NewFolder.display
+msgid "N,F"
+msgstr ""
+
+#: mfolders.NewFolder.keycode
+msgid "78,70"
+msgstr ""
+
+#: mfolders.NewFolder.description
+msgid "New folder"
+msgstr ""
+
+#: mfolders.NewRssFeed.display
+msgid "N,R"
+msgstr ""
+
+#: mfolders.NewRssFeed.keycode
+msgid "78,82"
+msgstr ""
+
+#: mfolders.NewRssFeed.description
+msgid "New RSS/Atom feed"
+msgstr ""
+
+#: mfolders.NewSearchFolder.display
+msgctxt "mfolders.NewSearchFolder.display"
+msgid "N,S"
+msgstr ""
+
+#: mfolders.NewSearchFolder.keycode
+msgctxt "mfolders.NewSearchFolder.keycode"
+msgid "78,83"
+msgstr ""
+
+#: mfolders.NewSearchFolder.description
+msgid "New search folder"
+msgstr ""
+
+#: mfolders.Save.display
+msgctxt "mfolders.Save.display"
+msgid "Alt+S"
+msgstr ""
+
+#: mfolders.Save.keycode
+msgctxt "mfolders.Save.keycode"
+msgid "Alt+83"
+msgstr ""
+
+#: mfolders.Save.display.mac
+msgctxt "mfolders.Save.display.mac"
+msgid "Ctrl+S"
+msgstr ""
+
+#: mfolders.Save.keycode.mac
+msgctxt "mfolders.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr ""
+
+#: mfolders.Save.description
+msgctxt "mfolders.Save.description"
+msgid "Save changes"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mfolders.keys
+msgid ""
+"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, "
+"mfolders.NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: maddrbooks
+#: maddrbooks.description
+msgid "Manage Address Books"
+msgstr ""
+
+#: maddrbooks.NewAddressBook.display
+msgctxt "maddrbooks.NewAddressBook.display"
+msgid "N,A"
+msgstr ""
+
+#: maddrbooks.NewAddressBook.keycode
+msgctxt "maddrbooks.NewAddressBook.keycode"
+msgid "78,65"
+msgstr ""
+
+#: maddrbooks.NewAddressBook.description
+msgid "New address book"
+msgstr ""
+
+#: maddrbooks.NewLink.display
+msgctxt "maddrbooks.NewLink.display"
+msgid "N,L"
+msgstr ""
+
+#: maddrbooks.NewLink.keycode
+msgctxt "maddrbooks.NewLink.keycode"
+msgid "78,76"
+msgstr ""
+
+#: maddrbooks.NewLink.description
+msgid "Link to shared address book"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: maddrbooks.keys
+msgid ""
+"global.Cancel, maddrbooks.NewAddressBook, maddrbooks.NewLink, mfolders.Save"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: mtags
+#: mtags.description
+msgid "Manage Tags"
+msgstr ""
+
+#: mtags.NewTag.display
+msgid "N,T"
+msgstr ""
+
+#: mtags.NewTag.keycode
+msgid "78,84"
+msgstr ""
+
+#: mtags.NewTag.description
+msgid "New tag"
+msgstr ""
+
+#: mtags.Save.display
+msgctxt "mtags.Save.display"
+msgid "Alt+S"
+msgstr ""
+
+#: mtags.Save.keycode
+msgctxt "mtags.Save.keycode"
+msgid "Alt+83"
+msgstr ""
+
+#: mtags.Save.display.mac
+msgctxt "mtags.Save.display.mac"
+msgid "Ctrl+S"
+msgstr ""
+
+#: mtags.Save.keycode.mac
+msgctxt "mtags.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr ""
+
+#: mtags.Save.description
+msgctxt "mtags.Save.description"
+msgid "Save changes"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mtags.keys
+msgid "global.Cancel, mtags.NewTag, mail.MarkAllRead, mtags.Save"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: mcalendars
+#: mcalendars.description
+msgid "Manage Calendars"
+msgstr ""
+
+#: mcalendars.NewCalendar.display
+msgctxt "mcalendars.NewCalendar.display"
+msgid "N,C"
+msgstr ""
+
+#: mcalendars.NewCalendar.keycode
+msgctxt "mcalendars.NewCalendar.keycode"
+msgid "78,67"
+msgstr ""
+
+#: mcalendars.NewCalendar.description
+msgid "New calendar"
+msgstr ""
+
+#: mcalendars.NewLink.display
+msgctxt "mcalendars.NewLink.display"
+msgid "N,L"
+msgstr ""
+
+#: mcalendars.NewLink.keycode
+msgctxt "mcalendars.NewLink.keycode"
+msgid "78,76"
+msgstr ""
+
+#: mcalendars.NewLink.description
+msgid "Link to shared calendar"
+msgstr ""
+
+#: mcalendars.NewSubscription.display
+msgctxt "mcalendars.NewSubscription.display"
+msgid "N,S"
+msgstr ""
+
+#: mcalendars.NewSubscription.keycode
+msgctxt "mcalendars.NewSubscription.keycode"
+msgid "78,83"
+msgstr ""
+
+#: mcalendars.NewSubscription.description
+msgid "Subscribe to calendar"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mcalendars.keys
+msgid ""
+"global.Cancel, mcalendars.NewCalendar, mcalendars.NewSubscription, "
+"mcalendars.NewLink, mfolders.Save"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: voicemail
+#: voicemail.description
+msgid "Shortcuts in Voice Mail View"
+msgstr ""
+
+#: voicemail.CallManager.display
+msgctxt "voicemail.CallManager.display"
+msgid "C"
+msgstr ""
+
+#: voicemail.CallManager.keycode
+msgctxt "voicemail.CallManager.keycode"
+msgid "67"
+msgstr ""
+
+#: voicemail.CallManager.description
+msgctxt "voicemail.CallManager.description"
+msgid "Go to the Call Manager"
+msgstr ""
+
+#: voicemail.Delete.display
+msgctxt "voicemail.Delete.display"
+msgid "D"
+msgstr ""
+
+#: voicemail.Delete.keycode
+msgctxt "voicemail.Delete.keycode"
+msgid "68"
+msgstr ""
+
+#: voicemail.Delete.description
+msgctxt "voicemail.Delete.description"
+msgid "Delete selected items"
+msgstr ""
+
+#: voicemail.Download.display
+msgid "S"
+msgstr ""
+
+#: voicemail.Download.keycode
+msgid "83"
+msgstr ""
+
+#: voicemail.Download.description
+msgid "Download (\"save\") the voice mail message "
+msgstr ""
+
+#: voicemail.Forward.display
+msgctxt "voicemail.Forward.display"
+msgid "F"
+msgstr ""
+
+#: voicemail.Forward.keycode
+msgctxt "voicemail.Forward.keycode"
+msgid "70"
+msgstr ""
+
+#: voicemail.Forward.description
+msgid "Forward the voice mail message by email"
+msgstr ""
+
+#: voicemail.Listen.display
+msgid "Enter;L"
+msgstr ""
+
+#: voicemail.Listen.keycode
+msgid "13; 76"
+msgstr ""
+
+#: voicemail.MarkHeard.display
+msgid "M,H"
+msgstr ""
+
+#: voicemail.MarkHeard.keycode
+msgid "77,72"
+msgstr ""
+
+#: voicemail.MarkHeard.description
+msgid "Mark voice mail messages as heard"
+msgstr ""
+
+#: voicemail.MarkUnheard.display
+msgctxt "voicemail.MarkUnheard.display"
+msgid "M,U"
+msgstr ""
+
+#: voicemail.MarkUnheard.keycode
+msgctxt "voicemail.MarkUnheard.keycode"
+msgid "77,85"
+msgstr ""
+
+#: voicemail.MarkUnheard.description
+msgid "Mark voice mail messages as unheard"
+msgstr ""
+
+#: voicemail.Print.display
+msgctxt "voicemail.Print.display"
+msgid "P"
+msgstr ""
+
+#: voicemail.Print.keycode
+msgctxt "voicemail.Print.keycode"
+msgid "80"
+msgstr ""
+
+#: voicemail.Print.description
+msgid "Print the list of voice mail messages"
+msgstr ""
+
+#: voicemail.Reply.display
+msgctxt "voicemail.Reply.display"
+msgid "R"
+msgstr ""
+
+#: voicemail.Reply.keycode
+msgctxt "voicemail.Reply.keycode"
+msgid "82"
+msgstr ""
+
+#: voicemail.Reply.description
+msgid "Reply by email to the sender of the voice mail message"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: voicemail.keys
+msgid ""
+"voicemail.Delete, voicemail.Reply, voicemail.Forward, voicemail.MarkHeard, "
+"voicemail.MarkUnheard, voicemail.Print, voicemail.CallManager"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: call
+#: call.description
+msgid "Shortcuts in Call List View"
+msgstr ""
+
+#: call.CallManager.display
+msgctxt "call.CallManager.display"
+msgid "C"
+msgstr ""
+
+#: call.CallManager.keycode
+msgctxt "call.CallManager.keycode"
+msgid "67"
+msgstr ""
+
+#: call.CallManager.description
+msgctxt "call.CallManager.description"
+msgid "Go to the Call Manager"
+msgstr ""
+
+#: call.Print.display
+msgctxt "call.Print.display"
+msgid "P"
+msgstr ""
+
+#: call.Print.keycode
+msgctxt "call.Print.keycode"
+msgid "80"
+msgstr ""
+
+#: call.Print.description
+msgid "Print the list of calls"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: call.keys
+msgid "call.Print, call.CallManager"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: key
+#: key.Alt
+msgid "alt"
+msgstr ""
+
+#: key.ArrowDown
+msgid "&darr;"
+msgstr ""
+
+#: key.ArrowLeft
+msgid "&larr;"
+msgstr ""
+
+#: key.ArrowRight
+msgid "&rarr;"
+msgstr ""
+
+#: key.ArrowUp
+msgid "&uarr;"
+msgstr ""
+
+#: key.Backspace
+msgid "Backspace"
+msgstr ""
+
+#: key.Comma
+msgid ","
+msgstr ""
+
+#: key.Ctrl
+msgid "ctrl"
+msgstr ""
+
+#: key.Delete
+msgid "Delete"
+msgstr ""
+
+#: key.End
+msgid "End"
+msgstr ""
+
+#: key.Enter
+msgid "Enter"
+msgstr ""
+
+#: key.Esc
+msgctxt "key.Esc"
+msgid "Esc"
+msgstr ""
+
+#: key.Home
+msgid "Home"
+msgstr ""
+
+#: key.Meta
+msgid "meta"
+msgstr ""
+
+#: key.PgDown
+msgid "PgDown"
+msgstr ""
+
+#: key.PgUp
+msgid "PgUp"
+msgstr ""
+
+#: key.Semicolon
+msgid ";"
+msgstr ""
+
+#: key.Shift
+msgid "shift"
+msgstr ""
+
+#: key.Space
+msgid "Space"
+msgstr ""
+
+#. # Map: keyseq
+#: keyseq.or
+msgid "or"
+msgstr ""
+
+#: keyseq.plus
+msgid "+"
+msgstr ""
+
+#. # Map: conversationList
+#: conversationList.description
+msgid "List view of mail as expandable conversations"
+msgstr ""
+
+#: conversationList.summary
+msgid "Conversation List Mail View"
+msgstr ""
+
+#: conversationList.Expand.description
+msgid "Show or hide a conversation's messages"
+msgstr ""
+
+#: conversationList.Expand.sort
+msgctxt "conversationList.Expand.sort"
+msgid "10"
+msgstr ""
+
+#. # Map: options
+#: options.description
+msgid "Shortcuts in Options"
+msgstr ""
+
+#: options.Save.description
+msgid "Save preferences for all Options tabs"
+msgstr ""
+
+#. # Map: list
+#: list.description
+msgid "Shortcuts on pages with lists"
+msgstr ""
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: list.keys
+msgid ""
+"global.NextItem, global.PreviousItem, global.NextPage, global.PreviousPage, "
+"global.CheckCheckBox, global.SelectAllCheckBoxes, global.CheckAndNextItem, "
+"global.CheckAndPreviousItem"
+msgstr ""

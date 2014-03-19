@@ -1,0 +1,1667 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZhKeys.vi_VN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 00:42+0700\n"
+"PO-Revision-Date: 2014-03-16 21:28+0700\n"
+"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. # Keyboard Shortcuts for the ZCS Standard (HTML) Client
+#. #
+#. #
+#. # Below is a list of properties that define shortcuts. Each shortcut belongs
+#. # to a "map", which is the context in which the shortcut applies. For these
+#. # shortcuts, that is typically determined by the current view (for example,
+#. # a list of messages or a compose form).
+#. #
+#. # The property key consists of several parts joined by dots. The first part
+#. # is always the name of a map. The second part is either the name of an action,
+#. # or the name of a field. Field names are lowercase, and action names are mixed
+#. # case. The final part of the key may be a platform.
+#. #
+#. #
+#. # Maps
+#. # ----
+#. #
+#. # The map names in this properties file refer to views within the ZCS web
+#. # client. The following are valid map names:
+#. #
+#. #    global					applies to all views
+#. #    compose				a form for creating a new message
+#. #    mail					a list of mail messages or conversations
+#. #    conversation			a single conversation, which is a list of mail messages,
+#. #							with the content of a message displayed in the reading pane
+#. #    message				the content of a single mail message
+#. #    contacts				a set of contacts
+#. #    editContact			a form for creating or editing a contact
+#. #    calendar				any of several calendar views (week, month, etc)
+#. #    editAppointment		a form for creating or editing an appointment
+#. #    options				a set of tabs for changing personal settings
+#. #    mixed					a view of different types of items (eg Trash)
+#. #    notebook				the wiki application
+#. #    voicemail				a list of voicemail messages
+#. #    call					a list of phone calls
+#. #
+#. # Actions
+#. # -------
+#. #
+#. # An action is an event triggered by a shortcut. It is what the shortcut
+#. # does. Most of the time, the action invoked by a web client shortcut emulates
+#. # something that could have been done using the mouse, for example by clicking
+#. # on a particular button. To see what actions are available and what each action does,
+#. # check the documentation section below.
+#. #
+#. # To define a shortcut that applies only on a particular platform (Windows,
+#. # Macintosh, or Linux), add a platform identifier to the action. The platform
+#. # identifier can be one of:
+#. #
+#. #    win mac linux
+#. #
+#. # For example:
+#. #
+#. #    compose.Send.display.mac = Ctrl+Enter; Ctrl+S
+#. #    compose.Send.keycode.mac = Ctrl+13; Ctrl+83
+#. #
+#. # Key Sequences (shortcuts)
+#. # -------------
+#. #
+#. # A key sequence is a set of one or more keys that triggers an action. Each
+#. # key in the sequence may have a modifier (such as the Control or Shift key).
+#. # Most key sequences consist of just one key. The keys in multiple-key
+#. # sequences are separated with a comma. The next key in a sequence must be
+#. # struck within a short time for the sequence to continue.
+#. #
+#. # The following are valid modifiers:
+#. #
+#. #    Ctrl Alt Shift Meta
+#. #
+#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
+#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
+#. # another plus sign. For example: Ctrl+Shift+O.
+#. #
+#. # If you want to have more than one shortcut for the same action, use a
+#. # semicolon (and optional space) to separate the shortcuts. For example, to
+#. # specify three different shortcuts for the global action Foo:
+#. #
+#. #    global.Foo.display		= A; B; C
+#. #    global.Foo.keycode		= 65; 66; 67
+#. #
+#. # Key sequences have no notion of upper case or lower case. They map to what
+#. # you see on your keyboard (for example, a "T"), rather than the character it
+#. # produces when you strike it (a "t"). To specify a keystroke that requires the
+#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
+#. # key, you'd use: Shift+2.
+#. #
+#. # Each letter, number, and non-shifted printable character represents itself:
+#. #
+#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
+#. #    ` - = [ ] ' . /
+#. #
+#. # Non-printable keys are specified with special names. The following special
+#. # names are available:
+#. #
+#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
+#. #
+#. # The sequence "NNN" has a special meaning in shortcuts. It stands for "any
+#. # number". For example, with the shortcut
+#. #
+#. #    global.Tag.display = T,NNN
+#. #    global.Tag.keycode = 84,NNN
+#. #
+#. # the key sequence "T,3" will tag selected items with the tag which has
+#. # 3 as its alias. Only actions which contain "NNN" support that sort of mapping.
+#. #
+#. # Documentation
+#. # -------------
+#. #
+#. # Maps and actions can be documented by appending ".description" to the map
+#. # name or the action and using that as a property name. The descriptive
+#. # text is the property's value. The descriptions below show up as content in
+#. # the Shortcuts tab on the Options page.
+#. #
+#. # The "summary" text is used when printing the Quick Reference (not yet
+#. # implemented), or in a tooltip.
+#. #
+#. # The "sort" field sets the sorting order among either map names or among
+#. # the actions within a map, from low to high. There are gaps so that
+#. # properties may be inserted and given a sort order without having to
+#. # change the order of other properties.
+#. # Map: global
+#: global.description
+msgid "Shortcuts for All Applications"
+msgstr "Phím tắt cho tất cả ứng dụng"
+
+#: global.Cancel.display
+msgctxt "global.Cancel.display"
+msgid "Esc"
+msgstr "Esc"
+
+#: global.Cancel.keycode
+msgctxt "global.Cancel.keycode"
+msgid "27"
+msgstr "27"
+
+#: global.Cancel.description
+msgid "Close the current view"
+msgstr "Đóng khung hiển thị hiện thời"
+
+#: global.CheckAndNextItem.display
+msgid "Shift+J"
+msgstr "Shift+J"
+
+#: global.CheckAndNextItem.keycode
+msgid "Shift+74"
+msgstr "Shift+74"
+
+#: global.CheckAndNextItem.description
+msgid "Check the current item and move to next item"
+msgstr "Chọn mục hiện tại và chuyển sang mục tiếp theo"
+
+#: global.CheckAndPreviousItem.display
+msgid "Shift+K"
+msgstr "Shift+K"
+
+#: global.CheckAndPreviousItem.keycode
+msgid "Shift+75"
+msgstr "Shift+75"
+
+#: global.CheckAndPreviousItem.description
+msgid "Check the current item and move to previous item"
+msgstr "Chọn mục hiện tại và chuyển sang mục trước"
+
+#: global.CheckCheckBox.display
+msgid "Z"
+msgstr "Z"
+
+#: global.CheckCheckBox.keycode
+msgid "90"
+msgstr "90"
+
+#: global.CheckCheckBox.description
+msgid "Check/Uncheck checkbox for current list item"
+msgstr "Chọn/Bỏ chọn cho mục danh sách hiện tại"
+
+#: global.GoToMail.display
+msgid "G,M"
+msgstr "G,M"
+
+#: global.GoToMail.keycode
+msgid "71,77"
+msgstr "71,77"
+
+#: global.GoToMail.description
+msgid "Switch (\"go\") to Mail"
+msgstr "Chuyển (\"đi\") tới Thư"
+
+#: global.GoToOptions.display
+msgid "G,O"
+msgstr "G,O"
+
+#: global.GoToOptions.keycode
+msgid "71,79"
+msgstr "71,79"
+
+#: global.GoToOptions.description
+msgid "Switch to Options"
+msgstr "Chuyển tới Tùy chọn"
+
+#: global.GoToTag.display
+msgid "Y,NNN"
+msgstr "Y,NNN"
+
+#: global.GoToTag.keycode
+msgid "89,NNN"
+msgstr "89,NNN"
+
+#: global.GoToTasks.description
+msgid "Switch to Tasks"
+msgstr "Chuyển tới Công việc"
+
+#: global.GoToVoice.display
+msgid "G,V"
+msgstr "G,V"
+
+#: global.GoToVoice.keycode
+msgid "71,86"
+msgstr "71,86"
+
+#: global.GoToVoice.description
+msgid "Switch to Voice"
+msgstr "Chuyển tới hội thoại"
+
+#: global.NewMessage.display
+msgid "N,M; C"
+msgstr "N,M; C"
+
+#: global.NewMessage.keycode
+msgid "78,77; 67"
+msgstr "78,77; 67"
+
+#: global.NewMessage.description
+msgid "New message (\"compose\")"
+msgstr "Thông điệp mới (\"soạn thảo\")"
+
+#: global.NextItem.display
+msgid "Shift+ArrowDown; J"
+msgstr "Shift+ArrowDown; J"
+
+#: global.NextItem.keycode
+msgid "Shift+40; 74"
+msgstr "Shift+40; 74"
+
+#: global.NextItem.description
+msgid "Next item in a list"
+msgstr "Mục kết tiếp trong danh sách"
+
+#: global.NextPage.display
+msgid "Shift+ArrowRight; L"
+msgstr "Shift+ArrowRight; L"
+
+#: global.NextPage.keycode
+msgid "Shift+39; 76"
+msgstr "Shift+39; 76"
+
+#: global.NextPage.description
+msgid "Next page of items"
+msgstr "Trang kế tiếp của các mục"
+
+#: global.PreviousItem.display
+msgid "Shift+ArrowUp; K"
+msgstr "Shift+ArrowUp; K"
+
+#: global.PreviousItem.keycode
+msgid "Shift+38; 75"
+msgstr "Shift+38; 75"
+
+#: global.PreviousItem.description
+msgid "Previous item in a list"
+msgstr "Mục trước trong danh sách"
+
+#: global.PreviousPage.display
+msgid "Shift+ArrowLeft; H"
+msgstr "Shift+ArrowLeft; H"
+
+#: global.PreviousPage.keycode
+msgid "Shift+37; 72"
+msgstr "Shift+37; 72"
+
+#: global.PreviousPage.description
+msgid "Previous page of items"
+msgstr "Trang trước của các mục"
+
+#: global.SavedSearch.display
+msgid "S,NNN"
+msgstr "S,NNN"
+
+#: global.SavedSearch.keycode
+msgid "83,NNN"
+msgstr "83,NNN"
+
+#: global.SelectAllCheckBoxes.display
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+#: global.SelectAllCheckBoxes.keycode
+msgid "Ctrl+65"
+msgstr "Ctrl+65"
+
+#: global.SelectAllCheckBoxes.description
+msgid "Select/Unselect all checkboxes in list"
+msgstr "Chọn/Bỏ chọn tất cả hộp chọn trong danh sách"
+
+#: global.Tag.display
+msgid "T,NNN"
+msgstr "T,NNN"
+
+#: global.Tag.keycode
+msgid "84,NNN"
+msgstr "84,NNN"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: global.keys
+msgid "global.NewMessage, global.GoToMail, global.GoToOptions"
+msgstr "global.NewMessage, global.GoToMail, global.GoToOptions"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: mail
+#: mail.description
+msgid "Shortcuts in Mail"
+msgstr "Phím tắt trong Thư"
+
+#: mail.Close.display
+msgctxt "mail.Close.display"
+msgid "Esc"
+msgstr "Esc"
+
+#: mail.Close.keycode
+msgctxt "mail.Close.keycode"
+msgid "27"
+msgstr "27"
+
+#: mail.Close.description
+msgid "Close current item"
+msgstr "Đóng mục hiện thời"
+
+#: mail.Delete.display
+msgctxt "mail.Delete.display"
+msgid "D"
+msgstr "D"
+
+#: mail.Delete.keycode
+msgctxt "mail.Delete.keycode"
+msgid "68"
+msgstr "68"
+
+#: mail.Delete.description
+msgctxt "mail.Delete.description"
+msgid "Delete selected items"
+msgstr "Xóa mục đã chọn"
+
+#: mail.Flag.display
+msgid "M,F"
+msgstr "M,F"
+
+#: mail.Flag.keycode
+msgid "77,70"
+msgstr "77,70"
+
+#: mail.Flag.description
+msgid "Flag messages"
+msgstr "Đánh dấu cờ"
+
+#: mail.Forward.display
+msgctxt "mail.Forward.display"
+msgid "F"
+msgstr "F"
+
+#: mail.Forward.keycode
+msgctxt "mail.Forward.keycode"
+msgid "70"
+msgstr "70"
+
+#: mail.Forward.description
+msgid "Forward message"
+msgstr "Chuyển tiếp thông điệp"
+
+#: mail.GoToDrafts.display
+msgid "V,D"
+msgstr "V,D"
+
+#: mail.GoToDrafts.keycode
+msgid "86,68"
+msgstr "86,68"
+
+#: mail.GoToDrafts.description
+msgid "Go to Drafts folder"
+msgstr "Chuyển tới thư mục Nháp"
+
+#: mail.GoToFolder.display
+msgid "V,NNN"
+msgstr "V,NNN"
+
+#: mail.GoToFolder.keycode
+msgid "86,NNN"
+msgstr "86,NNN"
+
+#: mail.GoToInbox.display
+msgid "I; V,I"
+msgstr "I; V,I"
+
+#: mail.GoToInbox.keycode
+msgid "73; 86,73"
+msgstr "73; 86,73"
+
+#: mail.GoToInbox.description
+msgid "Go to (\"visit\") inbox and Get Mail"
+msgstr "Tới (\"thăm\") hộp thư đến và Nhận thư"
+
+#: mail.GoToSent.display
+msgid "V,S"
+msgstr "V,S"
+
+#: mail.GoToSent.keycode
+msgid "86,83"
+msgstr "86,83"
+
+#: mail.GoToSent.description
+msgid "Go to Sent folder"
+msgstr "Tới thư mục Đã gửi"
+
+#: mail.GoToTrash.display
+msgid "V,T"
+msgstr "V,T"
+
+#: mail.GoToTrash.keycode
+msgid "86,84"
+msgstr "86,84"
+
+#: mail.GoToTrash.description
+msgid "Go to Trash folder"
+msgstr "Tới thư mục Thùng rác"
+
+#: mail.MarkAllRead.display
+msgid "M,A"
+msgstr "M,A"
+
+#: mail.MarkAllRead.keycode
+msgid "77,65"
+msgstr "77,65"
+
+#: mail.MarkAllRead.description
+msgid "Mark all items read"
+msgstr "Đánh dấu tất cả mục đã đọc"
+
+#: mail.MarkRead.display
+msgid "M,R"
+msgstr "M,R"
+
+#: mail.MarkRead.keycode
+msgid "77,82"
+msgstr "77,82"
+
+#: mail.MarkRead.description
+msgid "Mark messages as read"
+msgstr "Đánh dấu các thông điệp là đã đọc"
+
+#: mail.MarkUnread.display
+msgctxt "mail.MarkUnread.display"
+msgid "M,U"
+msgstr "M,U"
+
+#: mail.MarkUnread.keycode
+msgctxt "mail.MarkUnread.keycode"
+msgid "77,85"
+msgstr "77,85"
+
+#: mail.MarkUnread.description
+msgid "Mark messages as unread"
+msgstr "Đánh dấu các thông điệp là chưa đọc"
+
+#: mail.MoveToFolder.display
+msgid ".,NNN; Shift+.,NNN"
+msgstr ".,NNN; Shift+.,NNN"
+
+#: mail.MoveToFolder.keycode
+msgid "190,NNN; Shift+190,NNN"
+msgstr "190,NNN; Shift+190,NNN"
+
+#: mail.Open.display
+msgctxt "mail.Open.display"
+msgid "Enter; O"
+msgstr "Enter; O"
+
+#: mail.Open.keycode
+msgctxt "mail.Open.keycode"
+msgid "13; 79"
+msgstr "13; 79"
+
+#: mail.Open.description
+msgid "Open current item"
+msgstr "Mở mục hiện thời"
+
+#: mail.Reply.display
+msgctxt "mail.Reply.display"
+msgid "R"
+msgstr "R"
+
+#: mail.Reply.keycode
+msgctxt "mail.Reply.keycode"
+msgid "82"
+msgstr "82"
+
+#: mail.Reply.description
+msgid "Reply to sender"
+msgstr "Trả lời người gửi"
+
+#: mail.ReplyAll.display
+msgid "A"
+msgstr "A"
+
+#: mail.ReplyAll.keycode
+msgid "65"
+msgstr "65"
+
+#: mail.ReplyAll.description
+msgid "Reply to all recipients"
+msgstr "Trả lời tất cả người nhận"
+
+#: mail.ShowExternalImages.display
+msgid "X"
+msgstr "X"
+
+#: mail.ShowExternalImages.keycode
+msgid "88"
+msgstr "88"
+
+#: mail.ShowExternalImages.description
+msgid "Show external images in message"
+msgstr "Hiển thị hình ảnh bên ngoài thông điệp"
+
+#: mail.Spam.display
+msgid "Shift+1; M,J"
+msgstr "Shift+1; M,J"
+
+#: mail.Spam.keycode
+msgid "Shift+49; 77,74"
+msgstr "Shift+49; 77,74"
+
+#: mail.Spam.display.mac
+msgid "M,J"
+msgstr "M,J"
+
+#: mail.Spam.keycode.mac
+msgid "77,74"
+msgstr "77,74"
+
+#: mail.Spam.description
+msgid "Mark messages as spam and move them to the Junk folder"
+msgstr "Đánh dấu các thông điệp là thư rác và chuyển chúng tới thư mục Thư rác"
+
+#: mail.UnFlag.display
+msgid "M,N"
+msgstr "M,N"
+
+#: mail.UnFlag.keycode
+msgid "77,78"
+msgstr "77,78"
+
+#: mail.UnFlag.description
+msgid "Unflag messages"
+msgstr "Bỏ gắn cờ thông điệp"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mail.keys
+msgid ""
+"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, mail."
+"GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, mail."
+"UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, mail."
+"ShowExternalImages, overview.folders, overview.tags"
+msgstr ""
+"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, mail."
+"GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, mail."
+"UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, mail."
+"ShowExternalImages, overview.folders, overview.tags"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: compose
+#: compose.description
+msgid "Shortcuts in Mail Compose form"
+msgstr "Phím tắt cho biểu mẫu Soạn thư"
+
+#: compose.AddressPicker.display
+msgid "Alt+G"
+msgstr "Alt+G"
+
+#: compose.AddressPicker.keycode
+msgid "Alt+71"
+msgstr "Alt+71"
+
+#: compose.AddressPicker.display.mac
+msgid "Ctrl+G"
+msgstr "Ctrl+G"
+
+#: compose.AddressPicker.keycode.mac
+msgid "Ctrl+71"
+msgstr "Ctrl+71"
+
+#: compose.AddressPicker.description
+msgid "Choose (\"get\") recipients from Address Book"
+msgstr "Chọn (\"lấy\") người nhật từ Sổ địa chỉ"
+
+#: compose.Attachment.display
+msgid "Alt+Q"
+msgstr "Alt+Q"
+
+#: compose.Attachment.keycode
+msgid "Alt+81"
+msgstr "Alt+81"
+
+#: compose.Attachment.display.mac
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: compose.Attachment.keycode.mac
+msgid "Ctrl+81"
+msgstr "Ctrl+81"
+
+#: compose.Attachment.description
+msgid "Add an attachment to the message"
+msgstr "Thêm một đính kèm tới thông điệp"
+
+#: compose.Cancel.description
+msgid "Cancel this message"
+msgstr "Hủy bỏ thông điệp này"
+
+#: compose.HighPriority.display
+msgid "Alt+H"
+msgstr "Alt+H"
+
+#: compose.HighPriority.keycode
+msgid "Alt+72"
+msgstr "Alt+72"
+
+#: compose.HighPriority.description
+msgid "Make the message high priority"
+msgstr "Làm cho thông điệp ưu tiên cao"
+
+#: compose.LowPriority.display
+msgid "Alt+L"
+msgstr "Alt+L"
+
+#: compose.LowPriority.keycode
+msgid "Alt+76"
+msgstr "Alt+76"
+
+#: compose.LowPriority.description
+msgid "Make the message low priority"
+msgstr "Làm cho thông điệp ưu tiên thấp"
+
+#: compose.NormalPriority.display
+msgid "Alt+N"
+msgstr "Alt+N"
+
+#: compose.NormalPriority.keycode
+msgid "Alt+78"
+msgstr "Alt+78"
+
+#: compose.NormalPriority.description
+msgid "Make the message normal priority"
+msgstr "Làm cho thông điệp ưu bình thường"
+
+#: compose.Save.display
+msgid "Alt+K"
+msgstr "Alt+K"
+
+#: compose.Save.keycode
+msgid "Alt+75"
+msgstr "Alt+75"
+
+#: compose.Save.display.mac
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
+
+#: compose.Save.keycode.mac
+msgid "Ctrl+68"
+msgstr "Ctrl+68"
+
+#: compose.Save.description
+msgid "Save (\"keep\") the message as a draft"
+msgstr "Lưu (\"giữ\") thông điệp như là một bản nháp"
+
+#: compose.Send.display
+msgid "Ctrl+Enter; Alt+S"
+msgstr "Ctrl+Enter; Alt+S"
+
+#: compose.Send.keycode
+msgid "Ctrl+13; Alt+83"
+msgstr "Ctrl+13; Alt+83"
+
+#: compose.Send.display.mac
+msgid "Ctrl+Enter; Ctrl+S"
+msgstr "Ctrl+Enter; Ctrl+S"
+
+#: compose.Send.keycode.mac
+msgid "Ctrl+13; Ctrl+83"
+msgstr "Ctrl+13; Ctrl+83"
+
+#: compose.Send.description
+msgid "Send the message"
+msgstr "Gửi thông điệp"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: compose.keys
+msgid ""
+"compose.Send, compose.Save, compose.Attachment, compose.AddressPicker, "
+"compose.HighPriority, compose.NormalPriority, compose.LowPriority"
+msgstr ""
+"compose.Send, compose.Save, compose.Attachment, compose.AddressPicker, "
+"compose.HighPriority, compose.NormalPriority, compose.LowPriority"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: conversation
+#: conversation.description
+msgid "Shortcuts in Mail Conversation View"
+msgstr "Phím tắt trong Khung hiển thị Cuộc đàm thoại của Thư"
+
+#: conversation.NextConversationPage.display
+msgid "Shift+L"
+msgstr "Shift+L"
+
+#: conversation.NextConversationPage.keycode
+msgid "Shift+76"
+msgstr "Shift+76"
+
+#: conversation.NextConversationPage.description
+msgid "Show next page of messages in conversation"
+msgstr "Hiển thị trang kết tiếp các thông điệp trong cuộc đàm thoại"
+
+#: conversation.Open.display
+msgctxt "conversation.Open.display"
+msgid "Enter; O"
+msgstr "Enter; O"
+
+#: conversation.Open.keycode
+msgctxt "conversation.Open.keycode"
+msgid "13; 79"
+msgstr "13; 79"
+
+#: conversation.PreviousConversationPage.display
+msgid "Shift+H"
+msgstr "Shift+H"
+
+#: conversation.PreviousConversationPage.keycode
+msgid "Shift+72"
+msgstr "Shift+72"
+
+#: conversation.PreviousConversationPage.description
+msgid "Show the previous page of messages in conversation"
+msgstr "Hiển thị trang trước các  thông điệp trong cuộc đàm thoại"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: conversation.keys
+msgid ""
+"conversation.NextConversationPage, conversation.PreviousConversationPage"
+msgstr ""
+"conversation.NextConversationPage, conversation.PreviousConversationPage"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: contacts
+#: contacts.description
+msgid "Shortcuts for Address Book"
+msgstr "Phím tắt cho Sổ địa chỉ"
+
+#: contacts.Delete.display
+msgctxt "contacts.Delete.display"
+msgid "D"
+msgstr "D"
+
+#: contacts.Delete.keycode
+msgctxt "contacts.Delete.keycode"
+msgid "68"
+msgstr "68"
+
+#: contacts.Delete.description
+msgid "Delete the selected contact"
+msgstr "Xóa liên hệ đã chọn"
+
+#: contacts.Edit.display
+msgid "Enter; E"
+msgstr "Enter; E"
+
+#: contacts.Edit.keycode
+msgid "13; 69"
+msgstr "13; 69"
+
+#: contacts.Edit.description
+msgid "Edit the current contact"
+msgstr "Sửa liên hệ hiện thời"
+
+#: contacts.GoToContacts.display
+msgid "G,A"
+msgstr "G,A"
+
+#: contacts.GoToContacts.keycode
+msgid "71,65"
+msgstr "71,65"
+
+#: contacts.GoToContacts.description
+msgid "Switch to Contacts (\"address book\")"
+msgstr "Chuyển tới Liên hệ (\"sổ địa chỉ\")"
+
+#: contacts.NewContact.display
+msgctxt "contacts.NewContact.display"
+msgid "N,C"
+msgstr "N,C"
+
+#: contacts.NewContact.keycode
+msgctxt "contacts.NewContact.keycode"
+msgid "78,67"
+msgstr "78,67"
+
+#: contacts.NewContact.description
+msgid "New contact"
+msgstr "Liên hệ mới"
+
+#: contacts.NewGroup.display
+msgid "N,G"
+msgstr "N,G"
+
+#: contacts.NewGroup.keycode
+msgid "78,71"
+msgstr "78,71"
+
+#: contacts.NewGroup.description
+msgid "New contact group"
+msgstr "Nhóm liên hệ mới"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: contacts.keys
+msgid ""
+"contacts.GoToContacts, contacts.NewContact, contacts.Delete, contacts.Edit, "
+"contacts.NewGroup, overview.addressbooks"
+msgstr ""
+"contacts.GoToContacts, contacts.NewContact, contacts.Delete, contacts.Edit, "
+"contacts.NewGroup, overview.addressbooks"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: editContact
+#: editContact.description
+msgid "Shortcuts in Edit Contact form"
+msgstr "Phím tắt trong biểu mẫu Sửa liên hệ"
+
+#: editContact.summary
+msgid "Edit Contact"
+msgstr "Sửa liên hệ"
+
+#: editContact.sort
+msgid "60"
+msgstr "60"
+
+#: editContact.Cancel.description
+msgid "Cancel editing the contact"
+msgstr "Hủy bỏ sửa liên hệ"
+
+#: editContact.Cancel.sort
+msgid "20"
+msgstr "20"
+
+#: editContact.Save.display
+msgctxt "editContact.Save.display"
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: editContact.Save.keycode
+msgctxt "editContact.Save.keycode"
+msgid "Alt+83"
+msgstr "Alt+83"
+
+#: editContact.Save.display.mac
+msgctxt "editContact.Save.display.mac"
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: editContact.Save.keycode.mac
+msgctxt "editContact.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr "Ctrl+83"
+
+#: editContact.Save.description
+msgid "Save the contact"
+msgstr "Lưu liên hệ"
+
+#: editContact.Save.sort
+msgctxt "editContact.Save.sort"
+msgid "10"
+msgstr "10"
+
+#. # Map: editAppointment
+#: editAppointment.description
+msgid "Shortcuts in Edit Appointment form"
+msgstr "Phím tắt cho biểu mẫu Sửa cuộc hẹn"
+
+#: editAppointment.AllDay.description
+msgid "Switch between timed and all-day appointment"
+msgstr "Chuyển đổi gữa cuộc hẹn theo thời gian và cuộc hẹn cả ngày"
+
+#: editAppointment.Cancel.description
+msgid "Cancel editing the appointment"
+msgstr "Hủy bỏ sửa cuộc hẹn"
+
+#: editAppointment.HtmlFormat.description
+msgid "Switch between HTML and Text formats"
+msgstr "Chuyển đổi giữa định dạng HTML và Văn bản thường"
+
+#: editAppointment.Save.display
+msgctxt "editAppointment.Save.display"
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: editAppointment.Save.keycode
+msgctxt "editAppointment.Save.keycode"
+msgid "Alt+83"
+msgstr "Alt+83"
+
+#: editAppointment.Save.display.mac
+msgctxt "editAppointment.Save.display.mac"
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: editAppointment.Save.keycode.mac
+msgctxt "editAppointment.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr "Ctrl+83"
+
+#: editAppointment.Save.description
+msgid "Save the appointment"
+msgstr "Lưu cuộc hẹn"
+
+#. # Map: calendar
+#: calendar.description
+msgid "Shortcuts for Calendar"
+msgstr "Phím tắt cho Lịch"
+
+#: calendar.DayView.display
+msgid "D; 1"
+msgstr "D; 1"
+
+#: calendar.DayView.keycode
+msgid "68; 49"
+msgstr "68; 49"
+
+#: calendar.DayView.description
+msgid "Show single-day view"
+msgstr "Hiện khung hiển thị ngày"
+
+#: calendar.GoToCalendar.display
+msgid "G,C"
+msgstr "G,C"
+
+#: calendar.GoToCalendar.keycode
+msgid "71,67"
+msgstr "71,67"
+
+#: calendar.GoToCalendar.description
+msgid "Switch to Calendar"
+msgstr "Chuyển tới Lịch"
+
+#: calendar.MonthView.display
+msgid "M; 3"
+msgstr "M; 3"
+
+#: calendar.MonthView.keycode
+msgid "77; 51"
+msgstr "77; 51"
+
+#: calendar.MonthView.description
+msgid "Show month view"
+msgstr "Hiện khung hiển thị tháng"
+
+#: calendar.NewAppointment.display
+msgctxt "calendar.NewAppointment.display"
+msgid "N,A"
+msgstr "N,A"
+
+#: calendar.NewAppointment.keycode
+msgctxt "calendar.NewAppointment.keycode"
+msgid "78,65"
+msgstr "78,65"
+
+#: calendar.NewAppointment.description
+msgid "New appointment"
+msgstr "Cuộc hẹn mới"
+
+#: calendar.Refresh.display
+msgctxt "calendar.Refresh.display"
+msgid "R"
+msgstr "R"
+
+#: calendar.Refresh.keycode
+msgctxt "calendar.Refresh.keycode"
+msgid "82"
+msgstr "82"
+
+#: calendar.Refresh.description
+msgid "Refresh the calendar"
+msgstr "Làm mới lịch"
+
+#: calendar.ScheduleView.display
+msgid "S; 0"
+msgstr "S; 0"
+
+#: calendar.ScheduleView.keycode
+msgid "83; 48"
+msgstr "83; 48"
+
+#: calendar.ScheduleView.description
+msgid "Show scheduling view"
+msgstr "Hiện khung hiển thị lịch trình"
+
+#: calendar.Today.display
+msgid "T"
+msgstr "T"
+
+#: calendar.Today.keycode
+msgid "84"
+msgstr "84"
+
+#: calendar.Today.description
+msgid "Show today"
+msgstr "Hiện thị hôm nay"
+
+#: calendar.WeekView.display
+msgid "W; 7"
+msgstr "W; 7"
+
+#: calendar.WeekView.keycode
+msgid "87; 55"
+msgstr "87; 55"
+
+#: calendar.WeekView.description
+msgid "Show week view"
+msgstr "Hiện khung hiển thị tuần"
+
+#: calendar.WorkWeekView.display
+msgid "W,W; 5"
+msgstr "W,W; 5"
+
+#: calendar.WorkWeekView.keycode
+msgid "87,87; 53"
+msgstr "87,87; 53"
+
+#: calendar.WorkWeekView.description
+msgid "Show work-week view"
+msgstr "Hiện khung hiển thị tuần làm việc"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: calendar.keys
+msgid ""
+"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, calendar."
+"WeekView, calendar.WorkWeekView, calendar.MonthView, calendar.ScheduleView, "
+"calendar.Today, calendar.Refresh, global.NextPage, global.PreviousPage, "
+"overview.calendars"
+msgstr ""
+"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, calendar."
+"WeekView, calendar.WorkWeekView, calendar.MonthView, calendar.ScheduleView, "
+"calendar.Today, calendar.Refresh, global.NextPage, global.PreviousPage, "
+"overview.calendars"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: overview
+#: overview.addressbooks.display
+msgid "E,A"
+msgstr "E,A"
+
+#: overview.addressbooks.keycode
+msgid "69,65"
+msgstr "69,65"
+
+#: overview.addressbooks.description
+msgid "Edit Address Books"
+msgstr "Sửa sổ địa chỉ"
+
+#: overview.calendars.display
+msgid "E,C"
+msgstr "E,C"
+
+#: overview.calendars.keycode
+msgid "69,67"
+msgstr "69,67"
+
+#: overview.calendars.description
+msgid "Edit Calendars"
+msgstr "Sửa lịch"
+
+#: overview.folders.display
+msgctxt "overview.folders.display"
+msgid "E,F"
+msgstr "E,F"
+
+#: overview.folders.keycode
+msgctxt "overview.folders.keycode"
+msgid "69,70"
+msgstr "69,70"
+
+#: overview.folders.description
+msgid "Edit Folders"
+msgstr "Sửa thư mục"
+
+#: overview.tags.display
+msgid "E,T"
+msgstr "E,T"
+
+#: overview.tags.keycode
+msgid "69,84"
+msgstr "69,84"
+
+#: overview.tags.description
+msgid "Edit Tags"
+msgstr "Sửa thẻ"
+
+#. # Map: mfolders
+#: mfolders.description
+msgid "Manage Folders"
+msgstr "Quản lý thư mục"
+
+#: mfolders.EmptyFolder.display
+msgctxt "mfolders.EmptyFolder.display"
+msgid "E,F"
+msgstr "E,F"
+
+#: mfolders.EmptyFolder.keycode
+msgctxt "mfolders.EmptyFolder.keycode"
+msgid "69,70"
+msgstr "69,70"
+
+#: mfolders.EmptyFolder.description
+msgid "Empty folder (Trash/Junk only)"
+msgstr "Làm trốn thư mục (Chỉ Thùng rác/Thư rác)"
+
+#: mfolders.NewFolder.display
+msgid "N,F"
+msgstr "N,F"
+
+#: mfolders.NewFolder.keycode
+msgid "78,70"
+msgstr "78,70"
+
+#: mfolders.NewFolder.description
+msgid "New folder"
+msgstr "Thư mục mới"
+
+#: mfolders.NewRssFeed.display
+msgid "N,R"
+msgstr "N,R"
+
+#: mfolders.NewRssFeed.keycode
+msgid "78,82"
+msgstr "78,82"
+
+#: mfolders.NewRssFeed.description
+msgid "New RSS/Atom feed"
+msgstr "Nguồn cấp tin RSS/Atom"
+
+#: mfolders.NewSearchFolder.display
+msgctxt "mfolders.NewSearchFolder.display"
+msgid "N,S"
+msgstr "N,S"
+
+#: mfolders.NewSearchFolder.keycode
+msgctxt "mfolders.NewSearchFolder.keycode"
+msgid "78,83"
+msgstr "78,83"
+
+#: mfolders.NewSearchFolder.description
+msgid "New search folder"
+msgstr "Thư mục tìm kiếm mới"
+
+#: mfolders.Save.display
+msgctxt "mfolders.Save.display"
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: mfolders.Save.keycode
+msgctxt "mfolders.Save.keycode"
+msgid "Alt+83"
+msgstr "Alt+83"
+
+#: mfolders.Save.display.mac
+msgctxt "mfolders.Save.display.mac"
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: mfolders.Save.keycode.mac
+msgctxt "mfolders.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr "Ctrl+83"
+
+#: mfolders.Save.description
+msgctxt "mfolders.Save.description"
+msgid "Save changes"
+msgstr "Lưu các thay đổi"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mfolders.keys
+msgid ""
+"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, mfolders."
+"NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
+msgstr ""
+"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, mfolders."
+"NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: maddrbooks
+#: maddrbooks.description
+msgid "Manage Address Books"
+msgstr "Quản lý sổ địa chỉ"
+
+#: maddrbooks.NewAddressBook.display
+msgctxt "maddrbooks.NewAddressBook.display"
+msgid "N,A"
+msgstr "N,A"
+
+#: maddrbooks.NewAddressBook.keycode
+msgctxt "maddrbooks.NewAddressBook.keycode"
+msgid "78,65"
+msgstr "78,65"
+
+#: maddrbooks.NewAddressBook.description
+msgid "New address book"
+msgstr "Sổ địa chỉ mới"
+
+#: maddrbooks.NewLink.display
+msgctxt "maddrbooks.NewLink.display"
+msgid "N,L"
+msgstr "N,L"
+
+#: maddrbooks.NewLink.keycode
+msgctxt "maddrbooks.NewLink.keycode"
+msgid "78,76"
+msgstr "78,76"
+
+#: maddrbooks.NewLink.description
+msgid "Link to shared address book"
+msgstr "Liên kết tới sổ địa chỉ chia sẻ"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: maddrbooks.keys
+msgid ""
+"global.Cancel, maddrbooks.NewAddressBook, maddrbooks.NewLink, mfolders.Save"
+msgstr ""
+"global.Cancel, maddrbooks.NewAddressBook, maddrbooks.NewLink, mfolders.Save"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: mtags
+#: mtags.description
+msgid "Manage Tags"
+msgstr "Quản lý thẻ"
+
+#: mtags.NewTag.display
+msgid "N,T"
+msgstr "N,T"
+
+#: mtags.NewTag.keycode
+msgid "78,84"
+msgstr "78,84"
+
+#: mtags.NewTag.description
+msgid "New tag"
+msgstr "Thẻ mới"
+
+#: mtags.Save.display
+msgctxt "mtags.Save.display"
+msgid "Alt+S"
+msgstr "Alt+S"
+
+#: mtags.Save.keycode
+msgctxt "mtags.Save.keycode"
+msgid "Alt+83"
+msgstr "Alt+83"
+
+#: mtags.Save.display.mac
+msgctxt "mtags.Save.display.mac"
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: mtags.Save.keycode.mac
+msgctxt "mtags.Save.keycode.mac"
+msgid "Ctrl+83"
+msgstr "Ctrl+83"
+
+#: mtags.Save.description
+msgctxt "mtags.Save.description"
+msgid "Save changes"
+msgstr "Lưu thay đổi"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mtags.keys
+msgid "global.Cancel, mtags.NewTag, mail.MarkAllRead, mtags.Save"
+msgstr "global.Cancel, mtags.NewTag, mail.MarkAllRead, mtags.Save"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: mcalendars
+#: mcalendars.description
+msgid "Manage Calendars"
+msgstr "Quản lý Lịch"
+
+#: mcalendars.NewCalendar.display
+msgctxt "mcalendars.NewCalendar.display"
+msgid "N,C"
+msgstr "N,C"
+
+#: mcalendars.NewCalendar.keycode
+msgctxt "mcalendars.NewCalendar.keycode"
+msgid "78,67"
+msgstr "78,67"
+
+#: mcalendars.NewCalendar.description
+msgid "New calendar"
+msgstr "Lịch mới"
+
+#: mcalendars.NewLink.display
+msgctxt "mcalendars.NewLink.display"
+msgid "N,L"
+msgstr "N,L"
+
+#: mcalendars.NewLink.keycode
+msgctxt "mcalendars.NewLink.keycode"
+msgid "78,76"
+msgstr "78,76"
+
+#: mcalendars.NewLink.description
+msgid "Link to shared calendar"
+msgstr "Liên kết tới lịch chia sẻ"
+
+#: mcalendars.NewSubscription.display
+msgctxt "mcalendars.NewSubscription.display"
+msgid "N,S"
+msgstr "N,S"
+
+#: mcalendars.NewSubscription.keycode
+msgctxt "mcalendars.NewSubscription.keycode"
+msgid "78,83"
+msgstr "78,83"
+
+#: mcalendars.NewSubscription.description
+msgid "Subscribe to calendar"
+msgstr "Đăng ký vào lịch"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: mcalendars.keys
+msgid ""
+"global.Cancel, mcalendars.NewCalendar, mcalendars.NewSubscription, "
+"mcalendars.NewLink, mfolders.Save"
+msgstr ""
+"global.Cancel, mcalendars.NewCalendar, mcalendars.NewSubscription, "
+"mcalendars.NewLink, mfolders.Save"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: voicemail
+#: voicemail.description
+msgid "Shortcuts in Voice Mail View"
+msgstr "Phím tắt trong Khung hiển thị thư thoại"
+
+#: voicemail.CallManager.display
+msgctxt "voicemail.CallManager.display"
+msgid "C"
+msgstr "C"
+
+#: voicemail.CallManager.keycode
+msgctxt "voicemail.CallManager.keycode"
+msgid "67"
+msgstr "67"
+
+#: voicemail.CallManager.description
+msgctxt "voicemail.CallManager.description"
+msgid "Go to the Call Manager"
+msgstr "Chuyển tới Quản lý cuộc gọi"
+
+#: voicemail.Delete.display
+msgctxt "voicemail.Delete.display"
+msgid "D"
+msgstr "D"
+
+#: voicemail.Delete.keycode
+msgctxt "voicemail.Delete.keycode"
+msgid "68"
+msgstr "68"
+
+#: voicemail.Delete.description
+msgctxt "voicemail.Delete.description"
+msgid "Delete selected items"
+msgstr "Xóa mục đã chọn"
+
+#: voicemail.Download.display
+msgid "S"
+msgstr "S"
+
+#: voicemail.Download.keycode
+msgid "83"
+msgstr "83"
+
+#: voicemail.Download.description
+msgid "Download (\"save\") the voice mail message "
+msgstr "Tải về (\"lưu\") thông điệp thư thoại"
+
+#: voicemail.Forward.display
+msgctxt "voicemail.Forward.display"
+msgid "F"
+msgstr "F"
+
+#: voicemail.Forward.keycode
+msgctxt "voicemail.Forward.keycode"
+msgid "70"
+msgstr "70"
+
+#: voicemail.Forward.description
+msgid "Forward the voice mail message by email"
+msgstr "Chuyển tiếp thư thoại bằng email"
+
+#: voicemail.Listen.display
+msgid "Enter;L"
+msgstr "Enter;L"
+
+#: voicemail.Listen.keycode
+msgid "13; 76"
+msgstr "13; 76"
+
+#: voicemail.MarkHeard.display
+msgid "M,H"
+msgstr "M,H"
+
+#: voicemail.MarkHeard.keycode
+msgid "77,72"
+msgstr "77,72"
+
+#: voicemail.MarkHeard.description
+msgid "Mark voice mail messages as heard"
+msgstr "Đánh dấu thông điệp thư thoại đã nghe"
+
+#: voicemail.MarkUnheard.display
+msgctxt "voicemail.MarkUnheard.display"
+msgid "M,U"
+msgstr "M,U"
+
+#: voicemail.MarkUnheard.keycode
+msgctxt "voicemail.MarkUnheard.keycode"
+msgid "77,85"
+msgstr "77,85"
+
+#: voicemail.MarkUnheard.description
+msgid "Mark voice mail messages as unheard"
+msgstr "Đánh dấu thông điệp thư thoại chưa nghe"
+
+#: voicemail.Print.display
+msgctxt "voicemail.Print.display"
+msgid "P"
+msgstr "P"
+
+#: voicemail.Print.keycode
+msgctxt "voicemail.Print.keycode"
+msgid "80"
+msgstr "80"
+
+#: voicemail.Print.description
+msgid "Print the list of voice mail messages"
+msgstr "In danh sách thông điệp thư thoại"
+
+#: voicemail.Reply.display
+msgctxt "voicemail.Reply.display"
+msgid "R"
+msgstr "R"
+
+#: voicemail.Reply.keycode
+msgctxt "voicemail.Reply.keycode"
+msgid "82"
+msgstr "82"
+
+#: voicemail.Reply.description
+msgid "Reply by email to the sender of the voice mail message"
+msgstr "Trả lời bằng email tới người gửi của thông điệp thư thoại"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: voicemail.keys
+msgid ""
+"voicemail.Delete, voicemail.Reply, voicemail.Forward, voicemail.MarkHeard, "
+"voicemail.MarkUnheard, voicemail.Print, voicemail.CallManager"
+msgstr ""
+"voicemail.Delete, voicemail.Reply, voicemail.Forward, voicemail.MarkHeard, "
+"voicemail.MarkUnheard, voicemail.Print, voicemail.CallManager"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: call
+#: call.description
+msgid "Shortcuts in Call List View"
+msgstr "Phím tắt cho Khung hiển thị danh sách cuộc gọi"
+
+#: call.CallManager.display
+msgctxt "call.CallManager.display"
+msgid "C"
+msgstr "C"
+
+#: call.CallManager.keycode
+msgctxt "call.CallManager.keycode"
+msgid "67"
+msgstr "67"
+
+#: call.CallManager.description
+msgctxt "call.CallManager.description"
+msgid "Go to the Call Manager"
+msgstr "Tới Quản lý cuộc gọi"
+
+#: call.Print.display
+msgctxt "call.Print.display"
+msgid "P"
+msgstr "P"
+
+#: call.Print.keycode
+msgctxt "call.Print.keycode"
+msgid "80"
+msgstr "80"
+
+#: call.Print.description
+msgid "Print the list of calls"
+msgstr "In danh sách cuộc gọi"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: call.keys
+msgid "call.Print, call.CallManager"
+msgstr "call.Print, call.CallManager"
+
+#. # L10N_IGNORE_BLOCK_END
+#. # Map: key
+#: key.Alt
+msgid "alt"
+msgstr "alt"
+
+#: key.ArrowDown
+msgid "&darr;"
+msgstr "&darr;"
+
+#: key.ArrowLeft
+msgid "&larr;"
+msgstr "&larr;"
+
+#: key.ArrowRight
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: key.ArrowUp
+msgid "&uarr;"
+msgstr "&uarr;"
+
+#: key.Backspace
+msgid "Backspace"
+msgstr "Backspace"
+
+#: key.Comma
+msgid ","
+msgstr ","
+
+#: key.Ctrl
+msgid "ctrl"
+msgstr "ctrl"
+
+#: key.Delete
+msgid "Delete"
+msgstr "Delete"
+
+#: key.End
+msgid "End"
+msgstr "End"
+
+#: key.Enter
+msgid "Enter"
+msgstr "Enter"
+
+#: key.Esc
+msgctxt "key.Esc"
+msgid "Esc"
+msgstr "Esc"
+
+#: key.Home
+msgid "Home"
+msgstr "Home"
+
+#: key.Meta
+msgid "meta"
+msgstr "meta"
+
+#: key.PgDown
+msgid "PgDown"
+msgstr "PgDown"
+
+#: key.PgUp
+msgid "PgUp"
+msgstr "PgUp"
+
+#: key.Semicolon
+msgid ";"
+msgstr ";"
+
+#: key.Shift
+msgid "shift"
+msgstr "shift"
+
+#: key.Space
+msgid "Space"
+msgstr "Space"
+
+#. # Map: keyseq
+#: keyseq.or
+msgid "or"
+msgstr "hoặc"
+
+#: keyseq.plus
+msgid "+"
+msgstr "+"
+
+#. # Map: conversationList
+#: conversationList.description
+msgid "List view of mail as expandable conversations"
+msgstr "Xem danh sách thư như cuộc đàm thoại có thể mở rộng"
+
+#: conversationList.summary
+msgid "Conversation List Mail View"
+msgstr "Khung hiển thị danh sách thư theo cuộc đàm thoại"
+
+#: conversationList.Expand.description
+msgid "Show or hide a conversation's messages"
+msgstr "Hiển thị hoặc ẩn các thông điệp của một cuộc đàm thoại"
+
+#: conversationList.Expand.sort
+msgctxt "conversationList.Expand.sort"
+msgid "10"
+msgstr "Ctrl+S"
+
+#. # Map: options
+#: options.description
+msgid "Shortcuts in Options"
+msgstr "Phím tắt cho Tùy chọn"
+
+#: options.Save.description
+msgid "Save preferences for all Options tabs"
+msgstr "Lưu các tùy chỉnh cho tất cả tab Tùy chọn"
+
+#. # Map: list
+#: list.description
+msgid "Shortcuts on pages with lists"
+msgstr "Phím tắt trên trang có danh sách"
+
+#. # L10N_IGNORE_BLOCK_BEGIN
+#: list.keys
+msgid ""
+"global.NextItem, global.PreviousItem, global.NextPage, global.PreviousPage, "
+"global.CheckCheckBox, global.SelectAllCheckBoxes, global.CheckAndNextItem, "
+"global.CheckAndPreviousItem"
+msgstr ""
+"global.NextItem, global.PreviousItem, global.NextPage, global.PreviousPage, "
+"global.CheckCheckBox, global.SelectAllCheckBoxes, global.CheckAndNextItem, "
+"global.CheckAndPreviousItem"

@@ -1,0 +1,1151 @@
+#. extracted from AjxMsg.properties
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-06 00:43+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#. # 
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # 
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.3 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. # 
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. # 
+#. # formats for calendar use
+#: formatCalDate
+msgid "EEE, MMM d"
+msgstr ""
+
+#: formatCalDateLong
+msgid "EEEE, MMMM d"
+msgstr ""
+
+#: formatCalDateFull
+msgid "EEEE, MMMM d, yyyy"
+msgstr ""
+
+#. # {0} is the hour number, 0-24; {1} is a date object with the same hour
+#: formatCalHour
+msgid ""
+"{0,choice,0#Midnight|1#{1,time,h a}|12#Noon|13#{1,time,h a}|24#Midnight}"
+msgstr ""
+
+#: formatCalDay
+msgid "M/d "
+msgstr ""
+
+#: formatCalMonth
+msgid "MMMM yyyy"
+msgstr ""
+
+#: formatShortCalMonth
+msgid "MMM yyyy"
+msgstr ""
+
+#. # additional formats for date formatting
+#: formatDateMediumNoYear
+msgid "MMM dd "
+msgstr ""
+
+#: formatWordyDateToday
+msgid "'Today,' h:mm a"
+msgstr ""
+
+#: formatWordyDateYesterday
+msgid "'Yesterday,' h:mm a"
+msgstr ""
+
+#: formatWordyDate
+msgid "EEE, M/d/yy, h:mm a"
+msgstr ""
+
+#. # date parsing information
+#: dateParsing2DigitStartYear
+msgid "1936"
+msgstr ""
+
+#. # list formatting information
+#. # NOTE: The separators end with a literal Unicode space character!
+#: listSeparator
+msgid ", "
+msgstr ""
+
+#: listSeparatorLast
+msgid " and "
+msgstr ""
+
+#. # relative time keywords
+#: ago
+msgid "ago"
+msgstr ""
+
+#: day
+msgid "day"
+msgstr ""
+
+#: days
+msgid "days"
+msgstr ""
+
+#: hour
+msgid "hour"
+msgstr ""
+
+#: hours
+msgid "hours"
+msgstr ""
+
+#: minute
+msgid "minute"
+msgstr ""
+
+#: minutes
+msgid "minutes"
+msgstr ""
+
+#: month
+msgid "month"
+msgstr ""
+
+#: months
+msgid "months"
+msgstr ""
+
+#: second
+msgid "second"
+msgstr ""
+
+#: seconds
+msgid "seconds"
+msgstr ""
+
+#: week
+msgid "week"
+msgstr ""
+
+#: weeks
+msgid "weeks"
+msgstr ""
+
+#: year
+msgid "year"
+msgstr ""
+
+#: years
+msgid "years"
+msgstr ""
+
+#: yesterday
+msgid "yesterday"
+msgstr ""
+
+#: today
+msgid "today"
+msgstr ""
+
+#: tomorrow
+msgid "tomorrow"
+msgstr ""
+
+#: cancel
+msgid "Cancel"
+msgstr ""
+
+#: detail
+msgid "Detail"
+msgstr ""
+
+#: dismiss
+msgid "Dismiss"
+msgstr ""
+
+#: no
+msgid "No"
+msgstr ""
+
+#. # bug fix 3004
+#: noResults
+msgid "No results found."
+msgstr ""
+
+#: ok
+msgid "OK"
+msgstr ""
+
+#: yes
+msgid "Yes"
+msgstr ""
+
+#: addAll
+msgid "Add All"
+msgstr ""
+
+#: add
+msgid "Add"
+msgstr ""
+
+#: remove
+msgid "Remove"
+msgstr ""
+
+#: removeAll
+msgid "Remove All"
+msgstr ""
+
+#: select
+msgid "Select"
+msgstr ""
+
+#: criticalMsg
+msgid "Critical"
+msgstr ""
+
+#: infoMsg
+msgid "Informational"
+msgstr ""
+
+#: warningMsg
+msgid "Warning"
+msgstr ""
+
+#: workInProgress
+msgid "Work In Progress"
+msgstr ""
+
+#: cancelRequest
+msgid "Cancel Request"
+msgstr ""
+
+#: showPassword
+msgid "Show password"
+msgstr ""
+
+#. # confirm dialog
+#: confirmTitle
+msgid "Confirmation"
+msgstr ""
+
+#. # wizard dialog
+#: _next
+msgid "Next"
+msgstr ""
+
+#: _prev
+msgid "Previous"
+msgstr ""
+
+#: _finish
+msgid "Finish"
+msgstr ""
+
+#: _close
+msgid "Close"
+msgstr ""
+
+#: weekdaySunShort
+msgctxt "weekdaySunShort"
+msgid "S"
+msgstr ""
+
+#: weekdayMonShort
+msgctxt "weekdayMonShort"
+msgid "M"
+msgstr ""
+
+#: weekdayTueShort
+msgctxt "weekdayTueShort"
+msgid "T"
+msgstr ""
+
+#: weekdayWedShort
+msgid "W"
+msgstr ""
+
+#: weekdayThuShort
+msgctxt "weekdayThuShort"
+msgid "T"
+msgstr ""
+
+#: weekdayFriShort
+msgctxt "weekdayFriShort"
+msgid "F"
+msgstr ""
+
+#: weekdaySatShort
+msgctxt "weekdaySatShort"
+msgid "S"
+msgstr ""
+
+#: monthJanShort
+msgctxt "monthJanShort"
+msgid "J"
+msgstr ""
+
+#: monthFebShort
+msgctxt "monthFebShort"
+msgid "F"
+msgstr ""
+
+#: monthMarShort
+msgctxt "monthMarShort"
+msgid "M"
+msgstr ""
+
+#: monthAprShort
+msgctxt "monthAprShort"
+msgid "A"
+msgstr ""
+
+#: monthMayShort
+msgctxt "monthMayShort"
+msgid "M"
+msgstr ""
+
+#: monthJunShort
+msgctxt "monthJunShort"
+msgid "J"
+msgstr ""
+
+#: monthJulShort
+msgctxt "monthJulShort"
+msgid "J"
+msgstr ""
+
+#: monthAugShort
+msgctxt "monthAugShort"
+msgid "A"
+msgstr ""
+
+#: monthSepShort
+msgctxt "monthSepShort"
+msgid "S"
+msgstr ""
+
+#: monthOctShort
+msgid "O"
+msgstr ""
+
+#: monthNovShort
+msgid "N"
+msgstr ""
+
+#: monthDecShort
+msgid "D"
+msgstr ""
+
+#: timezoneNameAuto-DetectedLong
+msgid "Auto-Detected"
+msgstr ""
+
+#: timezoneNameAuto-DetectedShort
+msgid "Auto"
+msgstr ""
+
+#: valueIsRequired
+msgid "Value is required"
+msgstr ""
+
+#: notAString
+msgid "Value must be a text string."
+msgstr ""
+
+#: stringLenWrong
+msgid "Value must be exactly {0} characters long."
+msgstr ""
+
+#: stringTooShort
+msgid "Value must be at least {0} characters long."
+msgstr ""
+
+#: stringTooLong
+msgid "Value must be no more than {0} characters long."
+msgstr ""
+
+#: stringMismatch
+msgid "Value did not match valid values."
+msgstr ""
+
+#: invalidEmailAddr
+msgid "Value is not a valid email address."
+msgstr ""
+
+#: notANumber
+msgid "Value must be a number."
+msgstr ""
+
+#: notAnInteger
+msgid "Value must be an integer."
+msgstr ""
+
+#: numberTotalExceeded
+msgid "Whole digits exceeds total of {0}."
+msgstr ""
+
+#: numberFractionExceeded
+msgid "Fractional digits exceeds total of {0}."
+msgstr ""
+
+#: numberMoreThanMax
+msgctxt "numberMoreThanMax"
+msgid "Value must be less than or equal to {0}."
+msgstr ""
+
+#: numberMoreThanEqualMax
+msgid "Value must be less than {0}."
+msgstr ""
+
+#: numberLessThanMin
+msgctxt "numberLessThanMin"
+msgid "Value must be greater than or equal to {0}."
+msgstr ""
+
+#: numberLessThanEqualMin
+msgid "Value must be greater than {0}."
+msgstr ""
+
+#: numberMustBeNon0Percent
+msgid "Value must be a percentage between 1 and 100"
+msgstr ""
+
+#: setColor
+msgid "Set"
+msgstr ""
+
+#. # Xforms versions of messages above. Will be replaced when Xforms moves to new property model
+#: xFnumberMoreThanMax
+msgctxt "xFnumberMoreThanMax"
+msgid "Value must be less than or equal to {0}."
+msgstr ""
+
+#: XfnumberLessThanMin
+msgctxt "XfnumberLessThanMin"
+msgid "Value must be greater than or equal to {0}."
+msgstr ""
+
+#: invalidDateString
+msgid ""
+"Date value must be entered in the form: MM/DD/YYYY or \"today\", \"yesterday\" "
+"or \"tomorrow\"."
+msgstr ""
+
+#: invalidTimeString
+msgid "Time value must be entered in the form: HH:MM[:SS] [AM|PM]"
+msgstr ""
+
+#: invalidDatetimeString
+msgid "Date format not understood."
+msgstr ""
+
+#: didNotMatchChoice
+msgid "Value '{0}' did not match any values for this type."
+msgstr ""
+
+#: xformRepeatAdd
+msgid "+"
+msgstr ""
+
+#: xformRepeatRemove
+msgid "-"
+msgstr ""
+
+#: xformDateTimeFormat
+msgid "{0,date} at {0,time}"
+msgstr ""
+
+#: xformFontColor
+msgid "Font Color"
+msgstr ""
+
+#: sizeGigaBytes
+msgid "GB"
+msgstr ""
+
+#: sizeMegaBytes
+msgid "MB"
+msgstr ""
+
+#: sizeKiloBytes
+msgid "KB"
+msgstr ""
+
+#: sizeBytes
+msgid "B"
+msgstr ""
+
+#. # For formatting file sizes (e.g. "123.4 MB")
+#: formatSizeAndUnits
+msgid "{0} {1}"
+msgstr ""
+
+#. # Timezone names
+#: Africa/Algiers
+msgid "GMT +01:00 West Central Africa"
+msgstr ""
+
+#: Africa/Cairo
+msgid "GMT +02:00 Egypt"
+msgstr ""
+
+#: Africa/Casablanca
+msgid "GMT +00:00 Casablanca"
+msgstr ""
+
+#: Africa/Monrovia
+msgid "GMT +00:00 Monrovia"
+msgstr ""
+
+#: Africa/Harare
+msgid "GMT +02:00 Harare / Pretoria"
+msgstr ""
+
+#: Africa/Nairobi
+msgid "GMT +03:00 Nairobi"
+msgstr ""
+
+#: Africa/Windhoek
+msgid "GMT +01:00 Namibia"
+msgstr ""
+
+#: America/Bogota
+msgid "GMT -05:00 Colombia"
+msgstr ""
+
+#: America/Buenos_Aires
+msgid "GMT -03:00 Argentina"
+msgstr ""
+
+#: America/Caracas
+msgid "GMT -04:30 Caracas"
+msgstr ""
+
+#: America/Chihuahua
+msgid "GMT -07:00 Chihuahua / La Paz / Mazatlan"
+msgstr ""
+
+#: America/Godthab
+msgid "GMT -03:00 Greenland"
+msgstr ""
+
+#: America/Guatemala
+msgid "GMT -06:00 Central America"
+msgstr ""
+
+#: America/Guyana
+msgid "GMT -04:00 Georgetown"
+msgstr ""
+
+#: America/La_Paz
+msgid "GMT -04:00 La Paz"
+msgstr ""
+
+#: America/Manaus
+msgid "GMT -04:00 Manaus"
+msgstr ""
+
+#: America/Mexico_City
+msgid "GMT -06:00 Guadalajara / Mexico City / Monterrey"
+msgstr ""
+
+#: America/Montevideo
+msgid "GMT -03:00 Montevideo"
+msgstr ""
+
+#: America/Santiago
+msgid "GMT -04:00 Pacific South America"
+msgstr ""
+
+#: America/Tijuana
+msgid "GMT -08:00 Tijuana / Baja California"
+msgstr ""
+
+#: Asia/Amman
+msgid "GMT +02:00 Jordan"
+msgstr ""
+
+#: Asia/Baghdad
+msgid "GMT +03:00 Iraq"
+msgstr ""
+
+#: Asia/Baku
+msgid "GMT +04:00 Baku"
+msgstr ""
+
+#: Asia/Bangkok
+msgid "GMT +07:00 Bangkok, Hanoi, Jakarta"
+msgstr ""
+
+#: Asia/Beirut
+msgid "GMT +02:00 Beirut"
+msgstr ""
+
+#: Asia/Calcutta
+msgid "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
+msgstr ""
+
+#: Asia/Colombo
+msgid "GMT +05:30 Sri Jayawardenepura"
+msgstr ""
+
+#: Asia/Dhaka
+msgid "GMT +06:00 Astana / Dhaka"
+msgstr ""
+
+#: Asia/Hong_Kong
+msgid "GMT +08:00 Beijing / Chongqing / Hong Kong / Urumqi"
+msgstr ""
+
+#: Asia/Irkutsk
+msgid "GMT +08:00 Irkutsk, Ulaan Bataar"
+msgstr ""
+
+#: Asia/Jerusalem
+msgid "GMT +02:00 Jerusalem"
+msgstr ""
+
+#: Asia/Kabul
+msgid "GMT +04:30 Kabul"
+msgstr ""
+
+#: Asia/Karachi
+msgid "GMT +05:00 Islamabad / Karachi"
+msgstr ""
+
+#: Asia/Katmandu
+msgid "GMT +05:45 Kathmandu"
+msgstr ""
+
+#: Asia/Krasnoyarsk
+msgid "GMT +07:00 Krasnoyarsk"
+msgstr ""
+
+#: Asia/Kuala_Lumpur
+msgid "GMT +08:00 Kuala Lumpur / Singapore"
+msgstr ""
+
+#: Asia/Kuwait
+msgid "GMT +03:00 Kuwait / Riyadh"
+msgstr ""
+
+#: Asia/Magadan
+msgid "GMT +11:00 Magadan, Solomon Is., New Caledonia"
+msgstr ""
+
+#: Asia/Muscat
+msgid "GMT +04:00 Abu Dhabi / Muscat"
+msgstr ""
+
+#: Asia/Novosibirsk
+msgid "GMT +06:00 Almaty, Novosibirsk"
+msgstr ""
+
+#: Asia/Rangoon
+msgid "GMT +06:30 Rangoon"
+msgstr ""
+
+#: Asia/Seoul
+msgid "GMT +09:00 Korea"
+msgstr ""
+
+#: Asia/Taipei
+msgid "GMT +08:00 China, Taiwan"
+msgstr ""
+
+#: Asia/Tashkent
+msgid "GMT +05:00 Tashkent"
+msgstr ""
+
+#: Asia/Tbilisi
+msgid "GMT +03:00 Tbilisi"
+msgstr ""
+
+#: Asia/Tbilisi_2
+msgid "GMT +04:00 Caucasus Standard Time"
+msgstr ""
+
+#: Asia/Tehran
+msgid "GMT +03:30 Tehran"
+msgstr ""
+
+#: Asia/Tokyo
+msgid "GMT +09:00 Japan"
+msgstr ""
+
+#: Asia/Vladivostok
+msgid "GMT +10:00 Vladivostok"
+msgstr ""
+
+#: Asia/Yakutsk
+msgid "GMT +09:00 Yakutsk"
+msgstr ""
+
+#: Asia/Yekaterinburg
+msgid "GMT +05:00 Yekaterinburg"
+msgstr ""
+
+#: Asia/Yerevan
+msgid "GMT +04:00 Yerevan"
+msgstr ""
+
+#: Atlantic/Azores
+msgid "GMT -01:00 Azores"
+msgstr ""
+
+#: Atlantic/Cape_Verde
+msgid "GMT -01:00 Cape Verde Is."
+msgstr ""
+
+#: Atlantic/South_Georgia
+msgid "GMT -02:00 Mid-Atlantic"
+msgstr ""
+
+#: Australia/Adelaide
+msgid "GMT +09:30 Adelaide (CT)"
+msgstr ""
+
+#: Australia/Brisbane
+msgid "GMT +10:00 Brisbane"
+msgstr ""
+
+#: Australia/Darwin
+msgid "GMT +09:30 Darwin"
+msgstr ""
+
+#: Australia/Hobart
+msgid "GMT +10:00 Hobart"
+msgstr ""
+
+#: Australia/Perth
+msgid "GMT +08:00 Perth"
+msgstr ""
+
+#: Australia/Sydney
+msgid "GMT +10:00 Canberra / Melbourne / Sydney"
+msgstr ""
+
+#: Brazil/East
+msgid "GMT -03:00 Brasilia"
+msgstr ""
+
+#: Canada/Atlantic
+msgid "GMT -04:00 Atlantic Time (Canada)"
+msgstr ""
+
+#: Canada/Newfoundland
+msgid "GMT -03:30 Newfoundland"
+msgstr ""
+
+#: Canada/Saskatchewan
+msgid "GMT -06:00 Saskatchewan"
+msgstr ""
+
+#: Etc/GMT+12
+msgid "GMT -12:00 Dateline"
+msgstr ""
+
+#: Europe/Athens
+msgid "GMT +02:00 Athens, Bucharest, Istanbul"
+msgstr ""
+
+#: Europe/Belgrade
+msgid "GMT +01:00 Belgrade / Bratislava / Budapest / Ljubljana / Prague"
+msgstr ""
+
+#: Europe/Berlin
+msgid "GMT +01:00 Amsterdam / Berlin / Bern / Rome / Stockholm / Vienna"
+msgstr ""
+
+#: Europe/Brussels
+msgid "GMT +01:00 Brussels / Copenhagen / Madrid / Paris"
+msgstr ""
+
+#: Europe/Helsinki
+msgid "GMT +02:00 Helsinki / Kyiv / Riga / Sofia / Tallinn / Vilnius"
+msgstr ""
+
+#: Europe/London
+msgid "GMT +00:00 GMT Britain, Ireland, Portugal"
+msgstr ""
+
+#: Europe/Minsk
+msgid "GMT +02:00 Minsk"
+msgstr ""
+
+#: Europe/Moscow
+msgid "GMT +03:00 Moscow, St. Petersburg, Volgograd"
+msgstr ""
+
+#: Europe/Warsaw
+msgid "GMT +01:00 Sarajevo / Skopje / Warsaw / Zagreb"
+msgstr ""
+
+#: Pacific/Auckland
+msgid "GMT +12:00 New Zealand"
+msgstr ""
+
+#: Pacific/Fiji
+msgid "GMT +12:00 Fiji"
+msgstr ""
+
+#: Pacific/Guam
+msgid "GMT +10:00 Guam / Port Moresby"
+msgstr ""
+
+#: Pacific/Midway
+msgid "GMT -11:00 Midway Island / Samoa"
+msgstr ""
+
+#: Pacific/Tongatapu
+msgid "GMT +13:00 Nuku'alofa"
+msgstr ""
+
+#: US/Alaska
+msgid "GMT -09:00 Alaska"
+msgstr ""
+
+#: US/Arizona
+msgid "GMT -07:00 U.S. Mountain Time (Arizona)"
+msgstr ""
+
+#: US/Central
+msgid "GMT -06:00 US/Canada Central"
+msgstr ""
+
+#: US/East-Indiana
+msgid "GMT -05:00 Indiana (East)"
+msgstr ""
+
+#: US/Eastern
+msgid "GMT -05:00 US/Canada Eastern"
+msgstr ""
+
+#: US/Hawaii
+msgid "GMT -10:00 Hawaii"
+msgstr ""
+
+#: US/Mountain
+msgid "GMT -07:00 US/Canada Mountain"
+msgstr ""
+
+#: US/Pacific
+msgid "GMT -08:00 US/Canada Pacific"
+msgstr ""
+
+#. # The font family options specified below are a list of fonts for
+#. # HTML compose. Each value is a comma-separated list of font names
+#. # to be used. The entries whose key ends in ".display" is used as
+#. # the name that is shown to the user; entries whose key ends in
+#. # ".css" is the CSS list of font names that is inserted into the
+#. # HTML document.
+#. #
+#. # Any number of font families can be added to the list. To add a
+#. # font family, name the key "fontFamilyBase{number}.display" and
+#. # "fontFamilyBase{number}.css" for the common list of fonts; or
+#. #"fontFamilyIntl{number}.display" and "fontFamilyIntl{number].css"
+#. # for additional fonts to prefix for this specific locale. The
+#. # {number} is the next number in the list; numbers start at 1. To
+#. # end the list, leave the last values as the "###" string.
+#. #
+#. # Note: Not all of the fontFamilyIntl values need to be specified!
+#. #       And you should always leave a "###" entry at the end to
+#. #       avoid accidentally include intl font families inherited
+#. #       from the less specific locale property file.
+#: fontFamilyBase1.display
+msgid "Arial"
+msgstr ""
+
+#: fontFamilyBase2.display
+msgid "Bookman Old Style"
+msgstr ""
+
+#: fontFamilyBase3.display
+msgid "Courier New"
+msgstr ""
+
+#: fontFamilyBase4.display
+msgid "Garamond"
+msgstr ""
+
+#: fontFamilyBase5.display
+msgid "Lucida Console"
+msgstr ""
+
+#: fontFamilyBase6.display
+msgid "Symbol"
+msgstr ""
+
+#: fontFamilyBase7.display
+msgid "Tahoma"
+msgstr ""
+
+#: fontFamilyBase8.display
+msgid "Times New Roman"
+msgstr ""
+
+#: fontFamilyBase9.display
+msgid "Verdana"
+msgstr ""
+
+#: fontFamilyBase10.display
+msgctxt "fontFamilyBase10.display"
+msgid "###"
+msgstr ""
+
+#. # TODO: Should we expose the base font families for translation?
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: fontFamilyBase1.css
+msgid "arial, helvetica, sans-serif"
+msgstr ""
+
+#: fontFamilyBase2.css
+msgid "bookman old style, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase3.css
+msgid "Courier New, courier, monaco, monospace, sans-serif"
+msgstr ""
+
+#: fontFamilyBase4.css
+msgid "garamond, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase5.css
+msgid "lucida console, sans-serif"
+msgstr ""
+
+#: fontFamilyBase6.css
+msgid "symbol"
+msgstr ""
+
+#: fontFamilyBase7.css
+msgid "tahoma, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase8.css
+msgid "times new roman, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase9.css
+msgid "verdana, helvetica, sans-serif"
+msgstr ""
+
+#: fontFamilyBase10.css
+msgctxt "fontFamilyBase10.css"
+msgid "###"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#. # These will be set by the various translations
+#: fontFamilyIntl1.display
+msgctxt "fontFamilyIntl1.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl1.css
+msgctxt "fontFamilyIntl1.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl2.display
+msgctxt "fontFamilyIntl2.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl2.css
+msgctxt "fontFamilyIntl2.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl3.display
+msgctxt "fontFamilyIntl3.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl3.css
+msgctxt "fontFamilyIntl3.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl4.display
+msgctxt "fontFamilyIntl4.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl4.css
+msgctxt "fontFamilyIntl4.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl5.display
+msgctxt "fontFamilyIntl5.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl5.css
+msgctxt "fontFamilyIntl5.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl6.display
+msgctxt "fontFamilyIntl6.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl6.css
+msgctxt "fontFamilyIntl6.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl7.display
+msgctxt "fontFamilyIntl7.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl7.css
+msgctxt "fontFamilyIntl7.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl8.display
+msgctxt "fontFamilyIntl8.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl8.css
+msgctxt "fontFamilyIntl8.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl9.display
+msgctxt "fontFamilyIntl9.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl9.css
+msgctxt "fontFamilyIntl9.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl10.display
+msgctxt "fontFamilyIntl10.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl10.css
+msgctxt "fontFamilyIntl10.css"
+msgid "###"
+msgstr ""
+
+#: calc.ordinal.first
+msgid "1st|first"
+msgstr ""
+
+#: calc.ordinal.second
+msgid "2nd|second"
+msgstr ""
+
+#: calc.ordinal.third
+msgid "3rd|third"
+msgstr ""
+
+#: calc.ordinal.fourth
+msgid "4th|fourth"
+msgstr ""
+
+#: calc.ordinal.fifth
+msgid "5th|fifth"
+msgstr ""
+
+#: calc.ordinal.last
+msgid "last"
+msgstr ""
+
+#: calc.dayname.sunday
+msgid "sun|sunday"
+msgstr ""
+
+#: calc.dayname.monday
+msgid "mon|monday"
+msgstr ""
+
+#: calc.dayname.tuesday
+msgid "tue|tues|tuesday"
+msgstr ""
+
+#: calc.dayname.wednesday
+msgid "wed|wednesday"
+msgstr ""
+
+#: calc.dayname.thursday
+msgid "thu|thur|thurs|thursday"
+msgstr ""
+
+#: calc.dayname.friday
+msgid "fri|friday"
+msgstr ""
+
+#: calc.dayname.saturday
+msgid "sat|saturday"
+msgstr ""
+
+#: calc.monthname.january
+msgid "jan|january"
+msgstr ""
+
+#: calc.monthname.february
+msgid "feb|february"
+msgstr ""
+
+#: calc.monthname.march
+msgid "mar|march"
+msgstr ""
+
+#: calc.monthname.april
+msgid "apr|april"
+msgstr ""
+
+#: calc.monthname.may
+msgid "may"
+msgstr ""
+
+#: calc.monthname.june
+msgid "jun|june"
+msgstr ""
+
+#: calc.monthname.july
+msgid "jul|july"
+msgstr ""
+
+#: calc.monthname.august
+msgid "aug|august"
+msgstr ""
+
+#: calc.monthname.september
+msgid "sep|september"
+msgstr ""
+
+#: calc.monthname.october
+msgid "oct|october"
+msgstr ""
+
+#: calc.monthname.november
+msgid "nov|november"
+msgstr ""
+
+#: calc.monthname.december
+msgid "dec|december"
+msgstr ""
