@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:43+0700\n"
+"POT-Creation-Date: 2014-03-06 00:45+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,14 +127,6 @@ msgstr ""
 #. #
 #. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
 #. #
-#. # The sequence "NNN" has a special meaning in shortcuts. It stands for "any
-#. # number". For example, with the shortcut
-#. #
-#. #    global.Tag.display = T,NNN
-#. #    global.Tag.keycode = 84,NNN
-#. #
-#. # the key sequence "T,3" will tag selected items with the tag which has
-#. # 3 as its alias. Only actions which contain "NNN" support that sort of mapping.
 #. #
 #. # Documentation
 #. # -------------
@@ -144,22 +136,12 @@ msgstr ""
 #. # text is the property's value. The descriptions below show up as content in
 #. # the Shortcuts tab on the Options page.
 #. #
-#. # The "summary" text is used when printing the Quick Reference (not yet
-#. # implemented), or in a tooltip.
-#. #
 #. # The "sort" field sets the sorting order among either map names or among
 #. # the actions within a map, from low to high. There are gaps so that
 #. # properties may be inserted and given a sort order without having to
 #. # change the order of other properties.
-#. #
-#. # The "example" field contains text that is used in the examples for 
-#. # creating custom shortcuts for folders, tags, and saved searches.
 #. # Map: global
 #: global.description
-msgid "Shortcuts for All Applications"
-msgstr ""
-
-#: global.summary
 msgid "All Applications"
 msgstr ""
 
@@ -176,10 +158,11 @@ msgid "192"
 msgstr ""
 
 #: global.Assistant.description
-msgid "Show the Zimbra Assistant"
+msgid "Zimbra Assistant"
 msgstr ""
 
 #: global.Assistant.sort
+msgctxt "global.Assistant.sort"
 msgid "10230"
 msgstr ""
 
@@ -194,7 +177,8 @@ msgid "27"
 msgstr ""
 
 #: global.Cancel.description
-msgid "Close the current view"
+msgctxt "global.Cancel.description"
+msgid "Close"
 msgstr ""
 
 #: global.Cancel.sort
@@ -202,7 +186,7 @@ msgid "10220"
 msgstr ""
 
 #: global.Delete.display
-msgid "Backspace; Del"
+msgid "Del; Backspace"
 msgstr ""
 
 #: global.Delete.keycode
@@ -210,7 +194,7 @@ msgid "8; 46"
 msgstr ""
 
 #: global.Delete.description
-msgid "Delete selected items"
+msgid "Delete item(s)"
 msgstr ""
 
 #: global.Delete.sort
@@ -226,7 +210,7 @@ msgid "Ctrl+191"
 msgstr ""
 
 #: global.FocusContentPane.description
-msgid "Move focus to the content pane"
+msgid "Focus content pane"
 msgstr ""
 
 #: global.FocusContentPane.sort
@@ -242,11 +226,28 @@ msgid "191"
 msgstr ""
 
 #: global.FocusSearchBox.description
-msgid "Move focus to the search box"
+msgid "Focus search box"
 msgstr ""
 
 #: global.FocusSearchBox.sort
+msgctxt "global.FocusSearchBox.sort"
 msgid "10270"
+msgstr ""
+
+#: global.FocusToolbar.display
+msgid "Ctrl+Y"
+msgstr ""
+
+#: global.FocusToolbar.keycode
+msgid "Ctrl+89"
+msgstr ""
+
+#: global.FocusToolbar.description
+msgid "Focus toolbar"
+msgstr ""
+
+#: global.FocusToolbar.sort
+msgid "10275"
 msgstr ""
 
 #: global.FocusWebSearchBox.display
@@ -258,10 +259,6 @@ msgid "Alt+191"
 msgstr ""
 
 #: global.FocusWebSearchBox.description
-msgid "Move focus to the web search box"
-msgstr ""
-
-#: global.FocusWebSearchBox.summary
 msgid "Focus web search box"
 msgstr ""
 
@@ -278,7 +275,7 @@ msgid "71,67"
 msgstr ""
 
 #: global.GoToCalendar.description
-msgid "Switch to Calendar"
+msgid "Go to Calendar"
 msgstr ""
 
 #: global.GoToCalendar.sort
@@ -294,27 +291,11 @@ msgid "71,65"
 msgstr ""
 
 #: global.GoToContacts.description
-msgid "Switch to Contacts (\"address book\")"
+msgid "Go to Contacts"
 msgstr ""
 
 #: global.GoToContacts.sort
 msgid "10020"
-msgstr ""
-
-#: global.GoToIm.display
-msgid "G,I"
-msgstr ""
-
-#: global.GoToIm.keycode
-msgid "71,73"
-msgstr ""
-
-#: global.GoToIm.description
-msgid "Switch to Chat (\"instant messaging\")"
-msgstr ""
-
-#: global.GoToIm.sort
-msgid "10040"
 msgstr ""
 
 #: global.GoToMail.display
@@ -326,7 +307,7 @@ msgid "71,77"
 msgstr ""
 
 #: global.GoToMail.description
-msgid "Switch (\"go\") to Mail"
+msgid "Go to Mail"
 msgstr ""
 
 #: global.GoToMail.sort
@@ -342,11 +323,28 @@ msgid "71,68"
 msgstr ""
 
 #: global.GoToNotebook.description
-msgid "Switch to Documents (\"notebook\")"
+msgid "Go to Documents"
 msgstr ""
 
 #: global.GoToNotebook.sort
 msgid "10060"
+msgstr ""
+
+#: global.GoToBriefcase.display
+msgid "G,B"
+msgstr ""
+
+#: global.GoToBriefcase.keycode
+msgid "71,66"
+msgstr ""
+
+#: global.GoToBriefcase.description
+msgid "Go to Briefcase"
+msgstr ""
+
+#: global.GoToBriefcase.sort
+msgctxt "global.GoToBriefcase.sort"
+msgid "10070"
 msgstr ""
 
 #: global.GoToOptions.display
@@ -358,35 +356,11 @@ msgid "71,80"
 msgstr ""
 
 #: global.GoToOptions.description
-msgid "Switch to Preferences"
+msgid "Go to Preferences"
 msgstr ""
 
 #: global.GoToOptions.sort
 msgid "10050"
-msgstr ""
-
-#: global.GoToTag.display
-msgid "Y,NNN"
-msgstr ""
-
-#: global.GoToTag.keycode
-msgid "89,NNN"
-msgstr ""
-
-#: global.GoToTag.description
-msgid "Show items with specified tag (set the tag in the \"Tag Shortcuts\" tab)"
-msgstr ""
-
-#: global.GoToTag.summary
-msgid "Show items with specified tag."
-msgstr ""
-
-#: global.GoToTag.example
-msgid "will show all items with tag {0}."
-msgstr ""
-
-#: global.GoToTag.sort
-msgid "10240"
 msgstr ""
 
 #: global.GoToTasks.display
@@ -398,7 +372,7 @@ msgid "71,84"
 msgstr ""
 
 #: global.GoToTasks.description
-msgid "Switch to Tasks"
+msgid "Go to Tasks"
 msgstr ""
 
 #: global.GoToTasks.sort
@@ -414,11 +388,27 @@ msgid "71,86"
 msgstr ""
 
 #: global.GoToVoice.description
-msgid "Switch to Voice"
+msgid "Go to Voice"
 msgstr ""
 
 #: global.GoToVoice.sort
 msgid "10015"
+msgstr ""
+
+#: global.Move.display
+msgid "M; M,M"
+msgstr ""
+
+#: global.Move.keycode
+msgid "77; 77,77"
+msgstr ""
+
+#: global.Move.description
+msgid "Move item(s)"
+msgstr ""
+
+#: global.Move.sort
+msgid "10235"
 msgstr ""
 
 #: global.New.display
@@ -430,14 +420,11 @@ msgid "78"
 msgstr ""
 
 #: global.New.description
-msgid "Create a new item (within the current application)"
-msgstr ""
-
-#: global.New.summary
-msgid "New item (for current app)"
+msgid "New item"
 msgstr ""
 
 #: global.New.sort
+msgctxt "global.New.sort"
 msgid "10070"
 msgstr ""
 
@@ -530,7 +517,8 @@ msgid "78,77; 67"
 msgstr ""
 
 #: global.NewMessage.description
-msgid "New message (\"compose\")"
+msgctxt "global.NewMessage.description"
+msgid "Compose"
 msgstr ""
 
 #: global.NewMessage.sort
@@ -546,7 +534,7 @@ msgid "Shift+67"
 msgstr ""
 
 #: global.NewMessageWindow.description
-msgid "New message in a new window"
+msgid "Compose in new window"
 msgstr ""
 
 #: global.NewMessageWindow.sort
@@ -562,7 +550,7 @@ msgid "78,87"
 msgstr ""
 
 #: global.NewNotebook.description
-msgid "New notebook (\"wiki\")"
+msgid "New notebook"
 msgstr ""
 
 #: global.NewNotebook.sort
@@ -583,6 +571,22 @@ msgstr ""
 
 #: global.NewPage.sort
 msgid "10130"
+msgstr ""
+
+#: global.NewDocument.display
+msgid "N,D"
+msgstr ""
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr ""
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr ""
+
+#: global.NewDocument.sort
+msgid "10135"
 msgstr ""
 
 #: global.NewRosterItem.display
@@ -634,47 +638,31 @@ msgid "10115"
 msgstr ""
 
 #: global.NextPage.display
-msgid "ArrowRight"
+msgid "Ctrl+ArrowRight"
 msgstr ""
 
 #: global.NextPage.keycode
-msgid "39"
+msgid "Ctrl+39"
 msgstr ""
 
 #: global.NextPage.description
-msgid "Next page of items"
+msgid "Next page"
 msgstr ""
 
 #: global.NextPage.sort
 msgid "10170"
 msgstr ""
 
-#: global.PresenceMenu.display
-msgid "S,M"
-msgstr ""
-
-#: global.PresenceMenu.keycode
-msgid "83,77"
-msgstr ""
-
-#: global.PresenceMenu.description
-msgid "Pop up the IM status menu"
-msgstr ""
-
-#: global.PresenceMenu.sort
-msgid "10290"
-msgstr ""
-
 #: global.PreviousPage.display
-msgid "ArrowLeft"
+msgid "Ctrl+ArrowLeft"
 msgstr ""
 
 #: global.PreviousPage.keycode
-msgid "37"
+msgid "Ctrl+37"
 msgstr ""
 
 #: global.PreviousPage.description
-msgid "Previous page of items"
+msgid "Previous page"
 msgstr ""
 
 #: global.PreviousPage.sort
@@ -692,63 +680,97 @@ msgid "80"
 msgstr ""
 
 #: global.Print.description
-msgid "Print selected items"
+msgctxt "global.Print.description"
+msgid "Print"
 msgstr ""
 
 #: global.Print.sort
 msgid "10190"
 msgstr ""
 
+#: global.QuickReminder.display
+msgid "!"
+msgstr ""
+
+#: global.QuickReminder.keycode
+msgid "Shift+49"
+msgstr ""
+
+#: global.QuickReminder.description
+msgid "Quick Reminder"
+msgstr ""
+
+#: global.QuickReminder.sort
+msgctxt "global.QuickReminder.sort"
+msgid "10230"
+msgstr ""
+
 #: global.SavedSearch.display
-msgid "S,NNN"
+msgctxt "global.SavedSearch.display"
+msgid "S"
 msgstr ""
 
 #: global.SavedSearch.keycode
-msgid "83,NNN"
+msgctxt "global.SavedSearch.keycode"
+msgid "83"
 msgstr ""
 
 #: global.SavedSearch.description
-msgid ""
-"Show results of specified search (set the search in the \"Search Shortcuts\" "
-"tab)"
-msgstr ""
-
-#: global.SavedSearch.summary
-msgid "Show results of specified search"
-msgstr ""
-
-#: global.SavedSearch.example
-msgid "will show results of the {0} search."
+msgid "Run a saved search"
 msgstr ""
 
 #: global.SavedSearch.sort
 msgid "10260"
 msgstr ""
 
+#: global.SelectAll.display
+msgid "Ctrl+Shift+A"
+msgstr ""
+
+#: global.SelectAll.keycode
+msgid "Ctrl+Shift+65"
+msgstr ""
+
+#: global.SelectAll.description
+msgid "Select all search results"
+msgstr ""
+
+#: global.SelectAll.sort
+msgctxt "global.SelectAll.sort"
+msgid "10270"
+msgstr ""
+
+#: global.Shortcuts.display
+msgid "Ctrl+Q;Shift+/"
+msgstr ""
+
+#: global.Shortcuts.keycode
+msgid "Ctrl+81;Shift+191"
+msgstr ""
+
+#: global.Shortcuts.description
+msgctxt "global.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: global.Shortcuts.sort
+msgctxt "global.Shortcuts.sort"
+msgid "10270"
+msgstr ""
+
 #: global.Tag.display
-msgid "T,NNN"
+msgid "T"
 msgstr ""
 
 #: global.Tag.keycode
-msgid "84,NNN"
+msgid "84"
 msgstr ""
 
 #: global.Tag.description
-msgid ""
-"Tag selected items with specified tag (set the tag in the \"Tag Shortcuts\" "
-"tab)"
-msgstr ""
-
-#: global.Tag.summary
-msgid "Tag selected items with specified tag"
-msgstr ""
-
-#: global.Tag.example
-msgid "will apply tag {0} to selected items."
+msgid "Tag item(s)"
 msgstr ""
 
 #: global.Tag.sort
-msgctxt "global.Tag.sort"
 msgid "10250"
 msgstr ""
 
@@ -761,12 +783,43 @@ msgid "85"
 msgstr ""
 
 #: global.Untag.description
-msgid "Remove all tags from selected item(s)"
+msgid "Remove tags"
 msgstr ""
 
 #: global.Untag.sort
-msgctxt "global.Untag.sort"
-msgid "10250"
+msgid "10255"
+msgstr ""
+
+#: global.Visit.display
+msgid "V"
+msgstr ""
+
+#: global.Visit.keycode
+msgid "86"
+msgstr ""
+
+#: global.Visit.description
+msgid "Go to (visit) folder"
+msgstr ""
+
+#: global.Visit.sort
+msgid "10233"
+msgstr ""
+
+#: global.VisitTag.display
+msgid "V,V"
+msgstr ""
+
+#: global.VisitTag.keycode
+msgid "86,86"
+msgstr ""
+
+#: global.VisitTag.description
+msgid "Go to (visit) tag"
+msgstr ""
+
+#: global.VisitTag.sort
+msgid "10234"
 msgstr ""
 
 #. # Map: mail
@@ -778,10 +831,6 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: mail.description
-msgid "Shortcuts in Mail"
-msgstr ""
-
-#: mail.summary
 msgid "Mail"
 msgstr ""
 
@@ -800,20 +849,34 @@ msgid "13"
 msgstr ""
 
 #: mail.DoubleClick.description
-msgid "Open message (or conversation)"
+msgid "Open message"
 msgstr ""
 
 #: mail.DoubleClick.sort
 msgid "20060"
 msgstr ""
 
+#: mail.FirstUnread.display
+msgid "Shift+["
+msgstr ""
+
+#: mail.FirstUnread.keycode
+msgid "Shift+219"
+msgstr ""
+
+#: mail.FirstUnread.description
+msgid "First unread"
+msgstr ""
+
+#: mail.FirstUnread.sort
+msgid "20194"
+msgstr ""
+
 #: mail.Flag.display
-msgctxt "mail.Flag.display"
 msgid "M,F"
 msgstr ""
 
 #: mail.Flag.keycode
-msgctxt "mail.Flag.keycode"
 msgid "77,70"
 msgstr ""
 
@@ -836,12 +899,6 @@ msgid "70"
 msgstr ""
 
 #: mail.Forward.description
-msgctxt "mail.Forward.description"
-msgid "Forward message"
-msgstr ""
-
-#: mail.Forward.summary
-msgctxt "mail.Forward.summary"
 msgid "Forward message"
 msgstr ""
 
@@ -849,48 +906,36 @@ msgstr ""
 msgid "20170"
 msgstr ""
 
+#: mail.GetMail.display
+msgid "="
+msgstr ""
+
+#: mail.GetMail.keycode
+msgid "61; 187"
+msgstr ""
+
+#: mail.GetMail.description
+msgid "Get Mail"
+msgstr ""
+
+#: mail.GetMail.sort
+msgid "20005"
+msgstr ""
+
 #: mail.GoToDrafts.display
-msgctxt "mail.GoToDrafts.display"
 msgid "V,D"
 msgstr ""
 
 #: mail.GoToDrafts.keycode
-msgctxt "mail.GoToDrafts.keycode"
 msgid "86,68"
 msgstr ""
 
 #: mail.GoToDrafts.description
-msgid "Go to Drafts folder"
+msgid "Drafts"
 msgstr ""
 
 #: mail.GoToDrafts.sort
 msgid "20020"
-msgstr ""
-
-#: mail.GoToFolder.display
-msgid "V,NNN"
-msgstr ""
-
-#: mail.GoToFolder.keycode
-msgid "86,NNN"
-msgstr ""
-
-#: mail.GoToFolder.description
-msgid ""
-"Go to the specified mail folder (set the folder in the \"Mail Folder "
-"Shortcuts\" tab)"
-msgstr ""
-
-#: mail.GoToFolder.summary
-msgid "Show the specified mail folder"
-msgstr ""
-
-#: mail.GoToFolder.example
-msgid "will show the {0} folder."
-msgstr ""
-
-#: mail.GoToFolder.sort
-msgid "20050"
 msgstr ""
 
 #: mail.GoToInbox.display
@@ -902,7 +947,7 @@ msgid "73; 86,73"
 msgstr ""
 
 #: mail.GoToInbox.description
-msgid "Go to (\"visit\") inbox and Get Mail"
+msgid "Inbox"
 msgstr ""
 
 #: mail.GoToInbox.sort
@@ -910,17 +955,15 @@ msgid "20010"
 msgstr ""
 
 #: mail.GoToJunk.display
-msgctxt "mail.GoToJunk.display"
 msgid "V,J"
 msgstr ""
 
 #: mail.GoToJunk.keycode
-msgctxt "mail.GoToJunk.keycode"
 msgid "86,74"
 msgstr ""
 
 #: mail.GoToJunk.description
-msgid "Go to Junk folder"
+msgid "Junk"
 msgstr ""
 
 #: mail.GoToJunk.sort
@@ -928,17 +971,15 @@ msgid "20025"
 msgstr ""
 
 #: mail.GoToSent.display
-msgctxt "mail.GoToSent.display"
 msgid "V,S"
 msgstr ""
 
 #: mail.GoToSent.keycode
-msgctxt "mail.GoToSent.keycode"
 msgid "86,83"
 msgstr ""
 
 #: mail.GoToSent.description
-msgid "Go to Sent folder"
+msgid "Sent"
 msgstr ""
 
 #: mail.GoToSent.sort
@@ -946,21 +987,35 @@ msgid "20030"
 msgstr ""
 
 #: mail.GoToTrash.display
-msgctxt "mail.GoToTrash.display"
 msgid "V,T"
 msgstr ""
 
 #: mail.GoToTrash.keycode
-msgctxt "mail.GoToTrash.keycode"
 msgid "86,84"
 msgstr ""
 
 #: mail.GoToTrash.description
-msgid "Go to Trash folder"
+msgid "Trash"
 msgstr ""
 
 #: mail.GoToTrash.sort
 msgid "20040"
+msgstr ""
+
+#: mail.LastUnread.display
+msgid "Shift+]"
+msgstr ""
+
+#: mail.LastUnread.keycode
+msgid "Shift+221"
+msgstr ""
+
+#: mail.LastUnread.description
+msgid "Last unread"
+msgstr ""
+
+#: mail.LastUnread.sort
+msgid "20192"
 msgstr ""
 
 #: mail.MarkRead.display
@@ -972,7 +1027,7 @@ msgid "77,82; 90"
 msgstr ""
 
 #: mail.MarkRead.description
-msgid "Mark messages as read"
+msgid "Mark read"
 msgstr ""
 
 #: mail.MarkRead.sort
@@ -988,51 +1043,23 @@ msgid "77,85; 88"
 msgstr ""
 
 #: mail.MarkUnread.description
-msgid "Mark messages as unread"
+msgid "Mark unread"
 msgstr ""
 
 #: mail.MarkUnread.sort
 msgid "20080"
 msgstr ""
 
-#: mail.MoveToFolder.display
-msgid ".,NNN; Shift+.,NNN"
-msgstr ""
-
-#: mail.MoveToFolder.keycode
-msgid "190,NNN; Shift+190,NNN"
-msgstr ""
-
-#: mail.MoveToFolder.description
-msgid ""
-"Move messages to the specified mail folder (set the folder in the \"Mail "
-"Folder Shortcuts\" tab)"
-msgstr ""
-
-#: mail.MoveToFolder.summary
-msgid "Move messages to the specified mail folder"
-msgstr ""
-
-#: mail.MoveToFolder.example
-msgid "will move selected messages to the {0} folder."
-msgstr ""
-
-#: mail.MoveToFolder.sort
-msgid "20140"
-msgstr ""
-
 #: mail.MoveToInbox.display
-msgctxt "mail.MoveToInbox.display"
-msgid ".,I; Shift+.,I"
+msgid ".,I"
 msgstr ""
 
 #: mail.MoveToInbox.keycode
-msgctxt "mail.MoveToInbox.keycode"
-msgid "190,73; Shift+190,73"
+msgid "190,73"
 msgstr ""
 
 #: mail.MoveToInbox.description
-msgid "Move messages to the Inbox folder"
+msgid "Move to Inbox"
 msgstr ""
 
 #: mail.MoveToInbox.sort
@@ -1040,17 +1067,15 @@ msgid "20130"
 msgstr ""
 
 #: mail.MoveToTrash.display
-msgctxt "mail.MoveToTrash.display"
-msgid ".,T; Shift+.,T"
+msgid ".,T"
 msgstr ""
 
 #: mail.MoveToTrash.keycode
-msgctxt "mail.MoveToTrash.keycode"
-msgid "190,84; Shift+190,84"
+msgid "190,84"
 msgstr ""
 
 #: mail.MoveToTrash.description
-msgid "Move messages to the Trash folder"
+msgid "Move to Trash"
 msgstr ""
 
 #: mail.MoveToTrash.sort
@@ -1058,51 +1083,83 @@ msgid "20110"
 msgstr ""
 
 #: mail.NextUnread.display
-msgid "["
-msgstr ""
-
-#: mail.NextUnread.keycode
-msgid "219"
-msgstr ""
-
-#: mail.NextUnread.description
-msgid "Select the next unread message"
-msgstr ""
-
-#: mail.NextUnread.sort
-msgid "20180"
-msgstr ""
-
-#: mail.PreviousUnread.display
 msgid "]"
 msgstr ""
 
-#: mail.PreviousUnread.keycode
+#: mail.NextUnread.keycode
 msgid "221"
 msgstr ""
 
-#: mail.PreviousUnread.description
-msgid "Select the previous unread message"
+#: mail.NextUnread.description
+msgid "Next unread"
 msgstr ""
 
-#: mail.PreviousUnread.sort
+#: mail.NextUnread.sort
 msgid "20190"
 msgstr ""
 
-#: mail.ReadingPane.display
-msgid "M,P"
+#: mail.PreviousUnread.display
+msgid "["
 msgstr ""
 
-#: mail.ReadingPane.keycode
-msgid "77,80"
+#: mail.PreviousUnread.keycode
+msgid "219"
 msgstr ""
 
-#: mail.ReadingPane.description
-msgid "Show/Hide the message reading pane"
+#: mail.PreviousUnread.description
+msgid "Previous unread"
 msgstr ""
 
-#: mail.ReadingPane.sort
+#: mail.PreviousUnread.sort
+msgid "20180"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.display
+msgid "M,P,B"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.keycode
+msgid "77,80,66"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.description
+msgid "Reading pane at bottom"
+msgstr ""
+
+#: mail.ReadingPaneAtBottom.sort
 msgid "20220"
+msgstr ""
+
+#: mail.ReadingPaneOff.display
+msgid "M,P,O"
+msgstr ""
+
+#: mail.ReadingPaneOff.keycode
+msgid "77,80,79"
+msgstr ""
+
+#: mail.ReadingPaneOff.description
+msgid "Turn off reading pane"
+msgstr ""
+
+#: mail.ReadingPaneOff.sort
+msgid "20226"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.display
+msgid "M,P,R"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.keycode
+msgid "77,80,82"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.description
+msgid "Reading pane on right"
+msgstr ""
+
+#: mail.ReadingPaneOnRight.sort
+msgid "20223"
 msgstr ""
 
 #: mail.Reply.display
@@ -1116,7 +1173,7 @@ msgid "82"
 msgstr ""
 
 #: mail.Reply.description
-msgid "Reply to sender"
+msgid "Reply"
 msgstr ""
 
 #: mail.Reply.sort
@@ -1124,21 +1181,61 @@ msgid "20150"
 msgstr ""
 
 #: mail.ReplyAll.display
-msgctxt "mail.ReplyAll.display"
 msgid "A"
 msgstr ""
 
 #: mail.ReplyAll.keycode
-msgctxt "mail.ReplyAll.keycode"
 msgid "65"
 msgstr ""
 
 #: mail.ReplyAll.description
-msgid "Reply to all recipients"
+msgid "Reply all"
 msgstr ""
 
 #: mail.ReplyAll.sort
 msgid "20160"
+msgstr ""
+
+#: mail.SelectNext.display
+msgid "Space; J"
+msgstr ""
+
+#: mail.SelectNext.keycode
+msgid "32; 74"
+msgstr ""
+
+#: mail.SelectNext.repeat
+msgctxt "mail.SelectNext.repeat"
+msgid "true"
+msgstr ""
+
+#: mail.SelectNext.description
+msgid "Select next item"
+msgstr ""
+
+#: mail.SelectNext.sort
+msgid "20172"
+msgstr ""
+
+#: mail.SelectPrevious.display
+msgid "K"
+msgstr ""
+
+#: mail.SelectPrevious.keycode
+msgid "75"
+msgstr ""
+
+#: mail.SelectPrevious.repeat
+msgctxt "mail.SelectPrevious.repeat"
+msgid "true"
+msgstr ""
+
+#: mail.SelectPrevious.description
+msgid "Select previous item"
+msgstr ""
+
+#: mail.SelectPrevious.sort
+msgid "20174"
 msgstr ""
 
 #: mail.ShowFragment.display
@@ -1152,7 +1249,7 @@ msgid "81"
 msgstr ""
 
 #: mail.ShowFragment.description
-msgid "Display the beginning of the selected message in a tooltip"
+msgid "Show snippet"
 msgstr ""
 
 #: mail.ShowFragment.sort
@@ -1168,10 +1265,6 @@ msgid "77,74"
 msgstr ""
 
 #: mail.Spam.description
-msgid "Mark messages as spam and move them to the Junk folder"
-msgstr ""
-
-#: mail.Spam.summary
 msgid "Mark as spam"
 msgstr ""
 
@@ -1188,7 +1281,7 @@ msgid "86,67"
 msgstr ""
 
 #: mail.ViewByConversation.description
-msgid "Display (\"view\") mail as a list of expandable conversations"
+msgid "Conversation view"
 msgstr ""
 
 #: mail.ViewByConversation.sort
@@ -1204,7 +1297,7 @@ msgid "86,77"
 msgstr ""
 
 #: mail.ViewByMessage.description
-msgid "Display mail as a list of messages"
+msgid "Message view"
 msgstr ""
 
 #: mail.ViewByMessage.sort
@@ -1220,11 +1313,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: conversationList.description
-msgid "List view of mail as expandable conversations"
-msgstr ""
-
-#: conversationList.summary
-msgid "Conversation List Mail View"
+msgid "Conversation List View"
 msgstr ""
 
 #: conversationList.sort
@@ -1258,7 +1347,7 @@ msgid "79"
 msgstr ""
 
 #: conversationList.Expand.description
-msgid "Show or hide a conversation's messages"
+msgid "Expand/collapse conversation"
 msgstr ""
 
 #: conversationList.Expand.sort
@@ -1281,13 +1370,74 @@ msgstr ""
 msgid "25020"
 msgstr ""
 
-#. # Map: compose
-#: compose.description
-msgid "Shortcuts in Mail Compose form"
+#: conversationList.FirstUnreadMsg.display
+msgid "Shift+Ctrl+["
 msgstr ""
 
-#: compose.summary
-msgid "Mail Compose"
+#: conversationList.FirstUnreadMsg.keycode
+msgid "Shift+Ctrl+219"
+msgstr ""
+
+#: conversationList.FirstUnreadMsg.description
+msgid "Select first unread message"
+msgstr ""
+
+#: conversationList.FirstUnreadMsg.sort
+msgid "25060"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.display
+msgid "Shift+Ctrl+]"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.keycode
+msgid "Shift+Ctrl+221"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.description
+msgid "Select last unread message"
+msgstr ""
+
+#: conversationList.LastUnreadMsg.sort
+msgid "25070"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.display
+msgid "Ctrl+]"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.keycode
+msgid "Ctrl+221"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.description
+msgid "Select next unread message"
+msgstr ""
+
+#: conversationList.NextUnreadMsg.sort
+msgid "25050"
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.display
+msgid "Ctrl+["
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.keycode
+msgid "Ctrl+219"
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.description
+msgid "Select previous unread message"
+msgstr ""
+
+#: conversationList.PreviousUnreadMsg.sort
+msgid "25040"
+msgstr ""
+
+#. # Map: compose
+#: compose.description
+msgctxt "compose.description"
+msgid "Compose"
 msgstr ""
 
 #: compose.sort
@@ -1303,7 +1453,7 @@ msgid "Ctrl+71"
 msgstr ""
 
 #: compose.AddressPicker.description
-msgid "Choose (\"get\") recipients from Address Book"
+msgid "Search for addresses"
 msgstr ""
 
 #: compose.AddressPicker.sort
@@ -1319,7 +1469,7 @@ msgid "Ctrl+77"
 msgstr ""
 
 #: compose.Attachment.description
-msgid "Add an attachment to the message"
+msgid "Add attachment"
 msgstr ""
 
 #: compose.Attachment.sort
@@ -1337,27 +1487,12 @@ msgid "27"
 msgstr ""
 
 #: compose.Cancel.description
-msgid "Cancel this message"
+msgctxt "compose.Cancel.description"
+msgid "Cancel"
 msgstr ""
 
 #: compose.Cancel.sort
 msgid "30020"
-msgstr ""
-
-#: compose.HighPriority.display
-msgid "Ctrl+P,Ctrl+H"
-msgstr ""
-
-#: compose.HighPriority.keycode
-msgid "Ctrl+80,Ctrl+72"
-msgstr ""
-
-#: compose.HighPriority.description
-msgid "Make the message high priority"
-msgstr ""
-
-#: compose.HighPriority.sort
-msgid "30090"
 msgstr ""
 
 #: compose.HtmlFormat.display
@@ -1371,60 +1506,28 @@ msgid "Ctrl+72"
 msgstr ""
 
 #: compose.HtmlFormat.description
-msgid "Switch between HTML and Text format for the body"
+msgctxt "compose.HtmlFormat.description"
+msgid "HTML/text format"
 msgstr ""
 
 #: compose.HtmlFormat.sort
 msgid "30060"
 msgstr ""
 
-#. # Alt-L conflicts on German Mac keyboard (bug 28221)
-#: compose.LowPriority.display
-msgid "Ctrl+P,Ctrl+L"
-msgstr ""
-
-#: compose.LowPriority.keycode
-msgid "Ctrl+80,Ctrl+76"
-msgstr ""
-
-#: compose.LowPriority.description
-msgid "Make the message low priority"
-msgstr ""
-
-#: compose.LowPriority.sort
-msgid "30110"
-msgstr ""
-
 #: compose.NewWindow.display
-msgid "Ctrl+W"
+msgid "Ctrl+D"
 msgstr ""
 
 #: compose.NewWindow.keycode
-msgid "Ctrl+87"
+msgid "Ctrl+68"
 msgstr ""
 
 #: compose.NewWindow.description
-msgid "Compose in a new window"
+msgid "Detach into new window"
 msgstr ""
 
 #: compose.NewWindow.sort
 msgid "30080"
-msgstr ""
-
-#: compose.NormalPriority.display
-msgid "Ctrl+P,Ctrl+N"
-msgstr ""
-
-#: compose.NormalPriority.keycode
-msgid "Ctrl+80,Ctrl+78"
-msgstr ""
-
-#: compose.NormalPriority.description
-msgid "Make the message normal priority"
-msgstr ""
-
-#: compose.NormalPriority.sort
-msgid "30100"
 msgstr ""
 
 #: compose.Save.display
@@ -1438,7 +1541,7 @@ msgid "Ctrl+83"
 msgstr ""
 
 #: compose.Save.description
-msgid "Save the message as a draft"
+msgid "Save draft"
 msgstr ""
 
 #: compose.Save.sort
@@ -1454,11 +1557,31 @@ msgid "Ctrl+13"
 msgstr ""
 
 #: compose.Send.description
-msgid "Send the message"
+msgid "Send"
 msgstr ""
 
 #: compose.Send.sort
 msgid "30010"
+msgstr ""
+
+#: compose.Shortcuts.display
+msgctxt "compose.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr ""
+
+#: compose.Shortcuts.keycode
+msgctxt "compose.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr ""
+
+#: compose.Shortcuts.description
+msgctxt "compose.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: compose.Shortcuts.sort
+msgctxt "compose.Shortcuts.sort"
+msgid "10270"
 msgstr ""
 
 #: compose.Spellcheck.display
@@ -1478,7 +1601,7 @@ msgid "Ctrl+88"
 msgstr ""
 
 #: compose.Spellcheck.description
-msgid "Check (\"examine\") spelling"
+msgid "Spellcheck"
 msgstr ""
 
 #: compose.Spellcheck.sort
@@ -1494,11 +1617,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: conversation.description
-msgid "Shortcuts in Mail Conversation View"
-msgstr ""
-
-#: conversation.summary
-msgid "Mail Conversation View"
+msgid "Conversation View"
 msgstr ""
 
 #: conversation.sort
@@ -1514,7 +1633,7 @@ msgid "Shift+39"
 msgstr ""
 
 #: conversation.NextConversation.description
-msgid "Show next conversation"
+msgid "Next conversation"
 msgstr ""
 
 #: conversation.NextConversation.sort
@@ -1530,7 +1649,7 @@ msgid "Shift+37"
 msgstr ""
 
 #: conversation.PreviousConversation.description
-msgid "Show the previous conversation"
+msgid "Previous conversation"
 msgstr ""
 
 #: conversation.PreviousConversation.sort
@@ -1554,10 +1673,6 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: contacts.description
-msgid "Shortcuts in Address Book"
-msgstr ""
-
-#: contacts.summary
 msgid "Address Book"
 msgstr ""
 
@@ -1576,7 +1691,8 @@ msgid "69"
 msgstr ""
 
 #: contacts.Edit.description
-msgid "Edit the selected contact"
+msgctxt "contacts.Edit.description"
+msgid "Edit"
 msgstr ""
 
 #: contacts.Edit.sort
@@ -1601,10 +1717,6 @@ msgstr ""
 
 #. # Map: editContact
 #: editContact.description
-msgid "Shortcuts in Edit Contact form"
-msgstr ""
-
-#: editContact.summary
 msgid "Edit Contact"
 msgstr ""
 
@@ -1623,7 +1735,8 @@ msgid "27"
 msgstr ""
 
 #: editContact.Cancel.description
-msgid "Cancel editing the contact"
+msgctxt "editContact.Cancel.description"
+msgid "Cancel"
 msgstr ""
 
 #: editContact.Cancel.sort
@@ -1641,7 +1754,8 @@ msgid "Ctrl+83"
 msgstr ""
 
 #: editContact.Save.description
-msgid "Save the contact"
+msgctxt "editContact.Save.description"
+msgid "Save"
 msgstr ""
 
 #: editContact.Save.sort
@@ -1657,7 +1771,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: calendar.description
-msgid "Shortcuts in Calendar"
+msgid "Calendar"
 msgstr ""
 
 #: calendar.sort
@@ -1675,7 +1789,8 @@ msgid "27"
 msgstr ""
 
 #: calendar.Cancel.description
-msgid "Close read-only appointment view"
+msgctxt "calendar.Cancel.description"
+msgid "Close"
 msgstr ""
 
 #: calendar.Cancel.sort
@@ -1691,7 +1806,7 @@ msgid "68; 49"
 msgstr ""
 
 #: calendar.DayView.description
-msgid "Show single-day view"
+msgid "Day view"
 msgstr ""
 
 #: calendar.DayView.sort
@@ -1716,6 +1831,22 @@ msgstr ""
 msgid "70010"
 msgstr ""
 
+#: calendar.CalListView.display
+msgid "L; 9"
+msgstr ""
+
+#: calendar.CalListView.keycode
+msgid "76; 57"
+msgstr ""
+
+#: calendar.CalListView.description
+msgid "List view"
+msgstr ""
+
+#: calendar.CalListView.sort
+msgid "70082"
+msgstr ""
+
 #: calendar.MonthView.display
 msgid "M; 3"
 msgstr ""
@@ -1725,7 +1856,7 @@ msgid "77; 51"
 msgstr ""
 
 #: calendar.MonthView.description
-msgid "Show month view"
+msgid "Month view"
 msgstr ""
 
 #: calendar.MonthView.sort
@@ -1743,7 +1874,7 @@ msgid "81"
 msgstr ""
 
 #: calendar.QuickAdd.description
-msgid "Create a quick appointment"
+msgid "Quick appointment creation"
 msgstr ""
 
 #: calendar.QuickAdd.sort
@@ -1761,7 +1892,8 @@ msgid "82"
 msgstr ""
 
 #: calendar.Refresh.description
-msgid "Refresh the calendar"
+msgctxt "calendar.Refresh.description"
+msgid "Refresh"
 msgstr ""
 
 #: calendar.Refresh.sort
@@ -1777,7 +1909,7 @@ msgid "83; 48"
 msgstr ""
 
 #: calendar.ScheduleView.description
-msgid "Show scheduling view"
+msgid "Scheduling view"
 msgstr ""
 
 #: calendar.ScheduleView.sort
@@ -1785,15 +1917,15 @@ msgid "70090"
 msgstr ""
 
 #: calendar.Today.display
-msgid "T"
+msgid "Y"
 msgstr ""
 
 #: calendar.Today.keycode
-msgid "84"
+msgid "89"
 msgstr ""
 
 #: calendar.Today.description
-msgid "Show today"
+msgid "Go to today"
 msgstr ""
 
 #: calendar.Today.sort
@@ -1809,7 +1941,7 @@ msgid "87; 55"
 msgstr ""
 
 #: calendar.WeekView.description
-msgid "Show week view"
+msgid "Week view"
 msgstr ""
 
 #: calendar.WeekView.sort
@@ -1825,74 +1957,11 @@ msgid "87,87; 53"
 msgstr ""
 
 #: calendar.WorkWeekView.description
-msgid "Show work-week view"
+msgid "Work week view"
 msgstr ""
 
 #: calendar.WorkWeekView.sort
 msgid "70070"
-msgstr ""
-
-#. # Map: tabView
-#: tabView.description
-msgid "Shortcuts for Tab Views (for example, Preferences)"
-msgstr ""
-
-#: tabView.summary
-msgid "Tab Views (e.g. Preferences)"
-msgstr ""
-
-#: tabView.sort
-msgid "110000"
-msgstr ""
-
-#: tabView.GoToTab.display
-msgctxt "tabView.GoToTab.display"
-msgid "Ctrl+NNN"
-msgstr ""
-
-#: tabView.GoToTab.keycode
-msgctxt "tabView.GoToTab.keycode"
-msgid "Ctrl+NNN"
-msgstr ""
-
-#: tabView.GoToTab.description
-msgid "Show the nth tab (leftmost tab is 1)"
-msgstr ""
-
-#: tabView.GoToTab.sort
-msgid "110030"
-msgstr ""
-
-#: tabView.NextTab.display
-msgid "Ctrl+J"
-msgstr ""
-
-#: tabView.NextTab.keycode
-msgid "Ctrl+74"
-msgstr ""
-
-#: tabView.NextTab.description
-msgid "Show the next tab"
-msgstr ""
-
-#: tabView.NextTab.sort
-msgid "110010"
-msgstr ""
-
-#: tabView.PreviousTab.display
-msgid "Ctrl+K"
-msgstr ""
-
-#: tabView.PreviousTab.keycode
-msgid "Ctrl+75"
-msgstr ""
-
-#: tabView.PreviousTab.description
-msgid "Show the previous tab"
-msgstr ""
-
-#: tabView.PreviousTab.sort
-msgid "110020"
 msgstr ""
 
 #. # Map: editAppointment
@@ -1903,31 +1972,11 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: editAppointment.description
-msgid "Shortcuts in Edit Appointment form"
-msgstr ""
-
-#: editAppointment.summary
 msgid "Edit Appointment"
 msgstr ""
 
 #: editAppointment.sort
 msgid "80000"
-msgstr ""
-
-#: editAppointment.AllDay.display
-msgid "Ctrl+A"
-msgstr ""
-
-#: editAppointment.AllDay.keycode
-msgid "Ctrl+65"
-msgstr ""
-
-#: editAppointment.AllDay.description
-msgid "Switch between timed and all-day appointment"
-msgstr ""
-
-#: editAppointment.AllDay.sort
-msgid "80030"
 msgstr ""
 
 #: editAppointment.Cancel.display
@@ -1941,7 +1990,8 @@ msgid "27"
 msgstr ""
 
 #: editAppointment.Cancel.description
-msgid "Cancel editing the appointment"
+msgctxt "editAppointment.Cancel.description"
+msgid "Cancel"
 msgstr ""
 
 #: editAppointment.Cancel.sort
@@ -1959,7 +2009,8 @@ msgid "Ctrl+72"
 msgstr ""
 
 #: editAppointment.HtmlFormat.description
-msgid "Switch between HTML and Text formats"
+msgctxt "editAppointment.HtmlFormat.description"
+msgid "HTML/text format"
 msgstr ""
 
 #: editAppointment.HtmlFormat.sort
@@ -1977,11 +2028,32 @@ msgid "Ctrl+83"
 msgstr ""
 
 #: editAppointment.Save.description
-msgid "Save the appointment"
+msgctxt "editAppointment.Save.description"
+msgid "Save"
 msgstr ""
 
 #: editAppointment.Save.sort
 msgid "80010"
+msgstr ""
+
+#: editAppointment.Shortcuts.display
+msgctxt "editAppointment.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr ""
+
+#: editAppointment.Shortcuts.keycode
+msgctxt "editAppointment.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr ""
+
+#: editAppointment.Shortcuts.description
+msgctxt "editAppointment.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: editAppointment.Shortcuts.sort
+msgctxt "editAppointment.Shortcuts.sort"
+msgid "10270"
 msgstr ""
 
 #. # Map: options
@@ -1992,10 +2064,6 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: options.description
-msgid "Shortcuts in Preferences"
-msgstr ""
-
-#: options.summary
 msgid "Preferences"
 msgstr ""
 
@@ -2014,7 +2082,8 @@ msgid "Ctrl+83"
 msgstr ""
 
 #: options.Save.description
-msgid "Save preferences for all Preferences tabs"
+msgctxt "options.Save.description"
+msgid "Save"
 msgstr ""
 
 #: options.Save.sort
@@ -2029,122 +2098,14 @@ msgid "global"
 msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
-#: mixed.DblClick.display
-msgctxt "mixed.DblClick.display"
+#: mixed.DoubleClick.display
+msgctxt "mixed.DoubleClick.display"
 msgid "O"
 msgstr ""
 
-#: mixed.DblClick.keycode
-msgctxt "mixed.DblClick.keycode"
+#: mixed.DoubleClick.keycode
+msgctxt "mixed.DoubleClick.keycode"
 msgid "79"
-msgstr ""
-
-#: mixed.Flag.display
-msgctxt "mixed.Flag.display"
-msgid "M,F"
-msgstr ""
-
-#: mixed.Flag.keycode
-msgctxt "mixed.Flag.keycode"
-msgid "77,70"
-msgstr ""
-
-#: mixed.Forward.display
-msgctxt "mixed.Forward.display"
-msgid "F"
-msgstr ""
-
-#: mixed.Forward.keycode
-msgctxt "mixed.Forward.keycode"
-msgid "70"
-msgstr ""
-
-#: mixed.GoToDrafts.display
-msgctxt "mixed.GoToDrafts.display"
-msgid "V,D"
-msgstr ""
-
-#: mixed.GoToDrafts.keycode
-msgctxt "mixed.GoToDrafts.keycode"
-msgid "86,68"
-msgstr ""
-
-#: mixed.GoToInbox.display
-msgid "V,I; I"
-msgstr ""
-
-#: mixed.GoToInbox.keycode
-msgid "86,73; 73"
-msgstr ""
-
-#: mixed.GoToJunk.display
-msgctxt "mixed.GoToJunk.display"
-msgid "V,J"
-msgstr ""
-
-#: mixed.GoToJunk.keycode
-msgctxt "mixed.GoToJunk.keycode"
-msgid "86,74"
-msgstr ""
-
-#: mixed.GoToSent.display
-msgctxt "mixed.GoToSent.display"
-msgid "V,S"
-msgstr ""
-
-#: mixed.GoToSent.keycode
-msgctxt "mixed.GoToSent.keycode"
-msgid "86,83"
-msgstr ""
-
-#: mixed.GoToTrash.display
-msgctxt "mixed.GoToTrash.display"
-msgid "V,T"
-msgstr ""
-
-#: mixed.GoToTrash.keycode
-msgctxt "mixed.GoToTrash.keycode"
-msgid "86,84"
-msgstr ""
-
-#: mixed.MoveToInbox.display
-msgctxt "mixed.MoveToInbox.display"
-msgid ".,I; Shift+.,I"
-msgstr ""
-
-#: mixed.MoveToInbox.keycode
-msgctxt "mixed.MoveToInbox.keycode"
-msgid "190,73; Shift+190,73"
-msgstr ""
-
-#: mixed.MoveToTrash.display
-msgctxt "mixed.MoveToTrash.display"
-msgid ".,T; Shift+.,T"
-msgstr ""
-
-#: mixed.MoveToTrash.keycode
-msgctxt "mixed.MoveToTrash.keycode"
-msgid "190,84; Shift+190,84"
-msgstr ""
-
-#: mixed.Reply.display
-msgctxt "mixed.Reply.display"
-msgid "R"
-msgstr ""
-
-#: mixed.Reply.keycode
-msgctxt "mixed.Reply.keycode"
-msgid "82"
-msgstr ""
-
-#: mixed.ReplyAll.display
-msgctxt "mixed.ReplyAll.display"
-msgid "A"
-msgstr ""
-
-#: mixed.ReplyAll.keycode
-msgctxt "mixed.ReplyAll.keycode"
-msgid "65"
 msgstr ""
 
 #. # Map: notebook
@@ -2156,10 +2117,6 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: notebook.description
-msgid "Shortcuts for Documents"
-msgstr ""
-
-#: notebook.summary
 msgid "Documents"
 msgstr ""
 
@@ -2178,7 +2135,8 @@ msgid "69"
 msgstr ""
 
 #: notebook.Edit.description
-msgid "Edit this page"
+msgctxt "notebook.Edit.description"
+msgid "Edit"
 msgstr ""
 
 #: notebook.Edit.sort
@@ -2196,11 +2154,79 @@ msgid "82"
 msgstr ""
 
 #: notebook.Refresh.description
-msgid "Refresh the page"
+msgctxt "notebook.Refresh.description"
+msgid "Refresh"
 msgstr ""
 
 #: notebook.Refresh.sort
 msgid "100020"
+msgstr ""
+
+#. # Map: editPage
+#: editPage.description
+msgid "Edit Notebook Page"
+msgstr ""
+
+#: editPage.sort
+msgid "100050"
+msgstr ""
+
+#: editPage.Cancel.display
+msgctxt "editPage.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: editPage.Cancel.keycode
+msgctxt "editPage.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: editPage.Cancel.description
+msgctxt "editPage.Cancel.description"
+msgid "Cancel"
+msgstr ""
+
+#: editPage.Cancel.sort
+msgid "100060"
+msgstr ""
+
+#: editPage.Save.display
+msgctxt "editPage.Save.display"
+msgid "Ctrl+S"
+msgstr ""
+
+#: editPage.Save.keycode
+msgctxt "editPage.Save.keycode"
+msgid "Ctrl+83"
+msgstr ""
+
+#: editPage.Save.description
+msgctxt "editPage.Save.description"
+msgid "Save"
+msgstr ""
+
+#: editPage.Save.sort
+msgid "100070"
+msgstr ""
+
+#: editPage.Shortcuts.display
+msgctxt "editPage.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr ""
+
+#: editPage.Shortcuts.keycode
+msgctxt "editPage.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr ""
+
+#: editPage.Shortcuts.description
+msgctxt "editPage.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr ""
+
+#: editPage.Shortcuts.sort
+msgctxt "editPage.Shortcuts.sort"
+msgid "10270"
 msgstr ""
 
 #. # Map: tasks
@@ -2212,10 +2238,6 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: tasks.description
-msgid "Shortcuts for Tasks"
-msgstr ""
-
-#: tasks.summary
 msgid "Tasks"
 msgstr ""
 
@@ -2232,7 +2254,7 @@ msgid "77,67"
 msgstr ""
 
 #: tasks.MarkComplete.description
-msgid "Mark task as completed"
+msgid "Mark completed"
 msgstr ""
 
 #: tasks.MarkComplete.sort
@@ -2250,7 +2272,7 @@ msgid "77,85"
 msgstr ""
 
 #: tasks.MarkUncomplete.description
-msgid "Mark task as not completed"
+msgid "Mark not completed"
 msgstr ""
 
 #: tasks.MarkUncomplete.sort
@@ -2259,10 +2281,6 @@ msgstr ""
 
 #. # Map: editTask
 #: editTask.description
-msgid "Shortcuts in Edit Task form"
-msgstr ""
-
-#: editTask.summary
 msgid "Edit Task"
 msgstr ""
 
@@ -2281,7 +2299,8 @@ msgid "27"
 msgstr ""
 
 #: editTask.Cancel.description
-msgid "Cancel editing the task"
+msgctxt "editTask.Cancel.description"
+msgid "Cancel"
 msgstr ""
 
 #: editTask.Cancel.sort
@@ -2299,7 +2318,8 @@ msgid "Ctrl+83"
 msgstr ""
 
 #: editTask.Save.description
-msgid "Save the task"
+msgctxt "editTask.Save.description"
+msgid "Save"
 msgstr ""
 
 #: editTask.Save.sort
@@ -2315,7 +2335,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: voicemail.description
-msgid "Shortcuts in Voice Mail View"
+msgid "Voice Mail View"
 msgstr ""
 
 #: voicemail.sort
@@ -2334,7 +2354,7 @@ msgstr ""
 
 #: voicemail.CallManager.description
 msgctxt "voicemail.CallManager.description"
-msgid "Go to the Call Manager"
+msgid "Call Manager"
 msgstr ""
 
 #: voicemail.CallManager.sort
@@ -2342,15 +2362,17 @@ msgid "45050"
 msgstr ""
 
 #: voicemail.Download.display
+msgctxt "voicemail.Download.display"
 msgid "S"
 msgstr ""
 
 #: voicemail.Download.keycode
+msgctxt "voicemail.Download.keycode"
 msgid "83"
 msgstr ""
 
 #: voicemail.Download.description
-msgid "Save the voice mail message to your computer"
+msgid "Download message"
 msgstr ""
 
 #: voicemail.Download.sort
@@ -2368,7 +2390,7 @@ msgid "70"
 msgstr ""
 
 #: voicemail.Forward.description
-msgid "Forward the voice mail message by email"
+msgid "Forward as email"
 msgstr ""
 
 #: voicemail.Forward.sort
@@ -2384,7 +2406,7 @@ msgid "77,72"
 msgstr ""
 
 #: voicemail.MarkHeard.description
-msgid "Mark voice mail messages as heard"
+msgid "Mark heard"
 msgstr ""
 
 #: voicemail.MarkHeard.sort
@@ -2402,7 +2424,7 @@ msgid "77,85"
 msgstr ""
 
 #: voicemail.MarkUnheard.description
-msgid "Mark voice mail messages as unheard"
+msgid "Mark unheard"
 msgstr ""
 
 #: voicemail.MarkUnheard.sort
@@ -2420,7 +2442,7 @@ msgid "13"
 msgstr ""
 
 #: voicemail.Play.description
-msgid "Play the selected voice mail message"
+msgid "Play"
 msgstr ""
 
 #: voicemail.Play.sort
@@ -2438,7 +2460,8 @@ msgid "80"
 msgstr ""
 
 #: voicemail.Print.description
-msgid "Print the list of voice mail messages"
+msgctxt "voicemail.Print.description"
+msgid "Print"
 msgstr ""
 
 #: voicemail.Print.sort
@@ -2456,7 +2479,7 @@ msgid "82"
 msgstr ""
 
 #: voicemail.Reply.description
-msgid "Reply by email to the sender of the voice mail message"
+msgid "Reply by email"
 msgstr ""
 
 #: voicemail.Reply.sort
@@ -2472,7 +2495,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: call.description
-msgid "Shortcuts in Call List View"
+msgid "Call List View"
 msgstr ""
 
 #: call.sort
@@ -2491,7 +2514,7 @@ msgstr ""
 
 #: call.CallManager.description
 msgctxt "call.CallManager.description"
-msgid "Go to the Call Manager"
+msgid "Call Manager"
 msgstr ""
 
 #: call.CallManager.sort
@@ -2509,7 +2532,8 @@ msgid "80"
 msgstr ""
 
 #: call.Print.description
-msgid "Print the list of calls"
+msgctxt "call.Print.description"
+msgid "Print"
 msgstr ""
 
 #: call.Print.sort

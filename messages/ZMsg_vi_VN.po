@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:44+0700\n"
+"POT-Creation-Date: 2014-03-06 00:47+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -11,13 +11,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2005, 2006, 2007, 2008, 2010 Zimbra, Inc.
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
 #. #
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.3 ("License"); you may not use this file except in
@@ -39,7 +39,7 @@ msgstr "Tài khoản đang trong chế độ bảo trì"
 #: BAD_JSON_RESPONSE
 msgctxt "BAD_JSON_RESPONSE"
 msgid "A network error has occurred."
-msgstr "Một lỗi mạng đã xảy ra."
+msgstr "Một lỗi mạng đã được xảy ra."
 
 #: EMPTY_RESPONSE
 msgid "Cannot connect to server."
@@ -69,7 +69,7 @@ msgstr ""
 "và sau đó gõ lại tên người dùng và mật khẩu hiện thời."
 
 #: account.CHANGE_PASSWORD
-msgid "Your password in no longer valid. Please choose a new password."
+msgid "Your password is no longer valid. Please choose a new password."
 msgstr "Mật khẩu của bạn không còn hợp lệ nữa. Hãy chọn một mật khẩu mới."
 
 #: account.INVALID_PASSWORD
@@ -78,11 +78,11 @@ msgstr "Bạn vừa nhập một mật khẩu không hợp lệ."
 
 #: account.INVALID_PREF_NAME
 msgid "Invalid preference name."
-msgstr "Tên tuỳ chọn không hợp lệ."
+msgstr "Tên tham chiếu không hợp lệ."
 
 #: account.INVALID_PREF_VALUE
 msgid "Invalid preference value."
-msgstr "Giá trị tuỳ chọn không hợp lệ."
+msgstr "Giá trị tham chiếu không hợp lệ."
 
 #: account.MAINTENANCE_MODE
 msgctxt "account.MAINTENANCE_MODE"
@@ -91,16 +91,16 @@ msgstr "Tài khoản này hiện thời đang trong chế độ bảo trì."
 
 #: account.NO_SUCH_ACCOUNT
 msgid "No such account exists."
-msgstr "Không có tài khoản như vậy tồn tại."
+msgstr "Không có tài khoản nào như vậy tồn tại."
 
 #: account.NO_SUCH_SAVED_SEARCH
 msgid "No such saved search exists."
-msgstr "Không có tìm kiếm đã lưu như vậy tồn tại."
+msgstr "Không việc tìm kiếm được ghi như vậy tồn tại."
 
 #: account.ACCT_NO_SUCH_TAG
 msgctxt "account.ACCT_NO_SUCH_TAG"
 msgid "No such tag exists."
-msgstr "Không có thẻ nào như vậy tồi tại."
+msgstr "Không thẻ nào như vậy tồi tại."
 
 #: account.TOO_MANY_IDENTITIES
 msgid ""
@@ -110,7 +110,7 @@ msgstr "Định danh không thể được tạo vì bạn đã quá giới hạ
 
 #: account.PASSWORD_CHANGE_TOO_SOON
 msgid "Password cannot be changed too soon."
-msgstr "Mật khẩu không thể thay đổi quá sớm."
+msgstr "Mật khẩu không thể được thay đổi quá sớm."
 
 #: account.PASSWORD_LOCKED
 msgid ""
@@ -127,6 +127,46 @@ msgid ""
 msgstr ""
 "Mật khẩu mà bạn đã gửi vừa mới được sử dụng gần đây. Hãy chọn một mật khẩu "
 "khác."
+
+#. # {0} = filename
+#: formatter.INVALID_FORMAT
+msgid "Invalid file format for file \"{0}\"."
+msgstr "Định dạng tập tin không hợp lệ đối với tập tin \"{0}\"."
+
+#. # {0} = view, {1} = folder name
+#: formatter.INVALID_TYPE
+msgid "Folder \"{1}\" cannot contain items of type \"{0}\"."
+msgstr "Thư mục \"{1}\" không thể chứa các mục có kiểu \"{0}\"."
+
+#. # {0} = item name
+#: formatter.MISMATCHED_META
+msgid "Meta information for item \"{0}\" does not match content."
+msgstr "Thông tin meta cho mục \"{0}\" không khớp với nội dung."
+
+#: formatter.MISMATCHED_SIZE
+msgid "Size of ignored item \"{0}\" does not match."
+msgstr "Kích thước của mục đã bỏ \"{0}\" không khớp."
+
+#: formatter.MISMATCHED_TYPE
+msgid "Cannot overwrite item \"{0}\" of different type."
+msgstr "Không thể ghi đè lên mục  \"{0}\" do khác kiểu."
+
+#: formatter.MISSING_BLOB
+msgid "Content for item \"{0}\" is missing."
+msgstr "Nội dung của mục \"{0}\" đang thiếu."
+
+#: formatter.MISSING_META
+msgid "Meta information for item \"{0}\" is missing."
+msgstr "Thông tin meta của mục \"{0}\" đang thiếu."
+
+#: formatter.MISSING_VCARD_FIELDS
+msgid "Contact item \"{0}\" does not contain any fields."
+msgstr "Mục liên hệ \"{0}\" không chứa bất kỳ trường nào."
+
+#. # {0} = item name, {1} = original error message
+#: formatter.UNKNOWN_ERROR
+msgid "Unknown error for item \"{0}\": {1}"
+msgstr "Lỗi không biết của mục \"{0}\": {1}"
 
 #. # The im.lower_case messages are received as part of a chat message
 #: im.forbidden
@@ -183,11 +223,48 @@ msgid "Messages are not accepted by the service."
 msgstr "Các thông điệp không được chấp nhận bởi dịch vụ."
 
 #: im.undefined_condition
-msgid "An undefined error occurred."
+msgid "An undefined error occurred. "
 msgstr "Một lỗi chưa định nghĩa đã xảy ra."
 
 #: im.unknown_error
 msgid "An unknown error occurred."
+msgstr "Một lỗi không biết đã xảy ra."
+
+#. # The following errors happen when trying to join a chat room
+#: im.Banned
+msgid "You have been banned from the room."
+msgstr "Bạn đã bị cấm từ phòng."
+
+#: im.MaxUsers
+msgid "The room has reached capacity."
+msgstr "Phòng này đầy."
+
+#: im.MustUseReservedRoomnick
+msgid "You must use a reserved nickname."
+msgstr "Bạn phải sử dụng một biệt hiệu có trước."
+
+#: im.NicknameConflict
+msgid "Someone else is already using your nickname."
+msgstr "Ai đó đã sử dụng biệt danh của bạn."
+
+#: im.NoSuchRoom
+msgid "No such room."
+msgstr "Không có phòng như vậy."
+
+#: im.NotAllowed
+msgid "You are not allowed to create the room."
+msgstr "Bạn không được phép tạo một phòng."
+
+#: im.NotAMember
+msgid "The room is invite-only, and you aren't a member."
+msgstr "Phòng chỉ mời, và bạn phải là một thành viên."
+
+#: im.PasswordRequired
+msgid "A password is required to enter the room."
+msgstr "Cần có một mật khẩu để vào phòng."
+
+#: im.Unknown
+msgid "Unknown error."
 msgstr "Một lỗi không biết đã xảy ra."
 
 #: im.INVALID_ADDRESS
@@ -229,7 +306,7 @@ msgstr ""
 
 #: mail.NO_SUCH_CONV
 msgid "No such conversation exists."
-msgstr "Không có cuộc đàm thoại như vậy tồn tại."
+msgstr "Không có cuộc đàm luận như vậy tồn tại."
 
 #: mail.NO_SUCH_FOLDER
 msgid "No such folder exists."
@@ -250,16 +327,17 @@ msgstr "Không có phần thông điệp như vậy tồn tại."
 #: mail.NO_SUCH_TAG
 msgctxt "mail.NO_SUCH_TAG"
 msgid "No such tag exists."
-msgstr "Không có thẻ nào như vậy tồn tại."
+msgstr "Không có thẻ như vậy tồn tại."
 
 #: mail.QUERY_PARSE_ERROR
 msgid "Unable to parse the search query."
-msgstr "Không thể phân tích truy vấn tìm kiếm."
+msgstr "Không thể phân tích chuỗi truy vấn tìm kiếm."
 
 #: mail.QUOTA_EXCEEDED
 msgid ""
 "Your message could not be sent because you have exceeded your mail quota."
-msgstr "Thông điệp của bạn không thể được gửi vì bạn đã quá hạn ngạch lưu thư."
+msgstr ""
+"Thông điệp của bạn không thể được gửi vì bạn bạn đã quá hạn ngạch lưu mail."
 
 #: mail.TOO_MANY_CONTACTS
 msgid ""
@@ -268,17 +346,17 @@ msgstr "Liên hệ không thể được tạo bởi vì bạn đã quá hạn n
 
 #: mail.TOO_MANY_QUERY_TERMS_EXPANDED
 msgid "Please be more specific in your search criteria."
-msgstr "Hãy chỉ định thêm trong tiêu chí tìm kiếm của bạn."
+msgstr "Hãy chỉ định thêm trong tiêu chuẩn tìm kiếm của bạn."
 
 #: mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS
 msgctxt "mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS"
 msgid "Unable to import. The chosen file may be invalid."
-msgstr "Không thể nhập. Tập tin được chọn có thể không hợp lệ."
+msgstr "Không thể nhập. File được chọn có thể không hợp lệ."
 
 #: mail.MAIL_UNABLE_TO_IMPORT_CONTACTS
 msgctxt "mail.MAIL_UNABLE_TO_IMPORT_CONTACTS"
 msgid "Unable to import. The chosen file may be invalid."
-msgstr "Không thể nhập. Tập tin được chọn có thể không hợp lệ."
+msgstr "Không thể nhập. File được chọn có thể không hợp lệ."
 
 #: mail.SEND_FAILURE
 msgid "Could not send message: {0}"
@@ -286,11 +364,11 @@ msgstr "Không thể gửi thông điệp: {0}"
 
 #: mail.SEND_ABORTED_ADDRESS_FAILURE
 msgid "Could not send message due to invalid address(es)"
-msgstr "Không thể gửi thông điệp do địa chỉ không hợp lệ"
+msgstr "Không thể gửi thông điệp bởi vì địa chỉ không hợp lệ"
 
 #: mail.TOO_MANY_TAGS
 msgid "A tag could not be created because you have exceeded the limit."
-msgstr "Một thẻ không thể được tạo vì bạn đã vượt qua giới hạn."
+msgstr "Một thẻ không thể được tạo bởi vị bạn đã vượt quá giới hạn."
 
 #: offline.ONLINE_ONLY_OP
 msgid ""
@@ -306,28 +384,28 @@ msgstr "Một lỗi phân tích vừa xảy ra."
 
 #: service.PERM_DENIED
 msgid "Permission denied."
-msgstr "Quyền bị từ chối."
+msgstr "Quyền truy cập bị từ chối."
 
 #: service.FAILURE
 msgctxt "service.FAILURE"
 msgid "A network service error has occurred."
-msgstr "Một lỗi dịch vụ mạng đã xảy ra."
+msgstr "Một lỗi dịch vụ mạng vừa xảy ra."
 
 #: service.INVALID_REQUEST
 msgid "An invalid request was made."
-msgstr "Một yêu cầu không hợp lệ đã được thực hiện."
+msgstr "Một yêu cầu không hợp lệ vừa thực hiện."
 
 #: service.UNKNOWN_DOCUMENT
 msgid "Server error (unknown command sent to server)."
-msgstr "Lỗi máy chủ (chưa biết lệnh được gửi đến máy chủ)."
+msgstr "Lỗi máy chủ (Lệnh không biết đã gửi tới máy chủ)."
 
 #: service.RESOURCE_UNREACHABLE
 msgid "Resource unreachable."
-msgstr "Tài nguyên không thể thấy được."
+msgstr "Tài nguyên không lấy được."
 
 #: service.TEMPORARILY_UNAVAILABLE
 msgid "Service temporarily unavailable."
-msgstr "Dịch vụ tạm thời không có sẵn."
+msgstr "Dịch vụ tạm thời không có."
 
 #: service.AUTH_REQUIRED
 msgid "Authentication Required"
@@ -335,55 +413,55 @@ msgstr "Yêu cầu xác thực"
 
 #: service.AUTH_EXPIRED
 msgid "Your session has expired. Please login again."
-msgstr "Phiên của bạn đã hết hạn. Vui lòng đăng nhập lại."
+msgstr "Phiên của bạn vừa hết hạn. Vui lòng đăng nhập lại."
 
 #: service.WRONG_HOST
 msgid "Request was sent to the wrong server."
-msgstr "Yêu cầu đã được gửi đến máy chủ sai."
+msgstr "Yêu cầu đã được gửi tới một máy chủ sai."
 
 #: service.NON_READONLY_OPERATION_DENIED
 msgid "The server is in read-only mode."
-msgstr "Máy chủ trong chế độ chỉ đọc."
+msgstr "Mãy chủ đang trong chế độ chỉ đọc."
 
 #: service.PROXY_ERROR
 msgid "Proxy error."
-msgstr "Lỗi proxy."
+msgstr "Lỗi uỷ quyền."
 
 #: service.TOO_MANY_HOPS
 msgid "Too many hops between servers."
-msgstr "Quá nhiều chặng giữa các máy chủ."
+msgstr "Quá nhiều hops giữa các máy chủ."
 
 #: service.ALREADY_IN_PROGRESS
 msgid "Operation already in progress."
-msgstr "Hoạt động đã được tiến hành."
+msgstr "Thao tác đang thực hiện."
 
 #: service.NOT_IN_PROGRESS
 msgid "Operation not in progress."
-msgstr "Hoạt động không được tiến hành."
+msgstr "Thao tác đang không thực hiện."
 
 #: service.INTERRUPTED
 msgid "The operation has been interrupted"
-msgstr "Các hoạt động đã bị gián đoạn"
+msgstr "Thao tác đã bị ngắt"
 
 #: service.NO_SPELL_CHECK_URL
 msgid "No spell check server defined."
-msgstr "Không có máy chủ kiểm tra chính tả được định nghĩa."
+msgstr "Không có máy chủ kiểm tra chính tả nào được định nghĩa."
 
 #: voice.UNABLE_TO_RETRIEVE_PROFILE_SUMMARY
 msgid ""
 "The system is currently unable to complete your request. We apologize for "
 "this inconvenience."
 msgstr ""
-"Hệ thống này hiện nay không thể hoàn thành yêu cầu của bạn. Chúng tôi xin "
-"lỗi vì bất tiện này."
+"Hệ thống hiện thời không thể hoàn thành yêu cầu của bạn. Chúng tôi lấy làm "
+"tiếc về sự phiền phức này."
 
 #: voice.UNABLE_TO_RETRIEVE_CALLLOGS
 msgid ""
 "We are currently unable to display call records. We apologize for this "
 "inconvenience."
 msgstr ""
-"Chúng tôi hiện không thể hiển thị bản ghi cuộc gọi. Chúng tôi xin lỗi vì bất "
-"tiện này."
+"Chúng tôi hiện thời không thể hiển thị bản ghi cuộc gọi. Chúng tôi lấy làm "
+"tiếc về sự phiền phức này."
 
 #: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_FOLDER
 msgid "We are temporarily unable to display voice mail records."
@@ -395,8 +473,8 @@ msgid ""
 "We are temporarily unable to forward calls. We apologize for this "
 "inconvenience."
 msgstr ""
-"Chung tôi tạm thời không thể chuyển tiếp các cuộc gọi. Chúng tôi xin lỗi vì "
-"bất tiện này."
+"Chúng tôi tạm thời không thể chuyển tiếp cuộc gọi. Chúng tôi lấy làm tiếc về "
+"sự phiền phức này."
 
 #: voice.UNABLE_TO_MODIFY_CALL_FEATURES
 msgctxt "voice.UNABLE_TO_MODIFY_CALL_FEATURES"
@@ -404,25 +482,26 @@ msgid ""
 "We are temporarily unable to forward calls. We apologize for this "
 "inconvenience."
 msgstr ""
-"Chung tôi tạm thời không thể chuyển tiếp các cuộc gọi. Chúng tôi xin lỗi vì "
-"bất tiện này."
+"Chúng tôi tạm thời không thể chuyển tiếp cuộc gọi. Chúng tôi lấy làm tiếc về "
+"sự phiền phức này."
 
 #: voice.UNABLE_TO_MODIFY_VOICEMAIL_PREFS
 msgid ""
 "An error occurred while attempting to update your voice mail preferences. "
 "Please try again."
 msgstr ""
-"Một lỗi đã xảy ra khi cố gắng cập nhật tuỳ chọn thư thoại của bạn. Xin vui "
-"lòng thử lại."
+"Một lỗi đã xay ra trong khi cố gắng cập nhật tham chiếu thư thoại của bạn. "
+"Hãy thử lại."
 
 #: voice.UNABLE_TO_FORWARD_VOICEMAIL
 msgid "Your email could not be forwarded at this time. Please try again later."
 msgstr ""
-"Email của bạn không thể được chuyển tiếp vào lúc này. Vui lòng thử lại sau."
+"Mail của bạn không thể được chuyển tiếp trong thời điểm hiện tại. Hãy thử "
+"lại sau."
 
 #: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
 msgid "Unable to retrieve call features."
-msgstr "Không thể nhận các tính năng gọi."
+msgstr "Không thể các nhận đặc điểm cuộc gọi."
 
 #: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_CONTENT
 msgid "Unable to retrieve voice mail content."
@@ -430,7 +509,7 @@ msgstr "Không thể nhận nội dung thư thoại."
 
 #: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_PREFS
 msgid "Unable to retrieve voice mail preferences."
-msgstr "Không thể nhận các tuỳ chọn thư thoại."
+msgstr "Không thể nhận tùy chọn thư thoại."
 
 #: voice.UNABLE_TO_RETRIEVE_VOICEMAIL_SUMMARY
 msgid "Unable to retrieve voice mail summary."
@@ -462,7 +541,7 @@ msgstr "Một lỗi dịch vụ mạng vừa xảy ra (zclient/io)."
 
 #: ztaglib.TAG_EXCEPTION
 msgid "A client error occurred. Please try again."
-msgstr "Một lỗi trình khách đã xảy ra. Hãy thử lại."
+msgstr "Một lỗi viếng thăm vừa xảy ra. Hãy thử lại."
 
 #: unknownError
 msgid "An unknown error ({0}) has occurred."
