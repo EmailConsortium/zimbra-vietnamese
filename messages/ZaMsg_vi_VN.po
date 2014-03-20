@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
@@ -3229,11 +3229,11 @@ msgstr "Ngưỡng phần trăm cho thông điệp cảnh bảo chỉ tiêu"
 
 #: LBL_zimbraQuotaWarnInterval
 msgid "Minimum duration of time between quota warnings:"
-msgstr "Khoảng thời gian tối thiểu giữa các cảnh báo chỉ tiêu:"
+msgstr "Thời lượng tối thiểu giữa các cảnh báo chỉ tiêu:"
 
 #: MSG_zimbraQuotaWarnInterval
 msgid "Minimum duration of time between quota warnings "
-msgstr "Khoảng thời gian tối thiểu giữa các cảnh báo chỉ tiêu"
+msgstr "Thời lượng tối thiểu giữa các cảnh báo chỉ tiêu"
 
 #: LBL_zimbraQuotaWarnMessage
 msgid "Quota warning message template:"
@@ -8121,11 +8121,11 @@ msgstr "Nguồn dữ liệu"
 
 #: MSG_zimbraDataSourceMinPollingInterval
 msgid "Shortest allowed duration for any polling interval"
-msgstr "Khoảng thời gian ngắn nhất cho phép bất kỳ khoảng thăm dò"
+msgstr "Thời lượng ngắn nhất cho phép bất kỳ khoảng thăm dò"
 
 #: LBL_zimbraDataSourceMinPollingInterval
 msgid "Shortest allowed duration for any polling interval:"
-msgstr "Khoảng thời gian ngắn nhất cho phép bất kỳ khoảng thăm dò:"
+msgstr "Thời lượng ngắn nhất cho phép bất kỳ khoảng thăm dò:"
 
 #: NAD_AutoSaveDraft
 msgid "Auto Save Draft"

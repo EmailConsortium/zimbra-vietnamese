@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #
@@ -3058,11 +3058,11 @@ msgstr "Người tham dự {0} đã được thêm"
 
 #: duration
 msgid "Duration"
-msgstr "Thời gian"
+msgstr "Thời lượng"
 
 #: durationLabel
 msgid "Duration:"
-msgstr "Thời gian:"
+msgstr "Thời lượng:"
 
 #: durationDays
 msgctxt "durationDays"
@@ -10170,7 +10170,7 @@ msgstr "Ngủ tất cả cho:"
 
 #: sortByDuration
 msgid "Sort by Duration"
-msgstr "Sắp xếp theo thời gian"
+msgstr "Sắp xếp theo thời lượng"
 
 #: sortByFrom
 msgid "Sort by From"

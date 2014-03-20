@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #
@@ -2228,7 +2228,7 @@ msgstr "Bản nháp"
 
 #: duration
 msgid "Duration"
-msgstr "Thời gian"
+msgstr "Thời lượng"
 
 #: durationDisplayMinutes
 msgid "{0} minutes, {1} seconds"
@@ -5201,7 +5201,7 @@ msgstr ""
 "\n"
 "A tiếng nói của khách hàng đã gửi cho bạn một thông điệp thư thoại mới. Bạn "
 "có thể nghe thư thoại bằng cách đơn giản là mở tập tin đính kèm.\n"
-"Từ: {0}  |  Thời gian: {1}  |  \tĐã nhận: {2}\n"
+"Từ: {0}  |  Thời lượng: {1}  |  \tĐã nhận: {2}\n"
 "\n"
 "http://www.zimbra.com"
 
