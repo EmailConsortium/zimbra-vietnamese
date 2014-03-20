@@ -1,10 +1,10 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.3 ("License"); you may not use this file except in
+#. # Version 1.4 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. # 
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:45+0700\n"
+"POT-Creation-Date: 2014-03-16 21:18+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -542,22 +542,27 @@ msgid "30020"
 msgstr ""
 
 #: list.PageUp.display
+msgctxt "list.PageUp.display"
 msgid "PageUp"
 msgstr ""
 
 #: list.PageUp.display.mac
+msgctxt "list.PageUp.display.mac"
 msgid "Alt + ArrowUp"
 msgstr ""
 
 #: list.PageUp.keycode
+msgctxt "list.PageUp.keycode"
 msgid "33"
 msgstr ""
 
 #: list.PageUp.keycode.mac
+msgctxt "list.PageUp.keycode.mac"
 msgid "Alt+38"
 msgstr ""
 
 #: list.PageUp.description
+msgctxt "list.PageUp.description"
 msgid "Scroll up one page"
 msgstr ""
 
@@ -566,22 +571,27 @@ msgid "30023"
 msgstr ""
 
 #: list.PageDown.display
+msgctxt "list.PageDown.display"
 msgid "PageDown"
 msgstr ""
 
 #: list.PageDown.display.mac
+msgctxt "list.PageDown.display.mac"
 msgid "Alt + ArrowDown"
 msgstr ""
 
 #: list.PageDown.keycode
+msgctxt "list.PageDown.keycode"
 msgid "34"
 msgstr ""
 
 #: list.PageDown.keycode.mac
+msgctxt "list.PageDown.keycode.mac"
 msgid "Alt+40"
 msgstr ""
 
 #: list.PageDown.description
+msgctxt "list.PageDown.description"
 msgid "Scroll down one page"
 msgstr ""
 
@@ -800,6 +810,64 @@ msgstr ""
 
 #: menu.SelectPrevious.sort
 msgid "20020"
+msgstr ""
+
+#: menu.PageUp.display
+msgctxt "menu.PageUp.display"
+msgid "PageUp"
+msgstr ""
+
+#: menu.PageUp.display.mac
+msgctxt "menu.PageUp.display.mac"
+msgid "Alt + ArrowUp"
+msgstr ""
+
+#: menu.PageUp.keycode
+msgctxt "menu.PageUp.keycode"
+msgid "33"
+msgstr ""
+
+#: menu.PageUp.keycode.mac
+msgctxt "menu.PageUp.keycode.mac"
+msgid "Alt+38"
+msgstr ""
+
+#: menu.PageUp.description
+msgctxt "menu.PageUp.description"
+msgid "Scroll up one page"
+msgstr ""
+
+#: menu.PageUp.sort
+msgid "20023"
+msgstr ""
+
+#: menu.PageDown.display
+msgctxt "menu.PageDown.display"
+msgid "PageDown"
+msgstr ""
+
+#: menu.PageDown.display.mac
+msgctxt "menu.PageDown.display.mac"
+msgid "Alt + ArrowDown"
+msgstr ""
+
+#: menu.PageDown.keycode
+msgctxt "menu.PageDown.keycode"
+msgid "34"
+msgstr ""
+
+#: menu.PageDown.keycode.mac
+msgctxt "menu.PageDown.keycode.mac"
+msgid "Alt+40"
+msgstr ""
+
+#: menu.PageDown.description
+msgctxt "menu.PageDown.description"
+msgid "Scroll down one page"
+msgstr ""
+
+#: menu.PageDown.sort
+msgid "20027"
 msgstr ""
 
 #: menu.SubMenu.display

@@ -1,10 +1,10 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.3 ("License"); you may not use this file except in
+#. # Version 1.4 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. # 
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:45+0700\n"
+"POT-Creation-Date: 2014-03-16 21:18+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,7 @@ msgstr ""
 #. #    notebook				the wiki application
 #. #    voicemail				a list of voicemail messages
 #. #    call					a list of phone calls
+#. #    address				an address bubble
 #. #
 #. # Actions
 #. # -------
@@ -186,10 +187,12 @@ msgid "10220"
 msgstr ""
 
 #: global.Delete.display
+msgctxt "global.Delete.display"
 msgid "Del; Backspace"
 msgstr ""
 
 #: global.Delete.keycode
+msgctxt "global.Delete.keycode"
 msgid "8; 46"
 msgstr ""
 
@@ -1115,14 +1118,17 @@ msgid "20180"
 msgstr ""
 
 #: mail.ReadingPaneAtBottom.display
+msgctxt "mail.ReadingPaneAtBottom.display"
 msgid "M,P,B"
 msgstr ""
 
 #: mail.ReadingPaneAtBottom.keycode
+msgctxt "mail.ReadingPaneAtBottom.keycode"
 msgid "77,80,66"
 msgstr ""
 
 #: mail.ReadingPaneAtBottom.description
+msgctxt "mail.ReadingPaneAtBottom.description"
 msgid "Reading pane at bottom"
 msgstr ""
 
@@ -1131,14 +1137,17 @@ msgid "20220"
 msgstr ""
 
 #: mail.ReadingPaneOff.display
+msgctxt "mail.ReadingPaneOff.display"
 msgid "M,P,O"
 msgstr ""
 
 #: mail.ReadingPaneOff.keycode
+msgctxt "mail.ReadingPaneOff.keycode"
 msgid "77,80,79"
 msgstr ""
 
 #: mail.ReadingPaneOff.description
+msgctxt "mail.ReadingPaneOff.description"
 msgid "Turn off reading pane"
 msgstr ""
 
@@ -1147,14 +1156,17 @@ msgid "20226"
 msgstr ""
 
 #: mail.ReadingPaneOnRight.display
+msgctxt "mail.ReadingPaneOnRight.display"
 msgid "M,P,R"
 msgstr ""
 
 #: mail.ReadingPaneOnRight.keycode
+msgctxt "mail.ReadingPaneOnRight.keycode"
 msgid "77,80,82"
 msgstr ""
 
 #: mail.ReadingPaneOnRight.description
+msgctxt "mail.ReadingPaneOnRight.description"
 msgid "Reading pane on right"
 msgstr ""
 
@@ -1257,19 +1269,35 @@ msgid "20230"
 msgstr ""
 
 #: mail.Spam.display
-msgid "M,J"
+msgid "M,S"
 msgstr ""
 
 #: mail.Spam.keycode
-msgid "77,74"
+msgid "77,83"
 msgstr ""
 
 #: mail.Spam.description
-msgid "Mark as spam"
+msgid "Report (mark as) spam"
 msgstr ""
 
 #: mail.Spam.sort
 msgid "20100"
+msgstr ""
+
+#: mail.Undo.display
+msgid "Ctrl+Z"
+msgstr ""
+
+#: mail.Undo.keycode
+msgid "Ctrl+90"
+msgstr ""
+
+#: mail.Undo.description
+msgid "Undo"
+msgstr ""
+
+#: mail.Undo.sort
+msgid "20300"
 msgstr ""
 
 #: mail.ViewByConversation.display
@@ -1320,6 +1348,24 @@ msgstr ""
 msgid "25000"
 msgstr ""
 
+#: conversationList.Collapse.display
+msgctxt "conversationList.Collapse.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: conversationList.Collapse.keycode
+msgctxt "conversationList.Collapse.keycode"
+msgid "37"
+msgstr ""
+
+#: conversationList.Collapse.description
+msgid "Collapse conversation"
+msgstr ""
+
+#: conversationList.Collapse.sort
+msgid "25020"
+msgstr ""
+
 #: conversationList.CollapseAll.display
 msgid "Ctrl+O"
 msgstr ""
@@ -1333,21 +1379,21 @@ msgid "Collapse all conversations"
 msgstr ""
 
 #: conversationList.CollapseAll.sort
-msgid "25030"
+msgid "25036"
 msgstr ""
 
 #: conversationList.Expand.display
 msgctxt "conversationList.Expand.display"
-msgid "O"
+msgid "ArrowRight"
 msgstr ""
 
 #: conversationList.Expand.keycode
 msgctxt "conversationList.Expand.keycode"
-msgid "79"
+msgid "39"
 msgstr ""
 
 #: conversationList.Expand.description
-msgid "Expand/collapse conversation"
+msgid "Expand conversation"
 msgstr ""
 
 #: conversationList.Expand.sort
@@ -1367,7 +1413,7 @@ msgid "Expand all conversations"
 msgstr ""
 
 #: conversationList.ExpandAll.sort
-msgid "25020"
+msgid "25032"
 msgstr ""
 
 #: conversationList.FirstUnreadMsg.display
@@ -1432,6 +1478,24 @@ msgstr ""
 
 #: conversationList.PreviousUnreadMsg.sort
 msgid "25040"
+msgstr ""
+
+#: conversationList.Toggle.display
+msgctxt "conversationList.Toggle.display"
+msgid "O"
+msgstr ""
+
+#: conversationList.Toggle.keycode
+msgctxt "conversationList.Toggle.keycode"
+msgid "79"
+msgstr ""
+
+#: conversationList.Toggle.description
+msgid "Expand/collapse conversation"
+msgstr ""
+
+#: conversationList.Toggle.sort
+msgid "25030"
 msgstr ""
 
 #. # Map: compose
@@ -1831,6 +1895,54 @@ msgstr ""
 msgid "70010"
 msgstr ""
 
+#: calendar.Copy.display
+msgid "Ctrl+C"
+msgstr ""
+
+#: calendar.Copy.keycode
+msgid "Ctrl+67"
+msgstr ""
+
+#: calendar.Copy.description
+msgid "Copy appointment"
+msgstr ""
+
+#: calendar.Copy.sort
+msgid "70110"
+msgstr ""
+
+#: calendar.FBView.display
+msgid "F; 2"
+msgstr ""
+
+#: calendar.FBView.keycode
+msgid "70; 50"
+msgstr ""
+
+#: calendar.FBView.description
+msgid "Free/Busy view"
+msgstr ""
+
+#: calendar.FBView.sort
+msgid "70096"
+msgstr ""
+
+#: calendar.Paste.display
+msgid "Ctrl+V"
+msgstr ""
+
+#: calendar.Paste.keycode
+msgid "Ctrl+86"
+msgstr ""
+
+#: calendar.Paste.description
+msgid "Paste appointment"
+msgstr ""
+
+#: calendar.Paste.sort
+msgid "70120"
+msgstr ""
+
 #: calendar.CalListView.display
 msgid "L; 9"
 msgstr ""
@@ -2162,73 +2274,6 @@ msgstr ""
 msgid "100020"
 msgstr ""
 
-#. # Map: editPage
-#: editPage.description
-msgid "Edit Notebook Page"
-msgstr ""
-
-#: editPage.sort
-msgid "100050"
-msgstr ""
-
-#: editPage.Cancel.display
-msgctxt "editPage.Cancel.display"
-msgid "Esc"
-msgstr ""
-
-#: editPage.Cancel.keycode
-msgctxt "editPage.Cancel.keycode"
-msgid "27"
-msgstr ""
-
-#: editPage.Cancel.description
-msgctxt "editPage.Cancel.description"
-msgid "Cancel"
-msgstr ""
-
-#: editPage.Cancel.sort
-msgid "100060"
-msgstr ""
-
-#: editPage.Save.display
-msgctxt "editPage.Save.display"
-msgid "Ctrl+S"
-msgstr ""
-
-#: editPage.Save.keycode
-msgctxt "editPage.Save.keycode"
-msgid "Ctrl+83"
-msgstr ""
-
-#: editPage.Save.description
-msgctxt "editPage.Save.description"
-msgid "Save"
-msgstr ""
-
-#: editPage.Save.sort
-msgid "100070"
-msgstr ""
-
-#: editPage.Shortcuts.display
-msgctxt "editPage.Shortcuts.display"
-msgid "Ctrl+Q"
-msgstr ""
-
-#: editPage.Shortcuts.keycode
-msgctxt "editPage.Shortcuts.keycode"
-msgid "Ctrl+81"
-msgstr ""
-
-#: editPage.Shortcuts.description
-msgctxt "editPage.Shortcuts.description"
-msgid "Show shortcuts"
-msgstr ""
-
-#: editPage.Shortcuts.sort
-msgctxt "editPage.Shortcuts.sort"
-msgid "10270"
-msgstr ""
-
 #. # Map: tasks
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: tasks.INHERIT
@@ -2279,6 +2324,63 @@ msgstr ""
 msgid "105020"
 msgstr ""
 
+#: tasks.ReadingPaneAtBottom.display
+msgctxt "tasks.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr ""
+
+#: tasks.ReadingPaneAtBottom.keycode
+msgctxt "tasks.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr ""
+
+#: tasks.ReadingPaneAtBottom.description
+msgctxt "tasks.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr ""
+
+#: tasks.ReadingPaneAtBottom.sort
+msgid "105030"
+msgstr ""
+
+#: tasks.ReadingPaneOff.display
+msgctxt "tasks.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr ""
+
+#: tasks.ReadingPaneOff.keycode
+msgctxt "tasks.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr ""
+
+#: tasks.ReadingPaneOff.description
+msgctxt "tasks.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr ""
+
+#: tasks.ReadingPaneOff.sort
+msgid "105036"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.display
+msgctxt "tasks.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.keycode
+msgctxt "tasks.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.description
+msgctxt "tasks.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr ""
+
+#: tasks.ReadingPaneOnRight.sort
+msgid "105033"
+msgstr ""
+
 #. # Map: editTask
 #: editTask.description
 msgid "Edit Task"
@@ -2324,6 +2426,79 @@ msgstr ""
 
 #: editTask.Save.sort
 msgid "106010"
+msgstr ""
+
+#. # Map: briefcase
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: briefcase.INHERIT
+msgctxt "briefcase.INHERIT"
+msgid "global"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: briefcase.description
+msgid "Briefcase"
+msgstr ""
+
+#: briefcase.sort
+msgid "107000"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.display
+msgctxt "briefcase.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.keycode
+msgctxt "briefcase.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.description
+msgctxt "briefcase.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr ""
+
+#: briefcase.ReadingPaneAtBottom.sort
+msgid "107010"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.display
+msgctxt "briefcase.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.keycode
+msgctxt "briefcase.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.description
+msgctxt "briefcase.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr ""
+
+#: briefcase.ReadingPaneOff.sort
+msgid "107016"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.display
+msgctxt "briefcase.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.keycode
+msgctxt "briefcase.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.description
+msgctxt "briefcase.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr ""
+
+#: briefcase.ReadingPaneOnRight.sort
+msgid "107013"
 msgstr ""
 
 #. # Map: voicemail
@@ -2538,4 +2713,73 @@ msgstr ""
 
 #: call.Print.sort
 msgid "46010"
+msgstr ""
+
+#. # Map: address
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: address.INHERIT
+msgid "compose"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: address.description
+msgid "Address Bubble"
+msgstr ""
+
+#: address.sort
+msgid "30100"
+msgstr ""
+
+#: address.Delete.display
+msgctxt "address.Delete.display"
+msgid "Del; Backspace"
+msgstr ""
+
+#: address.Delete.keycode
+msgctxt "address.Delete.keycode"
+msgid "8; 46"
+msgstr ""
+
+#: address.Delete.description
+msgid "Delete selected addresses"
+msgstr ""
+
+#: address.Delete.sort
+msgid "30110"
+msgstr ""
+
+#: address.SelectNext.display
+msgctxt "address.SelectNext.display"
+msgid "ArrowRight"
+msgstr ""
+
+#: address.SelectNext.keycode
+msgctxt "address.SelectNext.keycode"
+msgid "39"
+msgstr ""
+
+#: address.SelectNext.description
+msgid "Select next address"
+msgstr ""
+
+#: address.SelectNext.sort
+msgid "30120"
+msgstr ""
+
+#: address.SelectPrevious.display
+msgctxt "address.SelectPrevious.display"
+msgid "ArrowLeft"
+msgstr ""
+
+#: address.SelectPrevious.keycode
+msgctxt "address.SelectPrevious.keycode"
+msgid "37"
+msgstr ""
+
+#: address.SelectPrevious.description
+msgid "Select previous address"
+msgstr ""
+
+#: address.SelectPrevious.sort
+msgid "30130"
 msgstr ""

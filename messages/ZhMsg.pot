@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-03-16 21:19+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,10 +15,10 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.3 ("License"); you may not use this file except in
+#. # Version 1.4 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. # 
@@ -349,10 +349,22 @@ msgid ""
 "deleted|1<{0,number,integer} conversations have been deleted}."
 msgstr ""
 
+#: actionConvMessageHardDeleted
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been deleted. "
+msgstr ""
+
 #: actionConvFlag
 msgid ""
 "{0,choice,0#0 conversations have been flagged|1#1 conversation has been "
 "flagged|1<{0,number,integer} conversations have been flagged}."
+msgstr ""
+
+#: actionConvMessageFlag
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been flagged."
 msgstr ""
 
 #: actionConvUnflag
@@ -361,10 +373,22 @@ msgid ""
 "unflagged|1<{0,number,integer} conversations have been unflagged}."
 msgstr ""
 
+#: actionConvMessageUnflag
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been unflagged."
+msgstr ""
+
 #: actionConvMarkedRead
 msgid ""
 "{0,choice,0#0 conversations have been marked read|1#1 conversation has been "
 "marked read|1<{0,number,integer} conversations have been marked read}."
+msgstr ""
+
+#: actionConvMessageMarkedRead
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been marked read."
 msgstr ""
 
 #: actionConvMarkedUnread
@@ -374,6 +398,12 @@ msgid ""
 "unread}."
 msgstr ""
 
+#: actionConvMessageMarkedUnread
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been marked unread."
+msgstr ""
+
 #: actionConvMarkedNotSpam
 msgid ""
 "{0,choice,0#0 conversations have been moved to the Inbox folder|1#1 "
@@ -381,11 +411,23 @@ msgid ""
 "conversations have been moved to the Inbox folder}."
 msgstr ""
 
+#: actionConvMessageMarkedNotSpam
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to the Inbox folder."
+msgstr ""
+
 #: actionConvMarkedSpam
 msgid ""
-"{0,choice,0#0 conversations have been moved to the Junk folder|1#1 "
-"conversation has been moved to the Junk folder|1<{0,number,integer} "
-"conversations have been moved to the Junk folder}."
+"{0,choice,0#0 conversations have been moved to the Spam folder|1#1 "
+"conversation has been moved to the Spam folder|1<{0,number,integer} "
+"conversations have been moved to the Spam folder}."
+msgstr ""
+
+#: actionConvMessageMarkedSpam
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to the Spam folder."
 msgstr ""
 
 #: actionConvTag
@@ -394,16 +436,37 @@ msgid ""
 "conversation|1<{0,number,integer} conversations}."
 msgstr ""
 
+#: actionConvMessageTag
+msgid ""
+"The tag \"{2}\" has been added to {0} "
+"{0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages}."
+msgstr ""
+
 #: actionConvUntag
 msgid ""
 "The tag \"{1}\" has been removed from {0,choice,0#0 conversations|1#1 "
 "conversation|1<{0,number,integer} conversations}."
 msgstr ""
 
+#: actionConvMessageUntag
+msgid ""
+"The tag \"{2}\" had been removed from {0} "
+"{0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages}."
+msgstr ""
+
 #: actionConvUntagAll
 msgid ""
 "All tags have been removed from {0,choice,0#0 conversations|1#1 "
 "conversation|1<{0,number,integer} conversations}."
+msgstr ""
+
+#: actionConvMessageUntagAll
+msgid ""
+"All tags have been removed from {0} "
+"{0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages}."
 msgstr ""
 
 #: actionConvMoved
@@ -413,11 +476,23 @@ msgid ""
 "\"{1}\"}."
 msgstr ""
 
+#: actionConvMessageMoved
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to \"{2}\"."
+msgstr ""
+
 #: actionConvMovedTrash
 msgid ""
 "{0,choice,0#0 conversations have been moved to the Trash folder|1#1 "
 "conversation has been moved to the Trash folder|1<{0,number,integer} "
 "conversations have been moved to the Trash folder}."
+msgstr ""
+
+#: actionConvMessageMovedTrash
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} "
+"{1,choice,1#message|2#messages} have been moved to the Trash folder."
 msgstr ""
 
 #: actionDelete
@@ -585,9 +660,9 @@ msgstr ""
 
 #: actionMessageMarkedSpam
 msgid ""
-"{0,choice,0#0 messages have been moved to the Junk folder|1#1 message has "
-"been moved to the Junk folder|1<{0,number,integer} messages have been moved "
-"to the Junk folder}."
+"{0,choice,0#0 messages have been moved to the Spam folder|1#1 message has "
+"been moved to the Spam folder|1<{0,number,integer} messages have been moved "
+"to the Spam folder}."
 msgstr ""
 
 #: actionMessageTag
@@ -690,6 +765,10 @@ msgstr ""
 
 #: actionNoConvSelected
 msgid "No conversation selected."
+msgstr ""
+
+#: actionNoConvMessageSelected
+msgid "No conversation or message selected."
 msgstr ""
 
 #: actionNoMessageSelected
@@ -841,11 +920,11 @@ msgid "Search deleted \"{0}\"."
 msgstr ""
 
 #: actionNotSpam
-msgid "Not Junk"
+msgid "Not Spam"
 msgstr ""
 
 #: actionNotSpamTT
-msgid "Mark selected item(s) as not Junk"
+msgid "Mark selected item(s) as not Spam"
 msgstr ""
 
 #: actionSave
@@ -858,12 +937,11 @@ msgid "Save the select voice mail message"
 msgstr ""
 
 #: actionSpam
-msgctxt "actionSpam"
-msgid "Junk"
+msgid "Spam"
 msgstr ""
 
 #: actionSpamTT
-msgid "Mark selected item(s) as Junk"
+msgid "Mark selected item(s) as Spam"
 msgstr ""
 
 #: actionTag
@@ -1284,6 +1362,10 @@ msgid ""
 "attachment|1<{0,number,integer} attachments}"
 msgstr ""
 
+#: attachmentLimitMsg
+msgid "<b>Note:&nbsp;</b>Attachments may not be larger than {0}"
+msgstr ""
+
 #: attendee
 msgid "Attendee"
 msgstr ""
@@ -1413,7 +1495,7 @@ msgid "Briefcase Updated"
 msgstr ""
 
 #: briefcaseEmptied
-msgid "Briefase folder \"{0}\" emptied"
+msgid "Briefcase folder \"{0}\" emptied"
 msgstr ""
 
 #: briefcaseDeleteConfirmation
@@ -1611,6 +1693,10 @@ msgstr ""
 
 #: calendarDayStartsAt
 msgid "View starts at"
+msgstr ""
+
+#: calendarHoursInvalid
+msgid "End time must be greater than start time."
 msgstr ""
 
 #: calendarName
@@ -1990,7 +2076,7 @@ msgstr ""
 
 #: defaultInviteReplyDeclineInstanceMessage
 msgid ""
-"I won''t attend on {0,date,full}.\r\n"
+"I won't attend on {0,date,full}.\r\n"
 "\r\n"
 msgstr ""
 
@@ -2042,6 +2128,11 @@ msgstr ""
 msgid "Delete Tag"
 msgstr ""
 
+#: department
+msgctxt "department"
+msgid "Department"
+msgstr ""
+
 #: details
 msgid "Details"
 msgstr ""
@@ -2074,6 +2165,10 @@ msgstr ""
 #: drafts
 msgctxt "drafts"
 msgid "Drafts"
+msgstr ""
+
+#: draftSavedAuto
+msgid "Draft Autosaved."
 msgstr ""
 
 #: duration
@@ -2131,7 +2226,7 @@ msgid "Empty Trash"
 msgstr ""
 
 #: emptyJunk
-msgid "Empty Junk"
+msgid "Empty Spam"
 msgstr ""
 
 #: emptyMessage
@@ -2197,6 +2292,10 @@ msgstr ""
 
 #: errorMyCardMove
 msgid "My Card cannot be moved."
+msgstr ""
+
+#: errorEmptyTaskDueDate
+msgid "Due Date is required, when Start Date is specified."
 msgstr ""
 
 #: errorPhoneFAQLink
@@ -2516,8 +2615,11 @@ msgstr ""
 msgid "Font Size"
 msgstr ""
 
+#. # Copyright string must not be translated
 #: footerCopyright
-msgid "Copyright © 2008-2010 Zimbra, Inc."
+msgid ""
+"Copyright © 2005-2013 Telligent Systems, Inc. \"Telligent\" and \"Zimbra\"  are "
+"registered trademarks or trademarks of Telligent Systems, Inc."
 msgstr ""
 
 #: formatDateSent
@@ -2653,6 +2755,11 @@ msgstr ""
 msgid "Key"
 msgstr ""
 
+#: im
+msgctxt "im"
+msgid "IM"
+msgstr ""
+
 #: import
 msgid "Import"
 msgstr ""
@@ -2662,7 +2769,7 @@ msgid "in"
 msgstr ""
 
 #: includeJunkFolder
-msgid "Include Junk folder in searches"
+msgid "Include Spam folder in searches"
 msgstr ""
 
 #: includeTrashFolder
@@ -2675,7 +2782,7 @@ msgid "Inbox"
 msgstr ""
 
 #: includeJunk
-msgid "Also search Junk"
+msgid "Also search Spam"
 msgstr ""
 
 #: includeShared
@@ -2771,10 +2878,6 @@ msgstr ""
 
 #: mailHeader
 msgid "My Email Accounts"
-msgstr ""
-
-#: mails
-msgid "Mails"
 msgstr ""
 
 #: mailSearch
@@ -3004,7 +3107,8 @@ msgid "More"
 msgstr ""
 
 #: moreActions
-msgid "Actions &#9660;"
+msgctxt "moreActions"
+msgid "Actions"
 msgstr ""
 
 #: moveAction
@@ -4060,6 +4164,10 @@ msgstr ""
 msgid "Work 2"
 msgstr ""
 
+#: phoneticName
+msgid "Phonetic name"
+msgstr ""
+
 #: pink
 msgid "Pink"
 msgstr ""
@@ -4085,6 +4193,10 @@ msgctxt "print"
 msgid "Print"
 msgstr ""
 
+#: printFontSizePref
+msgid "Print Font Size"
+msgstr ""
+
 #: priority
 msgctxt "priority"
 msgid "Priority"
@@ -4100,6 +4212,18 @@ msgstr ""
 
 #: purple
 msgid "Purple"
+msgstr ""
+
+#: readingPaneAtBottom
+msgid "Reading Pane At The Bottom"
+msgstr ""
+
+#: readingPaneOff
+msgid "Reading Pane Off"
+msgstr ""
+
+#: readingPaneOnRight
+msgid "Reading Pane On The Right"
 msgstr ""
 
 #: reloadCalendar
@@ -4636,14 +4760,20 @@ msgstr ""
 msgid "Suggestions:"
 msgstr ""
 
+#. # Copyright string must not be translated
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2008-2010 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
-"trademarks of Zimbra, Inc."
+"Copyright © 2005-2013 Telligent Systems, Inc.  All rights reserved. "
+"Telligent and Zimbra are registered trademarks or trademarks of Telligent "
+"Systems, Inc."
 msgstr ""
 
 #: splashScreenAppName
-msgid "Collaboration Suite"
+msgid "Web Client"
+msgstr ""
+
+#: splashScreenMobileAppName
+msgid "Mobile Web Client"
 msgstr ""
 
 #: start
@@ -4860,6 +4990,11 @@ msgctxt "to"
 msgid "To"
 msgstr ""
 
+#: tocc
+msgctxt "tocc"
+msgid "To or Cc"
+msgstr ""
+
 #: toLabel
 msgid "To:"
 msgstr ""
@@ -4997,6 +5132,26 @@ msgid ""
 "number."
 msgstr ""
 
+#: wikiTOC
+msgid "Table of Contents"
+msgstr ""
+
+#: wikiDocName
+msgid "Document name"
+msgstr ""
+
+#: wikiModifiedBy
+msgid "Modified by"
+msgstr ""
+
+#: wikiModifiedOn
+msgid "Modified on"
+msgstr ""
+
+#: wikiVersion
+msgid "Version"
+msgstr ""
+
 #: week
 msgid "Week"
 msgstr ""
@@ -5024,6 +5179,18 @@ msgstr ""
 
 #: yes
 msgid "Yes"
+msgstr ""
+
+#: zimbraDocument
+msgid "Zimbra Document"
+msgstr ""
+
+#: zimbraPresentation
+msgid "Zimbra Presentation"
+msgstr ""
+
+#: zimbraSpreadsheet
+msgid "Zimbra Spreadsheet"
 msgstr ""
 
 #: zimbraTitle
@@ -5425,6 +5592,7 @@ msgid "Waves"
 msgstr ""
 
 #: SKIN_yahoo
+msgctxt "SKIN_yahoo"
 msgid "Yahoo!"
 msgstr ""
 
@@ -5548,6 +5716,18 @@ msgctxt "AB_FIELD_company"
 msgid "Company"
 msgstr ""
 
+#: AB_FIELD_phoneticFirstName
+msgid "Phonetic First"
+msgstr ""
+
+#: AB_FIELD_phoneticLastName
+msgid "Phonetic Last"
+msgstr ""
+
+#: AB_FIELD_phoneticCompany
+msgid "Phonetic Company"
+msgstr ""
+
 #. # email addresses
 #: AB_FIELD_email
 msgctxt "AB_FIELD_email"
@@ -5623,6 +5803,42 @@ msgstr ""
 msgid "Work Alternate Phone"
 msgstr ""
 
+#. # IM
+#: AB_FIELD_imAddress1
+msgctxt "AB_FIELD_imAddress1"
+msgid "IM"
+msgstr ""
+
+#: AB_FIELD_imAddress2
+msgid "IM 2"
+msgstr ""
+
+#: AB_FIELD_imAddress3
+msgid "IM 3"
+msgstr ""
+
+#: AB_FIELD_IM_xmpp
+msgid "XMPP"
+msgstr ""
+
+#: AB_FIELD_IM_yahoo
+msgctxt "AB_FIELD_IM_yahoo"
+msgid "Yahoo!"
+msgstr ""
+
+#: AB_FIELD_IM_msn
+msgid "MSN"
+msgstr ""
+
+#: AB_FIELD_IM_aol
+msgid "AOL"
+msgstr ""
+
+#: AB_FIELD_IM_other
+msgctxt "AB_FIELD_IM_other"
+msgid "Other"
+msgstr ""
+
 #. # home address
 #. #For Velodrome2 skin#
 #: AB_FIELD_homeAddress
@@ -5661,6 +5877,7 @@ msgid "Other Work IM"
 msgstr ""
 
 #: AB_FIELD_otherDepartment
+msgctxt "AB_FIELD_otherDepartment"
 msgid "Department"
 msgstr ""
 
@@ -5892,6 +6109,11 @@ msgstr ""
 #: FOLDER_LABEL_15
 msgctxt "FOLDER_LABEL_15"
 msgid "Tasks"
+msgstr ""
+
+#: FOLDER_LABEL_16
+msgctxt "FOLDER_LABEL_16"
+msgid "Briefcase"
 msgstr ""
 
 #. # calendar
@@ -6435,6 +6657,11 @@ msgctxt "FILT_COND_HEADER_to"
 msgid "To"
 msgstr ""
 
+#: FILT_COND_HEADER_to,cc
+msgctxt "FILT_COND_HEADER_to,cc"
+msgid "To or Cc"
+msgstr ""
+
 #: FILT_COND_HEADER_IS
 msgid "<b>{0}</b> matches exactly \"<b>{1}</b>\""
 msgstr ""
@@ -6703,6 +6930,10 @@ msgstr ""
 msgid "Cc..."
 msgstr ""
 
+#: EFILT_NEW_COND_TOCC
+msgid "To or Cc..."
+msgstr ""
+
 #: EFILT_NEW_COND_SUBJECT
 msgid "Subject..."
 msgstr ""
@@ -6794,6 +7025,7 @@ msgid "Prev"
 msgstr ""
 
 #: MO_actions
+msgctxt "MO_actions"
 msgid "Actions"
 msgstr ""
 
@@ -6811,6 +7043,10 @@ msgstr ""
 
 #: MO_flag
 msgid "Flag"
+msgstr ""
+
+#: MO_Unflag
+msgid "Unflag"
 msgstr ""
 
 #: MO_flagged
@@ -6872,7 +7108,8 @@ msgid "Tag"
 msgstr ""
 
 #: MO_tocc
-msgid "To/Cc"
+msgctxt "MO_tocc"
+msgid "To or Cc"
 msgstr ""
 
 #: MO_unread
@@ -6921,6 +7158,14 @@ msgstr ""
 
 #: MO_noAppointments
 msgid "No Appointments"
+msgstr ""
+
+#: MO_showDetails
+msgid "Show Details"
+msgstr ""
+
+#: MO_hideDetails
+msgid "Hide Details"
 msgstr ""
 
 #. ## contact
@@ -7045,6 +7290,10 @@ msgstr ""
 
 #: ZM_formatVoiceDate
 msgid "EEE, M/d/yy, h:mm a"
+msgstr ""
+
+#: ZM_formatDocDate
+msgid "M/d/yyyy h:mm a"
 msgstr ""
 
 #. # these are for quoting headers in ZMessageComposeBean
@@ -7201,6 +7450,12 @@ msgid ""
 "System Administrator for more information."
 msgstr ""
 
+#: account.INVALID_PASSWORD.zimbraPasswordAllowedChars
+msgid ""
+"New password does not meet the system's rules (i.e allowed chars). Contact "
+"your System Administrator for more information."
+msgstr ""
+
 #: account.INVALID_PASSWORD.zimbraPasswordMinLength
 msgid ""
 "New password must have minimum length of {0} chars. Contact your System "
@@ -7231,10 +7486,22 @@ msgid ""
 "Administrator for more information."
 msgstr ""
 
+#: account.INVALID_PASSWORD.zimbraPasswordMinAlphaChars
+msgid ""
+"New password must have minimum {0} alphabet chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+
 #: account.INVALID_PASSWORD.zimbraPasswordMinPunctuationChars
 msgid ""
 "New password must have minimum {0} punctuation chars. Contact your System "
 "Administrator for more information."
+msgstr ""
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinDigitsOrPuncs
+msgid ""
+"New password must have minimum {0} numeric or punctuation chars. Contact "
+"your System Administrator for more information."
 msgstr ""
 
 #: account.INVALID_ATTR_NAME

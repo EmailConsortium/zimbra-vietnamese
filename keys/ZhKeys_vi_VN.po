@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:45+0700\n"
-"PO-Revision-Date: 2014-03-17 22:53+0700\n"
+"POT-Creation-Date: 2014-03-16 21:18+0700\n"
+"PO-Revision-Date: 2014-03-17 22:41+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
@@ -729,7 +729,7 @@ msgstr ""
 #. # Map: conversation
 #: conversation.description
 msgid "Shortcuts in Mail Conversation View"
-msgstr "Phím tắt trong Khung hiển thị Cuộc đàm thoại thư"
+msgstr "Phím tắt trong Khung hiển thị Cuộc đàm thoại của Thư"
 
 #: conversation.NextConversationPage.display
 msgid "Shift+L"
@@ -958,7 +958,7 @@ msgstr "68; 49"
 
 #: calendar.DayView.description
 msgid "Show single-day view"
-msgstr "Hiện khung hiển thị ngày"
+msgstr "Hiển thị khung hiển thị ngày"
 
 #: calendar.GoToCalendar.display
 msgid "G,C"

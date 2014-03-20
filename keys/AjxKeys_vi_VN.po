@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AjxKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:45+0700\n"
-"PO-Revision-Date: 2014-03-17 22:54+0700\n"
+"POT-Creation-Date: 2014-03-16 21:18+0700\n"
+"PO-Revision-Date: 2014-03-17 22:38+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
@@ -530,22 +530,27 @@ msgid "30020"
 msgstr "30020"
 
 #: list.PageUp.display
+msgctxt "list.PageUp.display"
 msgid "PageUp"
 msgstr "PageUp"
 
 #: list.PageUp.display.mac
+msgctxt "list.PageUp.display.mac"
 msgid "Alt + ArrowUp"
 msgstr "Alt + ArrowUp"
 
 #: list.PageUp.keycode
+msgctxt "list.PageUp.keycode"
 msgid "33"
 msgstr "33"
 
 #: list.PageUp.keycode.mac
+msgctxt "list.PageUp.keycode.mac"
 msgid "Alt+38"
 msgstr "Alt+38"
 
 #: list.PageUp.description
+msgctxt "list.PageUp.description"
 msgid "Scroll up one page"
 msgstr "Cuộn lên một trang"
 
@@ -554,22 +559,27 @@ msgid "30023"
 msgstr "30023"
 
 #: list.PageDown.display
+msgctxt "list.PageDown.display"
 msgid "PageDown"
 msgstr "PageDown"
 
 #: list.PageDown.display.mac
+msgctxt "list.PageDown.display.mac"
 msgid "Alt + ArrowDown"
 msgstr "Alt + ArrowDown"
 
 #: list.PageDown.keycode
+msgctxt "list.PageDown.keycode"
 msgid "34"
 msgstr "34"
 
 #: list.PageDown.keycode.mac
+msgctxt "list.PageDown.keycode.mac"
 msgid "Alt+40"
 msgstr "Alt+40"
 
 #: list.PageDown.description
+msgctxt "list.PageDown.description"
 msgid "Scroll down one page"
 msgstr "Cuộn xuống một trang"
 
@@ -789,6 +799,64 @@ msgstr "Mục trước"
 #: menu.SelectPrevious.sort
 msgid "20020"
 msgstr "20020"
+
+#: menu.PageUp.display
+msgctxt "menu.PageUp.display"
+msgid "PageUp"
+msgstr "PageUp"
+
+#: menu.PageUp.display.mac
+msgctxt "menu.PageUp.display.mac"
+msgid "Alt + ArrowUp"
+msgstr "Alt + ArrowUp"
+
+#: menu.PageUp.keycode
+msgctxt "menu.PageUp.keycode"
+msgid "33"
+msgstr "33"
+
+#: menu.PageUp.keycode.mac
+msgctxt "menu.PageUp.keycode.mac"
+msgid "Alt+38"
+msgstr "Alt+38"
+
+#: menu.PageUp.description
+msgctxt "menu.PageUp.description"
+msgid "Scroll up one page"
+msgstr "Cuộn lên một trang"
+
+#: menu.PageUp.sort
+msgid "20023"
+msgstr "20023"
+
+#: menu.PageDown.display
+msgctxt "menu.PageDown.display"
+msgid "PageDown"
+msgstr "PageDown"
+
+#: menu.PageDown.display.mac
+msgctxt "menu.PageDown.display.mac"
+msgid "Alt + ArrowDown"
+msgstr "Alt + ArrowDown"
+
+#: menu.PageDown.keycode
+msgctxt "menu.PageDown.keycode"
+msgid "34"
+msgstr "34"
+
+#: menu.PageDown.keycode.mac
+msgctxt "menu.PageDown.keycode.mac"
+msgid "Alt+40"
+msgstr "Alt+40"
+
+#: menu.PageDown.description
+msgctxt "menu.PageDown.description"
+msgid "Scroll down one page"
+msgstr "Cuộn xuống một trang"
+
+#: menu.PageDown.sort
+msgid "20027"
+msgstr "20027"
 
 #: menu.SubMenu.display
 msgctxt "menu.SubMenu.display"
