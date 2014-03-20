@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
@@ -2812,7 +2812,7 @@ msgstr "Ngưỡng phần trăm cho các thông điệp cảnh bảo chỉ tiêu 
 
 #: NAD_QuotaWarnInterval
 msgid "Minimum duration of time between quota warnings: "
-msgstr "Khoảng thời gian tối thiểu giữa các cảnh báo chỉ tiêu:"
+msgstr "Thời lượng tối thiểu giữa các cảnh báo chỉ tiêu:"
 
 #: NAD_QuotaWarnMessage
 msgid "Quota warning message template: "
