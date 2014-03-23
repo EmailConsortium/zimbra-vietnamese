@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
@@ -152,12 +152,12 @@ msgstr "Tải xuống"
 #: ServerPostQ_title
 msgctxt "ServerPostQ_title"
 msgid "Manage Mail Queues"
-msgstr "Quản lý các hàng đợi thư"
+msgstr "Quản lý hàng đợi thư"
 
 #: PostQ_title
 msgctxt "PostQ_title"
 msgid "Manage Mail Queues"
-msgstr "Quản lý các hàng đợi thư"
+msgstr "Quản lý hàng đợi thư"
 
 #: About_Button_Label
 msgid "About Zimbra Version"
@@ -362,13 +362,13 @@ msgstr ""
 
 #: Domain_Auth_ConfigSummary
 msgid "Summary of authentication settings:"
-msgstr "Tóm lược các cài đặt chứng thực:"
+msgstr "Tóm lược các cài đặt xác thực:"
 
 #: Domain_AuthProvideLoginPwd
 msgid ""
 "Please provide username and password to test the authentication settings"
 msgstr ""
-"Hãy cung cấp tên người dùng và mật khẩu để kiểm tra các cài đặt chứng thực"
+"Hãy cung cấp tên người dùng và mật khẩu để kiểm tra các cài đặt xác thực"
 
 #: LBL_Domain_AuthTestUserName
 msgid "User name:"
@@ -403,11 +403,11 @@ msgstr "Kết quả kiểm tra"
 
 #: Domain_AuthTestSuccessful
 msgid "Authentication test successful"
-msgstr "Kiểm tra việc chứng thực thành công"
+msgstr "Kiểm tra việc xác thực thành công"
 
 #: Domain_AuthTestFailed
 msgid "Authentication test failed"
-msgstr "Kiểm tra việc chứng thực thất bại"
+msgstr "Kiểm tra việc xác thực thất bại"
 
 #: LBL_Domain_AuthTestResultCode
 msgid "Server message:"
@@ -963,7 +963,7 @@ msgstr "Bộ lọc tự động hoàn thành:"
 
 #: Domain_AuthMech
 msgid "Authentication mechanism:"
-msgstr "Cơ chế chứng thực:"
+msgstr "Cơ chế xác thực:"
 
 #: Domain_AuthLdapURL
 msgctxt "Domain_AuthLdapURL"
@@ -1276,7 +1276,7 @@ msgstr "Thống kê máy chủ"
 
 #: OVP_monitoring
 msgid "Monitoring"
-msgstr "Theo dõi"
+msgstr "Giám sát"
 
 #: OVP_tools
 msgid "Tools"
@@ -1810,7 +1810,7 @@ msgid ""
 "Open the wizard that will guide you through configuring Authentication "
 "Mechanism "
 msgstr ""
-"Mở thuật sĩ mà sẽ hướng dẫn bạn thông qua việc cấu hình Cơ chế chứng thực"
+"Mở thuật sĩ mà sẽ hướng dẫn bạn thông qua việc cấu hình Cơ chế xác thực"
 
 #: DTBB_InitNotebook
 msgid "Create Documents"
@@ -1952,7 +1952,7 @@ msgid ""
 msgstr ""
 "Một sự xả thư sẽ cố gắng chuyển giao tất các các thư đang đợi ở trên máy chủ "
 "này.<br>Thao tác này sẽ làm vô hiệu việc đếm thông điệp hiện thời đã hiển "
-"thị cho các hàng đợi trên máy chủ này.<br>"
+"thị cho hàng đợi trên máy chủ này.<br>"
 
 #: PQ_Loading
 msgid "loading..."
@@ -2123,8 +2123,7 @@ msgid ""
 "domains that are configured to use external authentication."
 msgstr ""
 "<b>Note:</b> Các thiết lập này không ảnh hưởng tới các mật khẩu đã cài đặt "
-"bởi người dụng trong tên miền mà được cấu hình sử dụng sự chứng thực bên "
-"ngoài."
+"bởi người dụng trong tên miền mà được cấu hình sử dụng sự xác thực bên ngoài."
 
 #: Alert_ExternalPassword
 msgid ""
@@ -2785,7 +2784,7 @@ msgstr "Thêm"
 #: Global_MTA_AuthenticationGrp
 msgctxt "Global_MTA_AuthenticationGrp"
 msgid "Authentication"
-msgstr "Chứng thực"
+msgstr "Xác thực"
 
 #: Global_MTA_NetworkGrp
 msgctxt "Global_MTA_NetworkGrp"
@@ -2798,7 +2797,7 @@ msgstr "Thông điệp"
 
 #: NAD_MTA_Authentication
 msgid "Enable authentication"
-msgstr "Cho phép chứng thực"
+msgstr "Cho phép xác thực"
 
 #: NAD_MTA_AuthenticationEnabled
 msgctxt "NAD_MTA_AuthenticationEnabled"
@@ -2807,7 +2806,7 @@ msgstr "Cho phép"
 
 #: NAD_MTA_TlsAuthenticationOnly
 msgid "TLS authentication only"
-msgstr "Chỉ chứng thực bằng TLS"
+msgstr "Chỉ xác thực bằng TLS"
 
 #: LBL_zimbraSmtpHostname
 msgid "Web mail MTA Hostnames:"
@@ -2837,7 +2836,7 @@ msgstr "Thời gian kết thúc MTA của webmail:"
 
 #: NAD_MTA_RelayMTA
 msgid "Relay MTA for external delivery:"
-msgstr "Relay MTA cho sự phân phối bên ngoài:"
+msgstr "MTA tiếp vận cho sự phân phối bên ngoài:"
 
 #: tt_MTA_RelayMTA
 msgid ""
@@ -2845,7 +2844,7 @@ msgid ""
 "the Internet or another relay MTA."
 msgstr ""
 "MTA mà tất cả các thư từ không phải cục bộ sẽ được gửi tới. Nó cần phải có "
-"truy nhập vào Internet hay MTA relay khác."
+"truy nhập vào Internet hay MTA tiếp vận khác."
 
 #: NAD_MTA_MyNetworks
 msgid "MTA Trusted Networks: "
@@ -2857,11 +2856,11 @@ msgstr "Những mạng mà MTA tin tưởng"
 
 #: NAD_MTA_RelayHostname
 msgid "Relay MTA hostname:"
-msgstr "Tên máy chủ relay MTA:"
+msgstr "Tên máy chủ tiếp vận MTA:"
 
 #: NAD_MTA_RelayPort
 msgid "Relay MTA port:"
-msgstr "Cổng của relay MTA:"
+msgstr "Cổng của MTA tiếp vận:"
 
 #: NAD_MTA_MaxMsgSize
 msgid "Maximum message size (KB):"
@@ -3149,19 +3148,19 @@ msgstr "Liên hệ trên một trang"
 
 #: MSG_zimbraAuthTokenLifetime
 msgid "Auth token lifetime"
-msgstr "Vòng đời dấu hiệu chứng thực"
+msgstr "Vòng đời dấu hiệu xác thực"
 
 #: LBL_zimbraAuthTokenLifetime
 msgid "Auth token lifetime:"
-msgstr "Vòng đời dấu hiệu chứng thực:"
+msgstr "Vòng đời dấu hiệu xác thực:"
 
 #: MSG_zimbraAdminAuthTokenLifetime
 msgid "Admin console auth token lifetime"
-msgstr "Vòng đời dấu hiệu chứng thực bảng điều khiển quản trị"
+msgstr "Vòng đời dấu hiệu xác thực bảng điều khiển quản trị"
 
 #: LBL_zimbraAdminAuthTokenLifetime
 msgid "Admin console auth token lifetime:"
-msgstr "Vòng đời dấu hiệu chứng thực bảng điều khiển quản trị:"
+msgstr "Vòng đời dấu hiệu xác thực bảng điều khiển quản trị:"
 
 #: MSG_zimbraMailMessageLifetime
 msgid "E-mail message lifetime"
@@ -3283,7 +3282,7 @@ msgstr "Thiết lập đính kèm"
 
 #: NAD_QuotaGrouper
 msgid "Quotas"
-msgstr "Chỉ tiêu"
+msgstr "Hạn ngạch"
 
 #: NAD_FailedLoginGrouper
 msgid "Failed Login Policy"
@@ -3329,7 +3328,7 @@ msgstr "Tên tài khoản:"
 #: NAD_Email
 msgctxt "NAD_Email"
 msgid "Email:"
-msgstr "Điện thư:"
+msgstr "Email:"
 
 #: NAD_Account
 msgctxt "NAD_Account"
@@ -3452,23 +3451,23 @@ msgstr "Sỗ liên hệ tối đa cho phép trong sổ địa chỉ:"
 
 #: LBL_zimbraQuotaWarnPercent
 msgid "Percentage threshold for quota warning messages (%):"
-msgstr "Ngưỡng phần trăm cho các thông điệp cảnh bảo chỉ tiêu (%):"
+msgstr "Ngưỡng phần trăm cho các thông điệp cảnh báo hạn ngạch (%):"
 
 #: MSG_zimbraQuotaWarnPercent
 msgid "Percentage threshold for quota warning messages "
-msgstr "Ngưỡng phần trăm cho thông điệp cảnh bảo chỉ tiêu"
+msgstr "Ngưỡng phần trăm cho thông điệp cảnh báo hạn ngạch"
 
 #: LBL_zimbraQuotaWarnInterval
 msgid "Minimum duration of time between quota warnings:"
-msgstr "Thời lượng tối thiểu giữa các cảnh báo chỉ tiêu:"
+msgstr "Thời lượng tối thiểu giữa các cảnh báo hạn ngạch:"
 
 #: MSG_zimbraQuotaWarnInterval
 msgid "Minimum duration of time between quota warnings "
-msgstr "Thời lượng tối thiểu giữa các cảnh báo chỉ tiêu"
+msgstr "Thời lượng tối thiểu giữa các cảnh báo hạn ngạch"
 
 #: LBL_zimbraQuotaWarnMessage
 msgid "Quota warning message template:"
-msgstr "Mẫu thông điệp cảnh báo chỉ tiêu:"
+msgstr "Mẫu thông điệp cảnh báo hạn ngạch:"
 
 #: MSG_zimbraQuotaWarnMessage
 msgid "Quota warning message template"
@@ -3964,7 +3963,7 @@ msgstr "Tên miền mặc định:"
 
 #: NAD_MonitorHostServer
 msgid "Monitor host server:"
-msgstr "Theo dõi máy dịch vụ chủ:"
+msgstr "Giám sát máy dịch vụ chủ:"
 
 #: NAD_GeneralOptions
 msgid "General Options"
@@ -4059,7 +4058,7 @@ msgstr "Kiểm tra những đặc tính để cho phép chúng đối với tài
 
 #: TABT_MBX
 msgid "Mailbox Quota"
-msgstr "Chỉ tiêu hộp thư"
+msgstr "Hạn ngạch hộp thư"
 
 #. #ZaMsg.NAD_StatsMsgsLastDay = "Messages in last day";
 #. #ZaMsg.NAD_StatsMsgsLast3Months = "Messages in last 3 months";
@@ -4600,7 +4599,7 @@ msgstr "Tìm kiếm nâng cao"
 
 #: LBL_zimbraFeatureSavedSearchesEnabled
 msgid "Saved searches"
-msgstr "Những lần tìm kiếm đã lưu"
+msgstr "Tìm kiếm đã lưu"
 
 #: LBL_zimbraFeatureConversationsEnabled
 msgid "Conversations"
@@ -5294,23 +5293,23 @@ msgstr "Kết quả kiểm tra đồng bộ GAL"
 
 #: AuthMode
 msgid "Authentication Mode"
-msgstr "Chế độ chứng thực"
+msgstr "Chế độ xác thực"
 
 #: AuthSettings
 msgid "Authentication Settings"
-msgstr "Các thiết lập chứng thực"
+msgstr "Các thiết lập xác thực"
 
 #: AuthSettingsSummary
 msgid "Authentication Settings Summary"
-msgstr "Tóm lược các thiết lập chứng thực"
+msgstr "Tóm lược các thiết lập xác thực"
 
 #: TestAuthSettings
 msgid "Testing Authentication Settings"
-msgstr "Việc kiểm tra thiết lập chứng thực"
+msgstr "Việc kiểm tra thiết lập xác thực"
 
 #: AuthTestResult
 msgid "Authentication Test Result"
-msgstr "Kết quả kiểm tra việc chứng thực"
+msgstr "Kết quả kiểm tra việc xác thực"
 
 #: ACCOUNT_STATUS_ACTIVE
 msgctxt "ACCOUNT_STATUS_ACTIVE"
@@ -5343,11 +5342,11 @@ msgstr "Kích thước hộp thư"
 
 #: MBXStats_QUOTAUSAGE
 msgid "Quota Used"
-msgstr "Chỉ tiêu đã sử dụng"
+msgstr "Hạn ngạch đã sử dụng"
 
 #: MBXStats_QUOTA
 msgid "Quota"
-msgstr "Chỉ tiêu"
+msgstr "Hạn ngạch"
 
 #: MBXStats_DISK_MSB
 msgctxt "MBXStats_DISK_MSB"
@@ -5454,7 +5453,7 @@ msgstr "Tên:"
 #: NAD_ResAccountName
 msgctxt "NAD_ResAccountName"
 msgid "Email:"
-msgstr "Điện thư:"
+msgstr "Email:"
 
 #: NAD_ResType
 msgid "Type:"
@@ -5535,7 +5534,7 @@ msgstr "Tên liên hệ:"
 
 #: NAD_ContactEmail
 msgid "Contact Email:"
-msgstr "Điện thư liên hệ:"
+msgstr "Email liên hệ:"
 
 #: NAD_ContactPhone
 msgid "Contact Phone:"
@@ -5620,7 +5619,7 @@ msgstr "Gõ một tên trong hộp tìm kiếm"
 
 #: NCD_AuthConfigTitle
 msgid "Authentication Configuration Wizard"
-msgstr "Thuật sĩ cấu hình chứng thực"
+msgstr "Thuật sĩ cấu hình xác thực"
 
 #: NCD_GALConfigTitle
 msgid "GAL Configuration Wizard"
@@ -5724,7 +5723,7 @@ msgstr "Quá nhiều kết quả trả về. Hãy lọc tìm kiếm của bạn.
 
 #: ERROR_AUTH_FAILED
 msgid "Authentication Failed"
-msgstr "Chứng thực thất bại"
+msgstr "Xác thực thất bại"
 
 #: ERROR_NO_SUCH_DOMAIN
 msgid "The specified domain does not exist"
@@ -5867,7 +5866,7 @@ msgstr "Tên tài khoản đã chỉ định không hợp lệ."
 
 #: ERROR_RESOURCE_EMAIL_INVALID
 msgid "The specified resource email is invalid."
-msgstr "Điện thư tài nguyên đã chỉ định không hợp lệ"
+msgstr "Email tài nguyên đã chỉ định không hợp lệ"
 
 #: ERROR_ALIAS_INVALID
 msgid "The specified alias {0} is invalid."
@@ -5980,7 +5979,7 @@ msgstr "Chỉ một người uỷ nhiệm ngoài cho cùng người cung cấp l
 
 #: WARNING_DOMAIN_DS_NOT_CONFIGRED
 msgid "Warning: GAL datasources are not configured for this domain."
-msgstr "Cảnh bảo: nguồn dữ liệu GAL không được cấu hình cho tên miền này."
+msgstr "Cảnh báo: nguồn dữ liệu GAL không được cấu hình cho tên miền này."
 
 #: WARNING_RESETING_SMTP_HOST
 msgid ""
@@ -6962,15 +6961,15 @@ msgstr ""
 
 #: LBL_usedQuota
 msgid "Used quota:"
-msgstr "Chỉ tiêu đã dùng:"
+msgstr "Hạn ngạch đã dùng:"
 
 #: LBL_assignedQuota
 msgid "Assigned quota:"
-msgstr "Chỉ tiêu đã gán:"
+msgstr "Hạn ngạch đã gán:"
 
 #: LBL_quota
 msgid "Quota:"
-msgstr "Chỉ tiêu:"
+msgstr "Hạn ngạch:"
 
 #: quotaValueTemplate
 msgid "{0} MB of {1} MB"
@@ -7000,11 +6999,11 @@ msgstr "Đã tạo"
 
 #: MSG_usedQuota
 msgid "Used quota"
-msgstr "Chỉ tiêu đã dùng"
+msgstr "Hạn ngạch đã dùng"
 
 #: MSG_assignedQuota
 msgid "Assigned quota"
-msgstr "Chỉ tiêu đã gán"
+msgstr "Hạn ngạch đã gán"
 
 #: zimbraAdminTitle
 msgid "Zimbra Administration"
@@ -7995,7 +7994,7 @@ msgstr "Đang thiết lập volume ..."
 
 #: BUSY_GET_QUOTA
 msgid "Getting the quota information ..."
-msgstr "Đang nhận thông tin chỉ tiêu ..."
+msgstr "Đang nhận thông tin hạn ngạch ..."
 
 #: BUSY_GET_ZIMLET
 msgid "Getting the zimlets ..."
