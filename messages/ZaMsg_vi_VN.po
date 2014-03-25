@@ -293,7 +293,8 @@ msgstr "Tóm lược cài đặt xác thực:"
 #: Domain_AuthProvideLoginPwd
 msgid ""
 "Please provide username and password to test the authentication settings"
-msgstr "Hãy cung cấp tên người dùng và mật khẩu để kiểm tra cài đặt xác thực"
+msgstr ""
+"Vui lòng cung cấp tên người dùng và mật khẩu để kiểm tra cài đặt xác thực"
 
 #: Domain_AuthTestUserName
 msgid "User name"
@@ -407,8 +408,8 @@ msgstr ""
 "Những máy chủ ảo cho phép hệ thống thiết lập một tên miền mặc định cho một "
 "người dùng đăng nhập. Bất kỳ người dùng nào đăng nhập trong khi sử dụng một "
 "URL với một hostname bên dưới sẽ được cho là bên trong tên miền này, {0} . "
-"Hãy chú ý, rằng việc loại bỏ một máy chủ ảo chỉ thực hiện sau khi máy chủ "
-"hòm thư khởi động lại."
+"Vui lòng chú ý, rằng việc loại bỏ một máy chủ ảo chỉ thực hiện sau khi máy "
+"chủ hòm thư khởi động lại."
 
 #: TABT_Notebook_Access_Control
 msgid "Documents Access Control  "
@@ -451,7 +452,7 @@ msgid ""
 "Documents configuration is complete. Please press 'FINISH' to save the "
 "configuration. "
 msgstr ""
-"Cấu hình tài liệu đã hoàn thành.<br>Hãy bấm 'KẾT THÚC' để lưu cấu hình."
+"Cấu hình tài liệu đã hoàn thành.<br>Vui lòng bấm 'KẾT THÚC' để lưu cấu hình."
 
 #: Domain_Notebook_name_col
 msgctxt "Domain_Notebook_name_col"
@@ -573,7 +574,7 @@ msgstr "Thất bại chung"
 
 #: errorPassChange
 msgid "Your password is no longer valid. Please choose a new password."
-msgstr "Mật khẩu của bạn đã không còn hợp lệ. Hãy chọn một mật khẩu mới."
+msgstr "Mật khẩu của bạn đã không còn hợp lệ. Vui lòng chọn một mật khẩu mới."
 
 #: bothNewPasswordsMustMatch
 msgid "Both new passwords must match. Please retype them."
@@ -584,7 +585,7 @@ msgid ""
 "The password you submitted has recently been used. Please choose a different "
 "password."
 msgstr ""
-"Mật khẩu bạn đã gửi đã được sử dụng gần đây. Hãy chọn một mật khẩu khác."
+"Mật khẩu bạn đã gửi đã được sử dụng gần đây. Vui lòng chọn một mật khẩu khác."
 
 #: errorPassChangeTooSoon
 msgid "Password cannot be changed too soon."
@@ -595,8 +596,8 @@ msgid ""
 "Password locked. User not allowed to change password. Please contact your "
 "System Administrator."
 msgstr ""
-"Mật khẩu đã khoá. Người dùng không thể thay đổi mật khẩu. Hãy liên hệ tới "
-"Quản trị Hệ thống của bạn."
+"Mật khẩu đã khoá. Người dùng không thể thay đổi mật khẩu. Vui lòng liên hệ "
+"tới Quản trị Hệ thống của bạn."
 
 #: Domain_GAL_Config_Complete
 msgid "GAL search configuration complete."
@@ -614,7 +615,8 @@ msgstr "Kiểm tra"
 #: Domain_GALTestingInProgress
 msgid "Please wait while the server is testing new GAL search settings..."
 msgstr ""
-"Hãy chờ trong khi máy chủ đang kiểm thử các thiết lập tìm kiếm GAL mới ..."
+"Vui lòng chờ trong khi máy chủ đang kiểm thử các thiết lập tìm kiếm GAL "
+"mới ..."
 
 #: Domain_GALSearchTestResults
 msgid "Search test result"
@@ -659,7 +661,7 @@ msgstr "Chi tiết"
 
 #: Domain_GALSampleSearchName
 msgid "Please provide a search term"
-msgstr "Hãy cung cấp một điều kiện tìm kiếm"
+msgstr "Vui lòng cung cấp một điều kiện tìm kiếm"
 
 #: Domain_GALTestNoResults
 msgid "Search returned no results"
@@ -674,8 +676,8 @@ msgid ""
 "Configuration of the new domain is complete.<br>Please press 'FINISH' to "
 "save the new domain."
 msgstr ""
-"Cấu hình của tên miền mới đã hoàn thành.<br>Hãy bấm 'KẾT THÚC' để lưu lại "
-"tên miền mới."
+"Cấu hình của tên miền mới đã hoàn thành.<br>Vui lòng bấm 'KẾT THÚC' để lưu "
+"lại tên miền mới."
 
 #: Domain_DomainName
 msgid "Domain name:"
@@ -837,7 +839,7 @@ msgstr "Loại bỏ"
 
 #: ZMLT_uploadTitle
 msgid "Please select the Zimlet/Extension zip file:"
-msgstr "Hãy chọn tập tin zip Zimlet/Extension:"
+msgstr "Vui lòng chọn tập tin zip Zimlet/Extension:"
 
 #: ZMLT_DeployZimlet
 msgctxt "ZMLT_DeployZimlet"
@@ -874,8 +876,8 @@ msgid ""
 "Successfuly uploaded the zimlet file.<br/>Now Deploying the zimlet. Please "
 "wait..."
 msgstr ""
-"Tải lên thành không tập tin zimlet.<br/>Hiện giờ đang triên khai zimlet. Hãy "
-"chờ..."
+"Tải lên thành không tập tin zimlet.<br/>Hiện giờ đang triên khai zimlet. Vui "
+"lòng chờ..."
 
 #: ZMLT_zimletFileNameError
 msgid ""
@@ -1209,8 +1211,8 @@ msgid ""
 "To select an account where the alias \"{0}\" will be moved, please type the "
 "name or the email address of the account in the box below  "
 msgstr ""
-"Để chọn một tài khoản nơi mà bí danh \"{0}\" sẽ bị chuyển, hãy đánh tên hoặc "
-"địa chỉ thư của tài khoản vào hộp bên dưới"
+"Để chọn một tài khoản nơi mà bí danh \"{0}\" sẽ bị chuyển, vui lòng đánh tên "
+"hoặc địa chỉ thư của tài khoản vào hộp bên dưới"
 
 #: ReindexMbx_Progress
 msgctxt "ReindexMbx_Progress"
@@ -1224,7 +1226,7 @@ msgstr "Đang tiến hành:"
 
 #: Progress_Title
 msgid "Please wait"
-msgstr "Hãy chờ"
+msgstr "Vui lòng chờ"
 
 #: ALTBB_Save_tt
 msgctxt "ALTBB_Save_tt"
@@ -1243,15 +1245,15 @@ msgstr "Tạo một bí danh cho một tài khoản đích"
 #: ALTBB_Edit_tt
 msgctxt "ALTBB_Edit_tt"
 msgid "Edit account"
-msgstr "Sửa đổi tài khoản"
+msgstr "Sửa tài khoản"
 
 #: ALTBB_Edit_Aliases_tt
 msgid "Edit account aliases"
-msgstr "Sửa đổi bí danh tài khoản"
+msgstr "Sửa bí danh tài khoản"
 
 #: Edit_Alias_Title
 msgid "Edit alias"
-msgstr "Sửa đổi bí danh"
+msgstr "Sửa bí danh"
 
 #: Add_Alias_Title
 msgctxt "Add_Alias_Title"
@@ -1264,7 +1266,7 @@ msgstr "Tạo mới bí danh"
 
 #: Edit_FwdAddr_Title
 msgid "Edit forwarding address"
-msgstr "Sửa đổi địa chỉ chuyển tiếp"
+msgstr "Sửa địa chỉ chuyển tiếp"
 
 #: Add_FwdAddr_Title
 msgid "Add forwarding address"
@@ -1295,7 +1297,7 @@ msgstr ""
 #: ACTBB_Edit_tt
 msgctxt "ACTBB_Edit_tt"
 msgid "Edit account"
-msgstr "Sửa đổi tài khoản"
+msgstr "Sửa tài khoản"
 
 #: ACTBB_Delete_tt
 msgid "Delete account"
@@ -1324,15 +1326,15 @@ msgstr "Mở thuật sĩ mà sẽ hướng dẫn việc tái tạo chỉ mục c
 #. #Interop Strings
 #: Edit_Fp_Title
 msgid "Edit Foreign Principal"
-msgstr "Sửa người uỷ nhiệm ngoài"
+msgstr "Sửa uỷ nhiệm ngoài"
 
 #: Add_Fp_Title
 msgid "Add Foreign Principal"
-msgstr "Thêm người uỷ nhiệm ngoài"
+msgstr "Thêm uỷ nhiệm ngoài"
 
 #: Enter_FpPrefix
 msgid "Foreign Principal Prefix:"
-msgstr "Tiền tố người uỷ nhiệm ngoài:"
+msgstr "Tiền tố uỷ nhiệm ngoài:"
 
 #: Select_Interop_Provider
 msgid "Free/Busy Interop Provider:"
@@ -1340,11 +1342,11 @@ msgstr "Nhà cung cấp Interop Rỗi/Bận:"
 
 #: Enter_ForeignAccount
 msgid "Foreign Principal Email Address:"
-msgstr "Địa chỉ email người uỷ nhiệm ngoài:"
+msgstr "Địa chỉ email uỷ nhiệm ngoài:"
 
 #: DIRTY_SAVE_ACCT
 msgid "The account was modified. Please save the changes first."
-msgstr "Tài khoản đã được sửa đổi. Hãy ghi lại các thay đổi trước tiên."
+msgstr "Tài khoản đã được sửa đổi. Vui lòng ghi lại các thay đổi trước tiên."
 
 #: NAD_Exchange_Settings
 msgid "Microsoft Exchange Settings"
@@ -1384,7 +1386,7 @@ msgstr "Vui lòng nhập URL của máy chủ Microsoft Exchange:"
 
 #: Error_missing_scheme
 msgid "Please select the authorization scheme."
-msgstr "Hãy chọn lược đồ ủy quyền:"
+msgstr "Vui lòng chọn lược đồ ủy quyền:"
 
 #: Error_missing_exchange_username
 msgid "Please enter Exchange User Name."
@@ -1541,7 +1543,7 @@ msgstr "Xoá danh sách phân phối"
 
 #: DLTBB_Edit_tt
 msgid "Edit Distribution List"
-msgstr "Sửa đổi danh sách phân phối"
+msgstr "Sửa danh sách phân phối"
 
 #: DLTBB_Cancel_tt
 msgid "Cancel Distribution List creation"
@@ -1744,8 +1746,8 @@ msgid ""
 "Found over {0} results. Please<br/>narrow the search by<br/>typing a domain "
 "name. "
 msgstr ""
-"Tìm thấy hơn {0} kết quả. Hãy<br/>thu hẹp sự tìm kiếm bằng<br/>việc đánh máy "
-"một tên miền."
+"Tìm thấy hơn {0} kết quả. Vui lòng<br/>thu hẹp sự tìm kiếm bằng<br/>việc "
+"đánh máy một tên miền."
 
 #: Alert_ServerDetails
 msgid "<b>Note:</b> Settings on an individual server override global settings."
@@ -1795,7 +1797,7 @@ msgid ""
 "zimbraMailSleepPurgeInterval is disabled in either the server or  global "
 "config."
 msgstr ""
-"<b>Note:</b> Những thiết lập này không cho hiệu ứng nếu "
+"<b>Note:</b> Những thiết lập này không có hiệu lực nếu "
 "zimbraMailSleepPurgeInterval là vô hiệu hoặc trong máy chủ hoặc trong cấu "
 "hình chung."
 
@@ -1824,8 +1826,8 @@ msgid ""
 "button in the toolbar. "
 msgstr ""
 "Không gian tài liệu mức tên miền không được tạo ra cho tên miền này. Để tạo "
-"ra một không gian tài liệu mức tên miền, Hãy bấm vào nút Tạo Tài liệu trên "
-"thanh công cụ."
+"ra một không gian tài liệu mức tên miền, vui lòng bấm vào nút Tạo Tài liệu "
+"trên thanh công cụ."
 
 #: Alert_Bouncing_Reveal_Hidden_Adds
 msgid ""
@@ -1855,7 +1857,7 @@ msgstr "Tạo mới máy chủ"
 
 #: SERTBB_Edit_tt
 msgid "Edit server"
-msgstr "Sửa đổi máy chủ"
+msgstr "Sửa máy chủ"
 
 #: SERTBB_Delete_tt
 msgid "Delete server"
@@ -2142,19 +2144,19 @@ msgstr "Thời gian"
 
 #: PQ_SELECT_WHAT_TO_REQ
 msgid "Please select the set of messages that you want to requeue:"
-msgstr "Hãy chọn tập hợp các thông điệp mà bạn xếp hàng lại:"
+msgstr "Vui lòng chọn tập hợp các thông điệp mà bạn xếp hàng lại:"
 
 #: PQ_SELECT_WHAT_TO_DEL
 msgid "Please select the set of messages that you want to delete:"
-msgstr "Hãy chọn tập hợp các thông điệp mà bạn muốn xoá bỏ:"
+msgstr "Vui lòng chọn tập hợp các thông điệp mà bạn muốn xoá bỏ:"
 
 #: PQ_SELECT_WHAT_TO_REL
 msgid "Please select the set of messages that you want to release:"
-msgstr "Hãy chọn tập hợp các thông điệp mà bạn muốn giải phóng:"
+msgstr "Vui lòng chọn tập hợp các thông điệp mà bạn muốn giải phóng:"
 
 #: PQ_SELECT_WHAT_TO_HOLD
 msgid "Please select the set of messages that you want to hold:"
-msgstr "Hãy chọn tập hợp các thông điệp mà bạn muốn giữ:"
+msgstr "Vui lòng chọn tập hợp các thông điệp mà bạn muốn giữ:"
 
 #: PQ_REQ_DLG_TITLE
 msgid "Requeue messages"
@@ -2178,15 +2180,15 @@ msgstr "Bạn chắc chắn muốn xoá bỏ các thông điệp {0} từ hàng 
 
 #: PQ_Q_REQUEUE_ALL_IN_QUEUE
 msgid "Are you sure you want to requeue messages {0} in the {1} queue?"
-msgstr "Bạn chắc chắn muốn xếp hàng lại các thông báo {0} trong hàng đợi {1}?"
+msgstr "Bạn chắc chắn muốn xếp hàng lại các thông điệp {0} trong hàng đợi {1}?"
 
 #: PQ_Q_HOLD_ALL_IN_QUEUE
 msgid "Are you sure you want to hold messages {0} from the {1} queuequeue?"
-msgstr "Bạn chắc chắn muốn giữ các thông báo {0} từ hàng đợi {1}?"
+msgstr "Bạn chắc chắn muốn giữ các thông điệp {0} từ hàng đợi {1}?"
 
 #: PQ_Q_RELEASE_ALL_IN_QUEUE
 msgid "Are you sure you want to release messages {0} from the {1} queue?"
-msgstr "Bạn chắc chắn muốn giải phóng các thông báo {0} từ hàng đợi {1}?"
+msgstr "Bạn chắc chắn muốn giải phóng các thông điệp {0} từ hàng đợi {1}?"
 
 #: PQ_Q_REQUEUE_MESSAGES
 msgid "Are you sure you want to requeue {0} messages in the {1} queue?"
@@ -2776,8 +2778,8 @@ msgid ""
 "for Current UI Theme."
 msgstr ""
 "Lỗi: theme {0} không được bao gồm trong danh sách theme có sẵn tới người "
-"dùng này! Hãy chọn hộp chọn bên cạnh {1} hoặc chọn một giá trị khác cho Giao "
-"diện Them hiện thời."
+"dùng này! Vui lòng chọn hộp chọn bên cạnh {1} hoặc chọn một giá trị khác cho "
+"Giao diện Them hiện thời."
 
 #: COS_WarningCurrentThemeNotAvail
 msgid ""
@@ -2786,8 +2788,8 @@ msgid ""
 "different value for Current UI Theme.   "
 msgstr ""
 "Lỗi: theme {0} không bao gồm trong danh sách theme mà có sẵn cho người dùng "
-"trong COS này! Hãy chọn hộp chọn bên cạnh {1} hoặc chọn một giá trị khác cho "
-"Giao diện Theme hiện thời."
+"trong COS này! Vui lòng chọn hộp chọn bên cạnh {1} hoặc chọn một giá trị "
+"khác cho Giao diện Theme hiện thời."
 
 #: tt_minPollingIntervalWarning
 msgid ""
@@ -2803,7 +2805,7 @@ msgstr "Kích thước hộp thư:"
 
 #: NAD_ContactMaxNumEntries
 msgid "Maximum number of contacts allowed in address book"
-msgstr "Sỗ liên hệ tối đa cho phép trong sổ địa chỉ"
+msgstr "Số liên hệ tối đa cho phép trong sổ địa chỉ"
 
 #: NAD_QuotaWarnPercent
 msgid "Percentage threshold for quota warning messages (%): "
@@ -3078,7 +3080,7 @@ msgstr "Bí danh tài khoản"
 
 #: NAD_EditFpGroup
 msgid "Foreign Principals"
-msgstr "Những nhánh chính ngoài"
+msgstr "Ủy nhiệm ngoài"
 
 #: NAD_EditDLAliasesGroup
 msgid "Distribution List Aliases"
@@ -3174,7 +3176,7 @@ msgstr "Số cổng kết nối LMTP:"
 
 #: NAD_LmtpNumThreads
 msgid "LMTP number of threads:"
-msgstr "Số của các luồng LMTP:"
+msgstr "Số lượng luồng LMTP:"
 
 #. # pop3
 #: Global_POP_ServiceGrp
@@ -3237,7 +3239,7 @@ msgstr "Tên quảng cáo:"
 #: NAD_POP_NumThreads
 msgctxt "NAD_POP_NumThreads"
 msgid "Number of threads:"
-msgstr "Số các luồng:"
+msgstr "Số lượng luồng:"
 
 #. # imap
 #: Global_IMAP_ServiceGrp
@@ -3281,7 +3283,7 @@ msgstr "Cho phép đăng nhập văn bản thường"
 #: IMAP_NumThreads
 msgctxt "IMAP_NumThreads"
 msgid "Number of threads:"
-msgstr "Số các luồng:"
+msgstr "Số lượng luồng:"
 
 #: Server_WrongPortWarningTitle
 msgid "Warning!"
@@ -3348,7 +3350,7 @@ msgstr "Hiện thời"
 
 #: VM_Edit_Volume_Title
 msgid "Edit Volume"
-msgstr "Sửa đổi Volume"
+msgstr "Sửa volume"
 
 #: VM_Add_Volume_Title
 msgid "Add New Volume"
@@ -3774,7 +3776,7 @@ msgstr "Sử dụng GAL khi tự động hoàn thành địa chỉ"
 
 #: NAD_zimbraPrefWarnOnExit
 msgid "Display a warning when users try to navigate away from ZCS"
-msgstr "Hiển thị một cảnh báo khi người dùng có gắng định hướng ra khỏi từ ZCS"
+msgstr "Hiển thị một cảnh báo khi người dùng cố gắng định hướng ra khỏi từ ZCS"
 
 #: NAD_zimbraPrefHtmlEditorDefaultFontFamily
 msgid "Default font family of html mail editor:"
@@ -4075,19 +4077,19 @@ msgstr "Không có hộp thư nào trong máy chủ này"
 
 #: Stats_MC_Header
 msgid "Number of recipients of messages via either SMTP or LMTP."
-msgstr "Số của người nhận của thông báo từ hoặc SMTP hoặc LMTP."
+msgstr "Số lượng người nhận thông điệp từ hoặc SMTP hoặc LMTP."
 
 #: Stats_MV_Header
 msgid ""
 "Number of recipients of messages via either SMTP or LMTP multipled by the "
 "size of each such message."
 msgstr ""
-"Số của người nhận của thông báo từ hoặc SMTP hoặc LMTP đã nhân bởi kích cỡ "
+"Số lượng người nhận thông điệp từ hoặc SMTP hoặc LMTP được nhân bởi kích cỡ "
 "của mỗi thông điệp như thế."
 
 #: Stats_AV_Header
 msgid "Number of unique messages processed by the AS/AV system."
-msgstr "Số của các thông điệp duy nhất đã tiến hành bởi hệ thống AS/AV."
+msgstr "Số lượng thông điệp duy nhất đã xử lý bởi hệ thống AS/AV."
 
 #. #Resources Message
 #: RESTBB_New_menuItem
@@ -4377,7 +4379,7 @@ msgstr "Yêu cầu không hợp lệ"
 
 #: ERROR_TOO_MANY_SEARCH_RESULTS
 msgid "Too many results returned. Please refine your search."
-msgstr "Quá nhiều kết quả trả về. Hãy lọc tìm kiếm của bạn."
+msgstr "Quá nhiều kết quả trả về. Vui lòng lọc tìm kiếm của bạn."
 
 #: ERROR_AUTH_FAILED
 msgid "Authentication Failed"
@@ -4533,11 +4535,11 @@ msgid ""
 "title=ZimbraMtaMyNetworks\">http://wiki.zimbra.com/index.php?"
 "title=ZimbraMtaMyNetworks</a>."
 msgstr ""
-"Lỗi! Giá trị {0} không là một danh sách hợp lệ của các mạng con. Hãy tra cứu "
-"tài liệu để cấu hình MTA Trusted Networks. <br/>Thông tin thêm về cấu hình "
-"MTA Trusted Networks có thể được tìm thấy tại <a target=\"new\" href="
-"\"http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks\">http://wiki."
-"zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
+"Lỗi! Giá trị {0} không là một danh sách hợp lệ của các mạng con. Vui lòng "
+"tra cứu tài liệu để cấu hình MTA Trusted Networks. <br/>Thông tin thêm về "
+"cấu hình MTA Trusted Networks có thể được tìm thấy tại <a target=\"new\" "
+"href=\"http://wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks\">http://"
+"wiki.zimbra.com/index.php?title=ZimbraMtaMyNetworks</a>."
 
 #: ERROR_MISSING_LOCAL
 msgid ""
@@ -4595,7 +4597,7 @@ msgstr "Lỗi! {0} không là một địa chỉ IP hoặc mặt nạ mạng h�
 
 #: ERROR_ONE_FP_PREFIX_ALLOWED
 msgid "Only one foreign principal for the same provider is allowed."
-msgstr "Chỉ một người uỷ nhiệm ngoài cho cùng người cung cấp là được phép."
+msgstr "Chỉ một uỷ nhiệm ngoài cho cùng người cung cấp là được phép."
 
 #: WARNING_RESETING_SMTP_HOST
 msgid ""
@@ -4612,7 +4614,7 @@ msgid ""
 "The current time zone \"{0}\" for {1} is invalid, please go to Preferences "
 "to set the valid time zone."
 msgstr ""
-"Múi giờ hiện thời \"{0}\" cho {1} không hợp lệ, hãy tới mục Tuỳ chọn để "
+"Múi giờ hiện thời \"{0}\" cho {1} không hợp lệ, vui lòng tới mục Tuỳ chọn để "
 "thiết lập múi giờ hợp lệ."
 
 #: WARNING_CHARSET_INVALID
@@ -4621,7 +4623,8 @@ msgid ""
 "invalid, please go to Preferences to set the valid charset."
 msgstr ""
 "Việc soạn thảo thư mặc định hiện thời và việc phân tích tập ký tự \"{0}\" "
-"cho {1} không hợp lệ, hãy tới mục Tuỳ chọn để thiết lập tập ký tự hợp lệ."
+"cho {1} không hợp lệ, vui lòng tới mục Tuỳ chọn để thiết lập tập ký tự hợp "
+"lệ."
 
 #. # {0} is the account name, and {1} is the alias name
 #: WARNING_EACH_ALIAS0
@@ -4691,12 +4694,12 @@ msgid ""
 "name already exists. Please choose another name."
 msgstr ""
 "Một danh sách phân phối, một bí danh, một tài nguyên hoặc một tài khoản với "
-"tên chỉ định đã tồn tại. Hãy chọn tên khác."
+"tên chỉ định đã tồn tại. Vui lòng chọn tên khác."
 
 #: ERROR_COS_EXISTS
 msgid ""
 "The specified Class of Service already exists. Please choose another name."
-msgstr "Lớp dịch vụ chỉ định đã tồn tại . Hãy chọn tên khác."
+msgstr "Lớp dịch vụ chỉ định đã tồn tại . Vui lòng chọn tên khác."
 
 #: ERROR_COS_NOT_FOUND
 msgid "Error! Cannot find a class of service with the specified name: \"{0}\"."
@@ -4731,8 +4734,8 @@ msgid ""
 "Cannot delete the domain, because it is not empty. Please remove all the "
 "accounts from the domain first."
 msgstr ""
-"Không thể xoá tên miền, bởi vì nó không trống. Hãy loại bỏ tất cả các tài "
-"khoản từ tên miền này trước tiên."
+"Không thể xoá tên miền, bởi vì nó không trống. Vui lòng loại bỏ tất cả các "
+"tài khoản từ tên miền này trước tiên."
 
 #: ERROR_WRONG_HOST
 msgid "Command sent to the wrong host."
@@ -4756,7 +4759,7 @@ msgid ""
 "exists.<br>Please choose another name."
 msgstr ""
 "Thay đổi tên tài khoản thất bại. Tài khoản khác với tên chỉ định đã tồn tại."
-"<br>Hãy chọn tên khác."
+"<br>Vui lòng chọn tên khác."
 
 #: FAILED_RENAME_ACCOUNT
 msgid "Failed to rename account."
@@ -4771,7 +4774,8 @@ msgid ""
 "Failed to create account. The specified account already exists.<br>Please "
 "choose another name."
 msgstr ""
-"Tạo tài khoản thất bại. Tài khoản chỉ định đã tồn tại.<br>Hãy chọn tên khác."
+"Tạo tài khoản thất bại. Tài khoản chỉ định đã tồn tại.<br>Vui lòng chọn tên "
+"khác."
 
 #: FAILED_CREATE_ACCOUNT
 msgid "Failed to create account."
@@ -4787,7 +4791,7 @@ msgid ""
 "<br>Please choose another name."
 msgstr ""
 "Thay đổi Lớp dịch vụ thất bại. Lớp dịch vụ khác với tên chỉ định đã tồn tại."
-"<br>Hãy chọn tên khác."
+"<br>Vui lòng chọn tên khác."
 
 #: FAILED_RENAME_COS
 msgid "Failed to rename COS."
@@ -4798,8 +4802,8 @@ msgid ""
 "Failed to create COS. COS with this name already exists.<br>Please choose "
 "another name."
 msgstr ""
-"Tạo Lớp dịch vụ thất bại. Lớp dịch vụ với tên chỉ định đã tồn tại.<br>Hãy "
-"chọn tên khác."
+"Tạo Lớp dịch vụ thất bại. Lớp dịch vụ với tên chỉ định đã tồn tại.<br>Vui "
+"lòng chọn tên khác."
 
 #: FAILED_CREATE_COS
 msgid "Failed to create COS."
@@ -4854,7 +4858,7 @@ msgid ""
 "performed at this time.Try again later."
 msgstr ""
 "Hàng đợi này hiện thời đang được quét và hành động yêu cầu không thể được "
-"thực hiện trong thời gian này.Hãy thử lại sau."
+"thực hiện trong thời gian này.Vui lòng thử lại sau."
 
 #: ERROR_FAILED_TO_GET_CREDENTIALS
 msgid "Failed to acquire credentials from the server"
@@ -4997,7 +5001,7 @@ msgstr ""
 
 #: CORRECT_ERRORS
 msgid "Please correct the values in these fields:"
-msgstr "Hãy hiệu chỉnh các giá trị trong các trường này:"
+msgstr "Vui lòng hiệu chỉnh các giá trị trong các trường này:"
 
 #: attrDesc_zimbraId
 msgid "Id"
@@ -5198,8 +5202,8 @@ msgid ""
 "<br />Please use the search options to construct the right search filter. "
 msgstr ""
 "Trong chế độ tìm kiếm nâng cao, một chuỗi lọc kiểu-LDAP (RFC 2254) là bắt "
-"buộc. <br />Hãy sử dụng các tuỳ chọn tìm kiếm để khởi tạo bộ lọc tìm kiếm "
-"đúng."
+"buộc. <br />Vui lòng sử dụng các tuỳ chọn tìm kiếm để khởi tạo bộ lọc tìm "
+"kiếm đúng."
 
 #: searchToolTip
 msgid "Choose which types of items are returned by your search"
@@ -5351,7 +5355,7 @@ msgstr "Nhập tên miền và tất cả các tên miền phù hợp sẽ đư�
 #: no_domain_found_msg
 msgid "No matching domain is found. Please refine your filter."
 msgstr ""
-"Không có tên miền phù hợp được tìm thấy. Hãy tinh lọc việc lọc của bạn."
+"Không có tên miền phù hợp được tìm thấy. Vui lòng tinh lọc việc lọc của bạn."
 
 #: search_option_all_server
 msgid "All servers"
@@ -5420,7 +5424,8 @@ msgstr "Thời gian đăng nhập cuối"
 msgid ""
 "Unable to parse your search query. Please correct any errors and resubmit."
 msgstr ""
-"Không thể phân tích truy vấn tìm kiếm của bạn. Hãy sửa các lỗi và gửi lại."
+"Không thể phân tích truy vấn tìm kiếm của bạn. Vui lòng sửa các lỗi và gửi "
+"lại."
 
 #: usedQuota
 msgid "Used quota"
@@ -5471,11 +5476,11 @@ msgstr "Máy tính công cộng"
 
 #: enterUsername
 msgid "Please enter administrator username and password"
-msgstr "Hãy nhập tên người dùng và mật khẩu quản trị"
+msgstr "Vui lòng nhập tên người dùng và mật khẩu quản trị"
 
 #: enterNewPassword
 msgid "Please enter a new password and re-enter it in the confirmation field."
-msgstr "Hãy nhập mật khẩu mới và nhập lại trong trường xác nhận lại."
+msgstr "Vui lòng nhập mật khẩu mới và nhập lại trong trường xác nhận lại."
 
 #: goToServers
 msgctxt "goToServers"
@@ -5546,8 +5551,8 @@ msgid ""
 "To learn how to use the administration console, click the Zimbra Online Help "
 "link. "
 msgstr ""
-"Để học cách sử dụng bộ điều khiển quản trị như thế nào, Hãy bấm vào liên kết "
-"Trợ giúp trực tuyến Zimbra."
+"Để học cách sử dụng bộ điều khiển quản trị như thế nào, Vui lòng bấm vào "
+"liên kết Trợ giúp trực tuyến Zimbra."
 
 #: HELP_PAGE_4
 msgid "Latest Release Notes"
@@ -5570,7 +5575,7 @@ msgid ""
 "Get answers to your questions from the Zimbra forum. You can search for "
 "answers from the postings, and you can post a question."
 msgstr ""
-"Nhận các câu trả lời đối với cẩu hỏi của bạn từ diễn đàn Zimbra. Bàn có thể "
+"Nhận các câu trả lời đối với cẩu hỏi của bạn từ diễn đàn Zimbra. Bạn có thể "
 "tìm kiếm các câu trả lời từ các bài viết, và bạn có thể gửi một câu hỏi."
 
 #: HELP_PAGE_8
@@ -5622,7 +5627,7 @@ msgid ""
 "written in response to troubleshooting and administration issues that were "
 "not covered in the documentation."
 msgstr ""
-"Zimbra wiki bao gồm các bài viết của nhóm hỗ trợ và cộng đồn đã có bài viết "
+"Zimbra wiki bao gồm các bài viết của nhóm hỗ trợ và cộng đồng đã có bài viết "
 "để đáp lại các vấn đề dò lỗi và quản trị mà không có trong tài liệu."
 
 #: HELP_MIGRATION_WIZ_1
@@ -5665,7 +5670,7 @@ msgid ""
 "these utilities, go to Help "
 msgstr ""
 "Bên dưới là các liên kết tới tiện ích của Zimbra. Đối với các chỉ dẫn về "
-"cách sử dụng các tiện ích này, hãy tới phần Trợ giúp"
+"cách sử dụng các tiện ích này, vui lòng tới phần Trợ giúp"
 
 #: DOWNLOAD_FOR_ADMIN
 msgid "Downloads for Administrators"
@@ -5930,8 +5935,8 @@ msgid ""
 "The number of results to be displayed is over the limit. Please use search "
 "to refine the results."
 msgstr ""
-"Số kết quả sẽ được hiển thị việc quá giới hạn. Hãy sử dụng việc tìm kiếm để "
-"lọc các kết quả."
+"Số lượng kết quả sẽ được hiển thị việc quá giới hạn. Vui lòng sử dụng việc "
+"tìm kiếm để lọc các kết quả."
 
 #. #Session Lists
 #: TABT_SessStatsAdmin
@@ -6052,7 +6057,7 @@ msgstr ""
 
 #: too_many_tabs
 msgid "You have too many tabs open. Please close one tab first."
-msgstr "Bạn có quá nhiều tab đang mở. Hãy đóng một tab trước."
+msgstr "Bạn có quá nhiều tab đang mở. Vui lòng đóng một tab trước."
 
 #: tab_close
 msgid "Close tab"
@@ -6076,7 +6081,7 @@ msgid ""
 ">Please save these data first."
 msgstr ""
 "Bạn có các dữ liệu chưa lưu trong các tab sau: <br /><br /> {0} <br /><br /> "
-"Hãy lưu dữ liệu trước."
+"Vui lòng lưu dữ liệu trước."
 
 #. #initially saved searches
 #: ss_admin_account
@@ -6282,7 +6287,7 @@ msgstr "Đang xuất hộp thư ..."
 
 #: BUSY_PURGE_MBX
 msgid "Purging the mail box ..."
-msgstr "Đang tẩy hộp thư ..."
+msgstr "Đang gột sạch hộp thư ..."
 
 #: BUSY_PUSH_FP
 msgid "Pushing the foreign principals ..."
@@ -6389,7 +6394,7 @@ msgstr "Giá trị không hợp lệ (phải xóa): {0}"
 
 #: ERROR_ACCOUNT_TYPE_NOT_SET
 msgid "Please set the account type for this account"
-msgstr "Hãy thiết lập loại tài khoản cho tài khoản này"
+msgstr "Vui lòng thiết lập loại tài khoản cho tài khoản này"
 
 #: VALUE_NOT_SET
 msgid "Not Set"

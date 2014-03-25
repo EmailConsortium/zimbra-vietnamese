@@ -70,7 +70,7 @@ msgstr ""
 
 #: account.CHANGE_PASSWORD
 msgid "Your password in no longer valid. Please choose a new password."
-msgstr "Mật khẩu của bạn không còn hợp lệ nữa. Hãy chọn một mật khẩu mới."
+msgstr "Mật khẩu của bạn không còn hợp lệ nữa. Vui lòng chọn một mật khẩu mới."
 
 #: account.INVALID_PASSWORD
 msgid "You have entered an invalid password."
@@ -117,16 +117,16 @@ msgid ""
 "Password locked. User not allowed to change password. Please contact your "
 "System Administrator."
 msgstr ""
-"Mật khẩu đã khoá. Người dùng không được phép thay đổi mật khẩu. Hãy liên hệ "
-"tới Quản trị hệ thống của bạn."
+"Mật khẩu đã khoá. Người dùng không được phép thay đổi mật khẩu. Vui lòng "
+"liên hệ tới Quản trị hệ thống của bạn."
 
 #: account.PASSWORD_RECENTLY_USED
 msgid ""
 "The password you submitted has recently been used. Please choose a different "
 "password."
 msgstr ""
-"Mật khẩu mà bạn đã gửi vừa mới được sử dụng gần đây. Hãy chọn một mật khẩu "
-"khác."
+"Mật khẩu mà bạn đã gửi vừa mới được sử dụng gần đây. Vui lòng chọn một mật "
+"khẩu khác."
 
 #. # The im.lower_case messages are received as part of a chat message
 #: im.forbidden
@@ -268,7 +268,7 @@ msgstr "Liên hệ không thể được tạo bởi vì bạn đã quá hạn n
 
 #: mail.TOO_MANY_QUERY_TERMS_EXPANDED
 msgid "Please be more specific in your search criteria."
-msgstr "Hãy chỉ định thêm trong tiêu chí tìm kiếm của bạn."
+msgstr "Vui lòng chỉ định thêm trong tiêu chí tìm kiếm của bạn."
 
 #: mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS
 msgctxt "mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS"
@@ -297,8 +297,8 @@ msgid ""
 "You must be online to use this feature. Please check your network connection "
 "and try again."
 msgstr ""
-"Bạn phải trực tuyến để sử dụng tính năng này. Hãy kiểm tra kết nối mạng của "
-"bạn và thử lại."
+"Bạn phải trực tuyến để sử dụng tính năng này. Vui lòng kiểm tra kết nối mạng "
+"của bạn và thử lại."
 
 #: service.PARSE_ERROR
 msgid "A parsing error has occurred."
@@ -462,7 +462,7 @@ msgstr "Một lỗi dịch vụ mạng vừa xảy ra (zclient/io)."
 
 #: ztaglib.TAG_EXCEPTION
 msgid "A client error occurred. Please try again."
-msgstr "Một lỗi trình khách đã xảy ra. Hãy thử lại."
+msgstr "Một lỗi trình khách đã xảy ra. Vui lòng thử lại."
 
 #: unknownError
 msgid "An unknown error ({0}) has occurred."
