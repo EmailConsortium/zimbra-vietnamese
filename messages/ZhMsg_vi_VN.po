@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. #
@@ -92,7 +92,7 @@ msgstr "Đã tạo sổ địa chỉ \"{0}\"."
 
 #: actionAddressBookCheckConfirm
 msgid "Please check the checkbox to confirm address book deletion."
-msgstr "Hãy chọn vào hộp chọn để xác nhận việc xoá sổ địa chỉ."
+msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá sổ địa chỉ."
 
 #: actionAddressBookColorChanged
 msgid "Address book \"{0}\" color changed to \"{1}\"."
@@ -130,7 +130,7 @@ msgstr "Đã tạo cặp tài liệu \"{0}\"."
 
 #: actionBriefcaseCheckConfirm
 msgid "Please check the checkbox to confirm briefcase deletion."
-msgstr "Hãy chọn vào hộp chọn để xác nhận việc xoá bỏ cặp tài liệu."
+msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá bỏ cặp tài liệu."
 
 #: actionBriefcaseColorChanged
 msgid "Briefcase \"{0}\" color changed to \"{1}\"."
@@ -298,7 +298,7 @@ msgstr "Lịch đã vào thùng rác \"{0}\"."
 
 #: actionCalendarCheckConfirm
 msgid "Please check the checkbox to confirm calendar deletion."
-msgstr "Hãy chọn vào hộp chọn để xác nhận việc xoá bỏ lịch."
+msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá bỏ lịch."
 
 #: actionCalendarDeleted
 msgid "Calendar \"{0}\" deleted."
@@ -498,7 +498,7 @@ msgstr "Xoá bỏ"
 
 #: actionDeleteCheckConfirm
 msgid "Please check the checkbox to confirm deletion."
-msgstr "Hãy bấm vào hộp chọn để xác nhận việc xoá bỏ."
+msgstr "Vui lòng bấm vào hộp chọn để xác nhận việc xoá bỏ."
 
 #: actionDownload
 msgctxt "actionDownload"
@@ -976,7 +976,7 @@ msgstr "Thẻ"
 
 #: actionTagCheckConfirm
 msgid "Please check the checkbox to confirm tag deletion."
-msgstr "Hãy chọn vào hộp chọn để xác nhận việc xoá bỏ thẻ."
+msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá bỏ thẻ."
 
 #: actionTagCreated
 msgid "Created tag \"{0}\"."
@@ -1038,7 +1038,7 @@ msgstr ""
 
 #: actionTaskListCheckConfirm
 msgid "Please check the checkbox to confirm task list deletion."
-msgstr "Hãy chọn hộp chọn để xác nhận việc xoá bỏ danh sách công việc."
+msgstr "Vui lòng chọn hộp chọn để xác nhận việc xoá bỏ danh sách công việc."
 
 #: actionTaskMoved
 msgid ""
@@ -2290,7 +2290,7 @@ msgstr "Bấm để xem"
 
 #: emptySearchQuery
 msgid "Please specify search query to search."
-msgstr "Hãy chỉ định truy vấn tìm kiếm để tìm kiếm."
+msgstr "Vui lòng chỉ định truy vấn tìm kiếm để tìm kiếm."
 
 #: enableAppleICalDelegation
 msgid "Enable delegation for Apple iCal CalDAV client"
@@ -2318,7 +2318,7 @@ msgstr "Nhập liên hệ để tìm trong ô nhập và bấm vào \"Tìm kiế
 
 #: enterNewPassword
 msgid "Please enter a new password and re-enter it in the confirmation field."
-msgstr "Hãy nhập một mật khẩu mới và nhập lại nó trong ô xác nhận."
+msgstr "Vui lòng nhập một mật khẩu mới và nhập lại nó trong ô xác nhận."
 
 #: error
 msgctxt "error"
@@ -3344,11 +3344,11 @@ msgstr "Số"
 
 #: numberOfItemsPerPage
 msgid "Number of items to display per page"
-msgstr "Số các mục hiển thị trên một trang"
+msgstr "Số mục hiển thị trên một trang"
 
 #: numberOfContactsToDisplayPerPage
 msgid "Number of contacts to display per page"
-msgstr "Số các liên hệ hiển thị trên một trang"
+msgstr "Số liên hệ hiển thị trên một trang"
 
 #: oldPassword
 msgid "Old Password"
@@ -7856,7 +7856,7 @@ msgstr "Không thể gửi thông điệp."
 
 #: mail.TRY_AGAIN
 msgid "Try again."
-msgstr "Hãy thử lại."
+msgstr "Vui lòng thử lại."
 
 #: mail.TOO_MANY_QUERY_TERMS_EXPANDED
 msgid "Too many query terms expanded."
@@ -7890,7 +7890,7 @@ msgstr "Tải lên tập tin đính kèm không thành công."
 
 #: ztaglib.TAG_EXCEPTION
 msgid "A client error occurred. Please try again."
-msgstr "Một lỗi trình khách đã xảy ra. Hãy thử lại."
+msgstr "Một lỗi trình khách đã xảy ra. Vui lòng thử lại."
 
 #: ztaglib.UPLOAD_SIZE_LIMIT_EXCEEDED
 msgctxt "ztaglib.UPLOAD_SIZE_LIMIT_EXCEEDED"
