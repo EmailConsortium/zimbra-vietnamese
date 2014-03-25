@@ -207,7 +207,7 @@ msgstr "Hộp thư đến"
 
 #: accountDownloadToLabel
 msgid "Download messages to:"
-msgstr "Tải các thông báo tới:"
+msgstr "Tải các thông điệp tới:"
 
 #. # {0} folder name
 #: accountDownloadToFolder
@@ -230,8 +230,8 @@ msgstr "Các thiết lập tài khoản chính"
 msgid ""
 "This account could not be activated. Please verify the account settings."
 msgstr ""
-"Tài khoản này không thể được kích hoạt. Hãy xác minh trong thiết lập tài "
-"khoản"
+"Tài khoản này không thể được kích hoạt. Vui lòng xác minh trong thiết lập "
+"tài khoản"
 
 #: accountInactiveTitle
 msgid "Inactive Account"
@@ -247,7 +247,7 @@ msgstr "Tên tài khoản:"
 
 #: accountNameReserved
 msgid "Account name \"{0}\" is reserved. Please choose a different name."
-msgstr "Tên tài khoản \"{0}\" đã được dùng trước. Hãy chọn tên khác."
+msgstr "Tên tài khoản \"{0}\" đã được dùng trước. Vui lòng chọn tên khác."
 
 #: accountPersonaInstructions
 msgid ""
@@ -783,7 +783,8 @@ msgid ""
 "The selected appointment no longer exists. Please delete the entire "
 "appointment series."
 msgstr ""
-"Cuộc hẹn được lựa chọn không còn tồn tại. Hãy xoá toàn bộ hàng loạt cuộc hẹn."
+"Cuộc hẹn được lựa chọn không còn tồn tại. Vui lòng xoá toàn bộ hàng loạt "
+"cuộc hẹn."
 
 #: apptCanceled
 msgid "The following meeting has been cancelled:"
@@ -3189,7 +3190,7 @@ msgstr "Khung nhìn mặc định:"
 
 #: defaultsRestored
 msgid "Defaults Restored. Please Save Changes"
-msgstr "Đã phục hồi các mặc định. Hãy lưu các thay đổi"
+msgstr "Đã phục hồi các mặc định. Vui lòng lưu các thay đổi"
 
 #: defaultsPageRestore
 msgid "Page Reverted"
@@ -4023,8 +4024,8 @@ msgid ""
 "Only empty folders can be deleted for this account. Please delete all "
 "messages in this folder first."
 msgstr ""
-"Chỉ làm trống các thư mục có thể xóa của tài khoản này. Hãy xóa tất cả thông "
-"điệp trong thư mục này trước tiên."
+"Chỉ làm trống các thư mục có thể xóa của tài khoản này. Vui lòng xóa tất cả "
+"thông điệp trong thư mục này trước tiên."
 
 #: errorContact
 msgid "If the problem persists, please contact your System Administrator."
@@ -4167,7 +4168,7 @@ msgid ""
 "Please select a different name."
 msgstr ""
 "Một trang hoặc một sổ ghi chép có tên \"{0}\" đã tồn tại.\n"
-"Hãy chọn một tên khác."
+"Vui lòng chọn một tên khác."
 
 #: errorInvalidPass
 msgid ""
@@ -4257,7 +4258,7 @@ msgstr "Không có thông điệp nào như vậy tồn tại."
 
 #: errorNoSuchPart
 msgid "No such message part exists."
-msgstr "Không có phần thông báo như vậy tồn tại."
+msgstr "Không có phần thông điệp như vậy tồn tại."
 
 #: errorNoSuchSavedSearch
 msgid "No such saved search exists."
@@ -4277,7 +4278,7 @@ msgstr "Không có ngày trong tuần nào được kiểm tra."
 
 #: errorPassChange
 msgid "Your password is no longer valid. Please choose a new password."
-msgstr "Mật khẩu của bạn không còn hợp lệ. Hãy chọn một mật khẩu mới."
+msgstr "Mật khẩu của bạn không còn hợp lệ. Vui lòng chọn một mật khẩu mới."
 
 #: errorPassChangeTooSoon
 msgid "Password cannot be changed too soon."
@@ -4288,14 +4289,15 @@ msgid ""
 "Password locked. User not allowed to change password. Please contact your "
 "System Administrator."
 msgstr ""
-"Mật khẩu đã khoá. Người dụng vô hiệu hoá thay đổi mật khẩu. Hãy liên hệ với "
-"Quản Trị Hệ Thống."
+"Mật khẩu đã khoá. Người dụng vô hiệu hoá thay đổi mật khẩu. Vui lòng liên hệ "
+"với Quản Trị Hệ Thống."
 
 #: errorPassRecentlyUsed
 msgid ""
 "The password you submitted has recently been used. Please choose a different "
 "password."
-msgstr "Mật khẩu bạn gửi đã được sử dụng gần đây. Hãy chọn một mật khẩu khác."
+msgstr ""
+"Mật khẩu bạn gửi đã được sử dụng gần đây. Vui lòng chọn một mật khẩu khác."
 
 #: errorPermission
 msgid "Permission denied."
@@ -4408,7 +4410,7 @@ msgstr "Một lỗi mạng đã xảy ra."
 
 #: errorNotImageFile
 msgid "Please attach an image file (JPG, PNG, GIF)"
-msgstr "Hãy đính kèm một tập tin ảnh (JPG, PNG, GIF)"
+msgstr "Vui lòng đính kèm một tập tin ảnh (JPG, PNG, GIF)"
 
 #: errorNotAllowedFile
 msgid "Please attach allowed files ({0})"
@@ -4455,8 +4457,8 @@ msgid ""
 "Not all results were returned (too many results were found). Please be more "
 "specific in your search criteria."
 msgstr ""
-"Tất cả các kết quả không được trả về (quá nhiều kết quả được tìm thấy). Hãy "
-"chỉ rõ hơn trong tiêu chuẩn tìm kiếm của bạn."
+"Tất cả các kết quả không được trả về (quá nhiều kết quả được tìm thấy). Vui "
+"lòng chỉ rõ hơn trong tiêu chuẩn tìm kiếm của bạn."
 
 #: errorService
 msgid "A network service error has occurred."
@@ -4490,11 +4492,11 @@ msgstr "Định danh không thể được tạo vì bạn đã vượt quá h�
 
 #: errorTryAgain
 msgid "Please correct any errors and retry."
-msgstr "Hãy sửa lại bất kỳ lỗi nào và thử lại."
+msgstr "Vui lòng sửa lại bất kỳ lỗi nào và thử lại."
 
 #: errorUrlMissing
 msgid "Please enter a valid URL."
-msgstr "Hãy nhập một URL hợp lệ."
+msgstr "Vui lòng nhập một URL hợp lệ."
 
 #: errorWhiteBlackListExceeded
 msgid "You have reached your maximum limit for this list."
@@ -4739,8 +4741,8 @@ msgid ""
 "Content could not be retrieved. Make sure the following URL is an RSS/ATOM "
 "feed: {0}"
 msgstr ""
-"Nội dung không thể được nhận. Chắc chắn rạng URL sau là một nguồn tin RSS/"
-"ATOM: {0}"
+"Nội dung không thể được nhận. Hãy chắc chắn rằng URL sau là một nguồn tin "
+"RSS/ATOM: {0}"
 
 #: feedUnreachable
 msgid "The following URL is not currently reachable: {0}"
@@ -5092,7 +5094,7 @@ msgstr "Tên thư mục"
 
 #: folderNameReserved
 msgid "That folder name is reserved. Please use another name."
-msgstr "Tên thư mục đó được dành riêng. Hãy sử dụng tên khác."
+msgstr "Tên thư mục đó được dành riêng. Vui lòng sử dụng tên khác."
 
 #: folderNoLocation
 msgid "You must select a location for the folder."
@@ -5107,8 +5109,8 @@ msgid ""
 "A folder or saved search with that name already exists. Please use another "
 "name."
 msgstr ""
-"Một thư mục hoặc sự tìm kiếm đã lưu với tên đó đã tồn tại. Hãy sử dụng tên "
-"khác."
+"Một thư mục hoặc sự tìm kiếm đã lưu với tên đó đã tồn tại. Vui lòng sử dụng "
+"tên khác."
 
 #: folderPreviewMessage
 msgid "Double click on the folder to view its contents."
@@ -5848,7 +5850,7 @@ msgstr "Làm cho người dùng trong phòng thành vô danh"
 #: imArrivalLabel
 msgctxt "imArrivalLabel"
 msgid "When a message arrives:"
-msgstr "Khi một thông báo đến:"
+msgstr "Khi một thông điệp đến:"
 
 #: imBlock
 msgid "Block"
@@ -6008,7 +6010,7 @@ msgstr "Nhóm tán gẫu"
 
 #: imGroupExists
 msgid "A group with that name exists. Please use another name."
-msgstr "Một nhóm với tên đó đã tồn tại. Hãy sử dụng tên khác."
+msgstr "Một nhóm với tên đó đã tồn tại. Vui lòng sử dụng tên khác."
 
 #: imGroupName
 msgid "Group Name"
@@ -7269,7 +7271,7 @@ msgstr "Gửi một thông điệp thông báo tới:"
 #: mailPriorityTooltip
 msgctxt "mailPriorityTooltip"
 msgid "Set the priority of the message"
-msgstr "Thiết lập độ ưu tiên của thông báo"
+msgstr "Thiết lập độ ưu tiên của thông điệp"
 
 #: mailSharesOnly
 msgid "Mail shares only"
@@ -8778,7 +8780,7 @@ msgstr ""
 
 #: offlineMoveFolderError
 msgid "Folder move failed, please try again later"
-msgstr "Thư mục di chuyển thất bại, hãy thử lại sau"
+msgstr "Thư mục di chuyển thất bại, vui lòng thử lại sau"
 
 #: ok
 msgctxt "ok"
@@ -9406,7 +9408,7 @@ msgid ""
 "server."
 msgstr ""
 "Kết nối tới tài khoản POP \"{0}\" đã thất bại. Xem chi tiết cho các thông "
-"báo lỗi từ máy chủ."
+"điệp lỗi từ máy chủ."
 
 #: popAccountTestInProgress
 msgid "Testing..."
@@ -10403,17 +10405,17 @@ msgstr "Giữ bản sao tập tin <b>của họ̣</b>,<br>hủy bỏ các thay �
 
 #: saveConflictDoc
 msgid "Document with name \"{0}\" already exists. Please use a different name."
-msgstr "Tài liệu có tên \"{0}\" đã tồn tại. Hãy chọn một tên khác."
+msgstr "Tài liệu có tên \"{0}\" đã tồn tại. Vui lòng chọn một tên khác."
 
 #: saveConflictPresentation
 msgid ""
 "Presentation with name \"{0}\" already exists. Please use a different name."
-msgstr "Bản trình diễn có tên \"{0}\" đã tồn tại. Hãy chọn một tên khác."
+msgstr "Bản trình diễn có tên \"{0}\" đã tồn tại. Vui lòng chọn một tên khác."
 
 #: saveConflictSpreadsheet
 msgid ""
 "Spreadsheet with name \"{0}\" already exists. Please use a different name."
-msgstr "Bảng tính có tên \"{0}\" đã tồn tại.Hãy chọn một tên khác."
+msgstr "Bảng tính có tên \"{0}\" đã tồn tại.Vui lòng chọn một tên khác."
 
 #: saveConflictViewTheirs
 msgid "View Their File"
@@ -10698,7 +10700,7 @@ msgstr "Bạn phải chỉ định một giá trị cho tên của tìm kiếm �
 
 #: searchNameExists
 msgid "A saved search with that name exists. Please use another name."
-msgstr "Một tìm kiếm đã lưu với tên đó đã tồn tại. Hãy sử dụng tên khác."
+msgstr "Một tìm kiếm đã lưu với tên đó đã tồn tại. Vui lòng sử dụng tên khác."
 
 #: searchNoLocation
 msgid "You must select a location for the saved search."
@@ -10867,8 +10869,8 @@ msgid ""
 "We are unable to identify the timezone in your area, please choose the "
 "timezone from list"
 msgstr ""
-"Chúng tôi không thể xác định múi giờ trong khu vực của bạn, hãy chọn múi giờ "
-"từ danh sách"
+"Chúng tôi không thể xác định múi giờ trong khu vực của bạn, vui lòng chọn "
+"múi giờ từ danh sách"
 
 #: selectTimezoneLabel
 msgid "Timezone:"
@@ -11679,8 +11681,8 @@ msgid ""
 "Your current theme, \"{0}\", is not available. Please contact your system "
 "administrator."
 msgstr ""
-"Theme hiện thời của bạn , \"{0}\", không có sẵn. Hãy liên hệ tới quản trị hệ "
-"thống của bạn."
+"Theme hiện thời của bạn , \"{0}\", không có sẵn. Vui lòng liên hệ tới quản "
+"trị hệ thống của bạn."
 
 #: skinDeletedErrorTitle
 msgid "Zimbra : Theme not available"
@@ -12101,8 +12103,8 @@ msgid ""
 "A tag with that name exists. Please use another name. (Tag names are case-"
 "insensitive.)"
 msgstr ""
-"Một thẻ với tên đó đã tồn tại. Hãy sử dụng tên khác. (Tên thẻ phân biệt chữ "
-"hoa chữ thường.)"
+"Một thẻ với tên đó đã tồn tại. Vui lòng sử dụng tên khác. (Tên thẻ phân biệt "
+"chữ hoa chữ thường.)"
 
 #: tagPage
 msgid "Tag Page"
@@ -13141,7 +13143,7 @@ msgid ""
 "collaboration. To find out more visit http://www.zimbra.com."
 msgstr ""
 "Zimbra cung cấp phần mềm máy chủ và máy khách nguồn mở cho lĩnh vực thư tín "
-"mà cộng tác. Muốn biết thêm chi tiết hãy truy cập http://www.zimbra.com."
+"mà cộng tác. Muốn biết thêm chi tiết vui lòng truy cập http://www.zimbra.com."
 
 #: zimlets
 msgid "Zimlets"
@@ -13194,7 +13196,7 @@ msgid ""
 "com' target=_blank>Zimbra Gallery</a>."
 msgstr ""
 "Bạn có thể cài đặt zimlet mới bằng việc tải lên một tập tin .zip hợp lệ có "
-"chứa tài nguyên zimlet. Để tìm hiểu thêm, hãy truy cập <a href='http://"
+"chứa tài nguyên zimlet. Để tìm hiểu thêm, vui lòng truy cập <a href='http://"
 "gallery.zimbra.com' target=_blank>Zimbra Gallery</a>."
 
 #: zimletUndeployError
