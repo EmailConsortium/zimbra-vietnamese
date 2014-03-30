@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1224,6 +1224,10 @@ msgstr ""
 msgid "All"
 msgstr ""
 
+#: allDay
+msgid "All day"
+msgstr ""
+
 #: allDayEvent
 msgid "All day event"
 msgstr ""
@@ -1331,6 +1335,11 @@ msgstr ""
 msgid "Delegated"
 msgstr ""
 
+#: apptPtstNEW
+msgctxt "apptPtstNEW"
+msgid "New"
+msgstr ""
+
 #: apptViewFrom
 msgid "from"
 msgstr ""
@@ -1379,7 +1388,7 @@ msgid "Attendees:"
 msgstr ""
 
 #: autoAddContacts
-msgid "Enable auto adding of contacts"
+msgid "Add new contacts to \"Emailed Contacts\""
 msgstr ""
 
 #: automaticallyAddSignature
@@ -1524,6 +1533,10 @@ msgstr ""
 
 #: bothNewPasswordsMustMatch
 msgid "Both new passwords must match. Please retype them."
+msgstr ""
+
+#: bothPasswordsMustMatch
+msgid "Both passwords must match. Please retype them."
 msgstr ""
 
 #: briefcases
@@ -1705,6 +1718,14 @@ msgstr ""
 
 #: calendarURL
 msgid "Calendar URL"
+msgstr ""
+
+#: calendarWorkHoursHeader
+msgid "Work week"
+msgstr ""
+
+#: calendarWorkWeek
+msgid "Work week:"
 msgstr ""
 
 #: callForwarding
@@ -2133,6 +2154,10 @@ msgctxt "department"
 msgid "Department"
 msgstr ""
 
+#: deskphone
+msgid "DeskPhone"
+msgstr ""
+
 #: details
 msgid "Details"
 msgstr ""
@@ -2231,6 +2256,10 @@ msgstr ""
 
 #: emptyMessage
 msgid "Click to view."
+msgstr ""
+
+#: emptyPassword
+msgid "Empty passwords are not allowed."
 msgstr ""
 
 #: emptySearchQuery
@@ -2824,6 +2853,11 @@ msgctxt "linkToSharedCalendar"
 msgid "Link to Shared Calendar"
 msgstr ""
 
+#: list
+msgctxt "list"
+msgid "List"
+msgstr ""
+
 #: listen
 msgctxt "listen"
 msgid "Listen"
@@ -3136,6 +3170,7 @@ msgid "The name must be at most {0} characters long"
 msgstr ""
 
 #: new
+msgctxt "new"
 msgid "New"
 msgstr ""
 
@@ -3702,6 +3737,14 @@ msgstr ""
 
 #: optionsVoiceNotificationsErrorNotUnique
 msgid "Sorry, the entered address is already in the list."
+msgstr ""
+
+#: optionsVoiceNotificationsTrans
+msgid "Send notification when a voice mail is transferred"
+msgstr ""
+
+#: optionsVoiceNotificationsAttach
+msgid "Send notification when a voice mail is attached"
 msgstr ""
 
 #: optionsCallForwarding
@@ -4377,7 +4420,7 @@ msgid "Refresh"
 msgstr ""
 
 #: rememberMe
-msgid "Remember me on this computer"
+msgid "Stay signed in"
 msgstr ""
 
 #: remove
@@ -4702,6 +4745,10 @@ msgstr ""
 msgid "Show timezone list in appointment view"
 msgstr ""
 
+#: showApptsFromThrough
+msgid "Show appointments from {0} through {1}"
+msgstr ""
+
 #: showAs
 msgid "Show as"
 msgstr ""
@@ -4712,6 +4759,10 @@ msgstr ""
 
 #: showConversation
 msgid "Show Conversation"
+msgstr ""
+
+#: showDeclinedMeetings
+msgid "Show declined meetings"
 msgstr ""
 
 #: showOrig
@@ -5091,6 +5142,24 @@ msgstr ""
 
 #: voice
 msgid "Voice"
+msgstr ""
+
+#: voiceErrorUnableToAuth
+msgid ""
+"Authorization Failed. Please verify that your password is set correctly in "
+"the Voice preferences or contact your administrator for further assistance."
+msgstr ""
+
+#: voiceErrorUnsupported
+msgid ""
+"Account not provisioned for Voice feature. Kindly contact your "
+"administrator."
+msgstr ""
+
+#: voiceErrorGeneric
+msgid ""
+"Voice mailbox not configured correctly. Check preference settings or contact "
+"your administrator."
 msgstr ""
 
 #: voiceMailsPerPage
@@ -5547,6 +5616,10 @@ msgstr ""
 msgid "Bones"
 msgstr ""
 
+#: SKIN_carbon
+msgid "Carbon"
+msgstr ""
+
 #: SKIN_froggy
 msgid "Froggy"
 msgstr ""
@@ -5559,12 +5632,24 @@ msgstr ""
 msgid "Hotrod"
 msgstr ""
 
+#: SKIN_lake
+msgid "Lake"
+msgstr ""
+
 #: SKIN_lavender
 msgid "Lavender"
 msgstr ""
 
 #: SKIN_lemongrass
 msgid "Lemongrass"
+msgstr ""
+
+#: SKIN_oasis
+msgid "Oasis"
+msgstr ""
+
+#: SKIN_pebble
+msgid "Pebble"
 msgstr ""
 
 #: SKIN_rose
@@ -5575,12 +5660,28 @@ msgstr ""
 msgid "Sand"
 msgstr ""
 
+#: SKIN_serenity
+msgid "Serenity"
+msgstr ""
+
 #: SKIN_sky
 msgid "Sky"
 msgstr ""
 
+#: SKIN_smoke
+msgid "Smoke"
+msgstr ""
+
 #: SKIN_steel
 msgid "Steel"
+msgstr ""
+
+#: SKIN_tree
+msgid "Tree"
+msgstr ""
+
+#: SKIN_twilight
+msgid "Twilight"
 msgstr ""
 
 #: SKIN_vanilla
@@ -6163,6 +6264,10 @@ msgstr ""
 #: CAL_MONTH_TITLE_FORMAT
 msgctxt "CAL_MONTH_TITLE_FORMAT"
 msgid "MMMMM yyyy"
+msgstr ""
+
+#: CAL_LIST_TITLE_FORMAT
+msgid "MMM d"
 msgstr ""
 
 #: CAL_MONTH_DAY_FORMAT
@@ -6966,6 +7071,10 @@ msgstr ""
 msgid "Address in..."
 msgstr ""
 
+#: EFILT_NEW_COND_ADDRESS
+msgid "Address"
+msgstr ""
+
 #: EFILT_NEW_ACTION_SELECT
 msgid "Select action..."
 msgstr ""
@@ -7428,6 +7537,12 @@ msgstr ""
 msgid "Your password in no longer valid. Please choose a new password."
 msgstr ""
 
+#: account.EXTERNAL_AUTH_FAILED
+msgid ""
+"The email or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current email and password."
+msgstr ""
+
 #: account.PASSWORD_LOCKED
 msgid ""
 "Password locked. User not allowed to change password. Please contact your "
@@ -7464,7 +7579,7 @@ msgstr ""
 
 #: account.INVALID_PASSWORD.zimbraPasswordMaxLength
 msgid ""
-"New password can have maximumm length of {0} chars. Contact your System "
+"New password can have maximum length of {0} chars. Contact your System "
 "Administrator for more information."
 msgstr ""
 
@@ -7879,7 +7994,7 @@ msgid "No filter with that name exists."
 msgstr ""
 
 #: ztaglib.INVALID_CRUMB
-msgid "Action not allowed without a valid crumb."
+msgid "Your session has expired. Please log in again."
 msgstr ""
 
 #. # this one should never get displayed since we should catch and redirect

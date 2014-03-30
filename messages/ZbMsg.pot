@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,10 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.9.0\n"
 
-#. # 
-#. # ***** BEGIN LICENSE BLOCK *****
-#. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2010, 2011, 2013 Zimbra Software, LLC.
+#. # Zimbra Collaboration Server Web Client
+#. # Copyright (C) 2011 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.4 ("License"); you may not use this file except in
@@ -24,6 +22,7 @@ msgstr ""
 #. # 
 #. # Software distributed under the License is distributed on an "AS IS"
 #. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # 
 #. # ***** END LICENSE BLOCK *****
 #. #
 #: ClientNameLong

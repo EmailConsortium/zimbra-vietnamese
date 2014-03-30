@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. #
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.4 ("License"); you may not use this file except in
@@ -70,7 +70,7 @@ msgstr ""
 
 #: account.CHANGE_PASSWORD
 msgid "Your password is no longer valid. Please choose a new password."
-msgstr "Mật khẩu của bạn không còn hợp lệ nữa. Hãy chọn một mật khẩu mới."
+msgstr "Mật khẩu của bạn không còn hợp lệ nữa. Vui lòng chọn một mật khẩu mới."
 
 #: account.INVALID_PASSWORD
 msgid "You have entered an invalid password."
@@ -100,7 +100,7 @@ msgstr "Không việc tìm kiếm được ghi như vậy tồn tại."
 #: account.ACCT_NO_SUCH_TAG
 msgctxt "account.ACCT_NO_SUCH_TAG"
 msgid "No such tag exists."
-msgstr "Không thẻ nào như vậy tồi tại."
+msgstr "Không thẻ nào như vậy tồntại."
 
 #: account.TOO_MANY_IDENTITIES
 msgid ""
@@ -117,16 +117,16 @@ msgid ""
 "Password locked. User not allowed to change password. Please contact your "
 "System Administrator."
 msgstr ""
-"Mật khẩu đã khoá. Người dùng không được phép thay đổi mật khẩu. Hãy liên hệ "
-"tới Quản trị hệ thống của bạn."
+"Mật khẩu đã khoá. Người dùng không được phép thay đổi mật khẩu. Vui lòng "
+"liên hệ tới Quản trị hệ thống của bạn."
 
 #: account.PASSWORD_RECENTLY_USED
 msgid ""
 "The password you submitted has recently been used. Please choose a different "
 "password."
 msgstr ""
-"Mật khẩu mà bạn đã gửi vừa mới được sử dụng gần đây. Hãy chọn một mật khẩu "
-"khác."
+"Mật khẩu mà bạn đã gửi vừa mới được sử dụng gần đây. Vui lòng chọn một mật "
+"khẩu khác."
 
 #. # {0} = filename
 #: formatter.INVALID_FORMAT
@@ -310,7 +310,7 @@ msgstr ""
 
 #: mail.NO_SUCH_CONV
 msgid "No such conversation exists."
-msgstr "Không có cuộc đàm luận như vậy tồn tại."
+msgstr "Không có cuộc đàm thoại như vậy tồn tại."
 
 #: mail.NO_SUCH_FOLDER
 msgid "No such folder exists."
@@ -356,7 +356,7 @@ msgstr "Liên hệ không thể được tạo bởi vì bạn đã quá hạn n
 
 #: mail.TOO_MANY_QUERY_TERMS_EXPANDED
 msgid "Please be more specific in your search criteria."
-msgstr "Hãy chỉ định thêm trong tiêu chuẩn tìm kiếm của bạn."
+msgstr "Vui lòng chỉ định thêm trong tiêu chuẩn tìm kiếm của bạn."
 
 #: mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS
 msgctxt "mail.MAIL_UNABLE_TO_IMPORT_APPOINTMENTS"
@@ -385,8 +385,8 @@ msgid ""
 "You must be online to use this feature. Please check your network connection "
 "and try again."
 msgstr ""
-"Bạn phải trực tuyến để sử dụng tính năng này. Hãy kiểm tra kết nối mạng của "
-"bạn và thử lại."
+"Bạn phải trực tuyến để sử dụng tính năng này. Vui lòng kiểm tra kết nối mạng "
+"của bạn và thử lại."
 
 #: remote.TIMEOUT
 msgid "A timeout error has occurred."
@@ -505,13 +505,13 @@ msgid ""
 "Please try again."
 msgstr ""
 "Một lỗi đã xay ra trong khi cố gắng cập nhật tham chiếu thư thoại của bạn. "
-"Hãy thử lại."
+"Vui lòng thử lại."
 
 #: voice.UNABLE_TO_FORWARD_VOICEMAIL
 msgid "Your email could not be forwarded at this time. Please try again later."
 msgstr ""
-"Mail của bạn không thể được chuyển tiếp trong thời điểm hiện tại. Hãy thử "
-"lại sau."
+"Mail của bạn không thể được chuyển tiếp trong thời điểm hiện tại. Vui lòng "
+"thử lại sau."
 
 #: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
 msgid "Unable to retrieve call features."
@@ -555,7 +555,7 @@ msgstr "Một lỗi dịch vụ mạng vừa xảy ra (zclient/io)."
 
 #: ztaglib.TAG_EXCEPTION
 msgid "A client error occurred. Please try again."
-msgstr "Một lỗi viếng thăm vừa xảy ra. Hãy thử lại."
+msgstr "Một lỗi viếng thăm vừa xảy ra. Vui lòng thử lại."
 
 #: unknownError
 msgid "An unknown error ({0}) has occurred."

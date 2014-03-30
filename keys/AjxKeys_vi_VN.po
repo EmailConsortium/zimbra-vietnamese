@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AjxKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:18+0700\n"
-"PO-Revision-Date: 2014-03-17 22:38+0700\n"
+"POT-Creation-Date: 2014-03-16 21:20+0700\n"
+"PO-Revision-Date: 2014-03-20 21:49+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
@@ -209,6 +209,7 @@ msgid "Enter; Space"
 msgstr "Enter; Space"
 
 #: dialog.Enter.keycode
+msgctxt "dialog.Enter.keycode"
 msgid "13; 32"
 msgstr "13; 32"
 
@@ -535,9 +536,8 @@ msgid "PageUp"
 msgstr "PageUp"
 
 #: list.PageUp.display.mac
-msgctxt "list.PageUp.display.mac"
-msgid "Alt + ArrowUp"
-msgstr "Alt + ArrowUp"
+msgid "PageUp; Alt + ArrowUp"
+msgstr "PageUp; Alt + ArrowUp"
 
 #: list.PageUp.keycode
 msgctxt "list.PageUp.keycode"
@@ -545,9 +545,8 @@ msgid "33"
 msgstr "33"
 
 #: list.PageUp.keycode.mac
-msgctxt "list.PageUp.keycode.mac"
-msgid "Alt+38"
-msgstr "Alt+38"
+msgid "33; Alt+38"
+msgstr "33; Alt+38"
 
 #: list.PageUp.description
 msgctxt "list.PageUp.description"
@@ -564,9 +563,8 @@ msgid "PageDown"
 msgstr "PageDown"
 
 #: list.PageDown.display.mac
-msgctxt "list.PageDown.display.mac"
-msgid "Alt + ArrowDown"
-msgstr "Alt + ArrowDown"
+msgid "PageDown;  Alt + ArrowDown"
+msgstr "PageDown;  Alt + ArrowDown"
 
 #: list.PageDown.keycode
 msgctxt "list.PageDown.keycode"
@@ -574,9 +572,8 @@ msgid "34"
 msgstr "34"
 
 #: list.PageDown.keycode.mac
-msgctxt "list.PageDown.keycode.mac"
-msgid "Alt+40"
-msgstr "Alt+40"
+msgid "34; Alt+40"
+msgstr "34; Alt+40"
 
 #: list.PageDown.description
 msgctxt "list.PageDown.description"
@@ -612,6 +609,26 @@ msgid "Next item"
 msgstr "Mục kế tiếp"
 
 #: tree.Next.sort
+msgctxt "tree.Next.sort"
+msgid "30510"
+msgstr "30510"
+
+#: tree.Enter.display
+msgctxt "tree.Enter.display"
+msgid "Enter"
+msgstr "Enter"
+
+#: tree.Enter.keycode
+msgctxt "tree.Enter.keycode"
+msgid "13; 32"
+msgstr "13; 32"
+
+#: tree.Enter.description
+msgid "Select (in drop-down)"
+msgstr "Chọn (trong trình đơn sổ xuống)"
+
+#: tree.Enter.sort
+msgctxt "tree.Enter.sort"
 msgid "30510"
 msgstr "30510"
 
@@ -806,7 +823,6 @@ msgid "PageUp"
 msgstr "PageUp"
 
 #: menu.PageUp.display.mac
-msgctxt "menu.PageUp.display.mac"
 msgid "Alt + ArrowUp"
 msgstr "Alt + ArrowUp"
 
@@ -816,7 +832,6 @@ msgid "33"
 msgstr "33"
 
 #: menu.PageUp.keycode.mac
-msgctxt "menu.PageUp.keycode.mac"
 msgid "Alt+38"
 msgstr "Alt+38"
 
@@ -835,7 +850,6 @@ msgid "PageDown"
 msgstr "PageDown"
 
 #: menu.PageDown.display.mac
-msgctxt "menu.PageDown.display.mac"
 msgid "Alt + ArrowDown"
 msgstr "Alt + ArrowDown"
 
@@ -845,7 +859,6 @@ msgid "34"
 msgstr "34"
 
 #: menu.PageDown.keycode.mac
-msgctxt "menu.PageDown.keycode.mac"
 msgid "Alt+40"
 msgstr "Alt+40"
 
@@ -1201,6 +1214,24 @@ msgstr "Gạch chân"
 msgid "60040"
 msgstr "60040"
 
+#: editor.InsertLink.display
+msgctxt "editor.InsertLink.display"
+msgid "Ctrl+K"
+msgstr "Ctrl+K"
+
+#: editor.InsertLink.keycode
+msgctxt "editor.InsertLink.keycode"
+msgid "Ctrl+75"
+msgstr "Ctrl+75"
+
+#: editor.InsertLink.description
+msgid "Insert Link dialog"
+msgstr "Chèn hộp thoại Liên kết"
+
+#: editor.InsertLink.sort
+msgid "60045"
+msgstr "60045"
+
 #. # Map: tabView
 #: tabView.description
 msgid "Tab Views"
@@ -1245,10 +1276,12 @@ msgid "110010"
 msgstr "110010"
 
 #: tabView.PreviousTab.display
+msgctxt "tabView.PreviousTab.display"
 msgid "Ctrl+K"
 msgstr "Ctrl+K"
 
 #: tabView.PreviousTab.keycode
+msgctxt "tabView.PreviousTab.keycode"
 msgid "Ctrl+75"
 msgstr "Ctrl+75"
 
@@ -1259,3 +1292,151 @@ msgstr "Tab trước"
 #: tabView.PreviousTab.sort
 msgid "110020"
 msgstr "110020"
+
+#~ msgctxt "menu.PageUp.display.mac"
+#~ msgid "Alt + ArrowUp"
+#~ msgstr "Alt + ArrowUp"
+
+#~ msgctxt "menu.PageUp.keycode.mac"
+#~ msgid "Alt+38"
+#~ msgstr "Alt+38"
+
+#~ msgctxt "menu.PageDown.display.mac"
+#~ msgid "Alt + ArrowDown"
+#~ msgstr "Alt + ArrowDown"
+
+#~ msgctxt "menu.PageDown.keycode.mac"
+#~ msgid "Alt+40"
+#~ msgstr "Alt+40"
+
+#~ msgid "Shortcuts in Dialog Boxes"
+#~ msgstr "Phím tắt trong hộp thoại"
+
+#~ msgid "Cancel changes in the dialog (same as \"Cancel\" button)"
+#~ msgstr "Hủy bỏ những thay đổi trong hộp thoại (tương tự như nút \"Hủy bỏ\")"
+
+#~ msgid "Save changes in the dialog (same as \"OK\" button)"
+#~ msgstr "Lưu các thay đổi trong hộp thoại (tương tự như nút \"OK\")"
+
+#~ msgid "Shortcuts for Buttons"
+#~ msgstr "Phím tắt cho nút"
+
+#~ msgid "Display the pop-up menu for the button"
+#~ msgstr "Hiển thị trình đơn pop-up cho nút"
+
+#~ msgid "Shortcuts in Lists"
+#~ msgstr "Phím tắt trong danh sách"
+
+#~ msgid "Add the next item to the selection"
+#~ msgstr "Thêm mục tiếp theo để lựa chọn"
+
+#~ msgid "Add the previous item to the selection"
+#~ msgstr "Thêm mục trước đó để lựa chọn"
+
+#~ msgid "Show a menu to act on the selected items (same as right-click)"
+#~ msgstr ""
+#~ "Hiển thị một trình đơn để hoạt động trên các mục đã chọn (giống như nhấp "
+#~ "chuột phải)"
+
+#~ msgid "Double-click the selected item"
+#~ msgstr "Nhấn đúp vào mục được chọn"
+
+#~ msgid "Focus on the next item without selecting"
+#~ msgstr "Tập trung vào các mục tiếp theo mà không chọn"
+
+#~ msgid "Focus on the previous item without selecting"
+#~ msgstr "Tập trung vào các mục trước mà không chọn"
+
+#~ msgid "Select all visible items"
+#~ msgstr "Chọn tất cả các mục nhìn thấy"
+
+#~ msgid "Home; Meta+ArrowRight"
+#~ msgstr "Home; Meta+ArrowRight"
+
+#~ msgid "36; Meta+39"
+#~ msgstr "36; Meta+39"
+
+#~ msgid "Select the current item"
+#~ msgstr "Chọn mục hiện tại"
+
+#~ msgid "Move to the next item"
+#~ msgstr "Di chuyển đến mục kế tiếp"
+
+#~ msgid "Move to the previous item"
+#~ msgstr "Di chuyển sang mục trước đó"
+
+#~ msgid "Show the sub-menu of the current item"
+#~ msgstr "Hiển thị trình đơn con cho mục hiện thời"
+
+#~ msgid "Shortcuts for Horizontal Toolbars"
+#~ msgstr "Phím tắt cho Thanh công cụ ngang"
+
+#~ msgctxt "toolbarHorizontal.Next.description"
+#~ msgid "Focus on the next button"
+#~ msgstr "Tập trung vào nút tiếp theo"
+
+#~ msgctxt "toolbarHorizontal.Previous.description"
+#~ msgid "Focus on the previous button"
+#~ msgstr "Tập trung vào nút trước"
+
+#~ msgctxt "toolbarVertical.Next.description"
+#~ msgid "Focus on the next button"
+#~ msgstr "Tập trung vào nút tiếp theo"
+
+#~ msgctxt "toolbarVertical.Previous.description"
+#~ msgid "Focus on the previous button"
+#~ msgstr "Tập trung vào nút trước"
+
+#~ msgid "Shortcuts within an HTML Editor"
+#~ msgstr "Phím tắt trong một trình biên tập HTML"
+
+#~ msgid "Make text bold"
+#~ msgstr "Làm cho văn bản đậm"
+
+#~ msgid "Bold (Ctrl+B)"
+#~ msgstr "Đậm (Ctrl+B)"
+
+#~ msgid "Align text in the middle"
+#~ msgstr "Căn lề văn bản ở giữa"
+
+#~ msgid "Align text so that text lines up on both sides"
+#~ msgstr "Căn lề văn bản để các dòng văn bản đều trên cả hai phía"
+
+#~ msgid "Justify (Ctrl+J)"
+#~ msgstr "Canh lề đều (Ctrl+J)"
+
+#~ msgid "60080"
+#~ msgstr "60080"
+
+#~ msgid "Make text italicized"
+#~ msgstr "Làm cho văn bản in nghiêng"
+
+#~ msgid "Italic (Ctrl+I)"
+#~ msgstr "Nghiêng (Ctrl+I)"
+
+#~ msgid "Align Left (Ctrl+L)"
+#~ msgstr "Canh lề trái (Ctrl+L)"
+
+#~ msgid "Align Right (Ctrl+R)"
+#~ msgstr "Canh lề phải (Ctrl+R)"
+
+#~ msgid "Ctrl+83"
+#~ msgstr "Ctrl+83"
+
+#~ msgid "Add line through middle of text"
+#~ msgstr "Thêm đường xuyên qua giữa văn bản"
+
+#~ msgid "Ctrl+0"
+#~ msgstr "Ctrl+0"
+
+#~ msgid "Ctrl+48"
+#~ msgstr "Ctrl+48"
+
+#~ msgid "Switch between HTML and text modes"
+#~ msgstr "Chuyển đổi giữa chế độ HTML và văn bản"
+
+#~ msgid "60150"
+#~ msgstr "60150"
+
+#~ msgid "Underline (Ctrl+U)"
+#~ msgstr "Gạch chân (Ctrl+U)"
