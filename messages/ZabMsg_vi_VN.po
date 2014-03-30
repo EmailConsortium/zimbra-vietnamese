@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZabMsg.vi_VN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
+"PO-Revision-Date: 2014-03-23 19:47+0700\n"
+"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi_VN\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. #
+#. # ***** BEGIN LICENSE BLOCK *****
+#. # Zimbra Collaboration Suite Web Client
+#. # Copyright (C) 2011, 2012, 2013 Zimbra Software, LLC.
+#. #
+#. # The contents of this file are subject to the Zimbra Public License
+#. # Version 1.4 ("License"); you may not use this file except in
+#. # compliance with the License.  You may obtain a copy of the License at
+#. # http://www.zimbra.com/license.
+#. #
+#. # Software distributed under the License is distributed on an "AS IS"
+#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # ***** END LICENSE BLOCK *****
+#. #
+#: favIconUrl
+msgid "/img/logo/favicon.ico"
+msgstr "/img/logo/favicon.ico"
+
+#: LBL_zimbraPrefAdminConsoleWarnOnExit
+msgid ""
+"Display a warning when administrators try to navigate away from Zimbra "
+"Administration Console"
+msgstr ""
+"Hiển thị cảnh báo khi quản trị viên cố gắng di chuyển khỏi Bảng quản trị "
+"Zimbra Administration"
+
+#: ERROR_ZCS_NOT_RUNNING
+msgid ""
+"Cannot connect to Zimbra server. Please make sure that Zimbra is running."
+msgstr ""
+"Không thể kết nối với máy chủ Zimbra. Hãy chắc chắn rằng Zimbra đang chạy."
+
+#: zimbraAdminTitle
+msgid "Zimbra Administration"
+msgstr "Quản trị Zimbra"
+
+#: HELP_PAGE_0
+msgid "Zimbra Administrator's Help Center"
+msgstr "Trung tâm trợ giúp của Quản trị viên Zimbra"
+
+#: HELP_PAGE_1
+msgid ""
+"Below are links to Zimbra documentation and forums, to help you find answers "
+"to your questions about using the Zimbra Collaboration Server."
+msgstr ""
+"Dưới đây là các liên kết đến tài liệu và diễn đàn Zimbra, để giúp bạn tìm "
+"câu trả lời cho câu hỏi của bạn về việc sử dụng Máy chủ cộng tác Zimbra."
+
+#: HELP_PAGE_2
+msgid "Zimbra Online Help"
+msgstr "Trợ giúp trực tuyến Zimbra"
+
+#: HELP_PAGE_3
+msgid ""
+"To learn how to use the administration console, click the Zimbra Online Help "
+"link."
+msgstr ""
+"Để học cách sử dụng giao diện quản trị, nhấp vào liên kết Trợ giúp Zimbra "
+"trực tuyến."
+
+#: HELP_PAGE_6
+msgid "Zimbra Forums"
+msgstr "Diễn đàn Zimbra"
+
+#: HELP_PAGE_7
+msgid ""
+"Get answers to your questions from the Zimbra forum. You can search for "
+"answers from the postings, and you can post a question."
+msgstr ""
+"Nhận câu trả lời cho câu hỏi của bạn từ diễn đàn Zimbra. Bạn có thể tìm kiếm "
+"câu trả lời từ các thông tin đăng, và bạn có thể đặt một câu hỏi."
+
+#: HELP_PAGE_8
+msgid "Zimbra Administration Guide"
+msgstr "Hướng dẫn quản trị Zimbra"
+
+#: HELP_PAGE_9
+msgctxt "HELP_PAGE_9"
+msgid ""
+"The Administration Guide manual describes the Zimbra system architecture, "
+"the Zimbra components, the administration functions, and the CLI commands."
+msgstr ""
+"Sổ tay Hướng dẫn quản trị mô tả kiến trúc hệ thống Zimbra, các thành phần "
+"Zimbra, các chức năng quản trị, và các lệnh CLI."
+
+#: HELP_PAGE_13
+msgid ""
+"The Zimbra wiki includes articles the support team and community have "
+"written in response to troubleshooting and administration issues that were "
+"not covered in the documentation."
+msgstr ""
+"Zimbra wiki bao gồm các bài báo với nhóm hỗ trợ và cộng đồng đã viết để đáp "
+"ứng với các vấn đề xử lý sự cố và quản lý mà không được nêu trong tài liệu"
+
+#: HELP_OTHER_GUIDES_CONNNECTOR_INFO
+msgid "Use Zimbra with other clients? Check out these guides."
+msgstr "Sử dụng Zimbra với trình khách khác? Xem các hướng dẫn."
+
+#: zimbraTitle
+msgid "Zimbra Administration Console"
+msgstr "Bảng quản trị Zimbra"
+
+#: about_title
+msgid "Zimbra&trade; Administration Console"
+msgstr "Bảng quản trị Zimbra&trade"
+
+#: HELP_WIKI_LINK
+msgid "http://wiki.zimbra.com"
+msgstr "http://wiki.zimbra.com"
+
+#: LBL_HomeZimbraVersion
+msgid "Zimbra Version:"
+msgstr "Phiên bản Zimbra:"
+
+#: LBL_HomeHelpCenter
+msgid "Zimbra Help Center"
+msgstr "Trung tâm trợ giúp Zimbra"
+
+#: LBL_HomeMsgCount
+msgid "Message Count:"
+msgstr "Số thông điệp:"
+
+#: LBL_HomeMsgVolume
+msgid "Message Volume:"
+msgstr "Volume thông điệp:"
+
+#: attrDesc_mailHost
+msgid "Server:"
+msgstr "Máy chủ:"
+
+#: About_Button_Label
+msgid "About Zimbra Version"
+msgstr "Giới thiệu phiên bản Zimbra"
+
+#: zimbraHomePage
+msgid "Zimbra Home Page"
+msgstr "Trang chủ Zimbra"
+
+#: zimbraAbout
+msgid "About Zimbra..."
+msgstr "Giới thiệu Zimbra ..."
+
+#. # Used for About Screen copyright section
+#. # Takes in the current year as a parameter for copyright end year value
+#: aboutScreenCopyright
+msgid ""
+"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. This "
+"product is protected by U.S. and international copyright and intellectual "
+"property laws.<br /><br />\"Telligent\" and \"Zimbra\" are registered "
+"trademarks or trademarks of Telligent Systems, Inc. in the United States and "
+"other jurisdictions. All other marks and names mentioned herein may be "
+"trademarks of their respective companies.<br /><br />Telligent Systems, Inc. "
+"d/b/a Zimbra Software, LLC<br /><a href=\"http://www.zimbra.com\" target="
+"\"_blank\">www.zimbra.com</a>"
+msgstr ""
+"Bản quyền 2005-{0} Telligent Systems, Inc. Giữ tất cả quyền. Sản phẩm này "
+"được bảo vệ bởi luật bản quyền và sở hữu trí tuệ của Mỹ và quốc tế. "
+"\"Telligent\" và \"Zimbra\" là các thương hiệu được đăng ký hoặc thương hiệu "
+"của Telligent Systems, Inc tại Hoa Kỳ và các nước khác. Tất cả các nhãn hiệu "
+"khác và tên đề cập ở đây có thể là thương hiệu của công ty tương ứng."
+"<br><br> Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br><a href="
+"\"http://www.zimbra.com\" target=\"_blank\">www.zimbra.com</a>"
+
+#. # Used for Login/Splash Screen copyright section
+#. # Takes in the current year as a parameter for copyright end year value
+#: splashScreenCopyright
+msgid ""
+"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. Telligent "
+"and Zimbra are registered trademarks or trademarks of Telligent Systems, Inc."
+msgstr ""
+"Bản quyền © 2005 - {0} Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
+"và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
+"Systems, Inc."
+
+#: clientLevelNotice
+msgid ""
+"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader "
+"in open source messaging and collaboration :: <a target=\"_new\" href="
+"\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\"http://wiki."
+"zimbra.com\">Wiki</a> - <a target=\"_new\" href=\"http://www.zimbra.com/"
+"forums\">Forums</a>"
+msgstr ""
+"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: là công ty "
+"hàng đầu về lĩnh vực thư tín và cộng tác nguồn mở :: <a target=\"_new\" href="
+"\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\"http://wiki."
+"zimbra.com\">Wiki</a> - <a target=\"_new\" href=\"http://www.zimbra.com/"
+"forums\">Diễn đàn</a>"
+
+#: ZWC_END_USER_GUIDE
+msgid "ZWC End User Guide for 8.0"
+msgstr "Hướng dẫn ZWC người dùng cuối cho 8.0"
+
+#: ZWC_END_USER_GUIDE_INFO
+msgid ""
+"The end user guide describes the features and applications used in the "
+"Zimbra Web Client."
+msgstr ""
+"Hướng dẫn người dùng cuối mô tả các tính năng và các ứng dụng được sử dụng "
+"trong Trình khách web Zimbra."
+
+#: MessageContent
+msgid "message"
+msgstr "thông điệp"
+
+#: OVP_dlSearchResult
+msgid "Distribution Lists"
+msgstr "Danh sách phân phối"
+
+#: HELP_CENTER_TITLE
+msgid "Zimbra Administrator Help Center"
+msgstr "Trung tâm trợ giúp quản trị viên Zimbra"
+
+#: onlineHelpDetail
+msgid ""
+"To learn how to use the administration console, click the Zimbra Online Help "
+"link. For details about new features and issues that have been resolved in "
+"this release, go to the <a target=\"_new\" href=\"{0}\">Zimbra Collaboration "
+"Server Documentation</a> page and read the release notes."
+msgstr ""
+"Để tìm hiểu cách sử dụng giao diện quản trị, bấm vào liên kết Trợ giúp "
+"Zimbra trực tuyến. Để biết chi tiết về các tính năng mới và các vấn đề đã "
+"được giải quyết trong bản phát hành này, hãy vào trang <a target=\"_new\" "
+"href=\"{0}\">Tài liệu máy chủ cộng tác Zimbra</a> và đọc các ghi chú phát "
+"hành."
+
+#: HELP_topMigrationQuestions
+msgid "Top Migration Questions"
+msgstr "Câu hỏi di truy hàng đầu"
+
+#: HELP_adminGuide
+msgid "Administrators Guide"
+msgstr "Hướng dẫn quản trị viên"
+
+#: HELP_adminGuideDetail
+msgctxt "HELP_adminGuideDetail"
+msgid ""
+"The Administration Guide manual describes the Zimbra system architecture, "
+"the Zimbra components, the administration functions, and the CLI commands."
+msgstr ""
+"Sổ tay Hướng dẫn quản trị mô tả kiến trúc hệ thống Zimbra, các thành phần "
+"Zimbra, các chức năng quản trị, và các lệnh CLI."
+
+#: HELP_usersGuide
+msgid "End Users Guide"
+msgstr "Hướng dẫn người dùng cuối"
+
+#: HELP_usersGuideDetail
+msgid ""
+"The end user guide describes the feature and applications used in the Zimbra "
+"Web Client."
+msgstr ""
+"Hướng dẫn người dùng cuối mô tả các tính nawg và các ứng dụng được sử dụng "
+"trong Trình khách web Zimbra."
+
+#: HELP_askCommunity
+msgid "Ask the Community"
+msgstr "Hỏi cộng đồng"
+
+#: HELP_askCommunityItem1
+msgid ""
+"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Zimbra Forums</a> "
+"is a great place to get answers to your questions. You can search for "
+"answers from the postings, and you can post a question."
+msgstr ""
+"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Diễn đàn Zimbra</a> "
+"là một nơi tuyệt vời để có được câu trả lời cho câu hỏi của bạn. Bạn có thể "
+"tìm kiếm câu trả lời từ các thông tin đăng, và bạn có thể đặt một câu hỏi."
+
+#: HELP_askCommunityItem2
+msgid ""
+"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> includes "
+"articles the support team and community have written in response to "
+"troubleshooting and administration issues that were not covered in the "
+"documentation"
+msgstr ""
+"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> bao gồm "
+"các bài báo với nhóm hỗ trợ và cộng đồng đã viết để đáp ứng với các vấn đề "
+"xử lý sự cố và quản lý mà không được nêu trong tài liệu"
+
+#: HELP_MIG_Q1
+msgid "How do I migrate server email accounts from Exchange into Zimbra?"
+msgstr ""
+"Làm thế nào để Tôi di trú tài khoản email máy chủ từ Exchange vào Zimbra?"
+
+#: HELP_MIG_Q2
+msgid ""
+"How can my users import the contents of a .pst file from a Microsoft Outlook "
+"2003, 2007, 2010 mailbox into Zimbra?"
+msgstr ""
+"Làm thế nào để người dùng của tôi có thể nhập khẩu nội dung một tập tin .pst "
+"từ một hộp thư Microsoft Outlook 2003, 2007, 2010 vào Zimbra?"
+
+#: HELP_MIG_Q3
+msgid "How do I migrate server email accounts from Domino into Zimbra?"
+msgstr ""
+"Làm thế nào để Tôi di trú tài khoản email máy chủ từ Domino vào Zimbra?"
+
+#: HELP_MIG_Q4
+msgid "How do I migrate calendar data over using the iCalendar Migration Tool?"
+msgstr ""
+"Làm thế nào để Tôi di trú dữ liệu lịch qua việc sử dụng Công dụ di trú "
+"iCalendar?"
