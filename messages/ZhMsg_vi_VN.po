@@ -270,8 +270,8 @@ msgid ""
 "{0,choice,0#0 appointments have been unflagged|1#1 appointment has been "
 "unflagged|1<{0,number,integer} appointments have been unflagged}."
 msgstr ""
-"{0,choice,0#0 cuộc hẹn vừa được bỏ gắn cờ|1#1 cuộc hẹn vừa được bỏ gắn cờ|"
-"1<{0,number,integer} cuộc hẹn vừa được bỏ gắn cờ}."
+"{0,choice,0#0 cuộc hẹn vừa được bỏ gắn cờ|1#1 cuộc hẹn vừa được bỏ cờ|1<{0,"
+"number,integer} cuộc hẹn vừa được bỏ cờ}."
 
 #: actionCalendarAppointmentsImported
 msgid ""
@@ -339,8 +339,8 @@ msgid ""
 "{0,choice,0#0 contacts have been unflagged|1#1 contact has been unflagged|"
 "1<{0,number,integer} contacts have been unflagged}."
 msgstr ""
-"{0,choice,0#0 liên hệ vừa được bỏ gắn cờ|1#1 liên hệ vừa được bỏ gắn cờ|1<{0,"
-"number,integer} liên hệ vừa được bỏ gắn cờ}."
+"{0,choice,0#0 liên hệ vừa được bỏ gắn cờ|1#1 liên hệ vừa được bỏ cờ|1<{0,"
+"number,integer} liên hệ vừa được bỏ cờ}."
 
 #: actionContactTag
 msgid ""
@@ -422,7 +422,7 @@ msgid ""
 "unflagged|1<{0,number,integer} conversations have been unflagged}."
 msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được bỏ gắn cờ|1#1 cuộc đàm thoại vừa được "
-"bỏ gắn cờ|1<{0,number,integer} cuộc đàm thoại vừa được bỏ gắn cờ}."
+"bỏ cờ|1<{0,number,integer} cuộc đàm thoại vừa được bỏ cờ}."
 
 #: actionConvMessageUnflag
 msgid ""
@@ -430,7 +430,7 @@ msgid ""
 "2#messages} have been unflagged."
 msgstr ""
 "{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được bỏ gắn cờ."
+"điệp|2#thông điệp} đã được bỏ cờ."
 
 #: actionConvMarkedRead
 msgid ""
@@ -737,8 +737,8 @@ msgid ""
 "{0,choice,0#0 messages have been unflagged|1#1 message has been unflagged|"
 "1<{0,number,integer} messages have been unflagged}."
 msgstr ""
-"{0,choice,0#0 thông điệp vừa được bỏ gắn cờ|1#1 thông điệp vừa được bỏ gắn "
-"cờ|1<{0,number,integer} thông điệp vừa được bỏ gắn cờ}."
+"{0,choice,0#0 thông điệp vừa được bỏ gắn cờ|1#1 thông điệp vừa được bỏ cờ|"
+"1<{0,number,integer} thông điệp vừa được bỏ cờ}."
 
 #: actionMessageMarkedRead
 msgid ""
@@ -2382,7 +2382,7 @@ msgstr "Email"
 #: emailedContacts
 msgctxt "emailedContacts"
 msgid "Emailed Contacts"
-msgstr "Đã gửi thư cho các liên hệ"
+msgstr "Liên hệ đã email"
 
 #: emailNotification
 msgid "Email Notification :"
@@ -3417,7 +3417,7 @@ msgstr "Sổ ghi chép"
 
 #: noAddresses
 msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
-msgstr "Phải có ít nhất một đị chỉ trong các trường Gửi tới:, Cc:, hoặc Bcc:"
+msgstr "Phải có ít nhất một đị chỉ trong các trường Tới:, Cc:, hoặc Bcc:"
 
 #: noContactGroupMembers
 msgid "The contact group must have at least one member."
@@ -4224,7 +4224,7 @@ msgstr "Bỏ qua thông điệp"
 
 #: optionsDedupeSecondCopy
 msgid "Place in Inbox if I'm in To: or Cc:"
-msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Gửi tới: hoặc Cc:"
+msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
 
 #: orange
 msgid "Orange"
@@ -6400,7 +6400,7 @@ msgstr "Lịch"
 #: FOLDER_LABEL_13
 msgctxt "FOLDER_LABEL_13"
 msgid "Emailed Contacts"
-msgstr "Liên hệ đã gửi email"
+msgstr "Liên hệ đã email"
 
 #: FOLDER_LABEL_15
 msgctxt "FOLDER_LABEL_15"
@@ -7350,7 +7350,7 @@ msgstr "Cờ"
 
 #: MO_Unflag
 msgid "Unflag"
-msgstr "Bỏ gắn cờ"
+msgstr "Bỏ cờ"
 
 #: MO_flagged
 msgctxt "MO_flagged"
@@ -7607,12 +7607,12 @@ msgstr "M/d/yyyy h:mm a"
 #: ZM_HEADER_FROM
 msgctxt "ZM_HEADER_FROM"
 msgid "From"
-msgstr "Gửi từ"
+msgstr "Từ"
 
 #: ZM_HEADER_TO
 msgctxt "ZM_HEADER_TO"
 msgid "To"
-msgstr "Gửi tới"
+msgstr "Tới"
 
 #: ZM_HEADER_CC
 msgctxt "ZM_HEADER_CC"
@@ -7731,7 +7731,7 @@ msgid ""
 "then retype the current username and password."
 msgstr ""
 "Tên đăng nhập hoặc mật khẩu không đúng. Kiểm tra xem đèn CAPS LOCK không "
-"được bật, và gõ lại tên đăng nhập mà mật khẩu hiện thời."
+"được bật, và gõ lại tên đăng nhập và mật khẩu hiện thời."
 
 #: account.CHANGE_PASSWORD
 msgid "Your password in no longer valid. Please choose a new password."

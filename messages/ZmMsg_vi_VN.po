@@ -1007,7 +1007,7 @@ msgstr "Ứng dụng \"{0}\" không có sẵn hoặc bị vô hiệu hóa."
 
 #: allAttendeeWorkingHours
 msgid "All Attendee Working Hours"
-msgstr "Tất cả giờ làm việc của người dự"
+msgstr "Tất cả giờ làm việc của người tham dự"
 
 #: allMail
 msgid "All Mail"
@@ -1019,7 +1019,7 @@ msgstr "Tât cả hộp thư"
 
 #: allRemindersAreSnoozed
 msgid "All Reminders are snoozed"
-msgstr "Tất cả việc nhắc nhở được ngủ"
+msgstr "Tất cả nhắc nhở được báo lại"
 
 #: archiveHint
 msgid ""
@@ -1164,7 +1164,7 @@ msgstr "Đính kèm một hoặc nhiều tập tin tới thông điệp"
 
 #: attachMultiMsgs
 msgid "Forward Conversations"
-msgstr "Chuyển tiếp các cuộc đàm luận"
+msgstr "Chuyển tiếp các cuộc đàm thoại"
 
 #: attachSelectMessage
 msgid "Select at least one file to attach"
@@ -1291,7 +1291,7 @@ msgstr "Tự động chọn"
 
 #: autoSaveDrafts
 msgid "Automatically save drafts of messages while you are composing"
-msgstr "Tự đông lưu bản nháp của thông điệp khi bạn đang soạn thảo"
+msgstr "Tự động lưu bản nháp của thông điệp khi bạn đang soạn thảo"
 
 #: availableCount
 msgid "{0} of {1} available"
@@ -1574,7 +1574,7 @@ msgstr "Theo tập tin đính kèm"
 
 #: byConversation
 msgid "By Conversation"
-msgstr "Theo cuộc đàm luận"
+msgstr "Theo cuộc đàm thoại"
 
 #: byFolder
 msgid "By Folder"
@@ -2686,11 +2686,11 @@ msgstr "Nội dung"
 
 #: convCountTooltip
 msgid "Total Messages in Conversation"
-msgstr "Tổng số thông điệp trong cuộc đàm luận"
+msgstr "Tổng số thông điệp trong cuộc đàm thoại"
 
 #: conversation
 msgid "Conversation"
-msgstr "Cuộc đàm luận"
+msgstr "Cuộc đàm thoại"
 
 #: conversations
 msgid "Conversations"
@@ -2749,7 +2749,7 @@ msgstr "Tạo một Bản sao"
 
 #: created
 msgid "Created"
-msgstr "Được tạo"
+msgstr "Đã tạo"
 
 #: createdOn
 msgid "Created On"
@@ -3219,7 +3219,7 @@ msgstr "Xoá bỏ cột"
 
 #: delConv
 msgid "Delete Conversation"
-msgstr "Xoá bỏ cuộc đàm luận"
+msgstr "Xoá bỏ cuộc đàm thoại"
 
 #: delMsg
 msgid "Delete Selected Message(s)"
@@ -3250,8 +3250,8 @@ msgid ""
 "This will also delete all exceptions (before and after this instance) in the "
 "series."
 msgstr ""
-"Việc này cũng sẽ xóa tất cả các trường hợp ngoại lệ (trước và sau trường hợp "
-"này) trong chuỗi."
+"Việc này cũng sẽ xóa tất cả trường hợp ngoại lệ (trước và sau mẫu này) trong "
+"chuỗi."
 
 #: deleteGroupError
 msgid "The group cannot be deleted because it still contains buddies."
@@ -3564,7 +3564,8 @@ msgid ""
 "Tip: drag and drop files from your desktop to add attachments to this "
 "message."
 msgstr ""
-"Kéo và thả các tập tin từ desktop của bạn để đính kèm vào thông điệp này."
+"Mẹo: kéo và thả các tập tin từ desktop của bạn để đính kèm vào thông điệp "
+"này."
 
 #: edit
 msgctxt "edit"
@@ -3703,7 +3704,7 @@ msgstr "Thùng rác:"
 
 #: emailedContacts
 msgid "Emailed Contacts"
-msgstr "Các liên hệ đã gửi email"
+msgstr "Liên hệ đã email"
 
 #: emailLabel
 msgid "Email:"
@@ -4120,12 +4121,12 @@ msgstr "Một định danh có tên \"{0}\" đã tồn tại."
 #: errorImportAppt
 msgctxt "errorImportAppt"
 msgid "An error occurred during the import"
-msgstr "Một lỗi xảy ra trong khi đang nhập"
+msgstr "Một lỗi xảy ra trong khi đăng nhập"
 
 #: errorImporting
 msgctxt "errorImporting"
 msgid "An error occurred during the import"
-msgstr "Một lỗi xảy ra trong khi đang nhập"
+msgstr "Một lỗi xảy ra trong khi đăng nhập"
 
 #: errorImportStatus
 msgid "Import Error {0}"
@@ -4246,7 +4247,7 @@ msgstr "Bạn cần phải nhập số điện thoại cho trường chuyển ti
 
 #: errorNoSuchConv
 msgid "No such conversation exists."
-msgstr "Không có cuộc đàm luận nào như vậy tồn tại."
+msgstr "Không có cuộc đàm thoại nào như vậy tồn tại."
 
 #: errorNoSuchFolder
 msgid "No such folder exists."
@@ -4421,7 +4422,7 @@ msgid ""
 "The selected voice mail message is private, so it can not be attached to an "
 "email message."
 msgstr ""
-"Thông điệp thư thoại đã chọn là riêng tư, vì vậy nó được thể được đính kèm "
+"Thông điệp thư thoại đã chọn là riêng tư, vì vậy nó không thể được đính kèm "
 "tới thông điệp email."
 
 #: errorReports
@@ -4482,7 +4483,7 @@ msgstr "Các thư mục con ở dưới {0} không được phép."
 #: errorTooManyContacts
 msgid ""
 "Contact could not be created because you have exceeded your contact quota."
-msgstr "Liên hệ không thẻ được tạo vì bạn đã vượt quá hạn ngạch."
+msgstr "Liên hệ không thể được tạo vì bạn đã vượt quá hạn ngạch."
 
 #: errorTooManyIdentities
 msgid ""
@@ -4600,7 +4601,7 @@ msgstr "Mở rộng / Thu gọn"
 
 #: expandTooltip
 msgid "Show the members of this distribution list"
-msgstr "Hiển thịthành viên của danh sách phân phối này"
+msgstr "Hiển thị thành viên của danh sách phân phối này"
 
 #: explorerView
 msgid "Explorer View"
@@ -5319,7 +5320,7 @@ msgstr "Chuyển tiếp thông điệp đã chọn"
 
 #: forwardTooltipConv
 msgid "Forward the most recent message in the conversation"
-msgstr "Chuyển tiếp thông điệp gần đây nhất trong cuộc đàm luận"
+msgstr "Chuyển tiếp thông điệp gần đây nhất trong cuộc đàm thoại"
 
 #: fragment
 msgctxt "fragment"
@@ -5367,16 +5368,16 @@ msgstr "Gửi email liên kết rỗi & bận"
 
 #: from
 msgid "From"
-msgstr "Gửi từ"
+msgstr "Từ"
 
 #: fromLabel
 msgctxt "fromLabel"
 msgid "From:"
-msgstr "Gửi từ:"
+msgstr "Từ:"
 
 #: fromDetail
 msgid "Choose the name that appears in the \"From\" field of email messages"
-msgstr "Chọn tên mà xuất hiện trong trường \"Gửi từ\" của các thông điệp email"
+msgstr "Chọn tên mà xuất hiện trong trường \"Từ\" của các thông điệp email"
 
 #. # {0} prefix, {1} first, {2} middle, {3} maiden, {4} last, {5} suffix
 #: fullname
@@ -5553,7 +5554,7 @@ msgstr "Xanh lục"
 
 #: group
 msgid "Contact Group"
-msgstr "Nhóm Liên hệ"
+msgstr "Nhóm liên hệ"
 
 #: groupBadAddresses
 msgid "<p>The following addresses appear to be invalid: {0}</p><br>"
@@ -5931,7 +5932,7 @@ msgid ""
 "Unable to add buddy from Yahoo! service because you are not logged in to "
 "Yahoo!. Do you want to log in to Yahoo!?"
 msgstr ""
-"Không thể thêm bạn từ dịch vụ Yahoo vì bạn chưa đang nhập vào Yahoo!. Bạn có "
+"Không thể thêm bạn từ dịch vụ Yahoo vì bạn chưa đăng nhập vào Yahoo!. Bạn có "
 "muốn đăng nhập vào Yahoo!?"
 
 #: imLeftChat
@@ -5982,7 +5983,7 @@ msgstr ""
 
 #: imGatewayLoggedInHeader
 msgid "You are logged in to Yahoo! Messenger as <b>{0}</b>"
-msgstr "Bạn đã đăng nhập vào  Yahoo! Messenger như <b>{0}</b>"
+msgstr "Bạn đã đăng nhập vào Yahoo! Messenger như <b>{0}</b>"
 
 #: imGatewayNotLoggedInHeader
 msgid ""
@@ -6123,16 +6124,16 @@ msgid ""
 "You are not logged in to IM. <span class=\"FakeAnchor\" onclick="
 "\"{0}\">Click here</span> to log in."
 msgstr ""
-"Bạn đã không đăng nhập vào IM. <span class=\"FakeAnchor\" onclick="
-"\"{0}\">Bấm vào đây</span> để đăng nhập."
+"Bạn không đăng nhập vào IM. <span class=\"FakeAnchor\" onclick=\"{0}\">Bấm "
+"vào đây</span> để đăng nhập."
 
 #: imNotLoggedInPrefs
 msgid ""
 "You must be logged in to IM before you can update IM accounts. <span class="
 "\"FakeAnchor\" onclick=\"{0}\">Click here</span> to log in."
 msgstr ""
-"Bạn phải đăng nhập vào IM trước khi bạn cập nhật tài khoản IM. <span class="
-"\"FakeAnchor\" onclick=\"{0}\">Bấm vào đây</span> để đăng nhập."
+"Bạn phải đăng nhập vào IM trước khi bạn có thể cập nhật tài khoản IM. <span "
+"class=\"FakeAnchor\" onclick=\"{0}\">Bấm vào đây</span> để đăng nhập."
 
 #: imPoweredBy
 msgid "Instant Messaging Powered by"
@@ -6172,7 +6173,7 @@ msgstr "Kích hoạt thông báo tức thời"
 
 #: imPrefAutoLogin
 msgid "Automatically log in to instant messaging services"
-msgstr "Tự đông đăng nhập vào các dịch vụ nhắn tin tức thời"
+msgstr "Tự động đăng nhập vào các dịch vụ nhắn tin tức thời"
 
 #: imPrefLogChats
 msgid "Save chat history"
@@ -6389,7 +6390,7 @@ msgid ""
 "a> to download and install it. You will need to restart your browser after "
 "the installation is complete."
 msgstr ""
-" Adobe Flash Player là bắt buộc để kết nối tới Yahoo! Messenger. <a "
+"Adobe Flash Player là bắt buộc để kết nối tới Yahoo! Messenger. <a "
 "target='_blank' href=http://www.adobe.com/go/getflashplayer/'>Bấm vào đây</"
 "a> để tải và cài đặt nó. Bạn sẽ cần khởi động lại trình duyệt sau khi việc "
 "cài đặt hoàn thành."
@@ -7146,7 +7147,7 @@ msgid ""
 "Would you like to reload the application now to show the new language? "
 "<br>(Otherwise, the new language will appear the next time you log in.)"
 msgstr ""
-"Bạn có muốn nạp lại ứng dụng ngay bây giờ để hiển thị ngôn ngữ mới? <br>(Nếu "
+"Bạn có muốn nạp lại ứng dụng bây giờ để hiển thị ngôn ngữ mới? <br>(Nếu "
 "không, ngôn ngữ mới sẽ xuất hiện lần sau khi bạn đăng nhập)"
 
 #: localFolders
@@ -7826,11 +7827,11 @@ msgstr "Di chuyển các mục"
 
 #: moveConversation
 msgid "Move Conversation"
-msgstr "Di chuyển cuộc đàm luận"
+msgstr "Di chuyển cuộc đàm thoại"
 
 #: moveConversations
 msgid "Move Conversations"
-msgstr "Di chuyển các cuộc đàm luận"
+msgstr "Di chuyển cuộc đàm thoại"
 
 #: moveFolder
 msgid "Move Folder \"{0}\""
@@ -8031,8 +8032,7 @@ msgstr "Tài khoản này chưa được đồng bộ hóa. Bấm Gửi/Nhận �
 
 #: neverSyncedAsk
 msgid "This account has not been synced. Would you like to sync it now?"
-msgstr ""
-"Tài khoản này chưa được đồng bộ hóa. Bạn muốn đồng bộ hóa ngay bây giờ?"
+msgstr "Tài khoản này chưa được đồng bộ hóa. Bạn muốn đồng bộ hóa bây giờ?"
 
 #: newAddrBook
 msgid "New Address Book"
@@ -8280,7 +8280,7 @@ msgstr "Kế tiếp"
 
 #: nextConversation
 msgid "Next Conversation"
-msgstr "Cuộc đàm luận kế tiếp"
+msgstr "Cuộc đàm thoại kế tiếp"
 
 #: nextDay
 msgid "Next Day"
@@ -8372,7 +8372,7 @@ msgstr "Không làm việc"
 
 #: noShareDetailsFound
 msgid "No share details found"
-msgstr "Không có chi tiết chi sẻ được tìm thấy."
+msgstr "Không có chi tiết chia sẻ được tìm thấy."
 
 #: noSubject
 msgid "<No Subject>"
@@ -9539,7 +9539,7 @@ msgstr "Trước"
 
 #: previousConversation
 msgid "Previous Conversation"
-msgstr "Cuộc đàm luận trước"
+msgstr "Cuộc đàm thoại trước"
 
 #: previousDay
 msgid "Previous Day"
@@ -10110,7 +10110,7 @@ msgstr "Trả lời tới tất cả người nhận của thông điệp đã c
 #: replyAllTooltipConv
 msgid "Reply to all recipients of the most recent message in the conversation"
 msgstr ""
-"Trả lời tới tất cả người nhận của thông điệp mới nhất trong cuộc đàm luận"
+"Trả lời tới tất cả người nhận của thông điệp mới nhất trong cuộc đàm thoại"
 
 #: replyDecline
 msgctxt "replyDecline"
@@ -10167,7 +10167,7 @@ msgstr "Trả lời tới người gửi của thông điệp đã chọn"
 
 #: replyTooltipConv
 msgid "Reply to the sender of the most recent message in the conversation"
-msgstr "Trả lời tới người gửi của thông điệp mới nhất trong cuộc đàm luận"
+msgstr "Trả lời tới người gửi của thông điệp mới nhất trong cuộc đàm thoại"
 
 #: replyWithIdentity
 msgid "When replying to or forwarding messages with this identity:"
@@ -10250,8 +10250,7 @@ msgid ""
 "The selected resources/location can not be scheduled for the following "
 "instances"
 msgstr ""
-"Các tài nguyên/địa điểm đã chọn có thể đã được lên lịch trên các trường hợp "
-"sau."
+"Tài nguyên/Địa điểm đã chọn không thể được lên lịch cho các trường hợp sau."
 
 #: resourceConflictLabel
 msgid "Conflicting Resources"
@@ -10658,7 +10657,7 @@ msgstr "Tìm kiếm cuộc hẹn"
 
 #: searchForConvs
 msgid "Search for mail conversations"
-msgstr "Tìm kiếm các cuộc đàm luận"
+msgstr "Tìm kiếm các cuộc đàm thoại"
 
 #: searchForMessages
 msgid "Search for mail messages"
@@ -10937,7 +10936,7 @@ msgstr "Gửi tập tin"
 #: sendFrom
 msgctxt "sendFrom"
 msgid "From:"
-msgstr "Gửi từ:"
+msgstr "Từ:"
 
 #: sendFromError
 msgid "The send from field is empty"
@@ -11242,7 +11241,7 @@ msgid ""
 msgstr ""
 "Thư mục mà đã được chia sẻ với bạn được hiện thị bên dưới. Khi một thư mục "
 "đã được chia sẻ với bạn, bạn phải chấp nhật và cung cập một tên cục bộ cho "
-"thư mục đó trước khi nó hiển thị tổng quan. Thư mục mà đã được chi sẻ với "
+"thư mục đó trước khi nó hiển thị tổng quan. Thư mục mà đã được chia sẻ với "
 "bạn nhưng bạn đã không chấp nhật (nếu có) được hiển thị trong một danh sách "
 "riêng biệt với các thư mục chia sẻ mà bạn đã chấp nhận. Thư mục có thể được "
 "chia sẻ với bạn theo hai cách khác nhau: chúng có thể được chia sẻ với danh "
@@ -11476,7 +11475,7 @@ msgstr "Tự động hiển thị hình ảnh trong email HTML"
 
 #: showFragments
 msgid "Display snippets of messages in email list:"
-msgstr "Hiển thị các mẩu của các thông điệp trong danh sách email:"
+msgstr "Hiển thị các mẩu thông điệp trong danh sách email:"
 
 #. #showFragmentsMsg = Show fragments in message lists
 #: showGroupShares
@@ -11673,8 +11672,8 @@ msgid ""
 "Would you like to reload the application now to show the new theme? "
 "<br>(Otherwise, the new theme will appear the next time you log in.)"
 msgstr ""
-"Bạn có muốn nạp lại ứng dụng để hiển thị theme mới? <br>(Nếu không, theme "
-"mới sẽ xuất hiện lần sau khi bạn đăng nhập.)"
+"Bạn có muốn nạp lại ứng dụng bây giờ để hiển thị theme mới? <br>(Nếu không, "
+"theme mới sẽ xuất hiện lần sau khi bạn đăng nhập.)"
 
 #: skinDeletedError
 msgid ""
@@ -11698,11 +11697,11 @@ msgstr "Chỉ bao gồm thông điệp cuối"
 
 #: snooze
 msgid "Snooze"
-msgstr "Ngủ"
+msgstr "Báo lại"
 
 #: snoozeAll
 msgid "Snooze all for:"
-msgstr "Ngủ tất cả cho:"
+msgstr "Báo lại tất cả đối với:"
 
 #: sortBy
 msgid "Sort by"
@@ -11714,7 +11713,7 @@ msgstr "Sắp xếp theo Thời lượng"
 
 #: sortByFrom
 msgid "Sort by From"
-msgstr "Sắp xếp theo trường Gửi từ"
+msgstr "Sắp xếp theo trường Từ"
 
 #: sortByModified
 msgid "Sort by Modified"
@@ -11727,7 +11726,7 @@ msgstr "Sắp xếp theo tên"
 
 #: sortByTo
 msgid "Sort by To"
-msgstr "Sắp xếp theo trường Gửi tới"
+msgstr "Sắp xếp theo trường Tới"
 
 #: sortByReceived
 msgid "Sort by Received"
@@ -12064,11 +12063,11 @@ msgstr "Màu thẻ"
 
 #: tagConversation
 msgid "Tag Conversation"
-msgstr "Gắn thẻ cuộc đàm luận"
+msgstr "Gắn thẻ cuộc đàm thoại"
 
 #: tagConversations
 msgid "Tag Conversations"
-msgstr "Gắn thẻ cuộc đàm luận"
+msgstr "Gắn thẻ cuộc đàm thoại"
 
 #: tagFile
 msgid "Tag File"
@@ -12387,7 +12386,7 @@ msgstr "Nhan đề:"
 
 #: to
 msgid "To"
-msgstr "Gửi tới"
+msgstr "Tới"
 
 #: toCc
 msgctxt "toCc"
@@ -12418,7 +12417,7 @@ msgstr "Danh sách việc càn làm"
 
 #: toLabel
 msgid "To:"
-msgstr "Gửi tới:"
+msgstr "Tới:"
 
 #: top
 msgid "Top"
@@ -12491,7 +12490,7 @@ msgstr "Hoàn tác"
 
 #: unflagged
 msgid "Unflagged"
-msgstr "Bỏ cắm cờ"
+msgstr "Bỏ cờ"
 
 #: uninstall
 msgid "Uninstall"
@@ -12754,7 +12753,7 @@ msgstr "Mở"
 
 #: viewEntireMessage
 msgid "View entire message."
-msgstr "Xem toạn bộ thông điệp."
+msgstr "Xem toàn bộ thông điệp."
 
 #: viewFB
 msgctxt "viewFB"
@@ -13067,8 +13066,9 @@ msgid ""
 "<br>(Otherwise, the new working week/days will appear the next time you log "
 "in.)"
 msgstr ""
-"Bạn có muốn nạp lại ứng dụng để hiển thị tuần/ngày làm việc mới? <br>(Nếu "
-"không, tuần/ngày làm việc mới sẽ xuất hiện lần sau khi bạn đăng nhập.)"
+"Bạn có muốn nạp lại ứng dụng bây giờ để hiển thị tuần/ngày làm việc mới? "
+"<br>(Nếu không, tuần/ngày làm việc mới sẽ xuất hiện lần sau khi bạn đăng "
+"nhập.)"
 
 #: workWeek
 msgctxt "workWeek"
@@ -13162,8 +13162,8 @@ msgid ""
 "Zimlet successfully installed. Would you like to reload the application now "
 "to enable to the new zimlet?"
 msgstr ""
-"Zimlet đã cài đặt thành công. Bạn muốn tải lại ứng dụng ngay bây giờ để cho "
-"phép để các Zimlet mới?"
+"Zimlet đã cài đặt thành công. Bạn muốn tải lại ứng dụng bây giờ để cho phép "
+"để các Zimlet mới?"
 
 #: zimletDeploying
 msgid "File successfully uploaded. Installing zimlet..."
@@ -13208,8 +13208,8 @@ msgid ""
 "Zimlet successfully uninstalled. Would you like to reload the application "
 "now to finish removing this zimlet?"
 msgstr ""
-"Zimlet đã gỡ bỏ thành công. Bạn muốn tải lại ứng dụng ngay bây giờ để hoàn "
-"thành loại bỏ Zimlet này?"
+"Zimlet đã gỡ bỏ thành công. Bạn muốn tải lại ứng dụng bây giờ để hoàn thành "
+"loại bỏ Zimlet này?"
 
 #: zimletUnknown
 msgid "The zimlet \"{0}\" is not defined."
@@ -15652,7 +15652,7 @@ msgstr "{0} {1} đã gắn cờ"
 
 #: actionUnflag
 msgid "{0} {1} unflagged"
-msgstr "{0} {1} bỏ gắn cờ"
+msgstr "{0} {1} bỏ cờ"
 
 #: actionMarkRead
 msgid "{0} {1} marked read"

@@ -100,7 +100,7 @@ msgstr "Không việc tìm kiếm được ghi như vậy tồn tại."
 #: account.ACCT_NO_SUCH_TAG
 msgctxt "account.ACCT_NO_SUCH_TAG"
 msgid "No such tag exists."
-msgstr "Không thẻ nào như vậy tồi tại."
+msgstr "Không thẻ nào như vậy tồn tại."
 
 #: account.TOO_MANY_IDENTITIES
 msgid ""
@@ -310,7 +310,7 @@ msgstr ""
 
 #: mail.NO_SUCH_CONV
 msgid "No such conversation exists."
-msgstr "Không có cuộc đàm luận như vậy tồn tại."
+msgstr "Không có cuộc đàm thoại như vậy tồn tại."
 
 #: mail.NO_SUCH_FOLDER
 msgid "No such folder exists."
@@ -443,7 +443,7 @@ msgstr "Lỗi uỷ quyền."
 
 #: service.TOO_MANY_HOPS
 msgid "Too many hops between servers."
-msgstr "Quá nhiều hops giữa các máy chủ."
+msgstr "Quá nhiều chặng giữa các máy chủ."
 
 #: service.ALREADY_IN_PROGRESS
 msgid "Operation already in progress."
