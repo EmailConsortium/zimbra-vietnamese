@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: I18nMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:23+0700\n"
+"POT-Creation-Date: 2014-03-06 00:43+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -17,10 +17,10 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2008, 2010 Zimbra, Inc.
 #. #
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
+#. # Version 1.3 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. #
@@ -65,11 +65,6 @@ msgstr "MMM d, yyyy"
 msgid "M/d/yy"
 msgstr "M/d/yy"
 
-#: formatDateNumber
-#, fuzzy
-msgid "M/d/yyyy"
-msgstr "M/d/yy"
-
 #: formatDateTime
 msgid "{0} {1}"
 msgstr "{0} {1}"
@@ -108,33 +103,13 @@ msgstr "h:mm:ss a"
 msgid "h:mm a"
 msgstr "h:mm a"
 
-#. # Add as many regexes as you'd like (without holes in the numbering sequence). They will in turn test the user input until a match is found.
-#. # The first capturing group of the regex is the hours, the second is the minutes, and the third (optional) specifies am or pm time. Just leave it out if you don't need it.
-#. # When the optional ampm group is present in a match, 12 hours will be converted to 0 hours, and when the matched value is present in
-#. # the parseTimePMChars value, 12 hours will be added to the time.
-#: parseTime1
-msgid "(\\d\\d)[\\.\\:\\s]?(\\d\\d)\\s*([ap])?"
-msgstr "(\\d\\d)[\\.\\:\\s]?(\\d\\d)\\s*([ap])?"
-
-#: parseTime2
-msgid "(\\d)[\\.\\:\\s]?(\\d\\d)\\s*([ap])?"
-msgstr "(\\d)[\\.\\:\\s]?(\\d\\d)\\s*([ap])?"
-
-#: parseTime3
-msgid "(\\d{1,2})(\\d*)\\s*([ap])?"
-msgstr "(\\d{1,2})(\\d*)\\s*([ap])?"
-
-#: parseTimePMChars
-msgid "pP"
-msgstr "pP"
-
 #: monthAprLong
 msgid "April"
 msgstr "Tháng Tư"
 
 #: monthAprMedium
 msgid "Apr"
-msgstr "Thg 4"
+msgstr "Thg4"
 
 #: monthAugLong
 msgid "August"
@@ -142,7 +117,7 @@ msgstr "Tháng Tám"
 
 #: monthAugMedium
 msgid "Aug"
-msgstr "Thg 8"
+msgstr "Thg8"
 
 #: monthDecLong
 msgid "December"
@@ -150,7 +125,7 @@ msgstr "Tháng Mười Hai"
 
 #: monthDecMedium
 msgid "Dec"
-msgstr "Thg 12"
+msgstr "Th12"
 
 #: monthFebLong
 msgid "February"
@@ -158,15 +133,15 @@ msgstr "Tháng Hai"
 
 #: monthFebMedium
 msgid "Feb"
-msgstr "Thg 2"
+msgstr "Thg2"
 
 #: monthJanLong
 msgid "January"
-msgstr "Tháng Giêng"
+msgstr "Tháng Một"
 
 #: monthJanMedium
 msgid "Jan"
-msgstr "Thg 1"
+msgstr "Thg1"
 
 #: monthJulLong
 msgid "July"
@@ -174,7 +149,7 @@ msgstr "Tháng Bảy"
 
 #: monthJulMedium
 msgid "Jul"
-msgstr "Thg 7"
+msgstr "Thg7"
 
 #: monthJunLong
 msgid "June"
@@ -182,7 +157,7 @@ msgstr "Tháng Sáu"
 
 #: monthJunMedium
 msgid "Jun"
-msgstr "Thg 6"
+msgstr "Thg6"
 
 #: monthMarLong
 msgid "March"
@@ -190,7 +165,7 @@ msgstr "Tháng Ba"
 
 #: monthMarMedium
 msgid "Mar"
-msgstr "Thg 3"
+msgstr "Thg3"
 
 #: monthMayLong
 msgctxt "monthMayLong"
@@ -200,7 +175,7 @@ msgstr "Tháng Năm"
 #: monthMayMedium
 msgctxt "monthMayMedium"
 msgid "May"
-msgstr "Thg 5"
+msgstr "Thg5"
 
 #: monthNovLong
 msgid "November"
@@ -208,7 +183,7 @@ msgstr "Tháng Mười Một"
 
 #: monthNovMedium
 msgid "Nov"
-msgstr "Thg 11"
+msgstr "Th11"
 
 #: monthOctLong
 msgid "October"
@@ -216,7 +191,7 @@ msgstr "Tháng Mười"
 
 #: monthOctMedium
 msgid "Oct"
-msgstr "Thg 10"
+msgstr "Th10"
 
 #: monthSepLong
 msgid "September"
@@ -224,7 +199,7 @@ msgstr "Tháng Chín"
 
 #: monthSepMedium
 msgid "Sep"
-msgstr "Thg 9"
+msgstr "Thg9"
 
 #: numberInfinity
 msgid "∞"
@@ -232,7 +207,7 @@ msgstr "∞"
 
 #: numberNaN
 msgid "�"
-msgstr "  "
+msgstr " "
 
 #: numberSeparatorDecimal
 msgctxt "numberSeparatorDecimal"

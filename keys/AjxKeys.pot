@@ -1,10 +1,10 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2010 Zimbra, Inc.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
+#. # Version 1.3 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. # 
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
+"POT-Creation-Date: 2014-03-06 00:42+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,7 +60,9 @@ msgstr ""
 #. #
 #. #	display			What the user must type to run the shortcut
 #. #	keycode			Keyboard codes for the shortcut
-#. #	description		Explanatory text
+#. #	description		Explanatory text that appears on the Shortcuts page
+#. #	summary			Brief descriptive text used as a tooltip or in the
+#. #					printed guide (not yet implemented)
 #. #
 #. # Actions
 #. # -------
@@ -191,6 +193,10 @@ msgstr ""
 
 #. # Map: dialog
 #: dialog.description
+msgid "Shortcuts in Dialog Boxes"
+msgstr ""
+
+#: dialog.summary
 msgid "Dialog Boxes"
 msgstr ""
 
@@ -209,6 +215,10 @@ msgid "27"
 msgstr ""
 
 #: dialog.Cancel.description
+msgid "Cancel changes in the dialog (same as \"Cancel\" button)"
+msgstr ""
+
+#: dialog.Cancel.summary
 msgid "Cancel changes"
 msgstr ""
 
@@ -221,11 +231,14 @@ msgid "Enter; Space"
 msgstr ""
 
 #: dialog.Enter.keycode
-msgctxt "dialog.Enter.keycode"
 msgid "13; 32"
 msgstr ""
 
 #: dialog.Enter.description
+msgid "Save changes in the dialog (same as \"OK\" button)"
+msgstr ""
+
+#: dialog.Enter.summary
 msgid "Save changes"
 msgstr ""
 
@@ -233,41 +246,9 @@ msgstr ""
 msgid "40010"
 msgstr ""
 
-#: dialog.Yes.display
-msgid "Y"
-msgstr ""
-
-#: dialog.Yes.keycode
-msgid "89"
-msgstr ""
-
-#: dialog.Yes.description
-msgid "Respond \"Yes\""
-msgstr ""
-
-#: dialog.Yes.sort
-msgid "40030"
-msgstr ""
-
-#: dialog.No.display
-msgid "N"
-msgstr ""
-
-#: dialog.No.keycode
-msgid "78"
-msgstr ""
-
-#: dialog.No.description
-msgid "Respond \"No\""
-msgstr ""
-
-#: dialog.No.sort
-msgid "40040"
-msgstr ""
-
 #. # Map: button
 #: button.description
-msgid "Buttons"
+msgid "Shortcuts for Buttons"
 msgstr ""
 
 #: button.sort
@@ -303,7 +284,7 @@ msgid "40"
 msgstr ""
 
 #: button.SubMenu.description
-msgid "Display menu"
+msgid "Display the pop-up menu for the button"
 msgstr ""
 
 #: button.SubMenu.sort
@@ -312,7 +293,7 @@ msgstr ""
 
 #. # Map: list
 #: list.description
-msgid "Lists"
+msgid "Shortcuts in Lists"
 msgstr ""
 
 #: list.sort
@@ -328,7 +309,7 @@ msgid "Shift+40"
 msgstr ""
 
 #: list.AddNext.description
-msgid "Add next item"
+msgid "Add the next item to the selection"
 msgstr ""
 
 #: list.AddNext.sort
@@ -344,7 +325,7 @@ msgid "Shift+38"
 msgstr ""
 
 #: list.AddPrevious.description
-msgid "Add previous item"
+msgid "Add the previous item to the selection"
 msgstr ""
 
 #: list.AddPrevious.sort
@@ -352,27 +333,26 @@ msgid "30100"
 msgstr ""
 
 #: list.ContextMenu.display
-msgctxt "list.ContextMenu.display"
-msgid ",; Ctrl+Enter"
+msgid ",; Shift+,; Ctrl+Enter"
 msgstr ""
 
 #: list.ContextMenu.keycode
-msgctxt "list.ContextMenu.keycode"
-msgid "188; Ctrl+13"
+msgid "188; Shift+188; Ctrl+13"
 msgstr ""
 
 #: list.ContextMenu.display.mac
-msgctxt "list.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
+msgid ",; Shift+,; Ctrl+M"
 msgstr ""
 
 #: list.ContextMenu.keycode.mac
-msgctxt "list.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
+msgid "188; Shift+188; Ctrl+77"
 msgstr ""
 
 #: list.ContextMenu.description
-msgctxt "list.ContextMenu.description"
+msgid "Show a menu to act on the selected items (same as right-click)"
+msgstr ""
+
+#: list.ContextMenu.summary
 msgid "Show right-click menu"
 msgstr ""
 
@@ -391,7 +371,7 @@ msgid "13"
 msgstr ""
 
 #: list.DoubleClick.description
-msgid "Double-click"
+msgid "Double-click the selected item"
 msgstr ""
 
 #: list.DoubleClick.sort
@@ -407,7 +387,7 @@ msgid "Ctrl+40"
 msgstr ""
 
 #: list.Next.description
-msgid "Focus next item"
+msgid "Focus on the next item without selecting"
 msgstr ""
 
 #: list.Next.sort
@@ -423,7 +403,7 @@ msgid "Ctrl+38"
 msgstr ""
 
 #: list.Previous.description
-msgid "Focus previous item"
+msgid "Focus on the previous item without selecting"
 msgstr ""
 
 #: list.Previous.sort
@@ -439,7 +419,7 @@ msgid "Ctrl+65"
 msgstr ""
 
 #: list.SelectAll.description
-msgid "Select all"
+msgid "Select all visible items"
 msgstr ""
 
 #: list.SelectAll.sort
@@ -455,7 +435,7 @@ msgid "Ctrl+192"
 msgstr ""
 
 #: list.SelectCurrent.description
-msgid "Select/Unselect"
+msgid "Select/Unselect the focused item"
 msgstr ""
 
 #: list.SelectCurrent.sort
@@ -467,7 +447,7 @@ msgid "Home"
 msgstr ""
 
 #: list.SelectFirst.display.mac
-msgid "Home; Meta+ArrowUp"
+msgid "Home; Meta+ArrowLeft"
 msgstr ""
 
 #: list.SelectFirst.keycode
@@ -475,11 +455,11 @@ msgid "36"
 msgstr ""
 
 #: list.SelectFirst.keycode.mac
-msgid "36; Meta+38"
+msgid "36; Meta+37"
 msgstr ""
 
 #: list.SelectFirst.description
-msgid "Select first item"
+msgid "Select the first item"
 msgstr ""
 
 #: list.SelectFirst.sort
@@ -491,7 +471,7 @@ msgid "End"
 msgstr ""
 
 #: list.SelectLast.display.mac
-msgid "End; Meta+ArrowDown"
+msgid "Home; Meta+ArrowRight"
 msgstr ""
 
 #: list.SelectLast.keycode
@@ -499,11 +479,11 @@ msgid "35"
 msgstr ""
 
 #: list.SelectLast.keycode.mac
-msgid "36; Meta+40"
+msgid "36; Meta+39"
 msgstr ""
 
 #: list.SelectLast.description
-msgid "Select last item"
+msgid "Select the last item"
 msgstr ""
 
 #: list.SelectLast.sort
@@ -519,7 +499,7 @@ msgid "40; 32; 74"
 msgstr ""
 
 #: list.SelectNext.description
-msgid "Select next item"
+msgid "Select the next item"
 msgstr ""
 
 #: list.SelectNext.sort
@@ -535,202 +515,16 @@ msgid "38; 75"
 msgstr ""
 
 #: list.SelectPrevious.description
-msgid "Select previous item"
+msgid "Select the previous item"
 msgstr ""
 
 #: list.SelectPrevious.sort
 msgid "30020"
 msgstr ""
 
-#: list.PageUp.display
-msgctxt "list.PageUp.display"
-msgid "PageUp"
-msgstr ""
-
-#: list.PageUp.display.mac
-msgid "PageUp; Alt + ArrowUp"
-msgstr ""
-
-#: list.PageUp.keycode
-msgctxt "list.PageUp.keycode"
-msgid "33"
-msgstr ""
-
-#: list.PageUp.keycode.mac
-msgid "33; Alt+38"
-msgstr ""
-
-#: list.PageUp.description
-msgctxt "list.PageUp.description"
-msgid "Scroll up one page"
-msgstr ""
-
-#: list.PageUp.sort
-msgid "30023"
-msgstr ""
-
-#: list.PageDown.display
-msgctxt "list.PageDown.display"
-msgid "PageDown"
-msgstr ""
-
-#: list.PageDown.display.mac
-msgid "PageDown;  Alt + ArrowDown"
-msgstr ""
-
-#: list.PageDown.keycode
-msgctxt "list.PageDown.keycode"
-msgid "34"
-msgstr ""
-
-#: list.PageDown.keycode.mac
-msgid "34; Alt+40"
-msgstr ""
-
-#: list.PageDown.description
-msgctxt "list.PageDown.description"
-msgid "Scroll down one page"
-msgstr ""
-
-#: list.PageDown.sort
-msgid "30027"
-msgstr ""
-
-#. # Map: tree
-#: tree.description
-msgid "Trees"
-msgstr ""
-
-#: tree.sort
-msgid "30500"
-msgstr ""
-
-#: tree.Next.display
-msgctxt "tree.Next.display"
-msgid "ArrowDown"
-msgstr ""
-
-#: tree.Next.keycode
-msgctxt "tree.Next.keycode"
-msgid "40"
-msgstr ""
-
-#: tree.Next.description
-msgctxt "tree.Next.description"
-msgid "Next item"
-msgstr ""
-
-#: tree.Next.sort
-msgctxt "tree.Next.sort"
-msgid "30510"
-msgstr ""
-
-#: tree.Enter.display
-msgctxt "tree.Enter.display"
-msgid "Enter"
-msgstr ""
-
-#: tree.Enter.keycode
-msgctxt "tree.Enter.keycode"
-msgid "13; 32"
-msgstr ""
-
-#: tree.Enter.description
-msgid "Select (in drop-down)"
-msgstr ""
-
-#: tree.Enter.sort
-msgctxt "tree.Enter.sort"
-msgid "30510"
-msgstr ""
-
-#: tree.Previous.display
-msgctxt "tree.Previous.display"
-msgid "ArrowUp"
-msgstr ""
-
-#: tree.Previous.keycode
-msgctxt "tree.Previous.keycode"
-msgid "38"
-msgstr ""
-
-#: tree.Previous.description
-msgctxt "tree.Previous.description"
-msgid "Previous item"
-msgstr ""
-
-#: tree.Previous.sort
-msgid "30520"
-msgstr ""
-
-#: tree.Expand.display
-msgctxt "tree.Expand.display"
-msgid "ArrowRight"
-msgstr ""
-
-#: tree.Expand.keycode
-msgctxt "tree.Expand.keycode"
-msgid "39"
-msgstr ""
-
-#: tree.Expand.description
-msgid "Expand"
-msgstr ""
-
-#: tree.Expand.sort
-msgid "30530"
-msgstr ""
-
-#: tree.Collapse.display
-msgctxt "tree.Collapse.display"
-msgid "ArrowLeft"
-msgstr ""
-
-#: tree.Collapse.keycode
-msgctxt "tree.Collapse.keycode"
-msgid "37"
-msgstr ""
-
-#: tree.Collapse.description
-msgid "Collapse"
-msgstr ""
-
-#: tree.Collapse.sort
-msgid "30540"
-msgstr ""
-
-#: tree.ContextMenu.display
-msgctxt "tree.ContextMenu.display"
-msgid ",; Ctrl+Enter"
-msgstr ""
-
-#: tree.ContextMenu.keycode
-msgctxt "tree.ContextMenu.keycode"
-msgid "188; Ctrl+13"
-msgstr ""
-
-#: tree.ContextMenu.display.mac
-msgctxt "tree.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
-msgstr ""
-
-#: tree.ContextMenu.keycode.mac
-msgctxt "tree.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
-msgstr ""
-
-#: tree.ContextMenu.description
-msgctxt "tree.ContextMenu.description"
-msgid "Show right-click menu"
-msgstr ""
-
-#: tree.ContextMenu.sort
-msgid "30550"
-msgstr ""
-
 #. # Map: menu
 #: menu.description
-msgid "Pop-up Menus"
+msgid "Shortcuts for Pop-up Menus"
 msgstr ""
 
 #: menu.sort
@@ -748,7 +542,7 @@ msgid "27"
 msgstr ""
 
 #: menu.Cancel.description
-msgid "Dismiss"
+msgid "Dismiss the menu"
 msgstr ""
 
 #: menu.Cancel.sort
@@ -766,7 +560,7 @@ msgid "37"
 msgstr ""
 
 #: menu.ParentMenu.description
-msgid "Hide sub-menu"
+msgid "Hide the sub-menu"
 msgstr ""
 
 #: menu.ParentMenu.sort
@@ -784,7 +578,7 @@ msgid "13"
 msgstr ""
 
 #: menu.Select.description
-msgid "Select"
+msgid "Select the current item"
 msgstr ""
 
 #: menu.Select.sort
@@ -802,8 +596,7 @@ msgid "40"
 msgstr ""
 
 #: menu.SelectNext.description
-msgctxt "menu.SelectNext.description"
-msgid "Next item"
+msgid "Move to the next item"
 msgstr ""
 
 #: menu.SelectNext.sort
@@ -821,66 +614,11 @@ msgid "38"
 msgstr ""
 
 #: menu.SelectPrevious.description
-msgctxt "menu.SelectPrevious.description"
-msgid "Previous item"
+msgid "Move to the previous item"
 msgstr ""
 
 #: menu.SelectPrevious.sort
 msgid "20020"
-msgstr ""
-
-#: menu.PageUp.display
-msgctxt "menu.PageUp.display"
-msgid "PageUp"
-msgstr ""
-
-#: menu.PageUp.display.mac
-msgid "Alt + ArrowUp"
-msgstr ""
-
-#: menu.PageUp.keycode
-msgctxt "menu.PageUp.keycode"
-msgid "33"
-msgstr ""
-
-#: menu.PageUp.keycode.mac
-msgid "Alt+38"
-msgstr ""
-
-#: menu.PageUp.description
-msgctxt "menu.PageUp.description"
-msgid "Scroll up one page"
-msgstr ""
-
-#: menu.PageUp.sort
-msgid "20023"
-msgstr ""
-
-#: menu.PageDown.display
-msgctxt "menu.PageDown.display"
-msgid "PageDown"
-msgstr ""
-
-#: menu.PageDown.display.mac
-msgid "Alt + ArrowDown"
-msgstr ""
-
-#: menu.PageDown.keycode
-msgctxt "menu.PageDown.keycode"
-msgid "34"
-msgstr ""
-
-#: menu.PageDown.keycode.mac
-msgid "Alt+40"
-msgstr ""
-
-#: menu.PageDown.description
-msgctxt "menu.PageDown.description"
-msgid "Scroll down one page"
-msgstr ""
-
-#: menu.PageDown.sort
-msgid "20027"
 msgstr ""
 
 #: menu.SubMenu.display
@@ -894,7 +632,7 @@ msgid "39"
 msgstr ""
 
 #: menu.SubMenu.description
-msgid "Show sub-menu"
+msgid "Show the sub-menu of the current item"
 msgstr ""
 
 #: menu.SubMenu.sort
@@ -910,7 +648,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: toolbarHorizontal.description
-msgid "Toolbars"
+msgid "Shortcuts for Horizontal Toolbars"
 msgstr ""
 
 #: toolbarHorizontal.sort
@@ -929,7 +667,7 @@ msgstr ""
 
 #: toolbarHorizontal.Next.description
 msgctxt "toolbarHorizontal.Next.description"
-msgid "Next button"
+msgid "Focus on the next button"
 msgstr ""
 
 #: toolbarHorizontal.Next.sort
@@ -948,7 +686,7 @@ msgstr ""
 
 #: toolbarHorizontal.Previous.description
 msgctxt "toolbarHorizontal.Previous.description"
-msgid "Previous button"
+msgid "Focus on the previous button"
 msgstr ""
 
 #: toolbarHorizontal.Previous.sort
@@ -964,7 +702,7 @@ msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
 #: toolbarVertical.description
-msgid "Vertical Toolbars"
+msgid "Shortcuts for Vertical Toolbars"
 msgstr ""
 
 #: toolbarVertical.sort
@@ -983,7 +721,7 @@ msgstr ""
 
 #: toolbarVertical.Next.description
 msgctxt "toolbarVertical.Next.description"
-msgid "Next button"
+msgid "Focus on the next button"
 msgstr ""
 
 #: toolbarVertical.Next.sort
@@ -1002,7 +740,7 @@ msgstr ""
 
 #: toolbarVertical.Previous.description
 msgctxt "toolbarVertical.Previous.description"
-msgid "Previous button"
+msgid "Focus on the previous button"
 msgstr ""
 
 #: toolbarVertical.Previous.sort
@@ -1011,7 +749,7 @@ msgstr ""
 
 #. # Map: editor
 #: editor.description
-msgid "HTML Editor"
+msgid "Shortcuts within an HTML Editor"
 msgstr ""
 
 #: editor.sort
@@ -1027,7 +765,11 @@ msgid "Ctrl+66"
 msgstr ""
 
 #: editor.Bold.description
-msgid "Bold"
+msgid "Make text bold"
+msgstr ""
+
+#: editor.Bold.summary
+msgid "Bold (Ctrl+B)"
 msgstr ""
 
 #: editor.Bold.sort
@@ -1043,11 +785,35 @@ msgid "Ctrl+69"
 msgstr ""
 
 #: editor.CenterJustify.description
-msgid "Align center"
+msgid "Align text in the middle"
+msgstr ""
+
+#: editor.CenterJustify.summary
+msgid "Align Center (Ctrl+E)"
 msgstr ""
 
 #: editor.CenterJustify.sort
 msgid "60070"
+msgstr ""
+
+#: editor.FullJustify.display
+msgid "Ctrl+J"
+msgstr ""
+
+#: editor.FullJustify.keycode
+msgid "Ctrl+74"
+msgstr ""
+
+#: editor.FullJustify.description
+msgid "Align text so that text lines up on both sides"
+msgstr ""
+
+#: editor.FullJustify.summary
+msgid "Justify (Ctrl+J)"
+msgstr ""
+
+#: editor.FullJustify.sort
+msgid "60080"
 msgstr ""
 
 #: editor.Header1.display
@@ -1059,7 +825,7 @@ msgid "Ctrl+49"
 msgstr ""
 
 #: editor.Header1.description
-msgid "Level 1 header"
+msgid "Make text a level 1 header"
 msgstr ""
 
 #: editor.Header1.sort
@@ -1075,7 +841,7 @@ msgid "Ctrl+50"
 msgstr ""
 
 #: editor.Header2.description
-msgid "Level 2 header"
+msgid "Make text a level 2 header"
 msgstr ""
 
 #: editor.Header2.sort
@@ -1091,7 +857,7 @@ msgid "Ctrl+51"
 msgstr ""
 
 #: editor.Header3.description
-msgid "Level 3 header"
+msgid "Make text a level 3 header"
 msgstr ""
 
 #: editor.Header3.sort
@@ -1107,7 +873,7 @@ msgid "Ctrl+52"
 msgstr ""
 
 #: editor.Header4.description
-msgid "Level 4 header"
+msgid "Make text a level 4 header"
 msgstr ""
 
 #: editor.Header4.sort
@@ -1123,7 +889,7 @@ msgid "Ctrl+53"
 msgstr ""
 
 #: editor.Header5.description
-msgid "Level 5 header"
+msgid "Make text a level 5 header"
 msgstr ""
 
 #: editor.Header5.sort
@@ -1139,7 +905,7 @@ msgid "Ctrl+54"
 msgstr ""
 
 #: editor.Header6.description
-msgid "Level 6 header"
+msgid "Make text a level 6 header"
 msgstr ""
 
 #: editor.Header6.sort
@@ -1155,7 +921,11 @@ msgid "Ctrl+73"
 msgstr ""
 
 #: editor.Italic.description
-msgid "Italics"
+msgid "Make text italicized"
+msgstr ""
+
+#: editor.Italic.summary
+msgid "Italic (Ctrl+I)"
 msgstr ""
 
 #: editor.Italic.sort
@@ -1171,7 +941,11 @@ msgid "Ctrl+76"
 msgstr ""
 
 #: editor.LeftJustify.description
-msgid "Align left"
+msgid "Align text to the left"
+msgstr ""
+
+#: editor.LeftJustify.summary
+msgid "Align Left (Ctrl+L)"
 msgstr ""
 
 #: editor.LeftJustify.sort
@@ -1187,7 +961,11 @@ msgid "Ctrl+82"
 msgstr ""
 
 #: editor.RightJustify.description
-msgid "Align right"
+msgid "Align text to the right"
+msgstr ""
+
+#: editor.RightJustify.summary
+msgid "Align Right (Ctrl+R)"
 msgstr ""
 
 #: editor.RightJustify.sort
@@ -1195,19 +973,39 @@ msgid "60060"
 msgstr ""
 
 #: editor.Strikethru.display
-msgid "Ctrl+Shift+K"
+msgid "Ctrl+S"
 msgstr ""
 
 #: editor.Strikethru.keycode
-msgid "Ctrl+Shift+75"
+msgid "Ctrl+83"
 msgstr ""
 
 #: editor.Strikethru.description
-msgid "Strikethrough"
+msgid "Add line through middle of text"
+msgstr ""
+
+#: editor.Strikethru.summary
+msgid "Strikethrough (Ctrl+S)"
 msgstr ""
 
 #: editor.Strikethru.sort
 msgid "60030"
+msgstr ""
+
+#: editor.SwitchMode.display
+msgid "Ctrl+0"
+msgstr ""
+
+#: editor.SwitchMode.keycode
+msgid "Ctrl+48"
+msgstr ""
+
+#: editor.SwitchMode.description
+msgid "Switch between HTML and text modes"
+msgstr ""
+
+#: editor.SwitchMode.sort
+msgid "60150"
 msgstr ""
 
 #: editor.Underline.display
@@ -1219,88 +1017,13 @@ msgid "Ctrl+85"
 msgstr ""
 
 #: editor.Underline.description
-msgid "Underline"
+msgid "Underline text"
+msgstr ""
+
+#: editor.Underline.summary
+msgid "Underline (Ctrl+U)"
 msgstr ""
 
 #: editor.Underline.sort
 msgid "60040"
-msgstr ""
-
-#: editor.InsertLink.display
-msgctxt "editor.InsertLink.display"
-msgid "Ctrl+K"
-msgstr ""
-
-#: editor.InsertLink.keycode
-msgctxt "editor.InsertLink.keycode"
-msgid "Ctrl+75"
-msgstr ""
-
-#: editor.InsertLink.description
-msgid "Insert Link dialog"
-msgstr ""
-
-#: editor.InsertLink.sort
-msgid "60045"
-msgstr ""
-
-#. # Map: tabView
-#: tabView.description
-msgid "Tab Views"
-msgstr ""
-
-#: tabView.sort
-msgid "110000"
-msgstr ""
-
-#: tabView.GoToTab.display
-msgctxt "tabView.GoToTab.display"
-msgid "Ctrl+NNN"
-msgstr ""
-
-#: tabView.GoToTab.keycode
-msgctxt "tabView.GoToTab.keycode"
-msgid "Ctrl+NNN"
-msgstr ""
-
-#: tabView.GoToTab.description
-msgid "Go to tab [n]"
-msgstr ""
-
-#: tabView.GoToTab.sort
-msgid "110030"
-msgstr ""
-
-#: tabView.NextTab.display
-msgid "Ctrl+J"
-msgstr ""
-
-#: tabView.NextTab.keycode
-msgid "Ctrl+74"
-msgstr ""
-
-#: tabView.NextTab.description
-msgid "Next tab"
-msgstr ""
-
-#: tabView.NextTab.sort
-msgid "110010"
-msgstr ""
-
-#: tabView.PreviousTab.display
-msgctxt "tabView.PreviousTab.display"
-msgid "Ctrl+K"
-msgstr ""
-
-#: tabView.PreviousTab.keycode
-msgctxt "tabView.PreviousTab.keycode"
-msgid "Ctrl+75"
-msgstr ""
-
-#: tabView.PreviousTab.description
-msgid "Previous tab"
-msgstr ""
-
-#: tabView.PreviousTab.sort
-msgid "110020"
 msgstr ""
