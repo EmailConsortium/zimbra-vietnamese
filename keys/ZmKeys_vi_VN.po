@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZmKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:43+0700\n"
-"PO-Revision-Date: 2014-03-16 21:28+0700\n"
+"POT-Creation-Date: 2014-03-06 00:45+0700\n"
+"PO-Revision-Date: 2014-03-17 22:51+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. # Keyboard Shortcuts for the ZCS Web Client
@@ -115,14 +115,6 @@ msgstr ""
 #. #
 #. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
 #. #
-#. # The sequence "NNN" has a special meaning in shortcuts. It stands for "any
-#. # number". For example, with the shortcut
-#. #
-#. #    global.Tag.display = T,NNN
-#. #    global.Tag.keycode = 84,NNN
-#. #
-#. # the key sequence "T,3" will tag selected items with the tag which has
-#. # 3 as its alias. Only actions which contain "NNN" support that sort of mapping.
 #. #
 #. # Documentation
 #. # -------------
@@ -132,22 +124,12 @@ msgstr ""
 #. # text is the property's value. The descriptions below show up as content in
 #. # the Shortcuts tab on the Options page.
 #. #
-#. # The "summary" text is used when printing the Quick Reference (not yet
-#. # implemented), or in a tooltip.
-#. #
 #. # The "sort" field sets the sorting order among either map names or among
 #. # the actions within a map, from low to high. There are gaps so that
 #. # properties may be inserted and given a sort order without having to
 #. # change the order of other properties.
-#. #
-#. # The "example" field contains text that is used in the examples for
-#. # creating custom shortcuts for folders, tags, and saved searches.
 #. # Map: global
 #: global.description
-msgid "Shortcuts for All Applications"
-msgstr "Phím tắt cho tất cả Ứng dụng"
-
-#: global.summary
 msgid "All Applications"
 msgstr "Tất cả Ứng dụng"
 
@@ -164,10 +146,11 @@ msgid "192"
 msgstr "192"
 
 #: global.Assistant.description
-msgid "Show the Zimbra Assistant"
-msgstr "Hiển thị Trợ lý Zimbra"
+msgid "Zimbra Assistant"
+msgstr "Trợ lý Zimbra"
 
 #: global.Assistant.sort
+msgctxt "global.Assistant.sort"
 msgid "10230"
 msgstr "10230"
 
@@ -182,24 +165,25 @@ msgid "27"
 msgstr "27"
 
 #: global.Cancel.description
-msgid "Close the current view"
-msgstr "Đóng khung hiển thị hiện thời"
+msgctxt "global.Cancel.description"
+msgid "Close"
+msgstr "Đóng"
 
 #: global.Cancel.sort
 msgid "10220"
 msgstr "10220"
 
 #: global.Delete.display
-msgid "Backspace; Del"
-msgstr "Backspace; Del"
+msgid "Del; Backspace"
+msgstr "Del; Backspace"
 
 #: global.Delete.keycode
 msgid "8; 46"
 msgstr "8; 46"
 
 #: global.Delete.description
-msgid "Delete selected items"
-msgstr "Xóa mục đã chọn"
+msgid "Delete item(s)"
+msgstr "Xóa mục"
 
 #: global.Delete.sort
 msgid "10210"
@@ -214,8 +198,8 @@ msgid "Ctrl+191"
 msgstr "Ctrl+191"
 
 #: global.FocusContentPane.description
-msgid "Move focus to the content pane"
-msgstr "Chuyển tập trung vào khung nội dung"
+msgid "Focus content pane"
+msgstr "Tập trung vào khung nội dung"
 
 #: global.FocusContentPane.sort
 msgid "10280"
@@ -230,12 +214,29 @@ msgid "191"
 msgstr "191"
 
 #: global.FocusSearchBox.description
-msgid "Move focus to the search box"
-msgstr "Chuyển tập trung vào hộp tìm kiếm"
+msgid "Focus search box"
+msgstr "Tập trung vào hộp tìm kiếm"
 
 #: global.FocusSearchBox.sort
+msgctxt "global.FocusSearchBox.sort"
 msgid "10270"
 msgstr "10270"
+
+#: global.FocusToolbar.display
+msgid "Ctrl+Y"
+msgstr "Ctrl+Y"
+
+#: global.FocusToolbar.keycode
+msgid "Ctrl+89"
+msgstr "Ctrl+89"
+
+#: global.FocusToolbar.description
+msgid "Focus toolbar"
+msgstr "Tập trung vào thanh công cụ"
+
+#: global.FocusToolbar.sort
+msgid "10275"
+msgstr "10275"
 
 #: global.FocusWebSearchBox.display
 msgid "Alt+/"
@@ -246,10 +247,6 @@ msgid "Alt+191"
 msgstr "Alt+191"
 
 #: global.FocusWebSearchBox.description
-msgid "Move focus to the web search box"
-msgstr "Chuyển tập trung vào hộp tìm kiếm web"
-
-#: global.FocusWebSearchBox.summary
 msgid "Focus web search box"
 msgstr "Tập trung vào hộp tìm kiếm web"
 
@@ -266,7 +263,7 @@ msgid "71,67"
 msgstr "71,67"
 
 #: global.GoToCalendar.description
-msgid "Switch to Calendar"
+msgid "Go to Calendar"
 msgstr "Chuyển tới Lịch"
 
 #: global.GoToCalendar.sort
@@ -282,28 +279,12 @@ msgid "71,65"
 msgstr "71,65"
 
 #: global.GoToContacts.description
-msgid "Switch to Contacts (\"address book\")"
-msgstr "Chuyển tới Liên hệ (\"sổ địa chỉ\")"
+msgid "Go to Contacts"
+msgstr "Chuyển tới Liên hệ"
 
 #: global.GoToContacts.sort
 msgid "10020"
 msgstr "10020"
-
-#: global.GoToIm.display
-msgid "G,I"
-msgstr "G,I"
-
-#: global.GoToIm.keycode
-msgid "71,73"
-msgstr "71,73"
-
-#: global.GoToIm.description
-msgid "Switch to Chat (\"instant messaging\")"
-msgstr "Chuyển tới Chat (\"tin nhắn tức thời\")"
-
-#: global.GoToIm.sort
-msgid "10040"
-msgstr "10040"
 
 #: global.GoToMail.display
 msgid "G,M"
@@ -314,8 +295,8 @@ msgid "71,77"
 msgstr "71,77"
 
 #: global.GoToMail.description
-msgid "Switch (\"go\") to Mail"
-msgstr "Chuyển (\"đi\") tới Mail"
+msgid "Go to Mail"
+msgstr "Tới Thư"
 
 #: global.GoToMail.sort
 msgid "10010"
@@ -330,12 +311,29 @@ msgid "71,68"
 msgstr "71,68"
 
 #: global.GoToNotebook.description
-msgid "Switch to Documents (\"notebook\")"
-msgstr "Chuyển tới Tài liệu (\"sổ tay\")"
+msgid "Go to Documents"
+msgstr "Chuyển tới Tài liệu"
 
 #: global.GoToNotebook.sort
 msgid "10060"
 msgstr "10060"
+
+#: global.GoToBriefcase.display
+msgid "G,B"
+msgstr "G,B"
+
+#: global.GoToBriefcase.keycode
+msgid "71,66"
+msgstr "71,66"
+
+#: global.GoToBriefcase.description
+msgid "Go to Briefcase"
+msgstr "Chuyển tới Cặp tài liệu"
+
+#: global.GoToBriefcase.sort
+msgctxt "global.GoToBriefcase.sort"
+msgid "10070"
+msgstr "10070"
 
 #: global.GoToOptions.display
 msgid "G,P"
@@ -346,38 +344,12 @@ msgid "71,80"
 msgstr "71,80"
 
 #: global.GoToOptions.description
-msgid "Switch to Preferences"
+msgid "Go to Preferences"
 msgstr "Chuyển tới Tùy chọn"
 
 #: global.GoToOptions.sort
 msgid "10050"
 msgstr "10050"
-
-#: global.GoToTag.display
-msgid "Y,NNN"
-msgstr "Y,NNN"
-
-#: global.GoToTag.keycode
-msgid "89,NNN"
-msgstr "89,NNN"
-
-#: global.GoToTag.description
-msgid ""
-"Show items with specified tag (set the tag in the \"Tag Shortcuts\" tab)"
-msgstr ""
-"Hiển thị các mục với thẻ đã định (thiết lập thẻ trong tab \"Phím tắt thẻ\")."
-
-#: global.GoToTag.summary
-msgid "Show items with specified tag."
-msgstr "Hiển thị các mục với thẻ đã định."
-
-#: global.GoToTag.example
-msgid "will show all items with tag {0}."
-msgstr "sẽ hiển thị tất cả mục với thẻ {0}."
-
-#: global.GoToTag.sort
-msgid "10240"
-msgstr "10240"
 
 #: global.GoToTasks.display
 msgid "G,T"
@@ -388,7 +360,7 @@ msgid "71,84"
 msgstr "71,84"
 
 #: global.GoToTasks.description
-msgid "Switch to Tasks"
+msgid "Go to Tasks"
 msgstr "Chuyển tới Công việc"
 
 #: global.GoToTasks.sort
@@ -404,12 +376,28 @@ msgid "71,86"
 msgstr "71,86"
 
 #: global.GoToVoice.description
-msgid "Switch to Voice"
+msgid "Go to Voice"
 msgstr "Chuyển tới Thư thoại"
 
 #: global.GoToVoice.sort
 msgid "10015"
 msgstr "10015"
+
+#: global.Move.display
+msgid "M; M,M"
+msgstr "M; M,M"
+
+#: global.Move.keycode
+msgid "77; 77,77"
+msgstr "77; 77,77"
+
+#: global.Move.description
+msgid "Move item(s)"
+msgstr "Di chuyển mục"
+
+#: global.Move.sort
+msgid "10235"
+msgstr "10235"
 
 #: global.New.display
 msgid "N"
@@ -420,14 +408,11 @@ msgid "78"
 msgstr "78"
 
 #: global.New.description
-msgid "Create a new item (within the current application)"
-msgstr "Tạo một mục mới (trong ứng dụng hiện thời)"
-
-#: global.New.summary
-msgid "New item (for current app)"
-msgstr "Mục mới (cho ứng dụng hiện thời)"
+msgid "New item"
+msgstr "Mục mới"
 
 #: global.New.sort
+msgctxt "global.New.sort"
 msgid "10070"
 msgstr "10070"
 
@@ -520,8 +505,9 @@ msgid "78,77; 67"
 msgstr "78,77; 67"
 
 #: global.NewMessage.description
-msgid "New message (\"compose\")"
-msgstr "Thông điệp mới (\"soạn thảo\")"
+msgctxt "global.NewMessage.description"
+msgid "Compose"
+msgstr "Soạn thư"
 
 #: global.NewMessage.sort
 msgid "10080"
@@ -536,8 +522,8 @@ msgid "Shift+67"
 msgstr "Shift+67"
 
 #: global.NewMessageWindow.description
-msgid "New message in a new window"
-msgstr "Thông điếp mới trong một cửa sổ mới"
+msgid "Compose in new window"
+msgstr "Soạn thảo trong cửa sổ mới"
 
 #: global.NewMessageWindow.sort
 msgid "10090"
@@ -552,8 +538,8 @@ msgid "78,87"
 msgstr "78,87"
 
 #: global.NewNotebook.description
-msgid "New notebook (\"wiki\")"
-msgstr "Sổ tay mới \"wiki"
+msgid "New notebook"
+msgstr "Sổ tay mới"
 
 #: global.NewNotebook.sort
 msgid "10140"
@@ -574,6 +560,22 @@ msgstr "Trang sổ tay mới"
 #: global.NewPage.sort
 msgid "10130"
 msgstr "10130"
+
+#: global.NewDocument.display
+msgid "N,D"
+msgstr "N,D"
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr "78,68"
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr "Tài liệu mới"
+
+#: global.NewDocument.sort
+msgid "10135"
+msgstr "10135"
 
 #: global.NewRosterItem.display
 msgid "N,B"
@@ -624,48 +626,32 @@ msgid "10115"
 msgstr "10115"
 
 #: global.NextPage.display
-msgid "ArrowRight"
-msgstr "ArrowRight"
+msgid "Ctrl+ArrowRight"
+msgstr "Ctrl+ArrowRight"
 
 #: global.NextPage.keycode
-msgid "39"
-msgstr "39"
+msgid "Ctrl+39"
+msgstr "Ctrl+39"
 
 #: global.NextPage.description
-msgid "Next page of items"
-msgstr "Trang kế tiếp của các mục"
+msgid "Next page"
+msgstr "Trang kế tiếp"
 
 #: global.NextPage.sort
 msgid "10170"
 msgstr "10170"
 
-#: global.PresenceMenu.display
-msgid "S,M"
-msgstr "S,M"
-
-#: global.PresenceMenu.keycode
-msgid "83,77"
-msgstr "83,77"
-
-#: global.PresenceMenu.description
-msgid "Pop up the IM status menu"
-msgstr "Bật trình đơn trạng thái IM"
-
-#: global.PresenceMenu.sort
-msgid "10290"
-msgstr "10290"
-
 #: global.PreviousPage.display
-msgid "ArrowLeft"
-msgstr "ArrowLeft"
+msgid "Ctrl+ArrowLeft"
+msgstr "Ctrl+ArrowLeft"
 
 #: global.PreviousPage.keycode
-msgid "37"
-msgstr "37"
+msgid "Ctrl+37"
+msgstr "Ctrl+37"
 
 #: global.PreviousPage.description
-msgid "Previous page of items"
-msgstr "Trang trước của các mục"
+msgid "Previous page"
+msgstr "Trang trước"
 
 #: global.PreviousPage.sort
 msgid "10180"
@@ -682,67 +668,97 @@ msgid "80"
 msgstr "80"
 
 #: global.Print.description
-msgid "Print selected items"
-msgstr "In mục đã chọn"
+msgctxt "global.Print.description"
+msgid "Print"
+msgstr "In"
 
 #: global.Print.sort
 msgid "10190"
 msgstr "10190"
 
+#: global.QuickReminder.display
+msgid "!"
+msgstr "!"
+
+#: global.QuickReminder.keycode
+msgid "Shift+49"
+msgstr "Shift+49"
+
+#: global.QuickReminder.description
+msgid "Quick Reminder"
+msgstr "Nhắc nhở nhanh"
+
+#: global.QuickReminder.sort
+msgctxt "global.QuickReminder.sort"
+msgid "10230"
+msgstr "10230"
+
 #: global.SavedSearch.display
-msgid "S,NNN"
-msgstr "S,NNN"
+msgctxt "global.SavedSearch.display"
+msgid "S"
+msgstr "S"
 
 #: global.SavedSearch.keycode
-msgid "83,NNN"
-msgstr "83,NNN"
+msgctxt "global.SavedSearch.keycode"
+msgid "83"
+msgstr "83"
 
 #: global.SavedSearch.description
-msgid ""
-"Show results of specified search (set the search in the \"Search Shortcuts\" "
-"tab)"
-msgstr ""
-"Hiển thị kết quả của tìm kiếm đã định (thiết lập tìm kiếm trong tab \"Phím "
-"tắt tìm kiếm\")"
-
-#: global.SavedSearch.summary
-msgid "Show results of specified search"
-msgstr "Hiển thị kết quả của tìm kiếm đã định"
-
-#: global.SavedSearch.example
-msgid "will show results of the {0} search."
-msgstr "sẽ hiển thị kết của của tìm kiếm {0}."
+msgid "Run a saved search"
+msgstr "Chạy một tìm kiếm đã lưu"
 
 #: global.SavedSearch.sort
 msgid "10260"
 msgstr "10260"
 
+#: global.SelectAll.display
+msgid "Ctrl+Shift+A"
+msgstr "Ctrl+Shift+A"
+
+#: global.SelectAll.keycode
+msgid "Ctrl+Shift+65"
+msgstr "Ctrl+Shift+65"
+
+#: global.SelectAll.description
+msgid "Select all search results"
+msgstr "Chọn tất cả kết quả tìm kiếm"
+
+#: global.SelectAll.sort
+msgctxt "global.SelectAll.sort"
+msgid "10270"
+msgstr "10270"
+
+#: global.Shortcuts.display
+msgid "Ctrl+Q;Shift+/"
+msgstr "Ctrl+Q;Shift+/"
+
+#: global.Shortcuts.keycode
+msgid "Ctrl+81;Shift+191"
+msgstr "Ctrl+81;Shift+191"
+
+#: global.Shortcuts.description
+msgctxt "global.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr "Hiển thị phím tắt"
+
+#: global.Shortcuts.sort
+msgctxt "global.Shortcuts.sort"
+msgid "10270"
+msgstr "10270"
+
 #: global.Tag.display
-msgid "T,NNN"
-msgstr "T,NNN"
+msgid "T"
+msgstr "T"
 
 #: global.Tag.keycode
-msgid "84,NNN"
-msgstr "84,NNN"
+msgid "84"
+msgstr "84"
 
 #: global.Tag.description
-msgid ""
-"Tag selected items with specified tag (set the tag in the \"Tag Shortcuts\" "
-"tab)"
-msgstr ""
-"Gắn thẻ mục đã chọn với thẻ chỉ định (thiết lập thẻ trong tab \"Phím tắt thẻ"
-"\")"
-
-#: global.Tag.summary
-msgid "Tag selected items with specified tag"
-msgstr "Gắn thẻ mục đã chọn với thẻ chỉ định"
-
-#: global.Tag.example
-msgid "will apply tag {0} to selected items."
-msgstr "sẽ áp dụng thẻ {0} tới mục đã chọn."
+msgid "Tag item(s)"
+msgstr "Gắn thẻ"
 
 #: global.Tag.sort
-msgctxt "global.Tag.sort"
 msgid "10250"
 msgstr "10250"
 
@@ -755,13 +771,44 @@ msgid "85"
 msgstr "85"
 
 #: global.Untag.description
-msgid "Remove all tags from selected item(s)"
-msgstr "Loại bỏ tất cả thẻ từ mục đã chọn"
+msgid "Remove tags"
+msgstr "Loại bỏ thẻ"
 
 #: global.Untag.sort
-msgctxt "global.Untag.sort"
-msgid "10250"
-msgstr "10250"
+msgid "10255"
+msgstr "10255"
+
+#: global.Visit.display
+msgid "V"
+msgstr "V"
+
+#: global.Visit.keycode
+msgid "86"
+msgstr "86"
+
+#: global.Visit.description
+msgid "Go to (visit) folder"
+msgstr "Tới (thăm) thư mục"
+
+#: global.Visit.sort
+msgid "10233"
+msgstr "10233"
+
+#: global.VisitTag.display
+msgid "V,V"
+msgstr "V,V"
+
+#: global.VisitTag.keycode
+msgid "86,86"
+msgstr "86,86"
+
+#: global.VisitTag.description
+msgid "Go to (visit) tag"
+msgstr "Tới (thăm) thẻ"
+
+#: global.VisitTag.sort
+msgid "10234"
+msgstr "10234"
 
 #. # Map: mail
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -772,10 +819,6 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: mail.description
-msgid "Shortcuts in Mail"
-msgstr "Phím tắt trong Thư"
-
-#: mail.summary
 msgid "Mail"
 msgstr "Thư"
 
@@ -794,20 +837,34 @@ msgid "13"
 msgstr "13"
 
 #: mail.DoubleClick.description
-msgid "Open message (or conversation)"
-msgstr "Mở thông điệp (hoặc đàm thoại)"
+msgid "Open message"
+msgstr "Mở thông điệp"
 
 #: mail.DoubleClick.sort
 msgid "20060"
 msgstr "20060"
 
+#: mail.FirstUnread.display
+msgid "Shift+["
+msgstr "Shift+["
+
+#: mail.FirstUnread.keycode
+msgid "Shift+219"
+msgstr "Shift+219"
+
+#: mail.FirstUnread.description
+msgid "First unread"
+msgstr "Chưa đọc đầu tiên"
+
+#: mail.FirstUnread.sort
+msgid "20194"
+msgstr "20194"
+
 #: mail.Flag.display
-msgctxt "mail.Flag.display"
 msgid "M,F"
 msgstr "M,F"
 
 #: mail.Flag.keycode
-msgctxt "mail.Flag.keycode"
 msgid "77,70"
 msgstr "77,70"
 
@@ -830,12 +887,6 @@ msgid "70"
 msgstr "70"
 
 #: mail.Forward.description
-msgctxt "mail.Forward.description"
-msgid "Forward message"
-msgstr "Chuyển tiếp thông điệp"
-
-#: mail.Forward.summary
-msgctxt "mail.Forward.summary"
 msgid "Forward message"
 msgstr "Chuyển tiếp thông điệp"
 
@@ -843,51 +894,37 @@ msgstr "Chuyển tiếp thông điệp"
 msgid "20170"
 msgstr "20170"
 
+#: mail.GetMail.display
+msgid "="
+msgstr "="
+
+#: mail.GetMail.keycode
+msgid "61; 187"
+msgstr "61; 187"
+
+#: mail.GetMail.description
+msgid "Get Mail"
+msgstr "Nhận thư"
+
+#: mail.GetMail.sort
+msgid "20005"
+msgstr "20005"
+
 #: mail.GoToDrafts.display
-msgctxt "mail.GoToDrafts.display"
 msgid "V,D"
 msgstr "V,D"
 
 #: mail.GoToDrafts.keycode
-msgctxt "mail.GoToDrafts.keycode"
 msgid "86,68"
 msgstr "86,68"
 
 #: mail.GoToDrafts.description
-msgid "Go to Drafts folder"
-msgstr "Tới thư mục Thư nháp"
+msgid "Drafts"
+msgstr "Thư nháp"
 
 #: mail.GoToDrafts.sort
 msgid "20020"
 msgstr "20020"
-
-#: mail.GoToFolder.display
-msgid "V,NNN"
-msgstr "V,NNN"
-
-#: mail.GoToFolder.keycode
-msgid "86,NNN"
-msgstr "V,NNN"
-
-#: mail.GoToFolder.description
-msgid ""
-"Go to the specified mail folder (set the folder in the \"Mail Folder "
-"Shortcuts\" tab)"
-msgstr ""
-"Chuyển đến thư mục chỉ định (thiếp lập thư mục trong tab \"Phím tắt thư mục"
-"\")"
-
-#: mail.GoToFolder.summary
-msgid "Show the specified mail folder"
-msgstr "Hiển thị thư mục chỉ định"
-
-#: mail.GoToFolder.example
-msgid "will show the {0} folder."
-msgstr "sẽ hiển thị thư mục {0}."
-
-#: mail.GoToFolder.sort
-msgid "20050"
-msgstr "20050"
 
 #: mail.GoToInbox.display
 msgid "I; V,I"
@@ -898,66 +935,76 @@ msgid "73; 86,73"
 msgstr "73; 86,73"
 
 #: mail.GoToInbox.description
-msgid "Go to (\"visit\") inbox and Get Mail"
-msgstr "Tới (\"thăm\") hộp thư và Nhận thư"
+msgid "Inbox"
+msgstr "Hộp thư đến"
 
 #: mail.GoToInbox.sort
 msgid "20010"
 msgstr "20010"
 
 #: mail.GoToJunk.display
-msgctxt "mail.GoToJunk.display"
 msgid "V,J"
 msgstr "V,J"
 
 #: mail.GoToJunk.keycode
-msgctxt "mail.GoToJunk.keycode"
 msgid "86,74"
 msgstr "86,74"
 
 #: mail.GoToJunk.description
-msgid "Go to Junk folder"
-msgstr "Tới thư mục Thư rác"
+msgid "Junk"
+msgstr "Thư rác"
 
 #: mail.GoToJunk.sort
 msgid "20025"
 msgstr "20025"
 
 #: mail.GoToSent.display
-msgctxt "mail.GoToSent.display"
 msgid "V,S"
 msgstr "V,S"
 
 #: mail.GoToSent.keycode
-msgctxt "mail.GoToSent.keycode"
 msgid "86,83"
 msgstr "86,83"
 
 #: mail.GoToSent.description
-msgid "Go to Sent folder"
-msgstr "Tới thư mục Đã gửi"
+msgid "Sent"
+msgstr "Thư đã gửi"
 
 #: mail.GoToSent.sort
 msgid "20030"
 msgstr "20030"
 
 #: mail.GoToTrash.display
-msgctxt "mail.GoToTrash.display"
 msgid "V,T"
 msgstr "V,T"
 
 #: mail.GoToTrash.keycode
-msgctxt "mail.GoToTrash.keycode"
 msgid "86,84"
 msgstr "86,84"
 
 #: mail.GoToTrash.description
-msgid "Go to Trash folder"
-msgstr "Tới thư mục Thùng rác"
+msgid "Trash"
+msgstr "Thùng rác"
 
 #: mail.GoToTrash.sort
 msgid "20040"
 msgstr "20040"
+
+#: mail.LastUnread.display
+msgid "Shift+]"
+msgstr "Shift+]"
+
+#: mail.LastUnread.keycode
+msgid "Shift+221"
+msgstr "Shift+221"
+
+#: mail.LastUnread.description
+msgid "Last unread"
+msgstr "Chưa đọc cuối"
+
+#: mail.LastUnread.sort
+msgid "20192"
+msgstr "20192"
 
 #: mail.MarkRead.display
 msgid "M,R; Z"
@@ -968,8 +1015,8 @@ msgid "77,82; 90"
 msgstr "77,82; 90"
 
 #: mail.MarkRead.description
-msgid "Mark messages as read"
-msgstr "Đánh dấu thông điệp đã đọc"
+msgid "Mark read"
+msgstr "Đánh dấu đã đọc"
 
 #: mail.MarkRead.sort
 msgid "20070"
@@ -984,124 +1031,124 @@ msgid "77,85; 88"
 msgstr "77,85; 88"
 
 #: mail.MarkUnread.description
-msgid "Mark messages as unread"
-msgstr "Đánh dấu thông điệp chưa đọc"
+msgid "Mark unread"
+msgstr "Đánh dấu chưa đọc"
 
 #: mail.MarkUnread.sort
 msgid "20080"
 msgstr "20080"
 
-#: mail.MoveToFolder.display
-msgid ".,NNN; Shift+.,NNN"
-msgstr ".,NNN; Shift+.,NNN"
-
-#: mail.MoveToFolder.keycode
-msgid "190,NNN; Shift+190,NNN"
-msgstr "190,NNN; Shift+190,NNN"
-
-#: mail.MoveToFolder.description
-msgid ""
-"Move messages to the specified mail folder (set the folder in the \"Mail "
-"Folder Shortcuts\" tab)"
-msgstr ""
-"Di chuyển thông điệp tới thư mục chỉ định (thiết lập thư mục trong tab "
-"\"Phím tắt thư mục\")"
-
-#: mail.MoveToFolder.summary
-msgid "Move messages to the specified mail folder"
-msgstr "Di chuyển thông điệp tới thư mục chỉ định"
-
-#: mail.MoveToFolder.example
-msgid "will move selected messages to the {0} folder."
-msgstr "sẽ di chuyển thông điệp đã chọn tới thư mục {0}."
-
-#: mail.MoveToFolder.sort
-msgid "20140"
-msgstr "20140"
-
 #: mail.MoveToInbox.display
-msgctxt "mail.MoveToInbox.display"
-msgid ".,I; Shift+.,I"
-msgstr ".,I; Shift+.,I"
+msgid ".,I"
+msgstr ".,I"
 
 #: mail.MoveToInbox.keycode
-msgctxt "mail.MoveToInbox.keycode"
-msgid "190,73; Shift+190,73"
-msgstr "190,73; Shift+190,73"
+msgid "190,73"
+msgstr "190,73"
 
 #: mail.MoveToInbox.description
-msgid "Move messages to the Inbox folder"
-msgstr "Di chuyển thông điệp vào thư mục Hộp thư"
+msgid "Move to Inbox"
+msgstr "Di chuyển tới Hộp thư đến"
 
 #: mail.MoveToInbox.sort
 msgid "20130"
 msgstr "20130"
 
 #: mail.MoveToTrash.display
-msgctxt "mail.MoveToTrash.display"
-msgid ".,T; Shift+.,T"
-msgstr ".,T; Shift+.,T"
+msgid ".,T"
+msgstr ".,T"
 
 #: mail.MoveToTrash.keycode
-msgctxt "mail.MoveToTrash.keycode"
-msgid "190,84; Shift+190,84"
-msgstr "190,84; Shift+190,84"
+msgid "190,84"
+msgstr "190,84"
 
 #: mail.MoveToTrash.description
-msgid "Move messages to the Trash folder"
-msgstr "Di chuyển thông điệp tới thư mục Thư đến"
+msgid "Move to Trash"
+msgstr "Di chuyển tới Thùng rác"
 
 #: mail.MoveToTrash.sort
 msgid "20110"
 msgstr "20110"
 
 #: mail.NextUnread.display
-msgid "["
-msgstr "["
-
-#: mail.NextUnread.keycode
-msgid "219"
-msgstr "219"
-
-#: mail.NextUnread.description
-msgid "Select the next unread message"
-msgstr "Chọn thông điệp chưa đọc kế tiếp"
-
-#: mail.NextUnread.sort
-msgid "20180"
-msgstr "20180"
-
-#: mail.PreviousUnread.display
 msgid "]"
 msgstr "]"
 
-#: mail.PreviousUnread.keycode
+#: mail.NextUnread.keycode
 msgid "221"
 msgstr "221"
 
-#: mail.PreviousUnread.description
-msgid "Select the previous unread message"
-msgstr "Chọn thông điệp chưa đọc trước"
+#: mail.NextUnread.description
+msgid "Next unread"
+msgstr "Chưa đọc kế tiếp"
 
-#: mail.PreviousUnread.sort
+#: mail.NextUnread.sort
 msgid "20190"
 msgstr "20190"
 
-#: mail.ReadingPane.display
-msgid "M,P"
-msgstr "M,P"
+#: mail.PreviousUnread.display
+msgid "["
+msgstr "["
 
-#: mail.ReadingPane.keycode
-msgid "77,80"
-msgstr "77,80"
+#: mail.PreviousUnread.keycode
+msgid "219"
+msgstr "219"
 
-#: mail.ReadingPane.description
-msgid "Show/Hide the message reading pane"
-msgstr "Hiển thị/Ẩn khung đọc thông điệp"
+#: mail.PreviousUnread.description
+msgid "Previous unread"
+msgstr "Chưa đọc trước"
 
-#: mail.ReadingPane.sort
+#: mail.PreviousUnread.sort
+msgid "20180"
+msgstr "20180"
+
+#: mail.ReadingPaneAtBottom.display
+msgid "M,P,B"
+msgstr "M,P,B"
+
+#: mail.ReadingPaneAtBottom.keycode
+msgid "77,80,66"
+msgstr "77,80,66"
+
+#: mail.ReadingPaneAtBottom.description
+msgid "Reading pane at bottom"
+msgstr "Khung đọc bên dưới"
+
+#: mail.ReadingPaneAtBottom.sort
 msgid "20220"
 msgstr "20220"
+
+#: mail.ReadingPaneOff.display
+msgid "M,P,O"
+msgstr "M,P,O"
+
+#: mail.ReadingPaneOff.keycode
+msgid "77,80,79"
+msgstr "77,80,79"
+
+#: mail.ReadingPaneOff.description
+msgid "Turn off reading pane"
+msgstr "Tắt khung đọc"
+
+#: mail.ReadingPaneOff.sort
+msgid "20226"
+msgstr "20226"
+
+#: mail.ReadingPaneOnRight.display
+msgid "M,P,R"
+msgstr "M,P,R"
+
+#: mail.ReadingPaneOnRight.keycode
+msgid "77,80,82"
+msgstr "77,80,82"
+
+#: mail.ReadingPaneOnRight.description
+msgid "Reading pane on right"
+msgstr "Khung đọc ở bên phải"
+
+#: mail.ReadingPaneOnRight.sort
+msgid "20223"
+msgstr "20223"
 
 #: mail.Reply.display
 msgctxt "mail.Reply.display"
@@ -1114,30 +1161,70 @@ msgid "82"
 msgstr "82"
 
 #: mail.Reply.description
-msgid "Reply to sender"
-msgstr "Trả lời người gửi"
+msgid "Reply"
+msgstr "Trả lời"
 
 #: mail.Reply.sort
 msgid "20150"
 msgstr "20150"
 
 #: mail.ReplyAll.display
-msgctxt "mail.ReplyAll.display"
 msgid "A"
 msgstr "A"
 
 #: mail.ReplyAll.keycode
-msgctxt "mail.ReplyAll.keycode"
 msgid "65"
 msgstr "65"
 
 #: mail.ReplyAll.description
-msgid "Reply to all recipients"
-msgstr "Trả lời tất cả người nhận"
+msgid "Reply all"
+msgstr "Trả lời tất cả"
 
 #: mail.ReplyAll.sort
 msgid "20160"
 msgstr "20160"
+
+#: mail.SelectNext.display
+msgid "Space; J"
+msgstr "Space; J"
+
+#: mail.SelectNext.keycode
+msgid "32; 74"
+msgstr "32; 74"
+
+#: mail.SelectNext.repeat
+msgctxt "mail.SelectNext.repeat"
+msgid "true"
+msgstr "true"
+
+#: mail.SelectNext.description
+msgid "Select next item"
+msgstr "Chọn mục kế tiếp"
+
+#: mail.SelectNext.sort
+msgid "20172"
+msgstr "20172"
+
+#: mail.SelectPrevious.display
+msgid "K"
+msgstr "K"
+
+#: mail.SelectPrevious.keycode
+msgid "75"
+msgstr "75"
+
+#: mail.SelectPrevious.repeat
+msgctxt "mail.SelectPrevious.repeat"
+msgid "true"
+msgstr "true"
+
+#: mail.SelectPrevious.description
+msgid "Select previous item"
+msgstr "Chọn mục trước"
+
+#: mail.SelectPrevious.sort
+msgid "20174"
+msgstr "20174"
 
 #: mail.ShowFragment.display
 msgctxt "mail.ShowFragment.display"
@@ -1150,8 +1237,8 @@ msgid "81"
 msgstr "81"
 
 #: mail.ShowFragment.description
-msgid "Display the beginning of the selected message in a tooltip"
-msgstr "Hiển thị phần đầu của thông điệp đã chọn trong một chú giải"
+msgid "Show snippet"
+msgstr "Hiển thị đoạn trích"
 
 #: mail.ShowFragment.sort
 msgid "20230"
@@ -1166,10 +1253,6 @@ msgid "77,74"
 msgstr "77,74"
 
 #: mail.Spam.description
-msgid "Mark messages as spam and move them to the Junk folder"
-msgstr "Đánh dấu thông điệp như thư rác và chuyển chúng tới thư mục Thư rác"
-
-#: mail.Spam.summary
 msgid "Mark as spam"
 msgstr "Đánh dấu là thư rác"
 
@@ -1186,8 +1269,8 @@ msgid "86,67"
 msgstr "86,67"
 
 #: mail.ViewByConversation.description
-msgid "Display (\"view\") mail as a list of expandable conversations"
-msgstr "Hiển thị (\"xem\") thư như 1 danh sách cuộc đàm thoại mở rộng"
+msgid "Conversation view"
+msgstr "Khung hiển thị cuộc đàm thoại"
 
 #: mail.ViewByConversation.sort
 msgid "20200"
@@ -1202,8 +1285,8 @@ msgid "86,77"
 msgstr "86,77"
 
 #: mail.ViewByMessage.description
-msgid "Display mail as a list of messages"
-msgstr "Hiển thị thư như một danh sách cuộc đàm thoại"
+msgid "Message view"
+msgstr "Khung hiển thị thông điệp"
 
 #: mail.ViewByMessage.sort
 msgid "20210"
@@ -1218,12 +1301,8 @@ msgstr "thư"
 
 #. #L10N_IGNORE_BLOCK_END
 #: conversationList.description
-msgid "List view of mail as expandable conversations"
-msgstr "Khung hiển thị danh sách của thư như các cuộc đàm thoại mở rộng"
-
-#: conversationList.summary
-msgid "Conversation List Mail View"
-msgstr "Khung hiển thị danh sách thư dạng theo cuộc đàm thoại"
+msgid "Conversation List View"
+msgstr "Khung hiển thị danh sách cuộc đàm thoại"
 
 #: conversationList.sort
 msgid "25000"
@@ -1256,8 +1335,8 @@ msgid "79"
 msgstr "79"
 
 #: conversationList.Expand.description
-msgid "Show or hide a conversation's messages"
-msgstr "Hiển thị hoặc ẩn các thông điệp của một cuộc đàm thoại"
+msgid "Expand/collapse conversation"
+msgstr "Mở rộng/thu gọn cuộc đàm thoại"
 
 #: conversationList.Expand.sort
 msgid "25010"
@@ -1279,14 +1358,75 @@ msgstr "Mở rộng tất cả cuộc đàm thoại"
 msgid "25020"
 msgstr "25020"
 
+#: conversationList.FirstUnreadMsg.display
+msgid "Shift+Ctrl+["
+msgstr "Shift+Ctrl+["
+
+#: conversationList.FirstUnreadMsg.keycode
+msgid "Shift+Ctrl+219"
+msgstr "Shift+Ctrl+219"
+
+#: conversationList.FirstUnreadMsg.description
+msgid "Select first unread message"
+msgstr "Chọn thông điệp chưa đọc đầu tiên"
+
+#: conversationList.FirstUnreadMsg.sort
+msgid "25060"
+msgstr "25060"
+
+#: conversationList.LastUnreadMsg.display
+msgid "Shift+Ctrl+]"
+msgstr "Shift+Ctrl+]"
+
+#: conversationList.LastUnreadMsg.keycode
+msgid "Shift+Ctrl+221"
+msgstr "Shift+Ctrl+221"
+
+#: conversationList.LastUnreadMsg.description
+msgid "Select last unread message"
+msgstr "Chọn thông điệp chưa đọc cuối"
+
+#: conversationList.LastUnreadMsg.sort
+msgid "25070"
+msgstr "25070"
+
+#: conversationList.NextUnreadMsg.display
+msgid "Ctrl+]"
+msgstr "Ctrl+]"
+
+#: conversationList.NextUnreadMsg.keycode
+msgid "Ctrl+221"
+msgstr "Ctrl+221"
+
+#: conversationList.NextUnreadMsg.description
+msgid "Select next unread message"
+msgstr "Chọn thông điệp chưa đọc kế tiếp"
+
+#: conversationList.NextUnreadMsg.sort
+msgid "25050"
+msgstr "25050"
+
+#: conversationList.PreviousUnreadMsg.display
+msgid "Ctrl+["
+msgstr "Ctrl+["
+
+#: conversationList.PreviousUnreadMsg.keycode
+msgid "Ctrl+219"
+msgstr "Ctrl+219"
+
+#: conversationList.PreviousUnreadMsg.description
+msgid "Select previous unread message"
+msgstr "Chọn thông điệp chưa đọc trước"
+
+#: conversationList.PreviousUnreadMsg.sort
+msgid "25040"
+msgstr "25040"
+
 #. # Map: compose
 #: compose.description
-msgid "Shortcuts in Mail Compose form"
-msgstr "Phím tắt trong biểu mẫu Soạn thư"
-
-#: compose.summary
-msgid "Mail Compose"
-msgstr "Soạn thư"
+msgctxt "compose.description"
+msgid "Compose"
+msgstr "Soạn thảo"
 
 #: compose.sort
 msgid "30000"
@@ -1301,8 +1441,8 @@ msgid "Ctrl+71"
 msgstr "Ctrl+71"
 
 #: compose.AddressPicker.description
-msgid "Choose (\"get\") recipients from Address Book"
-msgstr "Chọn (\"lấy\") người nhận từ Sổ địa chỉ"
+msgid "Search for addresses"
+msgstr "Tìm địa chỉ"
 
 #: compose.AddressPicker.sort
 msgid "30050"
@@ -1317,8 +1457,8 @@ msgid "Ctrl+77"
 msgstr "Ctrl+77"
 
 #: compose.Attachment.description
-msgid "Add an attachment to the message"
-msgstr "Thêm một đính kèm tới thông điệp"
+msgid "Add attachment"
+msgstr "Thêm đính kèm"
 
 #: compose.Attachment.sort
 msgid "30040"
@@ -1335,28 +1475,13 @@ msgid "27"
 msgstr "27"
 
 #: compose.Cancel.description
-msgid "Cancel this message"
-msgstr "Hủy thông điệp này"
+msgctxt "compose.Cancel.description"
+msgid "Cancel"
+msgstr "Hủy bỏ"
 
 #: compose.Cancel.sort
 msgid "30020"
 msgstr "30020"
-
-#: compose.HighPriority.display
-msgid "Ctrl+P,Ctrl+H"
-msgstr "Ctrl+P,Ctrl+H"
-
-#: compose.HighPriority.keycode
-msgid "Ctrl+80,Ctrl+72"
-msgstr "Ctrl+80,Ctrl+72"
-
-#: compose.HighPriority.description
-msgid "Make the message high priority"
-msgstr "Làm cho thông điệp ưu tiên cao"
-
-#: compose.HighPriority.sort
-msgid "30090"
-msgstr "30090"
 
 #: compose.HtmlFormat.display
 msgctxt "compose.HtmlFormat.display"
@@ -1369,61 +1494,29 @@ msgid "Ctrl+72"
 msgstr "Ctrl+72"
 
 #: compose.HtmlFormat.description
-msgid "Switch between HTML and Text format for the body"
-msgstr "Chuyển giữa định dạng HTML và Văn bản thường cho nội dung"
+msgctxt "compose.HtmlFormat.description"
+msgid "HTML/text format"
+msgstr "Định dạng HTML/văn bản thường"
 
 #: compose.HtmlFormat.sort
 msgid "30060"
 msgstr "30060"
 
-#. # Alt-L conflicts on German Mac keyboard (bug 28221)
-#: compose.LowPriority.display
-msgid "Ctrl+P,Ctrl+L"
-msgstr "Ctrl+P,Ctrl+L"
-
-#: compose.LowPriority.keycode
-msgid "Ctrl+80,Ctrl+76"
-msgstr "Ctrl+80,Ctrl+76"
-
-#: compose.LowPriority.description
-msgid "Make the message low priority"
-msgstr "Làm cho thông điệp ưu tiên thấp"
-
-#: compose.LowPriority.sort
-msgid "30110"
-msgstr "30110"
-
 #: compose.NewWindow.display
-msgid "Ctrl+W"
-msgstr "Ctrl+W"
+msgid "Ctrl+D"
+msgstr "Ctrl+D"
 
 #: compose.NewWindow.keycode
-msgid "Ctrl+87"
-msgstr "Ctrl+87"
+msgid "Ctrl+68"
+msgstr "Ctrl+68"
 
 #: compose.NewWindow.description
-msgid "Compose in a new window"
-msgstr "Soạn thảo trong một cửa sổ mới"
+msgid "Detach into new window"
+msgstr "Tách vào cửa sổ mới"
 
 #: compose.NewWindow.sort
 msgid "30080"
 msgstr "30080"
-
-#: compose.NormalPriority.display
-msgid "Ctrl+P,Ctrl+N"
-msgstr "Ctrl+P,Ctrl+N"
-
-#: compose.NormalPriority.keycode
-msgid "Ctrl+80,Ctrl+78"
-msgstr "Ctrl+80,Ctrl+78"
-
-#: compose.NormalPriority.description
-msgid "Make the message normal priority"
-msgstr "Làm cho thông điệp ưu tiên bình thường"
-
-#: compose.NormalPriority.sort
-msgid "30100"
-msgstr "30100"
 
 #: compose.Save.display
 msgctxt "compose.Save.display"
@@ -1436,8 +1529,8 @@ msgid "Ctrl+83"
 msgstr "Ctrl+83"
 
 #: compose.Save.description
-msgid "Save the message as a draft"
-msgstr "Lưu thông điệp thành bản nháp"
+msgid "Save draft"
+msgstr "Lưu thư nháp"
 
 #: compose.Save.sort
 msgid "30030"
@@ -1452,12 +1545,32 @@ msgid "Ctrl+13"
 msgstr "Ctrl+13"
 
 #: compose.Send.description
-msgid "Send the message"
-msgstr "Gửi thông điệp"
+msgid "Send"
+msgstr "Gửi"
 
 #: compose.Send.sort
 msgid "30010"
 msgstr "30010"
+
+#: compose.Shortcuts.display
+msgctxt "compose.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: compose.Shortcuts.keycode
+msgctxt "compose.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr "Ctrl+81"
+
+#: compose.Shortcuts.description
+msgctxt "compose.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr "Hiển thị phím tắt"
+
+#: compose.Shortcuts.sort
+msgctxt "compose.Shortcuts.sort"
+msgid "10270"
+msgstr "10270"
 
 #: compose.Spellcheck.display
 msgid "Alt+X"
@@ -1476,7 +1589,7 @@ msgid "Ctrl+88"
 msgstr "Ctrl+88"
 
 #: compose.Spellcheck.description
-msgid "Check (\"examine\") spelling"
+msgid "Spellcheck"
 msgstr "Kiểm tra chính tả"
 
 #: compose.Spellcheck.sort
@@ -1492,12 +1605,8 @@ msgstr "thư"
 
 #. #L10N_IGNORE_BLOCK_END
 #: conversation.description
-msgid "Shortcuts in Mail Conversation View"
-msgstr "Phím tắt trong Khung hiển thị cuộc đàm thoại thư"
-
-#: conversation.summary
-msgid "Mail Conversation View"
-msgstr "Khung hiển thị cuộc đàm thoại thư"
+msgid "Conversation View"
+msgstr "Khung hiển thị cuộc đàm thoại"
 
 #: conversation.sort
 msgid "40000"
@@ -1512,8 +1621,8 @@ msgid "Shift+39"
 msgstr "Shift+39"
 
 #: conversation.NextConversation.description
-msgid "Show next conversation"
-msgstr "Hiển thị cuộc đàm thoại kế tiếp"
+msgid "Next conversation"
+msgstr "Cuộc đàm thoại kế tiếp"
 
 #: conversation.NextConversation.sort
 msgid "40010"
@@ -1528,8 +1637,8 @@ msgid "Shift+37"
 msgstr "Shift+37"
 
 #: conversation.PreviousConversation.description
-msgid "Show the previous conversation"
-msgstr "Hiển thị cuộc đàm thoại trước"
+msgid "Previous conversation"
+msgstr "Cuộc đàm thoại trước"
 
 #: conversation.PreviousConversation.sort
 msgid "40020"
@@ -1552,10 +1661,6 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: contacts.description
-msgid "Shortcuts in Address Book"
-msgstr "Phím tắt trong Sổ địa chỉ"
-
-#: contacts.summary
 msgid "Address Book"
 msgstr "Sổ địa chỉ"
 
@@ -1574,8 +1679,9 @@ msgid "69"
 msgstr "69"
 
 #: contacts.Edit.description
-msgid "Edit the selected contact"
-msgstr "Sửa liên hệ đã chọn"
+msgctxt "contacts.Edit.description"
+msgid "Edit"
+msgstr "Sửa"
 
 #: contacts.Edit.sort
 msgid "50010"
@@ -1599,10 +1705,6 @@ msgstr "50020"
 
 #. # Map: editContact
 #: editContact.description
-msgid "Shortcuts in Edit Contact form"
-msgstr "Phím tắt trong biểu mẫu Sửa liên hệ"
-
-#: editContact.summary
 msgid "Edit Contact"
 msgstr "Sửa liên hệ"
 
@@ -1621,8 +1723,9 @@ msgid "27"
 msgstr "27"
 
 #: editContact.Cancel.description
-msgid "Cancel editing the contact"
-msgstr "Hủy bỏ sửa liên hệ"
+msgctxt "editContact.Cancel.description"
+msgid "Cancel"
+msgstr "Hủy bỏ"
 
 #: editContact.Cancel.sort
 msgid "60020"
@@ -1639,8 +1742,9 @@ msgid "Ctrl+83"
 msgstr "Ctrl+83"
 
 #: editContact.Save.description
-msgid "Save the contact"
-msgstr "Lưu liên hệ"
+msgctxt "editContact.Save.description"
+msgid "Save"
+msgstr "Lưu"
 
 #: editContact.Save.sort
 msgid "60010"
@@ -1655,8 +1759,8 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: calendar.description
-msgid "Shortcuts in Calendar"
-msgstr "Phím tắt trong Lịch"
+msgid "Calendar"
+msgstr "Lịch"
 
 #: calendar.sort
 msgid "70000"
@@ -1673,8 +1777,9 @@ msgid "27"
 msgstr "27"
 
 #: calendar.Cancel.description
-msgid "Close read-only appointment view"
-msgstr "Đóng khung hiển thị cuộc hẹn chỉ đọc"
+msgctxt "calendar.Cancel.description"
+msgid "Close"
+msgstr "Đóng"
 
 #: calendar.Cancel.sort
 msgid "70100"
@@ -1689,8 +1794,8 @@ msgid "68; 49"
 msgstr "68; 49"
 
 #: calendar.DayView.description
-msgid "Show single-day view"
-msgstr "Hiện khung hiển thị ngày"
+msgid "Day view"
+msgstr "Khung hiển thị ngày"
 
 #: calendar.DayView.sort
 msgid "70050"
@@ -1714,6 +1819,22 @@ msgstr "Sửa cuộc hẹn"
 msgid "70010"
 msgstr "70010"
 
+#: calendar.CalListView.display
+msgid "L; 9"
+msgstr "L; 9"
+
+#: calendar.CalListView.keycode
+msgid "76; 57"
+msgstr "76; 57"
+
+#: calendar.CalListView.description
+msgid "List view"
+msgstr "Khung hiển thị danh sách"
+
+#: calendar.CalListView.sort
+msgid "70082"
+msgstr "70082"
+
 #: calendar.MonthView.display
 msgid "M; 3"
 msgstr "M; 3"
@@ -1723,8 +1844,8 @@ msgid "77; 51"
 msgstr "77; 51"
 
 #: calendar.MonthView.description
-msgid "Show month view"
-msgstr "Hiện khung hiển thị tháng"
+msgid "Month view"
+msgstr "Khung hiển thị tháng"
 
 #: calendar.MonthView.sort
 msgid "70080"
@@ -1741,8 +1862,8 @@ msgid "81"
 msgstr "81"
 
 #: calendar.QuickAdd.description
-msgid "Create a quick appointment"
-msgstr "Tạo một cuộc hẹn nhanh"
+msgid "Quick appointment creation"
+msgstr "Tạo cuộc hẹn nhanh"
 
 #: calendar.QuickAdd.sort
 msgid "70020"
@@ -1759,8 +1880,9 @@ msgid "82"
 msgstr "82"
 
 #: calendar.Refresh.description
-msgid "Refresh the calendar"
-msgstr "Làm mới lịch"
+msgctxt "calendar.Refresh.description"
+msgid "Refresh"
+msgstr "Làm mới"
 
 #: calendar.Refresh.sort
 msgid "70030"
@@ -1775,24 +1897,24 @@ msgid "83; 48"
 msgstr "83; 48"
 
 #: calendar.ScheduleView.description
-msgid "Show scheduling view"
-msgstr "Hiện khung hiển thị lịch trình"
+msgid "Scheduling view"
+msgstr "Khung hiển thị lịch trình"
 
 #: calendar.ScheduleView.sort
 msgid "70090"
 msgstr "70090"
 
 #: calendar.Today.display
-msgid "T"
-msgstr "T"
+msgid "Y"
+msgstr "Y"
 
 #: calendar.Today.keycode
-msgid "84"
-msgstr "84"
+msgid "89"
+msgstr "89"
 
 #: calendar.Today.description
-msgid "Show today"
-msgstr "Hiển thị hôm nay"
+msgid "Go to today"
+msgstr "Tới hôm nay"
 
 #: calendar.Today.sort
 msgid "70040"
@@ -1807,8 +1929,8 @@ msgid "87; 55"
 msgstr "87; 55"
 
 #: calendar.WeekView.description
-msgid "Show week view"
-msgstr "Hiện khung hiển thị tuần"
+msgid "Week view"
+msgstr "Khung hiển thị tuần"
 
 #: calendar.WeekView.sort
 msgid "70060"
@@ -1823,75 +1945,12 @@ msgid "87,87; 53"
 msgstr "87,87; 53"
 
 #: calendar.WorkWeekView.description
-msgid "Show work-week view"
-msgstr "Hiện khung hiển thị tuần làm việc"
+msgid "Work week view"
+msgstr "Khung hiển thị tuần làm việc"
 
 #: calendar.WorkWeekView.sort
 msgid "70070"
 msgstr "70070"
-
-#. # Map: tabView
-#: tabView.description
-msgid "Shortcuts for Tab Views (for example, Preferences)"
-msgstr "Phím tắt cho Khung hiển thị dạng tab (ví dụ: Tùy chọn)"
-
-#: tabView.summary
-msgid "Tab Views (e.g. Preferences)"
-msgstr "Khung hiển thị dạng tab (v.d Tùy chọn)"
-
-#: tabView.sort
-msgid "110000"
-msgstr "110000"
-
-#: tabView.GoToTab.display
-msgctxt "tabView.GoToTab.display"
-msgid "Ctrl+NNN"
-msgstr "Ctrl+NNN"
-
-#: tabView.GoToTab.keycode
-msgctxt "tabView.GoToTab.keycode"
-msgid "Ctrl+NNN"
-msgstr "Ctrl+NNN"
-
-#: tabView.GoToTab.description
-msgid "Show the nth tab (leftmost tab is 1)"
-msgstr "Hiển thị tab thứ n (tab tận cùng bên trái là 1)"
-
-#: tabView.GoToTab.sort
-msgid "110030"
-msgstr "110030"
-
-#: tabView.NextTab.display
-msgid "Ctrl+J"
-msgstr "Ctrl+J"
-
-#: tabView.NextTab.keycode
-msgid "Ctrl+74"
-msgstr "Ctrl+74"
-
-#: tabView.NextTab.description
-msgid "Show the next tab"
-msgstr "Hiển thị tab kế tiếp"
-
-#: tabView.NextTab.sort
-msgid "110010"
-msgstr "110010"
-
-#: tabView.PreviousTab.display
-msgid "Ctrl+K"
-msgstr "Ctrl+K"
-
-#: tabView.PreviousTab.keycode
-msgid "Ctrl+75"
-msgstr "Ctrl+75"
-
-#: tabView.PreviousTab.description
-msgid "Show the previous tab"
-msgstr "Hiển thị tab trước"
-
-#: tabView.PreviousTab.sort
-msgid "110020"
-msgstr "110020"
 
 #. # Map: editAppointment
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -1901,32 +1960,12 @@ msgstr "tabView"
 
 #. #L10N_IGNORE_BLOCK_END
 #: editAppointment.description
-msgid "Shortcuts in Edit Appointment form"
-msgstr "Phím tắt trong biểu mẫu Sửa cuộc hẹn"
-
-#: editAppointment.summary
 msgid "Edit Appointment"
 msgstr "Sửa cuộc hẹn"
 
 #: editAppointment.sort
 msgid "80000"
 msgstr "80000"
-
-#: editAppointment.AllDay.display
-msgid "Ctrl+A"
-msgstr "Ctrl+A"
-
-#: editAppointment.AllDay.keycode
-msgid "Ctrl+65"
-msgstr "Ctrl+65"
-
-#: editAppointment.AllDay.description
-msgid "Switch between timed and all-day appointment"
-msgstr "Chuyển đổi giữa cuộc hẹn theo thời gian và cuộc hẹn cả ngày"
-
-#: editAppointment.AllDay.sort
-msgid "80030"
-msgstr "80030"
 
 #: editAppointment.Cancel.display
 msgctxt "editAppointment.Cancel.display"
@@ -1939,8 +1978,9 @@ msgid "27"
 msgstr "27"
 
 #: editAppointment.Cancel.description
-msgid "Cancel editing the appointment"
-msgstr "Hủy bỏ sửa cuộc hẹn"
+msgctxt "editAppointment.Cancel.description"
+msgid "Cancel"
+msgstr "Hủy bỏ"
 
 #: editAppointment.Cancel.sort
 msgid "80020"
@@ -1957,8 +1997,9 @@ msgid "Ctrl+72"
 msgstr "Ctrl+72"
 
 #: editAppointment.HtmlFormat.description
-msgid "Switch between HTML and Text formats"
-msgstr "Chuyển đổi giữa định dạng HTML và Văn bản thuần"
+msgctxt "editAppointment.HtmlFormat.description"
+msgid "HTML/text format"
+msgstr "Định dạng HTML/Văn bản thường"
 
 #: editAppointment.HtmlFormat.sort
 msgid "80040"
@@ -1975,12 +2016,33 @@ msgid "Ctrl+83"
 msgstr "Ctrl+83"
 
 #: editAppointment.Save.description
-msgid "Save the appointment"
-msgstr "Lưu cuộc hẹn"
+msgctxt "editAppointment.Save.description"
+msgid "Save"
+msgstr "Lưu"
 
 #: editAppointment.Save.sort
 msgid "80010"
 msgstr "80010"
+
+#: editAppointment.Shortcuts.display
+msgctxt "editAppointment.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: editAppointment.Shortcuts.keycode
+msgctxt "editAppointment.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr "Ctrl+81"
+
+#: editAppointment.Shortcuts.description
+msgctxt "editAppointment.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr "Hiển thị phím tắt"
+
+#: editAppointment.Shortcuts.sort
+msgctxt "editAppointment.Shortcuts.sort"
+msgid "10270"
+msgstr "10270"
 
 #. # Map: options
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -1990,10 +2052,6 @@ msgstr "global,tabView"
 
 #. #L10N_IGNORE_BLOCK_END
 #: options.description
-msgid "Shortcuts in Preferences"
-msgstr "Phím tắt trong Tùy chọn"
-
-#: options.summary
 msgid "Preferences"
 msgstr "Tùy chọn"
 
@@ -2012,8 +2070,9 @@ msgid "Ctrl+83"
 msgstr "Ctrl+83"
 
 #: options.Save.description
-msgid "Save preferences for all Preferences tabs"
-msgstr "Lưu các tùy chỉnh cho tất cả tab Tùy chọn"
+msgctxt "options.Save.description"
+msgid "Save"
+msgstr "Lưu"
 
 #: options.Save.sort
 msgid "90010"
@@ -2027,123 +2086,15 @@ msgid "global"
 msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
-#: mixed.DblClick.display
-msgctxt "mixed.DblClick.display"
+#: mixed.DoubleClick.display
+msgctxt "mixed.DoubleClick.display"
 msgid "O"
 msgstr "O"
 
-#: mixed.DblClick.keycode
-msgctxt "mixed.DblClick.keycode"
+#: mixed.DoubleClick.keycode
+msgctxt "mixed.DoubleClick.keycode"
 msgid "79"
 msgstr "79"
-
-#: mixed.Flag.display
-msgctxt "mixed.Flag.display"
-msgid "M,F"
-msgstr "M,F"
-
-#: mixed.Flag.keycode
-msgctxt "mixed.Flag.keycode"
-msgid "77,70"
-msgstr "77,70"
-
-#: mixed.Forward.display
-msgctxt "mixed.Forward.display"
-msgid "F"
-msgstr "F"
-
-#: mixed.Forward.keycode
-msgctxt "mixed.Forward.keycode"
-msgid "70"
-msgstr "70"
-
-#: mixed.GoToDrafts.display
-msgctxt "mixed.GoToDrafts.display"
-msgid "V,D"
-msgstr "V,D"
-
-#: mixed.GoToDrafts.keycode
-msgctxt "mixed.GoToDrafts.keycode"
-msgid "86,68"
-msgstr "86,68"
-
-#: mixed.GoToInbox.display
-msgid "V,I; I"
-msgstr "V,I; I"
-
-#: mixed.GoToInbox.keycode
-msgid "86,73; 73"
-msgstr "86,73; 73"
-
-#: mixed.GoToJunk.display
-msgctxt "mixed.GoToJunk.display"
-msgid "V,J"
-msgstr "V,J"
-
-#: mixed.GoToJunk.keycode
-msgctxt "mixed.GoToJunk.keycode"
-msgid "86,74"
-msgstr "86,74"
-
-#: mixed.GoToSent.display
-msgctxt "mixed.GoToSent.display"
-msgid "V,S"
-msgstr "V,S"
-
-#: mixed.GoToSent.keycode
-msgctxt "mixed.GoToSent.keycode"
-msgid "86,83"
-msgstr "86,83"
-
-#: mixed.GoToTrash.display
-msgctxt "mixed.GoToTrash.display"
-msgid "V,T"
-msgstr "V,T"
-
-#: mixed.GoToTrash.keycode
-msgctxt "mixed.GoToTrash.keycode"
-msgid "86,84"
-msgstr "86,84"
-
-#: mixed.MoveToInbox.display
-msgctxt "mixed.MoveToInbox.display"
-msgid ".,I; Shift+.,I"
-msgstr ".,I; Shift+.,I"
-
-#: mixed.MoveToInbox.keycode
-msgctxt "mixed.MoveToInbox.keycode"
-msgid "190,73; Shift+190,73"
-msgstr "190,73; Shift+190,73"
-
-#: mixed.MoveToTrash.display
-msgctxt "mixed.MoveToTrash.display"
-msgid ".,T; Shift+.,T"
-msgstr ".,T; Shift+.,T"
-
-#: mixed.MoveToTrash.keycode
-msgctxt "mixed.MoveToTrash.keycode"
-msgid "190,84; Shift+190,84"
-msgstr "190,84; Shift+190,84"
-
-#: mixed.Reply.display
-msgctxt "mixed.Reply.display"
-msgid "R"
-msgstr "R"
-
-#: mixed.Reply.keycode
-msgctxt "mixed.Reply.keycode"
-msgid "82"
-msgstr "82"
-
-#: mixed.ReplyAll.display
-msgctxt "mixed.ReplyAll.display"
-msgid "A"
-msgstr "A"
-
-#: mixed.ReplyAll.keycode
-msgctxt "mixed.ReplyAll.keycode"
-msgid "65"
-msgstr "65"
 
 #. # Map: notebook
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -2154,10 +2105,6 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: notebook.description
-msgid "Shortcuts for Documents"
-msgstr "Phím tắt cho Tài liệu"
-
-#: notebook.summary
 msgid "Documents"
 msgstr "Tài liệu"
 
@@ -2176,8 +2123,9 @@ msgid "69"
 msgstr "69"
 
 #: notebook.Edit.description
-msgid "Edit this page"
-msgstr "Sửa trang này"
+msgctxt "notebook.Edit.description"
+msgid "Edit"
+msgstr "Sửa"
 
 #: notebook.Edit.sort
 msgid "100010"
@@ -2194,12 +2142,80 @@ msgid "82"
 msgstr "82"
 
 #: notebook.Refresh.description
-msgid "Refresh the page"
-msgstr "Làm mới trang"
+msgctxt "notebook.Refresh.description"
+msgid "Refresh"
+msgstr "Làm mới"
 
 #: notebook.Refresh.sort
 msgid "100020"
 msgstr "100020"
+
+#. # Map: editPage
+#: editPage.description
+msgid "Edit Notebook Page"
+msgstr "Sửa trang sổ tay"
+
+#: editPage.sort
+msgid "100050"
+msgstr "100050"
+
+#: editPage.Cancel.display
+msgctxt "editPage.Cancel.display"
+msgid "Esc"
+msgstr "Esc"
+
+#: editPage.Cancel.keycode
+msgctxt "editPage.Cancel.keycode"
+msgid "27"
+msgstr "27"
+
+#: editPage.Cancel.description
+msgctxt "editPage.Cancel.description"
+msgid "Cancel"
+msgstr "Hủy bỏ"
+
+#: editPage.Cancel.sort
+msgid "100060"
+msgstr "100060"
+
+#: editPage.Save.display
+msgctxt "editPage.Save.display"
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+#: editPage.Save.keycode
+msgctxt "editPage.Save.keycode"
+msgid "Ctrl+83"
+msgstr "Ctrl+83"
+
+#: editPage.Save.description
+msgctxt "editPage.Save.description"
+msgid "Save"
+msgstr "Lưu"
+
+#: editPage.Save.sort
+msgid "100070"
+msgstr "100070"
+
+#: editPage.Shortcuts.display
+msgctxt "editPage.Shortcuts.display"
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: editPage.Shortcuts.keycode
+msgctxt "editPage.Shortcuts.keycode"
+msgid "Ctrl+81"
+msgstr "Ctrl+81"
+
+#: editPage.Shortcuts.description
+msgctxt "editPage.Shortcuts.description"
+msgid "Show shortcuts"
+msgstr "Hiển thị phím tắt"
+
+#: editPage.Shortcuts.sort
+msgctxt "editPage.Shortcuts.sort"
+msgid "10270"
+msgstr "10270"
 
 #. # Map: tasks
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -2210,10 +2226,6 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: tasks.description
-msgid "Shortcuts for Tasks"
-msgstr "Phím tắt cho Công việc"
-
-#: tasks.summary
 msgid "Tasks"
 msgstr "Công việc"
 
@@ -2230,8 +2242,8 @@ msgid "77,67"
 msgstr "77,67"
 
 #: tasks.MarkComplete.description
-msgid "Mark task as completed"
-msgstr "Đánh dấu công việc đã hoàn thành"
+msgid "Mark completed"
+msgstr "Đánh dấu đã hoàn thành"
 
 #: tasks.MarkComplete.sort
 msgid "105010"
@@ -2248,8 +2260,8 @@ msgid "77,85"
 msgstr "77,85"
 
 #: tasks.MarkUncomplete.description
-msgid "Mark task as not completed"
-msgstr "Đánh dấu công việc chưa hoàn thành"
+msgid "Mark not completed"
+msgstr "Đánh dấu chưa hoàn thành"
 
 #: tasks.MarkUncomplete.sort
 msgid "105020"
@@ -2257,10 +2269,6 @@ msgstr "105020"
 
 #. # Map: editTask
 #: editTask.description
-msgid "Shortcuts in Edit Task form"
-msgstr "Phím tắt trong biểu mẫu Sửa công việc"
-
-#: editTask.summary
 msgid "Edit Task"
 msgstr "Sửa công việc"
 
@@ -2279,8 +2287,9 @@ msgid "27"
 msgstr "27"
 
 #: editTask.Cancel.description
-msgid "Cancel editing the task"
-msgstr "Hủy bỏ sửa công việc"
+msgctxt "editTask.Cancel.description"
+msgid "Cancel"
+msgstr "Hủy bỏ"
 
 #: editTask.Cancel.sort
 msgid "106020"
@@ -2297,8 +2306,9 @@ msgid "Ctrl+83"
 msgstr "Ctrl+83"
 
 #: editTask.Save.description
-msgid "Save the task"
-msgstr "Lưu công việc"
+msgctxt "editTask.Save.description"
+msgid "Save"
+msgstr "Lưu"
 
 #: editTask.Save.sort
 msgid "106010"
@@ -2313,8 +2323,8 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: voicemail.description
-msgid "Shortcuts in Voice Mail View"
-msgstr "Phím tắt trong Khung hiển thị thư thoại"
+msgid "Voice Mail View"
+msgstr "Khung hiển thị thư thoại"
 
 #: voicemail.sort
 msgid "45000"
@@ -2332,24 +2342,26 @@ msgstr "67"
 
 #: voicemail.CallManager.description
 msgctxt "voicemail.CallManager.description"
-msgid "Go to the Call Manager"
-msgstr "Chuyển tới Quản lý cuộc gọi"
+msgid "Call Manager"
+msgstr "Quản lý cuộc gọi"
 
 #: voicemail.CallManager.sort
 msgid "45050"
 msgstr "45050"
 
 #: voicemail.Download.display
+msgctxt "voicemail.Download.display"
 msgid "S"
 msgstr "S"
 
 #: voicemail.Download.keycode
+msgctxt "voicemail.Download.keycode"
 msgid "83"
 msgstr "83"
 
 #: voicemail.Download.description
-msgid "Save the voice mail message to your computer"
-msgstr "Lưu thông điệp thư thoại tới máy tính của bạn"
+msgid "Download message"
+msgstr "Tải về thông điệp"
 
 #: voicemail.Download.sort
 msgid "45045"
@@ -2366,8 +2378,8 @@ msgid "70"
 msgstr "70"
 
 #: voicemail.Forward.description
-msgid "Forward the voice mail message by email"
-msgstr "Chuyển tiếp thông điệp thư thoại bằng email"
+msgid "Forward as email"
+msgstr "Chuyển tiếp như email"
 
 #: voicemail.Forward.sort
 msgid "45030"
@@ -2382,8 +2394,8 @@ msgid "77,72"
 msgstr "77,72"
 
 #: voicemail.MarkHeard.description
-msgid "Mark voice mail messages as heard"
-msgstr "Đánh dấu thông điệp thư thoại đã nghe"
+msgid "Mark heard"
+msgstr "Đánh dấu đã nghe"
 
 #: voicemail.MarkHeard.sort
 msgid "45060"
@@ -2400,8 +2412,8 @@ msgid "77,85"
 msgstr "77,85"
 
 #: voicemail.MarkUnheard.description
-msgid "Mark voice mail messages as unheard"
-msgstr "Đánh dấu thông điệp thư thoại chưa nghe"
+msgid "Mark unheard"
+msgstr "Đánh dấu chưa nghe"
 
 #: voicemail.MarkUnheard.sort
 msgid "45070"
@@ -2418,8 +2430,8 @@ msgid "13"
 msgstr "13"
 
 #: voicemail.Play.description
-msgid "Play the selected voice mail message"
-msgstr "Phát thông điệp thư thoại đã chọn"
+msgid "Play"
+msgstr "Phát"
 
 #: voicemail.Play.sort
 msgid "45005"
@@ -2436,8 +2448,9 @@ msgid "80"
 msgstr "80"
 
 #: voicemail.Print.description
-msgid "Print the list of voice mail messages"
-msgstr "In danh sách thông điệp thư thoại"
+msgctxt "voicemail.Print.description"
+msgid "Print"
+msgstr "In"
 
 #: voicemail.Print.sort
 msgid "45010"
@@ -2454,8 +2467,8 @@ msgid "82"
 msgstr "82"
 
 #: voicemail.Reply.description
-msgid "Reply by email to the sender of the voice mail message"
-msgstr "Trả lời bằng email tới người gửi thông điệp thư thoại"
+msgid "Reply by email"
+msgstr "Trả lời bằng email"
 
 #: voicemail.Reply.sort
 msgid "45020"
@@ -2470,8 +2483,8 @@ msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: call.description
-msgid "Shortcuts in Call List View"
-msgstr "Phím tắt trong Khung hiển thị danh sách cuộc gọi"
+msgid "Call List View"
+msgstr "Khung hiển thị danh sách cuộc gọi"
 
 #: call.sort
 msgid "46000"
@@ -2489,8 +2502,8 @@ msgstr "67"
 
 #: call.CallManager.description
 msgctxt "call.CallManager.description"
-msgid "Go to the Call Manager"
-msgstr "Tới Quản lý cuộc gọi"
+msgid "Call Manager"
+msgstr "Quản lý cuộc gọi"
 
 #: call.CallManager.sort
 msgid "46050"
@@ -2507,8 +2520,9 @@ msgid "80"
 msgstr "80"
 
 #: call.Print.description
-msgid "Print the list of calls"
-msgstr "In danh sách cuộc gọi"
+msgctxt "call.Print.description"
+msgid "Print"
+msgstr "In"
 
 #: call.Print.sort
 msgid "46010"

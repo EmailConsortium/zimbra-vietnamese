@@ -2,16 +2,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:42+0700\n"
-"PO-Revision-Date: 2014-03-16 21:28+0700\n"
+"POT-Creation-Date: 2014-03-06 00:45+0700\n"
+"PO-Revision-Date: 2014-03-17 22:53+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.6.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. # Keyboard Shortcuts for the ZCS Standard (HTML) Client
@@ -729,7 +729,7 @@ msgstr ""
 #. # Map: conversation
 #: conversation.description
 msgid "Shortcuts in Mail Conversation View"
-msgstr "Phím tắt trong Khung hiển thị Cuộc đàm thoại của Thư"
+msgstr "Phím tắt trong Khung hiển thị Cuộc đàm thoại thư"
 
 #: conversation.NextConversationPage.display
 msgid "Shift+L"
@@ -1630,7 +1630,7 @@ msgstr "Xem danh sách thư như cuộc đàm thoại có thể mở rộng"
 
 #: conversationList.summary
 msgid "Conversation List Mail View"
-msgstr "Khung hiển thị danh sách thư theo cuộc đàm thoại"
+msgstr "Khung hiển thị thư theo danh sách cuộc đàm thoại"
 
 #: conversationList.Expand.description
 msgid "Show or hide a conversation's messages"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:44+0700\n"
+"POT-Creation-Date: 2014-03-06 00:46+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Zimbra, Inc.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.3 ("License"); you may not use this file except in
@@ -40,11 +40,6 @@ msgstr ""
 msgid "-----"
 msgstr ""
 
-#. # {0} = organizer type
-#: aboutShortcuts
-msgid "About {0} Shortcuts:"
-msgstr ""
-
 #: above
 msgid "Above"
 msgstr ""
@@ -63,6 +58,10 @@ msgctxt "accepted"
 msgid "Accepted"
 msgstr ""
 
+#: acceptProposedTime
+msgid "Accept Proposal"
+msgstr ""
+
 #: acceptShare
 msgid "Accept Share"
 msgstr ""
@@ -74,12 +73,13 @@ msgid ""
 "left:15px;margin-bottom:3px;margin-top:3px;\">{1}</div>"
 msgstr ""
 
-#: acceptShareDetailsNone
-msgid "<li>You cannot do anything to items in the folder."
-msgstr ""
-
-#: acceptShareDetailsViewer
-msgid "<li>You can <b>View</b> items in the folder."
+#: acceptShareDetailsAdmin
+msgid ""
+"<li>You can <b>View</b> and <b>Edit</b> items in the folder.<li>You can "
+"<b>Add</b> and <b>Remove</b> items to/from the folder.<li>You can "
+"<b>Accept</b> and <b>Decline</b> workflow actions for the folder.<li>You can "
+"<b>Administer</b> the folder as if it were your own (i.e. share with "
+"another user)."
 msgstr ""
 
 #: acceptShareDetailsManager
@@ -87,6 +87,14 @@ msgid ""
 "<li>You can <b>View</b> and <b>Edit</b> items in the folder.<li>You can "
 "<b>Add</b> and <b>Remove</b> items to/from the folder.<li>You can "
 "<b>Accept</b> and <b>Decline</b> workflow actions for the folder."
+msgstr ""
+
+#: acceptShareDetailsNone
+msgid "<li>You cannot do anything to items in the folder."
+msgstr ""
+
+#: acceptShareDetailsViewer
+msgid "<li>You can <b>View</b> items in the folder."
 msgstr ""
 
 #. # {0} = grantor name; {1} = share item name
@@ -131,12 +139,6 @@ msgstr ""
 msgid ""
 "<b>Do you want to delete the folder \"{0}\"?</b><p>The folder and all messages "
 "contained in the folder will be moved to the Trash."
-msgstr ""
-
-#: accountDeleteFolders
-msgid ""
-"<b>Do you want to delete the folder(s) \"{0}\" and \"{1}\"?</b><p>The folder(s) "
-"and all messages contained in the folder(s) will be moved to the Trash."
 msgstr ""
 
 #: accountDownloadToInbox
@@ -210,6 +212,7 @@ msgid "Set the \"Reply-to\" field of email messages to:"
 msgstr ""
 
 #: accounts
+msgctxt "accounts"
 msgid "Accounts"
 msgstr ""
 
@@ -223,7 +226,6 @@ msgstr ""
 
 #. # {0} account name
 #: accountSubHeader
-msgctxt "accountSubHeader"
 msgid "{0}"
 msgstr ""
 
@@ -269,6 +271,10 @@ msgstr ""
 
 #: action
 msgid "Action"
+msgstr ""
+
+#: actionLabel
+msgid "Action:"
 msgstr ""
 
 #: actions
@@ -321,6 +327,10 @@ msgstr ""
 msgid "Added:"
 msgstr ""
 
+#: addedToCalendar
+msgid "Appointment Added"
+msgstr ""
+
 #: addExternalAccount
 msgid "Add External Account"
 msgstr ""
@@ -345,10 +355,6 @@ msgstr ""
 msgid "Add New Photo"
 msgstr ""
 
-#: personaSettings
-msgid "Persona Settings"
-msgstr ""
-
 #: addPersona
 msgid "Add Persona"
 msgstr ""
@@ -359,6 +365,10 @@ msgstr ""
 
 #: addRemoteAppts
 msgid "Synchronize appointments from remote calendar"
+msgstr ""
+
+#: addRemoteTasks
+msgid "Synchronize tasks from remote service (i.e. iCal)"
 msgstr ""
 
 #: adminLinkLabel
@@ -377,10 +387,6 @@ msgstr ""
 msgid "Address Books"
 msgstr ""
 
-#: addressBookFolder
-msgid "Address Book Folder"
-msgstr ""
-
 #: addressHint
 msgid "Address (jsmith@address.com)"
 msgstr ""
@@ -389,8 +395,12 @@ msgstr ""
 msgid "Address in"
 msgstr ""
 
-#: addressLabel
+#: address
 msgid "Address"
+msgstr ""
+
+#: addressLabel
+msgid "Address:"
 msgstr ""
 
 #: addSearch
@@ -399,10 +409,6 @@ msgstr ""
 
 #: addShare
 msgid "Add Share..."
-msgstr ""
-
-#: addShortcut
-msgid "Add Shortcut"
 msgstr ""
 
 #: addSignature
@@ -414,11 +420,16 @@ msgid "add to address book"
 msgstr ""
 
 #: addToBriefcase
-msgid "add to briefcase"
+msgctxt "addToBriefcase"
+msgid "Briefcase"
 msgstr ""
 
 #: addToBriefcaseTitle
 msgid "Add to Briefcase"
+msgstr ""
+
+#: addToCalendar
+msgid "Add to Calendar"
 msgstr ""
 
 #: addToNewContact
@@ -427,6 +438,11 @@ msgstr ""
 
 #: addToExistingContact
 msgid "Add to Existing Contact"
+msgstr ""
+
+#: addWord
+msgctxt "addWord"
+msgid "Add"
 msgstr ""
 
 #: adobePdfDocument
@@ -446,8 +462,12 @@ msgstr ""
 msgid "Advanced Search"
 msgstr ""
 
+#: advancedSearchTooltip
+msgid "Open / close advanced search"
+msgstr ""
+
 #: advancedSettings
-msgid "Advanced settings "
+msgid "Advanced settings"
 msgstr ""
 
 #: advancedSettingsLabel
@@ -487,6 +507,10 @@ msgctxt "all"
 msgid "All"
 msgstr ""
 
+#: allAccounts
+msgid "All Accounts"
+msgstr ""
+
 #: allAttendees
 msgid "All Attendees"
 msgstr ""
@@ -504,11 +528,19 @@ msgid "All day event"
 msgstr ""
 
 #: allFolders
-msgid "All folders "
+msgid "All folders"
 msgstr ""
 
 #: allowMultipleLocations
 msgid "Allow multiple locations"
+msgstr ""
+
+#: allPageSelected
+msgid "{0} items selected. To select all search results, use Shift-click."
+msgstr ""
+
+#: allSearchSelected
+msgid "All search results selected, including those not yet loaded."
 msgstr ""
 
 #: allTags
@@ -539,16 +571,6 @@ msgstr ""
 msgid "And more..."
 msgstr ""
 
-#: anonymousCallRejectionLabel
-msgid "Anonymous Call Rejection:"
-msgstr ""
-
-#: anonymousCallRejectionDescription
-msgid ""
-"Screen ALL anonymous calls<br/>(you can also manage this feature by dialing "
-"*77/*87 from your Comcast Digital Voice phone)"
-msgstr ""
-
 #: answeredCalls
 msgid "Answered Calls"
 msgstr ""
@@ -559,6 +581,10 @@ msgstr ""
 
 #: anyCondition
 msgid "Any condition"
+msgstr ""
+
+#: anyTime
+msgid "Any Time"
 msgstr ""
 
 #: anywhere
@@ -613,6 +639,10 @@ msgstr ""
 msgid "Attendees for this appointment"
 msgstr ""
 
+#: apptAttendeesRooms
+msgid "Attendees & rooms for this appointment"
+msgstr ""
+
 #: apptBlobMissing
 msgid ""
 "The selected appointment no longer exists. Please delete the entire "
@@ -631,21 +661,17 @@ msgstr ""
 msgid "Creating Appointments"
 msgstr ""
 
+#: apptCreationError
+msgid "Unable to create the appointment"
+msgstr ""
+
 #. # {0} start date/time, {1} end date/time, {2} timezone
-#: apptTimeAllDay
-msgid "{0,date}"
+#: apptDateTime
+msgid "{0,date,short}, {1,time,short}"
 msgstr ""
 
-#: apptTimeAllDayMulti
-msgid "From {0,date} to {1,date}"
-msgstr ""
-
-#: apptTimeInstance
-msgid "{0,date} from {0,time,short} to {1,time,short} {2}"
-msgstr ""
-
-#: apptTimeInstanceMulti
-msgid "From {0,date} {0,time,short} to {1,date} {1,time,short} {2}"
+#: apptDateTimeAllDay
+msgid "{0,date,short}, all day"
 msgstr ""
 
 #: apptDetails
@@ -654,6 +680,10 @@ msgstr ""
 
 #: apptExceptionNote
 msgid "This is an exception to the series."
+msgstr ""
+
+#: apptForwarded
+msgid "The following meeting has been forwarded:"
 msgstr ""
 
 #: apptInstance
@@ -668,12 +698,14 @@ msgstr ""
 msgid "A single instance of the following meeting has been modified:"
 msgstr ""
 
-#: apptIsPrivate
-msgid "This appointment is private and cannot be opened."
+#: apptInviteOnly
+msgid ""
+"You have selected one or more appointments which are invite only. These "
+"appointments cannot be moved across accounts."
 msgstr ""
 
-#: apptIsReadOnly
-msgid "This appointment is read only and cannot be deleted."
+#: apptIsPrivate
+msgid "This appointment is private and cannot be opened."
 msgstr ""
 
 #: apptLocations
@@ -705,6 +737,10 @@ msgstr ""
 msgid "Show reminders:"
 msgstr ""
 
+#: apptPastDueReminderLabel
+msgid "Show reminders for past-due meetings"
+msgstr ""
+
 #: apptRemindNever
 msgctxt "apptRemindNever"
 msgid "Never"
@@ -720,6 +756,10 @@ msgstr ""
 
 #: apptRemindNHoursBefore
 msgid "{0,number} {0,choice,0#hours|1#hour|2#hours} before"
+msgstr ""
+
+#: apptRemindNWeeksBefore
+msgid "{0,number} {0,choice,0#weeks|1#week|2#weeks} before"
 msgstr ""
 
 #: apptResources
@@ -747,6 +787,22 @@ msgstr ""
 msgid "Series"
 msgstr ""
 
+#: apptTimeAllDay
+msgid "{0,date}"
+msgstr ""
+
+#: apptTimeAllDayMulti
+msgid "From {0,date} to {1,date}"
+msgstr ""
+
+#: apptTimeInstance
+msgid "{0,date} from {0,time,short} to {1,time,short} {2}"
+msgstr ""
+
+#: apptTimeInstanceMulti
+msgid "From {0,date} {0,time,short} to {1,date} {1,time,short} {2}"
+msgstr ""
+
 #: apptsImportedResult
 msgid ""
 "{0,number} {0,choice,0#Appointments|1#Appointment|2#Appointments} Imported"
@@ -760,12 +816,12 @@ msgstr ""
 msgid "All Mail"
 msgstr ""
 
-#: allRemindersAreSnoozed
-msgid "All Reminders are snoozed"
+#: allMailboxes
+msgid "All Mailboxes"
 msgstr ""
 
-#: archive
-msgid "Archive"
+#: allRemindersAreSnoozed
+msgid "All Reminders are snoozed"
 msgstr ""
 
 #: archiveHint
@@ -777,6 +833,10 @@ msgstr ""
 
 #: arrange
 msgid "Arrange"
+msgstr ""
+
+#: arrangedBy
+msgid "Arranged by: {0}"
 msgstr ""
 
 #: ascending
@@ -819,11 +879,6 @@ msgstr ""
 
 #: asRead
 msgid "As read"
-msgstr ""
-
-#. # {0} = organizer type
-#: assignShortcuts
-msgid "Assign numeric shortcuts to {0} to quickly access them."
 msgstr ""
 
 #: atBottomOfMessage
@@ -872,6 +927,22 @@ msgctxt "attachment"
 msgid "Attachment"
 msgstr ""
 
+#: attachmentConfirmRemove
+msgid "Are you sure you want to permanently remove this attachment?"
+msgstr ""
+
+#: attachmentConfirmRemoveAll
+msgid "Are you sure you want to permanently remove all attachments?"
+msgstr ""
+
+#: attachmentLimitMsg
+msgid "<b>Note:&nbsp;</b>Each attachment size limit is {0}"
+msgstr ""
+
+#: attachmentSizeError
+msgid "At least one file exceeds the file size limit of {0}."
+msgstr ""
+
 #: attachments
 msgid "Attachments"
 msgstr ""
@@ -890,6 +961,12 @@ msgstr ""
 
 #: attachSelectMessage
 msgid "Select at least one file to attach"
+msgstr ""
+
+#: attendeeEditWarning
+msgid ""
+"Changes that you make apply only to your local copy of the appointment. "
+"Changes made by the organizer will overwrite your changes."
 msgstr ""
 
 #: attendeeListChanged
@@ -911,6 +988,10 @@ msgstr ""
 
 #: audio
 msgid "Audio"
+msgstr ""
+
+#: audioVideo
+msgid "Audio/Video"
 msgstr ""
 
 #: authChanged
@@ -937,8 +1018,40 @@ msgstr ""
 msgid "Add new contacts to \"Emailed Contacts\""
 msgstr ""
 
+#: autoAddInvites
+msgid "Automatically add received appointments to calendar"
+msgstr ""
+
+#: autocomplete
+msgid "Autocomplete"
+msgstr ""
+
+#: autocompleteFailed
+msgid "Autocomplete failed"
+msgstr ""
+
+#: autocompleteNoGroupMatch
+msgid "Don't show contact group if one of its members matches"
+msgstr ""
+
 #: autocompleteNotReady
 msgid "Contacts Not Loaded, Yet"
+msgstr ""
+
+#: autocompleteOnComma
+msgid "Perform autocomplete when a comma is typed"
+msgstr ""
+
+#: autocompleteShare
+msgid "Always use this account during autocomplete"
+msgstr ""
+
+#: autocompleteSharedAddrBooks
+msgid "Include addresses in shared address books"
+msgstr ""
+
+#: autocompleteWaiting
+msgid "Autocompleting..."
 msgstr ""
 
 #: automaticSignature
@@ -1025,7 +1138,16 @@ msgstr ""
 msgid "[beta]"
 msgstr ""
 
+#: betaIM
+msgid "[IM beta]"
+msgstr ""
+
+#: blackListLabel
+msgid "Block messages from:"
+msgstr ""
+
 #: blue
+msgctxt "blue"
 msgid "Blue"
 msgstr ""
 
@@ -1102,7 +1224,20 @@ msgid "Bottom"
 msgstr ""
 
 #: briefcase
+msgctxt "briefcase"
 msgid "Briefcase"
+msgstr ""
+
+#: briefcaseCreateNewDocument
+msgid "Create New Document"
+msgstr ""
+
+#: briefcaseCreateNewPresentation
+msgid "Create New Presentation"
+msgstr ""
+
+#: briefcaseCreateNewSpreadsheet
+msgid "Create New Spreadsheet"
 msgstr ""
 
 #: briefcaseFileProps
@@ -1137,8 +1272,27 @@ msgstr ""
 msgid "Browse..."
 msgstr ""
 
+#: browserPlusDisabled
+msgid "BrowserPlus is disabled"
+msgstr ""
+
+#: browserPlusMissing
+msgid ""
+"This feature requires Yahoo! BrowserPlus. <a target='_blank' "
+"href='http://browserplus.yahoo.com/install'>Click here</a> to download and "
+"install it."
+msgstr ""
+
 #: buddies
 msgid "Buddies"
+msgstr ""
+
+#: buddy
+msgid "Buddy"
+msgstr ""
+
+#: buddyInvitation
+msgid "Buddy Invitation"
 msgstr ""
 
 #: buddyList
@@ -1165,8 +1319,28 @@ msgstr ""
 msgid "By Conversation"
 msgstr ""
 
+#: byFolder
+msgid "By Folder"
+msgstr ""
+
 #: byMessage
 msgid "By Message"
+msgstr ""
+
+#: byType
+msgid "By Type"
+msgstr ""
+
+#: byTime
+msgid "By Time"
+msgstr ""
+
+#: byTag
+msgid "By Tag"
+msgstr ""
+
+#: bySender
+msgid "By Sender"
 msgstr ""
 
 #: bytes
@@ -1186,16 +1360,20 @@ msgstr ""
 msgid "Calendar Appointment"
 msgstr ""
 
+#: calendarInvite
+msgid "Calendar Invite"
+msgstr ""
+
 #: calendarFirstDayOfWeek
 msgid "First day of the week"
 msgstr ""
 
-#: calendarFolder
-msgid "Calendar Folder"
-msgstr ""
-
 #: calendarInitialView
 msgid "Initial calendar view"
+msgstr ""
+
+#: calendarInitialApptVisibility
+msgid "Default appointment visibility:"
 msgstr ""
 
 #: calendarLabel
@@ -1224,10 +1402,6 @@ msgstr ""
 msgid "Caller"
 msgstr ""
 
-#: callForwardingHeader
-msgid "Call Forwarding"
-msgstr ""
-
 #: callForwardingError
 msgid "The call forwarding number is invalid"
 msgstr ""
@@ -1235,7 +1409,7 @@ msgstr ""
 #: callForwardingSameNumberError
 msgid ""
 "The call forwarding number may not be the same as the phone number you are "
-"managing"
+"managing."
 msgstr ""
 
 #: callForwardingLabel
@@ -1244,16 +1418,6 @@ msgstr ""
 
 #: callForwardingDescription
 msgid "Forward <b>all</b> calls to:"
-msgstr ""
-
-#: callRejectionHeader
-msgctxt "callRejectionHeader"
-msgid "Call Screening"
-msgstr ""
-
-#: callScreeningHeader
-msgctxt "callScreeningHeader"
-msgid "Call Screening"
 msgstr ""
 
 #: callingPartyFormat
@@ -1302,6 +1466,10 @@ msgstr ""
 msgid "Day View"
 msgstr ""
 
+#: calViewList
+msgid "List View"
+msgstr ""
+
 #: calViewMonth
 msgid "Month View"
 msgstr ""
@@ -1320,6 +1488,10 @@ msgstr ""
 
 #: cancel
 msgid "Cancel"
+msgstr ""
+
+#: cancelInstance
+msgid "Cancel Instance"
 msgstr ""
 
 #: cancelled
@@ -1428,6 +1600,10 @@ msgstr ""
 msgid "Change Password"
 msgstr ""
 
+#: changeTime
+msgid "Change Time"
+msgstr ""
+
 #: chat
 msgctxt "chat"
 msgid "Chat"
@@ -1465,6 +1641,10 @@ msgstr ""
 msgid "Load Feed"
 msgstr ""
 
+#: checkForConflict
+msgid "Check for Conflict"
+msgstr ""
+
 #: checkAllFeed
 msgid "Reload All Feeds"
 msgstr ""
@@ -1473,8 +1653,20 @@ msgstr ""
 msgid "Get Mail"
 msgstr ""
 
-#: checkMailTooltip
-msgid "Check for new mail in Inbox"
+#: checkMailPrefDefault
+msgid "Run my default search"
+msgstr ""
+
+#: checkMailPrefLabel
+msgid "When I click Get Mail:"
+msgstr ""
+
+#: checkMailPrefLabelOffline
+msgid "When I click Send/Receive"
+msgstr ""
+
+#: checkMailPrefUpdate
+msgid "Update my current view"
 msgstr ""
 
 #: checkRssTooltip
@@ -1503,6 +1695,10 @@ msgstr ""
 msgid "Get new voice mail messages"
 msgstr ""
 
+#: chooseAccount
+msgid "Choose one or more accounts"
+msgstr ""
+
 #: chooseAddrBook
 msgid "Choose Address Book"
 msgstr ""
@@ -1527,12 +1723,18 @@ msgstr ""
 msgid "Choose Folder"
 msgstr ""
 
+#: chooseFolderToFilter
+msgid "Choose folders to apply filter to:"
+msgstr ""
+
 #: chooseIdentity
 msgid "Choose an identity to send the mail"
 msgstr ""
 
-#: chooseSearch
-msgid "Choose Search"
+#: chooserDescription
+msgid ""
+"Type in the box to filter the list. Tab to change focus. Arrow keys can be "
+"used to navigate within the list."
 msgstr ""
 
 #: chooseSearchType
@@ -1579,8 +1781,9 @@ msgstr ""
 msgid ""
 "<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in "
 "open source messaging and collaboration :: <a target=\"_new\" "
-"href=\"http://www.zimbra.com/blog\">Zimbra Blog</a> <a target=\"_new\" "
-"href=\"http://wiki.zimbra.com\">Zimbra Wiki</a>"
+"href=\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" "
+"href=\"http://wiki.zimbra.com\">Wiki</a> - <a target=\"_new\" "
+"href=\"http://www.zimbra.com/forums\">Forums</a>"
 msgstr ""
 
 #: clientMobile
@@ -1640,6 +1843,42 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
+#: colorBlue
+msgid "#5b9bf2"
+msgstr ""
+
+#: colorCyan
+msgid "#43eded"
+msgstr ""
+
+#: colorGray
+msgid "#bebebe"
+msgstr ""
+
+#: colorGreen
+msgid "#6acb9e"
+msgstr ""
+
+#: colorOrange
+msgid "#fdbc55"
+msgstr ""
+
+#: colorPink
+msgid "#fe98d3"
+msgstr ""
+
+#: colorPurple
+msgid "#ba86e5"
+msgstr ""
+
+#: colorRed
+msgid "#f66666"
+msgstr ""
+
+#: colorYellow
+msgid "#f8fa33"
+msgstr ""
+
 #: colorLabel
 msgctxt "colorLabel"
 msgid "Color:"
@@ -1695,6 +1934,10 @@ msgctxt "composeAsText"
 msgid "As Text"
 msgstr ""
 
+#: composeDisabled
+msgid "You currently have not configured any account for composing messages."
+msgstr ""
+
 #: composeLabel
 msgid "Compose:"
 msgstr ""
@@ -1717,7 +1960,7 @@ msgid "Change format"
 msgstr ""
 
 #: composeReplyLabel
-msgid "Reply / Reply All:"
+msgid "Reply:"
 msgstr ""
 
 #: composeReplyEmail
@@ -1750,6 +1993,38 @@ msgstr ""
 
 #: confirmed
 msgid "Confirmed"
+msgstr ""
+
+#: confirmCancelAppt
+msgid "Are you sure you want to delete this appointment?"
+msgstr ""
+
+#: confirmCancelApptFutureInstances
+msgid "cancel only the selected instance and everything after"
+msgstr ""
+
+#: confirmCancelApptInst
+msgid "Are you sure you want to delete this meeting instance?"
+msgstr ""
+
+#: confirmCancelApptList
+msgid "Are you sure you want to delete these appointments?"
+msgstr ""
+
+#: confirmCancelApptReply
+msgid "Do you want to edit the appointment cancellation message?"
+msgstr ""
+
+#: confirmCancelApptSeries
+msgid "Are you sure you want to delete this recurring appointment?"
+msgstr ""
+
+#: confirmCancelApptWholeSeries
+msgid "cancel the entire series"
+msgstr ""
+
+#: confirmCancelTask
+msgid "Are you sure you want to permanently delete the selected task(s)?"
 msgstr ""
 
 #: confirmDeleteCalendar
@@ -1798,6 +2073,10 @@ msgstr ""
 msgid "Are you sure you want to permanently delete the \"{0}\" task list?"
 msgstr ""
 
+#: confirmDisplayAddresss
+msgid "<b>Recipients:</b>"
+msgstr ""
+
 #: confirmEmptyFolder
 msgid ""
 "Are you sure you want to permanently delete everything within the \"{0}\" "
@@ -1811,12 +2090,38 @@ msgid ""
 "trash folder?"
 msgstr ""
 
+#: confirmExistingContacts
+msgid "<b>Recipients already in your contacts:</b>"
+msgstr ""
+
 #: confirmExitPreferences
 msgid "Would you like to save your changes?"
 msgstr ""
 
+#: confirmExitPreferencesChangeAcct
+msgid "Save your changes before switching accounts?"
+msgstr ""
+
 #: confirmFilterDetailsSave
 msgid "Your filter rule is incomplete. Do you want to continue saving locally?"
+msgstr ""
+
+#: confirmModifyApptReply
+msgid "Do you want to edit the appointment modification message?"
+msgstr ""
+
+#: confirmMoveApptToShared
+msgid ""
+"Do you want to move the appointment to the shared calendar \"{0}\"? "
+"<p><b>Note:</b> This is not recommended and may not be allowed. "
+msgstr ""
+
+#: confirmNewAddresses
+msgid "<b>Recipients not in your address book:</b>"
+msgstr ""
+
+#: confirmNewAddressesCheck
+msgid "(check the contacts you want to add)"
 msgstr ""
 
 #: confirmPasswordHasWhitespace
@@ -1825,26 +2130,14 @@ msgid ""
 "your change request."
 msgstr ""
 
-#: confirmCancelAppt
-msgid "Are you sure you want to delete this appointment?"
-msgstr ""
-
-#: confirmCancelApptReply
-msgid "Do you want to edit the appointment cancellation message?"
-msgstr ""
-
-#: confirmCancelTask
-msgid "Are you sure you want to permanently delete the selected task(s)?"
-msgstr ""
-
-#: confirmModifyApptReply
-msgid "Do you want to edit the appointment modification message?"
-msgstr ""
-
 #: confirmRemovePopAccount
 msgid ""
 "<b>Are you sure you want to remove the account \"{0}\"?</b><p><b>Note:</b> "
 "Account will not be removed until you save the preferences."
+msgstr ""
+
+#: confirmSummary
+msgid "Message Sent: {0}"
 msgstr ""
 
 #: contact
@@ -1877,10 +2170,6 @@ msgstr ""
 msgid "{0,number} {0,choice,0#Contacts|1#Contact|2#Contacts} Imported"
 msgstr ""
 
-#: contactsPerPage
-msgid "Number of contacts to display per page"
-msgstr ""
-
 #: contains
 msgid "contains"
 msgstr ""
@@ -1897,6 +2186,10 @@ msgstr ""
 msgid "Conversation"
 msgstr ""
 
+#: conversations
+msgid "Conversations"
+msgstr ""
+
 #: convertCamelCase
 msgid "Convert all CamelCase words to links"
 msgstr ""
@@ -1905,12 +2198,36 @@ msgstr ""
 msgid "This will convert all CamelCase words into wiki links. Continue?"
 msgstr ""
 
+#: convOrderAscending
+msgid "Expand conversations from old to new"
+msgstr ""
+
+#: convOrderDescending
+msgid "Expand conversations from new to old"
+msgstr ""
+
 #: copy
 msgid "Copy"
 msgstr ""
 
 #: count
 msgid "Count"
+msgstr ""
+
+#: counterInviteDeclineMsg
+msgid "{0} has declined and proposed a new time for this meeting"
+msgstr ""
+
+#: counterInviteMsg
+msgid "{0} has proposed a new time for this meeting"
+msgstr ""
+
+#: counterInviteTentativeMsg
+msgid "{0} has tentatively accepted and proposed a new time for this meeting"
+msgstr ""
+
+#: createAppt
+msgid "Create Appointment"
 msgstr ""
 
 #: created
@@ -1991,6 +2308,14 @@ msgstr ""
 msgid "Create New Task List"
 msgstr ""
 
+#: createSlideShow
+msgid "Create Slide Show"
+msgstr ""
+
+#: createTask
+msgid "Create Task"
+msgstr ""
+
 #: creator
 msgctxt "creator"
 msgid "Creator"
@@ -2002,6 +2327,10 @@ msgstr ""
 
 #: currency
 msgid "Currency"
+msgstr ""
+
+#: currentMeetings
+msgid "Current Meetings"
 msgstr ""
 
 #: custom
@@ -2037,18 +2366,18 @@ msgstr ""
 #: dataSourceFailureDescription
 msgid ""
 "Retrieving messages for the following external {0,choice,1#account "
-"has|2#accounts have} failed: "
+"has|2#accounts have} failed:"
 msgstr ""
 
 #. # {0} external account name; {1} date of most recent failure; {2} failure message
 #: dataSourceFailureItem
 msgid ""
 "<ul><li>{0} (failing since {1,date,short} {1,time,short})<br><font "
-"color=red><b>Error: {2}</b></font></ul>"
+"color=red><b>Error: {2}</b></font></li></ul>"
 msgstr ""
 
 #: dataSourceFailureItem_noDate
-msgid "<ul><li>{0}<br><font color=red><b>Error: {1}</b></font></ul>"
+msgid "<ul><li>{0}<br><font color=red><b>Error: {1}</b></font></li></ul>"
 msgstr ""
 
 #: dataSourceFailureInstructions
@@ -2107,6 +2436,10 @@ msgstr ""
 #: declined
 msgctxt "declined"
 msgid "Declined"
+msgstr ""
+
+#: declineProposedTime
+msgid "Decline Proposal"
 msgstr ""
 
 #: declineShare
@@ -2206,6 +2539,42 @@ msgid ""
 "\r\n"
 msgstr ""
 
+#: defaultInviteReplyResourceAcceptMessage
+msgid ""
+"The resource has been scheduled.\r\n"
+"\r\n"
+msgstr ""
+
+#: defaultInviteReplyResourceAcceptInstanceMessage
+msgid ""
+"The resource has been scheduled on {0,date,full}.\r\n"
+"\r\n"
+msgstr ""
+
+#: defaultInviteReplyResourceDeclineMessage
+msgid ""
+"The resource could not be scheduled.\r\n"
+"\r\n"
+msgstr ""
+
+#: defaultInviteReplyResourceDeclineInstanceMessage
+msgid ""
+"The resource could not be scheduled on {0,date,full}.\r\n"
+"\r\n"
+msgstr ""
+
+#: defaultInviteReplyResourceTentativeMessage
+msgid ""
+"The resource might be scheduled.\r\n"
+"\r\n"
+msgstr ""
+
+#: defaultInviteReplyResourceTentativeInstanceMessage
+msgid ""
+"The resource might be scheduled on {0,date,full}.\r\n"
+"\r\n"
+msgstr ""
+
 #: defaultInviteReplyTentativeMessage
 msgid ""
 "I might attend.\r\n"
@@ -2282,8 +2651,20 @@ msgstr ""
 msgid "Delete Selected Message(s)"
 msgstr ""
 
+#: deleteApptInstance
+msgid "Delete Instance"
+msgstr ""
+
+#: deleteApptSeries
+msgid "Delete Series"
+msgstr ""
+
 #: deleteApptQuestion
 msgid "Would you like to delete only this instance or the series?"
+msgstr ""
+
+#: deleteApptListQuestion
+msgid "Would you like to delete the instances or series of each appointment?"
 msgstr ""
 
 #: deleteGroupError
@@ -2292,6 +2673,10 @@ msgstr ""
 
 #: deleteInstance
 msgid "Delete this instance"
+msgstr ""
+
+#: deleteInstances
+msgid "Delete the instances"
 msgstr ""
 
 #: deleteInviteOnReply
@@ -2314,8 +2699,14 @@ msgstr ""
 msgid "Delete selected item(s) permanently"
 msgstr ""
 
+#: deleteReadonly
+msgid ""
+"You have selected one or more appointments which are read only. These "
+"appointments cannot be deleted."
+msgstr ""
+
 #: deleteRecurringItem
-msgid "Delete Recurring Item"
+msgid "Delete Recurring Item(s)"
 msgstr ""
 
 #: deleteRow
@@ -2340,6 +2731,10 @@ msgstr ""
 
 #: detachAnyway
 msgid "You will have to reattach your file(s). Open in new window anyway?"
+msgstr ""
+
+#: detach
+msgid "Open in a separate window"
 msgstr ""
 
 #: detachTT
@@ -2370,16 +2765,25 @@ msgstr ""
 msgid "Direction:"
 msgstr ""
 
+#: dismiss
+msgid "Dismiss"
+msgstr ""
+
 #: dismissAll
 msgid "Dismiss All"
 msgstr ""
 
-#: dismissReminderToolTip
-msgid "dismiss reminder"
-msgstr ""
-
 #: discard
 msgid "Discard"
+msgstr ""
+
+#: display
+msgid "Display"
+msgstr ""
+
+#: displayLabel
+msgctxt "displayLabel"
+msgid "Display:"
 msgstr ""
 
 #: displayAsHTML
@@ -2395,13 +2799,12 @@ msgstr ""
 msgid "Display contacts per page:"
 msgstr ""
 
-#: displayMessages
-msgid "Displaying Messages"
+#: displayFormatLabel
+msgid "Display format:"
 msgstr ""
 
-#: displayMessagesLabel
-msgctxt "displayMessagesLabel"
-msgid "Display:"
+#: displayMessages
+msgid "Displaying Messages"
 msgstr ""
 
 #: displayCalendar
@@ -2421,7 +2824,7 @@ msgid "Display Images"
 msgstr ""
 
 #: displayMail
-msgid "Display Mail"
+msgid "Display Mail:"
 msgstr ""
 
 #: displayMailToolTip
@@ -2429,7 +2832,12 @@ msgid "Choose how mail is displayed"
 msgstr ""
 
 #: document
+msgctxt "document"
 msgid "Document"
+msgstr ""
+
+#: documentName
+msgid "Document Name"
 msgstr ""
 
 #: documents
@@ -2456,16 +2864,29 @@ msgstr ""
 msgid "Don't include original message"
 msgstr ""
 
+#: dontNotifyOrganizer
+msgid "Don't notify organizer"
+msgstr ""
+
+#: dontNotifyOrganizerLabel
+msgid "Don't Notify Organizer"
+msgstr ""
+
 #: downLabel
 msgid "Down"
 msgstr ""
 
 #: download
-msgid "download"
+msgctxt "download"
+msgid "Download"
 msgstr ""
 
 #: downloadAll
 msgid "Download all attachments"
+msgstr ""
+
+#: downloadAllDefaultFileName
+msgid "attachments"
 msgstr ""
 
 #: downloadVoicemail
@@ -2500,16 +2921,6 @@ msgstr ""
 
 #: duplicateAttendee
 msgid "Attendee {0} is already added"
-msgstr ""
-
-#. # {0} a shortcut number
-#: duplicateShortcutNumber
-msgid "The shortcut {0} is being used more than once."
-msgstr ""
-
-#. # {0} an organizer
-#: duplicateShortcutOrg
-msgid "\"{0}\" has more than one shortcut assigned to it."
 msgstr ""
 
 #: duration
@@ -2565,6 +2976,10 @@ msgstr ""
 #: editFilter
 msgctxt "editFilter"
 msgid "Edit Filter"
+msgstr ""
+
+#: editImg
+msgid "Edit Image"
 msgstr ""
 
 #: editNotebookChrome
@@ -2641,6 +3056,12 @@ msgid "Email"
 msgstr ""
 
 #: emailAddr
+msgctxt "emailAddr"
+msgid "Email Address"
+msgstr ""
+
+#: emailAddrHint
+msgctxt "emailAddrHint"
 msgid "Email Address"
 msgstr ""
 
@@ -2678,10 +3099,6 @@ msgstr ""
 
 #: emailLabel
 msgid "Email:"
-msgstr ""
-
-#: emailNotifications
-msgid "Notifications"
 msgstr ""
 
 #: emailNotificationError
@@ -2736,6 +3153,18 @@ msgstr ""
 msgid "Empty Trash"
 msgstr ""
 
+#: emptyDocName
+msgid "Document must have a file name."
+msgstr ""
+
+#: enableAppleICalDelegation
+msgid "Enable delegation for Apple iCal CalDAV client"
+msgstr ""
+
+#: enableDocuments
+msgid "Enable Documents"
+msgstr ""
+
 #: end
 msgid "End"
 msgstr ""
@@ -2773,6 +3202,10 @@ msgstr ""
 msgid "enter email address"
 msgstr ""
 
+#: enterEmailAddressOrDomain
+msgid "enter email address or domain"
+msgstr ""
+
 #: enterUsername
 msgid "Please enter your username and password."
 msgstr ""
@@ -2789,11 +3222,6 @@ msgstr ""
 msgid "error"
 msgstr ""
 
-#: errorCap
-msgctxt "errorCap"
-msgid "Error"
-msgstr ""
-
 #: errorAlreadyExists
 msgid "A folder with name \"{0}\" already exists."
 msgstr ""
@@ -2806,12 +3234,21 @@ msgstr ""
 msgid "Attachment error: {0}<br>Unable to upload attachment."
 msgstr ""
 
+#: errorAttachmentRemove
+msgid "Unable to remove attachment."
+msgstr ""
+
 #: errorAttachmentTooBig
 msgid "Attachment size is too big."
 msgstr ""
 
 #: errorCannotRename
 msgid "Cannot rename folder \"{0}\"."
+msgstr ""
+
+#: errorCap
+msgctxt "errorCap"
+msgid "Error"
 msgstr ""
 
 #: errorCreateUrl
@@ -2831,7 +3268,9 @@ msgid ""
 msgstr ""
 
 #: errorCalendarParse
-msgid "Error parsing calendar."
+msgid ""
+"There is an error in the syntax of your query. Correct the syntax and run "
+"your query again."
 msgstr ""
 
 #: errorCalendarSettingAfterCreate
@@ -2879,12 +3318,12 @@ msgstr ""
 msgid "End by date cannot be before start date."
 msgstr ""
 
-#: errorEmailNotUnique
-msgid "The email address is already in the list."
-msgstr ""
-
 #: errorFileAlreadyExists
 msgid "A file with name \"{0}\" already exists."
+msgstr ""
+
+#: errorFileAlreadyExistsReplace
+msgid "A file with name \"{0}\" already exists. Do you want to overwrite it ?"
 msgstr ""
 
 #: errorModifyContact
@@ -2907,7 +3346,13 @@ msgstr ""
 msgid "An identity with name \"{0}\" already exists."
 msgstr ""
 
+#: errorImportAppt
+msgctxt "errorImportAppt"
+msgid "An error occurred during the import"
+msgstr ""
+
 #: errorImporting
+msgctxt "errorImporting"
 msgid "An error occurred during the import"
 msgstr ""
 
@@ -3006,14 +3451,6 @@ msgstr ""
 msgid "Unable to move appointment."
 msgstr ""
 
-#: errorMyCardDelete
-msgid "My Card cannot be deleted."
-msgstr ""
-
-#: errorMyCardMove
-msgid "My Card cannot be moved."
-msgstr ""
-
 #: errorNoActiveX
 msgid ""
 "You need to enable ActiveX controls in order to use the Zimbra Collaboration "
@@ -3080,6 +3517,10 @@ msgstr ""
 msgid "Permission denied."
 msgstr ""
 
+#: errorPermissionCreate
+msgid "You do not have appropriate permission to create this new item."
+msgstr ""
+
 #: errorPermissionMsg
 msgid "In order to view this, you must have appropriate permission."
 msgstr ""
@@ -3091,79 +3532,14 @@ msgid ""
 "the links anyway?</b>"
 msgstr ""
 
-#: errorPhoneFAQLink
-msgid "Please see the <a href=\"{0}\" target=\"_blank\">FAQ</a> for more info."
-msgstr ""
-
-#: errorPhoneFAQURL
-msgid "http://www.comcast.net"
-msgstr ""
-
-#: errorPhoneForwardNotUnique
+#: errorPhoneNotUnique
 msgid "The phone number is already in the list of numbers being forwarded."
-msgstr ""
-
-#: errorPhoneRejectNotUnique
-msgid "The phone number is already in the list of numbers being screened."
-msgstr ""
-
-#: errorPhoneAcceptNotUnique
-msgid "The phone number is already in the list of numbers being accepted."
-msgstr ""
-
-#: errorPhoneIsOwn
-msgid ""
-"Sorry, you cannot use your telephone number with this feature. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC- 0390"
-msgstr ""
-
-#: errorPhoneIsInternational
-msgid ""
-"Sorry, this feature does not support international telephone numbers. Please "
-"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0391"
-msgstr ""
-
-#: errorPhoneInvalidAreaCode
-msgid ""
-"Sorry, this feature does not support telephone numbers with area codes of "
-"900, 500, 700 or 976. Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 "
-"digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0392"
-msgstr ""
-
-#: errorPhoneInvalidExtension
-msgid ""
-"Sorry, this feature does not support telephone numbers with the 555 "
-"exchange. (e.g. XXX-555-XXXX). Please enter a valid 10 digit (XXX-XXX-XXXX) "
-"or 11 digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0393"
-msgstr ""
-
-#: errorPhoneIs911
-msgid ""
-"Sorry, this feature does not support the 911 telephone numbers. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0394"
-msgstr ""
-
-#: errorPhoneIs411
-msgid ""
-"Sorry, this feature does not support the 411 telephone numbers. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0395"
-msgstr ""
-
-#: errorPhoneInvalid
-msgid ""
-"Sorry, this feature does not support the telephone number entered. Please "
-"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0396"
 msgstr ""
 
 #. # {0} folder name, {1} pop account name
 #: errorDeletePopFolder
 msgid ""
-"Unable to delete folder because it is associated to the POP account named "
+"Unable to delete folder because it is associated with the POP account named "
 "\"{1}\".<p>In order to delete this folder, change the destination folder for "
 "the POP account or delete the POP account."
 msgstr ""
@@ -3171,9 +3547,16 @@ msgstr ""
 #. # {0} folder name, {1} pop account name
 #: errorMovePopFolder
 msgid ""
-"Unable to move folder because it is associated to the POP account named "
+"Unable to move folder because it is associated with the POP account named "
 "\"{1}\".<p>In order to move this folder, change the destination folder for the "
 "POP account or delete the POP account."
+msgstr ""
+
+#: errorMoveImapFolder
+msgid ""
+"Unable to move folder because it is associated with the IMAP account named "
+"\"{1}\".<p>In order to move this folder, change the destination folder for the "
+"IMAP account or delete the IMAP account."
 msgstr ""
 
 #: errorJavaScriptRequired
@@ -3189,6 +3572,10 @@ msgid ""
 "target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a></font>"
 msgstr ""
 
+#: errorJavaScriptDisabled
+msgid "Click here to continue"
+msgstr ""
+
 #: errorQueryParse
 msgid "Unable to parse the search query."
 msgstr ""
@@ -3201,6 +3588,14 @@ msgstr ""
 msgid "A network error has occurred."
 msgstr ""
 
+#: errorNotImageFile
+msgid "Please attach an image file (JPG, PNG, GIF)"
+msgstr ""
+
+#: errorNotAllowedFile
+msgid "Please attach allowed files ({0})"
+msgstr ""
+
 #: errorPrivateVoicemail
 msgid ""
 "The selected voice mail message is private, so it can not be attached to an "
@@ -3209,6 +3604,10 @@ msgstr ""
 
 #: errorReports
 msgid "Error Reports"
+msgstr ""
+
+#: errorReportSent
+msgid "Error report sent"
 msgstr ""
 
 #: errorSavingAppt
@@ -3241,8 +3640,14 @@ msgstr ""
 msgid "Signature exceeds maximum length of {0,number}."
 msgstr ""
 
+#: errorHtmlSignatureTooLong
+msgid ""
+"HTML Signature exceeds maximum length of {0,number} ( it includes the html "
+"tags )."
+msgstr ""
+
 #: errorSubFolderNotAllowed
-msgid "Subfolders under {0} are not allowed. "
+msgid "Subfolders under {0} are not allowed."
 msgstr ""
 
 #: errorTooManyContacts
@@ -3264,8 +3669,8 @@ msgstr ""
 msgid "Please enter a valid URL."
 msgstr ""
 
-#: errorNotImageFile
-msgid "Please attach an image file (JPG, PNG, GIF)"
+#: errorWhiteBlackListExceeded
+msgid "You have reached your maximum limit for this list."
 msgstr ""
 
 #: event
@@ -3292,10 +3697,6 @@ msgstr ""
 msgid "matches exactly"
 msgstr ""
 
-#: exampleShortcutIntro
-msgid "For example, if you assign the shortcut {0} to the {1} {2}:"
-msgstr ""
-
 #: exampleEmailName
 msgid "e.g. Bob Smith"
 msgstr ""
@@ -3318,6 +3719,28 @@ msgstr ""
 
 #: execute
 msgid "Execute"
+msgstr ""
+
+#: exitDocNotSaved
+msgid "Document is not saved."
+msgstr ""
+
+#: exitDocUnSavedChanges
+msgid "Document may contain unsaved changes."
+msgstr ""
+
+#: exitPresentationUnsavedChanges
+msgid ""
+"Presentation document contains unsaved changes.\n"
+"Doing so will terminate this presentation and you will lose your unsaved "
+"changes"
+msgstr ""
+
+#: exitSpreadsheetUnsavedChanges
+msgid ""
+"Spreadsheet document contains unsaved changes.\n"
+"Doing so will terminate this spreadsheet and you will lose your unsaved "
+"changes"
 msgstr ""
 
 #: expandAll
@@ -3361,10 +3784,6 @@ msgid "All"
 msgstr ""
 
 #. #exportFolder = Export Folder
-#: exportIgnoreArchive
-msgid "Ignore Local Folders"
-msgstr ""
-
 #. #exportNotebook = Export Notebook
 #. #exportSearch = Export Search
 #. #exportTag = Export Tag
@@ -3422,7 +3841,7 @@ msgid "Allow all mail, including old mail, to be downloaded"
 msgstr ""
 
 #: externalAccessPopDownloadFromNow
-msgid "Allow only mail from now to be downloaded  "
+msgid "Allow only mail from now to be downloaded"
 msgstr ""
 
 #: externalAccessPopNotSet
@@ -3458,8 +3877,16 @@ msgstr ""
 msgid "Fetching<br />Thumbnail..."
 msgstr ""
 
+#: file
+msgid "File"
+msgstr ""
+
 #: fileAs
 msgid "File As"
+msgstr ""
+
+#: fileAsLabel
+msgid "File as:"
 msgstr ""
 
 #: fileAsLastFirst
@@ -3467,6 +3894,7 @@ msgid "{1}, {0}"
 msgstr ""
 
 #: fileAsFirstLast
+msgctxt "fileAsFirstLast"
 msgid "{0} {1}"
 msgstr ""
 
@@ -3575,7 +4003,15 @@ msgid "Delete Filter"
 msgstr ""
 
 #: filterRules
-msgid "Mail Filters"
+msgid "Filters"
+msgstr ""
+
+#: filterRun
+msgid "Run Filter"
+msgstr ""
+
+#: filterRuleApplied
+msgid "Filter run complete. {0} message(s) were affected."
 msgstr ""
 
 #: filterRuleChangesSavedImmediately
@@ -3584,6 +4020,12 @@ msgstr ""
 
 #: filtersSaved
 msgid "Filters Saved"
+msgstr ""
+
+#: filterForwardActionWarning
+msgid ""
+"One or more of the selected filters contains an action to \"Forward To "
+"Address\". This action cannot be run on existing filters and will be ignored."
 msgstr ""
 
 #: find
@@ -3598,6 +4040,10 @@ msgstr ""
 msgid "Find Attendees"
 msgstr ""
 
+#: findAttendeesRooms
+msgid "Find Attendees & Rooms"
+msgstr ""
+
 #: findLocations
 msgid "Find Locations"
 msgstr ""
@@ -3610,12 +4056,20 @@ msgstr ""
 msgid "Find Resources"
 msgstr ""
 
+#: findShares
+msgid "Find Shares"
+msgstr ""
+
 #: findWhatLabel
 msgid "Find what:"
 msgstr ""
 
 #: finishLoading
 msgid "Click here to finish loading this contact"
+msgstr ""
+
+#: firstNameHint
+msgid "First Name"
 msgstr ""
 
 #: fixedCellWidth
@@ -3647,6 +4101,7 @@ msgid "Floor"
 msgstr ""
 
 #: folder
+msgctxt "folder"
 msgid "Folder"
 msgstr ""
 
@@ -3668,6 +4123,10 @@ msgstr ""
 
 #: folderNoLocation
 msgid "You must select a location for the folder."
+msgstr ""
+
+#: folderNotify
+msgid "Folder Notifications"
 msgstr ""
 
 #: folderOrSearchNameExists
@@ -3704,6 +4163,10 @@ msgstr ""
 msgid "Folder Size"
 msgstr ""
 
+#: folderType
+msgid "Folder type:"
+msgstr ""
+
 #: fontBackground
 msgid "Font Background"
 msgstr ""
@@ -3734,6 +4197,20 @@ msgctxt "fColorLabel"
 msgid "Color:"
 msgstr ""
 
+#: forget
+msgid "Forget"
+msgstr ""
+
+#: forgetTooltip
+msgid "Rank this email address lower in the results"
+msgstr ""
+
+#: forgetSummary
+msgid ""
+"The ranking of address {0} has been reset. Addresses are ranked based on how "
+"often you have sent to them."
+msgstr ""
+
 #: format
 msgid "Format"
 msgstr ""
@@ -3744,6 +4221,10 @@ msgstr ""
 
 #: formatAsText
 msgid "Format As Plain Text"
+msgstr ""
+
+#: formatDateLongNoYear
+msgid "MMMM d"
 msgstr ""
 
 #: formatHtmlSource
@@ -3794,10 +4275,6 @@ msgstr ""
 msgid "Forwarded"
 msgstr ""
 
-#: forwardedMessage
-msgid "Forwarded Message"
-msgstr ""
-
 #: forwardInclude
 msgid "When forwarding:"
 msgstr ""
@@ -3814,8 +4291,28 @@ msgstr ""
 msgid "Forward Inline"
 msgstr ""
 
+#: forwardInstance
+msgid "Forward Instance"
+msgstr ""
+
+#: forwardInviteSent
+msgid "Invitation Forwarded"
+msgstr ""
+
+#: forwardInvitesTo
+msgid "For my shared default Calendar forward my invites to"
+msgstr ""
+
+#: forwardInvitesToLabel
+msgid "Forward my invites to:"
+msgstr ""
+
 #: forwardOptions
 msgid "Change format, change how original is forwarded"
+msgstr ""
+
+#: forwardSeries
+msgid "Forward Series"
 msgstr ""
 
 #: forwardTo
@@ -3852,15 +4349,16 @@ msgid "Allow both internal and external users to see my free/busy information"
 msgstr ""
 
 #: freeBusyAllowLocal
-msgid "Allow only local users to see my free/busy information"
+msgid "Allow only internal users to see my free/busy information"
 msgstr ""
 
 #: freeBusyAllowNone
-msgid "Don't let anyone to see my free/busy information"
+msgid "Don't let anyone see my free/busy information"
 msgstr ""
 
 #: freeBusyAllowSome
-msgid "Allow only the following local users to see my free/busy information:"
+msgid ""
+"Allow only the following internal users to see my free/busy information:"
 msgstr ""
 
 #: freeBusyLabel
@@ -3884,6 +4382,23 @@ msgstr ""
 msgid "Choose the name that appears in the \"From\" field of email messages"
 msgstr ""
 
+#. # {0} prefix, {1} first, {2} middle, {3} maiden, {4} last, {5} suffix
+#: fullname
+msgid "{0} {1} {2} {4}"
+msgstr ""
+
+#: fullnameMaiden
+msgid "{0} {1} {2} ({3}) {4}"
+msgstr ""
+
+#: fullnameSuffix
+msgid "{0} {1} {2} {4}, {5}"
+msgstr ""
+
+#: fullnameMaidenSuffix
+msgid "{0} {1} {2} ({3}) {4}, {5}"
+msgstr ""
+
 #: fw
 msgid "Fw"
 msgstr ""
@@ -3898,7 +4413,7 @@ msgid "Global Address List"
 msgstr ""
 
 #: galAutocomplete
-msgid "Auto-complete includes addresses in the Global Address List"
+msgid "Include addresses in the Global Address List"
 msgstr ""
 
 #: galAutocompleteFailure
@@ -3917,8 +4432,16 @@ msgstr ""
 msgid "Waiting for GAL..."
 msgstr ""
 
+#: gb
+msgid "GB"
+msgstr ""
+
 #: general
 msgid "General"
+msgstr ""
+
+#: genericTextHint
+msgid "Enter text"
 msgstr ""
 
 #: gifImage
@@ -3927,6 +4450,14 @@ msgstr ""
 
 #: global
 msgid "Global"
+msgstr ""
+
+#: globalSearches
+msgid "Global Searches"
+msgstr ""
+
+#: gmail
+msgid "Gmail"
 msgstr ""
 
 #: goBack
@@ -3957,12 +4488,13 @@ msgstr ""
 msgid "Go to Documents"
 msgstr ""
 
-#: goToHelp
-msgid "Read online help documentation"
+#: goToFolder
+msgctxt "goToFolder"
+msgid "Go to {0}"
 msgstr ""
 
-#: goToIm
-msgid "Go to Instant Messaging"
+#: goToHelp
+msgid "Read online help documentation"
 msgstr ""
 
 #: goToMail
@@ -3982,6 +4514,7 @@ msgid "Go to Tasks"
 msgstr ""
 
 #: goToUrl
+msgctxt "goToUrl"
 msgid "Go to {0}"
 msgstr ""
 
@@ -3989,11 +4522,24 @@ msgstr ""
 msgid "Go to Voice"
 msgstr ""
 
+#: granteeGone
+msgid ""
+"<p>At least one user or group with whom the following items have been shared "
+"no longer exists:</p><ul>{0}</ul><p>Press OK to revoke those shares, or "
+"Cancel to exit. If you cancel, you can then revoke each share individually "
+"by clicking the \"Revoke\" link.</p>"
+msgstr ""
+
+#: grantFormText
+msgid "To share a folder, choose the type and then press the \"Share\" button."
+msgstr ""
+
 #: gray
 msgid "Gray"
 msgstr ""
 
 #: green
+msgctxt "green"
 msgid "Green"
 msgstr ""
 
@@ -4036,6 +4582,10 @@ msgstr ""
 
 #: happy
 msgid "happy"
+msgstr ""
+
+#: hardDeleteTooltip
+msgid "Delete selected item(s)"
 msgstr ""
 
 #: hasAlias
@@ -4137,6 +4687,10 @@ msgstr ""
 msgid "ICS"
 msgstr ""
 
+#: icsLabel
+msgid "ICS:"
+msgstr ""
+
 #: identities
 msgid "Identities"
 msgstr ""
@@ -4152,10 +4706,6 @@ msgid ""
 "emails from the same account, you can have an identity for each that sets "
 "the signature, reply-to address, etc. When composing an email, a selector "
 "allows you to quickly switch between different identities."
-msgstr ""
-
-#: identitiesLabel
-msgid "Identity Settings"
 msgstr ""
 
 #: identitiesTab
@@ -4198,10 +4748,6 @@ msgstr ""
 msgid "Identity name:"
 msgstr ""
 
-#: identityOptions
-msgid "Identity Options"
-msgstr ""
-
 #. # {0} = identity name, {1} = identity display name, {2} = identity email address
 #. # {3} = primary name, {4} = primary display name, {5} = primary email address
 #: identityTextExternal
@@ -4218,8 +4764,26 @@ msgctxt "identityTextPrimary"
 msgid "{0} ({1} <{2}>)"
 msgstr ""
 
+#: ignoreWord
+msgctxt "ignoreWord"
+msgid "Ignore"
+msgstr ""
+
+#: ignoreWordAll
+msgid "Ignore All"
+msgstr ""
+
 #: im
 msgid "Instant Messaging"
+msgstr ""
+
+#: imLabel
+msgid "IM:"
+msgstr ""
+
+#: imAccounts
+msgctxt "imAccounts"
+msgid "Accounts"
 msgstr ""
 
 #: imAddress
@@ -4234,8 +4798,20 @@ msgstr ""
 msgid "Add {0} to your buddy list"
 msgstr ""
 
+#: images
+msgid "Images"
+msgstr ""
+
 #: imagesLabel
 msgid "Images:"
+msgstr ""
+
+#: imAnonymousLabel
+msgid "Anonymous:"
+msgstr ""
+
+#: imAnonymousInfo
+msgid "Make users of the room anonymous"
 msgstr ""
 
 #: imArrivalLabel
@@ -4247,6 +4823,14 @@ msgstr ""
 msgid "Block"
 msgstr ""
 
+#: imBootedYahoo
+msgid "You have logged in to Yahoo! Messenger from another location."
+msgstr ""
+
+#: imBuddyArchive
+msgid "View Chat Archive"
+msgstr ""
+
 #: imUnblock
 msgid "Unblock"
 msgstr ""
@@ -4256,24 +4840,45 @@ msgctxt "imChat"
 msgid "Chat"
 msgstr ""
 
-#: imCloseAllTabs
-msgid "Close All Tabs"
+#: imChatTitle
+msgctxt "imChatTitle"
+msgid "{0} ({1})"
 msgstr ""
 
-#: imCloseOtherTabs
-msgid "Close Other Tabs"
+#: imCloseAllChats
+msgid "Close All Chats"
 msgstr ""
 
-#: imCloseTab
-msgid "Close This Tab"
+#: imCloseOtherChats
+msgid "Close Other Chats"
+msgstr ""
+
+#: imCloseChat
+msgid "Close This Chat"
 msgstr ""
 
 #: imCloseWindow
 msgid "Close window"
 msgstr ""
 
+#: imConference
+msgid "Conference"
+msgstr ""
+
+#: imConferenceRooms
+msgid "Conference Rooms"
+msgstr ""
+
+#: imConferences
+msgid "Conferences"
+msgstr ""
+
 #: imConfirmDeleteRosterItem
 msgid "Are you sure you want to delete {0}?"
+msgstr ""
+
+#: imCreateNewGroup
+msgid "Create New Group"
 msgstr ""
 
 #: imCustomStatusMsg
@@ -4296,6 +4901,10 @@ msgstr ""
 
 #: imLeftChat
 msgid "{0} has left the conference"
+msgstr ""
+
+#: imLogoutYahoo
+msgid "Log out of Yahoo! Messenger"
 msgstr ""
 
 #: imInviteNotification
@@ -4329,8 +4938,20 @@ msgstr ""
 msgid "IM Service:"
 msgstr ""
 
-#: imGatewayLogin
-msgid "Log in to External Service"
+#: imGatewayDisconnectedHeader
+msgid ""
+"You have been disconnected from Yahoo! Messenger because you signed in from "
+"another location."
+msgstr ""
+
+#: imGatewayLoggedInHeader
+msgid "You are logged in to Yahoo! Messenger as <b>{0}</b>"
+msgstr ""
+
+#: imGatewayNotLoggedInHeader
+msgid ""
+"You are not logged in to Yahoo! Messenger. Login with your Yahoo! ID and "
+"password below."
 msgstr ""
 
 #: imGwOnlineTooltip
@@ -4349,6 +4970,14 @@ msgstr ""
 msgid "Group Chat"
 msgstr ""
 
+#: imGroupExists
+msgid "A group with that name exists. Please use another name."
+msgstr ""
+
+#: imGroupName
+msgid "Group Name"
+msgstr ""
+
 #: imGroupsLabel
 msgid "Buddy Groups:"
 msgstr ""
@@ -4361,8 +4990,25 @@ msgstr ""
 msgid "Idle"
 msgstr ""
 
+#: imInvitation
+msgid "Invitation"
+msgstr ""
+
+#: imInvitationFrom
+msgid "Invitation from {0}"
+msgstr ""
+
 #: imLoginLabel
 msgid "Login:"
+msgstr ""
+
+#: imLoginDifferent
+msgctxt "imLoginDifferent"
+msgid "Log in as a different user"
+msgstr ""
+
+#: imLogOut
+msgid "Log out"
 msgstr ""
 
 #: imMarkChatImportant
@@ -4378,7 +5024,11 @@ msgid "[{0} chats]"
 msgstr ""
 
 #: imNewBuddy
-msgid "Add \"{0}\" to Buddy List"
+msgid "Add \"{0}\" to Buddy List..."
+msgstr ""
+
+#: imNewBuddyTooltip
+msgid "Create a new buddy"
 msgstr ""
 
 #: imNewChat
@@ -4389,8 +5039,18 @@ msgstr ""
 msgid "Chat with \"{0}\""
 msgstr ""
 
-#: imNewGroupChat
-msgid "New Group Chat"
+#: imNewConferenceRoom
+msgctxt "imNewConferenceRoom"
+msgid "Create a new conference room"
+msgstr ""
+
+#: imNewConferenceRoomTitle
+msgctxt "imNewConferenceRoomTitle"
+msgid "Create a new conference room"
+msgstr ""
+
+#: imNewGroup
+msgid "New Group"
 msgstr ""
 
 #: imNewRosterItemToast
@@ -4419,7 +5079,45 @@ msgstr ""
 #: imNotLoggedIn
 msgid ""
 "You are not logged in to IM. <span class=\"FakeAnchor\" onclick=\"{0}\">Click "
-"here</span> to log in. "
+"here</span> to log in."
+msgstr ""
+
+#: imNotLoggedInPrefs
+msgid ""
+"You must be logged in to IM before you can update IM accounts. <span "
+"class=\"FakeAnchor\" onclick=\"{0}\">Click here</span> to log in."
+msgstr ""
+
+#: imPoweredBy
+msgid "Instant Messaging Powered by"
+msgstr ""
+
+#: imPasswordExpired
+msgid "Your Yahoo! Messenger session has expired. Please log in again."
+msgstr ""
+
+#: imPasswordFailed
+msgid "The Yahoo! ID and password do not match."
+msgstr ""
+
+#: imPasswordFailedTitle
+msgid "Login failed."
+msgstr ""
+
+#: imPasswordInfo
+msgid "You may choose to password protect the room"
+msgstr ""
+
+#: imPasswordMismatch
+msgid "The passwords don't match."
+msgstr ""
+
+#: imPermanentLabel
+msgid "Permanent:"
+msgstr ""
+
+#: imPermanentInfo
+msgid "Preserve the room after all users leave"
 msgstr ""
 
 #: imPrefInstantNotify
@@ -4428,10 +5126,6 @@ msgstr ""
 
 #: imPrefAutoLogin
 msgid "Automatically log in to instant messaging services"
-msgstr ""
-
-#: imPrefFlashIcon
-msgid "Highlight the IM tab"
 msgstr ""
 
 #: imPrefLogChats
@@ -4483,6 +5177,10 @@ msgstr ""
 msgid "Reconnect"
 msgstr ""
 
+#: imRememberYahoo
+msgid "Remember this Yahoo! ID"
+msgstr ""
+
 #: imRemoveRosterItemToast
 msgid "Removed Buddy \"{0}\""
 msgstr ""
@@ -4491,8 +5189,40 @@ msgstr ""
 msgid "Restore chat window"
 msgstr ""
 
+#: imRoomNameLabel
+msgid "Room Name:"
+msgstr ""
+
+#: imRoomNameRequired
+msgid "The room name is empty. It's required."
+msgstr ""
+
+#: imRoomPasswordRequired
+msgid "A password is required to enter the room"
+msgstr ""
+
+#: imRoomPasswordFailed
+msgid "The password is incorrect."
+msgstr ""
+
+#: imRoomSettings
+msgid "Settings for the room"
+msgstr ""
+
 #: imScreenName
 msgid "Screen name:"
+msgstr ""
+
+#: imScreenNameHint
+msgid "Screen Name"
+msgstr ""
+
+#: imScreenNameMsn
+msgid "MSN Passport:"
+msgstr ""
+
+#: imScreenNameYahoo
+msgid "Yahoo! ID:"
 msgstr ""
 
 #: imStatusOffline
@@ -4504,13 +5234,11 @@ msgid "online"
 msgstr ""
 
 #: imStatusGatewayOnline
-msgctxt "imStatusGatewayOnline"
-msgid "{0} ({1})"
+msgid "Logged into {0} as {1}"
 msgstr ""
 
 #: imStatusGatewayOffline
-msgctxt "imStatusGatewayOffline"
-msgid "{0}"
+msgid "Log in to {0}"
 msgstr ""
 
 #: imStatusChat
@@ -4581,7 +5309,7 @@ msgid "You are now logged out of the {0} service"
 msgstr ""
 
 #: imToastGwOnline
-msgid "You are logged into the {0} service "
+msgid "You are logged into the {0} service"
 msgstr ""
 
 #: imToggleOffline
@@ -4590,6 +5318,25 @@ msgstr ""
 
 #: imToggleBlocked
 msgid "Hide Blocked Buddies"
+msgstr ""
+
+#: imYahooLogin
+msgid "Log in to Yahoo! Messenger"
+msgstr ""
+
+#: imYahooLoadError
+msgid ""
+"The Yahoo! Messenger SDK appears to be unable to load. This might be caused "
+"by a slow internet connection. If you are using a Flash blocker, you need to "
+"add this page to its whitelist, then reload the page."
+msgstr ""
+
+#: imYahooMissingFlash
+msgid ""
+"The Adobe Flash Player is required to connect to Yahoo! Messenger. <a "
+"target='_blank' href='http://www.adobe.com/go/getflashplayer/'>Click "
+"here</a> to download and install it. You will need to restart your browser "
+"after the installation is complete."
 msgstr ""
 
 #: imAppTitle
@@ -4617,6 +5364,10 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
+#: importAutoDetect
+msgid "Auto-Detect"
+msgstr ""
+
 #. #importAddrBook = Import Address Book
 #. #importBriefcase = Import Briefcase
 #. #importCalendar = Import Calendar
@@ -4625,14 +5376,6 @@ msgstr ""
 #. #importTaskList = Import Task List
 #: importLabel
 msgid "Import:"
-msgstr ""
-
-#: important
-msgid "Important"
-msgstr ""
-
-#: importAutoDetect
-msgid "Auto-Detect"
 msgstr ""
 
 #: importChoose
@@ -4731,6 +5474,15 @@ msgstr ""
 msgid "Import succeeded."
 msgstr ""
 
+#. # {0} = number of warnings; {1} = HTML list of warning messages
+#: importSuccessWithWarnings
+msgid "Import completed with {0,choice,1#a warning|2#warnings}:<p>{1}"
+msgstr ""
+
+#: importAdditionalWarnings
+msgid "<i>{0,number} more {0,choice,1#warning|2#warnings} reported.</i>"
+msgstr ""
+
 #: importingContacts
 msgid "Importing..."
 msgstr ""
@@ -4745,8 +5497,17 @@ msgctxt "inbox"
 msgid "Inbox"
 msgstr ""
 
+#: folderUnread
+msgctxt "folderUnread"
+msgid "{0} ({1})"
+msgstr ""
+
 #: inlineAttachmentOption
 msgid "Show images in message body"
+msgstr ""
+
+#: includeHeaders
+msgid "Include headers"
 msgstr ""
 
 #: includeInBody
@@ -4773,20 +5534,12 @@ msgstr ""
 msgid "Include Original As Attachment"
 msgstr ""
 
+#: includeMenuBody
+msgid "Include Original Message"
+msgstr ""
+
 #: includeMenuNone
 msgid "Don't Include Original Message"
-msgstr ""
-
-#: includeMenuNoPrefix
-msgid "Include Original"
-msgstr ""
-
-#: includeMenuPrefix
-msgid "Include Original With Prefix"
-msgstr ""
-
-#: includeMenuPrefixFull
-msgid "Include Original With Headers And Prefix"
 msgstr ""
 
 #: includeMenuSmart
@@ -4807,6 +5560,10 @@ msgstr ""
 
 #: includeTrashFolder
 msgid "Include Trash Folder in Searches"
+msgstr ""
+
+#: includeYear
+msgid "Include year"
 msgstr ""
 
 #: inContacts
@@ -4873,6 +5630,10 @@ msgstr ""
 msgid "Insert Images"
 msgstr ""
 
+#: insertImageUrl
+msgid "Insert Image via url"
+msgstr ""
+
 #: insertLink
 msgid "Insert Link"
 msgstr ""
@@ -4933,6 +5694,10 @@ msgstr ""
 msgid "Signature must be at most {0} characters"
 msgstr ""
 
+#: invalidName
+msgid "Invalid name: {0}"
+msgstr ""
+
 #: invitees
 msgid "Invitees"
 msgstr ""
@@ -4941,20 +5706,30 @@ msgstr ""
 msgid "The meeting invitation has been changed or no longer exists."
 msgstr ""
 
+#: inviteForwardingAddress
+msgid "Address to forward invite to"
+msgstr ""
+
 #: invitesAllowAll
 msgid "Allow both internal and external users to invite me to meetings"
 msgstr ""
 
 #: invitesAllowLocal
-msgid "Allow only local users to invite me to meetings"
+msgid "Allow only internal users to invite me to meetings"
 msgstr ""
 
 #: invitesAllowNone
-msgid "Don't let anyone to invite me to meetings"
+msgid "Don't let anyone invite me to meetings"
 msgstr ""
 
 #: invitesAllowSome
-msgid "Allow only the following local users to invite me to meetings:"
+msgid "Allow only the following internal users to invite me to meetings:"
+msgstr ""
+
+#: invitePermissionDenied
+msgid ""
+"<p>You do not have permission to invite the following attendees to a "
+"meeting: <br> {0}</p><p>Save anyway?</p>"
 msgstr ""
 
 #: invitesLabel
@@ -4982,8 +5757,20 @@ msgstr ""
 msgid "\"{0}\" is a recurring appointment."
 msgstr ""
 
+#: isRecurringApptList
+msgid "You have selected recurring appointments."
+msgstr ""
+
 #: isRecurringTask
 msgid "\"{0}\" is a recurring task."
+msgstr ""
+
+#: isReplied
+msgid "is replied"
+msgstr ""
+
+#: isRequested
+msgid "is requested"
 msgstr ""
 
 #: isVisible
@@ -4994,12 +5781,24 @@ msgstr ""
 msgid "{0,number} {0,choice,1#Item|2#Items} Copied"
 msgstr ""
 
+#. # {0} = number {1} = type, eg "50+ messages"
+#: itemCount
+msgctxt "itemCount"
+msgid "{0} {1}"
+msgstr ""
+
+#. # {0} = number {1} = total {2} = type, eg "50 of 278 contacts"
+#: itemCount1
+msgid "{0} of {1} {2}"
+msgstr ""
+
 #: items
 msgid "Items"
 msgstr ""
 
-#: itemsPerPage
-msgid "Number of items to display per page"
+#. # {0} = number of items {1} type, eg "50 messages"
+#: itemsProcessed
+msgid "{0} {1} processed"
 msgstr ""
 
 #: itemTemplate
@@ -5020,6 +5819,10 @@ msgstr ""
 
 #: junk
 msgid "Junk"
+msgstr ""
+
+#: junkMailOptions
+msgid "Junk Mail Options"
 msgstr ""
 
 #: junkTooltip
@@ -5043,7 +5846,7 @@ msgid "Key"
 msgstr ""
 
 #: keyboardShortcuts
-msgid "Keyboard Shortcuts"
+msgid "Zimbra Keyboard Shortcuts"
 msgstr ""
 
 #: kilobytes
@@ -5059,14 +5862,6 @@ msgstr ""
 msgid "Language:"
 msgstr ""
 
-#: language_ENGLISH
-msgid "English"
-msgstr ""
-
-#: language_SPANISH
-msgid "Spanish"
-msgstr ""
-
 #: larger
 msgid "is larger than"
 msgstr ""
@@ -5075,12 +5870,24 @@ msgstr ""
 msgid "Last Modified:"
 msgstr ""
 
+#: lastMonth
+msgid "Last Month"
+msgstr ""
+
 #: lastSaved
 msgid "Last Saved"
 msgstr ""
 
 #: lastSync
-msgid "Last Sync:"
+msgid "Last Sync"
+msgstr ""
+
+#: lastWeek
+msgid "Last Week"
+msgstr ""
+
+#: lastYear
+msgid "Last Year"
 msgstr ""
 
 #: layout
@@ -5115,6 +5922,10 @@ msgstr ""
 
 #: linkProperties
 msgid "Link Properties"
+msgstr ""
+
+#: linkTitleOptionalLabel
+msgid "Link title (optional):"
 msgstr ""
 
 #: linkTitleLabel
@@ -5203,6 +6014,7 @@ msgid ""
 msgstr ""
 
 #: loginAsDiff
+msgctxt "loginAsDiff"
 msgid "Log in as a different user"
 msgstr ""
 
@@ -5271,16 +6083,16 @@ msgstr ""
 msgid "Could not send message: {0}"
 msgstr ""
 
-#: mailShortcuts
-msgid "Mail Folder Shortcuts"
-msgstr ""
-
 #: mailSignature
 msgid "Mail Signature:"
 msgstr ""
 
 #: makeLabel
 msgid "{0}:"
+msgstr ""
+
+#: mandatorySpellcheck
+msgid "Mandatory spellcheck before sending a message."
 msgstr ""
 
 #: manualSignature
@@ -5341,6 +6153,10 @@ msgstr ""
 
 #: meetingStatus
 msgid "Meeting Status"
+msgstr ""
+
+#: meetingStatusUnknown
+msgid "Could not find meeting details. Status for this slot is free."
 msgstr ""
 
 #: megabytes
@@ -5430,10 +6246,6 @@ msgctxt "middle"
 msgid "Middle"
 msgstr ""
 
-#: mine
-msgid "Mine"
-msgstr ""
-
 #: minimumCapacity
 msgid "Minimum Capacity"
 msgstr ""
@@ -5468,22 +6280,16 @@ msgid ""
 "after the installation is complete."
 msgstr ""
 
-#. # {0} is organizer type, {1} is shortcut number
-#: missingShortcutNumber
-msgid "Missing shortcut for {0} \"{1}\""
-msgstr ""
-
-#. # {0} is organizer type, {1} is organizer name
-#: missingShortcutOrg
-msgid "No {0} provided for shortcut {1}"
-msgstr ""
-
 #: misspelling
 msgid "misspelling"
 msgstr ""
 
 #: misspellings
 msgid "misspellings"
+msgstr ""
+
+#: misspellingsMessage
+msgid "{0} misspellings found. Do you want to correct them?"
 msgstr ""
 
 #: misspellingsResult
@@ -5493,6 +6299,99 @@ msgstr ""
 #: mobile
 msgctxt "mobile"
 msgid "Mobile"
+msgstr ""
+
+#: mobileDevice
+msgid "Device"
+msgstr ""
+
+#: mobileDeviceId
+msgid "Device ID"
+msgstr ""
+
+#: mobileDevices
+msgid "Mobile Devices"
+msgstr ""
+
+#: mobileDeviceChangesSavedImmediately
+msgid "Note: Changes to mobile devices are saved immediately."
+msgstr ""
+
+#: mobileDeviceWipeConfirm
+msgid ""
+"Are you sure you want to wipe the contents of your lost or stolen device? "
+"(This device will be restored to the factory default settings.)"
+msgstr ""
+
+#: mobileFirstReqReceived
+msgid "Device registration"
+msgstr ""
+
+#: mobileLastPolicyUpdate
+msgid "Last policy update"
+msgstr ""
+
+#: mobileProtocolVersion
+msgid "Protocol version"
+msgstr ""
+
+#: mobileProvisionable
+msgid "Provisionable"
+msgstr ""
+
+#: mobileRemoteWipeAck
+msgid "Remote wipe confirmed"
+msgstr ""
+
+#: mobileRemoteWipeReq
+msgctxt "mobileRemoteWipeReq"
+msgid "Remote wipe requested"
+msgstr ""
+
+#: mobileRemoveFromList
+msgid "Remove from List"
+msgstr ""
+
+#: mobileResumeSync
+msgid "Resume Sync"
+msgstr ""
+
+#: mobileStatusNeedProvision
+msgid "Needs provisioning"
+msgstr ""
+
+#: mobileStatusOk
+msgctxt "mobileStatusOk"
+msgid "OK"
+msgstr ""
+
+#: mobileStatusSuspended
+msgid "Suspended"
+msgstr ""
+
+#: mobileStatusWipe
+msgctxt "mobileStatusWipe"
+msgid "Remote wipe requested"
+msgstr ""
+
+#: mobileStatusWipeComplete
+msgid "Remote wipe completed"
+msgstr ""
+
+#: mobileSuspendSync
+msgid "Suspend Sync"
+msgstr ""
+
+#: mobileUserAgent
+msgid "User agent"
+msgstr ""
+
+#: mobileWipe
+msgid "Wipe All Data from Device"
+msgstr ""
+
+#: mobileWipeCancel
+msgid "Cancel Pending Wipe"
 msgstr ""
 
 #: modifyApptQuestion
@@ -5556,12 +6455,10 @@ msgid "More Details..."
 msgstr ""
 
 #: moreVoiceControlsLabel
-msgctxt "moreVoiceControlsLabel"
 msgid "Need more controls over your voice service?"
 msgstr ""
 
 #: moreVoiceControlsText
-msgctxt "moreVoiceControlsText"
 msgid "Visit the Digital Voice Center"
 msgstr ""
 
@@ -5575,6 +6472,10 @@ msgstr ""
 
 #: mountCalendar
 msgid "Link to Shared Calendar"
+msgstr ""
+
+#: mountedSharesTitle
+msgid "Folders shared with me that I have accepted"
 msgstr ""
 
 #: mountFolder
@@ -5610,8 +6511,20 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
+#: moveAcrossAccountWarning
+msgid "You are moving items across accounts. Are you sure?"
+msgstr ""
+
 #: moveAddrBook
 msgid "Move Address Book \"{0}\""
+msgstr ""
+
+#: moveAppt
+msgid "Move Appointment"
+msgstr ""
+
+#: moveAppts
+msgid "Move Appointments"
 msgstr ""
 
 #: moveItem
@@ -5640,6 +6553,12 @@ msgstr ""
 
 #: moveMessages
 msgid "Move Messages"
+msgstr ""
+
+#: moveReadonly
+msgid ""
+"You have selected one or more appointments which are read only. These "
+"appointments cannot be moved."
 msgstr ""
 
 #: moveSearch
@@ -5679,8 +6598,12 @@ msgstr ""
 msgid "Microsoft Excel"
 msgstr ""
 
-#: msWinmailDat
-msgid "Microsoft Outlook (TNEF)"
+#: msExchange
+msgid "Microsoft Exchange"
+msgstr ""
+
+#: msLive
+msgid "Microsoft Live"
 msgstr ""
 
 #: msPPTDocument
@@ -5693,6 +6616,10 @@ msgstr ""
 
 #: msVisioDocument
 msgid "Microsoft Visio"
+msgstr ""
+
+#: msWinmailDat
+msgid "Microsoft Outlook (TNEF)"
 msgstr ""
 
 #: msWMV
@@ -5715,20 +6642,6 @@ msgstr ""
 msgid "{0} attachments"
 msgstr ""
 
-#: myCardWork
-msgctxt "myCardWork"
-msgid "Work"
-msgstr ""
-
-#: myCard
-msgid "My Card"
-msgstr ""
-
-#: myCardHome
-msgctxt "myCardHome"
-msgid "Home"
-msgstr ""
-
 #: myContacts
 msgid "My Contacts"
 msgstr ""
@@ -5740,6 +6653,10 @@ msgstr ""
 #: _name
 msgctxt "_name"
 msgid "Name"
+msgstr ""
+
+#: _new
+msgid "New"
 msgstr ""
 
 #: name
@@ -5777,12 +6694,32 @@ msgctxt "needsAction"
 msgid "Needs Action"
 msgstr ""
 
+#: networkChangeOffline
+msgid "Network connection lost. You are now offline."
+msgstr ""
+
+#: networkChangeOnline
+msgid "Network connection found. You are back online."
+msgstr ""
+
+#: networkStatusOffline
+msgid "Click here to go offline"
+msgstr ""
+
+#: networkStatusOnline
+msgid "Click here to go online"
+msgstr ""
+
 #: neverShow
 msgid "never show"
 msgstr ""
 
-#: _new
-msgid "New"
+#: neverSynced
+msgid "This account has not been synced. Click Send/Receive to start sync."
+msgstr ""
+
+#: neverSyncedAsk
+msgid "This account has not been synced. Would you like to sync it now?"
 msgstr ""
 
 #: newAddrBook
@@ -5814,8 +6751,16 @@ msgstr ""
 msgid "New Briefcase"
 msgstr ""
 
+#: newBriefcaseTooltip
+msgid "Create a new briefcase"
+msgstr ""
+
 #: newCalendar
 msgid "New Calendar"
+msgstr ""
+
+#: newCalendarTooltip
+msgid "Create a new calendar"
 msgstr ""
 
 #: newContact
@@ -5825,6 +6770,10 @@ msgstr ""
 #: newContactTooltip
 msgctxt "newContactTooltip"
 msgid "Create a new contact"
+msgstr ""
+
+#: newDocument
+msgid "New Document"
 msgstr ""
 
 #: newEmail
@@ -5905,6 +6854,10 @@ msgctxt "newNotebook"
 msgid "New Notebook"
 msgstr ""
 
+#: newNotebookTooltip
+msgid "Create a new notebook"
+msgstr ""
+
 #: newPage
 msgid "New Page"
 msgstr ""
@@ -5922,6 +6875,14 @@ msgstr ""
 msgid "New Account {0}"
 msgstr ""
 
+#: newPresentation
+msgid "New Presentation"
+msgstr ""
+
+#: newPresentationBeta
+msgid "New Presentation [beta]"
+msgstr ""
+
 #: newRosterItem
 msgid "New Buddy"
 msgstr ""
@@ -5933,6 +6894,14 @@ msgstr ""
 #: newSection
 msgctxt "newSection"
 msgid "New Notebook"
+msgstr ""
+
+#: newSpreadSheet
+msgid "New Spreadsheet"
+msgstr ""
+
+#: newSpreadSheetBeta
+msgid "New Spreadsheet [beta]"
 msgstr ""
 
 #: newStatusMessage
@@ -5968,8 +6937,17 @@ msgctxt "newTaskTooltip"
 msgid "Create a new task"
 msgstr ""
 
+#: newTimeProposed
+msgctxt "newTimeProposed"
+msgid "New Time Proposed"
+msgstr ""
+
 #: newWinComposeExit
 msgid "You can press Cancel to save as draft."
+msgstr ""
+
+#: newWindow
+msgid "New Window"
 msgstr ""
 
 #: next
@@ -6020,16 +6998,36 @@ msgstr ""
 msgid "No results found."
 msgstr ""
 
+#: noFreeSlotFound
+msgid "No free time slots found with on selected week range"
+msgstr ""
+
+#: noForwardAddresses
+msgid "There must be at least one address in the To: field"
+msgstr ""
+
 #: noItems
 msgid "No {0}"
+msgstr ""
+
+#: noItemsFound
+msgid "No Items Found"
 msgstr ""
 
 #: noMisspellingsFound
 msgid "Spelling Correct"
 msgstr ""
 
+#: noMeetingsFound
+msgid "No meetings found"
+msgstr ""
+
 #: noName
 msgid "<No Name>"
+msgstr ""
+
+#: noShareDetailsFound
+msgid "No share details found"
 msgstr ""
 
 #: noSubject
@@ -6043,11 +7041,6 @@ msgstr ""
 #: none
 msgctxt "none"
 msgid "None"
-msgstr ""
-
-#. # {0} is organizer type, {1} is organizer name
-#: nonnumericShortcut
-msgid "The shortcut for the {0} \"{1}\" is not numeric"
 msgstr ""
 
 #: normal
@@ -6102,10 +7095,6 @@ msgstr ""
 msgid "File List"
 msgstr ""
 
-#: notebookFolder
-msgid "Notebook Folder"
-msgstr ""
-
 #: notebookLabel
 msgid "Notebook:"
 msgstr ""
@@ -6148,12 +7137,36 @@ msgstr ""
 msgid "does not exist"
 msgstr ""
 
+#: notify
+msgid "Notify"
+msgstr ""
+
+#: notifyOrganizer
+msgid "Notify organizer"
+msgstr ""
+
+#: notifyOrganizerLabel
+msgid "Notify Organizer"
+msgstr ""
+
+#: notifyNewMailOnInbox
+msgid "Only when new mail arrives in my Inbox"
+msgstr ""
+
+#: notifyNewMailOnAny
+msgid "When new mail arrives in any folder (excluding Junk and Trash)"
+msgstr ""
+
 #: notIn
 msgid "not in"
 msgstr ""
 
 #: notIs
 msgid "is not"
+msgstr ""
+
+#: nothingToTag
+msgid "The items you have selected cannot be tagged."
 msgstr ""
 
 #: notMatch
@@ -6181,9 +7194,7 @@ msgid "not under"
 msgstr ""
 
 #: noVoiceMail
-msgid ""
-"Voice mail is not available but you can still access call logs and calling "
-"management features in the call manager preferences."
+msgid "Voice mail is not available."
 msgstr ""
 
 #: number
@@ -6227,11 +7238,16 @@ msgid "Use Zimbra Desktop as default mail application"
 msgstr ""
 
 #: offlineQuota
-msgid "Mailbox size: {0}"
+msgid "Mailbox size:"
 msgstr ""
 
 #: ok
+msgctxt "ok"
 msgid "OK"
+msgstr ""
+
+#: old
+msgid "Old"
 msgstr ""
 
 #: oldPasswordIsIncorrect
@@ -6254,6 +7270,10 @@ msgstr ""
 msgid "On Behalf Of:"
 msgstr ""
 
+#: onBehalfOfText
+msgid "on behalf of <b>{0}</b>"
+msgstr ""
+
 #: onlyWholeNumbersError
 msgid "Only whole numbers are accepted"
 msgstr ""
@@ -6274,6 +7294,19 @@ msgstr ""
 #: saveFile
 msgctxt "saveFile"
 msgid "Download"
+msgstr ""
+
+#: open
+msgctxt "open"
+msgid "Open"
+msgstr ""
+
+#: openApptInstance
+msgid "Open Instance"
+msgstr ""
+
+#: openApptSeries
+msgid "Open Series"
 msgstr ""
 
 #: openInstance
@@ -6305,6 +7338,20 @@ msgid "Open the series"
 msgstr ""
 
 #. # Don't use "options" for "Preferences".  Use "preferences" instead!
+#: optionalAttendee
+msgid "Optional Attendee"
+msgstr ""
+
+#: optionalAttendees
+msgctxt "optionalAttendees"
+msgid "Optional"
+msgstr ""
+
+#: optionalInvitees
+msgctxt "optionalInvitees"
+msgid "Optional"
+msgstr ""
+
 #: options
 msgid "Options"
 msgstr ""
@@ -6329,18 +7376,22 @@ msgstr ""
 msgid "Organizer:"
 msgstr ""
 
+#: organizerNotification
+msgid "Do you want to notify organizer?"
+msgstr ""
+
 #: orgChange
 msgid ""
 "This will change the organizer to \"{0}\" and attendees will be notified. "
 "Continue?"
 msgstr ""
 
-#: originalFormat
-msgid "Format of the original message"
+#: originalAppointment
+msgid "Original Appointment"
 msgstr ""
 
-#: origMsg
-msgid "Original Message"
+#: originalFormat
+msgid "Format of the original message"
 msgstr ""
 
 #: orPickAStyleBelow
@@ -6357,10 +7408,12 @@ msgid "Other:"
 msgstr ""
 
 #: owner
+msgctxt "owner"
 msgid "Owner"
 msgstr ""
 
 #: ownerLabel
+msgctxt "ownerLabel"
 msgid "Owner:"
 msgstr ""
 
@@ -6418,6 +7471,10 @@ msgstr ""
 msgid "Page:"
 msgstr ""
 
+#: pageSizeLabel
+msgid "Number of items to fetch when scrolling:"
+msgstr ""
+
 #: parentFolderLabel
 msgid "Parent:"
 msgstr ""
@@ -6432,6 +7489,10 @@ msgstr ""
 
 #: password
 msgid "Password"
+msgstr ""
+
+#: passwordConfirmLabel
+msgid "Confirm Password:"
 msgstr ""
 
 #: passwordLabel
@@ -6463,6 +7524,10 @@ msgstr ""
 msgid "% Complete"
 msgstr ""
 
+#: pendingSharesTitle
+msgid "Folders that have been shared with me but not yet accepted"
+msgstr ""
+
 #: percent
 msgid "Percent"
 msgstr ""
@@ -6473,6 +7538,10 @@ msgstr ""
 
 #: permissions
 msgid "Permissions:"
+msgstr ""
+
+#: personaSettings
+msgid "Persona Settings"
 msgstr ""
 
 #: personaWhenSentTo
@@ -6487,8 +7556,16 @@ msgstr ""
 msgid "Personal"
 msgstr ""
 
+#: personas
+msgid "Personas"
+msgstr ""
+
 #: phone
 msgid "Phone"
+msgstr ""
+
+#: phoneLabel
+msgid "Phone:"
 msgstr ""
 
 #: phone2
@@ -6542,6 +7619,16 @@ msgctxt "phoneLabelOther"
 msgid "Other"
 msgstr ""
 
+#: phoneLabelOtherFax
+msgctxt "phoneLabelOtherFax"
+msgid "Other Fax"
+msgstr ""
+
+#: phoneLabelPager
+msgctxt "phoneLabelPager"
+msgid "Pager"
+msgstr ""
+
 #: phoneLabelWork
 msgctxt "phoneLabelWork"
 msgid "Work"
@@ -6549,6 +7636,15 @@ msgstr ""
 
 #: phoneLabelWork2
 msgid "Work 2"
+msgstr ""
+
+#: phoneLabelWorkFax
+msgctxt "phoneLabelWorkFax"
+msgid "Work Fax"
+msgstr ""
+
+#: phoneNumberHint
+msgid "Phone Number"
 msgstr ""
 
 #: phoneNumbers
@@ -6773,7 +7869,7 @@ msgid "Prefix:"
 msgstr ""
 
 #: prefixTextWith
-msgid "Prefix included messages with:"
+msgid "Prefix included text with:"
 msgstr ""
 
 #: preformatted
@@ -6782,6 +7878,35 @@ msgstr ""
 
 #: presenceTooltip
 msgid "Your current instant messaging status is: {0}"
+msgstr ""
+
+#: presenceTooltipYahoo
+msgid "You are logged in to Yahoo! Messenger as {0}. Your status is: {1}."
+msgstr ""
+
+#: presenceTooltipYahooLoggedOut
+msgid "You are not logged in to Yahoo! Messenger."
+msgstr ""
+
+#: presentations
+msgid "Presentations"
+msgstr ""
+
+#: presentation
+msgctxt "presentation"
+msgid "Presentation"
+msgstr ""
+
+#: presentationName
+msgid "Presentation Name"
+msgstr ""
+
+#: preview
+msgid "Preview"
+msgstr ""
+
+#: previewView
+msgid "Preview View"
 msgstr ""
 
 #: previous
@@ -6844,6 +7969,14 @@ msgstr ""
 msgid "Print Results"
 msgstr ""
 
+#: printTask
+msgid "Print selected task(s)"
+msgstr ""
+
+#: printTaskFolder
+msgid "Print Task Folder"
+msgstr ""
+
 #: printTooltip
 msgid "Print selected item"
 msgstr ""
@@ -6876,16 +8009,25 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
-#: projects
-msgid "Projects"
-msgstr ""
-
 #: properties
 msgid "Properties"
 msgstr ""
 
+#: proposedTime
+msgid "Proposed Time"
+msgstr ""
+
+#: proposedTimeLabel
+msgid "Proposed Time:"
+msgstr ""
+
+#: proposeNewTime
+msgctxt "proposeNewTime"
+msgid "Propose New Time"
+msgstr ""
+
 #: pt
-msgid "pt"
+msgid "{0}pt"
 msgstr ""
 
 #: ptstAccept
@@ -6927,6 +8069,7 @@ msgid "Public"
 msgstr ""
 
 #: purple
+msgctxt "purple"
 msgid "Purple"
 msgstr ""
 
@@ -6962,16 +8105,54 @@ msgstr ""
 msgid "Read"
 msgstr ""
 
-#: readingPane
-msgid "Reading Pane"
+#: readingPaneAtBottom
+msgid "Reading Pane At The Bottom"
 msgstr ""
 
 #: readingPaneOff
 msgid "Reading Pane Off"
 msgstr ""
 
-#: readingPaneOn
-msgid "Reading Pane On"
+#: readingPaneOnRight
+msgid "Reading Pane On The Right"
+msgstr ""
+
+#: readReceipt
+msgid "Read Receipt:"
+msgstr ""
+
+#: readReceiptAddress
+msgid "Read Receipt Address:"
+msgstr ""
+
+#: readReceiptAlways
+msgid "Always send a read receipt"
+msgstr ""
+
+#: readReceiptAsk
+msgid "Ask me"
+msgstr ""
+
+#: readReceiptFilter
+msgid "Is a read receipt"
+msgstr ""
+
+#: readReceiptNever
+msgid "Never send a read receipt"
+msgstr ""
+
+#: readReceiptPref
+msgid "When I receive a request for a read receipt"
+msgstr ""
+
+#: readReceiptSend
+msgid ""
+"The sender of this message has requested to be notified when you read this "
+"message.<br><br>Do you wish to notify the sender?"
+msgstr ""
+
+#: readReceiptSent
+msgid "A read receipt was sent for this message."
 msgstr ""
 
 #: recurrence
@@ -7000,6 +8181,10 @@ msgstr ""
 msgid "Refresh"
 msgstr ""
 
+#: refreshFilters
+msgid "Refresh Filters"
+msgstr ""
+
 #: refreshTooltip
 msgid "Refresh the selected item"
 msgstr ""
@@ -7010,6 +8195,10 @@ msgstr ""
 
 #: rememberMe
 msgid "Remember me on this computer"
+msgstr ""
+
+#: rememberMeMobile
+msgid "Remember me"
 msgstr ""
 
 #: reminder
@@ -7128,6 +8317,10 @@ msgstr ""
 msgid "Remove All"
 msgstr ""
 
+#: removeAllAttachments
+msgid "Remove all attachments"
+msgstr ""
+
 #: removed
 msgid "Removed:"
 msgstr ""
@@ -7182,7 +8375,7 @@ msgid "Replace All"
 msgstr ""
 
 #: replaceAllMenu
-msgid "Replace all ({0} occurrences)"
+msgid "All {0} occurrences"
 msgstr ""
 
 #: replaceWithLabel
@@ -7240,6 +8433,7 @@ msgid "When replying:"
 msgstr ""
 
 #: replyNewTime
+msgctxt "replyNewTime"
 msgid "Propose New Time"
 msgstr ""
 
@@ -7300,8 +8494,20 @@ msgstr ""
 msgid "Unable to send report."
 msgstr ""
 
+#: requestReadReceipt
+msgid "Request Read Receipt"
+msgstr ""
+
 #: requestResponses
 msgid "Request Responses"
+msgstr ""
+
+#: requiredAttendee
+msgid "Required Attendee"
+msgstr ""
+
+#: requiredInvitees
+msgid "Required"
 msgstr ""
 
 #: resend
@@ -7312,8 +8518,18 @@ msgstr ""
 msgid "Share Notice Sent"
 msgstr ""
 
+#: reset
+msgctxt "reset"
+msgid "Reset"
+msgstr ""
+
 #: resolveDuplicateIgnore
+msgctxt "resolveDuplicateIgnore"
 msgid "Ignore"
+msgstr ""
+
+#: resolveDuplicateModify
+msgid "Modify"
 msgstr ""
 
 #: resolveDuplicateReplace
@@ -7328,6 +8544,24 @@ msgstr ""
 
 #: resolveDuplicatesLabel
 msgid "Resolve duplicates:"
+msgstr ""
+
+#: resourceConflictIgnore
+msgid "Ignore Conflicts and Book"
+msgstr ""
+
+#: resourceConflictInfo
+msgid ""
+"The selected resources/location might already be scheduled on the following "
+"instances"
+msgstr ""
+
+#: resourceConflictLabel
+msgid "Conflicting Resources"
+msgstr ""
+
+#: resourceAttendee
+msgid "Resource"
 msgstr ""
 
 #: resources
@@ -7354,6 +8588,10 @@ msgstr ""
 msgid "Revert"
 msgstr ""
 
+#: revertTimeChanges
+msgid "Revert Time Changes"
+msgstr ""
+
 #: revoke
 msgid "Revoke"
 msgstr ""
@@ -7374,7 +8612,12 @@ msgstr ""
 msgid "Right-click for more options."
 msgstr ""
 
+#: leftClickYahoohint
+msgid "Click to visit user's Yahoo! profile"
+msgstr ""
+
 #: role
+msgctxt "role"
 msgid "Role"
 msgstr ""
 
@@ -7406,6 +8649,10 @@ msgstr ""
 msgid "running"
 msgstr ""
 
+#: runSlideShow
+msgid "Run Slide Show"
+msgstr ""
+
 #: save
 msgid "Save"
 msgstr ""
@@ -7435,6 +8682,20 @@ msgstr ""
 msgid "Keep <b>their</b> copy of the file,<br>discarding my changes."
 msgstr ""
 
+#: saveConflictDoc
+msgid "Document with name \"{0}\" already exists. Please use a different name."
+msgstr ""
+
+#: saveConflictPresentation
+msgid ""
+"Presentation with name \"{0}\" already exists. Please use a different name."
+msgstr ""
+
+#: saveConflictSpreadsheet
+msgid ""
+"Spreadsheet with name \"{0}\" already exists. Please use a different name."
+msgstr ""
+
 #: saveConflictViewTheirs
 msgid "View Their File"
 msgstr ""
@@ -7445,6 +8706,10 @@ msgstr ""
 
 #: saveCurrentSearch
 msgid "Save the current search"
+msgstr ""
+
+#: saveContactTooltip
+msgid "Save the current contact"
 msgstr ""
 
 #: savedAppointment
@@ -7459,12 +8724,24 @@ msgstr ""
 msgid "Save message to Drafts folder"
 msgstr ""
 
+#: savedDoc
+msgid "Document Saved"
+msgstr ""
+
+#: savedPresentation
+msgid "Presentation Saved"
+msgstr ""
+
 #: savedSearch
 msgid "Saved Search"
 msgstr ""
 
 #: savedSearches
 msgid "Saved Searches"
+msgstr ""
+
+#: savedSpreadsheet
+msgid "Spreadsheet Saved"
 msgstr ""
 
 #: saveIn
@@ -7496,7 +8773,17 @@ msgctxt "schedule"
 msgid "Schedule"
 msgstr ""
 
+#: scriptError
+msgid "Script Error"
+msgstr ""
+
 #: search
+msgctxt "search"
+msgid "Search"
+msgstr ""
+
+#: searchInput
+msgctxt "searchInput"
 msgid "Search"
 msgstr ""
 
@@ -7507,6 +8794,10 @@ msgstr ""
 #. #searchAll = Search All
 #: searchAll
 msgid "All Item Types"
+msgstr ""
+
+#: searchAllAccounts
+msgid "Search All Accounts"
 msgstr ""
 
 #: searchAppts
@@ -7585,6 +8876,10 @@ msgstr ""
 
 #: searchFilterHint
 msgid "e.g. has:attachment"
+msgstr ""
+
+#: searchScope
+msgid "Search Scope"
 msgstr ""
 
 #: searchSettingsLabel
@@ -7684,10 +8979,6 @@ msgstr ""
 msgid "Include Shared Items"
 msgstr ""
 
-#: searchShortcuts
-msgid "Saved Search Shortcuts"
-msgstr ""
-
 #: searchTasks
 msgid "Search Tasks"
 msgstr ""
@@ -7698,6 +8989,7 @@ msgstr ""
 
 #. # {0} = search input field, {1} = search type selector
 #: searchVoicemails
+msgctxt "searchVoicemails"
 msgid "Voice Mails"
 msgstr ""
 
@@ -7714,12 +9006,37 @@ msgstr ""
 msgid "Selection"
 msgstr ""
 
-#: selectBuddyOrContact
-msgid "Select Buddy or Contact"
+#: selectionColumn
+msgid ""
+"Click to select all items on page. Shift-click to select all search results."
+msgstr ""
+
+#: selectAdapt
+msgid "Select based on whether I was moving up or down in the list"
 msgstr ""
 
 #: selectAddresses
 msgid "Select Addresses"
+msgstr ""
+
+#: selectAddrNone
+msgid ""
+"Sorting on recipient is currently unavailable. You can search by recipient "
+"by selecting one or more messages, and then clicking the \"To\" header."
+msgstr ""
+
+#: selectAddrText
+msgid ""
+"Sorting on recipient is currently unavailable. Instead, you may select one "
+"of the addresses below to search on."
+msgstr ""
+
+#: selectAfterDeleteLabel
+msgid "After I move or delete a message:"
+msgstr ""
+
+#: selectBuddyOrContact
+msgid "Select Buddy or Contact"
 msgstr ""
 
 #: selectContact
@@ -7730,127 +9047,44 @@ msgstr ""
 msgid "Select this identity when:"
 msgstr ""
 
-#: selectiveCallForwardingFromDescription
-msgid "Forward <b>only</b> calls from the following numbers:"
-msgstr ""
-
-#: selectiveCallForwardingToDescription
-msgid "To this number:"
+#: selectiveCallForwardingDescription
+msgid "Forward <b>only</b> the following numbers to:"
 msgstr ""
 
 #: selectiveCallForwardingError
-msgid "The selective call forwarding number is invalid. {0}"
+msgid "The selective call forwarding number is invalid"
 msgstr ""
 
-#: selectiveCallForwardingFromErrorMin
-msgid "There must be at least one number to forward calls from. {0}"
+#: selectiveCallForwardingFromError
+msgid "There must be at least one number to forward calls from"
 msgstr ""
 
-#: selectiveCallForwardingFromErrorMax
-msgid "You may only specify 12 numbers to forward calls from. {0}"
-msgstr ""
-
-#: selectiveCallForwardingFromErrorSameAsTo
-msgid "You cannot add the \"forwarding to\" number to the list"
-msgstr ""
-
-#: selectiveCallForwardingToErrorInList
-msgid ""
-"Sorry, you entered a telephone number that is already added. Please enter "
-"another valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0398"
-msgstr ""
-
-#: selectiveCallForwardingErrorCannotAdd
-msgid ""
-"Could not add the number. You must specify a number to forward calls to in "
-"the voicemail preferences."
-msgstr ""
-
-#: selectiveCallForwardingEmptyToDialog
-msgid ""
-"Warning. This will permanently remove all phone numbers in the "
-"&quot;From&quot; field.<br>Click &quot;OK&quot; to proceed. <br>To save the "
-"&quot;From&quot; phone numbers for future use, select &quot;Cancel&quot; and "
-"leave a valid phone number in the &quot;To&quot; field."
+#: selectiveCallForwardingHeader
+msgid "Forward Calls From"
 msgstr ""
 
 #: selectiveCallForwardingLabel
-msgid "Selective Forwarding:"
+msgid "Selective Call Forwarding:"
 msgstr ""
 
 #: selectiveCallForwardingRules
 msgid "(You may forward up to 12 numbers)"
 msgstr ""
 
-#: selectiveCallForwardingAddFrom
-msgctxt "selectiveCallForwardingAddFrom"
-msgid "Add this number:"
-msgstr ""
-
-#: selectiveCallRejectionFromDescription
-msgctxt "selectiveCallRejectionFromDescription"
-msgid "Screen <b>only</b> the following numbers:"
-msgstr ""
-
-#: selectiveCallRejectionError
-msgid "The selective call rejection number is invalid. {0}"
-msgstr ""
-
-#: selectiveCallRejectionFromErrorMin
-msgid "There must be at least one number to to reject calls from. {0}"
-msgstr ""
-
-#: selectiveCallRejectionFromErrorMax
-msgid "You may only specify 12 numbers to reject calls from. {0}"
-msgstr ""
-
-#: selectiveCallRejectionLabel
-msgid "Selective Call Rejection:"
-msgstr ""
-
-#: selectiveCallRejectionRules
-msgid "(You may reject calls from up to 12 numbers)"
-msgstr ""
-
-#: selectiveCallRejectionAddFrom
-msgctxt "selectiveCallRejectionAddFrom"
-msgid "Add this number:"
-msgstr ""
-
-#: selectiveCallAcceptanceFromDescription
-msgctxt "selectiveCallAcceptanceFromDescription"
-msgid "Screen <b>only</b> the following numbers:"
-msgstr ""
-
-#: selectiveCallAcceptanceError
-msgid "The selective call acceptance number is invalid"
-msgstr ""
-
-#: selectiveCallAcceptanceFromErrorMin
-msgid "There must be at least one number to to accept calls from. {0}"
-msgstr ""
-
-#: selectiveCallAcceptanceFromErrorMax
-msgid "You may only specify 12 numbers to screen calls from. {0}"
-msgstr ""
-
-#: selectiveCallAcceptanceLabel
-msgid "Selective Call Acceptance:"
-msgstr ""
-
-#: selectiveCallAcceptanceRules
-msgid "(You may screen calls from up to 12 numbers)"
-msgstr ""
-
-#: selectiveCallAcceptanceAddFrom
-msgctxt "selectiveCallAcceptanceAddFrom"
-msgid "Add this number:"
-msgstr ""
-
 #: selectLanguage
-msgctxt "selectLanguage"
 msgid "Language"
+msgstr ""
+
+#: selectNext
+msgid "Select the next message"
+msgstr ""
+
+#: selectPrevious
+msgid "Select the previous message"
+msgstr ""
+
+#: selectSearch
+msgid "Select a saved search"
 msgstr ""
 
 #: selectSkin
@@ -7861,12 +9095,34 @@ msgstr ""
 msgid "Timezone"
 msgstr ""
 
+#: selectTimezoneInfo
+msgid ""
+"We are unable to identify the timezone in your area, please choose the "
+"timezone from list"
+msgstr ""
+
+#: selectTimezoneLabel
+msgid "Timezone:"
+msgstr ""
+
+#: selectTimezoneIShowAll
+msgid "Show all known timezones"
+msgstr ""
+
+#: selectTimezoneTitle
+msgid "Select Timezone    "
+msgstr ""
+
 #: sellEmail
 msgid "You are not authorized to send email."
 msgstr ""
 
 #: send
 msgid "Send"
+msgstr ""
+
+#: sendAsAttachment
+msgid "Send as attachment(s)"
 msgstr ""
 
 #: sender
@@ -7911,15 +9167,28 @@ msgstr ""
 msgid "The send from address field is not a valid email address"
 msgstr ""
 
+#: sendLink
+msgid "Send link(s)"
+msgstr ""
+
 #: sendMailAboutShareNote
 msgid ""
 "<b>Note:</b> The standard message displays your name, the name of the shared "
-"item, permissions you have granted to the recipients, and login "
-"information, if necessary."
+"item, permissions granted to the recipients, and login information, if "
+"necessary."
 msgstr ""
 
 #: sendNoMailAboutShare
 msgid "Do not send mail about this share"
+msgstr ""
+
+#: sendNotificationMail
+msgid "Send Notification Mail"
+msgstr ""
+
+#: sendNotificationMailWarning
+msgid ""
+"Changes made will not be visible to attendees on disabling mail notification"
 msgstr ""
 
 #: sendUpdateTitle
@@ -7978,6 +9247,14 @@ msgstr ""
 msgid "Send by email"
 msgstr ""
 
+#: sendInvDeniedAutoReply
+msgid "Send auto-reply to users who are denied from inviting me"
+msgstr ""
+
+#: sendObo
+msgid "Send this message on behalf of: {0}"
+msgstr ""
+
 #: sentBy
 msgid "Sent By"
 msgstr ""
@@ -8003,19 +9280,16 @@ msgstr ""
 msgid "Reply-to:"
 msgstr ""
 
+#: setStatus
+msgid "Set Status"
+msgstr ""
+
 #: settingsLabel
 msgid "Settings:"
 msgstr ""
 
 #: setup
 msgid "Setup"
-msgstr ""
-
-#: setupOfflineAccts
-msgid ""
-"To further manage this offline account, please visit the <a "
-"href='javascript:;' onclick='ZmZimbraMail.conditionalLogOff();'>Setup "
-"Page</a>."
 msgstr ""
 
 #: share
@@ -8083,6 +9357,14 @@ msgstr ""
 msgid "Share Address Book"
 msgstr ""
 
+#: shareAFolder
+msgid "Share A Folder"
+msgstr ""
+
+#: sharedBySubject
+msgid "{0} shared by {1}"
+msgstr ""
+
 #: shareCalendar
 msgid "Share Calendar"
 msgstr ""
@@ -8093,6 +9375,18 @@ msgstr ""
 
 #: shareFolder
 msgid "Share Folder"
+msgstr ""
+
+#: shareFormText
+msgid ""
+"Folders that have been shared with you are shown below. Once a folder has "
+"been shared with you, you must accept the share and provide a local name for "
+"the folder before it shows up in the overview. Folders that have been "
+"shared with you but which you have not accepted (if any) are shown in a "
+"separate list from shared folders that you have accepted. Folders may be "
+"shared with you in two different ways: they may be shared with a "
+"distribution list which includes you, or they may be shared with you "
+"directly by another user."
 msgstr ""
 
 #. # {0} = grantor name; {1} = shared item name
@@ -8161,7 +9455,8 @@ msgstr ""
 msgid ""
 "URL: {0}\n"
 "Username: {1}\n"
-"Password: {2}"
+"Password: {2}\n"
+"{3}"
 msgstr ""
 
 #: shareWithPublic
@@ -8187,26 +9482,82 @@ msgstr ""
 msgid "Sharing"
 msgstr ""
 
-#: shortcut
-msgid "Shortcut"
+#: sharingByMe
+msgid "Folders shared by me"
 msgstr ""
 
-#. # {0} = first key of combo, {1} = second key
-#: shortcutExample
-msgid "{0} then {1}"
+#: sharingErrorOwnerMissing
+msgid "Owner is a required field"
 msgstr ""
 
-#: shortcutList
-msgid "Shortcut List"
+#: sharingErrorOwnerSelf
+msgid "You cannot search for shares from yourself"
+msgstr ""
+
+#: sharingFolder
+msgctxt "sharingFolder"
+msgid "Folder"
+msgstr ""
+
+#: sharingFolderType
+msgctxt "sharingFolderType"
+msgid "Type"
+msgstr ""
+
+#: sharingGroup
+msgid "Group"
+msgstr ""
+
+#: sharingItem
+msgid "Item"
+msgstr ""
+
+#: sharingOwner
+msgctxt "sharingOwner"
+msgid "Owner"
+msgstr ""
+
+#: sharingOwnerLabel
+msgctxt "sharingOwnerLabel"
+msgid "Owner:"
+msgstr ""
+
+#: sharingRole
+msgctxt "sharingRole"
+msgid "Role"
+msgstr ""
+
+#: sharingWith
+msgid "With"
+msgstr ""
+
+#: sheet
+msgctxt "sheet"
+msgid "Spreadsheets"
+msgstr ""
+
+#: sheetTooltip
+msgctxt "sheetTooltip"
+msgid "Spreadsheets"
 msgstr ""
 
 #: shortcuts
 msgid "Shortcuts"
 msgstr ""
 
-#. # {0} = shortcut example, {1} = resulting action
-#: shortcutTyping
-msgid "Typing {0} {1}"
+#: shortcutsApp
+msgid "Application Shortcuts"
+msgstr ""
+
+#: shortcutsSys
+msgid "System Shortcuts"
+msgstr ""
+
+#: shortcutsCurrent
+msgid ""
+"Listed below are the keyboard shortcuts that are currently available, based "
+"on where you are in the application. To see a comprehensive list of all "
+"keyboard shortcuts, go to Preferences | Shortcuts."
 msgstr ""
 
 #: shouldShowTimezone
@@ -8219,6 +9570,10 @@ msgstr ""
 
 #: showAllItemTypes
 msgid "Show All Item Types"
+msgstr ""
+
+#: showAllMailboxes
+msgid "Show the \"All Mailboxes\" section with my other accounts"
 msgstr ""
 
 #: showAs
@@ -8242,6 +9597,10 @@ msgid "Display snippets of messages in email list:"
 msgstr ""
 
 #. #showFragmentsMsg = Show fragments in message lists
+#: showGroupShares
+msgid "Show folders shared with me through a distribution list"
+msgstr ""
+
 #: showMessage
 msgid "Show Message"
 msgstr ""
@@ -8267,7 +9626,19 @@ msgid "Show password"
 msgstr ""
 
 #: showPopup
+msgctxt "showPopup"
 msgid "Show a popup notification"
+msgstr ""
+
+#: showPopupBrowserPlus
+msgctxt "showPopupBrowserPlus"
+msgid "Show a popup notification"
+msgstr ""
+
+#: showPopupBrowserPlusLink
+msgid ""
+"(requires <a target='_blank' href='http://browserplus.yahoo.com/'>Yahoo! "
+"BrowserPlus</a>)"
 msgstr ""
 
 #: showPopupMac
@@ -8288,6 +9659,14 @@ msgstr ""
 
 #: showSelectionString
 msgid "Display checkboxes to quickly select items in lists (requires refresh)"
+msgstr ""
+
+#: showUserShares
+msgid "Show folders shared with me by the following user:"
+msgstr ""
+
+#: showWeekNumber
+msgid "Show Calendars with week numbers"
 msgstr ""
 
 #: signature
@@ -8330,8 +9709,16 @@ msgstr ""
 msgid "Signature Name:"
 msgstr ""
 
+#: signatureNewName
+msgid "Signature #{0}"
+msgstr ""
+
 #: signatureNameMissingRequired
 msgid "Signature name is empty. It's required."
+msgstr ""
+
+#: signatureNote
+msgid "Signatures with no name or content are discarded."
 msgstr ""
 
 #: signatureStyle
@@ -8457,6 +9844,10 @@ msgstr ""
 msgid "Spell Check"
 msgstr ""
 
+#: spellCheckFailed
+msgid "Spell Check Failed. Do you want to send this message anyway?"
+msgstr ""
+
 #: spellCheckTooltip
 msgid "Check spelling"
 msgstr ""
@@ -8474,7 +9865,16 @@ msgid "Split Cells"
 msgstr ""
 
 #: spreadsheet
+msgctxt "spreadsheet"
 msgid "Spreadsheet"
+msgstr ""
+
+#: spreadsheetName
+msgid "Spreadsheet Name"
+msgstr ""
+
+#: spreadsheetTitle
+msgid "Zimbra Spreadsheet "
 msgstr ""
 
 #: start
@@ -8499,6 +9899,10 @@ msgstr ""
 
 #: status
 msgid "Status"
+msgstr ""
+
+#: statusFree
+msgid "Status: Free"
 msgstr ""
 
 #: statusLabel
@@ -8550,11 +9954,16 @@ msgid "Tentative"
 msgstr ""
 
 #: subjectNewTime
+msgctxt "subjectNewTime"
 msgid "New Time Proposed"
 msgstr ""
 
 #: subscript
 msgid "Subscript"
+msgstr ""
+
+#: sumCells
+msgid "Sum cells"
 msgstr ""
 
 #: superscript
@@ -8575,18 +9984,6 @@ msgstr ""
 
 #: switchToText
 msgid "Switching to text will discard all HTML formatting. Continue?"
-msgstr ""
-
-#: switchToStandardClient
-msgid "Standard version"
-msgstr ""
-
-#: switchToStandardClientEx
-msgid "Switch to standard version"
-msgstr ""
-
-#: switchToOfflineClient
-msgid "Offline version"
 msgstr ""
 
 #: switchToOfflineClientEx
@@ -8705,6 +10102,12 @@ msgstr ""
 msgid "Tag Page"
 msgstr ""
 
+#: tagReadonly
+msgid ""
+"You have selected one or more appointments which are read only or shared. "
+"These appointments cannot be tagged."
+msgstr ""
+
 #: tagTask
 msgid "Tag Task"
 msgstr ""
@@ -8718,12 +10121,12 @@ msgctxt "tags"
 msgid "Tags"
 msgstr ""
 
-#: tagSelectLocation
-msgid "You must select a location for the tag."
+#: tagsLabel
+msgid "Tags:"
 msgstr ""
 
-#: tagShortcuts
-msgid "Tag Shortcuts"
+#: tagSelectLocation
+msgid "You must select a location for the tag."
 msgstr ""
 
 #: tagTooltip
@@ -8734,8 +10137,16 @@ msgstr ""
 msgid "Tag with"
 msgstr ""
 
+#: targetAddressBook
+msgid "Select the destination address book."
+msgstr ""
+
+#: targetCalendar
+msgid "Select the destination calendar."
+msgstr ""
+
 #: targetFolder
-msgid "Select the destination folder"
+msgid "Select the destination folder."
 msgstr ""
 
 #: targetTag
@@ -8803,15 +10214,10 @@ msgstr ""
 msgid "Text Style"
 msgstr ""
 
-#: theirs
-msgid "Theirs"
-msgstr ""
-
 #: themeLabel
 msgid "Theme:"
 msgstr ""
 
-#. #theme-allure = Allure
 #: theme-bare
 msgid "Bare"
 msgstr ""
@@ -8824,14 +10230,18 @@ msgstr ""
 msgid "Bones"
 msgstr ""
 
-#. #theme-charcoal = Charcoal
-#. #theme-curls = Curls
-#. #theme-endless = Endless
-#. #theme-fields = Fields
-#. #theme-fresh = Fresh
-#. #theme-froggy = Froggy
-#. #theme-gorilla = Gorilla
-#. #theme-harvest = Harvest
+#: theme-froggy
+msgid "Froggy"
+msgstr ""
+
+#: theme-harvest
+msgid "Harvest"
+msgstr ""
+
+#: theme-lake
+msgid "Lake"
+msgstr ""
+
 #: theme-hotrod
 msgid "Hot Rod"
 msgstr ""
@@ -8844,10 +10254,20 @@ msgstr ""
 msgid "Lemongrass"
 msgstr ""
 
-#. #theme-nature = Nature
-#. #theme-rose = Rose
+#: theme-oasis
+msgid "Oasis"
+msgstr ""
+
+#: theme-pebble
+msgid "Pebble"
+msgstr ""
+
 #: theme-sand
 msgid "Sand"
+msgstr ""
+
+#: theme-smoke
+msgid "Smoke"
 msgstr ""
 
 #: theme-sky
@@ -8858,8 +10278,18 @@ msgstr ""
 msgid "Steel"
 msgstr ""
 
-#. #theme-tabs = Tabs
-#. #theme-vanilla = Vanilla
+#: theme-tree
+msgid "Tree"
+msgstr ""
+
+#: theme-twilight
+msgid "Twilight"
+msgstr ""
+
+#: theme-vanilla
+msgid "Vanilla"
+msgstr ""
+
 #: theme-venice
 msgid "Venice"
 msgstr ""
@@ -8875,6 +10305,10 @@ msgstr ""
 #: time
 msgctxt "time"
 msgid "Time"
+msgstr ""
+
+#: timezonePrefSaved
+msgid "Timezone Preference Saved"
 msgstr ""
 
 #: titleLabel
@@ -8914,6 +10348,7 @@ msgid "Trash"
 msgstr ""
 
 #: type
+msgctxt "type"
 msgid "Type"
 msgstr ""
 
@@ -8923,6 +10358,10 @@ msgstr ""
 
 #: typing
 msgid "typing"
+msgstr ""
+
+#: unableToAcceptTime
+msgid "Unable to accept proposed time"
 msgstr ""
 
 #: unableToSavePage
@@ -8947,6 +10386,10 @@ msgstr ""
 
 #: unflagged
 msgid "Unflagged"
+msgstr ""
+
+#: uninstall
+msgid "Uninstall"
 msgstr ""
 
 #: unitsLabel
@@ -8988,6 +10431,10 @@ msgstr ""
 msgid "Untitled"
 msgstr ""
 
+#: upcoming
+msgid "upcoming"
+msgstr ""
+
 #: upLabel
 msgid "Up"
 msgstr ""
@@ -9005,6 +10452,10 @@ msgstr ""
 #: uploadDocs
 msgctxt "uploadDocs"
 msgid "Upload Files"
+msgstr ""
+
+#: uploadImage
+msgid "Upload Image"
 msgstr ""
 
 #: uploadChoose
@@ -9052,6 +10503,10 @@ msgstr ""
 msgid "URL:"
 msgstr ""
 
+#: usePrefix
+msgid "Use prefix"
+msgstr ""
+
 #: useQuickAdd
 msgid "Use the QuickAdd dialog when creating new appointments"
 msgstr ""
@@ -9066,6 +10521,10 @@ msgstr ""
 
 #: usernameLabel
 msgid "Username:"
+msgstr ""
+
+#: userUnknown
+msgid "UNKNOWN USER"
 msgstr ""
 
 #: useSignature
@@ -9107,13 +10566,13 @@ msgctxt "view"
 msgid "View"
 msgstr ""
 
+#: viewAllImages
+msgid "View all images"
+msgstr ""
+
 #: viewAppointment
 msgctxt "viewAppointment"
 msgid "Open"
-msgstr ""
-
-#: viewAsHtml
-msgid "view as html"
 msgstr ""
 
 #: viewEntireMessage
@@ -9133,6 +10592,10 @@ msgctxt "viewCalForDay"
 msgid "day"
 msgstr ""
 
+#: viewCalForMonth
+msgid "month"
+msgstr ""
+
 #: viewCalForWeek
 msgid "week"
 msgstr ""
@@ -9141,8 +10604,12 @@ msgstr ""
 msgid "work"
 msgstr ""
 
-#: viewCalForMonth
-msgid "month"
+#: viewCalForList
+msgid "list"
+msgstr ""
+
+#: viewCalListTooltip
+msgid "Show calendar as a list"
 msgstr ""
 
 #: viewContacts
@@ -9155,6 +10622,11 @@ msgstr ""
 
 #: viewDayTooltip
 msgid "Show calendar for the currently selected day"
+msgstr ""
+
+#: viewList
+msgctxt "viewList"
+msgid "List"
 msgstr ""
 
 #: viewMailAsHtml
@@ -9205,8 +10677,8 @@ msgstr ""
 msgid "Show schedule view"
 msgstr ""
 
-#: viewTheirs
-msgid "View Theirs"
+#: viewOld
+msgid "View Old"
 msgstr ""
 
 #: viewTooltip
@@ -9219,6 +10691,11 @@ msgstr ""
 
 #: voiceMail
 msgid "Voice Mail"
+msgstr ""
+
+#: voicemails
+msgctxt "voicemails"
+msgid "Voice Mails"
 msgstr ""
 
 #: voicemailBodyText
@@ -9258,93 +10735,6 @@ msgstr ""
 msgid "About your voice mail"
 msgstr ""
 
-#: voicePrefsInstruction
-msgid ""
-"Select the phone number you want to manage then select the options for that "
-"number."
-msgstr ""
-
-#: voicemailPhoneNumber
-msgid "Phone Number"
-msgstr ""
-
-#: voicemailSendToVoicemailAfterRingsHeader
-msgid "Number Of Rings"
-msgstr ""
-
-#: voicemailSendToVoicemailAfterRings
-msgid "Send call to voice mail after:"
-msgstr ""
-
-#: voicemailSendToVoicemailAfterRingsDescription
-msgid "rings"
-msgstr ""
-
-#: voicemailLocaleHeader
-msgctxt "voicemailLocaleHeader"
-msgid "Language"
-msgstr ""
-
-#: voicemailAnsweringLocale
-msgid "Incoming Calls:"
-msgstr ""
-
-#: voicemailAnsweringLocalePrompt
-msgid "When someone is sent to voice mail, prompt them in"
-msgstr ""
-
-#: voicemailUserLocale
-msgid "Checking Voice Mail:"
-msgstr ""
-
-#: voicemailUserLocalePrompt
-msgid "When I call to check voice mail, prompt me in"
-msgstr ""
-
-#: voicemailPlaybackHeader
-msgid "Message Playback"
-msgstr ""
-
-#: voicemailMessagePlayback
-msgid "Playback:"
-msgstr ""
-
-#: voicemailAutoplay
-msgid "Automatically play my new messages"
-msgstr ""
-
-#: voicemailPromptHeader
-msgid "Voice Mail Prompts"
-msgstr ""
-
-#: voicemailPrompts
-msgid "Prompts:"
-msgstr ""
-
-#: voicemailPromptLevel
-msgid "Voice mails prompts should be..."
-msgstr ""
-
-#: voicemailPromptLevel_RAPID
-msgid "Rapid (Fewer prompts)"
-msgstr ""
-
-#: voicemailPromptLevel_STANDARD
-msgid "Standard"
-msgstr ""
-
-#: voicemailPromptLevel_EXTENDED
-msgid "Extended (More prompts)"
-msgstr ""
-
-#: voicemailAnnounceDateTime
-msgid "Announce date &amp; time when playing voice message"
-msgstr ""
-
-#: voicePageSizeHeader
-msgid "Number Of Voice Mails To Display"
-msgstr ""
-
 #: voicePageSizeDescription
 msgid "Voice mail messages per page"
 msgstr ""
@@ -9354,64 +10744,10 @@ msgctxt "voicePageSizeLabel"
 msgid "Display:"
 msgstr ""
 
-#: voicemailSecurityHeader
-msgid "Security"
-msgstr ""
-
-#: voicemailChangePassword
-msgid "Change Voice Mail PIN:"
-msgstr ""
-
-#: voicemailChangePasswordLink
-msgid "Change your Voice Mail PIN on Comcast.net"
-msgstr ""
-
-#: voicemailChangePasswordURL
-msgid "https://customer.comcast.com/SmartUrl/Secure/VMPIN"
-msgstr ""
-
-#: voicemailLogin
-msgid "Voice Mail Login:"
-msgstr ""
-
-#: voicemailRequirePin
+#: voicePrefsInstruction
 msgid ""
-"Require my voice mail password to access voice mail from my Comcast Digital "
-"Voice Phone"
-msgstr ""
-
-#: voicemailNotificationDescription
-msgid "Send email notifications when a new voicemail is received to:"
-msgstr ""
-
-#: voicemailNotificationListHeader
-msgid "Email Notification Addresses"
-msgstr ""
-
-#: voicemailNotificationErrorMax
-msgid ""
-"Sorry, you can only enter a maximum of 25 email addresses in the list. "
-"SCC-1506"
-msgstr ""
-
-#: voicemailNotificationErrorInvalid
-msgid "Sorry, the email addresses must be 100 characters or fewer. SCC-1505"
-msgstr ""
-
-#: voiceCenterHeader
-msgctxt "voiceCenterHeader"
-msgid "Need more controls over your voice service?"
-msgstr ""
-
-#: voiceCenterLinkText
-msgctxt "voiceCenterLinkText"
-msgid "Visit the Digital Voice Center"
-msgstr ""
-
-#: voiceCenterLinkURL
-msgid ""
-"https://digitalvoice.comcast.net/Comcast/DVPPortal/Dvp.portal?_nfpb=true&_pa"
-"geLabel=DvpPreferencesBook"
+"Select the phone number you want to manage then select the options for that "
+"number."
 msgstr ""
 
 #: volume
@@ -9428,6 +10764,10 @@ msgstr ""
 
 #: webPageLabel
 msgid "A web page (URL):"
+msgstr ""
+
+#: webPageLabelShort
+msgid "Web Page:"
 msgstr ""
 
 #: welcome
@@ -9494,6 +10834,18 @@ msgstr ""
 msgid "When reading or replying to messages in this folder"
 msgstr ""
 
+#: whiteBlackNumUsed
+msgid "{0} of {1} used."
+msgstr ""
+
+#: whiteListLabel
+msgid "Allow messages from:"
+msgstr ""
+
+#: wordAddedToDictionary
+msgid "Word added to dictionary"
+msgstr ""
+
 #: work
 msgctxt "work"
 msgid "Work"
@@ -9517,6 +10869,10 @@ msgctxt "yahoo"
 msgid "Yahoo!"
 msgstr ""
 
+#: yahooMail
+msgid "Yahoo! Mail"
+msgstr ""
+
 #: yearly
 msgid "Yearly"
 msgstr ""
@@ -9526,7 +10882,7 @@ msgid "Yellow"
 msgstr ""
 
 #: zeroSizedAtts
-msgid "Files of zero size and invalid path have been discarded. "
+msgid "Files of zero size and invalid path have been discarded."
 msgstr ""
 
 #: zimbraAssistant
@@ -9535,6 +10891,18 @@ msgstr ""
 
 #: zimbraAssistantWelcome
 msgid "Welcome to Zimbra Assistant!"
+msgstr ""
+
+#: zimbraDocument
+msgid "Zimbra Document"
+msgstr ""
+
+#: zimbraPresentation
+msgid "Zimbra Presentation"
+msgstr ""
+
+#: zimbraSpreadsheet
+msgid "Zimbra Spreadsheet"
 msgstr ""
 
 #: zimbraTitle
@@ -9563,8 +10931,63 @@ msgstr ""
 msgid "Zimlet"
 msgstr ""
 
+#: zimletDeployError
+msgid "Error deploying zimlet."
+msgstr ""
+
+#: zimletDeploySuccess
+msgid ""
+"Zimlet successfully installed. Would you like to reload the application now "
+"to enable to the new zimlet?"
+msgstr ""
+
+#: zimletDeploying
+msgid "File successfully uploaded. Installing zimlet..."
+msgstr ""
+
+#: zimletInitError
+msgid ""
+"An error occurred while initializing the zimlet \"{0}\". Please notify "
+"administrator."
+msgstr ""
+
+#: zimletInstall
+msgid "Install A Zimlet"
+msgstr ""
+
+#: zimletsPrefsMsg
+msgid ""
+"Zimlets are add-on applications that enhance the functionality of your "
+"client. This table allows you to enable or disable individual zimlets."
+msgstr ""
+
+#: zimletsPrefsUpload
+msgid ""
+"You may install new zimlets by uploading a valid .zip file containing the "
+"zimlet resources. To find out more, visit the <a "
+"href='http://gallery.zimbra.com' target=_blank>Zimbra Gallery</a>."
+msgstr ""
+
+#: zimletUndeployError
+msgid "Could not remove zimlet."
+msgstr ""
+
+#: zimletUndeploySuccess
+msgid ""
+"Zimlet successfully uninstalled. Would you like to reload the application "
+"now to finish removing this zimlet?"
+msgstr ""
+
 #: zimletUnknown
 msgid "The zimlet \"{0}\" is not defined."
+msgstr ""
+
+#: zimletUploadError
+msgid "Upload Error: file not found or file has no content."
+msgstr ""
+
+#: zimletUploadStatus
+msgid "Upload Error {0}"
 msgstr ""
 
 #: zimletNotLoaded
@@ -9730,6 +11153,39 @@ msgstr ""
 #: shareDeclinedHtml
 msgid ""
 "<h3>The following share has been declined:</h3>\n"
+"<p>\n"
+"<table border=\"0\">\n"
+"<tr><th align=\"left\">Shared item:</th><td>{0}</td></tr>\n"
+"<tr><th align=\"left\">Owner:</th><td>{2}</td></tr>\n"
+"</table>\n"
+"<p>\n"
+"<table border=\"0\">\n"
+"<tr><th align=\"left\">Grantee:</th><td>{3}</td></tr>\n"
+"<tr><th align=\"left\">Role:</th><td>{4}</td></tr>\n"
+"<tr><th align=\"left\">Allowed actions:</th><td>{5}</td>\n"
+"</tr>\n"
+"</table>"
+msgstr ""
+
+#: shareNotifySubject
+msgid "Share Item Updated"
+msgstr ""
+
+#: shareNotifyText
+msgid ""
+"The following shared item has been updated:\n"
+"\n"
+"Shared item: {0}\n"
+"Owner: {2}\n"
+"\n"
+"Grantee: {3}\n"
+"Role: {4}\n"
+"Allowed actions: {5}"
+msgstr ""
+
+#: shareNotifyHtml
+msgid ""
+"<h3>The following share item has been updated:</h3>\n"
 "<p>\n"
 "<table border=\"0\">\n"
 "<tr><th align=\"left\">Shared item:</th><td>{0}</td></tr>\n"
@@ -10390,6 +11846,14 @@ msgid "Other URL"
 msgstr ""
 
 #. # these need to be kept in sync with ZmContact.F_*
+#: AB_FIELD_prefix
+msgid "Prefix"
+msgstr ""
+
+#: AB_FIELD_suffix
+msgid "Suffix"
+msgstr ""
+
 #: AB_FIELD_firstName
 msgid "First"
 msgstr ""
@@ -10401,6 +11865,10 @@ msgstr ""
 #: AB_FIELD_middleName
 msgctxt "AB_FIELD_middleName"
 msgid "Middle"
+msgstr ""
+
+#: AB_FIELD_maidenName
+msgid "Maiden"
 msgstr ""
 
 #: AB_FIELD_fullName
@@ -10420,6 +11888,10 @@ msgctxt "AB_FIELD_company"
 msgid "Company"
 msgstr ""
 
+#: AB_FIELD_department
+msgid "Department"
+msgstr ""
+
 #. # email addresses
 #: AB_FIELD_email
 msgctxt "AB_FIELD_email"
@@ -10434,7 +11906,13 @@ msgstr ""
 msgid "Email 3"
 msgstr ""
 
+#: AB_FIELD_imAddress
+msgctxt "AB_FIELD_imAddress"
+msgid "IM Address"
+msgstr ""
+
 #: AB_FIELD_imAddress1
+msgctxt "AB_FIELD_imAddress1"
 msgid "IM Address"
 msgstr ""
 
@@ -10499,7 +11977,12 @@ msgstr ""
 msgid "Work Mobile"
 msgstr ""
 
+#: AB_FIELD_workPager
+msgid "Work Pager"
+msgstr ""
+
 #: AB_FIELD_workFax
+msgctxt "AB_FIELD_workFax"
 msgid "Work Fax"
 msgstr ""
 
@@ -10550,6 +12033,10 @@ msgstr ""
 msgid "Home Phone 2"
 msgstr ""
 
+#: AB_FIELD_homeAltPhone
+msgid "Home Alternate Phone"
+msgstr ""
+
 #: AB_FIELD_homeFax
 msgctxt "AB_FIELD_homeFax"
 msgid "Home Fax"
@@ -10561,6 +12048,7 @@ msgid "Mobile"
 msgstr ""
 
 #: AB_FIELD_pager
+msgctxt "AB_FIELD_pager"
 msgid "Pager"
 msgstr ""
 
@@ -10600,6 +12088,7 @@ msgid "Other Phone"
 msgstr ""
 
 #: AB_FIELD_otherFax
+msgctxt "AB_FIELD_otherFax"
 msgid "Other Fax"
 msgstr ""
 
@@ -10610,6 +12099,19 @@ msgstr ""
 
 #: AB_FIELD_birthday
 msgid "Birthday"
+msgstr ""
+
+#: AB_FIELD_anniversary
+msgid "Anniversary"
+msgstr ""
+
+#: AB_FIELD_custom
+msgctxt "AB_FIELD_custom"
+msgid "Custom"
+msgstr ""
+
+#: AB_DISPLAY_IM
+msgid "{0}://{1}"
 msgstr ""
 
 #. # these need to be kept in sync with ZmContact.FA_*
@@ -10665,7 +12167,7 @@ msgstr ""
 
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-2010 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
+"Copyright © 2005-2012 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
 "trademarks of Zimbra, Inc."
 msgstr ""
 
@@ -10686,72 +12188,72 @@ msgid "<a href='http://www.zimbra.com' target=_blank>http://www.zimbra.com</a>"
 msgstr ""
 
 #: recurDailyEveryDay
-msgid "Every day."
+msgid "Every day"
 msgstr ""
 
 #: recurDailyEveryWeekday
-msgid "Every weekday."
+msgid "Every weekday"
 msgstr ""
 
 #: recurDailyEveryNumDays
-msgid "Every {0,number,integer} days."
+msgid "Every {0,number,integer} days"
 msgstr ""
 
 #: recurWeeklyEveryWeekday
-msgid "Every {0,date,EEEE}."
+msgid "Every {0,date,EEEE}"
 msgstr ""
 
 #. # {2} is marker to indicate new line for input, replaced with "" on output
 #: recurWeeklyEveryNumWeeksDate
-msgid "Every {0,number,integer} weeks on {2}{1,list,date,EEEE}."
+msgid "Every {0,number,integer} weeks on {2}{1,list,date,EEEE}"
 msgstr ""
 
 #: recurMonthlyEveryNumMonthsDate
-msgid "Day {0,number,integer} of every {1,number,integer} month(s)."
+msgid "Day {0,number,integer} of every {1,number,integer} month(s)"
 msgstr ""
 
 #: recurMonthlyEveryNumMonthsNumDay
 msgid ""
 "The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} {1,date,EEEE} of "
-"every {2,number,integer} month(s)."
+"every {2,number,integer} month(s)"
 msgstr ""
 
 #: recurMonthlyEveryNumMonthsWeekDays
 msgid ""
 "The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} "
-"{1,choice,-1#day|0#weekend|1#weekday} of every {2,number,integer} month(s)."
+"{1,choice,-1#day|0#weekend|1#weekday} of every {2,number,integer} month(s)"
 msgstr ""
 
 #: recurYearlyEveryDate
-msgid "Every year on {0,date,MMMM} {1,number,integer}."
+msgid "Every year on {0,date,MMMM} {1,number,integer}"
 msgstr ""
 
 #: recurYearlyEveryMonthNumDay
 msgid ""
 "The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} {1,date,EEEE} of "
-"every {2,date,MMMM}."
+"every {2,date,MMMM}"
 msgstr ""
 
 #: recurYearlyEveryMonthWeekDays
 msgid ""
 "The {0,choice,-1#last|1#first|2#second|3#third|4#fourth} "
-"{1,choice,-1#day|0#weekend|1#weekday} of every {2,date,MMMM}."
+"{1,choice,-1#day|0#weekend|1#weekday} of every {2,date,MMMM}"
 msgstr ""
 
 #: recurStart
-msgid "Effective {0,date,medium}."
+msgid "Effective {0,date,medium}"
 msgstr ""
 
 #: recurEndNone
-msgid "No end date."
+msgid "No end date"
 msgstr ""
 
 #: recurEndNumber
-msgid "End after {0,number,integer} occurrence(s)."
+msgid "End after {0,number,integer} occurrence(s)"
 msgstr ""
 
 #: recurEndByDate
-msgid "End by {0,date,medium}."
+msgid "End by {0,date,medium}"
 msgstr ""
 
 #. # {0} is recurrence text; {1} is start; {2} is end
@@ -11160,29 +12662,245 @@ msgstr ""
 msgid "Returns one of 2 values depending on the condition"
 msgstr ""
 
-#. # column widths (see bug #22624). Add more here as needed
-#: COLUMN_WIDTH_SIZE
-msgid "45"
+#. # column widths for columns in various list views
+#. # mail list views
+#: COLUMN_WIDTH_DATE
+msgctxt "COLUMN_WIDTH_DATE"
+msgid "75"
 msgstr ""
 
 #: COLUMN_WIDTH_FOLDER
 msgid "47"
 msgstr ""
 
-#: COLUMN_WIDTH_DATE
-msgid "75"
-msgstr ""
-
-#: COLUMN_WIDTH_ACTIVE
-msgid "50"
-msgstr ""
-
-#: COLUMN_WIDTH_CONV_FROM
+#. # 'from' column in conv list view
+#: COLUMN_WIDTH_FROM_CLV
 msgid "145"
 msgstr ""
 
-#: COLUMN_WIDTH_MSG_FROM
+#. # 'from' column in msg list view
+#: COLUMN_WIDTH_FROM_MLV
+msgctxt "COLUMN_WIDTH_FROM_MLV"
 msgid "105"
+msgstr ""
+
+#: COLUMN_WIDTH_SIZE
+msgctxt "COLUMN_WIDTH_SIZE"
+msgid "45"
+msgstr ""
+
+#: COLUMN_WIDTH_ITEM_COUNT
+msgctxt "COLUMN_WIDTH_ITEM_COUNT"
+msgid "120"
+msgstr ""
+
+#. # calendar list view
+#: COLUMN_WIDTH_DATE_CAL
+msgctxt "COLUMN_WIDTH_DATE_CAL"
+msgid "105"
+msgstr ""
+
+#: COLUMN_WIDTH_FOLDER_CAL
+msgctxt "COLUMN_WIDTH_FOLDER_CAL"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_LOCATION_CAL
+msgid "175"
+msgstr ""
+
+#: COLUMN_WIDTH_STATUS_CAL
+msgctxt "COLUMN_WIDTH_STATUS_CAL"
+msgid "80"
+msgstr ""
+
+#. # new appt tabs
+#: COLUMN_WIDTH_CAPACITY_NA
+msgctxt "COLUMN_WIDTH_CAPACITY_NA"
+msgid "50"
+msgstr ""
+
+#: COLUMN_WIDTH_CONTACT_NA
+msgctxt "COLUMN_WIDTH_CONTACT_NA"
+msgid "150"
+msgstr ""
+
+#: COLUMN_WIDTH_FBSTATUS_NA
+msgctxt "COLUMN_WIDTH_FBSTATUS_NA"
+msgid "80"
+msgstr ""
+
+#: COLUMN_WIDTH_FOLDER_NA
+msgid "160"
+msgstr ""
+
+#: COLUMN_WIDTH_HOME_PHONE_NA
+msgctxt "COLUMN_WIDTH_HOME_PHONE_NA"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_NAME_NA
+msgctxt "COLUMN_WIDTH_NAME_NA"
+msgid "150"
+msgstr ""
+
+#: COLUMN_WIDTH_NOTES_NA
+msgid "30"
+msgstr ""
+
+#: COLUMN_WIDTH_WORK_PHONE_NA
+msgctxt "COLUMN_WIDTH_WORK_PHONE_NA"
+msgid "100"
+msgstr ""
+
+#. # task list view
+#: COLUMN_WIDTH_DATE_DUE_TLV
+msgctxt "COLUMN_WIDTH_DATE_DUE_TLV"
+msgid "110"
+msgstr ""
+
+#: COLUMN_WIDTH_PCOMPLETE_TLV
+msgctxt "COLUMN_WIDTH_PCOMPLETE_TLV"
+msgid "75"
+msgstr ""
+
+#: COLUMN_WIDTH_STATUS_TLV
+msgctxt "COLUMN_WIDTH_STATUS_TLV"
+msgid "110"
+msgstr ""
+
+#. # contact picker, group list
+#: COLUMN_WIDTH_FOLDER_CN
+msgctxt "COLUMN_WIDTH_FOLDER_CN"
+msgid "20"
+msgstr ""
+
+#: COLUMN_WIDTH_NAME_CN
+msgctxt "COLUMN_WIDTH_NAME_CN"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_TYPE_CN
+msgctxt "COLUMN_WIDTH_TYPE_CN"
+msgid "20"
+msgstr ""
+
+#. # filter rules and zimlet list
+#: COLUMN_WIDTH_ACTIVE
+msgctxt "COLUMN_WIDTH_ACTIVE"
+msgid "50"
+msgstr ""
+
+#. # briefcase detail list view
+#: COLUMN_WIDTH_DATE_DLV
+msgctxt "COLUMN_WIDTH_DATE_DLV"
+msgid "80"
+msgstr ""
+
+#: COLUMN_WIDTH_FOLDER_DLV
+msgctxt "COLUMN_WIDTH_FOLDER_DLV"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_OWNER_DLV
+msgctxt "COLUMN_WIDTH_OWNER_DLV"
+msgid "80"
+msgstr ""
+
+#: COLUMN_WIDTH_SIZE_DLV
+msgctxt "COLUMN_WIDTH_SIZE_DLV"
+msgid "45"
+msgstr ""
+
+#: COLUMN_WIDTH_TYPE_DLV
+msgctxt "COLUMN_WIDTH_TYPE_DLV"
+msgid "80"
+msgstr ""
+
+#. # briefcase file list view (others same as above)
+#: COLUMN_WIDTH_FOLDER_FLV
+msgctxt "COLUMN_WIDTH_FOLDER_FLV"
+msgid "120"
+msgstr ""
+
+#. # call/voicemail list view
+#: COLUMN_WIDTH_DATE_CALL
+msgctxt "COLUMN_WIDTH_DATE_CALL"
+msgid "180"
+msgstr ""
+
+#: COLUMN_WIDTH_FROM_CALL
+msgid "190"
+msgstr ""
+
+#. # accounts list view (prefs)
+#: COLUMN_WIDTH_NAME_ACC
+msgid "170"
+msgstr ""
+
+#: COLUMN_WIDTH_STATUS_ACC
+msgctxt "COLUMN_WIDTH_STATUS_ACC"
+msgid "80"
+msgstr ""
+
+#: COLUMN_WIDTH_TYPE_ACC
+msgid "85"
+msgstr ""
+
+#. # shared/granted folder list (prefs)
+#: COLUMN_WIDTH_ACTIONS_SH
+msgctxt "COLUMN_WIDTH_ACTIONS_SH"
+msgid "180"
+msgstr ""
+
+#: COLUMN_WIDTH_FOLDER_SH
+msgctxt "COLUMN_WIDTH_FOLDER_SH"
+msgid "150"
+msgstr ""
+
+#: COLUMN_WIDTH_OWNER_SH
+msgctxt "COLUMN_WIDTH_OWNER_SH"
+msgid "180"
+msgstr ""
+
+#: COLUMN_WIDTH_ROLE_SH
+msgctxt "COLUMN_WIDTH_ROLE_SH"
+msgid "50"
+msgstr ""
+
+#: COLUMN_WIDTH_TYPE_SH
+msgid "60"
+msgstr ""
+
+#: COLUMN_WIDTH_WITH_SH
+msgctxt "COLUMN_WIDTH_WITH_SH"
+msgid "180"
+msgstr ""
+
+#. # mobile devices list
+#: COLUMN_WIDTH_ID_MDL
+msgid "250"
+msgstr ""
+
+#: COLUMN_WIDTH_STATUS_MDL
+msgctxt "COLUMN_WIDTH_STATUS_MDL"
+msgid "150"
+msgstr ""
+
+#: COLUMN_WIDTH_PROTOCOL_MDL
+msgctxt "COLUMN_WIDTH_PROTOCOL_MDL"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_PROVISIONABLE_MDL
+msgctxt "COLUMN_WIDTH_PROVISIONABLE_MDL"
+msgid "75"
+msgstr ""
+
+#. # address selection dialog
+#: COLUMN_WIDTH_NAME_SD
+msgctxt "COLUMN_WIDTH_NAME_SD"
+msgid "150"
 msgstr ""
 
 #. #Y! search url
@@ -11221,4 +12939,258 @@ msgstr ""
 
 #: zimbra-tgz
 msgid "Account Export"
+msgstr ""
+
+#. # New Documents
+#: zd_docElements
+msgid "Document Elements"
+msgstr ""
+
+#: zd_docElementsTT
+msgid "Click to create Document Elements"
+msgstr ""
+
+#: zd_docQuickTables
+msgid "Quick Tables"
+msgstr ""
+
+#: zd_docQuickTablesTT
+msgid "Click to create Quick Tables"
+msgstr ""
+
+#: zd_docCharts
+msgid "Charts"
+msgstr ""
+
+#: zd_docChartsTT
+msgid "Click to create Charts"
+msgstr ""
+
+#: zd_docSmartArt
+msgid "SmartArt Graphics"
+msgstr ""
+
+#: zd_docSmartArtTT
+msgid "Click to create SmartArt Graphics"
+msgstr ""
+
+#: zd_docQuickInsertTT
+msgid "Click to insert"
+msgstr ""
+
+#. # slides
+#: slides_deleteSlide
+msgid "Delete Slide"
+msgstr ""
+
+#: slides_deleteTextBox
+msgid "Delete Text Box"
+msgstr ""
+
+#: slides_endSlideMsg
+msgid "End of slide show. <br> Click to exit"
+msgstr ""
+
+#: slides_insertSlide
+msgid "Insert Slide"
+msgstr ""
+
+#: slides_insertTextBox
+msgid "Insert Text Box"
+msgstr ""
+
+#: slides_launchSlideShow
+msgid "Launch Slide Show"
+msgstr ""
+
+#: slides_runSlideShow
+msgid "Run"
+msgstr ""
+
+#: slides_themes
+msgid "Themes"
+msgstr ""
+
+#: slides_textBoxMessage
+msgid "Click to enter text"
+msgstr ""
+
+#: slides_confirmDeleteSlide
+msgid "Are you sure you want to delete this slide?"
+msgstr ""
+
+#: slides_imageURL
+msgid "Image URL"
+msgstr ""
+
+#: slide_insertChart
+msgid "Insert Chart"
+msgstr ""
+
+#: slides_themeDarkBlue
+msgid "Dark Blue"
+msgstr ""
+
+#: slides_themeDefault
+msgctxt "slides_themeDefault"
+msgid "Default"
+msgstr ""
+
+#: slides_themeBlue
+msgctxt "slides_themeBlue"
+msgid "Blue"
+msgstr ""
+
+#: slides_themeBlueBand
+msgid "Blue Band"
+msgstr ""
+
+#: slides_themeGreen
+msgctxt "slides_themeGreen"
+msgid "Green"
+msgstr ""
+
+#: slides_themePurple
+msgctxt "slides_themePurple"
+msgid "Purple"
+msgstr ""
+
+#: slide_insertColumnChart
+msgid "Insert Column Chart"
+msgstr ""
+
+#: slide_insertPieChart
+msgid "Insert Pie Chart"
+msgstr ""
+
+#: slide_insertFunnelChart
+msgid "Insert Funnel Chart"
+msgstr ""
+
+#: slide_insertDoughnutChart
+msgid "Insert Doughnut Chart"
+msgstr ""
+
+#: slide_insertAreaChart
+msgid "Insert Area Chart"
+msgstr ""
+
+#. #zimbra docs
+#: zimbraExcelDocument
+msgctxt "zimbraExcelDocument"
+msgid "Spreadsheet"
+msgstr ""
+
+#: zimbraPPTDocument
+msgctxt "zimbraPPTDocument"
+msgid "Presentation"
+msgstr ""
+
+#: zimbraWordDocument
+msgctxt "zimbraWordDocument"
+msgid "Document"
+msgstr ""
+
+#: zimletChangeRestart
+msgid ""
+"Would you like to reload the application now to apply the zimlet changes? "
+"<br>(Otherwise, the zimlet changes will appear the next time you log in.)"
+msgstr ""
+
+#. # strings for constructing a summary of a user action, eg "3 messages moved to Trash"
+#. # return plural type name if more than one
+#: typeMessage
+msgid "{0,choice,1#message|2#messages}"
+msgstr ""
+
+#: typeConversation
+msgid "{0,choice,1#conversation|2#conversations}"
+msgstr ""
+
+#: typeContact
+msgid "{0,choice,1#contact|2#contacts}"
+msgstr ""
+
+#: typeContactGroup
+msgid "{0,choice,1#contact group|2#contact groups}"
+msgstr ""
+
+#: typeAppointment
+msgid "{0,choice,1#appointment|2#appointments}"
+msgstr ""
+
+#: typeFile
+msgid "{0,choice,1#file|2#files}"
+msgstr ""
+
+#: typeDocument
+msgid "{0,choice,1#document|2#documents}"
+msgstr ""
+
+#: typeTask
+msgid "{0,choice,1#task|2#tasks}"
+msgstr ""
+
+#: typeVoicemail
+msgid "{0,choice,1#voicemail|2#voicemails}"
+msgstr ""
+
+#: typeCall
+msgid "{0,choice,1#call|2#calls}"
+msgstr ""
+
+#. # strings for specific user actions
+#. # {0} - number of items
+#. # {1} - item type, eg "message" or "messages"
+#. # {2} - optional folder or tag name
+#: actionMove
+msgid "{0} {1} moved to \"{2}\""
+msgstr ""
+
+#: actionTrash
+msgid "{0} {1} moved to Trash"
+msgstr ""
+
+#: actionDelete
+msgid "{0} {1} deleted"
+msgstr ""
+
+#: actionCopy
+msgid "{0} {1} copied to {2}"
+msgstr ""
+
+#: actionMarkAsJunk
+msgid "{0} {1} marked as junk"
+msgstr ""
+
+#: actionMarkAsNotJunk
+msgid "{0} {1} marked as not junk"
+msgstr ""
+
+#: actionTag
+msgid "{0} {1} tagged \"{2}\""
+msgstr ""
+
+#: actionUntag
+msgid "Tag \"{2}\" removed from {0} {1}"
+msgstr ""
+
+#: actionRemoveTags
+msgid "All tags removed from {0} {1}"
+msgstr ""
+
+#: actionFlag
+msgid "{0} {1} flagged"
+msgstr ""
+
+#: actionUnflag
+msgid "{0} {1} unflagged"
+msgstr ""
+
+#: actionMarkRead
+msgid "{0} {1} marked read"
+msgstr ""
+
+#: actionMarkUnread
+msgid "{0} {1} marked unread"
 msgstr ""

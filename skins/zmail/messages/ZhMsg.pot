@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-03-06 00:47+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # Copyright (C) 2008, 2009, 2010 Zimbra, Inc.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.3 ("License"); you may not use this file except in
@@ -32,56 +32,6 @@ msgstr ""
 
 #: acceptShare
 msgid "Accept Share"
-msgstr ""
-
-#: actionAddCallerToForward
-msgid "Add to Call Forwarding List"
-msgstr ""
-
-#: actionAddCallerToReject
-msgid "Add to Call Screening List"
-msgstr ""
-
-#: actionAddCallerToForwardTT
-msgid "Add the caller to the Call Forwarding List"
-msgstr ""
-
-#: actionAddCallerToRejectTT
-msgid "Add the caller to the Call Screening List"
-msgstr ""
-
-#: actionCallerAddedToForwardPl
-msgid "{0} phone numbers were added to the Call Forwarding List."
-msgstr ""
-
-#: actionCallerAddedToForwardSi
-msgid "The phone number was added to the Call Forwarding List."
-msgstr ""
-
-#: actionCallerAlreadyInForward
-msgctxt "actionCallerAlreadyInForward"
-msgid "The phone number is already in the Call Forwarding List."
-msgstr ""
-
-#: actionCallerAddForwardError
-msgid "The phone number could not be added to the Call Forwarding List."
-msgstr ""
-
-#: actionCallerAddedToRejectPl
-msgid "{0} phone numbers were added to the Call Screening List."
-msgstr ""
-
-#: actionCallerAddedToRejectSi
-msgid "The phone number was added to the Call Screening List."
-msgstr ""
-
-#: actionCallerAlreadyInReject
-msgctxt "actionCallerAlreadyInReject"
-msgid "The phone number is already in the Call Screening List."
-msgstr ""
-
-#: actionCallerAddRejectError
-msgid "The phone number could not be added to the Call Screening List."
 msgstr ""
 
 #: actionAddressBookCreated
@@ -105,82 +55,12 @@ msgstr ""
 msgid "Deleted address book \"{0}\"."
 msgstr ""
 
-#: actionAddressBookModified
-msgid "Address book \"{0}\" modified."
-msgstr ""
-
 #: actionAddressBookRenamed
 msgid "Address book \"{0}\" renamed to \"{1}\"."
 msgstr ""
 
-#: actionAddressBookTrashed
-msgid "Address book trashed \"{0}\"."
-msgstr ""
-
 #: actionAddressBookMovedToTrash
 msgid "Address book \"{0}\" moved to \"Trash\"."
-msgstr ""
-
-#: actionBriefcaseCreated
-msgid "Created briefcase \"{0}\"."
-msgstr ""
-
-#: actionBriefcaseCheckConfirm
-msgid "Please check the checkbox to confirm briefcase deletion."
-msgstr ""
-
-#: actionBriefcaseColorChanged
-msgid "Briefcase \"{0}\" color changed to \"{1}\"."
-msgstr ""
-
-#: actionBriefcaseDeleted
-msgid "Deleted briefcase \"{0}\"."
-msgstr ""
-
-#: actionBriefcaseModified
-msgid "Briefcase \"{0}\" modified\"."
-msgstr ""
-
-#: actionBriefcaseRenamed
-msgid "Briefcase \"{0}\" renamed to \"{1}\"."
-msgstr ""
-
-#: actionBriefcaseItemsMoved
-msgid ""
-"{0,choice,0#0 items have been moved to \"{1}\"|1#1 item has been moved to "
-"\"{1}\"|1<{0,number,integer} items have been moved to \"{1}\"}."
-msgstr ""
-
-#: actionBriefcaseItemsDeleted
-msgid ""
-"{0,choice,0#0 items have been deleted|1#1 item has been "
-"deleted|1<{0,number,integer} items have been deleted}."
-msgstr ""
-
-#: actionBriefcaseMovedToTrash
-msgid "Briefcase \"{0}\" moved to \"Trash\"."
-msgstr ""
-
-#: actionBriefcaseTrashed
-msgid "Briefcase \"{0}\" trashed."
-msgstr ""
-
-#: actionBriefcaseTag
-msgid ""
-"The tag \"{1}\" has been added to {0,choice,0#0 items|1#1 "
-"item|1<{0,number,integer} items}."
-msgstr ""
-
-#: actionBriefcaseUntag
-msgid ""
-"The tag \"{1}\" has been removed from {0,choice,0#0 items|1#1 "
-"item|1<{0,number,integer} items}."
-msgstr ""
-
-#: actionBriefcaseUntagAll
-msgid ""
-"All tags have been removed from {0,choice,0#0 items|1#1 "
-"item|1<{0,number,integer} items}."
 msgstr ""
 
 #: actionAddFlag
@@ -260,16 +140,8 @@ msgstr ""
 msgid "Created calendar \"{0}\"."
 msgstr ""
 
-#: actionCalendarModified
-msgid "Calendar \"{0}\" modified."
-msgstr ""
-
 #: actionCalendarReloaded
 msgid "Reloaded calendar \"{0}\"."
-msgstr ""
-
-#: actionCalendarTrashed
-msgid "Calendar trashed \"{0}\"."
 msgstr ""
 
 #: actionCalendarCheckConfirm
@@ -283,15 +155,6 @@ msgstr ""
 #: actionCallManager
 msgctxt "actionCallManager"
 msgid "Call Manager"
-msgstr ""
-
-#: actionChange
-msgctxt "actionChange"
-msgid "Change"
-msgstr ""
-
-#: actionChangeTT
-msgid "Click to change the view"
 msgstr ""
 
 #: actionContactHardDeleted
@@ -326,8 +189,8 @@ msgstr ""
 
 #: actionContactUntagAll
 msgid ""
-"All tags have been removed from {0,choice,0#0 contacts|1#1 "
-"contact|1<{0,number,integer} contacts}."
+"All tags have been removed from {0,choice,0#0 messages|1#1 "
+"message|1<{0,number,integer} contacts}."
 msgstr ""
 
 #: actionContactMoved
@@ -450,20 +313,12 @@ msgstr ""
 msgid "All items in folder \"{0}\" marked as read."
 msgstr ""
 
-#: actionFolderModified
-msgid "Folder \"{0}\" modified."
-msgstr ""
-
 #: actionFolderMovedToTrash
 msgid "Folder \"{0}\" moved to \"Trash\"."
 msgstr ""
 
 #: actionFolderReloaded
 msgid "Reloaded folder \"{0}\"."
-msgstr ""
-
-#: actionFolderTrashed
-msgid "Folder trashed \"{0}\"."
 msgstr ""
 
 #: actionForwardByEmail
@@ -485,10 +340,6 @@ msgstr ""
 
 #: actionTaskListGoTT
 msgid "Perform action on selected tasks(s)"
-msgstr ""
-
-#: actionAppointmentGoTT
-msgid "Perform action on selected appointment(s)"
 msgstr ""
 
 #: actionTaskCancelled
@@ -650,10 +501,6 @@ msgstr ""
 msgid "No address book selected."
 msgstr ""
 
-#: actionNoBriefcaseNameSpecified
-msgid "No briefcase name specified."
-msgstr ""
-
 #: actionNoTaskListFileImportSpecified
 msgctxt "actionNoTaskListFileImportSpecified"
 msgid "No file specified."
@@ -708,10 +555,6 @@ msgstr ""
 
 #: actionNoFolderNameSpecified
 msgid "No folder name specified."
-msgstr ""
-
-#: actionNoItemSelected
-msgid "No item selected."
 msgstr ""
 
 #: actionNoNameSpecified
@@ -828,18 +671,6 @@ msgstr ""
 msgid "Created search \"{0}\"."
 msgstr ""
 
-#: actionSearchModified
-msgid "Search \"{0}\" modified."
-msgstr ""
-
-#: actionSearchTrashed
-msgid "Search trashed \"{0}\"."
-msgstr ""
-
-#: actionSearchDeleted
-msgid "Search deleted \"{0}\"."
-msgstr ""
-
 #: actionNotSpam
 msgid "Not Junk"
 msgstr ""
@@ -887,20 +718,12 @@ msgstr ""
 msgid "All items with tag \"{0}\" marked as read."
 msgstr ""
 
-#: actionTagModified
-msgid "Tag \"{0}\" modified."
-msgstr ""
-
 #: actionTaskListCreated
 msgid "Created task list \"{0}\"."
 msgstr ""
 
 #: actionTaskListDeleted
 msgid "Task List \"{0}\" deleted."
-msgstr ""
-
-#: actionTaskListTrashed
-msgid "Task List \"{0}\" trashed."
 msgstr ""
 
 #: actionTaskTag
@@ -1018,28 +841,11 @@ msgid ""
 "time may be attached to an email message."
 msgstr ""
 
-#: actionWikiCreated
-msgid "Created notebook \"{0}\"."
-msgstr ""
-
-#: actionWikiModified
-msgid "Notebook \"{0}\" modified."
-msgstr ""
-
-#: actionWikiTrashed
-msgid "Notebook \"{0}\" trashed."
-msgstr ""
-
-#: actionWikiDeleted
-msgid "Notebook \"{0}\" deleted."
-msgstr ""
-
 #: active
 msgid "Active"
 msgstr ""
 
 #: add
-msgctxt "add"
 msgid "Add"
 msgstr ""
 
@@ -1049,10 +855,6 @@ msgstr ""
 
 #: addAttendeesFromContacts
 msgid "Add Attendees"
-msgstr ""
-
-#: addAttendeesResourcesFromContacts
-msgid "Add Attendees and Resources"
 msgstr ""
 
 #: addFromContacts
@@ -1069,11 +871,7 @@ msgstr ""
 
 #: addressBook
 msgctxt "addressBook"
-msgid "Address Book"
-msgstr ""
-
-#: addressBookLabel
-msgid "Address Book:"
+msgid "Contacts"
 msgstr ""
 
 #: addressBookNew
@@ -1122,24 +920,12 @@ msgstr ""
 msgid "Address Books"
 msgstr ""
 
-#: addressBooksLabel
-msgid "Address Books:"
-msgstr ""
-
 #: addSelected
 msgid "Add Selected"
 msgstr ""
 
-#: addToList
-msgid "Add to list"
-msgstr ""
-
 #: adminLinkLabel
 msgid "Domain Admin"
-msgstr ""
-
-#: advertisement
-msgid "ADVERTISEMENT"
 msgstr ""
 
 #: all
@@ -1156,14 +942,6 @@ msgstr ""
 
 #: answeredCalls
 msgid "Answered Calls"
-msgstr ""
-
-#: appointments
-msgid "Appointments"
-msgstr ""
-
-#: applyChanges
-msgid "Apply Changes"
 msgstr ""
 
 #: apptAllDay
@@ -1183,7 +961,6 @@ msgid "From {0} {1} - {2}  {3}"
 msgstr ""
 
 #: apptDateBlurbAllDay
-msgctxt "apptDateBlurbAllDay"
 msgid "{0}"
 msgstr ""
 
@@ -1258,12 +1035,7 @@ msgid "from"
 msgstr ""
 
 #: assistant
-msgctxt "assistant"
 msgid "Assistant"
-msgstr ""
-
-#: at
-msgid "@"
 msgstr ""
 
 #: atBottomOfMessage
@@ -1272,10 +1044,6 @@ msgstr ""
 
 #: attachFiles
 msgid "Attach Files"
-msgstr ""
-
-#: attachments
-msgid "Attachments"
 msgstr ""
 
 #: attachmentCount
@@ -1292,10 +1060,6 @@ msgstr ""
 msgid "Attendees"
 msgstr ""
 
-#: attendeesLabel
-msgid "Attendees:"
-msgstr ""
-
 #: autoAddContacts
 msgid "Enable auto adding of contacts"
 msgstr ""
@@ -1310,10 +1074,6 @@ msgstr ""
 
 #: awayMessage
 msgid "Away message"
-msgstr ""
-
-#: arrangedBy
-msgid "Arranged by"
 msgstr ""
 
 #: b
@@ -1374,64 +1134,6 @@ msgstr ""
 msgid "Bcc"
 msgstr ""
 
-#: bccLabel
-msgid "Bcc:"
-msgstr ""
-
-#: briefcase
-msgctxt "briefcase"
-msgid "Briefcase"
-msgstr ""
-
-#: briefcaseNew
-msgid "New Briefcase"
-msgstr ""
-
-#: briefcaseNewShared
-msgid "Link to Briefcase"
-msgstr ""
-
-#: briefcaseUser
-msgctxt "briefcaseUser"
-msgid "Briefcase"
-msgstr ""
-
-#: briefcaseSystem
-msgid "System Briefcase"
-msgstr ""
-
-#: briefcaseShared
-msgid "Shared Briefcase"
-msgstr ""
-
-#: briefcaseDelete
-msgid "Delete Briefcase"
-msgstr ""
-
-#: briefcaseUpdated
-msgid "Briefcase Updated"
-msgstr ""
-
-#: briefcaseEmptied
-msgid "Briefase folder \"{0}\" emptied"
-msgstr ""
-
-#: briefcaseDeleteConfirmation
-msgid "Delete this briefcase (move to trash)"
-msgstr ""
-
-#: briefcasePermDeleteConfirmation
-msgid "Permanently delete this briefcase"
-msgstr ""
-
-#: briefcaseExpView
-msgid "Explorer View"
-msgstr ""
-
-#: briefcaseDtlView
-msgid "Detail View"
-msgstr ""
-
 #: blue
 msgid "Blue"
 msgstr ""
@@ -1444,42 +1146,8 @@ msgstr ""
 msgid "Both new passwords must match. Please retype them."
 msgstr ""
 
-#: briefcases
-msgid "Briefcases"
-msgstr ""
-
 #: busy
 msgid "Busy"
-msgstr ""
-
-#: callingPartyFormat
-msgid "{0} ({1})&nbsp;&nbsp;{2}"
-msgstr ""
-
-#: callingPartyCallerIdFormat
-msgid "{0}&nbsp;&nbsp;{1}"
-msgstr ""
-
-#: by
-msgctxt "by"
-msgid "by"
-msgstr ""
-
-#: byConversation
-msgid "By Conversation"
-msgstr ""
-
-#: byMessage
-msgid "By Message"
-msgstr ""
-
-#: callingPartyFormat
-msgid "{0} ({1})"
-msgstr ""
-
-#: callingPartyCallerIdFormat
-msgctxt "callingPartyCallerIdFormat"
-msgid "{0}"
 msgstr ""
 
 #: calViewListShort
@@ -1524,10 +1192,6 @@ msgstr ""
 #: calendar
 msgctxt "calendar"
 msgid "Calendar"
-msgstr ""
-
-#: calendarLabel
-msgid "Calendar:"
 msgstr ""
 
 #: calendarCheckedInUI
@@ -1593,10 +1257,6 @@ msgstr ""
 msgid "Calendars"
 msgstr ""
 
-#: calendarsLabel
-msgid "Calendars:"
-msgstr ""
-
 #: calendarFirstDayOfWeek
 msgid "First day of the week"
 msgstr ""
@@ -1645,16 +1305,7 @@ msgctxt "cc"
 msgid "Cc"
 msgstr ""
 
-#: ccbcc
-msgid "Cc/Bcc"
-msgstr ""
-
-#: ccLabel
-msgid "Cc:"
-msgstr ""
-
 #: change
-msgctxt "change"
 msgid "Change"
 msgstr ""
 
@@ -1755,42 +1406,6 @@ msgctxt "color"
 msgid "Color"
 msgstr ""
 
-#: colorBlue
-msgid "#5b9bf2"
-msgstr ""
-
-#: colorCyan
-msgid "#43eded"
-msgstr ""
-
-#: colorGray
-msgid "#bebebe"
-msgstr ""
-
-#: colorGreen
-msgid "#6acb9e"
-msgstr ""
-
-#: colorOrange
-msgid "#fdbc55"
-msgstr ""
-
-#: colorPink
-msgid "#fe98d3"
-msgstr ""
-
-#: colorPurple
-msgid "#ba86e5"
-msgstr ""
-
-#: colorRed
-msgid "#f66666"
-msgstr ""
-
-#: colorYellow
-msgid "#f8fa33"
-msgstr ""
-
 #: company
 msgctxt "company"
 msgid "Company"
@@ -1824,10 +1439,6 @@ msgid ""
 "in the trash folder? {1}{2}"
 msgstr ""
 
-#: confirmUnsavedChanges
-msgid "Do you really want to cancel? {0}"
-msgstr ""
-
 #: contact
 msgctxt "contact"
 msgid "Contact"
@@ -1852,10 +1463,6 @@ msgstr ""
 
 #: contactGroupCreated
 msgid "Contact group created."
-msgstr ""
-
-#: contactGroupModified
-msgid "Contact group modified."
 msgstr ""
 
 #: contactExport
@@ -1883,16 +1490,8 @@ msgstr ""
 msgid "Create Address Book"
 msgstr ""
 
-#: createBriefcase
-msgid "Create Briefcase"
-msgstr ""
-
 #: createCalendar
 msgid "Create Calendar"
-msgstr ""
-
-#: created
-msgid "created"
 msgstr ""
 
 #: createFolder
@@ -1990,7 +1589,7 @@ msgstr ""
 
 #: defaultInviteReplyDeclineInstanceMessage
 msgid ""
-"I won''t attend on {0,date,full}.\r\n"
+"I won't attend on {0,date,full}.\r\n"
 "\r\n"
 msgstr ""
 
@@ -2048,10 +1647,6 @@ msgstr ""
 
 #: displayExternalImages
 msgid "Display images below"
-msgstr ""
-
-#: documentsSaved
-msgid "{0} documents saved in \"{1}\"."
 msgstr ""
 
 #: done
@@ -2134,24 +1729,8 @@ msgstr ""
 msgid "Empty Junk"
 msgstr ""
 
-#: emptyMessage
-msgid "Click to view."
-msgstr ""
-
-#: emptySearchQuery
-msgid "Please specify search query to search."
-msgstr ""
-
-#: enableAppleICalDelegation
-msgid "Enable delegation for Apple iCal CalDAV client"
-msgstr ""
-
 #: end
 msgid "End"
-msgstr ""
-
-#: endLabel
-msgid "End:"
 msgstr ""
 
 #: enterAddrBelow
@@ -2163,7 +1742,8 @@ msgid "Enter addresses on separate lines"
 msgstr ""
 
 #: enterContactToSearchFor
-msgid "Enter contact to search for in text field and click on \"Search\"."
+msgid ""
+"Enter contact to search for in text field and click on \"Search Contacts\"."
 msgstr ""
 
 #: enterNewPassword
@@ -2191,96 +1771,6 @@ msgstr ""
 msgid "Subject is a required field."
 msgstr ""
 
-#: errorMyCardDelete
-msgid "My Card cannot be deleted."
-msgstr ""
-
-#: errorMyCardMove
-msgid "My Card cannot be moved."
-msgstr ""
-
-#: errorPhoneFAQLink
-msgid "Please see the <a href=\"{1}\" target=\"_blank\">FAQ</a> for more info."
-msgstr ""
-
-#: errorPhoneFAQURL
-msgid "http://www.comcast.net"
-msgstr ""
-
-#: errorPhoneNotUnique
-msgid "The phone number is already in the list of numbers being forwarded."
-msgstr ""
-
-#: errorPhoneNotUniqueReject
-msgid "The phone number is already in the list of numbers being screened."
-msgstr ""
-
-#: errorPhoneIsInList
-msgid ""
-"Sorry, you entered a telephone number that is already added. Please enter "
-"another valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0398"
-msgstr ""
-
-#: errorPhoneIsTo
-msgid "Sorry, the phone number may not be the same as the \"forward to\" number."
-msgstr ""
-
-#: errorPhoneIsOwn
-msgid ""
-"Sorry, you cannot use your telephone number with this feature. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1- XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0390"
-msgstr ""
-
-#: errorPhoneIsInternational
-msgctxt "errorPhoneIsInternational"
-msgid ""
-"Sorry, this feature does not support international telephone numbers. Please "
-"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0391"
-msgstr ""
-
-#: errorPhoneInvalidAreaCode
-msgctxt "errorPhoneInvalidAreaCode"
-msgid ""
-"Sorry, this feature does not support telephone numbers with area codes of "
-"900, 500, 700 or 976. Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 "
-"digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0392"
-msgstr ""
-
-#: errorPhoneInvalidExtension
-msgctxt "errorPhoneInvalidExtension"
-msgid ""
-"Sorry, this feature does not support telephone numbers with the 555 "
-"exchange. (e.g. XXX-555-XXXX). Please enter a valid 10 digit (XXX-XXX-XXXX) "
-"or 11 digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0393"
-msgstr ""
-
-#: errorPhoneIs911
-msgctxt "errorPhoneIs911"
-msgid ""
-"Sorry, this feature does not support the 911 telephone numbers. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0394"
-msgstr ""
-
-#: errorPhoneIs411
-msgctxt "errorPhoneIs411"
-msgid ""
-"Sorry, this feature does not support the 411 telephone numbers. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0395"
-msgstr ""
-
-#: errorPhoneInvalid
-msgctxt "errorPhoneInvalid"
-msgid ""
-"Sorry, this feature does not support the telephone number entered. Please "
-"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0396"
-msgstr ""
-
 #: excludeFromFreeBusy
 msgid "Exclude from free/busy"
 msgstr ""
@@ -2305,11 +1795,7 @@ msgstr ""
 msgid "If all of the following conditions are met:"
 msgstr ""
 
-#: itemModifiedByOn
-msgid "modified by {0} on {1}"
-msgstr ""
-
-#. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
+#. #URL for the favorites icon, relative to the webapp directory (eg: /zimbra)
 #: favIconUrl
 msgid "/img/logo/favicon.ico"
 msgstr ""
@@ -2324,11 +1810,6 @@ msgstr ""
 
 #: fileAs
 msgid "File As"
-msgstr ""
-
-#: files
-msgctxt "files"
-msgid "Files"
 msgstr ""
 
 #: filterActiveHint
@@ -2508,14 +1989,6 @@ msgstr ""
 msgid "Folders"
 msgstr ""
 
-#: foldersLabel
-msgid "Folders:"
-msgstr ""
-
-#: fontSize
-msgid "Font Size"
-msgstr ""
-
 #: footerCopyright
 msgid "Copyright © 2008-2010 Zimbra, Inc."
 msgstr ""
@@ -2553,17 +2026,9 @@ msgstr ""
 msgid "Free"
 msgstr ""
 
-#: freeBusy
-msgid "Free/Busy"
-msgstr ""
-
 #: from
 msgctxt "from"
 msgid "From"
-msgstr ""
-
-#: fromLabel
-msgid "From:"
 msgstr ""
 
 #: fromDate
@@ -2623,10 +2088,6 @@ msgctxt "high"
 msgid "High"
 msgstr ""
 
-#: hide
-msgid "Hide"
-msgstr ""
-
 #: hideBcc
 msgid "Hide Bcc"
 msgstr ""
@@ -2647,10 +2108,6 @@ msgstr ""
 
 #: kb
 msgid "KB"
-msgstr ""
-
-#: key
-msgid "Key"
 msgstr ""
 
 #: import
@@ -2678,20 +2135,12 @@ msgstr ""
 msgid "Also search Junk"
 msgstr ""
 
-#: includeShared
-msgid "Include shared "
-msgstr ""
-
 #: invalidForwardNumber
 msgid "The call forwarding number is invalid"
 msgstr ""
 
 #: invalidEmailAddress
 msgid "Invalid email address"
-msgstr ""
-
-#: invalidAttendees
-msgid "Invalid attendees"
 msgstr ""
 
 #: missingEmailAddress
@@ -2726,16 +2175,12 @@ msgstr ""
 msgid "Location"
 msgstr ""
 
-#: locationLabel
-msgid "Location:"
-msgstr ""
-
 #: login
 msgid "Log In"
 msgstr ""
 
 #: logOut
-msgid "Log Out"
+msgid "Sign Out"
 msgstr ""
 
 #: logoURL
@@ -2751,30 +2196,9 @@ msgstr ""
 msgid "Thin (EDGE/GPRS)"
 msgstr ""
 
-#: labelModifiedOn
-msgid "modified on"
-msgstr ""
-
-#: labelVersion
-msgid "version"
-msgstr ""
-
-#: labelBy
-msgctxt "labelBy"
-msgid "by"
-msgstr ""
-
 #: mail
 msgctxt "mail"
 msgid "Mail"
-msgstr ""
-
-#: mailHeader
-msgid "My Email Accounts"
-msgstr ""
-
-#: mails
-msgid "Mails"
 msgstr ""
 
 #: mailSearch
@@ -2814,10 +2238,6 @@ msgctxt "manageAddressBooks"
 msgid "Manage Address Books"
 msgstr ""
 
-#: manageBriefcase
-msgid "Manage Briefcases"
-msgstr ""
-
 #: manageCalendars
 msgctxt "manageCalendars"
 msgid "Manage Calendars"
@@ -2841,10 +2261,6 @@ msgstr ""
 msgid "Mark as"
 msgstr ""
 
-#: markAsLabel
-msgid "Mark as:"
-msgstr ""
-
 #: markFolderRead
 msgid "Mark Folder Read"
 msgstr ""
@@ -2865,129 +2281,9 @@ msgstr ""
 msgid "Missed Calls"
 msgstr ""
 
-#: mimeAudio
-msgid "Audio"
-msgstr ""
-
-#: mimeUnknownBinaryType
-msgid "Unknown Binary Type"
-msgstr ""
-
-#: mimeAdobePdfDocument
-msgid "Adobe PDF"
-msgstr ""
-
-#: mimeAdobePsDocument
-msgid "Adobe Postscript"
-msgstr ""
-
-#: mimeApplication
-msgid "Application"
-msgstr ""
-
-#: mimeMsDownload
-msgid "Microsoft DLL"
-msgstr ""
-
-#: mimeMsExcelDocument
-msgid "Microsoft Excel"
-msgstr ""
-
-#: mimeMsWinmailDat
-msgid "Microsoft Outlook (TNEF)"
-msgstr ""
-
-#: mimeMsPPTDocument
-msgid "Microsoft PowerPoint"
-msgstr ""
-
-#: mimeMsProjectDocument
-msgid "Microsoft Project"
-msgstr ""
-
-#: mimeMsVisioDocument
-msgid "Microsoft Visio"
-msgstr ""
-
-#: mimeMsWMV
-msgid "Windows Media Video"
-msgstr ""
-
-#: mimeMsWordDocument
-msgid "Microsoft Word"
-msgstr ""
-
-#: mimeMp3Audio
-msgid "MP3 Audio"
-msgstr ""
-
-#: mimeWaveAudio
-msgid "WAV Audio"
-msgstr ""
-
-#: mimeZipFile
-msgid "Zip File"
-msgstr ""
-
-#: mimeVideo
-msgid "Video"
-msgstr ""
-
-#: mimeImage
-msgid "Image"
-msgstr ""
-
-#: mimeGifImage
-msgid "GIF Image"
-msgstr ""
-
-#: mimeJpegImage
-msgid "JPEG Image"
-msgstr ""
-
-#: mimePngImage
-msgid "PNG Image"
-msgstr ""
-
-#: mimeTiffImage
-msgid "TIFF Image"
-msgstr ""
-
-#: mimeMailMessage
-msgid "Mail Message"
-msgstr ""
-
-#: mimeTextDocuments
-msgid "Text Documents"
-msgstr ""
-
-#: mimeTextFile
-msgid "Text File"
-msgstr ""
-
-#: mimeEnrichedText
-msgid "Enriched Text"
-msgstr ""
-
-#: mimeHtmlDocument
-msgid "HTML"
-msgstr ""
-
-#: mimeJavaSource
-msgid "Java Source Code"
-msgstr ""
-
-#: mimeXmlDocument
-msgid "XML"
-msgstr ""
-
 #: mobile
 msgctxt "mobile"
 msgid "Mobile"
-msgstr ""
-
-#: modified
-msgid "modified"
 msgstr ""
 
 #: modify
@@ -3015,16 +2311,8 @@ msgstr ""
 msgid "Move Folder"
 msgstr ""
 
-#: myCard
-msgid "My Card"
-msgstr ""
-
 #: name
 msgid "Name"
-msgstr ""
-
-#: nameLabel
-msgid "Name:"
 msgstr ""
 
 #: nameTooLong
@@ -3077,10 +2365,6 @@ msgstr ""
 msgid "Open in new window"
 msgstr ""
 
-#: no
-msgid "No"
-msgstr ""
-
 #: none
 msgid "None"
 msgstr ""
@@ -3096,11 +2380,7 @@ msgstr ""
 
 #: notebook
 msgctxt "notebook"
-msgid "Documents"
-msgstr ""
-
-#: notebooks
-msgid "Notebooks"
+msgid "Notebook"
 msgstr ""
 
 #: noAddresses
@@ -3153,10 +2433,6 @@ msgstr ""
 msgid "Number"
 msgstr ""
 
-#: numbers
-msgid "Numbers"
-msgstr ""
-
 #: numberOfItemsPerPage
 msgid "Number of items to display per page"
 msgstr ""
@@ -3169,12 +2445,8 @@ msgstr ""
 msgid "Old Password"
 msgstr ""
 
-#: on
-msgid "on"
-msgstr ""
-
 #: options
-msgid "Preferences"
+msgid "Settings"
 msgstr ""
 
 #: optionsAccess
@@ -3418,10 +2690,6 @@ msgstr ""
 msgid "Default Mail Search"
 msgstr ""
 
-#: optionsVoicemailDisplayPerPage
-msgid "Number of Voice Mails To Display"
-msgstr ""
-
 #: optionsDisplay
 msgid "Display"
 msgstr ""
@@ -3452,273 +2720,6 @@ msgctxt "optionsDisplayHtmlAsText"
 msgid "As Text"
 msgstr ""
 
-#: optionsRings
-msgid "Number Of Rings"
-msgstr ""
-
-#: optionsRingsSend
-msgid "Send call to voice mail after:"
-msgstr ""
-
-#: optionsRingsSendSuffix
-msgid "rings"
-msgstr ""
-
-#: optionsLanguage
-msgid "Language"
-msgstr ""
-
-#: optionsLanguageIncoming
-msgid "Incoming Calls:"
-msgstr ""
-
-#: optionsLanguageIncomingPrompt
-msgid "When someone is sent to voice mail, prompt them in:"
-msgstr ""
-
-#: optionsLanguageChecking
-msgid "Checking Voice Mail:"
-msgstr ""
-
-#: optionsLanguageCheckingPrompt
-msgid "When I call to check voice mail, prompt me in:"
-msgstr ""
-
-#: language_ENGLISH
-msgid "English"
-msgstr ""
-
-#: language_SPANISH
-msgid "Spanish"
-msgstr ""
-
-#: optionsPrompts
-msgid "Prompts:"
-msgstr ""
-
-#: optionsPromptsPlayback
-msgid "Playback:"
-msgstr ""
-
-#: optionsPromptsMessagePlayback
-msgid "Message Playback"
-msgstr ""
-
-#: optionsPromptsAutoplay
-msgid "Automatically play my new messages"
-msgstr ""
-
-#: optionsVoicemailPrompts
-msgid "Voice Mail Prompts"
-msgstr ""
-
-#: optionsPromptsLength
-msgid "Voice mails prompts should be..."
-msgstr ""
-
-#: optionsPromptsLengthShort
-msgid "Rapid (Fewer prompts)"
-msgstr ""
-
-#: optionsPromptsLengthMedium
-msgid "Standard"
-msgstr ""
-
-#: optionsPromptsLengthLong
-msgid "Extended (More prompts)"
-msgstr ""
-
-#: optionsPromptsAnnounce
-msgid "Announce date &amp; time when playing voice message"
-msgstr ""
-
-#: optionsVoiceSecurity
-msgid "Security"
-msgstr ""
-
-#: optionsVoiceSecurityChPwd
-msgid "Change Voice Mail PIN:"
-msgstr ""
-
-#: optionsVoiceSecurityChPwdLink
-msgid "Change your Voice Mail PIN on Comcast.net"
-msgstr ""
-
-#: optionsVoiceSecurityLogin
-msgid "Voice Mail Login:"
-msgstr ""
-
-#: optionsVoiceSecurityLoginRequire
-msgid ""
-"Require my voice mail password to access voice mail from my Comcast Digital "
-"Voice phone"
-msgstr ""
-
-#: optionsVoiceSecurityChPwdUrl
-msgid "https://customer.comcast.com/SmartUrl/Secure/VMPIN"
-msgstr ""
-
-#: optionsCallLog
-msgid "Display - Call Logs"
-msgstr ""
-
-#: optionsCallLogPerPage
-msgid "Calls per Page"
-msgstr ""
-
-#: optionsVoiceNotifications
-msgid "Notifications"
-msgstr ""
-
-#: optionsVoiceNotificationsEmail
-msgid "Email Notifications:"
-msgstr ""
-
-#: optionsVoiceNotificationsActive
-msgid "Send an email notification when a new voice mail is received to:"
-msgstr ""
-
-#: optionsVoiceNotificationsAddresses
-msgid "Email Notification Addresses"
-msgstr ""
-
-#: optionsVoiceNotificationsErrorMax
-msgid ""
-"Sorry, you can only enter a maximum of 25 email addresses in the list. "
-"SCC-1506"
-msgstr ""
-
-#: optionsVoiceNotificationsErrorInvalid
-msgid "Sorry, the entered email address is invalid."
-msgstr ""
-
-#: optionsVoiceNotificationsErrorLong
-msgid "Sorry, the email addresses must be 100 characters or fewer. SCC-1505"
-msgstr ""
-
-#: optionsVoiceNotificationsErrorNotUnique
-msgid "Sorry, the entered address is already in the list."
-msgstr ""
-
-#: optionsCallForwarding
-msgid "Call Forwarding"
-msgstr ""
-
-#: optionsCallForwardingAll
-msgid "Call Forwarding:"
-msgstr ""
-
-#: optionsCallForwardingAllLabel
-msgid "Forward ALL calls to:"
-msgstr ""
-
-#: optionsCallForwardingSelective
-msgid "Selective Forwarding:"
-msgstr ""
-
-#: optionsCallForwardingSelectiveLabel
-msgid "Forward ONLY calls from the following number(s):"
-msgstr ""
-
-#: optionsCallForwardingSelectiveDestination
-msgctxt "optionsCallForwardingSelectiveDestination"
-msgid "To this number:"
-msgstr ""
-
-#: optionsCallForwardingSelectiveAdd
-msgctxt "optionsCallForwardingSelectiveAdd"
-msgid "Add this number:"
-msgstr ""
-
-#: optionsCallForwardingErrorMax
-msgctxt "optionsCallForwardingErrorMax"
-msgid "You may only specify 12 numbers to forward calls from"
-msgstr ""
-
-#: optionsCallForwardingRules
-msgctxt "optionsCallForwardingRules"
-msgid "(You may forward up to 12 numbers)"
-msgstr ""
-
-#: optionsCallForwardingErrorToEmpty
-msgctxt "optionsCallForwardingErrorToEmpty"
-msgid ""
-"Sorry, the Forward To number cannot be blank with call forward option "
-"selected. You must enter a valid telephone number to use this feature. "
-"Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit (1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0397"
-msgstr ""
-
-#: optionsCallForwardingSelectiveErrorToEmpty
-msgctxt "optionsCallForwardingSelectiveErrorToEmpty"
-msgid ""
-"Sorry, the Forward To number cannot be blank with call forward option "
-"selected. You must enter a valid telephone number to use this feature. "
-"Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit (1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0397"
-msgstr ""
-
-#: optionsCallForwardingSelectiveToEmptyInstructions
-msgid ""
-"To turn off this feature please remove all the &quot;From&quot; numbers or "
-"provide a valid &quot;To&quot; number"
-msgstr ""
-
-#: optionsCallRejection
-msgid "Call Screening"
-msgstr ""
-
-#: optionsCallRejectionAll
-msgid "Anonymous Call Rejection:"
-msgstr ""
-
-#: optionsCallRejectionAllLabel
-msgid ""
-"Screen ALL anonymous calls (you can also manage this feature by dialing "
-"*77/*87 from your Comcast Digital Voice Phone)"
-msgstr ""
-
-#: optionsCallRejectionSelective
-msgid "Selective Call Rejection:"
-msgstr ""
-
-#: optionsCallRejectionSelectiveLabel
-msgid "Screen ONLY the following number(s):"
-msgstr ""
-
-#: optionsCallRejectionSelectiveDestination
-msgctxt "optionsCallRejectionSelectiveDestination"
-msgid "To this number:"
-msgstr ""
-
-#: optionsCallRejectionSelectiveAdd
-msgctxt "optionsCallRejectionSelectiveAdd"
-msgid "Add this number:"
-msgstr ""
-
-#: optionsCallRejectionErrorMax
-msgctxt "optionsCallRejectionErrorMax"
-msgid "You may only specify 12 numbers to screen calls from"
-msgstr ""
-
-#: optionsCallRejectionRules
-msgid "(You may reject calls from up to 12 numbers)"
-msgstr ""
-
-#: optionsVoiceCenterHeader
-msgid "Need more controls over your voice service?"
-msgstr ""
-
-#: optionsVoiceCenterLinkText
-msgid "Visit the Digital Voice Center"
-msgstr ""
-
-#: optionsVoiceCenterLinkURL
-msgid ""
-"https://digitalvoice.comcast.net/Comcast/DVPPortal/Dvp.portal?_nfpb=true&_pa"
-"geLabel=DvpPreferencesBook"
-msgstr ""
-
 #: optionsForwardAcopyTo
 msgid "Forward a copy to"
 msgstr ""
@@ -3737,10 +2738,6 @@ msgstr ""
 
 #: optionsAddSignature
 msgid "Add Signature"
-msgstr ""
-
-#: optionsReadingPane
-msgid "Reading Pane"
 msgstr ""
 
 #: optionsReceivingMessages
@@ -3810,7 +2807,7 @@ msgid "Sent Messages"
 msgstr ""
 
 #: optionsShowFragments
-msgid "Display text of messages in email list"
+msgid "Disply text of messages in email list"
 msgstr ""
 
 #: optionsSignatures
@@ -3902,12 +2899,7 @@ msgstr ""
 msgid "Organizer"
 msgstr ""
 
-#: organizerLabel
-msgid "Organizer:"
-msgstr ""
-
 #: other
-msgctxt "other"
 msgid "Other"
 msgstr ""
 
@@ -3936,10 +2928,6 @@ msgstr ""
 msgid "Owner's Address Book Name"
 msgstr ""
 
-#: ownersBriefcaseName
-msgid "Owner's Briefcase Name"
-msgstr ""
-
 #: ownersCalendarName
 msgid "Owner's Calendar Name"
 msgstr ""
@@ -3960,11 +2948,6 @@ msgstr ""
 #: pager
 msgctxt "pager"
 msgid "Pager"
-msgstr ""
-
-#: pages
-msgctxt "pages"
-msgid "Pages"
 msgstr ""
 
 #: parentFolder
@@ -4001,63 +2984,6 @@ msgstr ""
 
 #: phone2
 msgid "Phone 2"
-msgstr ""
-
-#: phoneLabelCallback
-msgctxt "phoneLabelCallback"
-msgid "Callback"
-msgstr ""
-
-#: phoneLabelCar
-msgctxt "phoneLabelCar"
-msgid "Car"
-msgstr ""
-
-#: phoneLabelAssistant
-msgctxt "phoneLabelAssistant"
-msgid "Assistant"
-msgstr ""
-
-#: phoneLabelCompany
-msgctxt "phoneLabelCompany"
-msgid "Company"
-msgstr ""
-
-#: phoneLabelHomeFax
-msgctxt "phoneLabelHomeFax"
-msgid "Home Fax"
-msgstr ""
-
-#: phoneLabelHome
-msgctxt "phoneLabelHome"
-msgid "Home"
-msgstr ""
-
-#: phoneLabelHome2
-msgid "Home 2"
-msgstr ""
-
-#: phoneLabelHomeAlternate
-msgid "Home Alternate"
-msgstr ""
-
-#: phoneLabelMobile
-msgctxt "phoneLabelMobile"
-msgid "Mobile"
-msgstr ""
-
-#: phoneLabelOther
-msgctxt "phoneLabelOther"
-msgid "Other"
-msgstr ""
-
-#: phoneLabelWork
-msgctxt "phoneLabelWork"
-msgid "Work"
-msgstr ""
-
-#: phoneLabelWork2
-msgid "Work 2"
 msgstr ""
 
 #: pink
@@ -4260,10 +3186,6 @@ msgstr ""
 msgid "Remove"
 msgstr ""
 
-#: removeAll
-msgid "Remove all"
-msgstr ""
-
 #: removeDupesToSelf
 msgid "When I receive a message originally sent by me"
 msgstr ""
@@ -4290,10 +3212,6 @@ msgstr ""
 
 #: repeat
 msgid "Repeat"
-msgstr ""
-
-#: repeatLabel
-msgid "Repeat:"
 msgstr ""
 
 #: repeatAdvanced
@@ -4367,10 +3285,6 @@ msgstr ""
 msgid "Repeats"
 msgstr ""
 
-#: repeatsLabel
-msgid "Repeats:"
-msgstr ""
-
 #: reply
 msgctxt "reply"
 msgid "Reply"
@@ -4410,14 +3324,6 @@ msgstr ""
 msgid "Resend"
 msgstr ""
 
-#: resource
-msgid "Resource"
-msgstr ""
-
-#: resources
-msgid "Resources"
-msgstr ""
-
 #: rootFolder
 msgid "(root folder)"
 msgstr ""
@@ -4433,10 +3339,6 @@ msgstr ""
 
 #: saveDraft
 msgid "Save Draft"
-msgstr ""
-
-#: saveSearch
-msgid "Save this search"
 msgstr ""
 
 #: saveToSent
@@ -4467,10 +3369,6 @@ msgstr ""
 msgid "Search name"
 msgstr ""
 
-#: searchNameLabel
-msgid "Search name:"
-msgstr ""
-
 #: searchPersonalCalendars
 msgid "Personal Calendars"
 msgstr ""
@@ -4485,10 +3383,6 @@ msgstr ""
 
 #: searchQuery
 msgid "Search query"
-msgstr ""
-
-#: searchQueryLabel
-msgid "Search query:"
 msgstr ""
 
 #: searches
@@ -4517,16 +3411,11 @@ msgid "Select files to attach and click \"Done\" when finished."
 msgstr ""
 
 #: selectCallForwardingRule
-msgctxt "selectCallForwardingRule"
 msgid "(You may forward up to 12 numbers)"
 msgstr ""
 
 #: send
 msgid "Send"
-msgstr ""
-
-#: sendAsAttachments
-msgid "Send as attachment(s)"
 msgstr ""
 
 #: sendEmailNotification
@@ -4543,10 +3432,6 @@ msgstr ""
 
 #: sender
 msgid "Sender"
-msgstr ""
-
-#: senderLabel
-msgid "Sender:"
 msgstr ""
 
 #: sent
@@ -4582,10 +3467,6 @@ msgstr ""
 msgid "Show as"
 msgstr ""
 
-#: showAsLabel
-msgid "Show as:"
-msgstr ""
-
 #: showConversation
 msgid "Show Conversation"
 msgstr ""
@@ -4612,30 +3493,6 @@ msgctxt "size"
 msgid "Size"
 msgstr ""
 
-#: slides_endSlideMsg
-msgid "End of slide show. <br> Click to run again"
-msgstr ""
-
-#: spellcheckNoMistakesFound
-msgid "No spelling mistakes found."
-msgstr ""
-
-#: spellcheckNoSuggestions
-msgid "No suggestions."
-msgstr ""
-
-#: spellcheckServiceUnavailableMessage
-msgid "The spell checking service is unavailable."
-msgstr ""
-
-#: spellcheckSpellingSuggestions
-msgid "Spelling Suggestions "
-msgstr ""
-
-#: spellcheckSuggestionsLabel
-msgid "Suggestions:"
-msgstr ""
-
 #: splashScreenCopyright
 msgid ""
 "Copyright © 2008-2010 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
@@ -4648,10 +3505,6 @@ msgstr ""
 
 #: start
 msgid "Start"
-msgstr ""
-
-#: startLabel
-msgid "Start:"
 msgstr ""
 
 #: startDate
@@ -4667,10 +3520,6 @@ msgstr ""
 #: subject
 msgctxt "subject"
 msgid "Subject"
-msgstr ""
-
-#: subjectLabel
-msgid "Subject:"
 msgstr ""
 
 #: subscribe
@@ -4737,10 +3586,6 @@ msgstr ""
 msgid "Due Date"
 msgstr ""
 
-#: taskDueDateLabel
-msgid "Due Date:"
-msgstr ""
-
 #: taskNew
 msgctxt "taskNew"
 msgid "New Task List"
@@ -4801,17 +3646,11 @@ msgid "High"
 msgstr ""
 
 #: task
-msgctxt "task"
 msgid "Task"
 msgstr ""
 
 #: tasks
-msgctxt "tasks"
 msgid "Tasks"
-msgstr ""
-
-#: tasksLabel
-msgid "Tasks:"
 msgstr ""
 
 #: TASK_CANC
@@ -4851,17 +3690,9 @@ msgstr ""
 msgid "Time Zone"
 msgstr ""
 
-#: timeZonePrefLabel
-msgid "Time Zone:"
-msgstr ""
-
 #: to
 msgctxt "to"
 msgid "To"
-msgstr ""
-
-#: toLabel
-msgid "To:"
 msgstr ""
 
 #: today
@@ -4890,10 +3721,6 @@ msgstr ""
 msgid "unheard"
 msgstr ""
 
-#: unknown
-msgid "Unknown "
-msgstr ""
-
 #: unknownContentType
 msgid "Unknown <{0}>"
 msgstr ""
@@ -4920,10 +3747,6 @@ msgstr ""
 msgid "No HTML formatter available for item"
 msgstr ""
 
-#: uploadNewFile
-msgid "Upload File"
-msgstr ""
-
 #: url
 msgid "URL"
 msgstr ""
@@ -4933,25 +3756,12 @@ msgctxt "username"
 msgid "Username"
 msgstr ""
 
-#: usernameFieldMissing
-msgid "You must fill in the Username"
-msgstr ""
-
 #: view
-msgctxt "view"
 msgid "View"
-msgstr ""
-
-#: viewLabel
-msgid "View:"
 msgstr ""
 
 #: viewAsHtml
 msgid "View As Html"
-msgstr ""
-
-#: viewMessage
-msgid "To view a message, click on it."
 msgstr ""
 
 #: voice
@@ -5014,7 +3824,6 @@ msgid "When replying"
 msgstr ""
 
 #: work
-msgctxt "work"
 msgid "Work"
 msgstr ""
 
@@ -5022,17 +3831,8 @@ msgstr ""
 msgid "Yellow"
 msgstr ""
 
-#: yes
-msgid "Yes"
-msgstr ""
-
 #: zimbraTitle
-msgctxt "zimbraTitle"
 msgid "Zimbra"
-msgstr ""
-
-#: zimbraTitleLabel
-msgid "Zimbra:"
 msgstr ""
 
 #: zeroSizedAtts
@@ -5043,341 +3843,12 @@ msgstr ""
 msgid "Note: Uncheck to remove members from group."
 msgstr ""
 
-#. #error codes and description
-#: errorTryAgainLater
-msgid "Please try again later."
-msgstr ""
-
-#: errorGoBack
-msgid "Go back"
-msgstr ""
-
-#: 400Title
-msgid "Bad Request"
-msgstr ""
-
-#: 400Msg
-msgid "The request contains bad syntax or cannot be fulfilled."
-msgstr ""
-
-#: 401Title
-msgid "Authorization Required"
-msgstr ""
-
-#: 401Msg
-msgid ""
-"The server could not verify that you are authorized to access the requested "
-"resource.  Either you supplied the wrong credentials (e.g., bad password), "
-"or your browser doesn't understand how to supply the credentials required."
-msgstr ""
-
-#: 402Title
-msgid "Payment Required"
-msgstr ""
-
-#: 402Msg
-msgctxt "402Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-
-#: 403Title
-msgid "Forbidden"
-msgstr ""
-
-#: 403Msg
-msgid ""
-"You don't have enough permission to access the requested resource on the "
-"server."
-msgstr ""
-
-#: 404Title
-msgid "Not Found"
-msgstr ""
-
-#: 404Msg
-msgid "The requested URL was not found on this server."
-msgstr ""
-
-#: 405Title
-msgid "Method Not Allowed"
-msgstr ""
-
-#: 405Msg
-msgid "The requested method GET is not allowed for the requested URL."
-msgstr ""
-
-#: 406Title
-msgid "Not Acceptable"
-msgstr ""
-
-#: 406Msg
-msgid "No acceptable representation was found for the requested resource."
-msgstr ""
-
-#: 407Title
-msgid "Proxy Authentication Required"
-msgstr ""
-
-#: 407Msg
-msgid ""
-"The server could not verify that you are authorized to access the requested "
-"resource."
-msgstr ""
-
-#: 408Title
-msgid "Request Time-out"
-msgstr ""
-
-#: 408Msg
-msgid ""
-"The server closed the network connection because the browser didn't finish "
-"the request within the specified time."
-msgstr ""
-
-#: 409Title
-msgid "Conflict"
-msgstr ""
-
-#: 409Msg
-msgctxt "409Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-
-#: 410Title
-msgid "Gone"
-msgstr ""
-
-#: 410Msg
-msgid ""
-"The requested URL is no longer available on this server and there is no "
-"forwarding address."
-msgstr ""
-
-#: 411Title
-msgid "Length Required"
-msgstr ""
-
-#: 411Msg
-msgid "A request of the requested method GET requires a valid Content-length."
-msgstr ""
-
-#: 412Title
-msgid "Precondition Failed"
-msgstr ""
-
-#: 412Msg
-msgid "The precondition on the request for the URL evaluated to false."
-msgstr ""
-
-#: 413Title
-msgid "Request Entity Too Large"
-msgstr ""
-
-#: 413Msg
-msgid ""
-"The redirect request method does not allow the data transmitted, or the data "
-"volume exceeds the capacity limit."
-msgstr ""
-
-#: 414Title
-msgid "Request-URI Too Large"
-msgstr ""
-
-#: 414Msg
-msgid "The requested URL's length exceeds the capacity limit for this server."
-msgstr ""
-
-#: 415Title
-msgid "Unsupported Media Type"
-msgstr ""
-
-#: 415Msg
-msgid "The server does not support the media type transmitted in the request."
-msgstr ""
-
-#: 416Title
-msgid "Requested Range Not Satisfiable"
-msgstr ""
-
-#: 416Msg
-msgid ""
-"None of the range-specifier values in the range request-header field overlap "
-"the current extent of the selected resource."
-msgstr ""
-
-#: 417Title
-msgid "Expectation Failed"
-msgstr ""
-
-#: 417Msg
-msgid ""
-"The expectation given in the Expect request-header field could not be met by "
-"this server."
-msgstr ""
-
-#: 422Title
-msgid "Unprocessable Entity"
-msgstr ""
-
-#: 422Msg
-msgid ""
-"The server understands the media type of the request entity, but was unable "
-"to process the contained instructions."
-msgstr ""
-
-#: 423Title
-msgid "Locked"
-msgstr ""
-
-#: 423Msg
-msgid ""
-"The requested resource is currently locked. The lock must be released or "
-"proper identification given before the method can be applied."
-msgstr ""
-
-#: 424Title
-msgid "Failed Dependency"
-msgstr ""
-
-#: 424Msg
-msgid ""
-"The method could not be performed on the resource because the requested "
-"action depended on another action and that other action failed."
-msgstr ""
-
-#: 425Title
-msgid "No code"
-msgstr ""
-
-#: 425Msg
-msgctxt "425Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-
-#: 426Title
-msgid "Upgrade Required"
-msgstr ""
-
-#: 426Msg
-msgid "The requested resource can only be retrieved using SSL."
-msgstr ""
-
-#: 500Title
-msgid "Internal Server Error"
-msgstr ""
-
-#: 500Msg
-msgid "The server has encountered an internal error."
-msgstr ""
-
-#: 501Title
-msgid "Not Implemented"
-msgstr ""
-
-#: 501Msg
-msgid ""
-"The server either does not recognise the request method, or it lacks the "
-"ability to fulfil the request."
-msgstr ""
-
-#: 502Title
-msgid "Bad Gateway"
-msgstr ""
-
-#: 502Msg
-msgid ""
-"The server was acting as a gateway or proxy and received an invalid response "
-"from the upstream server."
-msgstr ""
-
-#: 503Title
-msgid "Service Unavailable"
-msgstr ""
-
-#: 503Msg
-msgid ""
-"The server is currently unavailable (because it is overloaded or down for "
-"maintenance)."
-msgstr ""
-
-#: 504Title
-msgid "Gateway Timeout"
-msgstr ""
-
-#: 504Msg
-msgid ""
-"The server was acting as a gateway or proxy and did not receive a timely "
-"request from the upstream server."
-msgstr ""
-
-#: 505Title
-msgid "HTTP Version Not Supported"
-msgstr ""
-
-#: 505Msg
-msgid ""
-"The server does not support the HTTP protocol version used in the request."
-msgstr ""
-
-#: 506Title
-msgid "Variant Also Negotiates"
-msgstr ""
-
-#: 506Msg
-msgid ""
-"A variant for the requested entity is itself a negotiable resource. This "
-"indicates a configuration error."
-msgstr ""
-
-#: 507Title
-msgid "Insufficient Storage (WebDAV)"
-msgstr ""
-
-#: 507Msg
-msgid "There is insufficient free space left in your storage allocation."
-msgstr ""
-
-#: 509Title
-msgid "Bandwidth Limit Exceeded"
-msgstr ""
-
-#: 509Msg
-msgctxt "509Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-
-#: 510Title
-msgid "Not Extended"
-msgstr ""
-
-#: 510Msg
-msgid ""
-"A mandatory extension policy in the request is not accepted by the server "
-"for this resource."
-msgstr ""
-
 #: SKIN_uiTheme
 msgid "Theme"
 msgstr ""
 
 #: SKIN_bare
 msgid "Bare"
-msgstr ""
-
-#: SKIN_beach
-msgid "Beach"
-msgstr ""
-
-#: SKIN_bones
-msgid "Bones"
 msgstr ""
 
 #: SKIN_froggy
@@ -5388,16 +3859,8 @@ msgstr ""
 msgid "Harvest"
 msgstr ""
 
-#: SKIN_hotrod
-msgid "Hotrod"
-msgstr ""
-
 #: SKIN_lavender
 msgid "Lavender"
-msgstr ""
-
-#: SKIN_lemongrass
-msgid "Lemongrass"
 msgstr ""
 
 #: SKIN_rose
@@ -5418,19 +3881,6 @@ msgstr ""
 
 #: SKIN_vanilla
 msgid "Vanilla"
-msgstr ""
-
-#: SKIN_waves
-msgid "Waves"
-msgstr ""
-
-#: SKIN_yahoo
-msgid "Yahoo!"
-msgstr ""
-
-#: SKIN_zmail
-msgctxt "SKIN_zmail"
-msgid "Zimbra"
 msgstr ""
 
 #. # generic address
@@ -5594,8 +4044,7 @@ msgid "Work Phone"
 msgstr ""
 
 #: AB_FIELD_workPhone2
-msgctxt "AB_FIELD_workPhone2"
-msgid "Alternate Phone"
+msgid "Work Phone 2"
 msgstr ""
 
 #: AB_FIELD_workFax
@@ -5611,16 +4060,7 @@ msgid "Company Phone"
 msgstr ""
 
 #: AB_FIELD_callbackPhone
-msgctxt "AB_FIELD_callbackPhone"
 msgid "Callback"
-msgstr ""
-
-#: AB_FIELD_workMobile
-msgid "Work Mobile"
-msgstr ""
-
-#: AB_FIELD_workAlternatePhone
-msgid "Work Alternate Phone"
 msgstr ""
 
 #. # home address
@@ -5754,7 +4194,6 @@ msgid "Alternate Phone"
 msgstr ""
 
 #: AB_FIELD_homeFax
-msgctxt "AB_FIELD_homeFax"
 msgid "Home Fax"
 msgstr ""
 
@@ -5769,7 +4208,6 @@ msgid "Pager"
 msgstr ""
 
 #: AB_FIELD_carPhone
-msgctxt "AB_FIELD_carPhone"
 msgid "Car"
 msgstr ""
 
@@ -5889,11 +4327,6 @@ msgctxt "FOLDER_LABEL_13"
 msgid "Emailed Contacts"
 msgstr ""
 
-#: FOLDER_LABEL_15
-msgctxt "FOLDER_LABEL_15"
-msgid "Tasks"
-msgstr ""
-
 #. # calendar
 #: CAL_MINICAL_TITLE_FORMAT
 msgctxt "CAL_MINICAL_TITLE_FORMAT"
@@ -5992,10 +4425,6 @@ msgctxt "CAL_SCHEDULE_TB_TITLE_FORMAT"
 msgid "EEE, MMM d"
 msgstr ""
 
-#: CAL_APPT_SCHEDULE_HEADER_FORMAT
-msgid "MMM d, yyyy"
-msgstr ""
-
 #: CAL_APPT_EDIT_DATE_FORMAT
 msgctxt "CAL_APPT_EDIT_DATE_FORMAT"
 msgid "MM/dd/yyyy"
@@ -6037,13 +4466,7 @@ msgid "Compose New Message"
 msgstr ""
 
 #: ALT_APP_TASK
-msgctxt "ALT_APP_TASK"
-msgid "Task"
-msgstr ""
-
-#: ALT_APP_BRIEFCASE
-msgctxt "ALT_APP_BRIEFCASE"
-msgid "Briefcase"
+msgid "TASK"
 msgstr ""
 
 #: ALT_APP_MANAGE_TAGS
@@ -6068,7 +4491,7 @@ msgstr ""
 
 #: ALT_APP_NOTEBOOK
 msgctxt "ALT_APP_NOTEBOOK"
-msgid "Documents"
+msgid "Notebook"
 msgstr ""
 
 #: ALT_APP_LINK_HELP
@@ -6835,10 +5258,6 @@ msgstr ""
 msgid "Quota"
 msgstr ""
 
-#: MO_quotaLabel
-msgid "Quota:"
-msgstr ""
-
 #: MO_quotaUsage
 msgctxt "MO_quotaUsage"
 msgid "{0} of {1}"
@@ -6881,46 +5300,6 @@ msgstr ""
 
 #: MO_read
 msgid "Read"
-msgstr ""
-
-#: MO_loadingMsg
-msgid "Loading..."
-msgstr ""
-
-#: MO_requestTimedOut
-msgid "Request timed out. Retry later."
-msgstr ""
-
-#: MO_sendingRequestMsg
-msgid "Sending request..."
-msgstr ""
-
-#: MO_view
-msgctxt "MO_view"
-msgid "View"
-msgstr ""
-
-#: MO_viewList
-msgctxt "MO_viewList"
-msgid "List"
-msgstr ""
-
-#: MO_viewExplorer
-msgid "Explorer"
-msgstr ""
-
-#: MO_pages
-msgctxt "MO_pages"
-msgid "Pages"
-msgstr ""
-
-#: MO_files
-msgctxt "MO_files"
-msgid "Files"
-msgstr ""
-
-#: MO_noAppointments
-msgid "No Appointments"
 msgstr ""
 
 #. ## contact
@@ -6990,43 +5369,6 @@ msgstr ""
 
 #: MO_AB_callback
 msgid "callback"
-msgstr ""
-
-#. # For mo max folders features
-#: MO_AddTo
-msgid "Add to"
-msgstr ""
-
-#: MO_SelectBriefcase
-msgid "Select Briefcase"
-msgstr ""
-
-#: MO_SessionPrefs
-msgid "Session options"
-msgstr ""
-
-#: MO_MaxFolders
-msgid "Max Folders"
-msgstr ""
-
-#: MO_MaxFoldersInvalidValueMsg
-msgid "Invalid value for max folders. "
-msgstr ""
-
-#: MO_MaxFoldersAllowedNote
-msgid ""
-"Allowed value is between 1 to 1000. Your mobile browser may crash while "
-"rendering large list."
-msgstr ""
-
-#: MO_MaxFoldersNote
-msgid ""
-"You might be seeing max {0} folders. You can change this value from "
-"Preferences."
-msgstr ""
-
-#: MO_SessionPrefsNote
-msgid "These changes are temporary (session only)."
 msgstr ""
 
 #. #=======================================
@@ -7199,42 +5541,6 @@ msgstr ""
 msgid ""
 "New password does not meet the system's rules (i.e. length). Contact your "
 "System Administrator for more information."
-msgstr ""
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinLength
-msgid ""
-"New password must have minimum length of {0} chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-
-#: account.INVALID_PASSWORD.zimbraPasswordMaxLength
-msgid ""
-"New password can have maximumm length of {0} chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinLowerCaseChars
-msgid ""
-"New password must have minimum {0} lowercase chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinUpperCaseChars
-msgid ""
-"New password must have minimum {0} uppercase chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinNumericChars
-msgid ""
-"New password must have minimum {0} numeric chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinPunctuationChars
-msgid ""
-"New password must have minimum {0} punctuation chars. Contact your System "
-"Administrator for more information."
 msgstr ""
 
 #: account.INVALID_ATTR_NAME
@@ -7553,12 +5859,6 @@ msgstr ""
 msgid "Too many query terms expanded."
 msgstr ""
 
-#: mail.MESSAGE_TOO_BIG
-msgid ""
-"This file cannot be attached because it has exceeded the maximum allowed "
-"size."
-msgstr ""
-
 #: zclient.CLIENT_ERROR
 msgid "A network service error has occurred (zclient)."
 msgstr ""
@@ -7690,101 +5990,4 @@ msgstr ""
 
 #: voice.UNABLE_TO_UNDELETE_VOICEMAIL
 msgid "Unable to undelete voice mail."
-msgstr ""
-
-#: voice.SECONDARY_NOT_ALLOWED
-msgctxt "voice.SECONDARY_NOT_ALLOWED"
-msgid "You are not allowed to access voice mail."
-msgstr ""
-
-#: voice.SECONDARY_NOT_ALLOWED_VOICE
-msgctxt "voice.SECONDARY_NOT_ALLOWED_VOICE"
-msgid "You are not allowed to access voice mail."
-msgstr ""
-
-#: voice.SECONDARY_NOT_ALLOWED_PREFS
-msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
-msgid "You are not allowed to access voice mail."
-msgstr ""
-
-#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
-msgid ""
-"An error occurred while attempting to retrieve your voice mail preferences. "
-"Your telephone number may be out of service. We apologize for this "
-"inconvenience."
-msgstr ""
-
-#: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
-msgid ""
-"Sorry, you cannot use your telephone number with this feature. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1- XXX-XXX-XXXX) US telephone "
-"number and try again. SCC- 0390"
-msgstr ""
-
-#: voice.INVALID_PHNUM_INTERNATIONAL_NUMBER
-msgctxt "voice.INVALID_PHNUM_INTERNATIONAL_NUMBER"
-msgid ""
-"Sorry, this feature does not support international telephone numbers. Please "
-"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0391"
-msgstr ""
-
-#: voice.INVALID_PHNUM_BAD_NPA
-msgctxt "voice.INVALID_PHNUM_BAD_NPA"
-msgid ""
-"Sorry, this feature does not support telephone numbers with area codes of "
-"900, 500, 700 or 976. Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 "
-"digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0392"
-msgstr ""
-
-#: voice.INVALID_PHNUM_BAD_LINE
-msgctxt "voice.INVALID_PHNUM_BAD_LINE"
-msgid ""
-"Sorry, this feature does not support telephone numbers with the 555 "
-"exchange. (e.g. XXX-555-XXXX). Please enter a valid 10 digit (XXX-XXX-XXXX) "
-"or 11 digit(1-XXX-XXX-XXXX) US telephone number and try again. SCC-0393"
-msgstr ""
-
-#: voice.INVALID_PHNUM_EMERGENCY_ASSISTANCE
-msgctxt "voice.INVALID_PHNUM_EMERGENCY_ASSISTANCE"
-msgid ""
-"Sorry, this feature does not support the 911 telephone numbers. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0394"
-msgstr ""
-
-#: voice.INVALID_PHNUM_DIRECTORY_ASSISTANCE
-msgctxt "voice.INVALID_PHNUM_DIRECTORY_ASSISTANCE"
-msgid ""
-"Sorry, this feature does not support the 411 telephone numbers. Please enter "
-"a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US telephone "
-"number and try again. SCC-0395"
-msgstr ""
-
-#: voice.INVALID_PHNUM_BAD_FORMAT
-msgctxt "voice.INVALID_PHNUM_BAD_FORMAT"
-msgid ""
-"Sorry, this feature does not support the telephone number entered. Please "
-"enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
-"telephone number and try again. SCC-0396"
-msgstr ""
-
-#: voice.SELECTIVE_CALL_FORWARD_LIST_FULL
-msgctxt "voice.SELECTIVE_CALL_FORWARD_LIST_FULL"
-msgid "You may only specify 12 numbers to forward calls from"
-msgstr ""
-
-#: voice.SELECTIVE_CALL_REJECT_LIST_FULL
-msgctxt "voice.SELECTIVE_CALL_REJECT_LIST_FULL"
-msgid "You may only specify 12 numbers to screen calls from"
-msgstr ""
-
-#: voice.SELECTIVE_CALL_FORWARD_ALREADY_IN_LIST
-msgctxt "voice.SELECTIVE_CALL_FORWARD_ALREADY_IN_LIST"
-msgid "The phone number is already in the Call Forwarding List."
-msgstr ""
-
-#: voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST
-msgctxt "voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST"
-msgid "The phone number is already in the Call Screening List."
 msgstr ""

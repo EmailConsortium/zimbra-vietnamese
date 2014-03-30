@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:43+0700\n"
+"POT-Creation-Date: 2014-03-06 00:46+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,6 +87,15 @@ msgstr ""
 
 #: listSeparatorLast
 msgid " and "
+msgstr ""
+
+#. # for detecting quoted email msg content
+#: forwardedMessage
+msgid "Forwarded Message"
+msgstr ""
+
+#: origMsg
+msgid "Original Message"
 msgstr ""
 
 #. # relative time keywords
@@ -235,6 +244,11 @@ msgstr ""
 msgid "Show password"
 msgstr ""
 
+#. # tooltip
+#: loading
+msgid "Loading..."
+msgstr ""
+
 #. # confirm dialog
 #: confirmTitle
 msgid "Confirmation"
@@ -273,6 +287,7 @@ msgid "T"
 msgstr ""
 
 #: weekdayWedShort
+msgctxt "weekdayWedShort"
 msgid "W"
 msgstr ""
 
@@ -346,6 +361,11 @@ msgstr ""
 
 #: monthDecShort
 msgid "D"
+msgstr ""
+
+#: calendarWeekTitle
+msgctxt "calendarWeekTitle"
+msgid "W"
 msgstr ""
 
 #: timezoneNameAuto-DetectedLong
@@ -422,6 +442,10 @@ msgstr ""
 msgid "Value must be a percentage between 1 and 100"
 msgstr ""
 
+#: percentageString
+msgid "{0}%"
+msgstr ""
+
 #: setColor
 msgid "Set"
 msgstr ""
@@ -452,7 +476,7 @@ msgid "Date format not understood."
 msgstr ""
 
 #: didNotMatchChoice
-msgid "Value '{0}' did not match any values for this type."
+msgid "Value \"{0}\" did not match any values for this type."
 msgstr ""
 
 #: xformRepeatAdd
@@ -497,6 +521,10 @@ msgstr ""
 msgid "GMT +01:00 West Central Africa"
 msgstr ""
 
+#: America/Asuncion
+msgid "GMT -04:00 Asuncion  "
+msgstr ""
+
 #: Africa/Cairo
 msgid "GMT +02:00 Egypt"
 msgstr ""
@@ -510,7 +538,7 @@ msgid "GMT +00:00 Monrovia"
 msgstr ""
 
 #: Africa/Harare
-msgid "GMT +02:00 Harare / Pretoria"
+msgid "GMT +02:00 Harare, Pretoria"
 msgstr ""
 
 #: Africa/Nairobi
@@ -525,7 +553,7 @@ msgstr ""
 msgid "GMT -05:00 Colombia"
 msgstr ""
 
-#: America/Buenos_Aires
+#: America/Argentina/Buenos_Aires
 msgid "GMT -03:00 Argentina"
 msgstr ""
 
@@ -533,8 +561,16 @@ msgstr ""
 msgid "GMT -04:30 Caracas"
 msgstr ""
 
+#: America/Cayenne
+msgid "GMT -03:00 Cayenne, Fortaleza"
+msgstr ""
+
 #: America/Chihuahua
-msgid "GMT -07:00 Chihuahua / La Paz / Mazatlan"
+msgid "GMT -07:00 Chihuahua, La Paz, Mazatlan"
+msgstr ""
+
+#: America/Cuiaba
+msgid "GMT -04:00 Cuiaba"
 msgstr ""
 
 #: America/Godthab
@@ -546,7 +582,7 @@ msgid "GMT -06:00 Central America"
 msgstr ""
 
 #: America/Guyana
-msgid "GMT -04:00 Georgetown"
+msgid "GMT -04:00 Georgetown, La Paz, Manaus, San Juan"
 msgstr ""
 
 #: America/La_Paz
@@ -558,7 +594,7 @@ msgid "GMT -04:00 Manaus"
 msgstr ""
 
 #: America/Mexico_City
-msgid "GMT -06:00 Guadalajara / Mexico City / Monterrey"
+msgid "GMT -06:00 Guadalajara, Mexico City, Monterrey"
 msgstr ""
 
 #: America/Montevideo
@@ -570,7 +606,11 @@ msgid "GMT -04:00 Pacific South America"
 msgstr ""
 
 #: America/Tijuana
-msgid "GMT -08:00 Tijuana / Baja California"
+msgid "GMT -08:00 Baja California"
+msgstr ""
+
+#: Asia/Almaty
+msgid "GMT +06:00 Astana"
 msgstr ""
 
 #: Asia/Amman
@@ -593,7 +633,7 @@ msgstr ""
 msgid "GMT +02:00 Beirut"
 msgstr ""
 
-#: Asia/Calcutta
+#: Asia/Kolkata
 msgid "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
 msgstr ""
 
@@ -602,15 +642,15 @@ msgid "GMT +05:30 Sri Jayawardenepura"
 msgstr ""
 
 #: Asia/Dhaka
-msgid "GMT +06:00 Astana / Dhaka"
+msgid "GMT +06:00 Dhaka"
 msgstr ""
 
 #: Asia/Hong_Kong
-msgid "GMT +08:00 Beijing / Chongqing / Hong Kong / Urumqi"
+msgid "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
 msgstr ""
 
 #: Asia/Irkutsk
-msgid "GMT +08:00 Irkutsk, Ulaan Bataar"
+msgid "GMT +08:00 Irkutsk"
 msgstr ""
 
 #: Asia/Jerusalem
@@ -621,8 +661,12 @@ msgstr ""
 msgid "GMT +04:30 Kabul"
 msgstr ""
 
+#: Asia/Kamchatka
+msgid "GMT +12:00 Petropavlovsk-Kamchatsky"
+msgstr ""
+
 #: Asia/Karachi
-msgid "GMT +05:00 Islamabad / Karachi"
+msgid "GMT +05:00 Islamabad, Karachi"
 msgstr ""
 
 #: Asia/Katmandu
@@ -634,11 +678,11 @@ msgid "GMT +07:00 Krasnoyarsk"
 msgstr ""
 
 #: Asia/Kuala_Lumpur
-msgid "GMT +08:00 Kuala Lumpur / Singapore"
+msgid "GMT +08:00 Kuala Lumpur, Singapore"
 msgstr ""
 
 #: Asia/Kuwait
-msgid "GMT +03:00 Kuwait / Riyadh"
+msgid "GMT +03:00 Kuwait, Riyadh"
 msgstr ""
 
 #: Asia/Magadan
@@ -646,11 +690,11 @@ msgid "GMT +11:00 Magadan, Solomon Is., New Caledonia"
 msgstr ""
 
 #: Asia/Muscat
-msgid "GMT +04:00 Abu Dhabi / Muscat"
+msgid "GMT +04:00 Abu Dhabi, Muscat"
 msgstr ""
 
 #: Asia/Novosibirsk
-msgid "GMT +06:00 Almaty, Novosibirsk"
+msgid "GMT +06:00 Novosibirsk"
 msgstr ""
 
 #: Asia/Rangoon
@@ -662,7 +706,7 @@ msgid "GMT +09:00 Korea"
 msgstr ""
 
 #: Asia/Taipei
-msgid "GMT +08:00 China, Taiwan"
+msgid "GMT +08:00 Taipei"
 msgstr ""
 
 #: Asia/Tashkent
@@ -670,11 +714,7 @@ msgid "GMT +05:00 Tashkent"
 msgstr ""
 
 #: Asia/Tbilisi
-msgid "GMT +03:00 Tbilisi"
-msgstr ""
-
-#: Asia/Tbilisi_2
-msgid "GMT +04:00 Caucasus Standard Time"
+msgid "GMT +04:00 Tbilisi"
 msgstr ""
 
 #: Asia/Tehran
@@ -683,6 +723,10 @@ msgstr ""
 
 #: Asia/Tokyo
 msgid "GMT +09:00 Japan"
+msgstr ""
+
+#: Asia/Ulaanbaatar
+msgid "GMT +08:00 Ulaanbaatar"
 msgstr ""
 
 #: Asia/Vladivostok
@@ -714,7 +758,7 @@ msgid "GMT -02:00 Mid-Atlantic"
 msgstr ""
 
 #: Australia/Adelaide
-msgid "GMT +09:30 Adelaide (CT)"
+msgid "GMT +09:30 Adelaide"
 msgstr ""
 
 #: Australia/Brisbane
@@ -734,51 +778,67 @@ msgid "GMT +08:00 Perth"
 msgstr ""
 
 #: Australia/Sydney
-msgid "GMT +10:00 Canberra / Melbourne / Sydney"
+msgid "GMT +10:00 Canberra, Melbourne, Sydney"
 msgstr ""
 
-#: Brazil/East
+#: America/Sao_Paulo
 msgid "GMT -03:00 Brasilia"
 msgstr ""
 
-#: Canada/Atlantic
+#: America/Halifax
 msgid "GMT -04:00 Atlantic Time (Canada)"
 msgstr ""
 
-#: Canada/Newfoundland
+#: America/St_Johns
 msgid "GMT -03:30 Newfoundland"
 msgstr ""
 
-#: Canada/Saskatchewan
+#: America/Regina
 msgid "GMT -06:00 Saskatchewan"
+msgstr ""
+
+#: Etc/GMT-12
+msgid "GMT +12:00 GMT+12"
+msgstr ""
+
+#: Etc/GMT+11
+msgid "GMT -11:00 GMT-11"
 msgstr ""
 
 #: Etc/GMT+12
 msgid "GMT -12:00 Dateline"
 msgstr ""
 
+#: Etc/GMT+2
+msgid "GMT -02:00 GMT-02"
+msgstr ""
+
+#: UTC
+msgid "GMT/UTC Coordinated Universal Time"
+msgstr ""
+
 #: Europe/Athens
-msgid "GMT +02:00 Athens, Bucharest, Istanbul"
+msgid "GMT +02:00 Athens, Beirut, Bucharest, Istanbul"
 msgstr ""
 
 #: Europe/Belgrade
-msgid "GMT +01:00 Belgrade / Bratislava / Budapest / Ljubljana / Prague"
+msgid "GMT +01:00 Belgrade, Bratislava, Budapest, Ljubljana, Prague"
 msgstr ""
 
 #: Europe/Berlin
-msgid "GMT +01:00 Amsterdam / Berlin / Bern / Rome / Stockholm / Vienna"
+msgid "GMT +01:00 Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
 msgstr ""
 
 #: Europe/Brussels
-msgid "GMT +01:00 Brussels / Copenhagen / Madrid / Paris"
+msgid "GMT +01:00 Brussels, Copenhagen, Madrid, Paris"
 msgstr ""
 
 #: Europe/Helsinki
-msgid "GMT +02:00 Helsinki / Kyiv / Riga / Sofia / Tallinn / Vilnius"
+msgid "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
 msgstr ""
 
 #: Europe/London
-msgid "GMT +00:00 GMT Britain, Ireland, Portugal"
+msgid "GMT +00:00 Britain, Ireland, Portugal"
 msgstr ""
 
 #: Europe/Minsk
@@ -790,7 +850,11 @@ msgid "GMT +03:00 Moscow, St. Petersburg, Volgograd"
 msgstr ""
 
 #: Europe/Warsaw
-msgid "GMT +01:00 Sarajevo / Skopje / Warsaw / Zagreb"
+msgid "GMT +01:00 Sarajevo, Skopje, Warsaw, Zagreb"
+msgstr ""
+
+#: Indian/Mauritius
+msgid "GMT +04:00 Port Louis"
 msgstr ""
 
 #: Pacific/Auckland
@@ -802,46 +866,46 @@ msgid "GMT +12:00 Fiji"
 msgstr ""
 
 #: Pacific/Guam
-msgid "GMT +10:00 Guam / Port Moresby"
+msgid "GMT +10:00 Guam, Port Moresby"
 msgstr ""
 
 #: Pacific/Midway
-msgid "GMT -11:00 Midway Island / Samoa"
+msgid "GMT -11:00 Samoa"
 msgstr ""
 
 #: Pacific/Tongatapu
 msgid "GMT +13:00 Nuku'alofa"
 msgstr ""
 
-#: US/Alaska
+#: America/Anchorage
 msgid "GMT -09:00 Alaska"
 msgstr ""
 
-#: US/Arizona
-msgid "GMT -07:00 U.S. Mountain Time (Arizona)"
+#: America/Phoenix
+msgid "GMT -07:00 Arizona"
 msgstr ""
 
-#: US/Central
+#: America/Chicago
 msgid "GMT -06:00 US/Canada Central"
 msgstr ""
 
-#: US/East-Indiana
+#: America/Indiana/Indianapolis
 msgid "GMT -05:00 Indiana (East)"
 msgstr ""
 
-#: US/Eastern
+#: America/New_York
 msgid "GMT -05:00 US/Canada Eastern"
 msgstr ""
 
-#: US/Hawaii
+#: Pacific/Honolulu
 msgid "GMT -10:00 Hawaii"
 msgstr ""
 
-#: US/Mountain
+#: America/Denver
 msgid "GMT -07:00 US/Canada Mountain"
 msgstr ""
 
-#: US/Pacific
+#: America/Los_Angeles
 msgid "GMT -08:00 US/Canada Pacific"
 msgstr ""
 
@@ -865,43 +929,55 @@ msgstr ""
 #. #       avoid accidentally include intl font families inherited
 #. #       from the less specific locale property file.
 #: fontFamilyBase1.display
-msgid "Arial"
+msgid "Sans Serif"
 msgstr ""
 
 #: fontFamilyBase2.display
-msgid "Bookman Old Style"
+msgid "Serif"
 msgstr ""
 
 #: fontFamilyBase3.display
-msgid "Courier New"
+msgid "Wide Block"
 msgstr ""
 
 #: fontFamilyBase4.display
-msgid "Garamond"
+msgid "Monospaced"
 msgstr ""
 
 #: fontFamilyBase5.display
-msgid "Lucida Console"
+msgid "Comic"
 msgstr ""
 
 #: fontFamilyBase6.display
-msgid "Symbol"
+msgid "Console"
 msgstr ""
 
 #: fontFamilyBase7.display
-msgid "Tahoma"
+msgid "Garamond"
 msgstr ""
 
 #: fontFamilyBase8.display
-msgid "Times New Roman"
+msgid "Elegant"
 msgstr ""
 
 #: fontFamilyBase9.display
-msgid "Verdana"
+msgid "Professional"
 msgstr ""
 
 #: fontFamilyBase10.display
-msgctxt "fontFamilyBase10.display"
+msgid "Terminal"
+msgstr ""
+
+#: fontFamilyBase11.display
+msgid "Modern"
+msgstr ""
+
+#: fontFamilyBase12.display
+msgid "Wide"
+msgstr ""
+
+#: fontFamilyBase13.display
+msgctxt "fontFamilyBase13.display"
 msgid "###"
 msgstr ""
 
@@ -912,39 +988,51 @@ msgid "arial, helvetica, sans-serif"
 msgstr ""
 
 #: fontFamilyBase2.css
-msgid "bookman old style, new york, times, serif"
-msgstr ""
-
-#: fontFamilyBase3.css
-msgid "Courier New, courier, monaco, monospace, sans-serif"
-msgstr ""
-
-#: fontFamilyBase4.css
-msgid "garamond, new york, times, serif"
-msgstr ""
-
-#: fontFamilyBase5.css
-msgid "lucida console, sans-serif"
-msgstr ""
-
-#: fontFamilyBase6.css
-msgid "symbol"
-msgstr ""
-
-#: fontFamilyBase7.css
-msgid "tahoma, new york, times, serif"
-msgstr ""
-
-#: fontFamilyBase8.css
 msgid "times new roman, new york, times, serif"
 msgstr ""
 
+#: fontFamilyBase3.css
+msgid "arial black,avant garde"
+msgstr ""
+
+#: fontFamilyBase4.css
+msgid "courier new, courier, monaco, monospace, sans-serif"
+msgstr ""
+
+#: fontFamilyBase5.css
+msgid "comic sans ms, comic sans, sans-serif"
+msgstr ""
+
+#: fontFamilyBase6.css
+msgid "lucida console, sans-serif"
+msgstr ""
+
+#: fontFamilyBase7.css
+msgid "garamond, new york, times, serif"
+msgstr ""
+
+#: fontFamilyBase8.css
+msgid "georgia,serif"
+msgstr ""
+
 #: fontFamilyBase9.css
-msgid "verdana, helvetica, sans-serif"
+msgid "tahoma, new york, times, serif"
 msgstr ""
 
 #: fontFamilyBase10.css
-msgctxt "fontFamilyBase10.css"
+msgid "terminal,monaco"
+msgstr ""
+
+#: fontFamilyBase11.css
+msgid "trebuchet ms,sans-serif"
+msgstr ""
+
+#: fontFamilyBase12.css
+msgid "verdana, helvetica, sans-serif"
+msgstr ""
+
+#: fontFamilyBase13.css
+msgctxt "fontFamilyBase13.css"
 msgid "###"
 msgstr ""
 
@@ -1047,6 +1135,116 @@ msgstr ""
 
 #: fontFamilyIntl10.css
 msgctxt "fontFamilyIntl10.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl11.display
+msgctxt "fontFamilyIntl11.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl11.css
+msgctxt "fontFamilyIntl11.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl12.display
+msgctxt "fontFamilyIntl12.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl12.css
+msgctxt "fontFamilyIntl12.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl13.display
+msgctxt "fontFamilyIntl13.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl13.css
+msgctxt "fontFamilyIntl13.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl14.display
+msgctxt "fontFamilyIntl14.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl14.css
+msgctxt "fontFamilyIntl14.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl15.display
+msgctxt "fontFamilyIntl15.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl15.css
+msgctxt "fontFamilyIntl15.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl16.display
+msgctxt "fontFamilyIntl16.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl16.css
+msgctxt "fontFamilyIntl16.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl17.display
+msgctxt "fontFamilyIntl17.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl17.css
+msgctxt "fontFamilyIntl17.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl18.display
+msgctxt "fontFamilyIntl18.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl18.css
+msgctxt "fontFamilyIntl18.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl19.display
+msgctxt "fontFamilyIntl19.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl19.css
+msgctxt "fontFamilyIntl19.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl20.display
+msgctxt "fontFamilyIntl20.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl20.css
+msgctxt "fontFamilyIntl20.css"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl21.display
+msgctxt "fontFamilyIntl21.display"
+msgid "###"
+msgstr ""
+
+#: fontFamilyIntl21.css
+msgctxt "fontFamilyIntl21.css"
 msgid "###"
 msgstr ""
 
