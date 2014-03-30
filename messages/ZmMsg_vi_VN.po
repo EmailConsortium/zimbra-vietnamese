@@ -793,7 +793,7 @@ msgstr "Tât cả thư"
 
 #: allRemindersAreSnoozed
 msgid "All Reminders are snoozed"
-msgstr "Tất cả nhắc nhở được ngủ"
+msgstr "Tất cả nhắc nhở được báo lại"
 
 #: archive
 msgid "Archive"
@@ -992,7 +992,7 @@ msgstr "Tự động chọn"
 
 #: autoSaveDrafts
 msgid "Automatically save drafts of messages while you are composing"
-msgstr "Tự đông lưu bản nháp của thông điệp khi bạn đang soạn thảo"
+msgstr "Tự động lưu bản nháp của thông điệp khi bạn đang soạn thảo"
 
 #: awayMessage
 msgid "Away message"
@@ -2645,7 +2645,8 @@ msgid ""
 "Tip: drag and drop files from your desktop to add attachments to this "
 "message."
 msgstr ""
-"Kéo và thả các tập tin từ desktop của bạn để đính kèm vào thông điệp này."
+"Mẹo: kéo và thả các tập tin từ desktop của bạn để đính kèm vào thông điệp "
+"này."
 
 #: edit
 msgctxt "edit"
@@ -2781,7 +2782,7 @@ msgstr "Thùng rác:"
 
 #: emailedContacts
 msgid "Emailed Contacts"
-msgstr "Các liên hệ đã gửi email"
+msgstr "Liên hệ đã email"
 
 #: emailLabel
 msgid "Email:"
@@ -3029,7 +3030,7 @@ msgstr "Một định danh có tên \"{0}\" đã tồn tại."
 
 #: errorImporting
 msgid "An error occurred during the import"
-msgstr "Một lỗi xảy ra trong khi đang nhập"
+msgstr "Một lỗi xảy ra trong khi đăng nhập"
 
 #: errorImportStatus
 msgid "Import Error {0}"
@@ -3382,7 +3383,7 @@ msgid ""
 "The selected voice mail message is private, so it can not be attached to an "
 "email message."
 msgstr ""
-"Thông điệp thư thoại đã chọn là riêng tư, vì vậy nó được thể được đính kèm "
+"Thông điệp thư thoại đã chọn là riêng tư, vì vậy nó không thể được đính kèm "
 "tới thông điệp email."
 
 #: errorReports
@@ -3428,7 +3429,7 @@ msgstr "Các thư mục con ở dưới {0} không được phép."
 #: errorTooManyContacts
 msgid ""
 "Contact could not be created because you have exceeded your contact quota."
-msgstr "Liên hệ không thẻ được tạo vì bạn đã vượt quá hạn ngạch."
+msgstr "Liên hệ không thể được tạo vì bạn đã vượt quá hạn ngạch."
 
 #: errorTooManyIdentities
 msgid ""
@@ -4505,7 +4506,7 @@ msgid ""
 "Unable to add buddy from Yahoo! service because you are not logged in to "
 "Yahoo!. Do you want to log in to Yahoo!?"
 msgstr ""
-"Không thể thêm bạn từ dịch vụ Yahoo vì bạn chưa đang nhập vào Yahoo!. Bạn có "
+"Không thể thêm bạn từ dịch vụ Yahoo vì bạn chưa đăng nhập vào Yahoo!. Bạn có "
 "muốn đăng nhập vào Yahoo!?"
 
 #: imLeftChat
@@ -4639,8 +4640,8 @@ msgid ""
 "You are not logged in to IM. <span class=\"FakeAnchor\" onclick="
 "\"{0}\">Click here</span> to log in. "
 msgstr ""
-"Bạn đã không đăng nhập vào IM. <span class=\"FakeAnchor\" onclick="
-"\"{0}\">Bấm vào đây</span> để đăng nhập."
+"Bạn không đăng nhập vào IM. <span class=\"FakeAnchor\" onclick=\"{0}\">Bấm "
+"vào đây</span> để đăng nhập."
 
 #: imPrefInstantNotify
 msgid "Enable instant notifications"
@@ -4648,7 +4649,7 @@ msgstr "Kích hoạt thông báo tức thời"
 
 #: imPrefAutoLogin
 msgid "Automatically log in to instant messaging services"
-msgstr "Tự đông đăng nhập vào các dịch vụ nhắn tin tức thời"
+msgstr "Tự động đăng nhập vào các dịch vụ nhắn tin tức thời"
 
 #: imPrefFlashIcon
 msgid "Highlight the IM tab"
@@ -5397,7 +5398,7 @@ msgid ""
 "Would you like to reload the application now to show the new language? "
 "<br>(Otherwise, the new language will appear the next time you log in.)"
 msgstr ""
-"Bạn có muốn nạp lại ứng dụng ngay bây giờ để hiển thị ngôn ngữ mới? <br>(Nếu "
+"Bạn có muốn nạp lại ứng dụng bây giờ để hiển thị ngôn ngữ mới? <br>(Nếu "
 "không, ngôn ngữ mới sẽ xuất hiện lần sau khi bạn đăng nhập)"
 
 #: localFolders
@@ -8551,7 +8552,7 @@ msgstr "Tự động tải các hình ảnh trong email có định dạng HTML"
 
 #: showFragments
 msgid "Display snippets of messages in email list:"
-msgstr "Hiển thị các mẩu của các thông điệp trong danh sách email:"
+msgstr "Hiển thị các mẩu thông điệp trong danh sách email:"
 
 #. #showFragmentsMsg = Show fragments in message lists
 #: showMessage
@@ -8690,8 +8691,8 @@ msgid ""
 "Would you like to reload the application now to show the new theme? "
 "<br>(Otherwise, the new theme will appear the next time you log in.)"
 msgstr ""
-"Bạn có muốn nạp lại ứng dụng để hiển thị theme mới? <br>(Nếu không, theme "
-"mới sẽ xuất hiện lần sau khi bạn đăng nhập.)"
+"Bạn có muốn nạp lại ứng dụng bây giờ để hiển thị theme mới? <br>(Nếu không, "
+"theme mới sẽ xuất hiện lần sau khi bạn đăng nhập.)"
 
 #: skinDeletedError
 msgid ""
@@ -8715,11 +8716,11 @@ msgstr "Chỉ bao gồm thông điệp cuối"
 
 #: snooze
 msgid "Snooze"
-msgstr "Ngủ"
+msgstr "Báo lại"
 
 #: snoozeAll
 msgid "Snooze all for:"
-msgstr "Ngủ tất cả cho:"
+msgstr "Báo lại tất cả đối với:"
 
 #: sortByDuration
 msgid "Sort by Duration"
@@ -9276,7 +9277,7 @@ msgstr "dưới"
 
 #: unflagged
 msgid "Unflagged"
-msgstr "Bỏ cắm cờ"
+msgstr "Bỏ cờ"
 
 #: unitsLabel
 msgid "Units:"
@@ -9457,7 +9458,7 @@ msgstr "xem dưới dạng html"
 
 #: viewEntireMessage
 msgid "View entire message."
-msgstr "Xem toạn bộ thông điệp."
+msgstr "Xem toàn bộ thông điệp."
 
 #: viewFileAsHtml
 msgid "View as HTML"

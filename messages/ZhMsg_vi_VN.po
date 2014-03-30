@@ -190,8 +190,8 @@ msgid ""
 "{0,choice,0#0 appointments have been unflagged|1#1 appointment has been "
 "unflagged|1<{0,number,integer} appointments have been unflagged}."
 msgstr ""
-"{0,choice,0#0 cuộc hẹn vừa được bỏ gắn cờ|1#1 cuộc hẹn vừa được bỏ gắn cờ|"
-"1<{0,number,integer} cuộc hẹn vừa được bỏ gắn cờ}."
+"{0,choice,0#0 cuộc hẹn vừa được bỏ gắn cờ|1#1 cuộc hẹn vừa được bỏ cờ|1<{0,"
+"number,integer} cuộc hẹn vừa được bỏ cờ}."
 
 #: actionCalendarAppointmentsImported
 msgid ""
@@ -242,8 +242,8 @@ msgid ""
 "{0,choice,0#0 contacts have been unflagged|1#1 contact has been unflagged|"
 "1<{0,number,integer} contacts have been unflagged}."
 msgstr ""
-"{0,choice,0#0 liên hệ vừa được bỏ gắn cờ|1#1 liên hệ vừa được bỏ gắn cờ|1<{0,"
-"number,integer} liên hệ vừa được bỏ gắn cờ}."
+"{0,choice,0#0 liên hệ vừa được bỏ gắn cờ|1#1 liên hệ vừa được bỏ cờ|1<{0,"
+"number,integer} liên hệ vừa được bỏ cờ}."
 
 #: actionContactTag
 msgid ""
@@ -309,7 +309,7 @@ msgid ""
 "unflagged|1<{0,number,integer} conversations have been unflagged}."
 msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được bỏ gắn cờ|1#1 cuộc đàm thoại vừa được "
-"bỏ gắn cờ|1<{0,number,integer} cuộc đàm thoại vừa được bỏ gắn cờ}."
+"bỏ cờ|1<{0,number,integer} cuộc đàm thoại vừa được bỏ cờ}."
 
 #: actionConvMarkedRead
 msgid ""
@@ -532,8 +532,8 @@ msgid ""
 "{0,choice,0#0 messages have been unflagged|1#1 message has been unflagged|"
 "1<{0,number,integer} messages have been unflagged}."
 msgstr ""
-"{0,choice,0#0 thông điệp vừa được bỏ gắn cờ|1#1 thông điệp vừa được bỏ gắn "
-"cờ|1<{0,number,integer} thông điệp vừa được bỏ gắn cờ}."
+"{0,choice,0#0 thông điệp vừa được bỏ gắn cờ|1#1 thông điệp vừa được bỏ cờ|"
+"1<{0,number,integer} thông điệp vừa được bỏ cờ}."
 
 #: actionMessageMarkedRead
 msgid ""
@@ -1911,7 +1911,7 @@ msgstr "Email"
 #: emailedContacts
 msgctxt "emailedContacts"
 msgid "Emailed Contacts"
-msgstr "Đã gửi thư cho các liên hệ"
+msgstr "Liên hệ đã email"
 
 #: emailNotification
 msgid "Email Notification :"
@@ -5063,7 +5063,7 @@ msgstr "Lịch"
 #: FOLDER_LABEL_13
 msgctxt "FOLDER_LABEL_13"
 msgid "Emailed Contacts"
-msgstr "Liên hệ đã gửi email"
+msgstr "Liên hệ đã email"
 
 #: FOLDER_LABEL_15
 msgctxt "FOLDER_LABEL_15"
