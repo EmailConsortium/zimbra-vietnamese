@@ -26,21 +26,14 @@
 
 chown zimbra: ./keys/*vi_VN.properties
 chown zimbra: ./messages/*vi_VN.properties
-chown zimbra: ./skins/yahoo/messages/*vi_VN.properties
-chown zimbra: ./skins/zmail/messages/*vi_VN.properties
 
 chmod -x ./keys/*vi_VN.properties
 chmod -x ./messages/*vi_VN.properties
-chmod -x ./skins/yahoo/messages/*vi_VN.properties
-chmod -x ./skins/zmail/messages/*vi_VN.properties
 
 cp ./keys/*vi_VN.properties /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/keys/
 cp ./messages/*vi_VN.properties /opt/zimbra/jetty/webapps/zimbra/WEB-INF/classes/messages/
 
 cp ./keys/*vi_VN.properties /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/keys/
 cp ./messages/*vi_VN.properties /opt/zimbra/jetty/webapps/zimbraAdmin/WEB-INF/classes/messages/
-
-cp ./skins/yahoo/messages/*vi_VN.properties /opt/zimbra/jetty/webapps/zimbra/skins/yahoo/messages/
-cp ./skins/zmail/messages/*vi_VN.properties /opt/zimbra/jetty/webapps/zimbra/skins/zmail/messages/
 
 su - zimbra -c "zmmailboxdctl restart"

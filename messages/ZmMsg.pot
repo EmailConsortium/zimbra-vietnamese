@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-03-16 21:19+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,12 +13,13 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.9.0\n"
 
 #. #
+#. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Zimbra, Inc.
+#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.3 ("License"); you may not use this file except in
+#. # Version 1.4 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. # 
@@ -38,6 +39,32 @@ msgstr ""
 
 #: DASHES
 msgid "-----"
+msgstr ""
+
+#: about
+msgid "About"
+msgstr ""
+
+#: aboutMessage
+msgid ""
+"Zimbra {0} (build {1})<br><br> Copyright © 2005-2013 Telligent Systems, Inc. "
+"All rights reserved. This product is protected by U.S. and international "
+"copyright and intellectual property laws. \"Telligent\" and \"Zimbra\" are "
+"registered trademarks or trademarks of Telligent Systems, Inc. in the United "
+"States and other jurisdictions. All other marks and names mentioned herein "
+"may be trademarks of their respective companies.<br><br> Telligent Systems, "
+"Inc. d/b/a Zimbra Software, LLC <br>www.zimbra.com"
+msgstr ""
+
+#: aboutMessageZD
+msgid ""
+"Zimbra Desktop {0} (build {1})<br><br> Copyright © 2008-2013 Telligent "
+"Systems, Inc. All rights reserved. This product is protected by U.S. and "
+"international copyright and intellectual property laws. \"Telligent\" and "
+"\"Zimbra\" are registered trademarks or trademarks of Telligent Systems, Inc. "
+"in the United States and other jurisdictions. All other marks and names "
+"mentioned herein may be trademarks of their respective companies.<br><br> "
+"Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br>www.zimbra.com"
 msgstr ""
 
 #: above
@@ -277,6 +304,18 @@ msgstr ""
 msgid "Action:"
 msgstr ""
 
+#: actionNotifyReadOnlyMsg
+msgid ""
+"Notify actions are currently read only. Your filter has the following "
+"values:"
+msgstr ""
+
+#: actionReplyReadOnlyMsg
+msgid ""
+"Reply actions are currently read only.  Your filter has hte following "
+"values:"
+msgstr ""
+
 #: actions
 msgid "Actions"
 msgstr ""
@@ -304,6 +343,10 @@ msgstr ""
 
 #: addAttachments
 msgid "Add Attachments"
+msgstr ""
+
+#: addAttendees
+msgid "Add Attendees"
 msgstr ""
 
 #: addCallerToForward
@@ -363,6 +406,12 @@ msgstr ""
 msgid "Add Photo"
 msgstr ""
 
+#: addRecipientstoAppt
+msgid ""
+"The sender and other recipients of this mail message may be automatically "
+"added to your appointment. Would you like to add them now?"
+msgstr ""
+
 #: addRemoteAppts
 msgid "Synchronize appointments from remote calendar"
 msgstr ""
@@ -372,7 +421,11 @@ msgid "Synchronize tasks from remote service (i.e. iCal)"
 msgstr ""
 
 #: adminLinkLabel
-msgid "Domain Admin"
+msgid "Admin Console"
+msgstr ""
+
+#: addrbookSharesOnly
+msgid "Address Book shares only"
 msgstr ""
 
 #: addressBook
@@ -438,6 +491,10 @@ msgstr ""
 
 #: addToExistingContact
 msgid "Add to Existing Contact"
+msgstr ""
+
+#: addVersionNotes
+msgid "Add Document Version Notes"
 msgstr ""
 
 #: addWord
@@ -511,6 +568,10 @@ msgstr ""
 msgid "All Accounts"
 msgstr ""
 
+#: allApplications
+msgid "All applications"
+msgstr ""
+
 #: allAttendees
 msgid "All Attendees"
 msgstr ""
@@ -558,6 +619,15 @@ msgstr ""
 msgid "All,123,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
 msgstr ""
 
+#: alphabetSortValue
+msgid "123:0"
+msgstr ""
+
+#: alphabetEndSortValue
+msgctxt "alphabetEndSortValue"
+msgid ""
+msgstr ""
+
 #: ALT_ERROR
 msgctxt "ALT_ERROR"
 msgid "Error"
@@ -565,6 +635,10 @@ msgstr ""
 
 #: alwaysShowMiniCal
 msgid "Always show the mini-calendar"
+msgstr ""
+
+#: alwaysDisplayExternalImages
+msgid "Always display images sent from"
 msgstr ""
 
 #: andMore
@@ -596,10 +670,26 @@ msgctxt "aol"
 msgid "AOL"
 msgstr ""
 
+#: appExitPrompt
+msgid "You will have {0} minutes to save your changes before being logged off."
+msgstr ""
+
+#: appExitTimeWarning
+msgid ""
+"If you stay on the page you will have {0} minutes to save your changes "
+"before being logged off."
+msgstr ""
+
 #: appExitWarning
 msgid ""
-"Doing so will terminate Zimbra Collaboration Suite, and you will lose your "
-"unsaved changes"
+"Doing so will terminate Zimbra Web Client, and you will lose your unsaved "
+"changes. "
+msgstr ""
+
+#: appExitWarningZD
+msgid ""
+"Doing so will terminate Zimbra Desktop, and you will lose your unsaved "
+"changes."
 msgstr ""
 
 #: application
@@ -653,6 +743,10 @@ msgstr ""
 msgid "The following meeting has been cancelled:"
 msgstr ""
 
+#: apptCopied
+msgid "Appointment Copied"
+msgstr ""
+
 #: apptCreated
 msgid "Appointment Created"
 msgstr ""
@@ -663,6 +757,10 @@ msgstr ""
 
 #: apptCreationError
 msgid "Unable to create the appointment"
+msgstr ""
+
+#: apptCreatingFromCopy
+msgid "Creating New Appointment from Copy"
 msgstr ""
 
 #. # {0} start date/time, {1} end date/time, {2} timezone
@@ -766,6 +864,27 @@ msgstr ""
 msgid "Resources for this appointment"
 msgstr ""
 
+#: apptSaveChanges
+msgid "Save changes and send updates."
+msgstr ""
+
+#: apptSaveCancel
+msgid "Don't save but keep the meeting open."
+msgstr ""
+
+#: apptSaveDiscard
+msgid "Discard changes and close. "
+msgstr ""
+
+#: apptSave
+msgid "Save Appointment"
+msgstr ""
+
+#: apptSaved
+msgctxt "apptSaved"
+msgid "Appointment Saved"
+msgstr ""
+
 #: apptSendErrorAbort
 msgid "Invite not sent; one or more addresses were not accepted."
 msgstr ""
@@ -783,8 +902,25 @@ msgstr ""
 msgid "Invite NOT sent to: {0}"
 msgstr ""
 
+#: apptSaveErrorToobig
+msgid ""
+"This appointment cannot be saved because it has exceeded the maximum allowed "
+"size."
+msgstr ""
+
+#: apptSent
+msgid "Appointment Sent"
+msgstr ""
+
 #: apptSeries
 msgid "Series"
+msgstr ""
+
+#: apptSignificantChanges
+msgid ""
+"You have made significant changes to this meeting. \n"
+"\n"
+"Choose one of the following:    "
 msgstr ""
 
 #: apptTimeAllDay
@@ -808,8 +944,16 @@ msgid ""
 "{0,number} {0,choice,0#Appointments|1#Appointment|2#Appointments} Imported"
 msgstr ""
 
+#: apptUpdateSent
+msgid "Appointment Update Sent"
+msgstr ""
+
 #: appUnknown
 msgid "The \"{0}\" application is not available or disabled."
+msgstr ""
+
+#: allAttendeeWorkingHours
+msgid "All Attendee Working Hours"
 msgstr ""
 
 #: allMail
@@ -836,7 +980,7 @@ msgid "Arrange"
 msgstr ""
 
 #: arrangedBy
-msgid "Arranged by: {0}"
+msgid "Sorted by: {0}"
 msgstr ""
 
 #: ascending
@@ -849,8 +993,8 @@ msgstr ""
 
 #: askCancel
 msgid ""
-"The server appears to be slow to respond, and may be unavailable. Press the "
-"button to cancel your request."
+"The server or the network is slow to respond. To cancel your request, press "
+"Cancel Request."
 msgstr ""
 
 #: askDeleteFilter
@@ -935,8 +1079,12 @@ msgstr ""
 msgid "Are you sure you want to permanently remove all attachments?"
 msgstr ""
 
+#: attachmentHeaderToolTip
+msgid "Filter By Attachment"
+msgstr ""
+
 #: attachmentLimitMsg
-msgid "<b>Note:&nbsp;</b>Each attachment size limit is {0}"
+msgid "<b>Note:&nbsp;</b>Attachments may not be larger than {0}"
 msgstr ""
 
 #: attachmentSizeError
@@ -1006,8 +1154,19 @@ msgid ""
 "more information."
 msgstr ""
 
+#: author
+msgid "Author"
+msgstr ""
+
 #: authorLabel
 msgid "Author:"
+msgstr ""
+
+#: authTokenExpirationWarning
+msgid ""
+"You will be signed out in {0} {1}.  Save your changes now and <span "
+"class=\"FakeAnchor\" onclick=\"ZmZimbraMail.logOff(null, true)\">sign in</span> "
+"again. "
 msgstr ""
 
 #: auto
@@ -1066,6 +1225,14 @@ msgstr ""
 msgid "Automatically save drafts of messages while you are composing"
 msgstr ""
 
+#: availableCount
+msgid "{0} of {1} available"
+msgstr ""
+
+#: availableRoomsCount
+msgid "{0,number} {0,choice,0#rooms|1#room|2#rooms}"
+msgstr ""
+
 #: awayMessage
 msgid "Away message"
 msgstr ""
@@ -1094,12 +1261,20 @@ msgstr ""
 msgid "Back"
 msgstr ""
 
+#: badItemForDraftsFolder
+msgid "Only drafts can be moved to Drafts folder."
+msgstr ""
+
 #: badTargetFolder
 msgid "You cannot move the folder to the selected destination folder."
 msgstr ""
 
 #: badTargetFolderItems
 msgid "You cannot move items to the selected destination folder."
+msgstr ""
+
+#: badTargetFolderForDraftItem
+msgid "You cannot move a draft message to the selected destination folder."
 msgstr ""
 
 #: badUsername
@@ -1244,6 +1419,11 @@ msgstr ""
 msgid "File Properties"
 msgstr ""
 
+#: briefcaseFileVersion
+msgctxt "briefcaseFileVersion"
+msgid "{0} ({1})"
+msgstr ""
+
 #: briefcasePropName
 msgctxt "briefcasePropName"
 msgid "Name"
@@ -1264,6 +1444,10 @@ msgctxt "briefcasePropTags"
 msgid "Tags"
 msgstr ""
 
+#: briefcaseSharesOnly
+msgid "Briefcase shares only"
+msgstr ""
+
 #: brokenHeart
 msgid "broken heart"
 msgstr ""
@@ -1281,6 +1465,10 @@ msgid ""
 "This feature requires Yahoo! BrowserPlus. <a target='_blank' "
 "href='http://browserplus.yahoo.com/install'>Click here</a> to download and "
 "install it."
+msgstr ""
+
+#: bubbles
+msgid "Bubbles:"
 msgstr ""
 
 #: buddies
@@ -1323,6 +1511,10 @@ msgstr ""
 msgid "By Folder"
 msgstr ""
 
+#: byLatestFile
+msgid "By Latest File"
+msgstr ""
+
 #: byMessage
 msgid "By Message"
 msgstr ""
@@ -1343,8 +1535,20 @@ msgstr ""
 msgid "By Sender"
 msgstr ""
 
+#: byVersionHistory
+msgid "By Version History"
+msgstr ""
+
 #: bytes
 msgid "bytes"
+msgstr ""
+
+#: calAppleICalNote
+msgid ""
+"<b>Note:</b> Apple iCal can be configured to access your Calendars using the "
+"CalDAV protocol. When this preference is enabled, shared calendars are "
+"displayed in the iCal account's Delegation tab so you can delegate access to "
+"your Calendars to other users."
 msgstr ""
 
 #: calAssistDefaultView
@@ -1360,8 +1564,18 @@ msgstr ""
 msgid "Calendar Appointment"
 msgstr ""
 
+#: calendarCustomDlgTitle
+msgid "Customize working hours"
+msgstr ""
+
+#: calendarCustomBtnTitle
+msgctxt "calendarCustomBtnTitle"
+msgid "Customize"
+msgstr ""
+
 #: calendarInvite
-msgid "Calendar Invite"
+msgctxt "calendarInvite"
+msgid "Calendar"
 msgstr ""
 
 #: calendarFirstDayOfWeek
@@ -1388,10 +1602,53 @@ msgstr ""
 msgid "Calendars"
 msgstr ""
 
+#: calendarSharesOnly
+msgid "Calendar shares only"
+msgstr ""
+
+#: calendarWorkHours
+msgid "Work hours:"
+msgstr ""
+
+#: calendarWorkHoursCustom
+msgctxt "calendarWorkHoursCustom"
+msgid "Custom"
+msgstr ""
+
+#: calendarWorkHoursDelimiter
+msgid "to"
+msgstr ""
+
+#: calendarWorkHoursDisclaimer
+msgid ""
+"The timings follow your timezone preferences. Your preferred timezone is :"
+msgstr ""
+
+#: calendarWorkHoursHeader
+msgid "Work week and hours"
+msgstr ""
+
+#: calendarWorkHoursInvalid
+msgid "End work hours must be greater than start work hours."
+msgstr ""
+
+#: calendarWorkHoursNormal
+msgctxt "calendarWorkHoursNormal"
+msgid "Normal"
+msgstr ""
+
+#: calendarWorkWeek
+msgid "Work week:"
+msgstr ""
+
 #: calFeedInvalid
 msgid ""
 "Appointments could not be retrieved. Make sure the following URL is a valid "
 "ICAL feed: {0}"
+msgstr ""
+
+#: calStatusUpdate
+msgid "Updating \"{0}\" calendar status;"
 msgstr ""
 
 #: call
@@ -1649,6 +1906,58 @@ msgstr ""
 msgid "Reload All Feeds"
 msgstr ""
 
+#: checkIn
+msgid "Check In"
+msgstr ""
+
+#: checkInFile
+msgid "Check In File"
+msgstr ""
+
+#: checkInFileToBriefcase
+msgid "Check In File to Briefcase"
+msgstr ""
+
+#: checkInFileChoose
+msgid "Select file to upload and Check In."
+msgstr ""
+
+#: checkedOutFile
+msgid "File Checked Out"
+msgstr ""
+
+#: checkOutFile
+msgid "Check Out File"
+msgstr ""
+
+#: checkoutEditDocument
+msgid "Check Out & Edit Document"
+msgstr ""
+
+#: checkOutFileDiscard
+msgid "Discard Check Out"
+msgstr ""
+
+#: checkoutDownloadMsg
+msgid ""
+"Files may be downloaded to your desktop to make changes. If you plan to make "
+"changes and then upload the file again,you may checkout the file to prevent "
+"other users from editing the file until you've returned your edited version "
+"of the file."
+msgstr ""
+
+#: checkoutFileForChanges
+msgid "Checkout File for changes."
+msgstr ""
+
+#: checkoutFileDownload
+msgid "Download File without Checkout."
+msgstr ""
+
+#: checkoutTo
+msgid "Checked Out To"
+msgstr ""
+
 #: checkMail
 msgid "Get Mail"
 msgstr ""
@@ -1712,7 +2021,8 @@ msgid "Choose an address book to import to:"
 msgstr ""
 
 #: chooseClient
-msgid "Which version would you like to use?"
+msgctxt "chooseClient"
+msgid "Version"
 msgstr ""
 
 #: chooseDate
@@ -1884,6 +2194,18 @@ msgctxt "colorLabel"
 msgid "Color:"
 msgstr ""
 
+#: colorsShowLess
+msgid "Fewer Colors..."
+msgstr ""
+
+#: colorsShowMore
+msgid "More Colors..."
+msgstr ""
+
+#: collapse
+msgid "Collapse"
+msgstr ""
+
 #: collapsedBorders
 msgid "Collapsed Borders"
 msgstr ""
@@ -1904,7 +2226,14 @@ msgstr ""
 
 #: compBadAttendees
 msgid ""
-"<p>The following attendees appear to be invalid: {0}</p><p>Save anyway?</p>"
+"<p>The following attendees appear to be invalid: {0}</p><p>Ignore those "
+"addresses and Send to valid attendees?</p>"
+msgstr ""
+
+#: compSaveBadAttendees
+msgid ""
+"<p>The following attendees appear to be invalid: {0}</p><p>Ignore those "
+"addresses and Save valid attendees?</p>"
 msgstr ""
 
 #: complete
@@ -1995,20 +2324,36 @@ msgstr ""
 msgid "Confirmed"
 msgstr ""
 
+#: confirmDeleteApptTitle
+msgid "Confirm Delete"
+msgstr ""
+
 #: confirmCancelAppt
 msgid "Are you sure you want to delete this appointment?"
 msgstr ""
 
+#: confirmPermanentCancelAppt
+msgid "Are you sure you want to permanently delete this appointment?"
+msgstr ""
+
 #: confirmCancelApptFutureInstances
-msgid "cancel only the selected instance and everything after"
+msgid "Delete only the selected instance and everything after"
+msgstr ""
+
+#: confirmDeleteApptFutureInstances
+msgid "Delete this instance and all future occurrences."
 msgstr ""
 
 #: confirmCancelApptInst
-msgid "Are you sure you want to delete this meeting instance?"
+msgid "Are you sure you want to delete this instance of \"{0}\" appointment?"
 msgstr ""
 
 #: confirmCancelApptList
 msgid "Are you sure you want to delete these appointments?"
+msgstr ""
+
+#: confirmCancelApptListPermanently
+msgid "Are you sure you want to permanently delete these appointments?"
 msgstr ""
 
 #: confirmCancelApptReply
@@ -2016,15 +2361,26 @@ msgid "Do you want to edit the appointment cancellation message?"
 msgstr ""
 
 #: confirmCancelApptSeries
-msgid "Are you sure you want to delete this recurring appointment?"
+msgid "Are you sure you want to delete all occurrences of this appointment?"
 msgstr ""
 
 #: confirmCancelApptWholeSeries
-msgid "cancel the entire series"
+msgid "Delete the entire series"
 msgstr ""
 
-#: confirmCancelTask
-msgid "Are you sure you want to permanently delete the selected task(s)?"
+#: confirmDeleteApptWholeSeries
+msgid "Delete all occurrences"
+msgstr ""
+
+#: confirmApptDuplication
+msgid ""
+"On copying an invited or shared appointment you will become the organizer "
+"for the copied appointment and you won't receive any updates from the "
+"original appointment."
+msgstr ""
+
+#: confirmDeclineAppt
+msgid "Are you sure you want to decline this appointment?"
 msgstr ""
 
 #: confirmDeleteCalendar
@@ -2050,11 +2406,19 @@ msgid "Are you sure you want to permanently delete the \"{0}\" notebook?"
 msgstr ""
 
 #: confirmDeleteItem
-msgid "Are you sure you want to delete \"{0}\"?"
+msgid "Are you sure you want to move \"{0}\" to Trash?"
+msgstr ""
+
+#: confirmPermanentDeleteItem
+msgid "Are you sure you want to permanently delete \"{0}\"?"
 msgstr ""
 
 #: confirmDeleteItemList
 msgid "Are you sure you want to delete the selected items?"
+msgstr ""
+
+#: confirmPermanentDeleteItemList
+msgid "Are you sure you want to permanently delete the selected items?"
 msgstr ""
 
 #: confirmDeleteRule
@@ -2085,9 +2449,9 @@ msgstr ""
 
 #: confirmEmptyTrashFolder
 msgid ""
-"This action will delete all items in both the Email and Address Book trash "
-"folders.  Are you sure that you want to permanently delete everything in the "
-"trash folder?"
+"This action will delete all items in Email, Address Book, Calendar, Tasks "
+"and Briefcase trash folders.  Are you sure that you want to permanently "
+"delete everything in these trash folders?"
 msgstr ""
 
 #: confirmExistingContacts
@@ -2106,6 +2470,10 @@ msgstr ""
 msgid "Your filter rule is incomplete. Do you want to continue saving locally?"
 msgstr ""
 
+#: confirmItemDelete
+msgid "Are you sure you want to permanently delete the selected items(s)?"
+msgstr ""
+
 #: confirmModifyApptReply
 msgid "Do you want to edit the appointment modification message?"
 msgstr ""
@@ -2113,7 +2481,7 @@ msgstr ""
 #: confirmMoveApptToShared
 msgid ""
 "Do you want to move the appointment to the shared calendar \"{0}\"? "
-"<p><b>Note:</b> This is not recommended and may not be allowed. "
+"<p><b>Note:</b> This is not recommended and may not be allowed."
 msgstr ""
 
 #: confirmNewAddresses
@@ -2155,6 +2523,18 @@ msgstr ""
 
 #: contactPickerHint
 msgid "Type recipient's name here."
+msgstr ""
+
+#: contactPickerEmailHint
+msgid "Type recipient's email address here."
+msgstr ""
+
+#: contactPickerDepartmentHint
+msgid "Type recipient's department here."
+msgstr ""
+
+#: contactPickerPhoneticHint
+msgid "Type recipient's phonetic name here."
 msgstr ""
 
 #: contacts
@@ -2210,6 +2590,10 @@ msgstr ""
 msgid "Copy"
 msgstr ""
 
+#: corruptFile
+msgid "Corrupt file"
+msgstr ""
+
 #: count
 msgid "Count"
 msgstr ""
@@ -2228,6 +2612,10 @@ msgstr ""
 
 #: createAppt
 msgid "Create Appointment"
+msgstr ""
+
+#: createCopy
+msgid "Create a Copy"
 msgstr ""
 
 #: created
@@ -2339,11 +2727,16 @@ msgid "Custom"
 msgstr ""
 
 #: customize
+msgctxt "customize"
 msgid "Customize"
 msgstr ""
 
 #: customizeSettings
 msgid "Customize settings"
+msgstr ""
+
+#: customizeSuggestions
+msgid "Customize Suggestions"
 msgstr ""
 
 #: customRepeat
@@ -2431,6 +2824,20 @@ msgstr ""
 
 #: daily
 msgid "Daily"
+msgstr ""
+
+#: debugLog
+msgid "Debug Log for \"{0}\""
+msgstr ""
+
+#: debugLogDesc
+msgid ""
+"Listed below are the last {0} log messages of type \"{1}\". To clear out the "
+"messages and start fresh,press the Clear button."
+msgstr ""
+
+#: debugLogEmailSubject
+msgid "ZCS Ajax Client Debug Log"
 msgstr ""
 
 #: declined
@@ -2606,7 +3013,7 @@ msgstr ""
 msgid "Default timezone for new appointments"
 msgstr ""
 
-#: defualtTimezone
+#: defaultTimezone
 msgid "Default Timezone:"
 msgstr ""
 
@@ -2651,6 +3058,10 @@ msgstr ""
 msgid "Delete Selected Message(s)"
 msgstr ""
 
+#: delVersionShieldMsg
+msgid "Are you sure that you want to permanently delete this file version?"
+msgstr ""
+
 #: deleteApptInstance
 msgid "Delete Instance"
 msgstr ""
@@ -2665,6 +3076,12 @@ msgstr ""
 
 #: deleteApptListQuestion
 msgid "Would you like to delete the instances or series of each appointment?"
+msgstr ""
+
+#: deleteApptWarning
+msgid ""
+"This will also delete all exceptions (before and after this instance) in the "
+"series."
 msgstr ""
 
 #: deleteGroupError
@@ -2717,6 +3134,19 @@ msgstr ""
 msgid "Delete the series"
 msgstr ""
 
+#: deleteVersion
+msgid "Delete Version"
+msgstr ""
+
+#: department
+msgctxt "department"
+msgid "Department"
+msgstr ""
+
+#: departmentLabel
+msgid "Department:"
+msgstr ""
+
 #: descending
 msgid "Descending"
 msgstr ""
@@ -2763,6 +3193,10 @@ msgstr ""
 
 #: directionLabel
 msgid "Direction:"
+msgstr ""
+
+#: disableSuggestions
+msgid "Disable Suggestions"
 msgstr ""
 
 #: dismiss
@@ -2831,6 +3265,10 @@ msgstr ""
 msgid "Choose how mail is displayed"
 msgstr ""
 
+#: distributionList
+msgid "Distribution List"
+msgstr ""
+
 #: document
 msgctxt "document"
 msgid "Document"
@@ -2879,6 +3317,10 @@ msgstr ""
 #: download
 msgctxt "download"
 msgid "Download"
+msgstr ""
+
+#: downloadFile
+msgid "Download File ( {0} )"
 msgstr ""
 
 #: downloadAll
@@ -2942,6 +3384,7 @@ msgid "{0} - {1}"
 msgstr ""
 
 #: durationMultiDays
+msgctxt "durationMultiDays"
 msgid "{0} {1} - {2} {3}"
 msgstr ""
 
@@ -2971,6 +3414,10 @@ msgstr ""
 #: editContact
 msgctxt "editContact"
 msgid "Edit Contact"
+msgstr ""
+
+#: editFile
+msgid "Edit Document"
 msgstr ""
 
 #: editFilter
@@ -3030,34 +3477,23 @@ msgstr ""
 msgid "Edit Value"
 msgstr ""
 
-#: exists
-msgid "exists"
-msgstr ""
-
-#: expand
-msgid "Expand"
-msgstr ""
-
-#: expression
-msgid "Expression"
-msgstr ""
-
-#: externalImages
-msgid "External images are not displayed."
-msgstr ""
-
-#: extra
-msgid "Extra"
-msgstr ""
-
 #: email
 msgctxt "email"
 msgid "Email"
 msgstr ""
 
+#. # {0} = email address
+#: emailWithAddress
+msgid "Email ({0})"
+msgstr ""
+
 #: emailAddr
 msgctxt "emailAddr"
 msgid "Email Address"
+msgstr ""
+
+#: emailAddrs
+msgid "Email Addresses:"
 msgstr ""
 
 #: emailAddrHint
@@ -3082,7 +3518,7 @@ msgid "Inbox (Unread):"
 msgstr ""
 
 #: emailDeleteScheduleJunk
-msgid "Junk:"
+msgid "Spam:"
 msgstr ""
 
 #: emailDeleteScheduleSent
@@ -3101,16 +3537,125 @@ msgstr ""
 msgid "Email:"
 msgstr ""
 
+#: emailNotificationsDescription
+msgid "Send email notifications to:"
+msgstr ""
+
 #: emailNotificationError
 msgid "The email notification address is invalid"
 msgstr ""
 
-#: emailNotificationLabel
-msgid "Email Notification:"
+#: emailNotificationsLabel
+msgid "Email Notifications:"
 msgstr ""
 
-#: emailNotificationDescription
-msgid "Send an email notification to:"
+#. # {0} is email to send verification code; {1} is carrier hint, if present
+#: deviceEmail
+msgid "SMS"
+msgstr ""
+
+#. # {0} = email address
+#: deviceEmailWithAddress
+msgid "SMS ({0})"
+msgstr ""
+
+#: deviceEmailNotificationsCarrierEmailHint
+msgid "{1} {0}"
+msgstr ""
+
+#: deviceEmailNotificationsCarrierLabel
+msgid "Carrier:"
+msgstr ""
+
+#: deviceEmailNotificationsCustomeEmailLabel
+msgid "SMS Email:"
+msgstr ""
+
+#: deviceEmailNotificationsLabel
+msgid "SMS Notifications:"
+msgstr ""
+
+#: deviceEmailNotificationsPhoneHint
+msgid "Enter number"
+msgstr ""
+
+#. # {0} is email to send verification code
+#: deviceEmailNotificationsPhoneNumber
+msgid "Verification code will be sent to {0}."
+msgstr ""
+
+#: deviceEmailNotificationsPhoneNumberLabel
+msgid "Phone Number:"
+msgstr ""
+
+#: deviceEmailNotificationsRegionLabel
+msgid "Region:"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeHint
+msgid "Enter code"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeLabel
+msgid "Verification Code:"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeSend
+msgid "Send Verification Code"
+msgstr ""
+
+#. # {0} = user email
+#: deviceEmailNotificationsVerificationCodeSendNote
+msgid ""
+"The verification code has been sent to your phone as a text message from "
+"email address {0}. When you receive the verification code, enter it in the "
+"Verification Code box on the SMS set up page to complete your device "
+"verification. <p><strong>Note:</strong> Some carriers require you to specify "
+"email addresses that can send messages to your device. Check your carrier "
+"documentation and if this is required, add {0} to your list of allowable "
+"email addresses."
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeSendSuccess
+msgid "Verification code sent"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeValidate
+msgid "Validate Code"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeValidateFailure
+msgid "Verification code invalid"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeValidateSuccess
+msgid "Verification code accepted"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeInvalidate
+msgid "Remove Device"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationCodeInvalidateSuccess
+msgid "Device removed successfully"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationStatusLabel
+msgctxt "deviceEmailNotificationsVerificationStatusLabel"
+msgid "Status:"
+msgstr ""
+
+#. # {0} is confirmed email
+#: deviceEmailNotificationsVerificationStatusConfirmed
+msgid "Confirmed ({0})"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationStatusPending
+msgid "Pending verification"
+msgstr ""
+
+#: deviceEmailNotificationsVerificationStatusUnconfirmed
+msgid "Unconfirmed"
 msgstr ""
 
 #: emailAndIM
@@ -3149,6 +3694,10 @@ msgstr ""
 msgid "Empty Junk"
 msgstr ""
 
+#: emptyNotes
+msgid "&lt;empty notes&gt;"
+msgstr ""
+
 #: emptyTrash
 msgid "Empty Trash"
 msgstr ""
@@ -3163,6 +3712,10 @@ msgstr ""
 
 #: enableDocuments
 msgid "Enable Documents"
+msgstr ""
+
+#: enabled
+msgid "Enabled"
 msgstr ""
 
 #: end
@@ -3262,8 +3815,8 @@ msgstr ""
 #: errorBrowserUnsupported
 msgid ""
 "We have detected that you are running <b>{0} {1}</b>,which is an unsupported "
-"browser for the Zimbra Collaboration Suite. The Zimbra Collaboration Suite "
-"is supported on:<br /><ul><li>IE 6.0+</li><li>Mozilla 1.4+</li><li>Netscape "
+"browser for the Zimbra Web Client. The Zimbra Web Client is supported "
+"on:<br /><ul><li>IE 6.0+</li><li>Mozilla 1.4+</li><li>Netscape "
 "7.1+</li><li>Firefox 1.0+</li><li>Safari 1.3+ (BETA)</li></ul><br />"
 msgstr ""
 
@@ -3291,7 +3844,12 @@ msgstr ""
 #: errorCookiesDisabled
 msgid ""
 "Oops! It appears your browser does not allow cookies. You need to enable "
-"cookies in order to use the Zimbra Collaboration Suite."
+"cookies in order to use the Zimbra Web Client."
+msgstr ""
+
+#: errorCorruptImageFile
+msgid ""
+"The image file you have chosen is corrupt. Please choose a valid image file."
 msgstr ""
 
 #: errorCreateContact
@@ -3314,6 +3872,10 @@ msgstr ""
 msgid "Name is not unique."
 msgstr ""
 
+#: errorEmptyTaskDueDate
+msgid "Due Date is required, when Start Date is specified."
+msgstr ""
+
 #: errorEndByDate
 msgid "End by date cannot be before start date."
 msgstr ""
@@ -3322,8 +3884,19 @@ msgstr ""
 msgid "A file with name \"{0}\" already exists."
 msgstr ""
 
+#: errorFileAlreadyExistsResolution
+msgid ""
+"A file with name already exists. Please rename the file and then move it."
+msgstr ""
+
+#: errorFileExistsWarning
+msgid ""
+"A file with name <strong>{0}</strong> already exists. Please use another "
+"name."
+msgstr ""
+
 #: errorFileAlreadyExistsReplace
-msgid "A file with name \"{0}\" already exists. Do you want to overwrite it ?"
+msgid "A file with this name already exists. Do you want to"
 msgstr ""
 
 #: errorModifyContact
@@ -3399,6 +3972,10 @@ msgid ""
 "System Administrator for more information."
 msgstr ""
 
+#: errorInvalidPercentage
+msgid "Invalid percentage value."
+msgstr ""
+
 #: errorInvalidPhone
 msgid "The phone number is invalid"
 msgstr ""
@@ -3409,6 +3986,10 @@ msgstr ""
 
 #: errorInvalidPrefValue
 msgid "Invalid preference value."
+msgstr ""
+
+#: errorInvalidReminderValue
+msgid "Reminder value is greater than maximum value."
 msgstr ""
 
 #: errorInvalidSize
@@ -3449,12 +4030,6 @@ msgstr ""
 
 #: errorMoveAppt
 msgid "Unable to move appointment."
-msgstr ""
-
-#: errorNoActiveX
-msgid ""
-"You need to enable ActiveX controls in order to use the Zimbra Collaboration "
-"Suite."
 msgstr ""
 
 #: errorNoPhone
@@ -3584,6 +4159,16 @@ msgstr ""
 msgid "Could not attach the file(s) because you have exceeded your mail quota."
 msgstr ""
 
+#: errorItemLocked
+msgid ""
+"The item you are trying to update has been locked. Please wait until the "
+"lock is released."
+msgstr ""
+
+#: errorPermissionDenied
+msgid "You do not have permission to do this operation on this folder."
+msgstr ""
+
 #: errorNetwork
 msgid "A network error has occurred."
 msgstr ""
@@ -3616,6 +4201,10 @@ msgstr ""
 
 #: errorSaving
 msgid "Cannot save. You have errors that must be corrected."
+msgstr ""
+
+#: errorSavingDraftInvalidEmails
+msgid "Cannot save draft; the following addresses are invalid:<p>{0}</p>"
 msgstr ""
 
 #: errorSavingWithMessage
@@ -3721,12 +4310,18 @@ msgstr ""
 msgid "Execute"
 msgstr ""
 
+#: exists
+msgid "exists"
+msgstr ""
+
 #: exitDocNotSaved
 msgid "Document is not saved."
 msgstr ""
 
 #: exitDocUnSavedChanges
-msgid "Document may contain unsaved changes."
+msgid ""
+"Document may contain unsaved changes.\n"
+"Doing so will terminate this document and you will lose your unsaved changes"
 msgstr ""
 
 #: exitPresentationUnsavedChanges
@@ -3743,12 +4338,20 @@ msgid ""
 "changes"
 msgstr ""
 
+#: expand
+msgid "Expand"
+msgstr ""
+
 #: expandAll
 msgid "Expand All"
 msgstr ""
 
 #: expandCollapse
 msgid "Expand / Collapse"
+msgstr ""
+
+#: expandTooltip
+msgid "Show the members of this distribution list"
 msgstr ""
 
 #: explorerView
@@ -3828,6 +4431,10 @@ msgid ""
 "be imported back into the system."
 msgstr ""
 
+#: expression
+msgid "Expression"
+msgstr ""
+
 #: externalAccess
 msgid "Access from Other Mail Clients"
 msgstr ""
@@ -3852,6 +4459,14 @@ msgstr ""
 msgid ""
 "Current value is to only download mail that has arrived after {0,date,short} "
 "at {0,time,short}."
+msgstr ""
+
+#: externalImages
+msgid "External images are not displayed."
+msgstr ""
+
+#: extra
+msgid "Extra"
 msgstr ""
 
 #. #URL for the favorites icon, relative to the webapp directory (eg: /zimbra)
@@ -3927,6 +4542,14 @@ msgstr ""
 
 #: fileLabel
 msgid "File:"
+msgstr ""
+
+#: fileLocked
+msgid "File Locked"
+msgstr ""
+
+#: fileLockStatus
+msgid "File lock status"
 msgstr ""
 
 #: filename
@@ -4011,11 +4634,33 @@ msgid "Run Filter"
 msgstr ""
 
 #: filterRuleApplied
-msgid "Filter run complete. {0} message(s) were affected."
+msgid ""
+"<strong>Filter run complete.</strong><br> {0} messages processed.<br> {1} "
+"message(s) were affected."
+msgstr ""
+
+#: filterRunInProgress
+msgid ""
+"Filter run in progress.<br> {0} messages processed.<br> {1} message(s) were "
+"affected so far."
+msgstr ""
+
+#: filterRunFinished
+msgid "Filter Run Complete"
+msgstr ""
+
+#: filterRunInProgressTitle
+msgid "Run Filter Progress"
 msgstr ""
 
 #: filterRuleChangesSavedImmediately
 msgid "Note: Changes to filter rules are saved immediately."
+msgstr ""
+
+#: filtersDisabled
+msgid ""
+"Filters cannot be configured with Zimbra Desktop. Please use the online "
+"Zimbra web client to configure filters."
 msgstr ""
 
 #: filtersSaved
@@ -4026,6 +4671,13 @@ msgstr ""
 msgid ""
 "One or more of the selected filters contains an action to \"Forward To "
 "Address\". This action cannot be run on existing filters and will be ignored."
+msgstr ""
+
+#: filterOutgoingNoSaveToSentWarning
+msgid ""
+"You are currently not saving a copy of new messages in your Sent folder. "
+"Outgoing filters do not apply unless \"Save a copy in Sent folder\" is "
+"enabled. Do you want to enable \"Save a copy to Sent folder\"?"
 msgstr ""
 
 #: find
@@ -4041,7 +4693,51 @@ msgid "Find Attendees"
 msgstr ""
 
 #: findAttendeesRooms
-msgid "Find Attendees & Rooms"
+msgid "Find Attendees & Room"
+msgstr ""
+
+#: findEmails
+msgid "Find Emails..."
+msgstr ""
+
+#: findEmailFromContact
+msgid "Received From Contact"
+msgstr ""
+
+#: findEmailFromSender
+msgid "Received From Sender"
+msgstr ""
+
+#: findEmailFromRecipient
+msgid "Received From Recipient"
+msgstr ""
+
+#: findEmailFromRecipients
+msgid "Received From Recipients"
+msgstr ""
+
+#: findEmailsSentFolderTitle
+msgid "Find Emails To Recipients"
+msgstr ""
+
+#: findEmailsToAll
+msgid "Include messages sent to all addresses"
+msgstr ""
+
+#: findEmailToContact
+msgid "Sent To Contact"
+msgstr ""
+
+#: findEmailToRecipient
+msgid "Sent To Recipient"
+msgstr ""
+
+#: findEmailToRecipients
+msgid "Sent To Recipients"
+msgstr ""
+
+#: findEmailToSender
+msgid "Sent To Sender"
 msgstr ""
 
 #: findLocations
@@ -4082,6 +4778,10 @@ msgstr ""
 
 #: flagged
 msgid "Flagged"
+msgstr ""
+
+#: flagHeaderToolTip
+msgid "Filter By Flag"
 msgstr ""
 
 #: flags
@@ -4133,6 +4833,10 @@ msgstr ""
 msgid ""
 "A folder or saved search with that name already exists. Please use another "
 "name."
+msgstr ""
+
+#: folderPreviewMessage
+msgid "Double click on the folder to view its contents."
 msgstr ""
 
 #: folderProperties
@@ -4229,6 +4933,10 @@ msgstr ""
 
 #: formatHtmlSource
 msgid "HTML Source"
+msgstr ""
+
+#: formatLabel
+msgid "Format:"
 msgstr ""
 
 #: formatMediaWiki
@@ -4349,7 +5057,11 @@ msgid "Allow both internal and external users to see my free/busy information"
 msgstr ""
 
 #: freeBusyAllowLocal
-msgid "Allow only internal users to see my free/busy information"
+msgid "Allow only users of internal domains to see my free/busy information"
+msgstr ""
+
+#: freeBusyAllowDomain
+msgid "Allow only users of my domain to see my free/busy information"
 msgstr ""
 
 #: freeBusyAllowNone
@@ -4440,6 +5152,10 @@ msgstr ""
 msgid "General"
 msgstr ""
 
+#: generatingPreview
+msgid "Generating Preview ..."
+msgstr ""
+
 #: genericTextHint
 msgid "Enter text"
 msgstr ""
@@ -4528,6 +5244,10 @@ msgid ""
 "no longer exists:</p><ul>{0}</ul><p>Press OK to revoke those shares, or "
 "Cancel to exit. If you cancel, you can then revoke each share individually "
 "by clicking the \"Revoke\" link.</p>"
+msgstr ""
+
+#: granteeLabel
+msgid "Grantee:"
 msgstr ""
 
 #: grantFormText
@@ -4641,12 +5361,24 @@ msgid "/help/advanced/Zimbra_User_Help.htm"
 msgstr ""
 
 #. #L10N_IGNORE_BLOCK_END
+#: hide
+msgid "Hide"
+msgstr ""
+
 #: hideBCC
 msgid "Hide BCC"
 msgstr ""
 
 #: hideDetails
 msgid "Hide Details"
+msgstr ""
+
+#: hideOptional
+msgid "Hide Optional"
+msgstr ""
+
+#: hideResources
+msgid "Hide Resources"
 msgstr ""
 
 #: high
@@ -5271,10 +6003,12 @@ msgid "{0} ({1})"
 msgstr ""
 
 #: imSortListByPresence
+msgctxt "imSortListByPresence"
 msgid "Sort by Status"
 msgstr ""
 
 #: imSortListByName
+msgctxt "imSortListByName"
 msgid "Sort by Name"
 msgstr ""
 
@@ -5388,6 +6122,10 @@ msgstr ""
 
 #: importErrorRootNotAllowed
 msgid "Not allowed to import to root folder for this type."
+msgstr ""
+
+#: importErrorTypeNotSupported
+msgid "File extension <b>{0}</b> is not supported by Import."
 msgstr ""
 
 #: importErrorUpload
@@ -5523,11 +6261,16 @@ msgid "Include original message and headers with the prefix below"
 msgstr ""
 
 #: includeJunk
-msgid "Also search Junk"
+msgid "Also search Spam"
 msgstr ""
 
 #: includeJunkFolder
-msgid "Include Junk Folder in Searches"
+msgid "Include Spam folder in searches"
+msgstr ""
+
+#: includeLabel
+msgctxt "includeLabel"
+msgid "Include"
 msgstr ""
 
 #: includeMenuAttachment
@@ -5546,6 +6289,14 @@ msgstr ""
 msgid "Include Last Message Only"
 msgstr ""
 
+#: includeMyWorkingHours
+msgid "My Working Hours Only"
+msgstr ""
+
+#: includeNonWorkingHours
+msgid "Include Non-Working Hours"
+msgstr ""
+
 #: includeOriginalAsAttach
 msgid "Include original message as an attachment"
 msgstr ""
@@ -5559,11 +6310,15 @@ msgid "Also search Trash"
 msgstr ""
 
 #: includeTrashFolder
-msgid "Include Trash Folder in Searches"
+msgid "Include Trash folder in searches"
 msgstr ""
 
 #: includeYear
 msgid "Include year"
+msgstr ""
+
+#: incomingMessageFilters
+msgid "Incoming Message Filters"
 msgstr ""
 
 #: inContacts
@@ -5662,6 +6417,14 @@ msgstr ""
 msgid "Insert Table"
 msgstr ""
 
+#: intendedForInfo
+msgid "This invitation is intended for {0}"
+msgstr ""
+
+#: intendedForLabel
+msgid "Intended For:"
+msgstr ""
+
 #: invalidAttendees
 msgid "Invalid attendees found:"
 msgstr ""
@@ -5698,8 +6461,48 @@ msgstr ""
 msgid "Invalid name: {0}"
 msgstr ""
 
+#: inviteAccepted
+msgid "Invite Accepted"
+msgstr ""
+
+#: inviteAcceptedTentatively
+msgid "Invite Accepted Tentatively"
+msgstr ""
+
+#: inviteAttendees
+msgid "Invite Attendees"
+msgstr ""
+
+#: inviteDeclined
+msgid "Invite Declined"
+msgstr ""
+
 #: invitees
 msgid "Invitees"
+msgstr ""
+
+#: inviteesLabel
+msgid "Invitees:"
+msgstr ""
+
+#: inviteMsgAccepted
+msgid "{0} has accepted the invitation."
+msgstr ""
+
+#: inviteMsgDeclined
+msgid "{0} has declined the invitation."
+msgstr ""
+
+#: inviteMsgTentative
+msgid "{0} has tentatively accepted the invitation."
+msgstr ""
+
+#: inviteNotCurrent
+msgid "Invitation is not current"
+msgstr ""
+
+#: inviteNotSent
+msgid "Invitations have not been sent for this meeting."
 msgstr ""
 
 #: inviteOutOfDate
@@ -5729,7 +6532,7 @@ msgstr ""
 #: invitePermissionDenied
 msgid ""
 "<p>You do not have permission to invite the following attendees to a "
-"meeting: <br> {0}</p><p>Save anyway?</p>"
+"meeting: <br> {0}</p>"
 msgstr ""
 
 #: invitesLabel
@@ -5766,11 +6569,11 @@ msgid "\"{0}\" is a recurring task."
 msgstr ""
 
 #: isReplied
-msgid "is replied"
+msgid "invite is replied"
 msgstr ""
 
 #: isRequested
-msgid "is requested"
+msgid "invite is requested"
 msgstr ""
 
 #: isVisible
@@ -5809,6 +6612,12 @@ msgstr ""
 msgid "Item Type"
 msgstr ""
 
+#: itemWithFileNameExits
+msgid ""
+"Item with file name <strong>{0}</strong> already exists in the briefcase "
+"folder."
+msgstr ""
+
 #: javaSource
 msgid "Java Source Code"
 msgstr ""
@@ -5822,11 +6631,19 @@ msgid "Junk"
 msgstr ""
 
 #: junkMailOptions
-msgid "Junk Mail Options"
+msgid "Spam Mail Options"
+msgstr ""
+
+#: junkLabel
+msgid "Spam"
+msgstr ""
+
+#: junkMarkLabel
+msgid "Mark as Spam"
 msgstr ""
 
 #: junkTooltip
-msgid "Mark selected item(s) as Junk"
+msgid "Mark selected item(s) as Spam"
 msgstr ""
 
 #: kb
@@ -5841,12 +6658,20 @@ msgstr ""
 msgid "Keep in Inbox"
 msgstr ""
 
+#: keepInSent
+msgid "Keep in Sent"
+msgstr ""
+
 #: key
 msgid "Key"
 msgstr ""
 
 #: keyboardShortcuts
 msgid "Zimbra Keyboard Shortcuts"
+msgstr ""
+
+#: keyLabel
+msgid "Key:"
 msgstr ""
 
 #: kilobytes
@@ -5890,6 +6715,10 @@ msgstr ""
 msgid "Last Year"
 msgstr ""
 
+#: launch
+msgid "Launch"
+msgstr ""
+
 #: layout
 msgid "Layout"
 msgstr ""
@@ -5898,16 +6727,20 @@ msgstr ""
 msgid "Left"
 msgstr ""
 
-#: leftClickComposeHint
-msgid "Click to compose."
-msgstr ""
-
-#: leftClickNewContactHint
-msgid "Click to add to Address Book."
+#: latestVersion
+msgid "Latest Version"
 msgstr ""
 
 #: licenseExpired
 msgid "Your server's license has expired."
+msgstr ""
+
+#: licenseNotActivated
+msgid "Your server's license is not activated."
+msgstr ""
+
+#: licenseNotInstalled
+msgid "Your server's license is not installed."
 msgstr ""
 
 #. # {0} = The number of days, as an integer
@@ -5996,7 +6829,28 @@ msgid "{0}, {1}"
 msgstr ""
 
 #: locationLabel
+msgctxt "locationLabel"
 msgid "Location:"
+msgstr ""
+
+#: locationPreferences
+msgid "Location Preferences"
+msgstr ""
+
+#: lock
+msgid "Lock"
+msgstr ""
+
+#: locked
+msgid "Locked"
+msgstr ""
+
+#: lockedTo
+msgid "Locked To"
+msgstr ""
+
+#: lockSuffientPermissions
+msgid "You do not have sufficient permissions to LOCK this file."
 msgstr ""
 
 #: login
@@ -6039,6 +6893,7 @@ msgid "This item has been marked as low priority"
 msgstr ""
 
 #: mail
+msgctxt "mail"
 msgid "Mail"
 msgstr ""
 
@@ -6075,6 +6930,10 @@ msgctxt "mailPriorityTooltip"
 msgid "Set the priority of the message"
 msgstr ""
 
+#: mailSharesOnly
+msgid "Mail shares only"
+msgstr ""
+
 #: mailSendAddressFailure
 msgid "Could not send message due to invalid address(es)"
 msgstr ""
@@ -6091,6 +6950,12 @@ msgstr ""
 msgid "{0}:"
 msgstr ""
 
+#: manageSignatures
+msgid ""
+"<a href='#Prefs.Signatures' onclick='skin.gotoPrefs(\"SIGNATURES\");return "
+"false'>Manage your signatures ...</a>"
+msgstr ""
+
 #: mandatorySpellcheck
 msgid "Mandatory spellcheck before sending a message."
 msgstr ""
@@ -6101,6 +6966,10 @@ msgstr ""
 
 #: mark
 msgid "Mark"
+msgstr ""
+
+#: markApptPrivate
+msgid "Mark Appointment Private"
 msgstr ""
 
 #: markAs
@@ -6131,16 +7000,28 @@ msgstr ""
 msgid "Mark As Unread"
 msgstr ""
 
+#: markAsCompleted
+msgid "Mark As Completed"
+msgstr ""
+
+#: markAsPrivate
+msgid "Mark as Private"
+msgstr ""
+
 #: markedAsJunk
-msgid "{0,number} {0,choice,1#Item|2#Items} Marked as Junk"
+msgid "{0,number} {0,choice,1#Item|2#Items} Marked as Spam"
 msgstr ""
 
 #: markedAsNotJunk
-msgid "{0,number} {0,choice,1#Item|2#Items} Marked as Not Junk"
+msgid "{0,number} {0,choice,1#Item|2#Items} Marked as Not Spam"
 msgstr ""
 
 #: matches
 msgid "matches wildcard condition"
+msgstr ""
+
+#: maxBodySize
+msgid "Max Body Size"
 msgstr ""
 
 #: mb
@@ -6163,6 +7044,10 @@ msgstr ""
 msgid "megabytes (MB)"
 msgstr ""
 
+#: membersLabel
+msgid "Members:"
+msgstr ""
+
 #: mergeCell
 msgid "Merge Cell"
 msgstr ""
@@ -6179,6 +7064,21 @@ msgstr ""
 #: messageArrivalLabel
 msgctxt "messageArrivalLabel"
 msgid "When a message arrives:"
+msgstr ""
+
+#: messageAutoSaveAborted
+msgid ""
+"The message is no longer scheduled to be sent. You may specify a new send "
+"time by choosing \"Send Later\", or send the message immediately by choosing "
+"\"Send\"."
+msgstr ""
+
+#: messageEmptyTextContent
+msgid "The message has no text content."
+msgstr ""
+
+#: messageEmptyHtmlContent
+msgid "The message has no html content."
 msgstr ""
 
 #: messageLabel
@@ -6203,6 +7103,14 @@ msgstr ""
 
 #: messagePreviewLabel
 msgid "Message Preview:"
+msgstr ""
+
+#: messageScheduledSent
+msgid "Message scheduled to be sent"
+msgstr ""
+
+#: messageScheduledSendLabel
+msgid "Scheduled send:"
 msgstr ""
 
 #: messageSent
@@ -6235,6 +7143,14 @@ msgstr ""
 
 #: method
 msgid "Method"
+msgstr ""
+
+#: midnight
+msgid "Midnight"
+msgstr ""
+
+#: minute
+msgid "minute"
 msgstr ""
 
 #: minutes
@@ -6403,6 +7319,10 @@ msgctxt "modified"
 msgid "Modified"
 msgstr ""
 
+#: modifiedDate
+msgid "Modified date."
+msgstr ""
+
 #: modifiedField
 msgctxt "modifiedField"
 msgid "[MODIFIED]"
@@ -6450,8 +7370,16 @@ msgstr ""
 msgid "More..."
 msgstr ""
 
+#: moreAttendees
+msgid "{0} more {0,choice,1#attendee|2#attendees}"
+msgstr ""
+
 #: moreDetails
 msgid "More Details..."
+msgstr ""
+
+#: morePeopleResults
+msgid "Keep typing to see more results"
 msgstr ""
 
 #: moreVoiceControlsLabel
@@ -6561,6 +7489,12 @@ msgid ""
 "appointments cannot be moved."
 msgstr ""
 
+#: moveScheduledMessageWarning
+msgid ""
+"This message is scheduled for delivery. Deleting will remove scheduled "
+"delivery. This operation is cannot be undone."
+msgstr ""
+
 #: moveSearch
 msgid "Move Saved Search \"{0}\""
 msgstr ""
@@ -6575,6 +7509,18 @@ msgstr ""
 
 #: moveTooltip
 msgid "Move selected item(s)"
+msgstr ""
+
+#: moveToBcc
+msgid "Move to Bcc:"
+msgstr ""
+
+#: moveToCc
+msgid "Move to Cc:"
+msgstr ""
+
+#: moveToTo
+msgid "Move to To:"
 msgstr ""
 
 #: moveToVoiceMail
@@ -6785,6 +7731,10 @@ msgstr ""
 msgid "New External Account {0,number}"
 msgstr ""
 
+#: newFeatures
+msgid "New Features"
+msgstr ""
+
 #: newFile
 msgid "New File"
 msgstr ""
@@ -6835,6 +7785,10 @@ msgstr ""
 
 #: newMessage
 msgid "New message"
+msgstr ""
+
+#: newMessages
+msgid "New Messages"
 msgstr ""
 
 #: newMessageFormat
@@ -6894,6 +7848,10 @@ msgstr ""
 #: newSection
 msgctxt "newSection"
 msgid "New Notebook"
+msgstr ""
+
+#: newSignature
+msgid "New Signature"
 msgstr ""
 
 #: newSpreadSheet
@@ -6994,6 +7952,10 @@ msgstr ""
 msgid "No Attachments"
 msgstr ""
 
+#: noAttendees
+msgid "No Attendees found"
+msgstr ""
+
 #: noCallResults
 msgid "No results found."
 msgstr ""
@@ -7004,6 +7966,12 @@ msgstr ""
 
 #: noForwardAddresses
 msgid "There must be at least one address in the To: field"
+msgstr ""
+
+#: noGreenSuggestionsFound
+msgid ""
+"No suggestions found with all attendees available on <b>{0,date,MMM dd}</b> "
+"for duration <b>{1}</b>"
 msgstr ""
 
 #: noItems
@@ -7022,8 +7990,16 @@ msgstr ""
 msgid "No meetings found"
 msgstr ""
 
+#: noMembers
+msgid "List has no members"
+msgstr ""
+
 #: noName
 msgid "<No Name>"
+msgstr ""
+
+#: nonWorking
+msgid "Non-working"
 msgstr ""
 
 #: noShareDetailsFound
@@ -7034,8 +8010,17 @@ msgstr ""
 msgid "<No Subject>"
 msgstr ""
 
+#: noSuggestionsFound
+msgid ""
+"No suggestions available on <b>{0,date,MMM dd}</b> for duration <b>{1}</b>"
+msgstr ""
+
 #: noWhere
 msgid "<No Where>"
+msgstr ""
+
+#: noon
+msgid "Noon"
 msgstr ""
 
 #: none
@@ -7043,8 +8028,17 @@ msgctxt "none"
 msgid "None"
 msgstr ""
 
+#: noPreviewFound
+msgid "To preview a file, click on it."
+msgstr ""
+
 #: normal
+msgctxt "normal"
 msgid "Normal"
+msgstr ""
+
+#: noSignature
+msgid "No signature"
 msgstr ""
 
 #: noSuggestions
@@ -7057,6 +8051,10 @@ msgstr ""
 
 #: notAvailable
 msgid "Not Available"
+msgstr ""
+
+#: nonWorkingHours
+msgid "Non-Working Hours"
 msgstr ""
 
 #: notStarted
@@ -7079,6 +8077,14 @@ msgstr ""
 
 #: notContain
 msgid "does not contain"
+msgstr ""
+
+#: notReplied
+msgid "invite is not replied"
+msgstr ""
+
+#: notRequested
+msgid "invite is not requested"
 msgstr ""
 
 #: notebook
@@ -7137,6 +8143,18 @@ msgstr ""
 msgid "does not exist"
 msgstr ""
 
+#: notifications
+msgid "Notifications"
+msgstr ""
+
+#: notificationsEmail
+msgid "Notifications By Email"
+msgstr ""
+
+#: notificationsDeviceEmail
+msgid "Notifications By SMS"
+msgstr ""
+
 #: notify
 msgid "Notify"
 msgstr ""
@@ -7154,7 +8172,7 @@ msgid "Only when new mail arrives in my Inbox"
 msgstr ""
 
 #: notifyNewMailOnAny
-msgid "When new mail arrives in any folder (excluding Junk and Trash)"
+msgid "When new mail arrives in any folder (excluding Spam and Trash)"
 msgstr ""
 
 #: notIn
@@ -7174,11 +8192,21 @@ msgid "does not match wildcard condition"
 msgstr ""
 
 #: notJunk
-msgid "Not Junk"
+msgctxt "notJunk"
+msgid "Not Spam"
+msgstr ""
+
+#: notJunkLabel
+msgctxt "notJunkLabel"
+msgid "Not Spam"
+msgstr ""
+
+#: notJunkMarkLabel
+msgid "Mark as Not Spam"
 msgstr ""
 
 #: notJunkTooltip
-msgid "Mark selected item(s) as not Junk"
+msgid "Mark selected item(s) as not Spam"
 msgstr ""
 
 #: notOver
@@ -7195,6 +8223,10 @@ msgstr ""
 
 #: noVoiceMail
 msgid "Voice mail is not available."
+msgstr ""
+
+#: numAddresses
+msgid "{0} Addresses"
 msgstr ""
 
 #: number
@@ -7226,7 +8258,9 @@ msgid "Objects"
 msgstr ""
 
 #: objectsNotDisplayed
-msgid "Objects are not highlighted due to message size."
+msgid ""
+"Due to the size of the message, email addresses, URLs and other action text "
+"have not been changed into hyperlinks."
 msgstr ""
 
 #: off
@@ -7237,8 +8271,133 @@ msgstr ""
 msgid "Use Zimbra Desktop as default mail application"
 msgstr ""
 
+#: offlineBackups
+msgid "Backups"
+msgstr ""
+
+#: offlineBackupHeader
+msgid "Configure Backups"
+msgstr ""
+
+#: offlineBackUpButton
+msgid "Backup Accounts Now"
+msgstr ""
+
+#: offlineBackUpOptionEnable
+msgid "Enable"
+msgstr ""
+
+#: offlineBackUpOptionDisable
+msgid "Disable"
+msgstr ""
+
+#: offlineBackUpAccounts
+msgid "Accounts:"
+msgstr ""
+
+#: offlineBackUpEnable
+msgid "Backup Accounts:"
+msgstr ""
+
+#: offlineBackUpInterval
+msgid "Schedule:"
+msgstr ""
+
+#: offlineBackUpPath
+msgctxt "offlineBackUpPath"
+msgid "Location:"
+msgstr ""
+
+#: offlineBackUpKeep
+msgid "Backup files per account"
+msgstr ""
+
+#: offlineBackUpNow
+msgid "Backup Now"
+msgstr ""
+
+#: offlineBackUpRestore
+msgid "Restore from Backup"
+msgstr ""
+
+#: offlineBackUpRetention
+msgid "Retention:"
+msgstr ""
+
+#: offlineBackUpStarted
+msgid "Backup of accounts have begun"
+msgstr ""
+
+#: offlineBackUpInProcess
+msgid "Backup of \"{0}\" account already in progress"
+msgstr ""
+
+#: offlineBackUpCompleted
+msgid "Backup of \"{0}\" account completed successfully"
+msgstr ""
+
+#: offlineBackupRestored
+msgid "Backup of account \"{0}\" restored."
+msgstr ""
+
+#: offlineBackupStartedForAcct
+msgid "Backup of account \"{0}\" has begun"
+msgstr ""
+
 #: offlineQuota
 msgid "Mailbox size:"
+msgstr ""
+
+#: offlinePasswordUpdate
+msgid ""
+"Zimbra Desktop is unable to synchronize data from \"{0}\". <br/>  Re-enter the "
+"password and click Save to re-authenticate the account."
+msgstr ""
+
+#: offlinePasswordUpdateSuccess
+msgid "Password for account \"{0}\" has been updated successfully."
+msgstr ""
+
+#: offlinePasswordUpdateFailure
+msgid "Password is incorrect. Please try again."
+msgstr ""
+
+#: offlineAccountAuth
+msgid "Account Authentication"
+msgstr ""
+
+#: offlineUpdateNotify
+msgid "Notify when beta updates are available"
+msgstr ""
+
+#: offlineUpdateNotifyLabel
+msgid "Notify me of updates:"
+msgstr ""
+
+#: offlineUpdateRelease
+msgid "Final Release Only"
+msgstr ""
+
+#: offlineUpdateBeta
+msgid "Beta and Final Release"
+msgstr ""
+
+#: offlineMustReSync
+msgid "Account \"{0}\" hasn't synced for too long. Do you want to sync now ?"
+msgstr ""
+
+#: offlineMustGalReSync
+msgid "Account \"{0}\" hasn't synced GAL for too long. Do you want to sync now?"
+msgstr ""
+
+#: offlineHeapDump
+msgid ""
+"Do we have your consent to upload heap dump of Zimbra Desktop's previous "
+"crash ?"
+msgstr ""
+
+#: offlineMoveFolderError
+msgid "Folder move failed, please try again later"
 msgstr ""
 
 #: ok
@@ -7272,6 +8431,10 @@ msgstr ""
 
 #: onBehalfOfText
 msgid "on behalf of <b>{0}</b>"
+msgstr ""
+
+#: onlineHelp
+msgid "Help Central Online"
 msgstr ""
 
 #: onlyWholeNumbersError
@@ -7352,6 +8515,10 @@ msgctxt "optionalInvitees"
 msgid "Optional"
 msgstr ""
 
+#: optionalLabel
+msgid "Optional:"
+msgstr ""
+
 #: options
 msgid "Options"
 msgstr ""
@@ -7382,8 +8549,14 @@ msgstr ""
 
 #: orgChange
 msgid ""
-"This will change the organizer to \"{0}\" and attendees will be notified. "
-"Continue?"
+"Appointment can not be moved to the folder with different owner than the "
+"organizer of the appointment."
+msgstr ""
+
+#: noFolderExists
+msgid ""
+"The remote  calendar \"{0}\" doesn't exist. Owner of the calendar might have "
+"deleted it."
 msgstr ""
 
 #: originalAppointment
@@ -7423,6 +8596,10 @@ msgstr ""
 
 #: outdent
 msgid "Decrease Indent"
+msgstr ""
+
+#: outgoingMessageFilters
+msgid "Outgoing Message Filters"
 msgstr ""
 
 #: outOfOffice
@@ -7472,7 +8649,11 @@ msgid "Page:"
 msgstr ""
 
 #: pageSizeLabel
-msgid "Number of items to fetch when scrolling:"
+msgid "Scrolling:"
+msgstr ""
+
+#: pageSizeDesc
+msgid "items fetched when scrolling"
 msgstr ""
 
 #: parentFolderLabel
@@ -7528,6 +8709,10 @@ msgstr ""
 msgid "Folders that have been shared with me but not yet accepted"
 msgstr ""
 
+#: peopleSearchHint
+msgid "People Search"
+msgstr ""
+
 #: percent
 msgid "Percent"
 msgstr ""
@@ -7538,6 +8723,10 @@ msgstr ""
 
 #: permissions
 msgid "Permissions:"
+msgstr ""
+
+#: permanentlyDelete
+msgid "Permanently delete selected item(s)"
 msgstr ""
 
 #: personaSettings
@@ -7651,6 +8840,10 @@ msgstr ""
 msgid "Phone Numbers"
 msgstr ""
 
+#: phoneticNameLabel
+msgid "Phonetic name:"
+msgstr ""
+
 #: pink
 msgid "Pink"
 msgstr ""
@@ -7680,7 +8873,7 @@ msgid "Placement:"
 msgstr ""
 
 #: placeSignature
-msgid "Place the signature:"
+msgid "Place signatures:"
 msgstr ""
 
 #: plainText
@@ -7709,6 +8902,14 @@ msgstr ""
 
 #: pollingIntervalLabel
 msgid "Check for new mail every:"
+msgstr ""
+
+#: pollInstant
+msgid "As new mail arrives"
+msgstr ""
+
+#: pollManually
+msgid "Manually"
 msgstr ""
 
 #: pollNever
@@ -7905,6 +9106,24 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
+#: previewDownloadLink
+msgid ""
+"We cannot generate the preview of the file. Click here to <a href=\"{0}\" "
+"target=\"_blank\" >download</a> it."
+msgstr ""
+
+#: previewPaneAtBottom
+msgid "Preview Pane At The Bottom"
+msgstr ""
+
+#: previewPaneOff
+msgid "Preview Pane Off"
+msgstr ""
+
+#: previewPaneOnRight
+msgid "Preview Pane On The Right"
+msgstr ""
+
 #: previewView
 msgid "Preview View"
 msgstr ""
@@ -7965,6 +9184,10 @@ msgstr ""
 msgid "Print document"
 msgstr ""
 
+#: printFontSizeLabel
+msgid "Print Font Size:"
+msgstr ""
+
 #: printResults
 msgid "Print Results"
 msgstr ""
@@ -8003,6 +9226,10 @@ msgstr ""
 
 #: _private
 msgid "Private"
+msgstr ""
+
+#: productHelp
+msgid "Product Help"
 msgstr ""
 
 #: progress
@@ -8093,6 +9320,10 @@ msgstr ""
 msgid "{0} of unlimited"
 msgstr ""
 
+#: quotaLabel
+msgid "Quota:"
+msgstr ""
+
 #: received
 msgid "Received"
 msgstr ""
@@ -8134,7 +9365,7 @@ msgid "Ask me"
 msgstr ""
 
 #: readReceiptFilter
-msgid "Is a read receipt"
+msgid "Read Receipt"
 msgstr ""
 
 #: readReceiptNever
@@ -8155,6 +9386,14 @@ msgstr ""
 msgid "A read receipt was sent for this message."
 msgstr ""
 
+#: recoverDeletedItems
+msgid "Recover Deleted Items"
+msgstr ""
+
+#: recoverTo
+msgid "Recover To"
+msgstr ""
+
 #: recurrence
 msgid "Recurrence"
 msgstr ""
@@ -8171,6 +9410,10 @@ msgstr ""
 
 #: recurrenceRuleWeekend
 msgid "weekend day"
+msgstr ""
+
+#: recurrenceUpdateWarning
+msgid "This will remove all exception instances. Are you sure?"
 msgstr ""
 
 #: red
@@ -8194,10 +9437,12 @@ msgid "Reload"
 msgstr ""
 
 #: rememberMe
-msgid "Remember me on this computer"
+msgctxt "rememberMe"
+msgid "Remember me"
 msgstr ""
 
 #: rememberMeMobile
+msgctxt "rememberMeMobile"
 msgid "Remember me"
 msgstr ""
 
@@ -8304,6 +9549,18 @@ msgstr ""
 msgid "{0} {0,choice,1#minute|2#minutes}"
 msgstr ""
 
+#: reminders
+msgid "Reminders"
+msgstr ""
+
+#: remindersConfigure
+msgid "Configure"
+msgstr ""
+
+#: remindersConfigureNow
+msgid "Configure Now"
+msgstr ""
+
 #: remove
 msgctxt "remove"
 msgid "Remove"
@@ -8339,6 +9596,10 @@ msgstr ""
 
 #: removeTag
 msgid "Remove Tag"
+msgstr ""
+
+#: rename
+msgid "Rename"
 msgstr ""
 
 #: renameFolder
@@ -8384,6 +9645,10 @@ msgstr ""
 
 #: replied
 msgid "Replied"
+msgstr ""
+
+#: repliesForwards
+msgid "Replies & Forwards"
 msgstr ""
 
 #: reply
@@ -8510,6 +9775,10 @@ msgstr ""
 msgid "Required"
 msgstr ""
 
+#: requiredLabel
+msgid "Required:"
+msgstr ""
+
 #: resend
 msgid "Resend"
 msgstr ""
@@ -8552,7 +9821,7 @@ msgstr ""
 
 #: resourceConflictInfo
 msgid ""
-"The selected resources/location might already be scheduled on the following "
+"The selected resources/location can not be scheduled for the following "
 "instances"
 msgstr ""
 
@@ -8576,6 +9845,10 @@ msgstr ""
 msgid "Resume editing"
 msgstr ""
 
+#: restoreCurrentVersion
+msgid "Restore as Current Version"
+msgstr ""
+
 #: restoreDefaults
 msgid "Restore Defaults"
 msgstr ""
@@ -8594,6 +9867,14 @@ msgstr ""
 
 #: revoke
 msgid "Revoke"
+msgstr ""
+
+#: revisionNotes
+msgid "#{0}: {1}"
+msgstr ""
+
+#: revisionWithoutNotes
+msgid "#{0}"
 msgstr ""
 
 #: revokeShare
@@ -8657,6 +9938,16 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
+#: saveApptInfoMsg
+msgid ""
+"\"Save\" will save only a local copy of the appointment and Invitations will "
+"not be sent to the attendees."
+msgstr ""
+
+#: saveClose
+msgid "Save & Close"
+msgstr ""
+
 #: saveConflict
 msgid "Save Conflict"
 msgstr ""
@@ -8704,6 +9995,14 @@ msgstr ""
 msgid "View their file to see which to keep.<br>(Will open in a new window.)"
 msgstr ""
 
+#: saveNameConflitVersion
+msgid "Create a new version of the existing file."
+msgstr ""
+
+#: saveNameConflictRename
+msgid "Rename and Save file as"
+msgstr ""
+
 #: saveCurrentSearch
 msgid "Save the current search"
 msgstr ""
@@ -8713,6 +10012,7 @@ msgid "Save the current contact"
 msgstr ""
 
 #: savedAppointment
+msgctxt "savedAppointment"
 msgid "Appointment Saved"
 msgstr ""
 
@@ -8768,9 +10068,24 @@ msgstr ""
 msgid "Do not save sent messages"
 msgstr ""
 
+#: saveToSentWarning
+msgid ""
+"There are outgoing message filters active. These filters will stop working "
+"if you turn off this option<br/>Do you want to turn off saving copies to "
+"Sent folder?"
+msgstr ""
+
 #: schedule
 msgctxt "schedule"
 msgid "Schedule"
+msgstr ""
+
+#: scheduled
+msgid "Scheduled"
+msgstr ""
+
+#: scheduler
+msgid "Scheduler"
 msgstr ""
 
 #: scriptError
@@ -8780,6 +10095,14 @@ msgstr ""
 #: search
 msgctxt "search"
 msgid "Search"
+msgstr ""
+
+#: searching
+msgid "Searching..."
+msgstr ""
+
+#: searchingMonthTitle
+msgid "Searching {0,date,MMM yyyy}..."
 msgstr ""
 
 #: searchInput
@@ -8929,7 +10252,7 @@ msgstr ""
 
 #: searchMail
 msgctxt "searchMail"
-msgid "Email"
+msgid "Mail"
 msgstr ""
 
 #: searchName
@@ -9031,6 +10354,10 @@ msgid ""
 "of the addresses below to search on."
 msgstr ""
 
+#: selectAllMembers
+msgid "Select all {0} addresses"
+msgstr ""
+
 #: selectAfterDeleteLabel
 msgid "After I move or delete a message:"
 msgstr ""
@@ -9110,7 +10437,7 @@ msgid "Show all known timezones"
 msgstr ""
 
 #: selectTimezoneTitle
-msgid "Select Timezone    "
+msgid "Select Timezone"
 msgstr ""
 
 #: sellEmail
@@ -9125,12 +10452,20 @@ msgstr ""
 msgid "Send as attachment(s)"
 msgstr ""
 
+#: sendAsEmail
+msgid "Send As Email"
+msgstr ""
+
 #: sender
 msgid "Sender"
 msgstr ""
 
 #: sendComposedMailAboutShare
 msgid "Compose email in new window"
+msgstr ""
+
+#: sendEmail
+msgid "Send Email"
 msgstr ""
 
 #: sendErrorAbort
@@ -9165,6 +10500,26 @@ msgstr ""
 
 #: sendFromAddressError
 msgid "The send from address field is not a valid email address"
+msgstr ""
+
+#: sendLater
+msgid "Send Later..."
+msgstr ""
+
+#: sendLaterTooltip
+msgid "Schedule the message to be sent at a later time"
+msgstr ""
+
+#: sendLaterTitle
+msgid "Specify Message Send Time"
+msgstr ""
+
+#: sendLaterDescription
+msgid "Select a date and time to send this message"
+msgstr ""
+
+#: sendLaterPastError
+msgid "The selected time is in the past. Message will be sent immediately."
 msgstr ""
 
 #: sendLink
@@ -9248,7 +10603,7 @@ msgid "Send by email"
 msgstr ""
 
 #: sendInvDeniedAutoReply
-msgid "Send auto-reply to users who are denied from inviting me"
+msgid "Send auto-reply if any users in my domain denied from inviting me"
 msgstr ""
 
 #: sendObo
@@ -9371,6 +10726,51 @@ msgstr ""
 
 #: sharedFolderNotSupported
 msgid "A file cannot be copied to shared folder"
+msgstr ""
+
+#: sharedFoldersLoading
+msgid "Loading group shares..."
+msgstr ""
+
+#: sharedFoldersLoadingUser
+msgid "Loading {0} shares..."
+msgstr ""
+
+#: sharedFoldersNoGroupsFound
+msgid "No group shares found"
+msgstr ""
+
+#: sharedFoldersNoneFound
+msgid "None Found"
+msgstr ""
+
+#: sharedFoldersError
+msgctxt "sharedFoldersError"
+msgid "Error"
+msgstr ""
+
+#: sharedFoldersUserSearchHint
+msgid "name@example.com"
+msgstr ""
+
+#: sharedFoldersFilterHint
+msgid "Enter text to filter results"
+msgstr ""
+
+#: sharedFoldersAddTitle
+msgid "Add Shared Folder"
+msgstr ""
+
+#: sharedFoldersFindLabel
+msgid "Find Shares:"
+msgstr ""
+
+#: sharedFoldersLink
+msgid "Find Shares..."
+msgstr ""
+
+#: sharedFoldersLinkHint
+msgid "The link to the shared folder will be named \"{0}\"."
 msgstr ""
 
 #: shareFolder
@@ -9541,6 +10941,10 @@ msgctxt "sheetTooltip"
 msgid "Spreadsheets"
 msgstr ""
 
+#: shortAddress
+msgid "Display names in place of email addresses when available"
+msgstr ""
+
 #: shortcuts
 msgid "Shortcuts"
 msgstr ""
@@ -9561,7 +10965,11 @@ msgid ""
 msgstr ""
 
 #: shouldShowTimezone
-msgid "Show timezone list in appointment view"
+msgid "Show timezone for the start and end time when creating an appointment"
+msgstr ""
+
+#: show
+msgid "Show"
 msgstr ""
 
 #: showAdvancedOptions
@@ -9574,6 +10982,14 @@ msgstr ""
 
 #: showAllMailboxes
 msgid "Show the \"All Mailboxes\" section with my other accounts"
+msgstr ""
+
+#: showAllSuggestions
+msgid "Show All Suggestions"
+msgstr ""
+
+#: showApptsFromThrough
+msgid "Show appointments from {0} through {1}"
 msgstr ""
 
 #: showAs
@@ -9589,7 +11005,7 @@ msgid "Show Details"
 msgstr ""
 
 #: showExternalImages
-msgid "Download pictures automatically in HTML Email"
+msgid "Display pictures automatically in HTML Email"
 msgstr ""
 
 #: showFragments
@@ -9605,6 +11021,10 @@ msgstr ""
 msgid "Show Message"
 msgstr ""
 
+#: showMore
+msgid "Show more..."
+msgstr ""
+
 #: showNames
 msgid "Show names from:"
 msgstr ""
@@ -9613,8 +11033,16 @@ msgstr ""
 msgid "Show only Contacts"
 msgstr ""
 
+#: showOnlyGreenSuggestions
+msgid "Show only times when all attendees are available"
+msgstr ""
+
 #: showOnlyMail
 msgid "Show only Mail Messages"
+msgstr ""
+
+#: showOptional
+msgid "Show Optional"
 msgstr ""
 
 #: showOrig
@@ -9653,12 +11081,24 @@ msgstr ""
 msgid "Click here to show {0} remaining {1}"
 msgstr ""
 
+#: showResources
+msgid "Show Resources"
+msgstr ""
+
 #: showSearchString
 msgid "Show advanced search language in search toolbar"
 msgstr ""
 
 #: showSelectionString
 msgid "Display checkboxes to quickly select items in lists (requires refresh)"
+msgstr ""
+
+#: showSuggestions
+msgid "Show Suggestions"
+msgstr ""
+
+#: showSuggestionsFor
+msgid "{0}Show Suggestions for <nobr><b>{2,date,MMM dd}</b></nobr>{1}"
 msgstr ""
 
 #: showUserShares
@@ -9699,10 +11139,8 @@ msgid ""
 "<b>Add Signature</b> button in the email compose screen."
 msgstr ""
 
-#: signatureMoreOptions
-msgid ""
-"A default signature can be set on the <a href='#Prefs.Accounts' "
-"onclick='skin.gotoPrefs(\"ACCOUNTS\");return false'>Accounts Page</a>"
+#: signatureNameDuplicate
+msgid "There is already a signature with the name \"{0}\". "
 msgstr ""
 
 #: signatureNameLabel
@@ -9731,6 +11169,10 @@ msgstr ""
 
 #: signatureValueMissingRequired
 msgid "Signature value is empty. It's required."
+msgstr ""
+
+#: signatureVcardLabel
+msgid "Attach Contact as vCard:"
 msgstr ""
 
 #: simple
@@ -9788,12 +11230,25 @@ msgstr ""
 msgid "Snooze all for:"
 msgstr ""
 
+#: sortBy
+msgid "Sort by"
+msgstr ""
+
 #: sortByDuration
 msgid "Sort by Duration"
 msgstr ""
 
 #: sortByFrom
 msgid "Sort by From"
+msgstr ""
+
+#: sortByModified
+msgid "Sort by Modified"
+msgstr ""
+
+#: sortByName
+msgctxt "sortByName"
+msgid "Sort by Name"
 msgstr ""
 
 #: sortByTo
@@ -9818,6 +11273,19 @@ msgstr ""
 
 #: sortBySubject
 msgid "Sort by Subject"
+msgstr ""
+
+#: sortByStatus
+msgctxt "sortByStatus"
+msgid "Sort by Status"
+msgstr ""
+
+#: sortByPComplete
+msgid "Sort by % Complete"
+msgstr ""
+
+#: sortByDueDate
+msgid "Sorty By Due Date"
 msgstr ""
 
 #: sortOrder
@@ -9874,7 +11342,8 @@ msgid "Spreadsheet Name"
 msgstr ""
 
 #: spreadsheetTitle
-msgid "Zimbra Spreadsheet "
+msgctxt "spreadsheetTitle"
+msgid "Zimbra Spreadsheet"
 msgstr ""
 
 #: start
@@ -9962,6 +11431,14 @@ msgstr ""
 msgid "Subscript"
 msgstr ""
 
+#: successfullyUploaded
+msgid "Successfully Uploaded"
+msgstr ""
+
+#: successfullyUploadedFiles
+msgid "Successfully uploaded {0} files"
+msgstr ""
+
 #: sumCells
 msgid "Sum cells"
 msgstr ""
@@ -9988,12 +11465,61 @@ msgstr ""
 
 #: switchToOfflineClientEx
 msgid ""
-"<a href='http://www.zimbra.com/products/desktop.html' target='_blank'>Learn "
-"about the offline version</a>"
+"Go offline with Zimbra Desktop. <a "
+"href='http://www.zimbra.com/products/desktop.html' target='_blank'>Learn "
+"more</a>"
 msgstr ""
 
 #: subscribeToFeed
 msgid "Subscribe to RSS/ATOM feed"
+msgstr ""
+
+#: suggestAvailableRooms
+msgid "Suggest available rooms"
+msgstr ""
+
+#: suggestTimeLabel
+msgid "Suggest time for {0}"
+msgstr ""
+
+#: suggestTimes
+msgid "Suggest Times"
+msgstr ""
+
+#: suggestionsLabel
+msgid "Suggestions:"
+msgstr ""
+
+#: suggestionsAutomatic
+msgid "Automatic"
+msgstr ""
+
+#: suggestionsManual
+msgid "Manual"
+msgstr ""
+
+#: suggestedAttendees
+msgid "Suggested Attendees"
+msgstr ""
+
+#: suggestedLocations
+msgid "Suggested Locations"
+msgstr ""
+
+#: suggestedResources
+msgid "Suggested Resources"
+msgstr ""
+
+#: suggestedTimeLabel
+msgid "Suggested times for {0,date,MMM dd}"
+msgstr ""
+
+#: suggestedTimes
+msgid "Suggested Times"
+msgstr ""
+
+#: suggestionPreferences
+msgid "Suggestion Preferences"
 msgstr ""
 
 #: summary
@@ -10157,6 +11683,10 @@ msgstr ""
 msgid "Task"
 msgstr ""
 
+#: taskFilterBy
+msgid "Filter by"
+msgstr ""
+
 #: taskFolder
 msgid "Task List:"
 msgstr ""
@@ -10165,16 +11695,46 @@ msgstr ""
 msgid "Task Folder"
 msgstr ""
 
+#: taskSaveErrorToobig
+msgid ""
+"This task cannot be saved because it has exceeded the maximum allowed size."
+msgstr ""
+
 #: taskPastDue
 msgid "Task is past due."
+msgstr ""
+
+#: taskReminders
+msgid "Task Reminder(s)"
 msgstr ""
 
 #: taskSaved
 msgid "Task Saved"
 msgstr ""
 
+#: taskSharesOnly
+msgid "Tasks shares only"
+msgstr ""
+
 #: tasks
 msgid "Tasks"
+msgstr ""
+
+#: taskSecPastDue
+msgid "Past Due"
+msgstr ""
+
+#: taskSecUpcoming
+msgid "Upcoming"
+msgstr ""
+
+#: taskSecToday
+msgctxt "taskSecToday"
+msgid "Today"
+msgstr ""
+
+#: taskSecNoDuedate
+msgid "No Due Date"
 msgstr ""
 
 #: template
@@ -10224,6 +11784,10 @@ msgstr ""
 
 #: theme-beach
 msgid "Beach"
+msgstr ""
+
+#: theme-carbon
+msgid "Carbon"
 msgstr ""
 
 #: theme-bones
@@ -10307,6 +11871,24 @@ msgctxt "time"
 msgid "Time"
 msgstr ""
 
+#: timeLabel
+msgid "Time:"
+msgstr ""
+
+#: timePreferences
+msgid "Time Preferences"
+msgstr ""
+
+#: timezoneConflictMsg
+msgid ""
+"Appointment End time falls ahead of Start Time. Please correct the end time "
+"or the timezone and try again."
+msgstr ""
+
+#: timezoneConflictTitle
+msgid "Appointment Duration Conflict"
+msgstr ""
+
 #: timezonePrefSaved
 msgid "Timezone Preference Saved"
 msgstr ""
@@ -10320,10 +11902,17 @@ msgid "To"
 msgstr ""
 
 #: toCc
-msgid "To / Cc"
+msgctxt "toCc"
+msgid "To or Cc"
+msgstr ""
+
+#: toOrCc
+msgctxt "toOrCc"
+msgid "To or Cc"
 msgstr ""
 
 #: today
+msgctxt "today"
 msgid "Today"
 msgstr ""
 
@@ -10333,6 +11922,10 @@ msgstr ""
 
 #: todayTooltip
 msgid "Show the calendar for today"
+msgstr ""
+
+#: todoList
+msgid "To-Do List"
 msgstr ""
 
 #: toLabel
@@ -10345,6 +11938,24 @@ msgstr ""
 
 #: trash
 msgid "Trash"
+msgstr ""
+
+#: trustedAddrs
+msgid "Trusted Addresses"
+msgstr ""
+
+#: trustedAddrsDomains
+msgid "Trusted Addresses / Domains"
+msgstr ""
+
+#: trustedAddrHeaderMsg
+msgid ""
+"Mail from these addresses or domains will be considered trusted and images "
+"will automatically be displayed."
+msgstr ""
+
+#: turnOffSuggestions
+msgid "Turn off Suggestions"
 msgstr ""
 
 #: type
@@ -10384,6 +11995,10 @@ msgstr ""
 msgid "under"
 msgstr ""
 
+#: undo
+msgid "Undo"
+msgstr ""
+
 #: unflagged
 msgid "Unflagged"
 msgstr ""
@@ -10412,6 +12027,10 @@ msgstr ""
 msgid "Unknown user \"{0}\". Must specify a valid Zimbra user."
 msgstr ""
 
+#: unlockSufficientPermission
+msgid "You do not have sufficient permissions to unlock this file."
+msgstr ""
+
 #: unread
 msgid "Unread"
 msgstr ""
@@ -10422,7 +12041,7 @@ msgstr ""
 
 #: unsupportedBrowserTip
 msgid ""
-"To learn more about Zimbra and the Zimbra Collaboration Suite, visit <a "
+"To learn more about Zimbra and the Zimbra Web Client, visit <a "
 "href='http://www.zimbra.com'>www.zimbra.com</a> or send an email to <a "
 "href='mailto:info@zimbra.com'>info@zimbra.com</a>.\";"
 msgstr ""
@@ -10435,8 +12054,20 @@ msgstr ""
 msgid "upcoming"
 msgstr ""
 
+#: updatedInviteNotSent
+msgid "This meeting has been updated since last invitation."
+msgstr ""
+
 #: upLabel
 msgid "Up"
+msgstr ""
+
+#: uploadCreated
+msgid "<strong>{0}</strong> created"
+msgstr ""
+
+#: uploadExists
+msgid "<strong>{0}</strong> exists, created new version {1}"
 msgstr ""
 
 #: uploadConflict
@@ -10447,6 +12078,12 @@ msgstr ""
 msgid ""
 "The following file(s) already exist on the server.<br>Which would you like "
 "to keep?"
+msgstr ""
+
+#: uploadConflictShield
+msgid ""
+"One or more files already exists with the same name. Do you want to create a "
+"new version for each conflicting file?"
 msgstr ""
 
 #: uploadDocs
@@ -10487,7 +12124,7 @@ msgid "Upload error: Access is denied<br>Unable to upload the file."
 msgstr ""
 
 #: uploadFileToBriefcase
-msgid "Upload New File to Briefcase"
+msgid "Upload New Files to Briefcase"
 msgstr ""
 
 #: uploadNewFile
@@ -10503,12 +12140,22 @@ msgstr ""
 msgid "URL:"
 msgstr ""
 
+#: useAddressBubbles
+msgid ""
+"Show email addresses in bubbles (takes effect the next time you view or "
+"compose a message)"
+msgstr ""
+
 #: usePrefix
 msgid "Use prefix"
 msgstr ""
 
 #: useQuickAdd
 msgid "Use the QuickAdd dialog when creating new appointments"
+msgstr ""
+
+#: user
+msgid "User"
 msgstr ""
 
 #: userLabel
@@ -10545,6 +12192,17 @@ msgstr ""
 msgid "Value:"
 msgstr ""
 
+#: vcardContactSearch
+msgid ""
+"<br>Search your address book and select the contact to attach (as vCard) to "
+"this signature.<br><br>"
+msgstr ""
+
+#: version
+msgctxt "version"
+msgid "Version"
+msgstr ""
+
 #: versionChangeRestart
 msgid ""
 "The server software has been updated. It is recommended that you reload your "
@@ -10555,6 +12213,19 @@ msgstr ""
 
 #: versionLabel
 msgid "Version:"
+msgstr ""
+
+#: versionHeaderLabel
+msgctxt "versionHeaderLabel"
+msgid "Version"
+msgstr ""
+
+#: versionHistory
+msgid "Version History"
+msgstr ""
+
+#: versionHistoryFileLabel
+msgid "Version History ( {0} )"
 msgstr ""
 
 #: video
@@ -10577,6 +12248,16 @@ msgstr ""
 
 #: viewEntireMessage
 msgid "View entire message."
+msgstr ""
+
+#: viewFB
+msgctxt "viewFB"
+msgid "Free/Busy view"
+msgstr ""
+
+#: viewFBTooltip
+msgctxt "viewFBTooltip"
+msgid "Free/Busy view"
 msgstr ""
 
 #: viewFileAsHtml
@@ -10610,6 +12291,11 @@ msgstr ""
 
 #: viewCalListTooltip
 msgid "Show calendar as a list"
+msgstr ""
+
+#: viewCalListDateRange
+msgctxt "viewCalListDateRange"
+msgid "{0} {1} - {2} {3}"
 msgstr ""
 
 #: viewContacts
@@ -10851,6 +12537,13 @@ msgctxt "work"
 msgid "Work"
 msgstr ""
 
+#: workingDaysRestart
+msgid ""
+"Would you like to reload the application now to show the new work week/days? "
+"<br>(Otherwise, the new working week/days will appear the next time you log "
+"in.)"
+msgstr ""
+
 #: workWeek
 msgctxt "workWeek"
 msgid "Work Week"
@@ -10902,6 +12595,7 @@ msgid "Zimbra Presentation"
 msgstr ""
 
 #: zimbraSpreadsheet
+msgctxt "zimbraSpreadsheet"
 msgid "Zimbra Spreadsheet"
 msgstr ""
 
@@ -10914,7 +12608,7 @@ msgid "Zimbra:"
 msgstr ""
 
 #: zimbraLoginTitle
-msgid "Zimbra Collaboration Suite Log In"
+msgid "Zimbra Web Client Log In"
 msgstr ""
 
 #: zimbraLoginMetaDesc
@@ -10992,6 +12686,18 @@ msgstr ""
 
 #: zimletNotLoaded
 msgid "The zimlet \"{0}\" is not yet loaded."
+msgstr ""
+
+#: zimletSyncData
+msgid "Sync zimlet data"
+msgstr ""
+
+#: zimletPrefDontSync
+msgid "Do not sync"
+msgstr ""
+
+#: zimletPrefSyncWith
+msgid "Sync with"
 msgstr ""
 
 #: zipFile
@@ -11889,7 +13595,20 @@ msgid "Company"
 msgstr ""
 
 #: AB_FIELD_department
+msgctxt "AB_FIELD_department"
 msgid "Department"
+msgstr ""
+
+#: AB_FIELD_phoneticFirstName
+msgid "Phonetic first"
+msgstr ""
+
+#: AB_FIELD_phoneticLastName
+msgid "Phonetic last"
+msgstr ""
+
+#: AB_FIELD_phoneticCompany
+msgid "Phonetic company"
 msgstr ""
 
 #. # email addresses
@@ -11936,6 +13655,11 @@ msgid "Attachment"
 msgstr ""
 
 #. # work address
+#: AB_FIELD_work
+msgctxt "AB_FIELD_work"
+msgid "Work"
+msgstr ""
+
 #: AB_FIELD_workStreet
 msgid "Work Street"
 msgstr ""
@@ -12000,6 +13724,11 @@ msgid "Callback"
 msgstr ""
 
 #. # home address
+#: AB_FIELD_home
+msgctxt "AB_FIELD_home"
+msgid "Home"
+msgstr ""
+
 #: AB_FIELD_homeStreet
 msgid "Home Street"
 msgstr ""
@@ -12058,6 +13787,11 @@ msgid "Car"
 msgstr ""
 
 #. # other address
+#: AB_FIELD_other
+msgctxt "AB_FIELD_other"
+msgid "Other"
+msgstr ""
+
 #: AB_FIELD_otherStreet
 msgid "Other Street"
 msgstr ""
@@ -12158,7 +13892,11 @@ msgid "Desktop"
 msgstr ""
 
 #: splashScreenAppName
-msgid "Collaboration Suite"
+msgid "Web Client"
+msgstr ""
+
+#: splashScreenMobileAppName
+msgid "Mobile Web Client"
 msgstr ""
 
 #: splashScreenCompanyURL
@@ -12167,15 +13905,22 @@ msgstr ""
 
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-2012 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
-"trademarks of Zimbra, Inc."
+"Copyright © 2005-2013 Telligent Systems, Inc. All rights reserved. "
+"\"Telligent\" and \"Zimbra\" are registered trademarks or trademarks of "
+"Telligent Systems, Inc."
+msgstr ""
+
+#: splashScreenCopyrightZD
+msgid ""
+"Copyright © 2008-2013 Telligent Systems, Inc. All rights reserved. "
+"\"Telligent\" and \"Zimbra\" are registered trademarks or trademarks of "
+"Telligent Systems, Inc."
 msgstr ""
 
 #: splashScreenSwitch
 msgid ""
-"If you are using a slow connection or an older computer, you may want to <a "
-"href='javascript:switchToStandardClient()'>switch to the Standard (HTML) "
-"version</a>."
+"<a href='javascript:switchToStandardClient()'>Switch to the Standard (HTML) "
+"version</a>"
 msgstr ""
 
 #: splashScreenVersion
@@ -12205,7 +13950,7 @@ msgstr ""
 
 #. # {2} is marker to indicate new line for input, replaced with "" on output
 #: recurWeeklyEveryNumWeeksDate
-msgid "Every {0,number,integer} weeks on {2}{1,list,date,EEEE}"
+msgid "Every {0,number,integer} week(s) on {2}{1,list,date,EEEE}"
 msgstr ""
 
 #: recurMonthlyEveryNumMonthsDate
@@ -12420,6 +14165,7 @@ msgid "Insert item ID"
 msgstr ""
 
 #: wikletInclude
+msgctxt "wikletInclude"
 msgid "Include"
 msgstr ""
 
@@ -12675,7 +14421,8 @@ msgstr ""
 
 #. # 'from' column in conv list view
 #: COLUMN_WIDTH_FROM_CLV
-msgid "145"
+msgctxt "COLUMN_WIDTH_FROM_CLV"
+msgid "160"
 msgstr ""
 
 #. # 'from' column in msg list view
@@ -12731,6 +14478,7 @@ msgid "80"
 msgstr ""
 
 #: COLUMN_WIDTH_FOLDER_NA
+msgctxt "COLUMN_WIDTH_FOLDER_NA"
 msgid "160"
 msgstr ""
 
@@ -12755,18 +14503,17 @@ msgstr ""
 
 #. # task list view
 #: COLUMN_WIDTH_DATE_DUE_TLV
-msgctxt "COLUMN_WIDTH_DATE_DUE_TLV"
 msgid "110"
 msgstr ""
 
 #: COLUMN_WIDTH_PCOMPLETE_TLV
 msgctxt "COLUMN_WIDTH_PCOMPLETE_TLV"
-msgid "75"
+msgid "80"
 msgstr ""
 
 #: COLUMN_WIDTH_STATUS_TLV
 msgctxt "COLUMN_WIDTH_STATUS_TLV"
-msgid "110"
+msgid "105"
 msgstr ""
 
 #. # contact picker, group list
@@ -12777,6 +14524,11 @@ msgstr ""
 
 #: COLUMN_WIDTH_NAME_CN
 msgctxt "COLUMN_WIDTH_NAME_CN"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_DEPARTMENT_CN
+msgctxt "COLUMN_WIDTH_DEPARTMENT_CN"
 msgid "100"
 msgstr ""
 
@@ -12799,7 +14551,7 @@ msgstr ""
 
 #: COLUMN_WIDTH_FOLDER_DLV
 msgctxt "COLUMN_WIDTH_FOLDER_DLV"
-msgid "100"
+msgid "150"
 msgstr ""
 
 #: COLUMN_WIDTH_OWNER_DLV
@@ -12814,7 +14566,12 @@ msgstr ""
 
 #: COLUMN_WIDTH_TYPE_DLV
 msgctxt "COLUMN_WIDTH_TYPE_DLV"
-msgid "80"
+msgid "100"
+msgstr ""
+
+#: COLUMN_WIDTH_VERSION_DLV
+msgctxt "COLUMN_WIDTH_VERSION_DLV"
+msgid "45"
 msgstr ""
 
 #. # briefcase file list view (others same as above)
@@ -12927,6 +14684,10 @@ msgstr ""
 
 #: yahoo-csv
 msgid "Yahoo! Contacts"
+msgstr ""
+
+#: windows-live-mail-csv
+msgid "Windows Live Contacts"
 msgstr ""
 
 #: zimbra-csv
@@ -13160,11 +14921,11 @@ msgid "{0} {1} copied to {2}"
 msgstr ""
 
 #: actionMarkAsJunk
-msgid "{0} {1} marked as junk"
+msgid "{0} {1} marked as spam"
 msgstr ""
 
 #: actionMarkAsNotJunk
-msgid "{0} {1} marked as not junk"
+msgid "{0} {1} marked as not spam"
 msgstr ""
 
 #: actionTag
@@ -13193,4 +14954,22 @@ msgstr ""
 
 #: actionMarkUnread
 msgid "{0} {1} marked unread"
+msgstr ""
+
+#: actionUndoMove
+msgctxt "actionUndoMove"
+msgid "{0} {3} {0,choice,1#move|2#moves} undone"
+msgstr ""
+
+#: actionUndoTrash
+msgctxt "actionUndoTrash"
+msgid "{0} {3} {0,choice,1#move|2#moves} undone"
+msgstr ""
+
+#: actionUndoMarkAsJunk
+msgid "{0} spam {0,choice,1#marking|2#markings} undone"
+msgstr ""
+
+#: actionUndoMarkAsNotJunk
+msgid "{0} spam {0,choice,1#marking|2#markings} redone"
 msgstr ""

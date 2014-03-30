@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZmKeys.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:45+0700\n"
-"PO-Revision-Date: 2014-03-17 22:51+0700\n"
+"POT-Creation-Date: 2014-03-16 21:18+0700\n"
+"PO-Revision-Date: 2014-03-17 22:50+0700\n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language: vi_VN\n"
@@ -49,6 +49,7 @@ msgstr ""
 #. #    notebook				the wiki application
 #. #    voicemail				a list of voicemail messages
 #. #    call					a list of phone calls
+#. #    address				an address bubble
 #. #
 #. # Actions
 #. # -------
@@ -174,10 +175,12 @@ msgid "10220"
 msgstr "10220"
 
 #: global.Delete.display
+msgctxt "global.Delete.display"
 msgid "Del; Backspace"
 msgstr "Del; Backspace"
 
 #: global.Delete.keycode
+msgctxt "global.Delete.keycode"
 msgid "8; 46"
 msgstr "8; 46"
 
@@ -1103,14 +1106,17 @@ msgid "20180"
 msgstr "20180"
 
 #: mail.ReadingPaneAtBottom.display
+msgctxt "mail.ReadingPaneAtBottom.display"
 msgid "M,P,B"
 msgstr "M,P,B"
 
 #: mail.ReadingPaneAtBottom.keycode
+msgctxt "mail.ReadingPaneAtBottom.keycode"
 msgid "77,80,66"
 msgstr "77,80,66"
 
 #: mail.ReadingPaneAtBottom.description
+msgctxt "mail.ReadingPaneAtBottom.description"
 msgid "Reading pane at bottom"
 msgstr "Khung đọc bên dưới"
 
@@ -1119,14 +1125,17 @@ msgid "20220"
 msgstr "20220"
 
 #: mail.ReadingPaneOff.display
+msgctxt "mail.ReadingPaneOff.display"
 msgid "M,P,O"
 msgstr "M,P,O"
 
 #: mail.ReadingPaneOff.keycode
+msgctxt "mail.ReadingPaneOff.keycode"
 msgid "77,80,79"
 msgstr "77,80,79"
 
 #: mail.ReadingPaneOff.description
+msgctxt "mail.ReadingPaneOff.description"
 msgid "Turn off reading pane"
 msgstr "Tắt khung đọc"
 
@@ -1135,14 +1144,17 @@ msgid "20226"
 msgstr "20226"
 
 #: mail.ReadingPaneOnRight.display
+msgctxt "mail.ReadingPaneOnRight.display"
 msgid "M,P,R"
 msgstr "M,P,R"
 
 #: mail.ReadingPaneOnRight.keycode
+msgctxt "mail.ReadingPaneOnRight.keycode"
 msgid "77,80,82"
 msgstr "77,80,82"
 
 #: mail.ReadingPaneOnRight.description
+msgctxt "mail.ReadingPaneOnRight.description"
 msgid "Reading pane on right"
 msgstr "Khung đọc ở bên phải"
 
@@ -1245,20 +1257,36 @@ msgid "20230"
 msgstr "20230"
 
 #: mail.Spam.display
-msgid "M,J"
-msgstr "M,J"
+msgid "M,S"
+msgstr "M,S"
 
 #: mail.Spam.keycode
-msgid "77,74"
-msgstr "77,74"
+msgid "77,83"
+msgstr "77,83"
 
 #: mail.Spam.description
-msgid "Mark as spam"
-msgstr "Đánh dấu là thư rác"
+msgid "Report (mark as) spam"
+msgstr "Báo cáo (đánh dấu là) thư rác"
 
 #: mail.Spam.sort
 msgid "20100"
 msgstr "20100"
+
+#: mail.Undo.display
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: mail.Undo.keycode
+msgid "Ctrl+90"
+msgstr "Ctrl+90"
+
+#: mail.Undo.description
+msgid "Undo"
+msgstr "Hoàn tác"
+
+#: mail.Undo.sort
+msgid "20300"
+msgstr "20300"
 
 #: mail.ViewByConversation.display
 msgid "V,C"
@@ -1308,6 +1336,24 @@ msgstr "Khung hiển thị danh sách cuộc đàm thoại"
 msgid "25000"
 msgstr "25000"
 
+#: conversationList.Collapse.display
+msgctxt "conversationList.Collapse.display"
+msgid "ArrowLeft"
+msgstr "ArrowLeft"
+
+#: conversationList.Collapse.keycode
+msgctxt "conversationList.Collapse.keycode"
+msgid "37"
+msgstr "37"
+
+#: conversationList.Collapse.description
+msgid "Collapse conversation"
+msgstr "Thu gọn cuộc đàm thoại"
+
+#: conversationList.Collapse.sort
+msgid "25020"
+msgstr "25020"
+
 #: conversationList.CollapseAll.display
 msgid "Ctrl+O"
 msgstr "Ctrl+O"
@@ -1321,22 +1367,22 @@ msgid "Collapse all conversations"
 msgstr "Thu gọn tất cả cuộc đàm thoại"
 
 #: conversationList.CollapseAll.sort
-msgid "25030"
-msgstr "25030"
+msgid "25036"
+msgstr "25036"
 
 #: conversationList.Expand.display
 msgctxt "conversationList.Expand.display"
-msgid "O"
-msgstr "O"
+msgid "ArrowRight"
+msgstr "ArrowRight"
 
 #: conversationList.Expand.keycode
 msgctxt "conversationList.Expand.keycode"
-msgid "79"
-msgstr "79"
+msgid "39"
+msgstr "39"
 
 #: conversationList.Expand.description
-msgid "Expand/collapse conversation"
-msgstr "Mở rộng/thu gọn cuộc đàm thoại"
+msgid "Expand conversation"
+msgstr "Mở rộng cuộc đàm thoại"
 
 #: conversationList.Expand.sort
 msgid "25010"
@@ -1355,8 +1401,8 @@ msgid "Expand all conversations"
 msgstr "Mở rộng tất cả cuộc đàm thoại"
 
 #: conversationList.ExpandAll.sort
-msgid "25020"
-msgstr "25020"
+msgid "25032"
+msgstr "25032"
 
 #: conversationList.FirstUnreadMsg.display
 msgid "Shift+Ctrl+["
@@ -1421,6 +1467,24 @@ msgstr "Chọn thông điệp chưa đọc trước"
 #: conversationList.PreviousUnreadMsg.sort
 msgid "25040"
 msgstr "25040"
+
+#: conversationList.Toggle.display
+msgctxt "conversationList.Toggle.display"
+msgid "O"
+msgstr "O"
+
+#: conversationList.Toggle.keycode
+msgctxt "conversationList.Toggle.keycode"
+msgid "79"
+msgstr "79"
+
+#: conversationList.Toggle.description
+msgid "Expand/collapse conversation"
+msgstr "Mở rộng/thu gọn cuộc đàm thoại"
+
+#: conversationList.Toggle.sort
+msgid "25030"
+msgstr "25030"
 
 #. # Map: compose
 #: compose.description
@@ -1819,6 +1883,54 @@ msgstr "Sửa cuộc hẹn"
 msgid "70010"
 msgstr "70010"
 
+#: calendar.Copy.display
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: calendar.Copy.keycode
+msgid "Ctrl+67"
+msgstr "Ctrl+67"
+
+#: calendar.Copy.description
+msgid "Copy appointment"
+msgstr "Sao chép cuộc hẹn"
+
+#: calendar.Copy.sort
+msgid "70110"
+msgstr "70110"
+
+#: calendar.FBView.display
+msgid "F; 2"
+msgstr "F; 2"
+
+#: calendar.FBView.keycode
+msgid "70; 50"
+msgstr "70; 50"
+
+#: calendar.FBView.description
+msgid "Free/Busy view"
+msgstr "Khung hiển thị Bận/Rỗi"
+
+#: calendar.FBView.sort
+msgid "70096"
+msgstr "70096"
+
+#: calendar.Paste.display
+msgid "Ctrl+V"
+msgstr "Ctrl+V"
+
+#: calendar.Paste.keycode
+msgid "Ctrl+86"
+msgstr "Ctrl+86"
+
+#: calendar.Paste.description
+msgid "Paste appointment"
+msgstr "Dán cuộc hẹn"
+
+#: calendar.Paste.sort
+msgid "70120"
+msgstr "70120"
+
 #: calendar.CalListView.display
 msgid "L; 9"
 msgstr "L; 9"
@@ -2150,73 +2262,6 @@ msgstr "Làm mới"
 msgid "100020"
 msgstr "100020"
 
-#. # Map: editPage
-#: editPage.description
-msgid "Edit Notebook Page"
-msgstr "Sửa trang sổ tay"
-
-#: editPage.sort
-msgid "100050"
-msgstr "100050"
-
-#: editPage.Cancel.display
-msgctxt "editPage.Cancel.display"
-msgid "Esc"
-msgstr "Esc"
-
-#: editPage.Cancel.keycode
-msgctxt "editPage.Cancel.keycode"
-msgid "27"
-msgstr "27"
-
-#: editPage.Cancel.description
-msgctxt "editPage.Cancel.description"
-msgid "Cancel"
-msgstr "Hủy bỏ"
-
-#: editPage.Cancel.sort
-msgid "100060"
-msgstr "100060"
-
-#: editPage.Save.display
-msgctxt "editPage.Save.display"
-msgid "Ctrl+S"
-msgstr "Ctrl+S"
-
-#: editPage.Save.keycode
-msgctxt "editPage.Save.keycode"
-msgid "Ctrl+83"
-msgstr "Ctrl+83"
-
-#: editPage.Save.description
-msgctxt "editPage.Save.description"
-msgid "Save"
-msgstr "Lưu"
-
-#: editPage.Save.sort
-msgid "100070"
-msgstr "100070"
-
-#: editPage.Shortcuts.display
-msgctxt "editPage.Shortcuts.display"
-msgid "Ctrl+Q"
-msgstr "Ctrl+Q"
-
-#: editPage.Shortcuts.keycode
-msgctxt "editPage.Shortcuts.keycode"
-msgid "Ctrl+81"
-msgstr "Ctrl+81"
-
-#: editPage.Shortcuts.description
-msgctxt "editPage.Shortcuts.description"
-msgid "Show shortcuts"
-msgstr "Hiển thị phím tắt"
-
-#: editPage.Shortcuts.sort
-msgctxt "editPage.Shortcuts.sort"
-msgid "10270"
-msgstr "10270"
-
 #. # Map: tasks
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: tasks.INHERIT
@@ -2267,6 +2312,63 @@ msgstr "Đánh dấu chưa hoàn thành"
 msgid "105020"
 msgstr "105020"
 
+#: tasks.ReadingPaneAtBottom.display
+msgctxt "tasks.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr "M,P,B"
+
+#: tasks.ReadingPaneAtBottom.keycode
+msgctxt "tasks.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr "77,80,66"
+
+#: tasks.ReadingPaneAtBottom.description
+msgctxt "tasks.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr "Khung đọc bên dưới"
+
+#: tasks.ReadingPaneAtBottom.sort
+msgid "105030"
+msgstr "105030"
+
+#: tasks.ReadingPaneOff.display
+msgctxt "tasks.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr "M,P,O"
+
+#: tasks.ReadingPaneOff.keycode
+msgctxt "tasks.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr "77,80,79"
+
+#: tasks.ReadingPaneOff.description
+msgctxt "tasks.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr "Tắt khung đọc"
+
+#: tasks.ReadingPaneOff.sort
+msgid "105036"
+msgstr "105036"
+
+#: tasks.ReadingPaneOnRight.display
+msgctxt "tasks.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr "M,P,R"
+
+#: tasks.ReadingPaneOnRight.keycode
+msgctxt "tasks.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr "77,80,82"
+
+#: tasks.ReadingPaneOnRight.description
+msgctxt "tasks.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr "Khung đọc ở bên phải"
+
+#: tasks.ReadingPaneOnRight.sort
+msgid "105033"
+msgstr "105033"
+
 #. # Map: editTask
 #: editTask.description
 msgid "Edit Task"
@@ -2313,6 +2415,79 @@ msgstr "Lưu"
 #: editTask.Save.sort
 msgid "106010"
 msgstr "106010"
+
+#. # Map: briefcase
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: briefcase.INHERIT
+msgctxt "briefcase.INHERIT"
+msgid "global"
+msgstr "chung"
+
+#. #L10N_IGNORE_BLOCK_END
+#: briefcase.description
+msgid "Briefcase"
+msgstr "Cặp tài liệu"
+
+#: briefcase.sort
+msgid "107000"
+msgstr "107000"
+
+#: briefcase.ReadingPaneAtBottom.display
+msgctxt "briefcase.ReadingPaneAtBottom.display"
+msgid "M,P,B"
+msgstr "M,P,B"
+
+#: briefcase.ReadingPaneAtBottom.keycode
+msgctxt "briefcase.ReadingPaneAtBottom.keycode"
+msgid "77,80,66"
+msgstr "77,80,66"
+
+#: briefcase.ReadingPaneAtBottom.description
+msgctxt "briefcase.ReadingPaneAtBottom.description"
+msgid "Reading pane at bottom"
+msgstr "Khung đọc bên dưới"
+
+#: briefcase.ReadingPaneAtBottom.sort
+msgid "107010"
+msgstr "107010"
+
+#: briefcase.ReadingPaneOff.display
+msgctxt "briefcase.ReadingPaneOff.display"
+msgid "M,P,O"
+msgstr "M,P,O"
+
+#: briefcase.ReadingPaneOff.keycode
+msgctxt "briefcase.ReadingPaneOff.keycode"
+msgid "77,80,79"
+msgstr "77,80,79"
+
+#: briefcase.ReadingPaneOff.description
+msgctxt "briefcase.ReadingPaneOff.description"
+msgid "Turn off reading pane"
+msgstr "Tắt khung đọc"
+
+#: briefcase.ReadingPaneOff.sort
+msgid "107016"
+msgstr "107016"
+
+#: briefcase.ReadingPaneOnRight.display
+msgctxt "briefcase.ReadingPaneOnRight.display"
+msgid "M,P,R"
+msgstr "M,P,R"
+
+#: briefcase.ReadingPaneOnRight.keycode
+msgctxt "briefcase.ReadingPaneOnRight.keycode"
+msgid "77,80,82"
+msgstr "77,80,82"
+
+#: briefcase.ReadingPaneOnRight.description
+msgctxt "briefcase.ReadingPaneOnRight.description"
+msgid "Reading pane on right"
+msgstr "Khung đọc ở bên phải"
+
+#: briefcase.ReadingPaneOnRight.sort
+msgid "107013"
+msgstr "107013"
 
 #. # Map: voicemail
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -2527,3 +2702,72 @@ msgstr "In"
 #: call.Print.sort
 msgid "46010"
 msgstr "46010"
+
+#. # Map: address
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: address.INHERIT
+msgid "compose"
+msgstr "soạn thư"
+
+#. #L10N_IGNORE_BLOCK_END
+#: address.description
+msgid "Address Bubble"
+msgstr "Địa chỉ bong bóng"
+
+#: address.sort
+msgid "30100"
+msgstr "30100"
+
+#: address.Delete.display
+msgctxt "address.Delete.display"
+msgid "Del; Backspace"
+msgstr "Del; Backspace"
+
+#: address.Delete.keycode
+msgctxt "address.Delete.keycode"
+msgid "8; 46"
+msgstr "8; 46"
+
+#: address.Delete.description
+msgid "Delete selected addresses"
+msgstr "Xóa địa chỉ đã chọn"
+
+#: address.Delete.sort
+msgid "30110"
+msgstr "30110"
+
+#: address.SelectNext.display
+msgctxt "address.SelectNext.display"
+msgid "ArrowRight"
+msgstr "ArrowRight"
+
+#: address.SelectNext.keycode
+msgctxt "address.SelectNext.keycode"
+msgid "39"
+msgstr "39"
+
+#: address.SelectNext.description
+msgid "Select next address"
+msgstr "Chọn địa chỉ kế tiếp"
+
+#: address.SelectNext.sort
+msgid "30120"
+msgstr "ArrowLeft"
+
+#: address.SelectPrevious.display
+msgctxt "address.SelectPrevious.display"
+msgid "ArrowLeft"
+msgstr "ArrowLeft"
+
+#: address.SelectPrevious.keycode
+msgctxt "address.SelectPrevious.keycode"
+msgid "37"
+msgstr "37"
+
+#: address.SelectPrevious.description
+msgid "Select previous address"
+msgstr "Chọn địa chỉ ở trước"
+
+#: address.SelectPrevious.sort
+msgid "30130"
+msgstr "30130"

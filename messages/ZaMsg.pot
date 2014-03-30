@@ -1,10 +1,10 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Zimbra, Inc.
+#. # Copyright (C) 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.3 ("License"); you may not use this file except in
+#. # Version 1.4 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. # 
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-03-16 21:19+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -252,6 +252,16 @@ msgstr ""
 msgid "Active Directory"
 msgstr ""
 
+#. # COS:
+#: SearchFilter_COSES
+msgctxt "SearchFilter_COSES"
+msgid "Class of Service"
+msgstr ""
+
+#: searchForCOSES
+msgid "Search for Class of Service"
+msgstr ""
+
 #. # tab titles
 #: Domain_Tab_GAL
 msgid "GAL"
@@ -269,6 +279,34 @@ msgstr ""
 #: Domain_Tab_Notebook
 msgctxt "Domain_Tab_Notebook"
 msgid "Documents"
+msgstr ""
+
+#: Domain_Tab_Advanced
+msgctxt "Domain_Tab_Advanced"
+msgid "Advanced"
+msgstr ""
+
+#: Domain_AD_EmailValidate
+msgid "Account Email Validation Setting"
+msgstr ""
+
+#: NAD_AddRegex
+msgid "Add Regex"
+msgstr ""
+
+#: NAD_RemoveRegex
+msgctxt "NAD_RemoveRegex"
+msgid "Remove"
+msgstr ""
+
+#: LBL_EmailValidate
+msgid "Regular expresssion for invalid email address:"
+msgstr ""
+
+#: ERROR_MSG_EmailValidReg
+msgid ""
+"Invalid regular expression: {0}, which should be email format (e.g '@\\d+', "
+"'postmaster@test.com'). "
 msgstr ""
 
 #: Alias_Find
@@ -291,6 +329,10 @@ msgstr ""
 msgid "Enable StartTLS"
 msgstr ""
 
+#: Domain_llAuthLdapStartTlsEnabled
+msgid "Enable StartTLS:"
+msgstr ""
+
 #: Domain_WarningStartTLSIgnored
 msgid ""
 "Warning! One of the LDAP URLs uses SSL (ldaps://). This will make the server "
@@ -309,6 +351,10 @@ msgstr ""
 
 #: Domain_zimbraPublicServiceHostname
 msgid "Public service host name:"
+msgstr ""
+
+#: Domain_zimbraBasicAuthRealm
+msgid "Company identifier in public share prompts:"
 msgstr ""
 
 #: Domain_Documents_Config_Complete
@@ -401,6 +447,14 @@ msgctxt "Domain_AuthLdapFilter"
 msgid "LDAP filter:"
 msgstr ""
 
+#: Domain_zimbraAuthFallbackToLocal
+msgid "If fail, fall back to local password management"
+msgstr ""
+
+#: Domain_zimbraPasswordChangeListener
+msgid "External password change listener:"
+msgstr ""
+
 #: Domain_CreateNotebook
 msgid "Create domain level document space:"
 msgstr ""
@@ -464,7 +518,11 @@ msgid ""
 "Virtual hosts allow the system to establish a default domain for a user "
 "login.  Any user that logs in while using a URL with one of the hostnames "
 "below will be assumed to be in this domain, {0} . Please note, that removal "
-"of a virtual host takes effect only after mailbox server is restarted.  "
+"of a virtual host takes effect only after mailbox server is restarted. "
+msgstr ""
+
+#: Domain_BC_ShareConf
+msgid "Briefcase Share Configuration"
 msgstr ""
 
 #: Notebook_Access_Control
@@ -1056,6 +1114,10 @@ msgstr ""
 msgid "<nobr>Deploying to server {0}... <b>{1}</b></nobr>"
 msgstr ""
 
+#: ZMLT_DeployProgresFail
+msgid "<b>Failed</b> to deploy to server {0}. Error: <b>{1}</b>"
+msgstr ""
+
 #: ZMLT_StatusPending
 msgid "pending"
 msgstr ""
@@ -1167,6 +1229,10 @@ msgstr ""
 msgid "Servers"
 msgstr ""
 
+#: OVP_serverSettings
+msgid "Server settings"
+msgstr ""
+
 #: OVP_status
 msgctxt "OVP_status"
 msgid "Server Status"
@@ -1226,6 +1292,10 @@ msgstr ""
 msgid "External LDAP account for Authentication:"
 msgstr ""
 
+#: tt_AuthLdapExternalDn
+msgid "Example: uid=test1,ou=people,dc=external,dc=com"
+msgstr ""
+
 #: TBB_New
 msgid "New"
 msgstr ""
@@ -1275,6 +1345,36 @@ msgstr ""
 
 #: TBB_DownloadConfig
 msgid "Download"
+msgstr ""
+
+#: TBB_AddDomainAlias
+msgid "Add a Domain Alias"
+msgstr ""
+
+#: TBB_AddDomainAlias_tt
+msgid ""
+"Add a domain alias to let users share the same mailbox with multiple email "
+"addresses"
+msgstr ""
+
+#: LBL_domainAlias
+msgid "Domain Alias:"
+msgstr ""
+
+#: LBL_targetDomain
+msgid "Target Domain:"
+msgstr ""
+
+#: Title_Create_domain_alias
+msgid "Create a domain alias"
+msgstr ""
+
+#: Title_Edit_domain_alias
+msgid "Edit a domain alias"
+msgstr ""
+
+#: DESC_targetDomain
+msgid "domain alias of {0}"
 msgstr ""
 
 #: SERTBB_DownloadConfig_tt
@@ -1344,7 +1444,7 @@ msgid "View Mail"
 msgstr ""
 
 #: ACTBB_ExpireSessions
-msgid "Expire Sessions"
+msgid "Invalidate Sessions"
 msgstr ""
 
 #: ACTBB_ExpireSessions_tt
@@ -1357,6 +1457,10 @@ msgid ""
 "immediately. If you believe that this account may have been compromised, you "
 "should consider changing the account's password. Would you like to "
 "invalidate all sessions of this account now?"
+msgstr ""
+
+#: EX_EXPIRE_OWN_SESSIONS
+msgid "Invalidate the session of your own"
 msgstr ""
 
 #: TBB_Refresh_tt
@@ -1542,6 +1646,10 @@ msgstr ""
 
 #: NAD_Exchange_Auth_Schema
 msgid "Microsoft Exchange Authorization Scheme:"
+msgstr ""
+
+#: NAD_Exchange_Server_Type
+msgid "Microsoft Exchange Server Type:"
 msgstr ""
 
 #: NAD_Exchange_Auth_User
@@ -1946,6 +2054,12 @@ msgid ""
 "domains that are configured to use external authentication."
 msgstr ""
 
+#: Alert_ExternalPassword
+msgid ""
+"All password settings are disabled because the system is configured to use "
+"external authentication."
+msgstr ""
+
 #: Alert_MailRetention
 msgid ""
 "<b>Note:</b> These settings will not have effect if "
@@ -1983,6 +2097,12 @@ msgid ""
 "<b>Warning:</b> Flushing Zimlet/Skin cache will force mailbox servers to "
 "regenerate aggregated JavaScript and CSS resources. This may temporarily "
 "increase response time of the webmail application.  "
+msgstr ""
+
+#: Alert_Flush_Theme_Cache
+msgid ""
+"<b>Note:</b> Change to theme setting requires to flush server theme cache. "
+"You can do this by \"Flush Cache\" button on the toolbar of server setting."
 msgstr ""
 
 #: HSM_ProcessStatus
@@ -2103,6 +2223,11 @@ msgstr ""
 #: DLV_Status_col
 msgctxt "DLV_Status_col"
 msgid "Status"
+msgstr ""
+
+#: DLV_Type_col
+msgctxt "DLV_Type_col"
+msgid "Type"
 msgstr ""
 
 #: SLV_Name_col
@@ -2467,7 +2592,7 @@ msgid "Spell Checker"
 msgstr ""
 
 #: NAD_Service_Imapproxy
-msgid "Imap and Pop proxy"
+msgid "Reverse proxy"
 msgstr ""
 
 #: NAD_Dialog_ShutdownEmailService
@@ -2637,11 +2762,13 @@ msgid "Relay MTA port:"
 msgstr ""
 
 #: NAD_MTA_MaxMsgSize
-msgid "Maximum message size (kb):"
+msgid "Maximum message size (KB):"
 msgstr ""
 
 #: NAD_DOC_MaxUploadSize
-msgid "Maximum size of an uploaded file for Documents or Briefcase (kb):"
+msgid ""
+"Maximum size of an uploaded file for Briefcase, Email messages, Calendar "
+"appointments and Tasks (KB):"
 msgstr ""
 
 #: NAD_MTA_Options
@@ -2658,16 +2785,25 @@ msgid "Protocol checks"
 msgstr ""
 
 #: NAD_MTA_reject_invalid_hostname
-msgid "Hostname in greeting violates RFC (reject_invalid_hostname)"
+msgid "Hostname in greeting violates RFC (reject_invalid_helo_hostname)"
 msgstr ""
 
 #: NAD_MTA_reject_non_fqdn_hostname
 msgid ""
-"Client must greet with a fully qualified hostname (reject_non_fqdn_hostname)"
+"Client must greet with a fully qualified hostname "
+"(reject_non_fqdn_helo_hostname)"
 msgstr ""
 
 #: NAD_MTA_reject_non_fqdn_sender
 msgid "Sender address must be fully qualified (reject_non_fqdn_sender)"
+msgstr ""
+
+#: NAD_MTA_PolicyServiceChecks
+msgid "Policy Service Checks"
+msgstr ""
+
+#: NAD_MTA_policy_service
+msgid "Policy Service:"
 msgstr ""
 
 #: NAD_MTA_DnsChecks
@@ -2679,11 +2815,11 @@ msgid "List of RBLs:"
 msgstr ""
 
 #: NAD_MTA_reject_unknown_client
-msgid "Client's IP address (reject_unknown_client)"
+msgid "Client's IP address (reject_unknown_client_hostname)"
 msgstr ""
 
 #: NAD_MTA_reject_unknown_hostname
-msgid "Hostname in greeting (reject_unknown_hostname)"
+msgid "Hostname in greeting (reject_unknown_helo_hostname)"
 msgstr ""
 
 #: NAD_MTA_reject_unknown_sender_domain
@@ -2691,7 +2827,47 @@ msgid "Sender's domain (reject_unknown_sender_domain)"
 msgstr ""
 
 #: NAD_add_x_orginate_IP
-msgid "Add X-Originating-IP to messages  "
+msgid "Add X-Originating-IP to messages"
+msgstr ""
+
+#: NAD_MTA_notice_related_statistics_tabs_enable
+msgid ""
+"Enabling the MTA service will also enable the MTA related statistics "
+"sections for this server.  You may need to refresh your browser for these "
+"changes to take effect."
+msgstr ""
+
+#: NAD_MTA_notice_related_statistics_tabs_disable
+msgid ""
+"Disabling the MTA service will also hide the MTA related statistics section "
+"for this server.  You may need to refresh your browser for these changes to "
+"take effect."
+msgstr ""
+
+#: Global_MTA_MilterServer
+msgid "Milter Server  "
+msgstr ""
+
+#: NAD_MTA_MilterBindPort
+msgid "Milter Server Bind Port:"
+msgstr ""
+
+#: NAD_MTA_MilterServerEnabled
+msgid "Enable Milter Server"
+msgstr ""
+
+#: NAD_MTA_MilterBindAddress
+msgid "Milter Server Bind Address:"
+msgstr ""
+
+#: NAD_MTA_AddBindAddress
+msgctxt "NAD_MTA_AddBindAddress"
+msgid "Add"
+msgstr ""
+
+#: NAD_MTA_RemoveBindAddress
+msgctxt "NAD_MTA_RemoveBindAddress"
+msgid "Remove"
 msgstr ""
 
 #: NAD_Enable_ASAV
@@ -2802,6 +2978,18 @@ msgstr ""
 msgid "Polling interval (time after which to check for new mail)"
 msgstr ""
 
+#: LBL_asNewMailArrives
+msgid "As New Mail Arrives"
+msgstr ""
+
+#: LBL_manual
+msgid "Manually"
+msgstr ""
+
+#: LBL_minute
+msgid "minutes"
+msgstr ""
+
 #: LBL_zimbraPrefMailPollingInterval
 msgid "Polling interval (time after which to check for new mail):"
 msgstr ""
@@ -2863,13 +3051,11 @@ msgid "Admin console auth token lifetime:"
 msgstr ""
 
 #: MSG_zimbraMailMessageLifetime
-msgctxt "MSG_zimbraMailMessageLifetime"
 msgid "E-mail message lifetime"
 msgstr ""
 
 #: LBL_zimbraMailMessageLifetime
-msgctxt "LBL_zimbraMailMessageLifetime"
-msgid "E-mail message lifetime"
+msgid "E-mail message lifetime:"
 msgstr ""
 
 #: MSG_zimbraMailIdleSessionTimeout
@@ -2996,7 +3182,26 @@ msgid "Email Retention Policy"
 msgstr ""
 
 #: NAD_InteropGrouper
-msgid "Free/Busy Interop    "
+msgctxt "NAD_InteropGrouper"
+msgid "Free/Busy Interop"
+msgstr ""
+
+#: NAD_MailTransport
+msgid "Mail Transport:"
+msgstr ""
+
+#: NAD_MailTransportGrouper
+msgid "Mail Transport"
+msgstr ""
+
+#: ERROR_MAILTRANSPORT_INVALID
+msgid "Invalid LMTP or SMTP transport definition."
+msgstr ""
+
+#: MSG_MailTransportMessage
+msgid ""
+"It should be \"protocol\":\"server\":\"port\".  e.g. "
+"smtp:smtp.zimbrasmtpserver.com:25 "
 msgstr ""
 
 #: NAD_AccountName
@@ -3017,8 +3222,16 @@ msgstr ""
 msgid "First name:"
 msgstr ""
 
+#: NAD_zimbraPhoneticFirstName
+msgid "Phonetic First Name:"
+msgstr ""
+
 #: NAD_LastName
 msgid "Last name:"
+msgstr ""
+
+#: NAD_zimbraPhoneticLastName
+msgid "Phonetic Last Name:"
 msgstr ""
 
 #: NAD_DisplayName
@@ -3267,6 +3480,16 @@ msgstr ""
 msgid "Enable mail signature"
 msgstr ""
 
+#: LBL_zimbraPrefMailToasterEnabled
+msgctxt "LBL_zimbraPrefMailToasterEnabled"
+msgid "Enable toaster notification for new mail"
+msgstr ""
+
+#: MSG_zimbraPrefMailToasterEnabled
+msgctxt "MSG_zimbraPrefMailToasterEnabled"
+msgid "Enable toaster notification for new mail"
+msgstr ""
+
 #: LBL_zimbraPrefSaveToSent
 msgid "Save to sent"
 msgstr ""
@@ -3317,12 +3540,12 @@ msgstr ""
 
 #: LBL_zimbraPrefCalendarToasterEnabled
 msgctxt "LBL_zimbraPrefCalendarToasterEnabled"
-msgid "Enable toaster notification for new mail"
+msgid "Enable toaster notification for new calendar events"
 msgstr ""
 
 #: MSG_zimbraPrefCalendarToasterEnabled
 msgctxt "MSG_zimbraPrefCalendarToasterEnabled"
-msgid "Enable toaster notification for new mail"
+msgid "Enable toaster notification for new calendar events"
 msgstr ""
 
 #: LBL_zimbraPrefCalendarShowPastDueReminders
@@ -3363,6 +3586,18 @@ msgstr ""
 
 #: NAD_company
 msgid "Company:"
+msgstr ""
+
+#: NAD_title
+msgid "Job Title:"
+msgstr ""
+
+#: NAD_facsimileTelephoneNumber
+msgid "Fax Number:"
+msgstr ""
+
+#: NAD_zimbraPhoneticCompany
+msgid "Phonetic Company:"
 msgstr ""
 
 #: NAD_city
@@ -3477,7 +3712,16 @@ msgid "Most results returned by GAL search"
 msgstr ""
 
 #: NAD_DomainAccountLimits
-msgid "{0} accounts may be added to domain {1}"
+msgid ""
+"<b>Warning:</b> You have reached the account limit for domain {0}. {1} "
+"accounts are over the limit."
+msgstr ""
+
+#: MSG_AccountTypeUnavailable
+msgid ""
+"<b>Warning:</b> You have reached the account limit for the following account "
+"types. Please increase the account limits. Or the default type {0} will be "
+"selected."
 msgstr ""
 
 #: NAD_zimbraScheduledTaskNumThreads
@@ -3515,7 +3759,7 @@ msgid "{0} at {1}"
 msgstr ""
 
 #: NAD_AdvStatsIntervalFormatMinutes
-msgid "interval: %d minutes"
+msgid "interval: {0} minutes"
 msgstr ""
 
 #: NAD_AdvStatsTipDateFormat
@@ -4137,10 +4381,6 @@ msgstr ""
 msgid "Calendar Features"
 msgstr ""
 
-#: NAD_zimbraBriefcasesFeature
-msgid "Briefcase Features"
-msgstr ""
-
 #: NAD_zimbraIMFeature
 msgid "IM Features"
 msgstr ""
@@ -4156,19 +4396,6 @@ msgstr ""
 
 #: LBL_zimbraFeatureBriefcasesEnabled
 msgid "Briefcase"
-msgstr ""
-
-#: LBL_zimbraFeatureBriefcaseSpreadsheetEnabled
-msgid "Spreadsheets"
-msgstr ""
-
-#: LBL_zimbraFeatureBriefcaseSlidesEnabled
-msgid "Presentations"
-msgstr ""
-
-#: LBL_zimbraFeatureBriefcaseDocsEnabled
-msgctxt "LBL_zimbraFeatureBriefcaseDocsEnabled"
-msgid "Documents"
 msgstr ""
 
 #: LBL_zimbraFeatureHtmlComposeEnabled
@@ -4197,6 +4424,10 @@ msgstr ""
 
 #: LBL_zimbraFeatureGalEnabled
 msgid "Global Address List access"
+msgstr ""
+
+#: LBL_zimbraFeatureMAPIConnectorEnabled
+msgid "MAPI (Microsoft Outlook) Connector"
 msgstr ""
 
 #: LBL_zimbraFeatureContactsEnabled
@@ -4243,6 +4474,10 @@ msgstr ""
 msgid "Initial search preference"
 msgstr ""
 
+#: LBL_zimbraFeaturePeopleSearchEnabled
+msgid "Search for people"
+msgstr ""
+
 #: LBL_zimbraFeatureFiltersEnabled
 msgid "Mail Filters"
 msgstr ""
@@ -4275,8 +4510,24 @@ msgstr ""
 msgid "Autocomplete from GAL"
 msgstr ""
 
-#: LBL_zimbraFeatureImportExportFolderEnabled
-msgid "Import/Export"
+#: LBL_zimbraFeatureImportFolderEnabled
+msgid "Import"
+msgstr ""
+
+#: LBL_zimbraFeatureExportFolderEnabled
+msgid "Export"
+msgstr ""
+
+#: LBL_zimbraDumpsterEnabled
+msgid "Dumpster folder"
+msgstr ""
+
+#: LBL_zimbraFeatureMailSendLaterEnabled
+msgid "Mail send later"
+msgstr ""
+
+#: LBL_zimbraFeatureFreeBusyViewEnabled
+msgid "Free/Busy View"
 msgstr ""
 
 #: LBL_zimbraPrefShowFragments
@@ -4722,7 +4973,7 @@ msgid ""
 msgstr ""
 
 #: NAD_ZERO_UNLIMETED
-msgid "Note: Use \"0\" to specify \"unlimited\" value."
+msgid "<b>Note:</b> Use \"0\" to specify \"unlimited\" value."
 msgstr ""
 
 #: TABT_GeneralPage
@@ -4747,6 +4998,7 @@ msgid "Forwarding"
 msgstr ""
 
 #: TABT_Interop
+msgctxt "TABT_Interop"
 msgid "Free/Busy Interop"
 msgstr ""
 
@@ -4777,6 +5029,7 @@ msgid "Feature"
 msgstr ""
 
 #: TABT_Advanced
+msgctxt "TABT_Advanced"
 msgid "Advanced"
 msgstr ""
 
@@ -4968,6 +5221,23 @@ msgstr ""
 msgid "Number of unique messages processed by the AS/AV system."
 msgstr ""
 
+#. # MobileSync
+#: TABT_MobileSync_Stats
+msgid "MobileSync statistics"
+msgstr ""
+
+#: Stats_MobileSync_Header
+msgid "MobileSync Sessions"
+msgstr ""
+
+#: Stats_MobileSync_LOADING
+msgid "data is loading ..."
+msgstr ""
+
+#: Stats_MobileSync_Count
+msgid "The total number of ActiveSync devices across servers:"
+msgstr ""
+
 #. #Resources Message
 #: RESTBB_New_menuItem
 msgid "Resource "
@@ -5030,7 +5300,7 @@ msgid "Email:"
 msgstr ""
 
 #: NAD_ResType
-msgid "Type: "
+msgid "Type:"
 msgstr ""
 
 #: NAD_ResourceStatus
@@ -5130,6 +5400,10 @@ msgstr ""
 msgid "Invalid email address"
 msgstr ""
 
+#: ErrorInvalidEmailAddressList
+msgid "Invalid email address list"
+msgstr ""
+
 #: ErrorEmptyEmailAddress
 msgid "Empty email address"
 msgstr ""
@@ -5210,6 +5484,14 @@ msgid ""
 "Mailbox button in the toolbar."
 msgstr ""
 
+#: ERROR_CANNOT_CHANGE_VOLUME
+msgid "Cannot change the type of current volume."
+msgstr ""
+
+#: CANNOT_DELETE_VOLUME_IN_USE
+msgid "Cannot delete volume! The volume is in use."
+msgstr ""
+
 #: ERROR_NO_PERMISSION_FOR_OPERATION_ON
 msgid "Error! You do not have permission to perform this operation on {0}."
 msgstr ""
@@ -5219,7 +5501,7 @@ msgid "Error! You do not have permission to create an alias in domain {0}."
 msgstr ""
 
 #: ERROR_SESSION_EXPIRED
-msgid "Your Session Has Expired"
+msgid "Your session has expired. Please login again."
 msgstr ""
 
 #: ERROR_NO_FWD_REQ_LOCALDELIV
@@ -5438,7 +5720,15 @@ msgid "The specified distribution list name is invalid."
 msgstr ""
 
 #: ERROR_INVALID_VOLUME_PATH
-msgid "The specified volume path is invalid"
+msgid "The specified volume path is invalid!"
+msgstr ""
+
+#: ERROR_NO_SUCH_VOLUME
+msgid "The specified volume does not exist!"
+msgstr ""
+
+#: ERROR_VOLUME_ALREADY_EXISTS
+msgid "The specified volume already exists!"
 msgstr ""
 
 #: ERROR_LICENSE
@@ -5561,7 +5851,23 @@ msgid "Cannot add aliases: {0}"
 msgstr ""
 
 #: WARNING_ALIASES_TARGET_NON_EXIST
-msgid "Target account/dl {0} doesn''t exist "
+msgid "Target account/dl {0} doesn''t exist"
+msgstr ""
+
+#: ERROR_TARGET_DOMAIN_NOT_EXIST
+msgid "Target domain {0} doesn''t exist"
+msgstr ""
+
+#: ERROR_DOMAIN_ALIAS_EXIST
+msgid "Can''t create domain alias {0}. It already exists."
+msgstr ""
+
+#: ERROR_TARGET_DOMAIN_IS_ALIAS
+msgid "Target domain must be a local domain. {0} is a domain alias."
+msgstr ""
+
+#: ERROR_DOMAIN_ALIAS_NOT_EXIST
+msgid "You must specify the domain alias."
 msgstr ""
 
 #: WARNING_REINDEX
@@ -5599,6 +5905,16 @@ msgstr ""
 
 #: ERROR_COS_NAME_TOOLONG
 msgid "The specified Class of Service name is too long."
+msgstr ""
+
+#: ERROR_CANNOT_FIND_SKINS_FOR_COS
+msgid "Cannot find any available themes for this COS!"
+msgstr ""
+
+#: ERROR_CANNOT_FIND_SKINS_FOR_COS_OR_NO_PERM
+msgid ""
+"Cannot find any available themes for this COS, or no permission to read "
+"installed skins information."
 msgstr ""
 
 #: ERROR_DOMAIN_EXISTS
@@ -5888,7 +6204,23 @@ msgstr ""
 msgid ""
 "A flush will attempt to deliver all queued mail on this server.<br>This "
 "operation will invalidate the message counts currently displayed for the "
-"queues on this server.<br>Do you want to perform a queue flush? "
+"queues on this server.<br>Do you want to perform a queue flush?"
+msgstr ""
+
+#: Q_CREATE_VOLUME
+msgid "Are you sure you want to create a volume at {0}? "
+msgstr ""
+
+#: DELETED_VOLUMES_CONFIRMATION
+msgid "Succesfully deleted selected volumes."
+msgstr ""
+
+#: UPDATE_VOLUME_CONFIRMATION
+msgid "Successfully updated the volume."
+msgstr ""
+
+#: VolumeCreated
+msgid "Created volume at {0}."
 msgstr ""
 
 #: CORRECT_ERRORS
@@ -5911,6 +6243,10 @@ msgstr ""
 msgid ""
 "Warning! {0} is a GAL Sync account. Deleting this account may cause "
 "unexpected errors. Are you sure you want to delete this account?"
+msgstr ""
+
+#: WARN_CHANGE_AUTH_METH
+msgid "Warning! You need to reload the tab(s) for"
 msgstr ""
 
 #: attrDesc_zimbraId
@@ -6020,6 +6356,10 @@ msgstr ""
 #: aliasTargetTypeDL
 msgctxt "aliasTargetTypeDL"
 msgid "Distribution List"
+msgstr ""
+
+#: aliasTargetTypeResource
+msgid "Resource"
 msgstr ""
 
 #: STANDALONE
@@ -6236,6 +6576,15 @@ msgstr ""
 msgid "Filter the search by basic LDAP attributes"
 msgstr ""
 
+#: searchByCOS
+msgctxt "searchByCOS"
+msgid "Class of Service"
+msgstr ""
+
+#: tt_searchByCOS
+msgid "Filter the search by COS"
+msgstr ""
+
 #: searchByRemoveAll
 msgctxt "searchByRemoveAll"
 msgid "Remove All"
@@ -6253,16 +6602,28 @@ msgstr ""
 msgid "Filter: "
 msgstr ""
 
-#: search_option_filter_input_help
+#: search_option_filter_input_help_domain
 msgid "<Type the domain name ...>"
+msgstr ""
+
+#: search_option_filter_input_help_cos
+msgid "<Type the COS name ...>"
 msgstr ""
 
 #: tt_domain_search_option_filter
 msgid "Type the domain name and all the matching domains will be returned."
 msgstr ""
 
+#: tt_cos_search_option_filter
+msgid "Type the COS name and all the matching domains will be returned."
+msgstr ""
+
 #: no_domain_found_msg
 msgid "No matching domain is found. Please refine your filter."
+msgstr ""
+
+#: no_cos_found_msg
+msgid "No matching Class of Service is found. Please refine your filter."
 msgstr ""
 
 #: search_option_all_server
@@ -6395,6 +6756,10 @@ msgstr ""
 msgid "Username"
 msgstr ""
 
+#: more
+msgid "Use local Appliance login"
+msgstr ""
+
 #: password
 msgctxt "password"
 msgid "Password"
@@ -6481,7 +6846,7 @@ msgstr ""
 #: HELP_PAGE_1
 msgid ""
 "Below are links to Zimbra documentation and forums, to help you find answers "
-"to your questions about using the Zimbra Collaboration Suite."
+"to your questions about using the Zimbra Collaboration Server."
 msgstr ""
 
 #: HELP_PAGE_2
@@ -6541,8 +6906,8 @@ msgid ""
 "The Migration Wizard Guides explain how to use the Zimbra Migration Wizard "
 "to migrate Microsoft<symbol name=Registered>&#174; Exchange or Lotus<symbol "
 "name=Registered>&#174; Domino<symbol name=Registered>&#174; server email "
-"accounts to the Zimbra Collaboration Suite server and to import the email "
-"and contact information for the selected users."
+"accounts to the Zimbra Collaboration Server and to import the email and "
+"contact information for the selected users."
 msgstr ""
 
 #: HELP_PAGE_12
@@ -6572,14 +6937,14 @@ msgstr ""
 #: HELP_OTHER_GUIDES_IMPORT_INFO
 msgid ""
 "The Import Wizard guide explains how users can import the contents of a .pst "
-"file from a Microsoft Outlook 2003 mailbox to accounts on the Zimbra "
-"server."
+"file from a Microsoft Outlook 2003, 2007, 2010 mailbox to accounts on the "
+"Zimbra Collaboration Server."
 msgstr ""
 
 #: HELP_OTHER_GUIDES_CONNNECTOR_INFO
 msgid ""
 "These guides explain how to install the connectors to synchronize data with "
-"the Zimbra server."
+"the Zimbra Collaboration Server."
 msgstr ""
 
 #: DOWNLOAD_PAGE_0
@@ -6801,20 +7166,34 @@ msgstr ""
 
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-2012 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
-"trademarks of Zimbra, Inc."
+"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. Telligent "
+"and Zimbra are registered trademarks or trademarks of Telligent Systems, "
+"Inc."
 msgstr ""
 
 #: splashScreenVersion
 msgid "Version"
 msgstr ""
 
+#: rememberMe
+msgid "Remember me"
+msgstr ""
+
 #: IMPORT_WIZ_DOWNLOAD_HELP
+msgctxt "IMPORT_WIZ_DOWNLOAD_HELP"
 msgid "User Instructions"
 msgstr ""
 
 #: CONNECTOR_DOWNLOAD_HELP
-msgid "User Instructions "
+msgctxt "CONNECTOR_DOWNLOAD_HELP"
+msgid "User Instructions"
+msgstr ""
+
+#: GENERAL_MIG_WIZ_DOWNLOAD_TEXT
+msgid ""
+"This Windows application performs a server to server migration of mail, "
+"calendar, and contacts from Microsoft Exchange, PST file or IBM Domino to "
+"ZCS."
 msgstr ""
 
 #: MIG_WIZ_DOWNLOAD_TEXT
@@ -6905,9 +7284,9 @@ msgstr ""
 
 #: Q_REMOVE_INDIRECT_GROUP
 msgid ""
-"Remove distribution list {0}, <br />will also remove the following "
-"distribution lists: <br />{1}<br /> Do you want to continue removing this "
-"distribution list?"
+"Removing membership of distribution list {0}, <br />will also remove "
+"membership of the following distribution lists: <br />{1}<br /> Do you want "
+"to continue removing membership of this distribution list?"
 msgstr ""
 
 #: TooManyResults
@@ -6992,7 +7371,7 @@ msgid "Alias: "
 msgstr ""
 
 #: Alias_Dlg_label_target_acct
-msgid "Target Account: "
+msgid "Target Account:"
 msgstr ""
 
 #. #License
@@ -7113,7 +7492,7 @@ msgid "Searching directory for domains..."
 msgstr ""
 
 #: BUSY_SEARCHING_COSES
-msgid "Searching directory for classes of service..."
+msgid "Searching directory for Class of Service..."
 msgstr ""
 
 #: BUSY_REQUESTING_ACCESS_RIGHTS
@@ -7278,6 +7657,10 @@ msgstr ""
 
 #: BUSY_DELETE_VOL
 msgid "Deleting the volume ..."
+msgstr ""
+
+#: BUSY_LOADING_VOL
+msgid "Loading volumes ..."
 msgstr ""
 
 #: BUSY_CREATE_VOL
@@ -7517,6 +7900,10 @@ msgstr ""
 msgid "Saved Searches View"
 msgstr ""
 
+#: UI_Comp_HelpSearch
+msgid "Help Search View"
+msgstr ""
+
 #: UI_Comp_AccountsContactTab
 msgid "Account View, Contact Information Page "
 msgstr ""
@@ -7749,8 +8136,16 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
+#: choice_webdav
+msgid "WebDAV"
+msgstr ""
+
+#: choice_ews
+msgid "EWS"
+msgstr ""
+
 #: LB_External_mail
-msgid "External Email Address:"
+msgid "List Member:"
 msgstr ""
 
 #: TBB_MoreActions
@@ -7759,6 +8154,14 @@ msgstr ""
 
 #: TBB_MoreActions_tt
 msgid "Click to view more actions"
+msgstr ""
+
+#: GENERAL_MIG_WIZ_X86_DOWNLOAD_LINK_MSG
+msgid "General ZCS Migration Wizard (32bits)"
+msgstr ""
+
+#: GENERAL_MIG_WIZ_X64_DOWNLOAD_LINK_MSG
+msgid "General ZCS Migration Wizard (64bits)"
 msgstr ""
 
 #: MIG_WIZ_DOWNLOAD_LINK_MSG
@@ -7781,8 +8184,16 @@ msgstr ""
 msgid "Zimbra Connector for Outlook MSI Customizer"
 msgstr ""
 
-#: CONNECTOR_DOWNLOAD_LINK_MSG
-msgid "Zimbra Connector for Outlook"
+#: ZCO_BRANDING_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector for Outlook Branding MSI"
+msgstr ""
+
+#: CONNECTOR_32_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector(32bits) for Outlook"
+msgstr ""
+
+#: CONNECTOR_64_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector(64bits) for Outlook"
 msgstr ""
 
 #: CONNECTOR_ISYNC_DOWNLOAD_LINK_MSG
@@ -7801,7 +8212,7 @@ msgid ""
 msgstr ""
 
 #: ZWC_END_USER_GUIDE
-msgid "ZWC End User Guide for 6.0"
+msgid "ZWC End User Guide for 7.0"
 msgstr ""
 
 #: ZWC_END_USER_GUIDE_INFO
@@ -7822,6 +8233,46 @@ msgstr ""
 msgid "Shortest allowed duration for any polling interval:"
 msgstr ""
 
+#: MSG_zimbraDataSourcePop3PollingInterval
+msgid "POP3 polling interval"
+msgstr ""
+
+#: LBL_zimbraDataSourcePop3PollingInterval
+msgid "POP3 polling interval:"
+msgstr ""
+
+#: MSG_zimbraDataSourceImapPollingInterval
+msgid "IMAP polling interval"
+msgstr ""
+
+#: LBL_zimbraDataSourceImapPollingInterval
+msgid "IMAP polling interval:"
+msgstr ""
+
+#: MSG_zimbraDataSourceCalendarPollingInterval
+msgid "Calendar polling interval"
+msgstr ""
+
+#: LBL_zimbraDataSourceCalendarPollingInterval
+msgid "Calendar polling interval:"
+msgstr ""
+
+#: MSG_zimbraDataSourceRssPollingInterval
+msgid "RSS polling interval"
+msgstr ""
+
+#: LBL_zimbraDataSourceRssPollingInterval
+msgid "RSS polling interval:"
+msgstr ""
+
+#: MSG_zimbraDataSourceCaldavPollingInterval
+msgid "CalDAV polling interval"
+msgstr ""
+
+#: LBL_zimbraDataSourceCaldavPollingInterval
+msgid "CalDAV polling interval:"
+msgstr ""
+
 #: NAD_AutoSaveDraft
 msgid "Auto Save Draft"
 msgstr ""
@@ -7834,23 +8285,90 @@ msgstr ""
 msgid "Draft auto save interval:"
 msgstr ""
 
+#: NAD_zimbraSMIMEFeature
+msgid "S/MIME Features"
+msgstr ""
+
+#: LBL_zimbraFeatureManageSMIMECertificateEnabled
+msgid "Allow end user to publish and remove S/MIME certificates"
+msgstr ""
+
+#: LBL_zimbraFeatureSMIMEEnabled
+msgid "Enable S/MIME"
+msgstr ""
+
 #: externalAccountNote
 msgid "This account uses external mail transport"
 msgstr ""
 
-#. # MobileSync
-#: TABT_MobileSync_Stats
-msgid "MobileSync statistics"
+#: NAD_ProxyAllowedDomains
+msgid "Proxy Allowed Domains"
 msgstr ""
 
-#: Stats_MobileSync_Header
-msgid "MobileSync Sessions"
+#: MSG_zimbraProxyAllowedDomains
+msgid "Proxy Allowed Domain Name"
 msgstr ""
 
-#: Stats_MobileSync_LOADING
-msgid "data is loading ..."
+#: LBL_zimbraProxyAllowedDomains
+msgid "Proxy Allowed Domain Name:"
 msgstr ""
 
-#: Stats_MobileSync_Count
-msgid "The total number of ActiveSync devices across servers:"
+#: NAD_ProxyAddAllowedDomain
+msgid "Add Domain"
+msgstr ""
+
+#: NAD_ProxyRemoveAllowedDomain
+msgctxt "NAD_ProxyRemoveAllowedDomain"
+msgid "Remove"
+msgstr ""
+
+#: TABT_Certificate
+msgid "Certificate"
+msgstr ""
+
+#: NAD_DomainSSLCertificate
+msgid "Domain Certificate"
+msgstr ""
+
+#: NAD_DomainSSLPrivateKey
+msgid "Domain Private Key"
+msgstr ""
+
+#: ERROR_DOMAIN_CERT_KEY_VERIFY
+msgid "Verify Domain Certificate and Private Key Error"
+msgstr ""
+
+#: ERROR_DOMAIN_CERT_KEY_INVALID
+msgid "Invalid certificate or private key"
+msgstr ""
+
+#: MSG_DOMAIN_CERT_KEY
+msgid ""
+"Domain certificate should be appended with CA certificate, and Domain "
+"private key should be password-less."
+msgstr ""
+
+#: MSG_DOMAIN_CERT_UPLOADED
+msgid ""
+"Your domain certificates and keys are successfully saved. To complete the "
+"deployment of certificates and keys, as zimbra, run "
+"\"/opt/zimbra/libexec/zmdomaincertmgr deploycrts\""
+msgstr ""
+
+#: ALERT_DOMAIN_CERT_KEY
+msgid ""
+"(1) make sure CA certificate is appended to the bottom of certificates. "
+"<br/> (2) make sure private key is password-less."
+msgstr ""
+
+#: ERROR_DOMAIN_CERT_MISSING
+msgid "Certificate is necessary"
+msgstr ""
+
+#: ERROR_DOMAIN_KEY_MISSING
+msgid "Private Key is necessary"
+msgstr ""
+
+#: ERROR_DOMAIN_CERT_VERIFY
+msgid "Can not verify certificate and key"
 msgstr ""

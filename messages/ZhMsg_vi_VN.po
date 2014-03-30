@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-03-16 21:19+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -17,10 +17,10 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. #
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.3 ("License"); you may not use this file except in
+#. # Version 1.4 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. #
@@ -392,6 +392,14 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được xoá|1#1 cuộc đàm thoại vừa được xoá|"
 "1<{0,number,integer} cuộc đàm thoại vừa được xoá}."
 
+#: actionConvMessageHardDeleted
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been deleted. "
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được xóa."
+
 #: actionConvFlag
 msgid ""
 "{0,choice,0#0 conversations have been flagged|1#1 conversation has been "
@@ -399,6 +407,14 @@ msgid ""
 msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được gắn cờ|1#1 cuộc đàm thoại vừa được gắn "
 "cờ|1<{0,number,integer} cuộc đàm thoại vừa được gắn cờ}."
+
+#: actionConvMessageFlag
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been flagged."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được gắn cờ."
 
 #: actionConvUnflag
 msgid ""
@@ -408,6 +424,14 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được bỏ gắn cờ|1#1 cuộc đàm thoại vừa được "
 "bỏ cờ|1<{0,number,integer} cuộc đàm thoại vừa được bỏ cờ}."
 
+#: actionConvMessageUnflag
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been unflagged."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được bỏ cờ."
+
 #: actionConvMarkedRead
 msgid ""
 "{0,choice,0#0 conversations have been marked read|1#1 conversation has been "
@@ -416,6 +440,14 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được đánh dấu đã đọc|1#1 cuộc đàm thoại vừa "
 "được đánh dấu đã đọc|1<{0,number,integer} cuộc đàm thoại vừa được đánh dấu "
 "đã đọc}."
+
+#: actionConvMessageMarkedRead
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been marked read."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được đánh dấu đã đọc."
 
 #: actionConvMarkedUnread
 msgid ""
@@ -427,6 +459,14 @@ msgstr ""
 "vừa được đánh dấu chưa đọc|1<{0,number,integer} cuộc đàm thoại vừa được đánh "
 "dấu chưa đọc}."
 
+#: actionConvMessageMarkedUnread
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been marked unread."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được đánh dấu chưa đọc."
+
 #: actionConvMarkedNotSpam
 msgid ""
 "{0,choice,0#0 conversations have been moved to the Inbox folder|1#1 "
@@ -437,15 +477,31 @@ msgstr ""
 "cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến|1<{0,number,integer} "
 "cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến}."
 
+#: actionConvMessageMarkedNotSpam
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been moved to the Inbox folder."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được chuyển tới thư mục Hộp thư đến."
+
 #: actionConvMarkedSpam
 msgid ""
-"{0,choice,0#0 conversations have been moved to the Junk folder|1#1 "
-"conversation has been moved to the Junk folder|1<{0,number,integer} "
-"conversations have been moved to the Junk folder}."
+"{0,choice,0#0 conversations have been moved to the Spam folder|1#1 "
+"conversation has been moved to the Spam folder|1<{0,number,integer} "
+"conversations have been moved to the Spam folder}."
 msgstr ""
-"{0,choice,0#0 cuộc đàm thoại vừa được chuyển tới thư mục Thư rác|1#1 cuộc "
-"đàm thoại vừa được chuyển tới thư mục Thư rác|1<{0,number,integer} cuộc đàm "
-"thoại vừa được chuyển tới thư mục Thư rác}."
+"{0,choice,0#0 cuộc đàm thoại đã được chuyển tới thư mục Thư rác|1#1 cuộc đàm "
+"thoại đã được chuyển tới thư mục Thư rác|1<{0,number,integer} cuộc đàm thoại "
+"đã được chuyển tới thư mục Thư rác}."
+
+#: actionConvMessageMarkedSpam
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been moved to the Spam folder."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được chuyển tới thư mục Thư rác."
 
 #: actionConvTag
 msgid ""
@@ -455,6 +511,14 @@ msgstr ""
 "Thẻ \"{1}\" vừa được thêm vào {0,choice,0#0 cuộc đàm thoại|1#1 cuộc đàm "
 "thoại|1<{0,number,integer} cuộc đàm thoại}."
 
+#: actionConvMessageTag
+msgid ""
+"The tag \"{2}\" has been added to {0} {0,choice,1#conversation|"
+"2#conversations} and {1} {1,choice,1#message|2#messages}."
+msgstr ""
+"Thẻ \"{1}\" vừa được thêm vào {0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm "
+"thoại} và {1} {1,choice,1#thông điệp|2#thông điệp}."
+
 #: actionConvUntag
 msgid ""
 "The tag \"{1}\" has been removed from {0,choice,0#0 conversations|1#1 "
@@ -463,6 +527,14 @@ msgstr ""
 "Thẻ \"{1}\" vừa được loại bỏ từ {0,choice,0#0 cuộc đàm thoại|1#1 cuộc đàm "
 "thoại|1<{0,number,integer} cuộc đàm thoại}."
 
+#: actionConvMessageUntag
+msgid ""
+"The tag \"{2}\" had been removed from {0} {0,choice,1#conversation|"
+"2#conversations} and {1} {1,choice,1#message|2#messages}."
+msgstr ""
+"Thẻ \"{2}\" vừa được loại bỏ từ  {0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm "
+"thoại} và {1} {1,choice,1#thông điệp|2#thông điệp}."
+
 #: actionConvUntagAll
 msgid ""
 "All tags have been removed from {0,choice,0#0 conversations|1#1 conversation|"
@@ -470,6 +542,14 @@ msgid ""
 msgstr ""
 "Tất cả các thẻ vừa được loại bỏ từ {0,choice,0#0 cuộc đàm thoại|1#1 cuộc đàm "
 "thoại|1<{0,number,integer} cuộc đàm thoại}."
+
+#: actionConvMessageUntagAll
+msgid ""
+"All tags have been removed from {0} {0,choice,1#conversation|"
+"2#conversations} and {1} {1,choice,1#message|2#messages}."
+msgstr ""
+"Tất cả thẻ vừa được loại bỏ từ {0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm "
+"thoại} và {1} {1,choice,1#thông điệp|2#thông điệp}."
 
 #: actionConvMoved
 msgid ""
@@ -481,6 +561,14 @@ msgstr ""
 "vừa được chuyển tới \"{1}\"|1<{0,number,integer} cuộc đàm thoại vừa được "
 "chuyển tới \"{1}\"}."
 
+#: actionConvMessageMoved
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been moved to \"{2}\"."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được chuyển đến \"{2}\"."
+
 #: actionConvMovedTrash
 msgid ""
 "{0,choice,0#0 conversations have been moved to the Trash folder|1#1 "
@@ -490,6 +578,14 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được chuyển tới thư mục Thùng rác|1#1 cuộc "
 "đàm thoại vừa được chuyển tới thư mục Thùng rác|1<{0,number,integer} cuộc "
 "đàm thoại vừa được chuyển tới thư mục Thùng rác}."
+
+#: actionConvMessageMovedTrash
+msgid ""
+"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
+"2#messages} have been moved to the Trash folder."
+msgstr ""
+"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
+"điệp|2#thông điệp} đã được chuyển tới thư mục Thùng rác."
 
 #: actionDelete
 msgctxt "actionDelete"
@@ -673,12 +769,12 @@ msgstr ""
 
 #: actionMessageMarkedSpam
 msgid ""
-"{0,choice,0#0 messages have been moved to the Junk folder|1#1 message has "
-"been moved to the Junk folder|1<{0,number,integer} messages have been moved "
-"to the Junk folder}."
+"{0,choice,0#0 messages have been moved to the Spam folder|1#1 message has "
+"been moved to the Spam folder|1<{0,number,integer} messages have been moved "
+"to the Spam folder}."
 msgstr ""
-"{0,choice,0#0 thông điệp vừa được chuyển tới thư mục Thư rác|1#1 thông điệp "
-"vừa được chuyển tới thư mục Thư rác|1<{0,number,integer} thông điệp vừa được "
+"{0,choice,0#0 thông điệp đã được chuyển tới thư mục Thư rác|1#1 thông điệp "
+"đã được chuyển tới thư mục Thư rác|1<{0,number,integer} thông điệp đã được "
 "chuyển tới thư mục Thư rác}."
 
 #: actionMessageTag
@@ -793,6 +889,10 @@ msgstr "Không có liên hệ nào được chọn."
 
 #: actionNoConvSelected
 msgid "No conversation selected."
+msgstr "Không có cuộc đàm thoại nào được chọn."
+
+#: actionNoConvMessageSelected
+msgid "No conversation or message selected."
 msgstr "Không có cuộc đàm thoại nào được chọn."
 
 #: actionNoMessageSelected
@@ -944,12 +1044,12 @@ msgid "Search deleted \"{0}\"."
 msgstr "Tìm kiếm đã xóa \"{0}\"."
 
 #: actionNotSpam
-msgid "Not Junk"
+msgid "Not Spam"
 msgstr "Không phải thư rác"
 
 #: actionNotSpamTT
-msgid "Mark selected item(s) as not Junk"
-msgstr "Đánh dấu các mục đã chọn như không phải là Thư rác"
+msgid "Mark selected item(s) as not Spam"
+msgstr "Đánh dấu mục đã chọn không là Thư rác"
 
 #: actionSave
 msgctxt "actionSave"
@@ -961,13 +1061,12 @@ msgid "Save the select voice mail message"
 msgstr "Lưu lại thông điệp thư thoại đã chọn"
 
 #: actionSpam
-msgctxt "actionSpam"
-msgid "Junk"
+msgid "Spam"
 msgstr "Thư rác"
 
 #: actionSpamTT
-msgid "Mark selected item(s) as Junk"
-msgstr "Đánh dấu các mục đã chọn như Thư rác"
+msgid "Mark selected item(s) as Spam"
+msgstr "Đánh dấu mục đã chọn như Thư rác"
 
 #: actionTag
 msgctxt "actionTag"
@@ -1415,6 +1514,10 @@ msgstr ""
 "{0,choice,0#không có đính kèm|1#{0,number,integer} đính kèm|1<{0,number,"
 "integer} đính kèm}"
 
+#: attachmentLimitMsg
+msgid "<b>Note:&nbsp;</b>Attachments may not be larger than {0}"
+msgstr "<b>Chú ý:&nbsp;</b>Đính kèm có thể không lớn hơn {0}"
+
 #: attendee
 msgid "Attendee"
 msgstr "Người tham dự"
@@ -1548,7 +1651,7 @@ msgid "Briefcase Updated"
 msgstr "Đã cập nhật cặp tài liệu"
 
 #: briefcaseEmptied
-msgid "Briefase folder \"{0}\" emptied"
+msgid "Briefcase folder \"{0}\" emptied"
 msgstr "Thư mục cặp tài liệu \"{0}\" đã rỗng."
 
 #: briefcaseDeleteConfirmation
@@ -1747,6 +1850,10 @@ msgstr "Hiển thị cuối cùng tại"
 #: calendarDayStartsAt
 msgid "View starts at"
 msgstr "Hiển thị bắt đầu tại"
+
+#: calendarHoursInvalid
+msgid "End time must be greater than start time."
+msgstr "Kết thúc thời gian phải lớn hơn thời gian bắt đầu."
 
 #: calendarName
 msgid "Calendar Name"
@@ -2134,7 +2241,7 @@ msgstr ""
 
 #: defaultInviteReplyDeclineInstanceMessage
 msgid ""
-"I won''t attend on {0,date,full}.\r\n"
+"I won't attend on {0,date,full}.\r\n"
 "\r\n"
 msgstr ""
 "Tôi sẽ không tham dự vào {0,date,full}.\\r\n"
@@ -2192,6 +2299,11 @@ msgstr "Xoá bỏ tìm kiếm"
 msgid "Delete Tag"
 msgstr "Xoá bỏ thẻ"
 
+#: department
+msgctxt "department"
+msgid "Department"
+msgstr "Phòng"
+
 #: details
 msgid "Details"
 msgstr "Chi tiết"
@@ -2225,6 +2337,10 @@ msgstr "Bản nháp đã lưu lại thành công."
 msgctxt "drafts"
 msgid "Drafts"
 msgstr "Bản nháp"
+
+#: draftSavedAuto
+msgid "Draft Autosaved."
+msgstr "Thư nháp tự động lưu"
 
 #: duration
 msgid "Duration"
@@ -2281,7 +2397,7 @@ msgid "Empty Trash"
 msgstr "Làm trống Thùng rác"
 
 #: emptyJunk
-msgid "Empty Junk"
+msgid "Empty Spam"
 msgstr "Làm trống Thư rác"
 
 #: emptyMessage
@@ -2348,6 +2464,10 @@ msgstr "Thẻ của tôi không thể bị xoá bỏ."
 #: errorMyCardMove
 msgid "My Card cannot be moved."
 msgstr "Thẻ của tôi không thể bị chuyển."
+
+#: errorEmptyTaskDueDate
+msgid "Due Date is required, when Start Date is specified."
+msgstr "Ngày đến hạn là bắt buộc, khi Ngày bắt đầu được chỉ định."
 
 #: errorPhoneFAQLink
 msgid "Please see the <a href=\"{1}\" target=\"_blank\">FAQ</a> for more info."
@@ -2701,9 +2821,14 @@ msgstr "Thư mục"
 msgid "Font Size"
 msgstr "Kích cỡ phông"
 
+#. # Copyright string must not be translated
 #: footerCopyright
-msgid "Copyright © 2008-2010 Zimbra, Inc."
-msgstr "Bản quyền © 2008-2010 Zimbra, Inc."
+msgid ""
+"Copyright © 2005-2013 Telligent Systems, Inc. \"Telligent\" and \"Zimbra\"  "
+"are registered trademarks or trademarks of Telligent Systems, Inc."
+msgstr ""
+"Bản quyền © 2005 - 2013 Telligent Systems, Inc. \"Telligent\" và \"Zimbra\" "
+"là các thương hiệu được đăng ký hoặc thương hiệu của Telligent Systems, Inc."
 
 #: formatDateSent
 msgid "EEE, MMM dd, yyyy hh:mm a"
@@ -2838,6 +2963,11 @@ msgstr "KB"
 msgid "Key"
 msgstr "Khóa"
 
+#: im
+msgctxt "im"
+msgid "IM"
+msgstr "IM"
+
 #: import
 msgid "Import"
 msgstr "Nhập"
@@ -2847,8 +2977,8 @@ msgid "in"
 msgstr "trong"
 
 #: includeJunkFolder
-msgid "Include Junk folder in searches"
-msgstr "Bao gồm thư mục Thư rác trong việc tìm kiếm"
+msgid "Include Spam folder in searches"
+msgstr "Bao gồm thư mục Thư rác trong tìm kiếm"
 
 #: includeTrashFolder
 msgid "Include Trash folder in searches"
@@ -2860,7 +2990,7 @@ msgid "Inbox"
 msgstr "Hộp thư đến"
 
 #: includeJunk
-msgid "Also search Junk"
+msgid "Also search Spam"
 msgstr "Tìm kiếm trong cả Thư rác"
 
 #: includeShared
@@ -2957,10 +3087,6 @@ msgstr "Thư"
 #: mailHeader
 msgid "My Email Accounts"
 msgstr "Tài khoản email của tôi"
-
-#: mails
-msgid "Mails"
-msgstr "Thư"
 
 #: mailSearch
 msgid "Mail/Search"
@@ -3189,8 +3315,9 @@ msgid "More"
 msgstr "Thêm"
 
 #: moreActions
-msgid "Actions &#9660;"
-msgstr "Hành động &#9660;"
+msgctxt "moreActions"
+msgid "Actions"
+msgstr "Hành động"
 
 #: moveAction
 msgid "Move to..."
@@ -3290,7 +3417,7 @@ msgstr "Sổ ghi chép"
 
 #: noAddresses
 msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
-msgstr "Phải có ít nhất một đị chỉ trong các trường Gửi tới:, Cc:, hoặc Bcc:"
+msgstr "Phải có ít nhất một đị chỉ trong các trường Tới:, Cc:, hoặc Bcc:"
 
 #: noContactGroupMembers
 msgid "The contact group must have at least one member."
@@ -4097,7 +4224,7 @@ msgstr "Bỏ qua thông điệp"
 
 #: optionsDedupeSecondCopy
 msgid "Place in Inbox if I'm in To: or Cc:"
-msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Gửi tới: hoặc Cc:"
+msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
 
 #: orange
 msgid "Orange"
@@ -4266,6 +4393,10 @@ msgstr "Công việc"
 msgid "Work 2"
 msgstr "Công việc 2"
 
+#: phoneticName
+msgid "Phonetic name"
+msgstr "Phiên âm tên"
+
 #: pink
 msgid "Pink"
 msgstr "Màu hồng"
@@ -4291,6 +4422,10 @@ msgctxt "print"
 msgid "Print"
 msgstr "In"
 
+#: printFontSizePref
+msgid "Print Font Size"
+msgstr "Kích cỡ phông để in"
+
 #: priority
 msgctxt "priority"
 msgid "Priority"
@@ -4307,6 +4442,18 @@ msgstr "Công khai"
 #: purple
 msgid "Purple"
 msgstr "Màu tím"
+
+#: readingPaneAtBottom
+msgid "Reading Pane At The Bottom"
+msgstr "Khung đọc ở dưới"
+
+#: readingPaneOff
+msgid "Reading Pane Off"
+msgstr "Khung đọc tắt"
+
+#: readingPaneOnRight
+msgid "Reading Pane On The Right"
+msgstr "Khung đọc ở bên phải"
 
 #: reloadCalendar
 msgid "Reload Calendar"
@@ -4613,7 +4760,7 @@ msgstr "Trả lời tới"
 
 #: replyToEnabled
 msgid "Reply-to enabled"
-msgstr "Trả lời tới đã được phép"
+msgstr "Trả lời tới đã bật"
 
 #: replyToIdentity
 msgctxt "replyToIdentity"
@@ -4850,17 +4997,24 @@ msgstr "Gợi ý chính tả"
 msgid "Suggestions:"
 msgstr "Gợi ý:"
 
+#. # Copyright string must not be translated
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2008-2010 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
-"trademarks of Zimbra, Inc."
+"Copyright © 2005-2013 Telligent Systems, Inc.  All rights reserved. "
+"Telligent and Zimbra are registered trademarks or trademarks of Telligent "
+"Systems, Inc."
 msgstr ""
-"Bản quyền © 2008-2010 Zimbra, Inc.     'Zimbra' logo của Zimbra là thương "
-"hiệu của Zimbra, Inc."
+"Bản quyền © 2005 - 2013 Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
+"và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
+"Systems, Inc."
 
 #: splashScreenAppName
-msgid "Collaboration Suite"
-msgstr "Hệ thống công tác"
+msgid "Web Client"
+msgstr "Trình khách web"
+
+#: splashScreenMobileAppName
+msgid "Mobile Web Client"
+msgstr "Trình khách web mobile"
 
 #: start
 msgid "Start"
@@ -5077,6 +5231,11 @@ msgctxt "to"
 msgid "To"
 msgstr "Tới"
 
+#: tocc
+msgctxt "tocc"
+msgid "To or Cc"
+msgstr "Tới hoặc CC"
+
 #: toLabel
 msgid "To:"
 msgstr "Tới:"
@@ -5224,6 +5383,26 @@ msgid ""
 msgstr ""
 "Chọn số điện thoại bạn muốn quản lý sau đó chọn các tuỳ chọn cho số đó."
 
+#: wikiTOC
+msgid "Table of Contents"
+msgstr "Mục lục"
+
+#: wikiDocName
+msgid "Document name"
+msgstr "Tên tài liệu"
+
+#: wikiModifiedBy
+msgid "Modified by"
+msgstr "Đã sửa bởi"
+
+#: wikiModifiedOn
+msgid "Modified on"
+msgstr "Đã sửa lúc"
+
+#: wikiVersion
+msgid "Version"
+msgstr "Phiên bản"
+
 #: week
 msgid "Week"
 msgstr "Tuần"
@@ -5252,6 +5431,18 @@ msgstr "Màu vàng"
 #: yes
 msgid "Yes"
 msgstr "Đồng ý"
+
+#: zimbraDocument
+msgid "Zimbra Document"
+msgstr "Tài liệu Zimbra"
+
+#: zimbraPresentation
+msgid "Zimbra Presentation"
+msgstr "Bản trình chiếu Zimbra"
+
+#: zimbraSpreadsheet
+msgid "Zimbra Spreadsheet"
+msgstr "Bảng tính Zimbra"
 
 #: zimbraTitle
 msgctxt "zimbraTitle"
@@ -5697,6 +5888,7 @@ msgid "Waves"
 msgstr "Waves"
 
 #: SKIN_yahoo
+msgctxt "SKIN_yahoo"
 msgid "Yahoo!"
 msgstr "Yahoo!"
 
@@ -5820,6 +6012,18 @@ msgctxt "AB_FIELD_company"
 msgid "Company"
 msgstr "Công ty"
 
+#: AB_FIELD_phoneticFirstName
+msgid "Phonetic First"
+msgstr "Phiên âm đầu"
+
+#: AB_FIELD_phoneticLastName
+msgid "Phonetic Last"
+msgstr "Phiên âm cuối"
+
+#: AB_FIELD_phoneticCompany
+msgid "Phonetic Company"
+msgstr "Phiên âm công ty"
+
 #. # email addresses
 #: AB_FIELD_email
 msgctxt "AB_FIELD_email"
@@ -5895,6 +6099,42 @@ msgstr "Mobile làm việc"
 msgid "Work Alternate Phone"
 msgstr "Điện thoại làm việc khác"
 
+#. # IM
+#: AB_FIELD_imAddress1
+msgctxt "AB_FIELD_imAddress1"
+msgid "IM"
+msgstr "IM"
+
+#: AB_FIELD_imAddress2
+msgid "IM 2"
+msgstr "IM 2"
+
+#: AB_FIELD_imAddress3
+msgid "IM 3"
+msgstr "IM 3"
+
+#: AB_FIELD_IM_xmpp
+msgid "XMPP"
+msgstr "XMPP"
+
+#: AB_FIELD_IM_yahoo
+msgctxt "AB_FIELD_IM_yahoo"
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: AB_FIELD_IM_msn
+msgid "MSN"
+msgstr "MSN"
+
+#: AB_FIELD_IM_aol
+msgid "AOL"
+msgstr "AOL"
+
+#: AB_FIELD_IM_other
+msgctxt "AB_FIELD_IM_other"
+msgid "Other"
+msgstr "Khác"
+
 #. # home address
 #. #For Velodrome2 skin#
 #: AB_FIELD_homeAddress
@@ -5933,6 +6173,7 @@ msgid "Other Work IM"
 msgstr "IM công việc khác"
 
 #: AB_FIELD_otherDepartment
+msgctxt "AB_FIELD_otherDepartment"
 msgid "Department"
 msgstr "Phòng"
 
@@ -6165,6 +6406,11 @@ msgstr "Liên hệ đã email"
 msgctxt "FOLDER_LABEL_15"
 msgid "Tasks"
 msgstr "Công việc"
+
+#: FOLDER_LABEL_16
+msgctxt "FOLDER_LABEL_16"
+msgid "Briefcase"
+msgstr "Cặp tài liệu"
 
 #. # calendar
 #: CAL_MINICAL_TITLE_FORMAT
@@ -6709,6 +6955,11 @@ msgctxt "FILT_COND_HEADER_to"
 msgid "To"
 msgstr "To"
 
+#: FILT_COND_HEADER_to,cc
+msgctxt "FILT_COND_HEADER_to,cc"
+msgid "To or Cc"
+msgstr "Tới hoặc CC"
+
 #: FILT_COND_HEADER_IS
 msgid "<b>{0}</b> matches exactly \"<b>{1}</b>\""
 msgstr "<b>{0}</b> khớp chính xác \"<b>{1}</b>\""
@@ -6982,6 +7233,10 @@ msgstr "Tới..."
 msgid "Cc..."
 msgstr "Cc..."
 
+#: EFILT_NEW_COND_TOCC
+msgid "To or Cc..."
+msgstr "Tới hoặc Cc..."
+
 #: EFILT_NEW_COND_SUBJECT
 msgid "Subject..."
 msgstr "Chủ đề..."
@@ -7073,6 +7328,7 @@ msgid "Prev"
 msgstr "Trước"
 
 #: MO_actions
+msgctxt "MO_actions"
 msgid "Actions"
 msgstr "Hành động"
 
@@ -7091,6 +7347,10 @@ msgstr "lớn hơn"
 #: MO_flag
 msgid "Flag"
 msgstr "Cờ"
+
+#: MO_Unflag
+msgid "Unflag"
+msgstr "Bỏ cờ"
 
 #: MO_flagged
 msgctxt "MO_flagged"
@@ -7151,8 +7411,9 @@ msgid "Tag"
 msgstr "Thẻ"
 
 #: MO_tocc
-msgid "To/Cc"
-msgstr "Gửi tới/Đồng gửi"
+msgctxt "MO_tocc"
+msgid "To or Cc"
+msgstr "Tới hoặc CC"
 
 #: MO_unread
 msgid "Unread"
@@ -7201,6 +7462,14 @@ msgstr "Tập tin"
 #: MO_noAppointments
 msgid "No Appointments"
 msgstr "Không có cuộc hẹn"
+
+#: MO_showDetails
+msgid "Show Details"
+msgstr "Hiện chi tiết"
+
+#: MO_hideDetails
+msgid "Hide Details"
+msgstr "Ẩn chi tiết"
 
 #. ## contact
 #: MO_AB_email
@@ -7330,16 +7599,20 @@ msgstr "'Hôm qua,' h:mm a"
 msgid "EEE, M/d/yy, h:mm a"
 msgstr "EEE, M/d/yy, h:mm a"
 
+#: ZM_formatDocDate
+msgid "M/d/yyyy h:mm a"
+msgstr "M/d/yyyy h:mm a"
+
 #. # these are for quoting headers in ZMessageComposeBean
 #: ZM_HEADER_FROM
 msgctxt "ZM_HEADER_FROM"
 msgid "From"
-msgstr "Gửi từ"
+msgstr "Từ"
 
 #: ZM_HEADER_TO
 msgctxt "ZM_HEADER_TO"
 msgid "To"
-msgstr "Gửi tới"
+msgstr "Tới"
 
 #: ZM_HEADER_CC
 msgctxt "ZM_HEADER_CC"
@@ -7458,7 +7731,7 @@ msgid ""
 "then retype the current username and password."
 msgstr ""
 "Tên đăng nhập hoặc mật khẩu không đúng. Kiểm tra xem đèn CAPS LOCK không "
-"được bật, và gõ lại tên đăng nhập mà mật khẩu hiện thời."
+"được bật, và gõ lại tên đăng nhập và mật khẩu hiện thời."
 
 #: account.CHANGE_PASSWORD
 msgid "Your password in no longer valid. Please choose a new password."
@@ -7491,6 +7764,14 @@ msgid ""
 msgstr ""
 "Mật khẩu mới hiện không đáp ứng các quy định của hệ thống (ví dụ chiều dài). "
 "Liên hệ Quản trị viên hệ thống của bạn để biết thêm thông tin."
+
+#: account.INVALID_PASSWORD.zimbraPasswordAllowedChars
+msgid ""
+"New password does not meet the system's rules (i.e allowed chars). Contact "
+"your System Administrator for more information."
+msgstr ""
+"Mật khẩu mới hiện không đáp ứng các quy định của hệ thống (ví dụ ký tự cho "
+"phép). Liên hệ Quản trị viên hệ thống của bạn để biết thêm thông tin."
 
 #: account.INVALID_PASSWORD.zimbraPasswordMinLength
 msgid ""
@@ -7532,6 +7813,14 @@ msgstr ""
 "Mật khẩu mới phải có tối thiểu {0} ký từ số. Liên hệ Quản trị hệ thống của "
 "bạn để biết thêm thông tin."
 
+#: account.INVALID_PASSWORD.zimbraPasswordMinAlphaChars
+msgid ""
+"New password must have minimum {0} alphabet chars. Contact your System "
+"Administrator for more information."
+msgstr ""
+"Mật khẩu mới phải có tối thiểu {0} ký tự bảng chữ cái. Liên hệ Quản trị viên "
+"hệ thống của bạn để biết thêm thông tin."
+
 #: account.INVALID_PASSWORD.zimbraPasswordMinPunctuationChars
 msgid ""
 "New password must have minimum {0} punctuation chars. Contact your System "
@@ -7539,6 +7828,14 @@ msgid ""
 msgstr ""
 "Mật khẩu mới phải có tối thiểu {0} ký tự chấm câu. Liên hệ Quản trị hệ thống "
 "của bạn để biết thêm thông tin."
+
+#: account.INVALID_PASSWORD.zimbraPasswordMinDigitsOrPuncs
+msgid ""
+"New password must have minimum {0} numeric or punctuation chars. Contact "
+"your System Administrator for more information."
+msgstr ""
+"Mật khẩu mới phải có tối thiểu {0} ký tự số hoặc ký tự chấm câu. Liên hệ "
+"Quản trị hệ thống của bạn để biết thêm thông tin."
 
 #: account.INVALID_ATTR_NAME
 msgid "Invalid attribute name."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZaMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-03-16 21:19+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -152,12 +152,12 @@ msgstr "Tải xuống"
 #: ServerPostQ_title
 msgctxt "ServerPostQ_title"
 msgid "Manage Mail Queues"
-msgstr "Quản lý các hàng đợi thư"
+msgstr "Quản lý hàng đợi thư"
 
 #: PostQ_title
 msgctxt "PostQ_title"
 msgid "Manage Mail Queues"
-msgstr "Quản lý các hàng đợi thư"
+msgstr "Quản lý hàng đợi thư"
 
 #: About_Button_Label
 msgid "About Zimbra Version"
@@ -240,6 +240,16 @@ msgstr "LDAP"
 msgid "Active Directory"
 msgstr "Active Directory"
 
+#. # COS:
+#: SearchFilter_COSES
+msgctxt "SearchFilter_COSES"
+msgid "Class of Service"
+msgstr "Lớp dịch vụ"
+
+#: searchForCOSES
+msgid "Search for Class of Service"
+msgstr "Tìm kiếm cho Lớp dịch vụ"
+
 #. # tab titles
 #: Domain_Tab_GAL
 msgid "GAL"
@@ -252,12 +262,42 @@ msgstr "Xác thực"
 
 #: Domain_Tab_VirtualHost
 msgid "Virtual Hosts"
-msgstr "Các máy chủ ảo"
+msgstr "Máy chủ ảo"
 
 #: Domain_Tab_Notebook
 msgctxt "Domain_Tab_Notebook"
 msgid "Documents"
 msgstr "Tài liệu"
+
+#: Domain_Tab_Advanced
+msgctxt "Domain_Tab_Advanced"
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: Domain_AD_EmailValidate
+msgid "Account Email Validation Setting"
+msgstr "Thiết lập xác nhận email tài khoản"
+
+#: NAD_AddRegex
+msgid "Add Regex"
+msgstr "Thêm biểu thức chính quy"
+
+#: NAD_RemoveRegex
+msgctxt "NAD_RemoveRegex"
+msgid "Remove"
+msgstr "Loại bỏ"
+
+#: LBL_EmailValidate
+msgid "Regular expresssion for invalid email address:"
+msgstr "Biểu thức chính quy cho địa chỉ email hợp lệ:"
+
+#: ERROR_MSG_EmailValidReg
+msgid ""
+"Invalid regular expression: {0}, which should be email format (e.g '@\\d+', "
+"'postmaster@test.com'). "
+msgstr ""
+"Biểu thức chính quy không hợp lệ: {0}, mà phải là định dạng email (v.d '@\\d"
+"+', 'postmaster@test.com'). "
 
 #: Alias_Find
 msgid "Find"
@@ -277,6 +317,10 @@ msgstr "Tên ACE"
 
 #: Domain_AuthLdapStartTlsEnabled
 msgid "Enable StartTLS"
+msgstr "Bật StartTLS"
+
+#: Domain_llAuthLdapStartTlsEnabled
+msgid "Enable StartTLS:"
 msgstr "Bật StartTLS"
 
 #: Domain_WarningStartTLSIgnored
@@ -304,6 +348,10 @@ msgstr ""
 msgid "Public service host name:"
 msgstr "Tên máy chủ dịch vụ công cộng:"
 
+#: Domain_zimbraBasicAuthRealm
+msgid "Company identifier in public share prompts:"
+msgstr "Định danh công ty trong nhắc nhở chia sẻ công cộng:"
+
 #: Domain_Documents_Config_Complete
 msgid ""
 "You have completed configuration of Documents for this domain. Please press "
@@ -314,13 +362,13 @@ msgstr ""
 
 #: Domain_Auth_ConfigSummary
 msgid "Summary of authentication settings:"
-msgstr "Tóm lược cài đặt xác thực:"
+msgstr "Tóm lược các cài đặt xác thực:"
 
 #: Domain_AuthProvideLoginPwd
 msgid ""
 "Please provide username and password to test the authentication settings"
 msgstr ""
-"Vui lòng cung cấp tên người dùng và mật khẩu để kiểm tra cài đặt xác thực"
+"Vui lòng cung cấp tên người dùng và mật khẩu để kiểm tra các cài đặt xác thực"
 
 #: LBL_Domain_AuthTestUserName
 msgid "User name:"
@@ -347,7 +395,7 @@ msgstr "Kiểm tra"
 
 #: Domain_AuthTestingInProgress
 msgid "Trying to authenticate using the new settings"
-msgstr "Thử xác thực bằng sử dụng cài đặt mới"
+msgstr "Thử xác thực bằng sử dụng các cài đặt mới"
 
 #: Domain_AuthTestResults
 msgid "Test results"
@@ -355,11 +403,11 @@ msgstr "Kết quả kiểm tra"
 
 #: Domain_AuthTestSuccessful
 msgid "Authentication test successful"
-msgstr "Kiểm tra xác thực thành công"
+msgstr "Kiểm tra việc xác thực thành công"
 
 #: Domain_AuthTestFailed
 msgid "Authentication test failed"
-msgstr "Kiểm tra xác thực thất bại"
+msgstr "Kiểm tra việc xác thực thất bại"
 
 #: LBL_Domain_AuthTestResultCode
 msgid "Server message:"
@@ -396,6 +444,14 @@ msgstr "Cơ sở tìm kiếm LDAP:"
 msgctxt "Domain_AuthLdapFilter"
 msgid "LDAP filter:"
 msgstr "Bộ lọc LDAP:"
+
+#: Domain_zimbraAuthFallbackToLocal
+msgid "If fail, fall back to local password management"
+msgstr "Nếu thất bại, quay trở lại quản lý mật khẩu cục bộ"
+
+#: Domain_zimbraPasswordChangeListener
+msgid "External password change listener:"
+msgstr "Trình lắng nghe thay đổi mật khẩu ngoài:"
 
 #: Domain_CreateNotebook
 msgid "Create domain level document space:"
@@ -460,13 +516,17 @@ msgid ""
 "Virtual hosts allow the system to establish a default domain for a user "
 "login.  Any user that logs in while using a URL with one of the hostnames "
 "below will be assumed to be in this domain, {0} . Please note, that removal "
-"of a virtual host takes effect only after mailbox server is restarted.  "
+"of a virtual host takes effect only after mailbox server is restarted. "
 msgstr ""
-"Những máy chủ ảo cho phép hệ thống thiết lập một tên miền mặc định cho một "
-"người dùng đăng nhập. Bất kỳ người dùng nào đăng nhập trong khi sử dụng một "
-"URL với một hostname bên dưới sẽ được cho là bên trong tên miền này, {0} . "
-"Vui lòng chú ý, rằng việc loại bỏ một máy chủ ảo chỉ thực hiện sau khi máy "
-"chủ hòm thư khởi động lại."
+"Máy chủ ảo cho phép hệ thống thiết lập một tên miền mặc định cho một người "
+"dùng đăng nhập. Bất kỳ người dùng nào đăng nhập vào trong khi sử dụng một "
+"URL với một tên máy chủ bên dưới sẽ được cho là bên trong tên miền này, "
+"{0} . Vui lòng chú ý, rằng việc loại bỏ một máy chủ ảo chỉ có hiệu lực sau "
+"khi máy chủ hòm thư khởi động lại."
+
+#: Domain_BC_ShareConf
+msgid "Briefcase Share Configuration"
+msgstr "Cấu hình chia sẻ cặp tài liệu"
 
 #: Notebook_Access_Control
 msgid "Documents Access Control  "
@@ -1087,6 +1147,10 @@ msgstr "Zimlet được triển khai thành công"
 msgid "<nobr>Deploying to server {0}... <b>{1}</b></nobr>"
 msgstr "<nobr>Đang triển khai tới máy chủ {0}... <b>{1}</b></nobr>"
 
+#: ZMLT_DeployProgresFail
+msgid "<b>Failed</b> to deploy to server {0}. Error: <b>{1}</b>"
+msgstr "<b>Thất bại</b> trong việc triển khai tới máy chủ {0}. Lỗi: <b>{1}</b>"
+
 #: ZMLT_StatusPending
 msgid "pending"
 msgstr "đang chờ xử lý"
@@ -1198,6 +1262,10 @@ msgstr "Danh sách phân phối"
 msgid "Servers"
 msgstr "Máy chủ"
 
+#: OVP_serverSettings
+msgid "Server settings"
+msgstr "Thiết lập máy chủ"
+
 #: OVP_status
 msgctxt "OVP_status"
 msgid "Server Status"
@@ -1255,7 +1323,11 @@ msgstr "bytes"
 
 #: NAD_AuthLdapExternalDn
 msgid "External LDAP account for Authentication:"
-msgstr "Tài khoản LDAP bên ngoài cho xác thực:"
+msgstr "Tại khoản LDAP bên ngoài cho xác thực:"
+
+#: tt_AuthLdapExternalDn
+msgid "Example: uid=test1,ou=people,dc=external,dc=com"
+msgstr "Ví dụ: uid=test1,ou=people,dc=external,dc=com"
 
 #: TBB_New
 msgid "New"
@@ -1308,6 +1380,38 @@ msgstr "Vô hiệu"
 msgid "Download"
 msgstr "Tải xuống"
 
+#: TBB_AddDomainAlias
+msgid "Add a Domain Alias"
+msgstr "Thêm một bí danh tên miền"
+
+#: TBB_AddDomainAlias_tt
+msgid ""
+"Add a domain alias to let users share the same mailbox with multiple email "
+"addresses"
+msgstr ""
+"Thêm một bí danh tên miền cho phép người dùng chia sẻ cùng một hộp thư với "
+"nhiều địa chỉ email"
+
+#: LBL_domainAlias
+msgid "Domain Alias:"
+msgstr "Bí danh tên miền:"
+
+#: LBL_targetDomain
+msgid "Target Domain:"
+msgstr "Tên miền đích:"
+
+#: Title_Create_domain_alias
+msgid "Create a domain alias"
+msgstr "Tạo một bí danh tên miền"
+
+#: Title_Edit_domain_alias
+msgid "Edit a domain alias"
+msgstr "Sửa một bí danh tên miền"
+
+#: DESC_targetDomain
+msgid "domain alias of {0}"
+msgstr "bí danh tên miền của {0}"
+
 #: SERTBB_DownloadConfig_tt
 msgid ""
 "Download contents of /opt/zimbra/conf folder on this server in one gzipped "
@@ -1322,7 +1426,7 @@ msgstr "Xả bộ nhớ đệm"
 
 #: SERTBB_FlushCache_tt
 msgid "Flush Skin/Zimlet cache of mailboxd"
-msgstr "Đấy bộ nhớ đệm Skin/Zimlet của mailboxd"
+msgstr "Xả bộ nhớ đệm Skin/Zimlet của mailboxd"
 
 #: GLOBTBB_DownloadConfig_tt
 msgid "Download contents of zimbra LDAP branch in one gzipped ldif file"
@@ -1380,8 +1484,8 @@ msgid "View Mail"
 msgstr "Xem thư"
 
 #: ACTBB_ExpireSessions
-msgid "Expire Sessions"
-msgstr "Phiên hết hạn"
+msgid "Invalidate Sessions"
+msgstr "Phiên hết hiệu lực"
 
 #: ACTBB_ExpireSessions_tt
 msgid "Force all sessions of this account to expire immediately"
@@ -1398,6 +1502,10 @@ msgstr ""
 "lực ngay lập tức. Nếu bạn tin rằng tài khoản này có thể đã bị xâm nhập, bạn "
 "nên xem xét thay đổi mật khẩu của tài khoản. Bạn có muốn làm mất hiệu lực "
 "tất cả phiên của tài khoản này ngay bây giờ?"
+
+#: EX_EXPIRE_OWN_SESSIONS
+msgid "Invalidate the session of your own"
+msgstr "Làm mất hiệu lực phiên của riêng bạn"
 
 #: TBB_Refresh_tt
 msgid "Refresh view"
@@ -1469,7 +1577,7 @@ msgstr "Đóng khung hiển thị này"
 
 #: ALTBB_New_tt
 msgid "Create an alias for a target account"
-msgstr "Tạo một bí danh cho một tài khoản đích"
+msgstr "Tạo một bí danh cho một tại khoản đích"
 
 #: ALTBB_Edit_tt
 msgctxt "ALTBB_Edit_tt"
@@ -1588,6 +1696,10 @@ msgstr "URL của máy chủ Microsoft Exchange:"
 #: NAD_Exchange_Auth_Schema
 msgid "Microsoft Exchange Authorization Scheme:"
 msgstr "Lược độ uỷ quyền Microsoft Exchange:"
+
+#: NAD_Exchange_Server_Type
+msgid "Microsoft Exchange Server Type:"
+msgstr "Loại máy chủ Microsoft Exchange:"
 
 #: NAD_Exchange_Auth_User
 msgid "Microsoft Exchange User Name:"
@@ -1842,7 +1954,7 @@ msgid ""
 msgstr ""
 "Một sự xả thư sẽ cố gắng chuyển giao tất các các thư đang đợi ở trên máy chủ "
 "này.<br>Thao tác này sẽ làm vô hiệu việc đếm thông điệp hiện thời đã hiển "
-"thị cho các hàng đợi trên máy chủ này.<br>"
+"thị cho hàng đợi trên máy chủ này.<br>"
 
 #: PQ_Loading
 msgid "loading..."
@@ -2015,6 +2127,14 @@ msgstr ""
 "<b>Note:</b> Các thiết lập này không ảnh hưởng tới các mật khẩu đã cài đặt "
 "bởi người dụng trong tên miền mà được cấu hình sử dụng sự xác thực bên ngoài."
 
+#: Alert_ExternalPassword
+msgid ""
+"All password settings are disabled because the system is configured to use "
+"external authentication."
+msgstr ""
+"Tất cả thiết lập mật khẩu được vô hiệu hóa bởi vì hệ thống được cấu hình để "
+"sử dụng xác thực bên ngoài."
+
 #: Alert_MailRetention
 msgid ""
 "<b>Note:</b> These settings will not have effect if "
@@ -2068,6 +2188,15 @@ msgstr ""
 "<b>Cảnh báo:</b> Việc xả bộ nhớ đệm Zimlet/Skin sẽ buộc máy chủ hộp thư tái "
 "sinh toàn bộ tài nguyên JavaScript và CSS. Việc này có thể tạm thời làm tăng "
 "thời gian phải hồi của ứng dụng webmail."
+
+#: Alert_Flush_Theme_Cache
+msgid ""
+"<b>Note:</b> Change to theme setting requires to flush server theme cache. "
+"You can do this by \"Flush Cache\" button on the toolbar of server setting."
+msgstr ""
+"<b>Chú ý:</b> Thay đổi thiết lập theme yêu cầu xả bộ nhớ đệm theme của máy "
+"chủ. Bạn có thể làm việc này bằng cách bấm nút \"Xả bộ nhớ đệm\" trên thanh "
+"công cụ của thiết lập máy chủ."
 
 #: HSM_ProcessStatus
 msgid ""
@@ -2190,6 +2319,11 @@ msgstr "Mô tả"
 msgctxt "DLV_Status_col"
 msgid "Status"
 msgstr "Trạng thái"
+
+#: DLV_Type_col
+msgctxt "DLV_Type_col"
+msgid "Type"
+msgstr "Kiểu"
 
 #: SLV_Name_col
 msgctxt "SLV_Name_col"
@@ -2557,8 +2691,8 @@ msgid "Spell Checker"
 msgstr "Bộ kiểm tra chính tả"
 
 #: NAD_Service_Imapproxy
-msgid "Imap and Pop proxy"
-msgstr "Cổng Imap và Pop"
+msgid "Reverse proxy"
+msgstr "Proxy ngược"
 
 #: NAD_Dialog_ShutdownEmailService
 msgid "You are about to shutdown the Email service on this server!"
@@ -2724,21 +2858,23 @@ msgstr "Những mạng mà MTA tin tưởng"
 
 #: NAD_MTA_RelayHostname
 msgid "Relay MTA hostname:"
-msgstr "Tên máy chủ MTA tiếp vận:"
+msgstr "Tên máy chủ tiếp vận MTA:"
 
 #: NAD_MTA_RelayPort
 msgid "Relay MTA port:"
 msgstr "Cổng của MTA tiếp vận:"
 
 #: NAD_MTA_MaxMsgSize
-msgid "Maximum message size (kb):"
-msgstr "Kích cỡ tối đa của thông điệp (kb):"
+msgid "Maximum message size (KB):"
+msgstr "Kích thước thông điệp tối đa (KB):"
 
 #: NAD_DOC_MaxUploadSize
-msgid "Maximum size of an uploaded file for Documents or Briefcase (kb):"
+msgid ""
+"Maximum size of an uploaded file for Briefcase, Email messages, Calendar "
+"appointments and Tasks (KB):"
 msgstr ""
-"Kích cỡ tối đa của một tập tin tải lên cho chức năng Tài liệu hoặc chức năng "
-"Cặp tài liệu (kb):"
+"Kích cỡ tối đa của một tập tin tải lên cho Cặp tài liệu, Thông điệp email, "
+"Cuộc hẹn và Công việc (KB):"
 
 #: NAD_MTA_Options
 msgctxt "NAD_MTA_Options"
@@ -2754,20 +2890,29 @@ msgid "Protocol checks"
 msgstr "Kiểm tra giao thức"
 
 #: NAD_MTA_reject_invalid_hostname
-msgid "Hostname in greeting violates RFC (reject_invalid_hostname)"
-msgstr "Tên máy chủ trong lời chào vi phạm RFC (reject_invalid_hostname)"
+msgid "Hostname in greeting violates RFC (reject_invalid_helo_hostname)"
+msgstr "Tên máy chủ trong lời chào vi phạm RFC (reject_invalid_helo_hostname)"
 
 #: NAD_MTA_reject_non_fqdn_hostname
 msgid ""
-"Client must greet with a fully qualified hostname (reject_non_fqdn_hostname)"
+"Client must greet with a fully qualified hostname "
+"(reject_non_fqdn_helo_hostname)"
 msgstr ""
-"Trình khách phải chào với một tên máy chủ hoàn toàn đầy đủ tiêu chuẩn "
-"(reject_non_fqdn_hostname)"
+"Trình khách phải chào với một tên máy chủ đầy đủ tiêu chuẩn "
+"(reject_non_fqdn_helo_hostname)"
 
 #: NAD_MTA_reject_non_fqdn_sender
 msgid "Sender address must be fully qualified (reject_non_fqdn_sender)"
 msgstr ""
 "Địa chỉ gửi phải là hoàn toàn đầy đủ tiêu chuẩn (reject_non_fqdn_sender)"
+
+#: NAD_MTA_PolicyServiceChecks
+msgid "Policy Service Checks"
+msgstr "Kiểm tra dịch vụ chính sách"
+
+#: NAD_MTA_policy_service
+msgid "Policy Service:"
+msgstr "Dịch vụ chính sách:"
 
 #: NAD_MTA_DnsChecks
 msgid "DNS checks"
@@ -2778,20 +2923,66 @@ msgid "List of RBLs:"
 msgstr "Danh sách RBLs:"
 
 #: NAD_MTA_reject_unknown_client
-msgid "Client's IP address (reject_unknown_client)"
-msgstr "Địa chỉ IP của trình khách (reject_unknown_client)"
+msgid "Client's IP address (reject_unknown_client_hostname)"
+msgstr "Địa chỉ IP của trình khách (reject_unknown_client_hostname)"
 
 #: NAD_MTA_reject_unknown_hostname
-msgid "Hostname in greeting (reject_unknown_hostname)"
-msgstr "Tên máy chủ trong lời chào (reject_unknown_hostname)"
+msgid "Hostname in greeting (reject_unknown_helo_hostname)"
+msgstr "Tên máy chủ trong lời chào (reject_unknown_helo_hostname)"
 
 #: NAD_MTA_reject_unknown_sender_domain
 msgid "Sender's domain (reject_unknown_sender_domain)"
 msgstr "Miên của trình gửi (reject_unknown_sender_domain)"
 
 #: NAD_add_x_orginate_IP
-msgid "Add X-Originating-IP to messages  "
+msgid "Add X-Originating-IP to messages"
 msgstr "Thêm X-Originating-IP tới thông điệp"
+
+#: NAD_MTA_notice_related_statistics_tabs_enable
+msgid ""
+"Enabling the MTA service will also enable the MTA related statistics "
+"sections for this server.  You may need to refresh your browser for these "
+"changes to take effect."
+msgstr ""
+"Bật dịch vụ MTA cũng sẽ bật các phần thống kê liên quan đến MTA cho máy chủ "
+"này. Bạn có thể cần phải làm mới trình duyệt của bạn để các thay đổi có hiệu "
+"lực."
+
+#: NAD_MTA_notice_related_statistics_tabs_disable
+msgid ""
+"Disabling the MTA service will also hide the MTA related statistics section "
+"for this server.  You may need to refresh your browser for these changes to "
+"take effect."
+msgstr ""
+"Vô hiệu dịch vụ MTA cũng sẽ ẩn các phần thống kê liên quan đến MTA cho máy "
+"chủ này. Bạn có thể cần phải làm mới trình duyệt của bạn để các thay đổi có "
+"hiệu lực."
+
+#: Global_MTA_MilterServer
+msgid "Milter Server  "
+msgstr "Máy chủ Milter"
+
+#: NAD_MTA_MilterBindPort
+msgid "Milter Server Bind Port:"
+msgstr "Cổng ràng buộc máy chủ Milter:"
+
+#: NAD_MTA_MilterServerEnabled
+msgid "Enable Milter Server"
+msgstr "Bật máy chủ Milter"
+
+#: NAD_MTA_MilterBindAddress
+msgid "Milter Server Bind Address:"
+msgstr "Địa chỉ ràng buộc máy chủ Milter:"
+
+#: NAD_MTA_AddBindAddress
+msgctxt "NAD_MTA_AddBindAddress"
+msgid "Add"
+msgstr "Thêm"
+
+#: NAD_MTA_RemoveBindAddress
+msgctxt "NAD_MTA_RemoveBindAddress"
+msgid "Remove"
+msgstr "Loại bỏ"
 
 #: NAD_Enable_ASAV
 msgid "Enable spam checking and antivirus "
@@ -2901,6 +3092,18 @@ msgstr "Ra khỏi cả cuộc đời bộ đệm văn phòng:"
 msgid "Polling interval (time after which to check for new mail)"
 msgstr "Khoảng thăm dò (thời gian sau cái mà kiểm tra thư mới)"
 
+#: LBL_asNewMailArrives
+msgid "As New Mail Arrives"
+msgstr "Như thư mới đến"
+
+#: LBL_manual
+msgid "Manually"
+msgstr "Bằng tay"
+
+#: LBL_minute
+msgid "minutes"
+msgstr "phút"
+
 #: LBL_zimbraPrefMailPollingInterval
 msgid "Polling interval (time after which to check for new mail):"
 msgstr "Khoảng thăm dò (thời gian sau khi kiểm tra thư mới)"
@@ -2962,14 +3165,12 @@ msgid "Admin console auth token lifetime:"
 msgstr "Vòng đời dấu hiệu xác thực bảng điều khiển quản trị:"
 
 #: MSG_zimbraMailMessageLifetime
-msgctxt "MSG_zimbraMailMessageLifetime"
 msgid "E-mail message lifetime"
 msgstr "Vòng đời thông điệp email"
 
 #: LBL_zimbraMailMessageLifetime
-msgctxt "LBL_zimbraMailMessageLifetime"
-msgid "E-mail message lifetime"
-msgstr "Vòng đời thông điệp email"
+msgid "E-mail message lifetime:"
+msgstr "Vòng đời thông điệp email:"
 
 #: MSG_zimbraMailIdleSessionTimeout
 msgid "Session idle timeout"
@@ -3098,8 +3299,29 @@ msgid "Email Retention Policy"
 msgstr "Chính sách duy trì email"
 
 #: NAD_InteropGrouper
-msgid "Free/Busy Interop    "
+msgctxt "NAD_InteropGrouper"
+msgid "Free/Busy Interop"
 msgstr "Interop rỗi/bận"
+
+#: NAD_MailTransport
+msgid "Mail Transport:"
+msgstr "Vận chuyển thư:"
+
+#: NAD_MailTransportGrouper
+msgid "Mail Transport"
+msgstr "Vận chuyển thư"
+
+#: ERROR_MAILTRANSPORT_INVALID
+msgid "Invalid LMTP or SMTP transport definition."
+msgstr "Định nghĩa vận chuyển LMTP hoặc SMTP không hợp lệ."
+
+#: MSG_MailTransportMessage
+msgid ""
+"It should be \"protocol\":\"server\":\"port\".  e.g. smtp:smtp."
+"zimbrasmtpserver.com:25 "
+msgstr ""
+"Nó nên là \"giao thức\":\"máy chủ\":\"cổng\".  v.d. smtp:smtp."
+"zimbrasmtpserver.com:25 "
 
 #: NAD_AccountName
 msgid "Account name:"
@@ -3119,9 +3341,17 @@ msgstr "Tài khoản"
 msgid "First name:"
 msgstr "Tên:"
 
+#: NAD_zimbraPhoneticFirstName
+msgid "Phonetic First Name:"
+msgstr "Phiên âm tên:"
+
 #: NAD_LastName
 msgid "Last name:"
 msgstr "Họ:"
+
+#: NAD_zimbraPhoneticLastName
+msgid "Phonetic Last Name:"
+msgstr "Phiên âm họ:"
 
 #: NAD_DisplayName
 msgid "Display name:"
@@ -3215,11 +3445,11 @@ msgstr "Kích thước hộp thư:"
 
 #: MSG_zimbraContactMaxNumEntries
 msgid "Maximum number of contacts allowed in address book"
-msgstr "Số lượng liên hệ tối đa cho phép trong sổ địa chỉ"
+msgstr "Số liên hệ tối đa cho phép trong sổ địa chỉ"
 
 #: LBL_zimbraContactMaxNumEntries
 msgid "Maximum number of contacts allowed in address book:"
-msgstr "Số lượng liên hệ tối đa cho phép trong sổ địa chỉ:"
+msgstr "Số liên hệ tối đa cho phép trong sổ địa chỉ:"
 
 #: LBL_zimbraQuotaWarnPercent
 msgid "Percentage threshold for quota warning messages (%):"
@@ -3377,6 +3607,16 @@ msgstr "Chữ ký thư (tư cách mặc định):"
 msgid "Enable mail signature"
 msgstr "Cho phép chữ ký thư"
 
+#: LBL_zimbraPrefMailToasterEnabled
+msgctxt "LBL_zimbraPrefMailToasterEnabled"
+msgid "Enable toaster notification for new mail"
+msgstr "Cho phép thông báo toaster cho thư mới"
+
+#: MSG_zimbraPrefMailToasterEnabled
+msgctxt "MSG_zimbraPrefMailToasterEnabled"
+msgid "Enable toaster notification for new mail"
+msgstr "Cho phép thông báo toaster cho thư mới"
+
 #: LBL_zimbraPrefSaveToSent
 msgid "Save to sent"
 msgstr "Lưu giữ để gửi đi"
@@ -3427,13 +3667,13 @@ msgstr "Cho phép hủy bỏ việc gửi email tới người tổ chức."
 
 #: LBL_zimbraPrefCalendarToasterEnabled
 msgctxt "LBL_zimbraPrefCalendarToasterEnabled"
-msgid "Enable toaster notification for new mail"
-msgstr "Cho phép thông báo toaster cho thư mới"
+msgid "Enable toaster notification for new calendar events"
+msgstr "Cho phép thông báo toaster cho sự kiện lịch mới"
 
 #: MSG_zimbraPrefCalendarToasterEnabled
 msgctxt "MSG_zimbraPrefCalendarToasterEnabled"
-msgid "Enable toaster notification for new mail"
-msgstr "Cho phép thông báo toaster cho thư mới"
+msgid "Enable toaster notification for new calendar events"
+msgstr "Cho phép thông báo toaster cho sự kiện lịch mới"
 
 #: LBL_zimbraPrefCalendarShowPastDueReminders
 msgctxt "LBL_zimbraPrefCalendarShowPastDueReminders"
@@ -3474,6 +3714,18 @@ msgstr "Phân trang:"
 #: NAD_company
 msgid "Company:"
 msgstr "Công ty:"
+
+#: NAD_title
+msgid "Job Title:"
+msgstr "Chức vụ:"
+
+#: NAD_facsimileTelephoneNumber
+msgid "Fax Number:"
+msgstr "Số fax:"
+
+#: NAD_zimbraPhoneticCompany
+msgid "Phonetic Company:"
+msgstr "Phiên âm công ty:"
 
 #: NAD_city
 msgid "City:"
@@ -3587,8 +3839,22 @@ msgid "Most results returned by GAL search"
 msgstr "Hầu hết kết quả trả về bởi tìm kiếm GAL:"
 
 #: NAD_DomainAccountLimits
-msgid "{0} accounts may be added to domain {1}"
-msgstr "{0} tài khoản có thể được thêm tới tên miền {1}"
+msgid ""
+"<b>Warning:</b> You have reached the account limit for domain {0}. {1} "
+"accounts are over the limit."
+msgstr ""
+"<b>Cảnh báo:</b> Bạn đã đạt đến giới hạn tài khoản cho tên miền {0}. Tài "
+"khoản {1} vượt quá giới hạn."
+
+#: MSG_AccountTypeUnavailable
+msgid ""
+"<b>Warning:</b> You have reached the account limit for the following account "
+"types. Please increase the account limits. Or the default type {0} will be "
+"selected."
+msgstr ""
+"<b>Cảnh báo:</b>Bạn đã đạt đến giới hạn tài khoản cho các loại tài khoản sau "
+"đây. Vui lòng tăng mức giới hạn tài khoản. Hoặc loại mặc định {0} sẽ được "
+"lựa chọn."
 
 #: NAD_zimbraScheduledTaskNumThreads
 msgid "Maximum number of scheduled tasks that can run simultaneously:"
@@ -3627,7 +3893,7 @@ msgid "{0} at {1}"
 msgstr "{0} lúc {1}"
 
 #: NAD_AdvStatsIntervalFormatMinutes
-msgid "interval: %d minutes"
+msgid "interval: {0} minutes"
 msgstr "khoảng thời gian: %d phút"
 
 #: NAD_AdvStatsTipDateFormat
@@ -4256,10 +4522,6 @@ msgstr "Các đặc tính thư"
 msgid "Calendar Features"
 msgstr "Các đặc tính lịch làm việc"
 
-#: NAD_zimbraBriefcasesFeature
-msgid "Briefcase Features"
-msgstr "Đặc tính cặp tài liệu"
-
 #: NAD_zimbraIMFeature
 msgid "IM Features"
 msgstr "Các đặc tính IM"
@@ -4276,19 +4538,6 @@ msgstr "Tài liệu"
 #: LBL_zimbraFeatureBriefcasesEnabled
 msgid "Briefcase"
 msgstr "Cặp tài liệu"
-
-#: LBL_zimbraFeatureBriefcaseSpreadsheetEnabled
-msgid "Spreadsheets"
-msgstr "Bảng tính"
-
-#: LBL_zimbraFeatureBriefcaseSlidesEnabled
-msgid "Presentations"
-msgstr "Trình diễn"
-
-#: LBL_zimbraFeatureBriefcaseDocsEnabled
-msgctxt "LBL_zimbraFeatureBriefcaseDocsEnabled"
-msgid "Documents"
-msgstr "Tài liệu"
 
 #: LBL_zimbraFeatureHtmlComposeEnabled
 msgid "HTML compose"
@@ -4317,6 +4566,10 @@ msgstr "Hiện thị các đính kèm như HTML"
 #: LBL_zimbraFeatureGalEnabled
 msgid "Global Address List access"
 msgstr "Truy cập danh sách địa chỉ chung"
+
+#: LBL_zimbraFeatureMAPIConnectorEnabled
+msgid "MAPI (Microsoft Outlook) Connector"
+msgstr "Trình kết nối MAPI (Microsoft Outlook)"
 
 #: LBL_zimbraFeatureContactsEnabled
 msgid "Address Book"
@@ -4362,6 +4615,10 @@ msgstr "Thay đổi mật khẩu"
 msgid "Initial search preference"
 msgstr "Khởi tạo tham chiếu tìm kiếm"
 
+#: LBL_zimbraFeaturePeopleSearchEnabled
+msgid "Search for people"
+msgstr "Tìm kiếm người"
+
 #: LBL_zimbraFeatureFiltersEnabled
 msgid "Mail Filters"
 msgstr "Bộ lọc thư"
@@ -4394,9 +4651,25 @@ msgstr "Chia sẻ"
 msgid "Autocomplete from GAL"
 msgstr "Tự động hoàn thành từ GAL"
 
-#: LBL_zimbraFeatureImportExportFolderEnabled
-msgid "Import/Export"
-msgstr "Nhập/Xuất"
+#: LBL_zimbraFeatureImportFolderEnabled
+msgid "Import"
+msgstr "Nhập"
+
+#: LBL_zimbraFeatureExportFolderEnabled
+msgid "Export"
+msgstr "Xuất"
+
+#: LBL_zimbraDumpsterEnabled
+msgid "Dumpster folder"
+msgstr "Thư mục thùng rác"
+
+#: LBL_zimbraFeatureMailSendLaterEnabled
+msgid "Mail send later"
+msgstr "Thư gửi sau"
+
+#: LBL_zimbraFeatureFreeBusyViewEnabled
+msgid "Free/Busy View"
+msgstr "Khung hiển thị rỗi/bận"
 
 #: LBL_zimbraPrefShowFragments
 msgid "Show fragments"
@@ -4474,7 +4747,7 @@ msgstr "Theme UI hiện thời:"
 
 #: NAD_UseCosSettings
 msgid "Use COS settings"
-msgstr "Sử dụng cài đặt COS"
+msgstr "Sử dụng các cài đặt COS"
 
 #: NAD_LimitZimletsTo
 msgid "Limit Zimlets available to this user to:"
@@ -4852,8 +5125,8 @@ msgstr ""
 "tên miền như foo.com<br>%D = tên miền như dc=foo,dc=com"
 
 #: NAD_ZERO_UNLIMETED
-msgid "Note: Use \"0\" to specify \"unlimited\" value."
-msgstr "Chú ý: Sử dụng \"0\" để chi định giá trị \"không giới hạn\""
+msgid "<b>Note:</b> Use \"0\" to specify \"unlimited\" value."
+msgstr "<b>Chú ý:</b> Sử dụng \"0\" để chi định giá trị \"không giới hạn\""
 
 #: TABT_GeneralPage
 msgid "General Information"
@@ -4877,6 +5150,7 @@ msgid "Forwarding"
 msgstr "Chuyển tiếp"
 
 #: TABT_Interop
+msgctxt "TABT_Interop"
 msgid "Free/Busy Interop"
 msgstr "Interop rỗi/bận"
 
@@ -4907,6 +5181,7 @@ msgid "Feature"
 msgstr "Đặc tính"
 
 #: TABT_Advanced
+msgctxt "TABT_Advanced"
 msgid "Advanced"
 msgstr "Nâng cao"
 
@@ -5090,19 +5365,36 @@ msgstr "Không có hộp thư nào trong máy chủ này"
 
 #: Stats_MC_Header
 msgid "Number of recipients of messages via either SMTP or LMTP."
-msgstr "Số lượng người nhận thông điệp từ hoặc SMTP hoặc LMTP."
+msgstr "Số người nhận thông điệp từ hoặc SMTP hoặc LMTP."
 
 #: Stats_MV_Header
 msgid ""
 "Number of recipients of messages via either SMTP or LMTP multipled by the "
 "size of each such message."
 msgstr ""
-"Số lượng người nhận thông điệp từ hoặc SMTP hoặc LMTP đã nhân bởi kích cỡ "
-"của mỗi thông điệp như thế."
+"Số người nhận thông điệp từ hoặc SMTP hoặc LMTP đã nhân bởi kích cỡ của mỗi "
+"thông điệp như thế."
 
 #: Stats_AV_Header
 msgid "Number of unique messages processed by the AS/AV system."
-msgstr "Số lượng thông điệp duy nhất đã tiến hành bởi hệ thống AS/AV."
+msgstr "Số lượng thông điệp duy nhất đã xử lý bởi hệ thống AS/AV."
+
+#. # MobileSync
+#: TABT_MobileSync_Stats
+msgid "MobileSync statistics"
+msgstr "Thống kê MobileSync"
+
+#: Stats_MobileSync_Header
+msgid "MobileSync Sessions"
+msgstr "Phiên MobileSync"
+
+#: Stats_MobileSync_LOADING
+msgid "data is loading ..."
+msgstr "dữ liệu đang tải..."
+
+#: Stats_MobileSync_Count
+msgid "The total number of ActiveSync devices across servers:"
+msgstr "Tổng số thiết bị ActiveSync trên máy chủ:"
 
 #. #Resources Message
 #: RESTBB_New_menuItem
@@ -5166,7 +5458,7 @@ msgid "Email:"
 msgstr "Email:"
 
 #: NAD_ResType
-msgid "Type: "
+msgid "Type:"
 msgstr "Kiểu:"
 
 #: NAD_ResourceStatus
@@ -5266,6 +5558,10 @@ msgstr "Không có sẵn"
 msgid "Invalid email address"
 msgstr "Địa chỉ email không hợp lệ"
 
+#: ErrorInvalidEmailAddressList
+msgid "Invalid email address list"
+msgstr "Danh sách địa chỉ email không hợp lệ"
+
 #: ErrorEmptyEmailAddress
 msgid "Empty email address"
 msgstr "Địa chỉ email trống"
@@ -5349,6 +5645,14 @@ msgstr ""
 "tra trạng tháy của tiến trình đánh chỉ số lại, đưa trở lại hộp thoại này "
 "bằng việc bấm vào nút Đánh Chỉ Số Lại Hộp Thư trong thanh công cụ."
 
+#: ERROR_CANNOT_CHANGE_VOLUME
+msgid "Cannot change the type of current volume."
+msgstr "Không thể đổi kiểu volume hiện thời."
+
+#: CANNOT_DELETE_VOLUME_IN_USE
+msgid "Cannot delete volume! The volume is in use."
+msgstr "Không thể xóa volume! Volume đang được sử dụng."
+
 #: ERROR_NO_PERMISSION_FOR_OPERATION_ON
 msgid "Error! You do not have permission to perform this operation on {0}."
 msgstr "Lỗi! Bạn không có quyền thực hiện thao tác này trên {0}."
@@ -5358,8 +5662,8 @@ msgid "Error! You do not have permission to create an alias in domain {0}."
 msgstr "Lỗi! Bạn không có quyền tạo một bí danh trong tên miền {0}."
 
 #: ERROR_SESSION_EXPIRED
-msgid "Your Session Has Expired"
-msgstr "Phiên của bạn vừa quá hạn"
+msgid "Your session has expired. Please login again."
+msgstr "Phiên của bạn hết hạn. Vui lòng phải đăng nhập lại."
 
 #: ERROR_NO_FWD_REQ_LOCALDELIV
 msgid ""
@@ -5588,8 +5892,16 @@ msgid "The specified distribution list name is invalid."
 msgstr "Tên của danh sách phân phối đã chỉ định không hợp lệ."
 
 #: ERROR_INVALID_VOLUME_PATH
-msgid "The specified volume path is invalid"
-msgstr "Đường dẫn volume đã chỉ định không hợp lệ"
+msgid "The specified volume path is invalid!"
+msgstr "Đường dẫn volume chỉ định không hợp lệ!"
+
+#: ERROR_NO_SUCH_VOLUME
+msgid "The specified volume does not exist!"
+msgstr "Volume được chỉ định không tồn tại!"
+
+#: ERROR_VOLUME_ALREADY_EXISTS
+msgid "The specified volume already exists!"
+msgstr "Volume được chỉ định đã tồn tại!"
 
 #: ERROR_LICENSE
 msgid "License error encountered "
@@ -5745,8 +6057,25 @@ msgid "Cannot add aliases: {0}"
 msgstr "Không thể thêm các bí danh: {0}"
 
 #: WARNING_ALIASES_TARGET_NON_EXIST
-msgid "Target account/dl {0} doesn''t exist "
+msgid "Target account/dl {0} doesn''t exist"
 msgstr "Tài khoản/dl mục tiêu {0} không tồn tại"
+
+#: ERROR_TARGET_DOMAIN_NOT_EXIST
+msgid "Target domain {0} doesn''t exist"
+msgstr "Tài khoản/dl mục tiêu {0} không tồn tại"
+
+#: ERROR_DOMAIN_ALIAS_EXIST
+msgid "Can''t create domain alias {0}. It already exists."
+msgstr "Không thể tạo bí danh tên miền {0}. Nó đã tồn tại"
+
+#: ERROR_TARGET_DOMAIN_IS_ALIAS
+msgid "Target domain must be a local domain. {0} is a domain alias."
+msgstr ""
+"Tên miền đích phải là một tên miền cục bộ. {0} là một bí danh tên miền."
+
+#: ERROR_DOMAIN_ALIAS_NOT_EXIST
+msgid "You must specify the domain alias."
+msgstr "Bạn phải chỉ định bí danh tên miền."
 
 #: WARNING_REINDEX
 msgid ""
@@ -5793,6 +6122,18 @@ msgstr "Lớp dịch vụ {0} không tồn tại"
 #: ERROR_COS_NAME_TOOLONG
 msgid "The specified Class of Service name is too long."
 msgstr "Tên lớp dịch vụ chỉ định quá dài."
+
+#: ERROR_CANNOT_FIND_SKINS_FOR_COS
+msgid "Cannot find any available themes for this COS!"
+msgstr "Không thể tìm thấy bất kỳ theme có sẵn cho COS này!"
+
+#: ERROR_CANNOT_FIND_SKINS_FOR_COS_OR_NO_PERM
+msgid ""
+"Cannot find any available themes for this COS, or no permission to read "
+"installed skins information."
+msgstr ""
+"Không thể tìm thấy bất kỳ theme có sẵn cho COS này, hoặc không có sự cho "
+"phép để đọc thông tin cài đặt giao diện."
 
 #: ERROR_DOMAIN_EXISTS
 msgid "The specified domain already exists."
@@ -5875,7 +6216,7 @@ msgid ""
 "Failed to create account. The specified account already exists.<br>Please "
 "choose another name."
 msgstr ""
-"Tạo tài khoản thất bại. Tài khoản chỉ định đã tồn tại.<br>Vui lòng chọn tên "
+"Tạo tài khoản thất bại. Tại khoản chỉ định đã tồn tại.<br>Vui lòng chọn tên "
 "khác."
 
 #: FAILED_CREATE_ACCOUNT
@@ -5967,7 +6308,7 @@ msgid ""
 "performed at this time.Try again later."
 msgstr ""
 "Hàng đợi này hiện thời đang được quét và hành động yêu cầu không thể được "
-"thực hiện trong thời gian này.Vui lòng thử lại sau."
+"thực hiện trong thời gian này. Vui lòng thử lại sau."
 
 #: ERROR_FAILED_TO_GET_CREDENTIALS
 msgid "Failed to acquire credentials from the server"
@@ -6113,12 +6454,28 @@ msgstr ""
 msgid ""
 "A flush will attempt to deliver all queued mail on this server.<br>This "
 "operation will invalidate the message counts currently displayed for the "
-"queues on this server.<br>Do you want to perform a queue flush? "
+"queues on this server.<br>Do you want to perform a queue flush?"
 msgstr ""
 "Một việc xả sẽ cố gắng phân phát tất cả thư đã xếp hàng trên máy chủ này."
 "<br>Thao tác này sẽ làm mất hiệu lực tổng số thông điệp hiện thời đã hiển "
-"thị đối với các hàng đợi trên máy chủ này.<br>Bạn muốn thực hiện một việc xả "
+"thị đối với các hàng đợi trên máy chủ này.<br>Bạn muốn thực hiện việc xả "
 "hàng đợi?"
+
+#: Q_CREATE_VOLUME
+msgid "Are you sure you want to create a volume at {0}? "
+msgstr "Bạn chắc chắn muốn tạo một volume lúc {0}? "
+
+#: DELETED_VOLUMES_CONFIRMATION
+msgid "Succesfully deleted selected volumes."
+msgstr "Thành công xóa volume được lựa chọn."
+
+#: UPDATE_VOLUME_CONFIRMATION
+msgid "Successfully updated the volume."
+msgstr "Cập nhật thành công volume."
+
+#: VolumeCreated
+msgid "Created volume at {0}."
+msgstr "Volume đã tạo lúc {0}."
 
 #: CORRECT_ERRORS
 msgid "Please correct the values in these fields:"
@@ -6148,6 +6505,10 @@ msgid ""
 msgstr ""
 "Cảnh báo! {0} là một tài khoản đồng bộ GAL. Việc xóa tài khoản này chó thể "
 "gây ra lỗi không mong muốn. Bạn có chắc chắn muốn xóa tài khoản này?"
+
+#: WARN_CHANGE_AUTH_METH
+msgid "Warning! You need to reload the tab(s) for"
+msgstr "Cảnh báo! Bạn cần phải tải lại tab cho"
 
 #: attrDesc_zimbraId
 msgid "Id"
@@ -6257,6 +6618,10 @@ msgstr "Tài khoản"
 msgctxt "aliasTargetTypeDL"
 msgid "Distribution List"
 msgstr "Danh sách phân phối"
+
+#: aliasTargetTypeResource
+msgid "Resource"
+msgstr "Tài nguyên"
 
 #: STANDALONE
 msgid "Standalone"
@@ -6477,6 +6842,15 @@ msgstr "Các thuộc tính cơ bản"
 msgid "Filter the search by basic LDAP attributes"
 msgstr "Lọc tìm kiếm theo các thuộc tính LDAP cơ bản"
 
+#: searchByCOS
+msgctxt "searchByCOS"
+msgid "Class of Service"
+msgstr "Lớp dịch vụ"
+
+#: tt_searchByCOS
+msgid "Filter the search by COS"
+msgstr "Lọc tìm kiếm theo COS"
+
 #: searchByRemoveAll
 msgctxt "searchByRemoveAll"
 msgid "Remove All"
@@ -6494,18 +6868,32 @@ msgstr "Tất cả tên miền"
 msgid "Filter: "
 msgstr "Lọc:"
 
-#: search_option_filter_input_help
+#: search_option_filter_input_help_domain
 msgid "<Type the domain name ...>"
 msgstr "<Nhập tên miền ...>"
+
+#: search_option_filter_input_help_cos
+msgid "<Type the COS name ...>"
+msgstr "<Nhập tên COS ...>"
 
 #: tt_domain_search_option_filter
 msgid "Type the domain name and all the matching domains will be returned."
 msgstr "Nhập tên miền và tất cả các tên miền phù hợp sẽ được trả về."
 
+#: tt_cos_search_option_filter
+msgid "Type the COS name and all the matching domains will be returned."
+msgstr "Nhập tên COS và tất cả tên miền phù hợp sẽ được trả về."
+
 #: no_domain_found_msg
 msgid "No matching domain is found. Please refine your filter."
 msgstr ""
 "Không có tên miền phù hợp được tìm thấy. Vui lòng tinh lọc việc lọc của bạn."
+
+#: no_cos_found_msg
+msgid "No matching Class of Service is found. Please refine your filter."
+msgstr ""
+"Không có Lớp dịch vụ phù hợp được tìm thấy. Vui lòng tinh chỉnh bộ lọc của "
+"bạn."
 
 #: search_option_all_server
 msgid "All servers"
@@ -6639,6 +7027,10 @@ msgstr "Bảng quản trị Hệ thống cộng tác Zimbra(TM)"
 msgid "Username"
 msgstr "Tên người dùng"
 
+#: more
+msgid "Use local Appliance login"
+msgstr "Sử dụng đăng nhập Thiết bị cục bộ"
+
 #: password
 msgctxt "password"
 msgid "Password"
@@ -6725,10 +7117,10 @@ msgstr "Trình trợ giúp của quản trị Zimbra"
 #: HELP_PAGE_1
 msgid ""
 "Below are links to Zimbra documentation and forums, to help you find answers "
-"to your questions about using the Zimbra Collaboration Suite."
+"to your questions about using the Zimbra Collaboration Server."
 msgstr ""
 "Bên dưới là các liên kết tới tài liệu và diễn đàn Zimbra, để trợ giúp bạn "
-"tìm các câu trả lời tới các câu hỏi về việc sử dụng Hệ thống cộng tác Zimbra"
+"tìm câu trả lời tới câu hỏi về việc sử dụng Máy chủ cộng tác Zimbra"
 
 #: HELP_PAGE_2
 msgid "Zimbra Online Help\t"
@@ -6739,7 +7131,7 @@ msgid ""
 "To learn how to use the administration console, click the Zimbra Online Help "
 "link. "
 msgstr ""
-"Để học cách sử dụng bộ điều khiển quản trị như thế nào, vui lòng bấm vào "
+"Để học cách sử dụng bộ điều khiển quản trị như thế nào, Vui lòng bấm vào "
 "liên kết Trợ giúp trực tuyến Zimbra."
 
 #: HELP_PAGE_4
@@ -6795,15 +7187,14 @@ msgid ""
 "The Migration Wizard Guides explain how to use the Zimbra Migration Wizard "
 "to migrate Microsoft<symbol name=Registered>&#174; Exchange or Lotus<symbol "
 "name=Registered>&#174; Domino<symbol name=Registered>&#174; server email "
-"accounts to the Zimbra Collaboration Suite server and to import the email "
-"and contact information for the selected users."
+"accounts to the Zimbra Collaboration Server and to import the email and "
+"contact information for the selected users."
 msgstr ""
 "Phần hướng dẫn Thuật sĩ di trú giải thích cách sử dụng Thuật sĩ di trú "
 "Zimbra để di trú các tài khoản email của máy chủ Microsoft<symbol "
 "name=Registered>&#174; Exchange hoặc Lotus<symbol name=Registered>&#174; "
-"Domino<symbol name=Registered>&#174; tới máy chủ của Hệ thống cộng tác "
-"Zimbra và để nhập các thông tin liên hệ và email cho những người dùng đã "
-"chọn."
+"Domino<symbol name=Registered>&#174; tới Máy chủ cộng tác Zimbra và để nhập "
+"các thông tin liên hệ và email cho những người dùng đã chọn."
 
 #: HELP_PAGE_12
 msgid "Zimbra Wiki"
@@ -6825,7 +7216,7 @@ msgstr "Thuật sĩ di trú"
 
 #: HELP_OTHER_GUIDES
 msgid "Other Guides"
-msgstr "Hướng dẫn khác"
+msgstr "Các hướng dẫn khác"
 
 #: HELP_OTHER_GUIDES_IMPORT
 msgid "Import Wizard Guide"
@@ -6834,19 +7225,20 @@ msgstr "Hướng dẫn thuật sẽ nhập"
 #: HELP_OTHER_GUIDES_IMPORT_INFO
 msgid ""
 "The Import Wizard guide explains how users can import the contents of a .pst "
-"file from a Microsoft Outlook 2003 mailbox to accounts on the Zimbra server."
+"file from a Microsoft Outlook 2003, 2007, 2010 mailbox to accounts on the "
+"Zimbra Collaboration Server."
 msgstr ""
 "Hướng dẫn thuật sẽ nhập giải thích cách người dùng có thể nhập các nội dung "
-"của một tập tin .pst từ một hộp thư Microsoft Outlook 2003 tới các tài khoản "
-"trên máy chủ Zimbra."
+"của một tập tin .pst từ một hộp thư Microsoft Outlook 2003, 2007, 2010 tới "
+"các tài khoản trên Máy chủ cộng tác Zimbra."
 
 #: HELP_OTHER_GUIDES_CONNNECTOR_INFO
 msgid ""
 "These guides explain how to install the connectors to synchronize data with "
-"the Zimbra server."
+"the Zimbra Collaboration Server."
 msgstr ""
 "Các hướng dẫn này giải thích cách cài đặt trình kết nối để đồng bộ dữ liệu "
-"với máy chủ Zimbra."
+"với Máy chủ cộng tác Zimbra."
 
 #: DOWNLOAD_PAGE_0
 msgid "Zimbra Utilities Downloads"
@@ -7073,23 +7465,39 @@ msgstr ""
 
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-2012 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
-"trademarks of Zimbra, Inc."
+"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. Telligent "
+"and Zimbra are registered trademarks or trademarks of Telligent Systems, Inc."
 msgstr ""
-"Bản quyền © 2005-2012 Zimbra, Inc.     'Zimbra' và các biểu trưng Zimbra là "
-"thương hiệu của Zimbra, Inc."
+"Bản quyền © 2005 - {0} Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
+"và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
+"Systems, Inc."
 
 #: splashScreenVersion
 msgid "Version"
 msgstr "Phiên bản"
 
+#: rememberMe
+msgid "Remember me"
+msgstr "Ghi nhớ tôi"
+
 #: IMPORT_WIZ_DOWNLOAD_HELP
+msgctxt "IMPORT_WIZ_DOWNLOAD_HELP"
+msgid "User Instructions"
+msgstr "Chỉ dẫn người dùng"
+
+#: CONNECTOR_DOWNLOAD_HELP
+msgctxt "CONNECTOR_DOWNLOAD_HELP"
 msgid "User Instructions"
 msgstr "Chỉ dẫn của người dùng"
 
-#: CONNECTOR_DOWNLOAD_HELP
-msgid "User Instructions "
-msgstr "Chỉ dẫn của người dùng"
+#: GENERAL_MIG_WIZ_DOWNLOAD_TEXT
+msgid ""
+"This Windows application performs a server to server migration of mail, "
+"calendar, and contacts from Microsoft Exchange, PST file or IBM Domino to "
+"ZCS."
+msgstr ""
+"Ứng dụng Window này thực thi một máy chủ tới máy chủ việc di trú mail, lịch, "
+"và liên hệ từ Microsoft Exchange, tập tin PST hoặc IBM Domino tới ZCS."
 
 #: MIG_WIZ_DOWNLOAD_TEXT
 msgid ""
@@ -7191,12 +7599,13 @@ msgstr "Có thể được sử dụng trong một ACL:"
 
 #: Q_REMOVE_INDIRECT_GROUP
 msgid ""
-"Remove distribution list {0}, <br />will also remove the following "
-"distribution lists: <br />{1}<br /> Do you want to continue removing this "
-"distribution list?"
+"Removing membership of distribution list {0}, <br />will also remove "
+"membership of the following distribution lists: <br />{1}<br /> Do you want "
+"to continue removing membership of this distribution list?"
 msgstr ""
-"Loại bỏ danh sách phân phối {0}, <br />cũng sẽ loại bỏ các danh sách phân "
-"phối sau: <br />{1}<br /> Bạn muốn tiếp tục loại bỏ danh sách phân phối này?"
+"Loại bỏ thành viên danh sách phân phối {0}, <br />cũng sẽ loại bỏ thành viên "
+"của các danh sách phân phối sau: <br />{1}<br /> Bạn muốn tiếp tục loại bỏ "
+"thành viên của danh sách phân phối này?"
 
 #: TooManyResults
 msgid ""
@@ -7282,7 +7691,7 @@ msgid "Alias: "
 msgstr "Bí danh:"
 
 #: Alias_Dlg_label_target_acct
-msgid "Target Account: "
+msgid "Target Account:"
 msgstr "Tài khoản mục tiêu:"
 
 #. #License
@@ -7406,7 +7815,7 @@ msgid "Searching directory for domains..."
 msgstr "Tìm kiếm thư mục cho tên miền..."
 
 #: BUSY_SEARCHING_COSES
-msgid "Searching directory for classes of service..."
+msgid "Searching directory for Class of Service..."
 msgstr "Tìm kiếm thư mục cho lớp dịch vụ..."
 
 #: BUSY_REQUESTING_ACCESS_RIGHTS
@@ -7531,7 +7940,7 @@ msgstr "Đang lấy tất cả thông tin máy chủ ..."
 
 #: BUSY_FLUSH_QUEUE
 msgid "Flushing the mail queue ..."
-msgstr "Đang phun hàng đợi thư ..."
+msgstr "Đang xả hàng đợi thư ..."
 
 #: BUSY_CREATE_RESOURCE
 msgid "Creating the resource ..."
@@ -7572,6 +7981,10 @@ msgstr "Đang nhận tất cả volume ..."
 #: BUSY_DELETE_VOL
 msgid "Deleting the volume ..."
 msgstr "Đang xoá volume ..."
+
+#: BUSY_LOADING_VOL
+msgid "Loading volumes ..."
+msgstr "Đang nạp volume ..."
 
 #: BUSY_CREATE_VOL
 msgid "Creating the volume ..."
@@ -7652,7 +8065,7 @@ msgstr ""
 #. ##Errors
 #: ERROR_FAILED_FLUSH_CACHE
 msgid "Failed to flush cache on server {0}"
-msgstr "Không thể tuôn ra bộ nhớ đệm trên máy chủ {0}"
+msgstr "Không thể xả bộ nhớ đệm trên máy chủ {0}"
 
 #: ERROR_GET_USED_ACCOUNTS
 msgid "Can''t get the total number of used accounts for domain {0}"
@@ -7822,6 +8235,10 @@ msgstr "Xem danh sách Zimlet Admin"
 #: UI_Comp_SaveSearch
 msgid "Saved Searches View"
 msgstr "Xem tìm kiếm đã lưu"
+
+#: UI_Comp_HelpSearch
+msgid "Help Search View"
+msgstr "Khung hiển thị tìm kiếm trợ giúp"
 
 #: UI_Comp_AccountsContactTab
 msgid "Account View, Contact Information Page "
@@ -8055,9 +8472,17 @@ msgstr "Biểu mẫu"
 msgid "Basic"
 msgstr "Cơ bản"
 
+#: choice_webdav
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#: choice_ews
+msgid "EWS"
+msgstr "EWS"
+
 #: LB_External_mail
-msgid "External Email Address:"
-msgstr "Địa chỉ email bên ngoài:"
+msgid "List Member:"
+msgstr "Liệt kê thành viên:"
 
 #: TBB_MoreActions
 msgid "More Actions"
@@ -8067,13 +8492,21 @@ msgstr "Thao tác khác"
 msgid "Click to view more actions"
 msgstr "Bấm để xem hành động khác"
 
+#: GENERAL_MIG_WIZ_X86_DOWNLOAD_LINK_MSG
+msgid "General ZCS Migration Wizard (32bits)"
+msgstr "Thuật sĩ di trú ZCS chung (32bits)"
+
+#: GENERAL_MIG_WIZ_X64_DOWNLOAD_LINK_MSG
+msgid "General ZCS Migration Wizard (64bits)"
+msgstr "Thuật sĩ di trú ZCS chung (64bits)"
+
 #: MIG_WIZ_DOWNLOAD_LINK_MSG
 msgid "ZCS Migration Wizard for Exchange"
-msgstr "Thuật sĩ di trú ZCS cho Exchange"
+msgstr "Thuật sĩ dịch trú ZCS cho Exchange"
 
 #: DOMINO_MIG_WIZ_DOWNLOAD_LINK_MSG
 msgid "ZCS Migration Wizard for Domino"
-msgstr "Thuật sĩ di trú ZCS cho Domino"
+msgstr "Thuật sĩ dịch trú ZCS cho Domino"
 
 #: IMPORT_WIZ_DOWNLOAD_LINK_MSG
 msgid "PST Import Wizard"
@@ -8087,9 +8520,17 @@ msgstr "Zimbra Toaster"
 msgid "Zimbra Connector for Outlook MSI Customizer"
 msgstr "Trình kết nối Zimbra cho Outlook MSI Customizer"
 
-#: CONNECTOR_DOWNLOAD_LINK_MSG
-msgid "Zimbra Connector for Outlook"
-msgstr "Trình kết nối Zimbra cho Outlook"
+#: ZCO_BRANDING_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector for Outlook Branding MSI"
+msgstr "Trình kết nối Zimbra cho Outlook Branding MSI"
+
+#: CONNECTOR_32_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector(32bits) for Outlook"
+msgstr "Trình kết nối Zimbra (32bits) cho Outlook"
+
+#: CONNECTOR_64_DOWNLOAD_LINK_MSG
+msgid "Zimbra Connector(64bits) for Outlook"
+msgstr "Trình kết nối Zimbra (64bits) cho Outlook"
 
 #: CONNECTOR_ISYNC_DOWNLOAD_LINK_MSG
 msgid "Zimbra Connector for Apple iSync"
@@ -8110,8 +8551,8 @@ msgstr ""
 "tập tin nhật ký và việc liên lạc tới Bộ phận hỗ trợ của Zimbra."
 
 #: ZWC_END_USER_GUIDE
-msgid "ZWC End User Guide for 6.0"
-msgstr "Hướng dẫn người dùng cuối ZWC cho 6.0"
+msgid "ZWC End User Guide for 7.0"
+msgstr "Hướng dẫn người dùng cuối ZWC cho 7.0"
 
 #: ZWC_END_USER_GUIDE_INFO
 msgid ""
@@ -8133,6 +8574,46 @@ msgstr "Thời lượng ngắn nhất cho phép bất kỳ khoảng thăm dò"
 msgid "Shortest allowed duration for any polling interval:"
 msgstr "Thời lượng ngắn nhất cho phép bất kỳ khoảng thăm dò:"
 
+#: MSG_zimbraDataSourcePop3PollingInterval
+msgid "POP3 polling interval"
+msgstr "Khoảng thăm dò POP3"
+
+#: LBL_zimbraDataSourcePop3PollingInterval
+msgid "POP3 polling interval:"
+msgstr "Khoảng thăm dò POP3:"
+
+#: MSG_zimbraDataSourceImapPollingInterval
+msgid "IMAP polling interval"
+msgstr "Khoảng thăm dò IMAP"
+
+#: LBL_zimbraDataSourceImapPollingInterval
+msgid "IMAP polling interval:"
+msgstr "Khoảng thăm dò IMAP:"
+
+#: MSG_zimbraDataSourceCalendarPollingInterval
+msgid "Calendar polling interval"
+msgstr "Khoảng thăm dò Lịch"
+
+#: LBL_zimbraDataSourceCalendarPollingInterval
+msgid "Calendar polling interval:"
+msgstr "Khoảng thăm dò Lịch:"
+
+#: MSG_zimbraDataSourceRssPollingInterval
+msgid "RSS polling interval"
+msgstr "Khoảng thăm dò RSS"
+
+#: LBL_zimbraDataSourceRssPollingInterval
+msgid "RSS polling interval:"
+msgstr "Khoảng thăm dò RSS:"
+
+#: MSG_zimbraDataSourceCaldavPollingInterval
+msgid "CalDAV polling interval"
+msgstr "Khoảng thăm dò CalDAV"
+
+#: LBL_zimbraDataSourceCaldavPollingInterval
+msgid "CalDAV polling interval:"
+msgstr "Khoảng thăm dò CalDAV:"
+
 #: NAD_AutoSaveDraft
 msgid "Auto Save Draft"
 msgstr "Tự động lưu nháp"
@@ -8145,23 +8626,97 @@ msgstr "Khoảng thời gian tự động lưu nháp"
 msgid "Draft auto save interval:"
 msgstr "Khoảng thời gian tự động lưu nháp:"
 
+#: NAD_zimbraSMIMEFeature
+msgid "S/MIME Features"
+msgstr "Đặc tính S/MIME"
+
+#: LBL_zimbraFeatureManageSMIMECertificateEnabled
+msgid "Allow end user to publish and remove S/MIME certificates"
+msgstr "Cho phép người dùng cuối xuất bản và loại bỏ chứng chỉ S/MIME"
+
+#: LBL_zimbraFeatureSMIMEEnabled
+msgid "Enable S/MIME"
+msgstr "Cho phép S/MIME:"
+
 #: externalAccountNote
 msgid "This account uses external mail transport"
 msgstr "Tài khoản này sử dụng vận chuyển thư bên ngoài"
 
-#. # MobileSync
-#: TABT_MobileSync_Stats
-msgid "MobileSync statistics"
-msgstr "Thống kê MobileSync"
+#: NAD_ProxyAllowedDomains
+msgid "Proxy Allowed Domains"
+msgstr "Tên miền cho phép proxy"
 
-#: Stats_MobileSync_Header
-msgid "MobileSync Sessions"
-msgstr "Phiên MobileSync"
+#: MSG_zimbraProxyAllowedDomains
+msgid "Proxy Allowed Domain Name"
+msgstr "Tên miền cho phép proxy"
 
-#: Stats_MobileSync_LOADING
-msgid "data is loading ..."
-msgstr "dữ liệu đang tải..."
+#: LBL_zimbraProxyAllowedDomains
+msgid "Proxy Allowed Domain Name:"
+msgstr "Tên miền cho phép proxy:"
 
-#: Stats_MobileSync_Count
-msgid "The total number of ActiveSync devices across servers:"
-msgstr "Tổng số thiết bị ActiveSync trên máy chủ:"
+#: NAD_ProxyAddAllowedDomain
+msgid "Add Domain"
+msgstr "Thêm tên miền"
+
+#: NAD_ProxyRemoveAllowedDomain
+msgctxt "NAD_ProxyRemoveAllowedDomain"
+msgid "Remove"
+msgstr "Loại bỏ"
+
+#: TABT_Certificate
+msgid "Certificate"
+msgstr "Chứng chỉ"
+
+#: NAD_DomainSSLCertificate
+msgid "Domain Certificate"
+msgstr "Chứng chỉ tên miền"
+
+#: NAD_DomainSSLPrivateKey
+msgid "Domain Private Key"
+msgstr "Khóa riêng của tên miền"
+
+#: ERROR_DOMAIN_CERT_KEY_VERIFY
+msgid "Verify Domain Certificate and Private Key Error"
+msgstr "Xác minh Chức thực tên miền và Khóa riêng lỗi"
+
+#: ERROR_DOMAIN_CERT_KEY_INVALID
+msgid "Invalid certificate or private key"
+msgstr "Khóa riêng hoặc chứng chỉ không hợp lệ"
+
+#: MSG_DOMAIN_CERT_KEY
+msgid ""
+"Domain certificate should be appended with CA certificate, and Domain "
+"private key should be password-less."
+msgstr ""
+"Chứng chỉ tên miên nên được nối thêm với chứng chỉ CA, và khóa riêng tên "
+"miền không nên dùng mật khẩu."
+
+#: MSG_DOMAIN_CERT_UPLOADED
+msgid ""
+"Your domain certificates and keys are successfully saved. To complete the "
+"deployment of certificates and keys, as zimbra, run \"/opt/zimbra/libexec/"
+"zmdomaincertmgr deploycrts\""
+msgstr ""
+"Chứng nhận tiên miền và các khóa của bạn được lưu thành công. Để hoàn thành "
+"việc triển khai các chứng chỉ và khóa, với người dùng zimbra, chạy \"/opt/"
+"zimbra/libexec/zmdomaincertmgr deploycrts\""
+
+#: ALERT_DOMAIN_CERT_KEY
+msgid ""
+"(1) make sure CA certificate is appended to the bottom of certificates. <br/"
+"> (2) make sure private key is password-less."
+msgstr ""
+"(1) chắc chắn chứng chỉ CA được nối thêm vào dưới cùng của các chứng chỉ. "
+"<br/> (2) chắc chắn rằng khóa riêng không dùng mật khẩu."
+
+#: ERROR_DOMAIN_CERT_MISSING
+msgid "Certificate is necessary"
+msgstr "Chứng chỉ là cần thiết"
+
+#: ERROR_DOMAIN_KEY_MISSING
+msgid "Private Key is necessary"
+msgstr "Khóa riêng là cần thiết"
+
+#: ERROR_DOMAIN_CERT_VERIFY
+msgid "Can not verify certificate and key"
+msgstr "Không thể xác minh chứng chỉ và khóa"
