@@ -1,7 +1,7 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.4 ("License"); you may not use this file except in
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:18+0700\n"
+"POT-Creation-Date: 2014-03-16 21:20+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,6 +221,7 @@ msgid "Enter; Space"
 msgstr ""
 
 #: dialog.Enter.keycode
+msgctxt "dialog.Enter.keycode"
 msgid "13; 32"
 msgstr ""
 
@@ -547,8 +548,7 @@ msgid "PageUp"
 msgstr ""
 
 #: list.PageUp.display.mac
-msgctxt "list.PageUp.display.mac"
-msgid "Alt + ArrowUp"
+msgid "PageUp; Alt + ArrowUp"
 msgstr ""
 
 #: list.PageUp.keycode
@@ -557,8 +557,7 @@ msgid "33"
 msgstr ""
 
 #: list.PageUp.keycode.mac
-msgctxt "list.PageUp.keycode.mac"
-msgid "Alt+38"
+msgid "33; Alt+38"
 msgstr ""
 
 #: list.PageUp.description
@@ -576,8 +575,7 @@ msgid "PageDown"
 msgstr ""
 
 #: list.PageDown.display.mac
-msgctxt "list.PageDown.display.mac"
-msgid "Alt + ArrowDown"
+msgid "PageDown;  Alt + ArrowDown"
 msgstr ""
 
 #: list.PageDown.keycode
@@ -586,8 +584,7 @@ msgid "34"
 msgstr ""
 
 #: list.PageDown.keycode.mac
-msgctxt "list.PageDown.keycode.mac"
-msgid "Alt+40"
+msgid "34; Alt+40"
 msgstr ""
 
 #: list.PageDown.description
@@ -624,6 +621,26 @@ msgid "Next item"
 msgstr ""
 
 #: tree.Next.sort
+msgctxt "tree.Next.sort"
+msgid "30510"
+msgstr ""
+
+#: tree.Enter.display
+msgctxt "tree.Enter.display"
+msgid "Enter"
+msgstr ""
+
+#: tree.Enter.keycode
+msgctxt "tree.Enter.keycode"
+msgid "13; 32"
+msgstr ""
+
+#: tree.Enter.description
+msgid "Select (in drop-down)"
+msgstr ""
+
+#: tree.Enter.sort
+msgctxt "tree.Enter.sort"
 msgid "30510"
 msgstr ""
 
@@ -818,7 +835,6 @@ msgid "PageUp"
 msgstr ""
 
 #: menu.PageUp.display.mac
-msgctxt "menu.PageUp.display.mac"
 msgid "Alt + ArrowUp"
 msgstr ""
 
@@ -828,7 +844,6 @@ msgid "33"
 msgstr ""
 
 #: menu.PageUp.keycode.mac
-msgctxt "menu.PageUp.keycode.mac"
 msgid "Alt+38"
 msgstr ""
 
@@ -847,7 +862,6 @@ msgid "PageDown"
 msgstr ""
 
 #: menu.PageDown.display.mac
-msgctxt "menu.PageDown.display.mac"
 msgid "Alt + ArrowDown"
 msgstr ""
 
@@ -857,7 +871,6 @@ msgid "34"
 msgstr ""
 
 #: menu.PageDown.keycode.mac
-msgctxt "menu.PageDown.keycode.mac"
 msgid "Alt+40"
 msgstr ""
 
@@ -1213,6 +1226,24 @@ msgstr ""
 msgid "60040"
 msgstr ""
 
+#: editor.InsertLink.display
+msgctxt "editor.InsertLink.display"
+msgid "Ctrl+K"
+msgstr ""
+
+#: editor.InsertLink.keycode
+msgctxt "editor.InsertLink.keycode"
+msgid "Ctrl+75"
+msgstr ""
+
+#: editor.InsertLink.description
+msgid "Insert Link dialog"
+msgstr ""
+
+#: editor.InsertLink.sort
+msgid "60045"
+msgstr ""
+
 #. # Map: tabView
 #: tabView.description
 msgid "Tab Views"
@@ -1257,10 +1288,12 @@ msgid "110010"
 msgstr ""
 
 #: tabView.PreviousTab.display
+msgctxt "tabView.PreviousTab.display"
 msgid "Ctrl+K"
 msgstr ""
 
 #: tabView.PreviousTab.keycode
+msgctxt "tabView.PreviousTab.keycode"
 msgid "Ctrl+75"
 msgstr ""
 

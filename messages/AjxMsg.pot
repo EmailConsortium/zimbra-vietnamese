@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,6 +86,10 @@ msgid ", "
 msgstr ""
 
 #: listSeparatorLast
+msgid ", and "
+msgstr ""
+
+#: listSeparatorTwo
 msgid " and "
 msgstr ""
 
@@ -96,6 +100,46 @@ msgstr ""
 
 #: origMsg
 msgid "Original Message"
+msgstr ""
+
+#: origAppt
+msgid "Original Appointment"
+msgstr ""
+
+#: from
+msgid "from:"
+msgstr ""
+
+#: to
+msgid "to:"
+msgstr ""
+
+#: subject
+msgid "subject:"
+msgstr ""
+
+#: date
+msgid "date:"
+msgstr ""
+
+#: sent
+msgid "sent:"
+msgstr ""
+
+#: cc
+msgid "cc:"
+msgstr ""
+
+#: wrote
+msgid "wrote"
+msgstr ""
+
+#: changed
+msgid "changed"
+msgstr ""
+
+#: on
+msgid "on"
 msgstr ""
 
 #: colorBlue
@@ -703,6 +747,10 @@ msgstr ""
 msgid "GMT +05:30 Sri Jayawardenepura"
 msgstr ""
 
+#: Asia/Damascus
+msgid "GMT +02:00 Damascus"
+msgstr ""
+
 #: Asia/Dhaka
 msgid "GMT +06:00 Dhaka"
 msgstr ""
@@ -899,6 +947,14 @@ msgstr ""
 msgid "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
 msgstr ""
 
+#: Europe/Istanbul
+msgid "GMT +02:00 Istanbul"
+msgstr ""
+
+#: Europe/Kaliningrad
+msgid "GMT +03:00 Kaliningrad"
+msgstr ""
+
 #: Europe/London
 msgid "GMT +00:00 Britain, Ireland, Portugal"
 msgstr ""
@@ -925,6 +981,10 @@ msgstr ""
 
 #: Pacific/Fiji
 msgid "GMT +12:00 Fiji"
+msgstr ""
+
+#: Pacific/Guadalcanal
+msgid "GMT +11.00 Solomon Is. / New Caledonia"
 msgstr ""
 
 #: Pacific/Guam
@@ -1408,4 +1468,30 @@ msgstr ""
 
 #: calc.monthname.december
 msgid "dec|december"
+msgstr ""
+
+#: clipboardWarningTitle
+msgid "Clipboard warning"
+msgstr ""
+
+#: clipboardNotSupportedBrowser
+msgid ""
+"This browser does not support copying text to the clipboard due to security "
+"reasons."
+msgstr ""
+
+#: clipboardCopyAlternate
+msgid "Press {0} to copy the selected text to the clipboard."
+msgstr ""
+
+#: clipboardCopyKeys
+msgid "Ctrl+C"
+msgstr ""
+
+#: clipboardCopyKeysMac
+msgid "Cmd+C"
+msgstr ""
+
+#: collapsedGroup
+msgid "Collapsed Group"
 msgstr ""

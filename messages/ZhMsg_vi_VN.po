@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -1374,6 +1374,10 @@ msgstr "QUẢNG CÁO"
 msgid "All"
 msgstr "Tất cả"
 
+#: allDay
+msgid "All day"
+msgstr "Cả ngày"
+
 #: allDayEvent
 msgid "All day event"
 msgstr "Tất cả sự kiện trong ngày"
@@ -1481,6 +1485,11 @@ msgstr "(không có phản hồi nào đưa ra)"
 msgid "Delegated"
 msgstr "Uỷ thác"
 
+#: apptPtstNEW
+msgctxt "apptPtstNEW"
+msgid "New"
+msgstr "Mới"
+
 #: apptViewFrom
 msgid "from"
 msgstr "từ"
@@ -1531,8 +1540,8 @@ msgid "Attendees:"
 msgstr "Người tham dự:"
 
 #: autoAddContacts
-msgid "Enable auto adding of contacts"
-msgstr "Bật tự động thêm liên hệ"
+msgid "Add new contacts to \"Emailed Contacts\""
+msgstr "Thêm liên hệ mới tới \"Liên hệ đã email\""
 
 #: automaticallyAddSignature
 msgid "Automatically add signature"
@@ -1681,6 +1690,10 @@ msgstr "Màu đen"
 #: bothNewPasswordsMustMatch
 msgid "Both new passwords must match. Please retype them."
 msgstr "Cả hai mật khẩu mới phải khớp với nhau. Vui lòng gõ lại chúng."
+
+#: bothPasswordsMustMatch
+msgid "Both passwords must match. Please retype them."
+msgstr "Cả hai mật khẩu phải khớp với nhau. Vui lòng gõ lại chúng."
 
 #: briefcases
 msgid "Briefcases"
@@ -1862,6 +1875,14 @@ msgstr "Tên lịch"
 #: calendarURL
 msgid "Calendar URL"
 msgstr "URL lịch"
+
+#: calendarWorkHoursHeader
+msgid "Work week"
+msgstr "Tuần làm việc"
+
+#: calendarWorkWeek
+msgid "Work week:"
+msgstr "Tuần làm việc:"
 
 #: callForwarding
 msgid "Call Forwarding :"
@@ -2304,6 +2325,10 @@ msgctxt "department"
 msgid "Department"
 msgstr "Phòng"
 
+#: deskphone
+msgid "DeskPhone"
+msgstr "Điện thoại bàn"
+
 #: details
 msgid "Details"
 msgstr "Chi tiết"
@@ -2403,6 +2428,10 @@ msgstr "Làm trống Thư rác"
 #: emptyMessage
 msgid "Click to view."
 msgstr "Bấm để xem"
+
+#: emptyPassword
+msgid "Empty passwords are not allowed."
+msgstr "Mật khẩu rỗng không được phép."
 
 #: emptySearchQuery
 msgid "Please specify search query to search."
@@ -3032,6 +3061,11 @@ msgctxt "linkToSharedCalendar"
 msgid "Link to Shared Calendar"
 msgstr "Liên kết tới Lịch chia sẻ"
 
+#: list
+msgctxt "list"
+msgid "List"
+msgstr "Danh sách"
+
 #: listen
 msgctxt "listen"
 msgid "Listen"
@@ -3344,6 +3378,7 @@ msgid "The name must be at most {0} characters long"
 msgstr "Tên phải nhiều nhất dài {0} ký tự"
 
 #: new
+msgctxt "new"
 msgid "New"
 msgstr "Mới"
 
@@ -3917,6 +3952,14 @@ msgstr "Xin lỗi, địa chỉ email phải có 100 ký tự hoặc ít hơn. S
 #: optionsVoiceNotificationsErrorNotUnique
 msgid "Sorry, the entered address is already in the list."
 msgstr "Xin lỗi, địa chỉ vừa nhập đã có trong danh sách."
+
+#: optionsVoiceNotificationsTrans
+msgid "Send notification when a voice mail is transferred"
+msgstr "Gửi thông báo khi một thư thoại được chuyển giao"
+
+#: optionsVoiceNotificationsAttach
+msgid "Send notification when a voice mail is attached"
+msgstr "Gửi thông báo khi một thư thoại được đính kèm"
 
 #: optionsCallForwarding
 msgid "Call Forwarding"
@@ -4612,8 +4655,8 @@ msgid "Refresh"
 msgstr "Làm mới"
 
 #: rememberMe
-msgid "Remember me on this computer"
-msgstr "Lưu thông tin của tôi trên máy này"
+msgid "Stay signed in"
+msgstr "Vẫn đang đăng nhập"
 
 #: remove
 msgid "Remove"
@@ -4939,6 +4982,10 @@ msgstr "Phím tắt"
 msgid "Show timezone list in appointment view"
 msgstr "Hiển thị danh sách múi giờ trong khung hiển thị cuộc hẹn"
 
+#: showApptsFromThrough
+msgid "Show appointments from {0} through {1}"
+msgstr "Hiển thị cuộc hẹn từ {0} thông qua {1}"
+
 #: showAs
 msgid "Show as"
 msgstr "Hiển thị theo"
@@ -4950,6 +4997,10 @@ msgstr "Hiển thị như:"
 #: showConversation
 msgid "Show Conversation"
 msgstr "Hiển thị cuộc đàm thoại"
+
+#: showDeclinedMeetings
+msgid "Show declined meetings"
+msgstr "Hiển thị cuộc họp đã từ chối"
 
 #: showOrig
 msgid "Show Original"
@@ -5333,6 +5384,30 @@ msgstr "Để xem một thông điệp, bấm vào nó."
 #: voice
 msgid "Voice"
 msgstr "Tiếng nói"
+
+#: voiceErrorUnableToAuth
+msgid ""
+"Authorization Failed. Please verify that your password is set correctly in "
+"the Voice preferences or contact your administrator for further assistance."
+msgstr ""
+"Không được phép. Vui lòng xác minh rằng mật khẩu của bạn được thiết lập một "
+"cách chính xác trong tùy chọn Thư thoại hoặc liên hệ với quản trị viên của "
+"bạn để được hỗ trợ thêm."
+
+#: voiceErrorUnsupported
+msgid ""
+"Account not provisioned for Voice feature. Kindly contact your administrator."
+msgstr ""
+"Tài khoản không được dự liệu cho tính năng Thư thoại. Vui lòng liên hệ quản "
+"trị viên của bạn."
+
+#: voiceErrorGeneric
+msgid ""
+"Voice mailbox not configured correctly. Check preference settings or contact "
+"your administrator."
+msgstr ""
+"Hộp thư thoại đã cấu hình không đúng. Kiểm tra thiết lập tùy chọn hoặc liên "
+"hệ với quản trị viên của bạn."
 
 #: voiceMailsPerPage
 msgid "Voice mail messages per page"
@@ -5843,6 +5918,10 @@ msgstr "Beach"
 msgid "Bones"
 msgstr "Bones"
 
+#: SKIN_carbon
+msgid "Carbon"
+msgstr "Carbon"
+
 #: SKIN_froggy
 msgid "Froggy"
 msgstr "Froggy"
@@ -5855,6 +5934,10 @@ msgstr "Harvest"
 msgid "Hotrod"
 msgstr "Hotrod"
 
+#: SKIN_lake
+msgid "Lake"
+msgstr "Hồ"
+
 #: SKIN_lavender
 msgid "Lavender"
 msgstr "Lavender"
@@ -5862,6 +5945,14 @@ msgstr "Lavender"
 #: SKIN_lemongrass
 msgid "Lemongrass"
 msgstr "Lemongrass"
+
+#: SKIN_oasis
+msgid "Oasis"
+msgstr "Oasis"
+
+#: SKIN_pebble
+msgid "Pebble"
+msgstr "Pebble"
 
 #: SKIN_rose
 msgid "Rose"
@@ -5871,13 +5962,29 @@ msgstr "Rose"
 msgid "Sand"
 msgstr "Sand"
 
+#: SKIN_serenity
+msgid "Serenity"
+msgstr "Thanh bình"
+
 #: SKIN_sky
 msgid "Sky"
 msgstr "Sky"
 
+#: SKIN_smoke
+msgid "Smoke"
+msgstr "Khói thuốc"
+
 #: SKIN_steel
 msgid "Steel"
 msgstr "Steel"
+
+#: SKIN_tree
+msgid "Tree"
+msgstr "Cây"
+
+#: SKIN_twilight
+msgid "Twilight"
+msgstr "Chạng vạng"
 
 #: SKIN_vanilla
 msgid "Vanilla"
@@ -6460,6 +6567,10 @@ msgstr "T7"
 msgctxt "CAL_MONTH_TITLE_FORMAT"
 msgid "MMMMM yyyy"
 msgstr "MMMMM yyyy"
+
+#: CAL_LIST_TITLE_FORMAT
+msgid "MMM d"
+msgstr "MMM d"
 
 #: CAL_MONTH_DAY_FORMAT
 msgctxt "CAL_MONTH_DAY_FORMAT"
@@ -7269,6 +7380,10 @@ msgstr "Đính kèm..."
 msgid "Address in..."
 msgstr "Địa chỉ trong..."
 
+#: EFILT_NEW_COND_ADDRESS
+msgid "Address"
+msgstr "Địa chỉ"
+
 #: EFILT_NEW_ACTION_SELECT
 msgid "Select action..."
 msgstr "Chọn hành động..."
@@ -7731,11 +7846,19 @@ msgid ""
 "then retype the current username and password."
 msgstr ""
 "Tên đăng nhập hoặc mật khẩu không đúng. Kiểm tra xem đèn CAPS LOCK không "
-"được bật, và gõ lại tên đăng nhập và mật khẩu hiện thời."
+"được bật, và gõ lại tên đăng nhập mà mật khẩu hiện thời."
 
 #: account.CHANGE_PASSWORD
 msgid "Your password in no longer valid. Please choose a new password."
 msgstr "Mật khẩu của bạn không còn hợp lệ. Xin vui lòng chọn một mật khẩu mới."
+
+#: account.EXTERNAL_AUTH_FAILED
+msgid ""
+"The email or password is incorrect. Verify that CAPS LOCK is not on, and "
+"then retype the current email and password."
+msgstr ""
+"Email hoặc mật khẩu không đúng. Kiểm tra xem đèn CAPS LOCK không được bật, "
+"và sau đó gõ lại email và mật khẩu hiện thời."
 
 #: account.PASSWORD_LOCKED
 msgid ""
@@ -7783,7 +7906,7 @@ msgstr ""
 
 #: account.INVALID_PASSWORD.zimbraPasswordMaxLength
 msgid ""
-"New password can have maximumm length of {0} chars. Contact your System "
+"New password can have maximum length of {0} chars. Contact your System "
 "Administrator for more information."
 msgstr ""
 "Mật khẩu mới có thể có chiều dài tối đa {0} ký tự. Liên hệ Quản trị viên hệ "
@@ -8220,8 +8343,8 @@ msgid "No filter with that name exists."
 msgstr "Không có bộ lọc có tên này tồn tại."
 
 #: ztaglib.INVALID_CRUMB
-msgid "Action not allowed without a valid crumb."
-msgstr "Hành động không được phép mà không có một crumb hợp lệ."
+msgid "Your session has expired. Please log in again."
+msgstr "Phiên của bạn đã hết hạn. Vui lòng đăng nhập lại."
 
 #. # this one should never get displayed since we should catch and redirect
 #: ztaglib.SERVER_REDIRECT

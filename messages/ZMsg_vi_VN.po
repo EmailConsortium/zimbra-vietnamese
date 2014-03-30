@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. #
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.4 ("License"); you may not use this file except in
@@ -100,7 +100,7 @@ msgstr "Không việc tìm kiếm được ghi như vậy tồn tại."
 #: account.ACCT_NO_SUCH_TAG
 msgctxt "account.ACCT_NO_SUCH_TAG"
 msgid "No such tag exists."
-msgstr "Không thẻ nào như vậy tồn tại."
+msgstr "Không thẻ nào như vậy tồntại."
 
 #: account.TOO_MANY_IDENTITIES
 msgid ""
@@ -443,7 +443,7 @@ msgstr "Lỗi uỷ quyền."
 
 #: service.TOO_MANY_HOPS
 msgid "Too many hops between servers."
-msgstr "Quá nhiều chặng giữa các máy chủ."
+msgstr "Quá nhiều hops giữa các máy chủ."
 
 #: service.ALREADY_IN_PROGRESS
 msgid "Operation already in progress."

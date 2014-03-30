@@ -1,7 +1,7 @@
 #. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
 #. # 
 #. # The contents of this file are subject to the Zimbra Public License
 #. # Version 1.4 ("License"); you may not use this file except in
@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:18+0700\n"
+"POT-Creation-Date: 2014-03-16 21:20+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,16 +49,13 @@ msgstr ""
 #. #    global					applies to all views
 #. #    compose				a form for creating a new message
 #. #    mail					a list of mail messages or conversations
-#. #    conversation			a single conversation, which is a list of mail messages,
-#. #							with the content of a message displayed in the reading pane
+#. #    conversation			a single conversation, which is a list of mail messages
 #. #    message				the content of a single mail message
 #. #    contacts				a set of contacts
 #. #    editContact			a form for creating or editing a contact
 #. #    calendar				any of several calendar views (week, month, etc)
 #. #    editAppointment		a form for creating or editing an appointment
 #. #    options				a set of tabs for changing personal settings
-#. #    mixed					a view of different types of items (eg Trash)
-#. #    notebook				the wiki application
 #. #    voicemail				a list of voicemail messages
 #. #    call					a list of phone calls
 #. #    address				an address bubble
@@ -150,23 +147,6 @@ msgstr ""
 msgid "10000"
 msgstr ""
 
-#: global.Assistant.display
-msgid "`"
-msgstr ""
-
-#: global.Assistant.keycode
-msgid "192"
-msgstr ""
-
-#: global.Assistant.description
-msgid "Zimbra Assistant"
-msgstr ""
-
-#: global.Assistant.sort
-msgctxt "global.Assistant.sort"
-msgid "10230"
-msgstr ""
-
 #: global.Cancel.display
 msgctxt "global.Cancel.display"
 msgid "Esc"
@@ -202,6 +182,22 @@ msgstr ""
 
 #: global.Delete.sort
 msgid "10210"
+msgstr ""
+
+#: global.ShiftDelete.display
+msgid "Shift+Del; Shift+Backspace"
+msgstr ""
+
+#: global.ShiftDelete.keycode
+msgid "Shift+46; Shift+8"
+msgstr ""
+
+#: global.ShiftDelete.description
+msgid "Hard Delete item(s)"
+msgstr ""
+
+#: global.ShiftDelete.sort
+msgid "10215"
 msgstr ""
 
 #: global.FocusContentPane.display
@@ -315,22 +311,6 @@ msgstr ""
 
 #: global.GoToMail.sort
 msgid "10010"
-msgstr ""
-
-#: global.GoToNotebook.display
-msgid "G,D"
-msgstr ""
-
-#: global.GoToNotebook.keycode
-msgid "71,68"
-msgstr ""
-
-#: global.GoToNotebook.description
-msgid "Go to Documents"
-msgstr ""
-
-#: global.GoToNotebook.sort
-msgid "10060"
 msgstr ""
 
 #: global.GoToBriefcase.display
@@ -463,6 +443,23 @@ msgstr ""
 msgid "10120"
 msgstr ""
 
+#. #Change the display and keycode
+#: global.AddExternalCalendar.display
+msgid "N,E"
+msgstr ""
+
+#: global.AddExternalCalendar.keycode
+msgid "78,69"
+msgstr ""
+
+#: global.AddExternalCalendar.description
+msgid "Add external calendar"
+msgstr ""
+
+#: global.AddExternalCalendar.sort
+msgid "10130"
+msgstr ""
+
 #: global.NewChat.display
 msgid "N,H"
 msgstr ""
@@ -493,22 +490,6 @@ msgstr ""
 
 #: global.NewContact.sort
 msgid "10100"
-msgstr ""
-
-#: global.NewFolder.display
-msgid "N,F"
-msgstr ""
-
-#: global.NewFolder.keycode
-msgid "78,70"
-msgstr ""
-
-#: global.NewFolder.description
-msgid "New folder"
-msgstr ""
-
-#: global.NewFolder.sort
-msgid "10150"
 msgstr ""
 
 #: global.NewMessage.display
@@ -542,54 +523,6 @@ msgstr ""
 
 #: global.NewMessageWindow.sort
 msgid "10090"
-msgstr ""
-
-#: global.NewNotebook.display
-msgid "N,W"
-msgstr ""
-
-#: global.NewNotebook.keycode
-msgid "78,87"
-msgstr ""
-
-#: global.NewNotebook.description
-msgid "New notebook"
-msgstr ""
-
-#: global.NewNotebook.sort
-msgid "10140"
-msgstr ""
-
-#: global.NewPage.display
-msgid "N,P"
-msgstr ""
-
-#: global.NewPage.keycode
-msgid "78,80"
-msgstr ""
-
-#: global.NewPage.description
-msgid "New notebook page"
-msgstr ""
-
-#: global.NewPage.sort
-msgid "10130"
-msgstr ""
-
-#: global.NewDocument.display
-msgid "N,D"
-msgstr ""
-
-#: global.NewDocument.keycode
-msgid "78,68"
-msgstr ""
-
-#: global.NewDocument.description
-msgid "New document"
-msgstr ""
-
-#: global.NewDocument.sort
-msgid "10135"
 msgstr ""
 
 #: global.NewRosterItem.display
@@ -704,7 +637,6 @@ msgid "Quick Reminder"
 msgstr ""
 
 #: global.QuickReminder.sort
-msgctxt "global.QuickReminder.sort"
 msgid "10230"
 msgstr ""
 
@@ -914,7 +846,7 @@ msgid "="
 msgstr ""
 
 #: mail.GetMail.keycode
-msgid "61; 187"
+msgid "61; 187; 107"
 msgstr ""
 
 #: mail.GetMail.description
@@ -1005,6 +937,22 @@ msgstr ""
 msgid "20040"
 msgstr ""
 
+#: mail.KeepReading.display
+msgid "Space"
+msgstr ""
+
+#: mail.KeepReading.keycode
+msgid "32"
+msgstr ""
+
+#: mail.KeepReading.description
+msgid "Keep reading"
+msgstr ""
+
+#: mail.KeepReading.sort
+msgid "20177"
+msgstr ""
+
 #: mail.LastUnread.display
 msgid "Shift+]"
 msgstr ""
@@ -1019,6 +967,24 @@ msgstr ""
 
 #: mail.LastUnread.sort
 msgid "20192"
+msgstr ""
+
+#: mail.MuteUnmuteConv.display
+msgctxt "mail.MuteUnmuteConv.display"
+msgid "E"
+msgstr ""
+
+#: mail.MuteUnmuteConv.keycode
+msgctxt "mail.MuteUnmuteConv.keycode"
+msgid "69"
+msgstr ""
+
+#: mail.MuteUnmuteConv.description
+msgid "Mark mute"
+msgstr ""
+
+#: mail.MuteUnmuteConv.sort
+msgid "20063"
 msgstr ""
 
 #: mail.MarkRead.display
@@ -1070,19 +1036,38 @@ msgid "20130"
 msgstr ""
 
 #: mail.MoveToTrash.display
+msgctxt "mail.MoveToTrash.display"
 msgid ".,T"
 msgstr ""
 
 #: mail.MoveToTrash.keycode
+msgctxt "mail.MoveToTrash.keycode"
 msgid "190,84"
 msgstr ""
 
 #: mail.MoveToTrash.description
+msgctxt "mail.MoveToTrash.description"
 msgid "Move to Trash"
 msgstr ""
 
 #: mail.MoveToTrash.sort
 msgid "20110"
+msgstr ""
+
+#: mail.NewFolder.display
+msgid "N,F"
+msgstr ""
+
+#: mail.NewFolder.keycode
+msgid "78,70"
+msgstr ""
+
+#: mail.NewFolder.description
+msgid "New folder"
+msgstr ""
+
+#: mail.NewFolder.sort
+msgid "20250"
 msgstr ""
 
 #: mail.NextUnread.display
@@ -1209,11 +1194,11 @@ msgid "20160"
 msgstr ""
 
 #: mail.SelectNext.display
-msgid "Space; J"
+msgid "J"
 msgstr ""
 
 #: mail.SelectNext.keycode
-msgid "32; 74"
+msgid "74"
 msgstr ""
 
 #: mail.SelectNext.repeat
@@ -1288,8 +1273,16 @@ msgstr ""
 msgid "Ctrl+Z"
 msgstr ""
 
+#: mail.Undo.display.mac
+msgid "Cmd+Z"
+msgstr ""
+
 #: mail.Undo.keycode
 msgid "Ctrl+90"
+msgstr ""
+
+#: mail.Undo.keycode.mac
+msgid "Meta+90"
 msgstr ""
 
 #: mail.Undo.description
@@ -1481,12 +1474,10 @@ msgid "25040"
 msgstr ""
 
 #: conversationList.Toggle.display
-msgctxt "conversationList.Toggle.display"
 msgid "O"
 msgstr ""
 
 #: conversationList.Toggle.keycode
-msgctxt "conversationList.Toggle.keycode"
 msgid "79"
 msgstr ""
 
@@ -1613,14 +1604,17 @@ msgid "30030"
 msgstr ""
 
 #: compose.Send.display
+msgctxt "compose.Send.display"
 msgid "Ctrl+Enter"
 msgstr ""
 
 #: compose.Send.keycode
+msgctxt "compose.Send.keycode"
 msgid "Ctrl+13"
 msgstr ""
 
 #: compose.Send.description
+msgctxt "compose.Send.description"
 msgid "Send"
 msgstr ""
 
@@ -1670,6 +1664,53 @@ msgstr ""
 
 #: compose.Spellcheck.sort
 msgid "30070"
+msgstr ""
+
+#. # Map: quickReply
+#: quickReply.description
+msgid "Quick reply (conversation view only)"
+msgstr ""
+
+#: quickReply.sort
+msgid "35000"
+msgstr ""
+
+#: quickReply.Cancel.display
+msgctxt "quickReply.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: quickReply.Cancel.keycode
+msgctxt "quickReply.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: quickReply.Cancel.description
+msgctxt "quickReply.Cancel.description"
+msgid "Cancel"
+msgstr ""
+
+#: quickReply.Cancel.sort
+msgid "35020"
+msgstr ""
+
+#: quickReply.Send.display
+msgctxt "quickReply.Send.display"
+msgid "Ctrl+Enter"
+msgstr ""
+
+#: quickReply.Send.keycode
+msgctxt "quickReply.Send.keycode"
+msgid "Ctrl+13"
+msgstr ""
+
+#: quickReply.Send.description
+msgctxt "quickReply.Send.description"
+msgid "Send"
+msgstr ""
+
+#: quickReply.Send.sort
+msgid "35010"
 msgstr ""
 
 #. # Map: conversation
@@ -1755,7 +1796,6 @@ msgid "69"
 msgstr ""
 
 #: contacts.Edit.description
-msgctxt "contacts.Edit.description"
 msgid "Edit"
 msgstr ""
 
@@ -2004,28 +2044,11 @@ msgid "82"
 msgstr ""
 
 #: calendar.Refresh.description
-msgctxt "calendar.Refresh.description"
 msgid "Refresh"
 msgstr ""
 
 #: calendar.Refresh.sort
 msgid "70030"
-msgstr ""
-
-#: calendar.ScheduleView.display
-msgid "S; 0"
-msgstr ""
-
-#: calendar.ScheduleView.keycode
-msgid "83; 48"
-msgstr ""
-
-#: calendar.ScheduleView.description
-msgid "Scheduling view"
-msgstr ""
-
-#: calendar.ScheduleView.sort
-msgid "70090"
 msgstr ""
 
 #: calendar.Today.display
@@ -2202,78 +2225,6 @@ msgstr ""
 msgid "90010"
 msgstr ""
 
-#. # Map: mixed
-#. #L10N_IGNORE_BLOCK_BEGIN
-#: mixed.INHERIT
-msgctxt "mixed.INHERIT"
-msgid "global"
-msgstr ""
-
-#. #L10N_IGNORE_BLOCK_END
-#: mixed.DoubleClick.display
-msgctxt "mixed.DoubleClick.display"
-msgid "O"
-msgstr ""
-
-#: mixed.DoubleClick.keycode
-msgctxt "mixed.DoubleClick.keycode"
-msgid "79"
-msgstr ""
-
-#. # Map: notebook
-#. #L10N_IGNORE_BLOCK_BEGIN
-#: notebook.INHERIT
-msgctxt "notebook.INHERIT"
-msgid "global"
-msgstr ""
-
-#. #L10N_IGNORE_BLOCK_END
-#: notebook.description
-msgid "Documents"
-msgstr ""
-
-#: notebook.sort
-msgid "100000"
-msgstr ""
-
-#: notebook.Edit.display
-msgctxt "notebook.Edit.display"
-msgid "E"
-msgstr ""
-
-#: notebook.Edit.keycode
-msgctxt "notebook.Edit.keycode"
-msgid "69"
-msgstr ""
-
-#: notebook.Edit.description
-msgctxt "notebook.Edit.description"
-msgid "Edit"
-msgstr ""
-
-#: notebook.Edit.sort
-msgid "100010"
-msgstr ""
-
-#: notebook.Refresh.display
-msgctxt "notebook.Refresh.display"
-msgid "R"
-msgstr ""
-
-#: notebook.Refresh.keycode
-msgctxt "notebook.Refresh.keycode"
-msgid "82"
-msgstr ""
-
-#: notebook.Refresh.description
-msgctxt "notebook.Refresh.description"
-msgid "Refresh"
-msgstr ""
-
-#: notebook.Refresh.sort
-msgid "100020"
-msgstr ""
-
 #. # Map: tasks
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: tasks.INHERIT
@@ -2379,6 +2330,25 @@ msgstr ""
 
 #: tasks.ReadingPaneOnRight.sort
 msgid "105033"
+msgstr ""
+
+#: tasks.MoveToTrash.display
+msgctxt "tasks.MoveToTrash.display"
+msgid ".,T"
+msgstr ""
+
+#: tasks.MoveToTrash.keycode
+msgctxt "tasks.MoveToTrash.keycode"
+msgid "190,84"
+msgstr ""
+
+#: tasks.MoveToTrash.description
+msgctxt "tasks.MoveToTrash.description"
+msgid "Move to Trash"
+msgstr ""
+
+#: tasks.MoveToTrash.sort
+msgid "105038"
 msgstr ""
 
 #. # Map: editTask
@@ -2717,10 +2687,7 @@ msgstr ""
 
 #. # Map: address
 #. #L10N_IGNORE_BLOCK_BEGIN
-#: address.INHERIT
-msgid "compose"
-msgstr ""
-
+#. #address.INHERIT = compose
 #. #L10N_IGNORE_BLOCK_END
 #: address.description
 msgid "Address Bubble"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AjxMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:19+0700\n"
+"POT-Creation-Date: 2014-03-16 21:23+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -89,6 +89,10 @@ msgid ", "
 msgstr ", "
 
 #: listSeparatorLast
+msgid ", and "
+msgstr ", và "
+
+#: listSeparatorTwo
 msgid " and "
 msgstr "và"
 
@@ -100,6 +104,46 @@ msgstr "Thông điệp đã chuyển tiếp"
 #: origMsg
 msgid "Original Message"
 msgstr "Thông điệp gốc"
+
+#: origAppt
+msgid "Original Appointment"
+msgstr "Cuộc hẹn gốc"
+
+#: from
+msgid "from:"
+msgstr "từ:"
+
+#: to
+msgid "to:"
+msgstr "tới:"
+
+#: subject
+msgid "subject:"
+msgstr "tiêu đề:"
+
+#: date
+msgid "date:"
+msgstr "ngày:"
+
+#: sent
+msgid "sent:"
+msgstr "đã gửi:"
+
+#: cc
+msgid "cc:"
+msgstr "cc:"
+
+#: wrote
+msgid "wrote"
+msgstr "đã viết"
+
+#: changed
+msgid "changed"
+msgstr "thay đổi"
+
+#: on
+msgid "on"
+msgstr "vào"
 
 #: colorBlue
 msgid "#5b9bf2"
@@ -710,6 +754,10 @@ msgstr "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
 msgid "GMT +05:30 Sri Jayawardenepura"
 msgstr "GMT +05:30 Sri Jayawardenepura"
 
+#: Asia/Damascus
+msgid "GMT +02:00 Damascus"
+msgstr "GMT +02:00 Damascus"
+
 #: Asia/Dhaka
 msgid "GMT +06:00 Dhaka"
 msgstr "GMT +06:00 Dhaka"
@@ -906,6 +954,14 @@ msgstr "GMT +01:00 Brussels, Copenhagen, Madrid, Paris"
 msgid "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
 msgstr "GMT +02:00 Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius"
 
+#: Europe/Istanbul
+msgid "GMT +02:00 Istanbul"
+msgstr "GMT +02:00 Istanbul"
+
+#: Europe/Kaliningrad
+msgid "GMT +03:00 Kaliningrad"
+msgstr "GMT +03:00 Kaliningrad"
+
 #: Europe/London
 msgid "GMT +00:00 Britain, Ireland, Portugal"
 msgstr "GMT +00:00 Britain, Ireland, Portugal"
@@ -933,6 +989,10 @@ msgstr "GMT +12:00 New Zealand"
 #: Pacific/Fiji
 msgid "GMT +12:00 Fiji"
 msgstr "GMT +12:00 Fiji"
+
+#: Pacific/Guadalcanal
+msgid "GMT +11.00 Solomon Is. / New Caledonia"
+msgstr "GMT +11.00 Solomon Is. / New Caledonia"
 
 #: Pacific/Guam
 msgid "GMT +10:00 Guam, Port Moresby"
@@ -1416,3 +1476,30 @@ msgstr "th11|tháng mười một"
 #: calc.monthname.december
 msgid "dec|december"
 msgstr "th12|tháng mười hai"
+
+#: clipboardWarningTitle
+msgid "Clipboard warning"
+msgstr "Cảnh báo clipboard"
+
+#: clipboardNotSupportedBrowser
+msgid ""
+"This browser does not support copying text to the clipboard due to security "
+"reasons."
+msgstr ""
+"Trình duyệt này không hỗ trợ sao chép văn bản vào clipboard vì lý do an ninh."
+
+#: clipboardCopyAlternate
+msgid "Press {0} to copy the selected text to the clipboard."
+msgstr "Bấm {0} để sao chép văn bản đã chọn vào clipboard."
+
+#: clipboardCopyKeys
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: clipboardCopyKeysMac
+msgid "Cmd+C"
+msgstr "Cmd+C"
+
+#: collapsedGroup
+msgid "Collapsed Group"
+msgstr "Nhóm thu gọn"
