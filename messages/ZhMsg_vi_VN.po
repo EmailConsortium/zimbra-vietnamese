@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:23+0700\n"
+"POT-Creation-Date: 2014-03-09 00:22+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -17,10 +17,10 @@ msgstr ""
 #. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
+#. # Copyright (C) 2006, 2007, 2008, 2009, 2010 Zimbra, Inc.
 #. #
 #. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
+#. # Version 1.3 ("License"); you may not use this file except in
 #. # compliance with the License.  You may obtain a copy of the License at
 #. # http://www.zimbra.com/license.
 #. #
@@ -30,7 +30,7 @@ msgstr ""
 #. #
 #: aboveQuotedText
 msgid "Above included messages"
-msgstr "Thông điệp bao gồm ở trên"
+msgstr "Thông điệp được bao gồm ở trên"
 
 #: acceptShare
 msgid "Accept Share"
@@ -38,7 +38,7 @@ msgstr "Chấp nhận chia sẻ"
 
 #: actionAddCallerToForward
 msgid "Add to Call Forwarding List"
-msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi :"
+msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi"
 
 #: actionAddCallerToReject
 msgid "Add to Call Screening List"
@@ -50,11 +50,11 @@ msgstr "Thêm người gọi vào Danh sách chuyển tiếp cuộc gọi"
 
 #: actionAddCallerToRejectTT
 msgid "Add the caller to the Call Screening List"
-msgstr "Thêm người gọi vào Danh sách sàng lọc cuộc gọi"
+msgstr "Thêm người gọi đến Danh sách sàng lọc cuộc gọi"
 
 #: actionCallerAddedToForwardPl
 msgid "{0} phone numbers were added to the Call Forwarding List."
-msgstr "{0} điện thoại đã được thêm vào Danh sách chuyển tiếp cuộc gọi."
+msgstr "{0} số điện thoại đã được thêm vào Danh sách chuyển tiếp cuộc gọi."
 
 #: actionCallerAddedToForwardSi
 msgid "The phone number was added to the Call Forwarding List."
@@ -67,11 +67,11 @@ msgstr "Số điện thoại đã có trong Danh sách chuyển tiếp cuộc g�
 
 #: actionCallerAddForwardError
 msgid "The phone number could not be added to the Call Forwarding List."
-msgstr "Số điện thoại không thể thêm vào Danh sách chuyển tiếp cuộc gọi."
+msgstr "Số điện thoại không thể được thêm vào Danh sách chuyển tiếp cuộc gọi."
 
 #: actionCallerAddedToRejectPl
 msgid "{0} phone numbers were added to the Call Screening List."
-msgstr "{0} điện thoại đã được thêm vào Danh sách sàng lọc cuộc gọi."
+msgstr "{0} số điện thoại đã được thêm vào Danh sách sàng lọc cuộc gọi."
 
 #: actionCallerAddedToRejectSi
 msgid "The phone number was added to the Call Screening List."
@@ -84,7 +84,7 @@ msgstr "Số điện thoại đã có trong Danh sách sàng lọc cuộc gọi.
 
 #: actionCallerAddRejectError
 msgid "The phone number could not be added to the Call Screening List."
-msgstr "Số điện thoại không thể thêm vào Danh sách sàng lọc cuộc gọi."
+msgstr "Số điện thoại không thể được thêm vào Danh sách sàng lọc cuộc gọi."
 
 #: actionAddressBookCreated
 msgid "Created address book \"{0}\"."
@@ -96,7 +96,7 @@ msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá sổ đ
 
 #: actionAddressBookColorChanged
 msgid "Address book \"{0}\" color changed to \"{1}\"."
-msgstr "Màu của sổ địa chỉ \"{0}\" thay đổi tới \"{1}\"."
+msgstr "Màu sổ địa chỉ \"{0}\" thay đổi tới \"{1}\"."
 
 #: actionAddressBookContactsImported
 msgid ""
@@ -108,93 +108,13 @@ msgstr ""
 msgid "Deleted address book \"{0}\"."
 msgstr "Đã xoá sổ địa chỉ \"{0}\"."
 
-#: actionAddressBookModified
-msgid "Address book \"{0}\" modified."
-msgstr "Sổ địa chỉ \"{0}\" đã sửa."
-
 #: actionAddressBookRenamed
 msgid "Address book \"{0}\" renamed to \"{1}\"."
 msgstr "Sổ địa chỉ \"{0}\" đã đổi tên thành \"{1}\"."
 
-#: actionAddressBookTrashed
-msgid "Address book trashed \"{0}\"."
-msgstr "Sổ địa chỉ đã vào thùng rác \"{0}\"."
-
 #: actionAddressBookMovedToTrash
 msgid "Address book \"{0}\" moved to \"Trash\"."
 msgstr "Sổ địa chỉ \"{0}\" đã chuyển tới \"Thùng rác\"."
-
-#: actionBriefcaseCreated
-msgid "Created briefcase \"{0}\"."
-msgstr "Đã tạo cặp tài liệu \"{0}\"."
-
-#: actionBriefcaseCheckConfirm
-msgid "Please check the checkbox to confirm briefcase deletion."
-msgstr "Vui lòng chọn vào hộp chọn để xác nhận việc xoá bỏ cặp tài liệu."
-
-#: actionBriefcaseColorChanged
-msgid "Briefcase \"{0}\" color changed to \"{1}\"."
-msgstr "Màu của cặp tài liệu \"{0}\" thay đổi tới \"{1}\"."
-
-#: actionBriefcaseDeleted
-msgid "Deleted briefcase \"{0}\"."
-msgstr "Đã xoá cặp tài liệu \"{0}\"."
-
-#: actionBriefcaseModified
-msgid "Briefcase \"{0}\" modified\"."
-msgstr "Cặp tài liệu \"{0}\" đã sửa."
-
-#: actionBriefcaseRenamed
-msgid "Briefcase \"{0}\" renamed to \"{1}\"."
-msgstr "Cặp tài liệu \"{0}\" đã đổi tên thành \"{1}\"."
-
-#: actionBriefcaseItemsMoved
-msgid ""
-"{0,choice,0#0 items have been moved to \"{1}\"|1#1 item has been moved to "
-"\"{1}\"|1<{0,number,integer} items have been moved to \"{1}\"}."
-msgstr ""
-"{0,choice,0#0 mục vừa được chuyển tới \"{1}\"|1#1 mục vừa được chuyển tới "
-"\"{1}\"|1<{0,number,integer} mục vừa được chuyển tới \"{1}\"}."
-
-#: actionBriefcaseItemsDeleted
-msgid ""
-"{0,choice,0#0 items have been deleted|1#1 item has been deleted|1<{0,number,"
-"integer} items have been deleted}."
-msgstr ""
-"{0,choice,0#0 mục vừa được xoá|1#1 mục vừa được xoá|1<{0,number,integer} mục "
-"vừa được xoá}."
-
-#: actionBriefcaseMovedToTrash
-msgid "Briefcase \"{0}\" moved to \"Trash\"."
-msgstr "Cặp tài liệu \"{0}\" đã chuyển tới \"Thùng rác\"."
-
-#: actionBriefcaseTrashed
-msgid "Briefcase \"{0}\" trashed."
-msgstr "Cặp tài liệu \"{0}\" đã vào thùng rác."
-
-#: actionBriefcaseTag
-msgid ""
-"The tag \"{1}\" has been added to {0,choice,0#0 items|1#1 item|1<{0,number,"
-"integer} items}."
-msgstr ""
-"Thẻ \"{1}\" vừa được thêm vào {0,choice,0#0 mục|1#1 mục|1<{0,number,integer} "
-"mục}."
-
-#: actionBriefcaseUntag
-msgid ""
-"The tag \"{1}\" has been removed from {0,choice,0#0 items|1#1 item|1<{0,"
-"number,integer} items}."
-msgstr ""
-"Thẻ \"{1}\" vừa được loại bỏ từ {0,choice,0#0 mục|1#1 mục|1<{0,number,"
-"integer} mục}."
-
-#: actionBriefcaseUntagAll
-msgid ""
-"All tags have been removed from {0,choice,0#0 items|1#1 item|1<{0,number,"
-"integer} items}."
-msgstr ""
-"Tất cả thẻ vừa được loại bỏ từ {0,choice,0#0 mục|1#1 mục|1<{0,number,"
-"integer} mục}."
 
 #: actionAddFlag
 msgid "Add flag"
@@ -278,23 +198,15 @@ msgid ""
 "Imported {0,number,integer} {0,choice,0#appointments.|1#appointment|"
 "1<appointments.}"
 msgstr ""
-"Đã nhập {0,number,integer} {0,choice,0#cuộc hẹn.|1#cuộc hẹn|1<cuộc hẹn.}"
+"Đã nhập khẩu {0,number,integer} {0,choice,0#cuộc hẹn.|1#cuộc hẹn|1<cuộc hẹn.}"
 
 #: actionCalendarCreated
 msgid "Created calendar \"{0}\"."
 msgstr "Đã tạo lịch \"{0}\"."
 
-#: actionCalendarModified
-msgid "Calendar \"{0}\" modified."
-msgstr "Lịch \"{0}\" đã sửa."
-
 #: actionCalendarReloaded
 msgid "Reloaded calendar \"{0}\"."
 msgstr "Đã nạp lại lịch \"{0}\"."
-
-#: actionCalendarTrashed
-msgid "Calendar trashed \"{0}\"."
-msgstr "Lịch đã vào thùng rác \"{0}\"."
 
 #: actionCalendarCheckConfirm
 msgid "Please check the checkbox to confirm calendar deletion."
@@ -308,15 +220,6 @@ msgstr "Lịch \"{0}\" đã xoá bỏ."
 msgctxt "actionCallManager"
 msgid "Call Manager"
 msgstr "Trình quản lý cuộc gọi"
-
-#: actionChange
-msgctxt "actionChange"
-msgid "Change"
-msgstr "Thay đổi"
-
-#: actionChangeTT
-msgid "Click to change the view"
-msgstr "Bấm để thay đổi hiển thị"
 
 #: actionContactHardDeleted
 msgid ""
@@ -360,11 +263,11 @@ msgstr ""
 
 #: actionContactUntagAll
 msgid ""
-"All tags have been removed from {0,choice,0#0 contacts|1#1 contact|1<{0,"
+"All tags have been removed from {0,choice,0#0 messages|1#1 message|1<{0,"
 "number,integer} contacts}."
 msgstr ""
-"Tất cả thẻ vừa được loại bỏ từ {0,choice,0#0 liên hệ|1#1 liên hệ|1<{0,number,"
-"integer} liên hệ}."
+"Tất cả các thẻ vừa được loại bỏ từ {0,choice,0#0 thông điệp|1#1 thông điệp|"
+"1<{0,number,integer} liên hệ}."
 
 #: actionContactMoved
 msgid ""
@@ -392,14 +295,6 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được xoá|1#1 cuộc đàm thoại vừa được xoá|"
 "1<{0,number,integer} cuộc đàm thoại vừa được xoá}."
 
-#: actionConvMessageHardDeleted
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been deleted. "
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được xóa."
-
 #: actionConvFlag
 msgid ""
 "{0,choice,0#0 conversations have been flagged|1#1 conversation has been "
@@ -407,14 +302,6 @@ msgid ""
 msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được gắn cờ|1#1 cuộc đàm thoại vừa được gắn "
 "cờ|1<{0,number,integer} cuộc đàm thoại vừa được gắn cờ}."
-
-#: actionConvMessageFlag
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been flagged."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được gắn cờ."
 
 #: actionConvUnflag
 msgid ""
@@ -424,14 +311,6 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được bỏ gắn cờ|1#1 cuộc đàm thoại vừa được "
 "bỏ cờ|1<{0,number,integer} cuộc đàm thoại vừa được bỏ cờ}."
 
-#: actionConvMessageUnflag
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been unflagged."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được bỏ cờ."
-
 #: actionConvMarkedRead
 msgid ""
 "{0,choice,0#0 conversations have been marked read|1#1 conversation has been "
@@ -440,14 +319,6 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được đánh dấu đã đọc|1#1 cuộc đàm thoại vừa "
 "được đánh dấu đã đọc|1<{0,number,integer} cuộc đàm thoại vừa được đánh dấu "
 "đã đọc}."
-
-#: actionConvMessageMarkedRead
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been marked read."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được đánh dấu đã đọc."
 
 #: actionConvMarkedUnread
 msgid ""
@@ -459,14 +330,6 @@ msgstr ""
 "vừa được đánh dấu chưa đọc|1<{0,number,integer} cuộc đàm thoại vừa được đánh "
 "dấu chưa đọc}."
 
-#: actionConvMessageMarkedUnread
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been marked unread."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được đánh dấu chưa đọc."
-
 #: actionConvMarkedNotSpam
 msgid ""
 "{0,choice,0#0 conversations have been moved to the Inbox folder|1#1 "
@@ -477,31 +340,15 @@ msgstr ""
 "cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến|1<{0,number,integer} "
 "cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến}."
 
-#: actionConvMessageMarkedNotSpam
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been moved to the Inbox folder."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được chuyển tới thư mục Hộp thư đến."
-
 #: actionConvMarkedSpam
 msgid ""
-"{0,choice,0#0 conversations have been moved to the Spam folder|1#1 "
-"conversation has been moved to the Spam folder|1<{0,number,integer} "
-"conversations have been moved to the Spam folder}."
+"{0,choice,0#0 conversations have been moved to the Junk folder|1#1 "
+"conversation has been moved to the Junk folder|1<{0,number,integer} "
+"conversations have been moved to the Junk folder}."
 msgstr ""
-"{0,choice,0#0 cuộc đàm thoại đã được chuyển tới thư mục Thư rác|1#1 cuộc đàm "
-"thoại đã được chuyển tới thư mục Thư rác|1<{0,number,integer} cuộc đàm thoại "
-"đã được chuyển tới thư mục Thư rác}."
-
-#: actionConvMessageMarkedSpam
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been moved to the Spam folder."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được chuyển tới thư mục Thư rác."
+"{0,choice,0#0 cuộc đàm thoại vừa được chuyển tới thư mục Thư rác|1#1 cuộc "
+"đàm thoại vừa được chuyển tới thư mục Thư rác|1<{0,number,integer} cuộc đàm "
+"thoại vừa được chuyển tới thư mục Thư rác}."
 
 #: actionConvTag
 msgid ""
@@ -511,14 +358,6 @@ msgstr ""
 "Thẻ \"{1}\" vừa được thêm vào {0,choice,0#0 cuộc đàm thoại|1#1 cuộc đàm "
 "thoại|1<{0,number,integer} cuộc đàm thoại}."
 
-#: actionConvMessageTag
-msgid ""
-"The tag \"{2}\" has been added to {0} {0,choice,1#conversation|"
-"2#conversations} and {1} {1,choice,1#message|2#messages}."
-msgstr ""
-"Thẻ \"{1}\" vừa được thêm vào {0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm "
-"thoại} và {1} {1,choice,1#thông điệp|2#thông điệp}."
-
 #: actionConvUntag
 msgid ""
 "The tag \"{1}\" has been removed from {0,choice,0#0 conversations|1#1 "
@@ -527,14 +366,6 @@ msgstr ""
 "Thẻ \"{1}\" vừa được loại bỏ từ {0,choice,0#0 cuộc đàm thoại|1#1 cuộc đàm "
 "thoại|1<{0,number,integer} cuộc đàm thoại}."
 
-#: actionConvMessageUntag
-msgid ""
-"The tag \"{2}\" had been removed from {0} {0,choice,1#conversation|"
-"2#conversations} and {1} {1,choice,1#message|2#messages}."
-msgstr ""
-"Thẻ \"{2}\" vừa được loại bỏ từ  {0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm "
-"thoại} và {1} {1,choice,1#thông điệp|2#thông điệp}."
-
 #: actionConvUntagAll
 msgid ""
 "All tags have been removed from {0,choice,0#0 conversations|1#1 conversation|"
@@ -542,14 +373,6 @@ msgid ""
 msgstr ""
 "Tất cả các thẻ vừa được loại bỏ từ {0,choice,0#0 cuộc đàm thoại|1#1 cuộc đàm "
 "thoại|1<{0,number,integer} cuộc đàm thoại}."
-
-#: actionConvMessageUntagAll
-msgid ""
-"All tags have been removed from {0} {0,choice,1#conversation|"
-"2#conversations} and {1} {1,choice,1#message|2#messages}."
-msgstr ""
-"Tất cả thẻ vừa được loại bỏ từ {0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm "
-"thoại} và {1} {1,choice,1#thông điệp|2#thông điệp}."
 
 #: actionConvMoved
 msgid ""
@@ -561,14 +384,6 @@ msgstr ""
 "vừa được chuyển tới \"{1}\"|1<{0,number,integer} cuộc đàm thoại vừa được "
 "chuyển tới \"{1}\"}."
 
-#: actionConvMessageMoved
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been moved to \"{2}\"."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được chuyển đến \"{2}\"."
-
 #: actionConvMovedTrash
 msgid ""
 "{0,choice,0#0 conversations have been moved to the Trash folder|1#1 "
@@ -578,14 +393,6 @@ msgstr ""
 "{0,choice,0#0 cuộc đàm thoại vừa được chuyển tới thư mục Thùng rác|1#1 cuộc "
 "đàm thoại vừa được chuyển tới thư mục Thùng rác|1<{0,number,integer} cuộc "
 "đàm thoại vừa được chuyển tới thư mục Thùng rác}."
-
-#: actionConvMessageMovedTrash
-msgid ""
-"{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|"
-"2#messages} have been moved to the Trash folder."
-msgstr ""
-"{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được chuyển tới thư mục Thùng rác."
 
 #: actionDelete
 msgctxt "actionDelete"
@@ -617,10 +424,6 @@ msgstr "Đã xoá thư mục \"{0}\"."
 msgid "All items in folder \"{0}\" marked as read."
 msgstr "Tất cả các mục trong thư mục \"{0}\" đã đánh dấu đã đọc."
 
-#: actionFolderModified
-msgid "Folder \"{0}\" modified."
-msgstr "Thư mục \"{0}\" đã sửa."
-
 #: actionFolderMovedToTrash
 msgid "Folder \"{0}\" moved to \"Trash\"."
 msgstr "Thư mục \"{0}\" đã chuyển tới \"Thùng rác\"."
@@ -628,10 +431,6 @@ msgstr "Thư mục \"{0}\" đã chuyển tới \"Thùng rác\"."
 #: actionFolderReloaded
 msgid "Reloaded folder \"{0}\"."
 msgstr "Đã nạp lại thư mục \"{0}\"."
-
-#: actionFolderTrashed
-msgid "Folder trashed \"{0}\"."
-msgstr "Thư mục đã vào thùng rác \"{0}\"."
 
 #: actionForwardByEmail
 msgctxt "actionForwardByEmail"
@@ -645,7 +444,7 @@ msgstr ""
 
 #: actionGo
 msgid "Go"
-msgstr "Tới"
+msgstr "Go"
 
 #: actionContactGoTT
 msgid "Perform action on selected contact(s)"
@@ -654,10 +453,6 @@ msgstr "Thực thi hành động trên liên hệ đã chọn"
 #: actionTaskListGoTT
 msgid "Perform action on selected tasks(s)"
 msgstr "Thực thi hành động trên công việc đã chọn"
-
-#: actionAppointmentGoTT
-msgid "Perform action on selected appointment(s)"
-msgstr "Thực thi hành động trên cuộc hẹn đã chọn"
 
 #: actionTaskCancelled
 msgid "Task cancelled."
@@ -769,12 +564,12 @@ msgstr ""
 
 #: actionMessageMarkedSpam
 msgid ""
-"{0,choice,0#0 messages have been moved to the Spam folder|1#1 message has "
-"been moved to the Spam folder|1<{0,number,integer} messages have been moved "
-"to the Spam folder}."
+"{0,choice,0#0 messages have been moved to the Junk folder|1#1 message has "
+"been moved to the Junk folder|1<{0,number,integer} messages have been moved "
+"to the Junk folder}."
 msgstr ""
-"{0,choice,0#0 thông điệp đã được chuyển tới thư mục Thư rác|1#1 thông điệp "
-"đã được chuyển tới thư mục Thư rác|1<{0,number,integer} thông điệp đã được "
+"{0,choice,0#0 thông điệp vừa được chuyển tới thư mục Thư rác|1#1 thông điệp "
+"vừa được chuyển tới thư mục Thư rác|1<{0,number,integer} thông điệp vừa được "
 "chuyển tới thư mục Thư rác}."
 
 #: actionMessageTag
@@ -849,10 +644,6 @@ msgstr "Không có tập tin nào được chỉ định."
 msgid "No address book selected."
 msgstr "Không có sổ địa chỉ nào được chọn."
 
-#: actionNoBriefcaseNameSpecified
-msgid "No briefcase name specified."
-msgstr "Không có tên cặp tài liệu nào được chỉ định."
-
 #: actionNoTaskListFileImportSpecified
 msgctxt "actionNoTaskListFileImportSpecified"
 msgid "No file specified."
@@ -891,10 +682,6 @@ msgstr "Không có liên hệ nào được chọn."
 msgid "No conversation selected."
 msgstr "Không có cuộc đàm thoại nào được chọn."
 
-#: actionNoConvMessageSelected
-msgid "No conversation or message selected."
-msgstr "Không có cuộc đàm thoại nào được chọn."
-
 #: actionNoMessageSelected
 msgid "No message selected."
 msgstr "Không có thông điệp nào được chọn."
@@ -913,17 +700,13 @@ msgstr "Không có thư mục nào được chọn."
 msgid "No folder name specified."
 msgstr "Không có tên thư mục nào được chỉ định."
 
-#: actionNoItemSelected
-msgid "No item selected."
-msgstr "Không có mục nào được chọn."
-
 #: actionNoNameSpecified
 msgid "No name specified."
 msgstr "Không có tên nào được chỉ định."
 
 #: actionNoOwnerEmailSpecified
 msgid "No owner Email specified."
-msgstr "Không có chủ sở hữu Email được chỉ định."
+msgstr "Không có Email xác định chủ sở hữu."
 
 #: actionNoOwnerAddressBookSpecified
 msgid "No owner's address book specified."
@@ -1031,25 +814,13 @@ msgstr "Một bộ lọc phải có ít nhất một hành động"
 msgid "Created search \"{0}\"."
 msgstr "Đã tạo tìm kiếm \"{0}\"."
 
-#: actionSearchModified
-msgid "Search \"{0}\" modified."
-msgstr "Tìm kiếm \"{0}\" đã sửa."
-
-#: actionSearchTrashed
-msgid "Search trashed \"{0}\"."
-msgstr "Tìm kiếm vào thùng rác \"{0}\"."
-
-#: actionSearchDeleted
-msgid "Search deleted \"{0}\"."
-msgstr "Tìm kiếm đã xóa \"{0}\"."
-
 #: actionNotSpam
-msgid "Not Spam"
+msgid "Not Junk"
 msgstr "Không phải thư rác"
 
 #: actionNotSpamTT
-msgid "Mark selected item(s) as not Spam"
-msgstr "Đánh dấu mục đã chọn không là Thư rác"
+msgid "Mark selected item(s) as not Junk"
+msgstr "Đánh dấu các mục đã chọn không là Thư rác"
 
 #: actionSave
 msgctxt "actionSave"
@@ -1061,12 +832,13 @@ msgid "Save the select voice mail message"
 msgstr "Lưu lại thông điệp thư thoại đã chọn"
 
 #: actionSpam
-msgid "Spam"
+msgctxt "actionSpam"
+msgid "Junk"
 msgstr "Thư rác"
 
 #: actionSpamTT
-msgid "Mark selected item(s) as Spam"
-msgstr "Đánh dấu mục đã chọn như Thư rác"
+msgid "Mark selected item(s) as Junk"
+msgstr "Đánh dấu các mục đã chọn như Thư rác"
 
 #: actionTag
 msgctxt "actionTag"
@@ -1089,20 +861,12 @@ msgstr "Thẻ \"{0}\" đã xoá."
 msgid "All items with tag \"{0}\" marked as read."
 msgstr "Tất cả các mục với thẻ \"{0}\" đã đánh dấu như đã đọc."
 
-#: actionTagModified
-msgid "Tag \"{0}\" modified."
-msgstr "Thẻ \"{0}\" đã sửa."
-
 #: actionTaskListCreated
 msgid "Created task list \"{0}\"."
 msgstr "Đã tạo danh sách công việc \"{0}\"."
 
 #: actionTaskListDeleted
 msgid "Task List \"{0}\" deleted."
-msgstr "Danh sách công việc \"{0}\" đã xoá."
-
-#: actionTaskListTrashed
-msgid "Task List \"{0}\" trashed."
 msgstr "Danh sách công việc \"{0}\" đã xoá."
 
 #: actionTaskTag
@@ -1246,22 +1010,6 @@ msgstr ""
 "Nhiều hơn một thông điệp thư thoại được chọn. Chỉ một thông điệp thư thoại "
 "tại một thời điểm có thể được đính kèm vào một thông điệp email."
 
-#: actionWikiCreated
-msgid "Created notebook \"{0}\"."
-msgstr "Đã tạo sổ ghi chép \"{0}\"."
-
-#: actionWikiModified
-msgid "Notebook \"{0}\" modified."
-msgstr "Sổ ghi chép \"{0}\" đã sửa."
-
-#: actionWikiTrashed
-msgid "Notebook \"{0}\" trashed."
-msgstr "Sổ ghi chép \"{0}\" vào thùng rác."
-
-#: actionWikiDeleted
-msgid "Notebook \"{0}\" deleted."
-msgstr "Sổ ghi chép \"{0}\" đã xoá."
-
 #: active
 msgid "Active"
 msgstr "Hoạt động"
@@ -1279,10 +1027,6 @@ msgstr "Thêm tập tin đính kèm"
 msgid "Add Attendees"
 msgstr "Thêm người tham dự"
 
-#: addAttendeesResourcesFromContacts
-msgid "Add Attendees and Resources"
-msgstr "Thêm người tham dự và tài nguyên"
-
 #: addFromContacts
 msgid "Add Recipients"
 msgstr "Thêm người nhận"
@@ -1299,10 +1043,6 @@ msgstr "Thêm:"
 msgctxt "addressBook"
 msgid "Address Book"
 msgstr "Sổ địa chỉ"
-
-#: addressBookLabel
-msgid "Address Book:"
-msgstr "Sổ địa chỉ:"
 
 #: addressBookNew
 msgid "New Address Book"
@@ -1350,17 +1090,13 @@ msgstr "Vĩnh viễn xoá bỏ sổ địa chỉ này"
 msgid "Address Books"
 msgstr "Sổ địa chỉ"
 
-#: addressBooksLabel
-msgid "Address Books:"
-msgstr "Sổ địa chỉ:"
-
 #: addSelected
 msgid "Add Selected"
 msgstr "Thêm mục đã chọn"
 
 #: addToList
 msgid "Add to list"
-msgstr "Thêm vào danh sách"
+msgstr "Thêm tới danh sách"
 
 #: adminLinkLabel
 msgid "Domain Admin"
@@ -1370,33 +1106,17 @@ msgstr "Quản trị tên miền"
 msgid "ADVERTISEMENT"
 msgstr "QUẢNG CÁO"
 
-#: all
-msgid "All"
-msgstr "Tất cả"
-
-#: allDay
-msgid "All day"
-msgstr "Cả ngày"
-
 #: allDayEvent
 msgid "All day event"
-msgstr "Tất cả sự kiện trong ngày"
+msgstr "Sự kiện cả ngày"
 
 #: alwaysShowReadingPane
 msgid "Always show the reading pane"
-msgstr "Luôn hiển thị vùng đọc thư"
+msgstr "Luôn hiển thị khung đọc"
 
 #: answeredCalls
 msgid "Answered Calls"
 msgstr "Các cuộc gọi đã trả lời"
-
-#: appointments
-msgid "Appointments"
-msgstr "Cuộc hẹn"
-
-#: applyChanges
-msgid "Apply Changes"
-msgstr "Áp dụng các thay đổi"
 
 #: apptAllDay
 msgid "All-day"
@@ -1404,7 +1124,7 @@ msgstr "Tất cả ngày"
 
 #: apptCancelled
 msgid "The following meeting has been cancelled:"
-msgstr "Cuộc họp sau vừa được huỷ bỏ:"
+msgstr "Cuộc hợp sau vừa được huỷ bỏ:"
 
 #: apptDateBlurb
 msgid "{0} from {1} - {2}"
@@ -1415,7 +1135,6 @@ msgid "From {0} {1} - {2}  {3}"
 msgstr "Từ {0} {1} - {2}  {3}"
 
 #: apptDateBlurbAllDay
-msgctxt "apptDateBlurbAllDay"
 msgid "{0}"
 msgstr "{0}"
 
@@ -1426,7 +1145,7 @@ msgstr "{0} - {1}"
 
 #: apptExceptionNote
 msgid "This is an exception to the series."
-msgstr "Đây là một ngoại lệ tới mã hóa theo loạt."
+msgstr "Đây là một ngoại lệ tới chuỗi."
 
 #: apptInstanceCancelled
 msgid "A single instance of the following meeting has been cancelled:"
@@ -1438,11 +1157,11 @@ msgstr "Một mẫu đơn lẻ của cuộc họp sau vừa được sửa đổ
 
 #: apptInstEditSeries
 msgid "Edit the series."
-msgstr "Sửa mã hóa theo loạt."
+msgstr "Sửa chuỗi."
 
 #: apptInstViewSeries
 msgid "View the series."
-msgstr "Xem mã hóa theo loạt."
+msgstr "Xem chuỗi."
 
 #: apptInstNote
 msgid "You are editing a single instance of a recurring appointment."
@@ -1485,11 +1204,6 @@ msgstr "(không có phản hồi nào đưa ra)"
 msgid "Delegated"
 msgstr "Uỷ thác"
 
-#: apptPtstNEW
-msgctxt "apptPtstNEW"
-msgid "New"
-msgstr "Mới"
-
 #: apptViewFrom
 msgid "from"
 msgstr "từ"
@@ -1499,21 +1213,13 @@ msgctxt "assistant"
 msgid "Assistant"
 msgstr "Trình trợ giúp"
 
-#: at
-msgid "@"
-msgstr "@"
-
 #: atBottomOfMessage
 msgid "Below included messages"
 msgstr "Các thông điệp đã bao gồm bên dưới"
 
 #: attachFiles
 msgid "Attach Files"
-msgstr "Tập tin đính kèm"
-
-#: attachments
-msgid "Attachments"
-msgstr "Đính kèm"
+msgstr "Các tập tin đính kèm"
 
 #: attachmentCount
 msgid ""
@@ -1523,10 +1229,6 @@ msgstr ""
 "{0,choice,0#không có đính kèm|1#{0,number,integer} đính kèm|1<{0,number,"
 "integer} đính kèm}"
 
-#: attachmentLimitMsg
-msgid "<b>Note:&nbsp;</b>Attachments may not be larger than {0}"
-msgstr "<b>Chú ý:&nbsp;</b>Đính kèm có thể không lớn hơn {0}"
-
 #: attendee
 msgid "Attendee"
 msgstr "Người tham dự"
@@ -1535,13 +1237,9 @@ msgstr "Người tham dự"
 msgid "Attendees"
 msgstr "Người tham dự"
 
-#: attendeesLabel
-msgid "Attendees:"
-msgstr "Người tham dự:"
-
 #: autoAddContacts
-msgid "Add new contacts to \"Emailed Contacts\""
-msgstr "Thêm liên hệ mới tới \"Liên hệ đã email\""
+msgid "Enable auto adding of contacts"
+msgstr "Bật tự động thêm liên hệ"
 
 #: automaticallyAddSignature
 msgid "Automatically add signature"
@@ -1554,10 +1252,6 @@ msgstr "Gửi thông điệp tự động trả lời"
 #: awayMessage
 msgid "Away message"
 msgstr "Thông điệp gửi đi"
-
-#: arrangedBy
-msgid "Arranged by"
-msgstr "Sắp xếp theo"
 
 #: b
 msgid "B                                             "
@@ -1621,64 +1315,6 @@ msgstr ""
 msgid "Bcc"
 msgstr "Bcc"
 
-#: bccLabel
-msgid "Bcc:"
-msgstr "Bcc:"
-
-#: briefcase
-msgctxt "briefcase"
-msgid "Briefcase"
-msgstr "Cặp tài liệu"
-
-#: briefcaseNew
-msgid "New Briefcase"
-msgstr "Cặp tài liệu mới"
-
-#: briefcaseNewShared
-msgid "Link to Briefcase"
-msgstr "Liên kết tới Cặp tài liệu"
-
-#: briefcaseUser
-msgctxt "briefcaseUser"
-msgid "Briefcase"
-msgstr "Cặp tài liệu"
-
-#: briefcaseSystem
-msgid "System Briefcase"
-msgstr "Cặp tài liệu của hệ thống"
-
-#: briefcaseShared
-msgid "Shared Briefcase"
-msgstr "Cặp tài liệu chia sẻ"
-
-#: briefcaseDelete
-msgid "Delete Briefcase"
-msgstr "Xoá bỏ Cặp tài liệu"
-
-#: briefcaseUpdated
-msgid "Briefcase Updated"
-msgstr "Đã cập nhật cặp tài liệu"
-
-#: briefcaseEmptied
-msgid "Briefcase folder \"{0}\" emptied"
-msgstr "Thư mục cặp tài liệu \"{0}\" đã rỗng."
-
-#: briefcaseDeleteConfirmation
-msgid "Delete this briefcase (move to trash)"
-msgstr "Xoá bỏ cặp tài liệu này (chuyển vào thùng rác)"
-
-#: briefcasePermDeleteConfirmation
-msgid "Permanently delete this briefcase"
-msgstr "Xoá vĩnh viễn cặp tài liệu này"
-
-#: briefcaseExpView
-msgid "Explorer View"
-msgstr "Hiển thị theo explorer"
-
-#: briefcaseDtlView
-msgid "Detail View"
-msgstr "Hiển thị chi tiết"
-
 #: blue
 msgid "Blue"
 msgstr "Màu xanh"
@@ -1689,15 +1325,7 @@ msgstr "Màu đen"
 
 #: bothNewPasswordsMustMatch
 msgid "Both new passwords must match. Please retype them."
-msgstr "Cả hai mật khẩu mới phải khớp với nhau. Vui lòng gõ lại chúng."
-
-#: bothPasswordsMustMatch
-msgid "Both passwords must match. Please retype them."
-msgstr "Cả hai mật khẩu phải khớp với nhau. Vui lòng gõ lại chúng."
-
-#: briefcases
-msgid "Briefcases"
-msgstr "Cặp tài liệu"
+msgstr "Cả hai mật khẩu mới phải khớp với nhau. Vui lòng gõ lại."
 
 #: busy
 msgid "Busy"
@@ -1710,28 +1338,6 @@ msgstr "{0} ({1})&nbsp;&nbsp;{2}"
 #: callingPartyCallerIdFormat
 msgid "{0}&nbsp;&nbsp;{1}"
 msgstr "{0}&nbsp;&nbsp;{1}"
-
-#: by
-msgctxt "by"
-msgid "by"
-msgstr "bởi"
-
-#: byConversation
-msgid "By Conversation"
-msgstr "Theo cuộc đàm thoại"
-
-#: byMessage
-msgid "By Message"
-msgstr "Theo thông điệp"
-
-#: callingPartyFormat
-msgid "{0} ({1})"
-msgstr "{0} ({1}){0} - {1}"
-
-#: callingPartyCallerIdFormat
-msgctxt "callingPartyCallerIdFormat"
-msgid "{0}"
-msgstr "{0}"
 
 #: calViewListShort
 msgctxt "calViewListShort"
@@ -1760,34 +1366,26 @@ msgstr "Tháng"
 
 #: calViewWeek
 msgid "7 Day Week View"
-msgstr "Khung hiển thị tuần 7 ngày"
+msgstr "Hiển thị theo tuần 7 ngày"
 
 #: calViewWorkWeek
 msgctxt "calViewWorkWeek"
 msgid "Work Week View"
-msgstr "Khung hiển thị tuần làm việc"
+msgstr "Hiển thị theo tuần làm việc"
 
 #: calViewSchedule
 msgctxt "calViewSchedule"
 msgid "Schedule View"
-msgstr "Khung hiển thị lịch trình"
+msgstr "Hiển thị theo lịch trình"
 
 #: calendar
 msgctxt "calendar"
 msgid "Calendar"
 msgstr "Lịch"
 
-#: calendarLabel
-msgid "Calendar:"
-msgstr "Lịch:"
-
 #: calendarCheckedInUI
 msgid "Checked in UI"
 msgstr "Chọn trong UI"
-
-#: checkedCalendars
-msgid "Checked calendars"
-msgstr "Lịch đã kiểm tra"
 
 #: calendarExport
 msgid "Export to .ICS"
@@ -1844,10 +1442,6 @@ msgstr "Đã cập nhật lịch"
 msgid "Calendars"
 msgstr "Lịch"
 
-#: calendarsLabel
-msgid "Calendars:"
-msgstr "Lịch:"
-
 #: calendarFirstDayOfWeek
 msgid "First day of the week"
 msgstr "Ngày đầu của tuần"
@@ -1864,10 +1458,6 @@ msgstr "Hiển thị cuối cùng tại"
 msgid "View starts at"
 msgstr "Hiển thị bắt đầu tại"
 
-#: calendarHoursInvalid
-msgid "End time must be greater than start time."
-msgstr "Kết thúc thời gian phải lớn hơn thời gian bắt đầu."
-
 #: calendarName
 msgid "Calendar Name"
 msgstr "Tên lịch"
@@ -1876,17 +1466,9 @@ msgstr "Tên lịch"
 msgid "Calendar URL"
 msgstr "URL lịch"
 
-#: calendarWorkHoursHeader
-msgid "Work week"
-msgstr "Tuần làm việc"
-
-#: calendarWorkWeek
-msgid "Work week:"
-msgstr "Tuần làm việc:"
-
 #: callForwarding
 msgid "Call Forwarding :"
-msgstr "Chuyển tiếp cuộc gọi :"
+msgstr "Chuyển tiếp cuộc gọi:"
 
 #: callManager
 msgctxt "callManager"
@@ -1908,16 +1490,7 @@ msgctxt "cc"
 msgid "Cc"
 msgstr "Cc"
 
-#: ccbcc
-msgid "Cc/Bcc"
-msgstr "Cc/Bcc"
-
-#: ccLabel
-msgid "Cc:"
-msgstr "Cc:"
-
 #: change
-msgctxt "change"
 msgid "Change"
 msgstr "Thay đổi"
 
@@ -2018,42 +1591,6 @@ msgctxt "color"
 msgid "Color"
 msgstr "Màu"
 
-#: colorBlue
-msgid "#5b9bf2"
-msgstr "#5b9bf2"
-
-#: colorCyan
-msgid "#43eded"
-msgstr "#43eded"
-
-#: colorGray
-msgid "#bebebe"
-msgstr "#bebebe"
-
-#: colorGreen
-msgid "#6acb9e"
-msgstr "#6acb9e"
-
-#: colorOrange
-msgid "#fdbc55"
-msgstr "#fdbc55"
-
-#: colorPink
-msgid "#fe98d3"
-msgstr "#fe98d3"
-
-#: colorPurple
-msgid "#ba86e5"
-msgstr "#ba86e5"
-
-#: colorRed
-msgid "#f66666"
-msgstr "#f66666"
-
-#: colorYellow
-msgid "#f8fa33"
-msgstr "#f8fa33"
-
 #: company
 msgctxt "company"
 msgid "Company"
@@ -2066,7 +1603,7 @@ msgstr "Soạn thảo"
 
 #: compSubjectMissing
 msgid "No subject. Send anyway?"
-msgstr "Không có chủ đề. Bạn có gửi không ?"
+msgstr "Không có chủ đề. Có gửi đi không ?"
 
 #: composeExitConfirmation
 msgid "Your mail is not saved."
@@ -2087,12 +1624,8 @@ msgid ""
 "in the trash folder? {1}{2}"
 msgstr ""
 "{0}Hành động này sẽ xóa tất cả các mục trong cả thư mục thùng rác Email và "
-"Sổ Địa Chỉ. Bản chắc chắn muốn xóa vĩnh viễn mọi thứ trong thư mục thùng "
+"Sổ địa chỉ. Bạn chắc chắn muốn xóa vĩnh viễn mọi thứ trong thư mục thùng "
 "rác? {1}{2}"
-
-#: confirmUnsavedChanges
-msgid "Do you really want to cancel? {0}"
-msgstr "Bạn có thực sự muốn hủy bỏ? {0}"
 
 #: contact
 msgctxt "contact"
@@ -2149,17 +1682,9 @@ msgstr "Cuộc đàm thoại"
 msgid "Create Address Book"
 msgstr "Tạo sổ địa chỉ"
 
-#: createBriefcase
-msgid "Create Briefcase"
-msgstr "Tạo cặp tài liệu"
-
 #: createCalendar
 msgid "Create Calendar"
 msgstr "Tạo lịch"
-
-#: created
-msgid "created"
-msgstr "đã tạo"
 
 #: createFolder
 msgctxt "createFolder"
@@ -2217,7 +1742,7 @@ msgstr "Tên hiện thời"
 
 #: customRepeat
 msgid "Custom Repeat"
-msgstr "Tuỳ biến lặp lại"
+msgstr "Lặp lại tuỳ biến"
 
 #: cyan
 msgid "Cyan"
@@ -2231,10 +1756,6 @@ msgstr "Ngày tháng"
 msgctxt "day"
 msgid "Day"
 msgstr "Ngày"
-
-#: default
-msgid "Default"
-msgstr "Mặc định"
 
 #: defaultInviteReplyAcceptMessage
 msgid ""
@@ -2320,15 +1841,6 @@ msgstr "Xoá bỏ tìm kiếm"
 msgid "Delete Tag"
 msgstr "Xoá bỏ thẻ"
 
-#: department
-msgctxt "department"
-msgid "Department"
-msgstr "Phòng"
-
-#: deskphone
-msgid "DeskPhone"
-msgstr "Điện thoại bàn"
-
 #: details
 msgid "Details"
 msgstr "Chi tiết"
@@ -2336,10 +1848,6 @@ msgstr "Chi tiết"
 #: displayExternalImages
 msgid "Display images below"
 msgstr "Hiển thị các hình ảnh ở dưới"
-
-#: documentsSaved
-msgid "{0} documents saved in \"{1}\"."
-msgstr "{0} tài liệu đã lưu trong \"{1}\"."
 
 #: done
 msgid "Done"
@@ -2362,10 +1870,6 @@ msgstr "Bản nháp đã lưu lại thành công."
 msgctxt "drafts"
 msgid "Drafts"
 msgstr "Bản nháp"
-
-#: draftSavedAuto
-msgid "Draft Autosaved."
-msgstr "Thư nháp tự động lưu"
 
 #: duration
 msgid "Duration"
@@ -2411,7 +1915,7 @@ msgstr "Liên hệ đã email"
 
 #: emailNotification
 msgid "Email Notification :"
-msgstr "Email thông báo :"
+msgstr "Gửi thư thông báo :"
 
 #: empty
 msgid "Empty"
@@ -2422,44 +1926,25 @@ msgid "Empty Trash"
 msgstr "Làm trống Thùng rác"
 
 #: emptyJunk
-msgid "Empty Spam"
+msgid "Empty Junk"
 msgstr "Làm trống Thư rác"
-
-#: emptyMessage
-msgid "Click to view."
-msgstr "Bấm để xem"
-
-#: emptyPassword
-msgid "Empty passwords are not allowed."
-msgstr "Mật khẩu rỗng không được phép."
-
-#: emptySearchQuery
-msgid "Please specify search query to search."
-msgstr "Vui lòng chỉ định truy vấn tìm kiếm để tìm kiếm."
-
-#: enableAppleICalDelegation
-msgid "Enable delegation for Apple iCal CalDAV client"
-msgstr "Cho phép ủy quyền cho trình khách Apple iCal CalDAV"
 
 #: end
 msgid "End"
 msgstr "Cuối"
 
-#: endLabel
-msgid "End:"
-msgstr "Cuối:"
-
 #: enterAddrBelow
 msgid "Or enter addresses below (comma separated)"
-msgstr "Hoặc nhập các địa chỉ bên dưới (cách bởi dấu phẩy)"
+msgstr "Hoặc nhập các địa chỉ bên dưới (phân cách bởi dấu phẩy)"
 
 #: enterAddresses
 msgid "Enter addresses on separate lines"
 msgstr "Nhập các địa chỉ trên các dòng riêng biệt"
 
 #: enterContactToSearchFor
-msgid "Enter contact to search for in text field and click on \"Search\"."
-msgstr "Nhập liên hệ để tìm trong ô nhập và bấm vào \"Tìm kiếm\"."
+msgid ""
+"Enter contact to search for in text field and click on \"Search Contacts\"."
+msgstr "Nhập liên hệ để tìm trong ô nhập và bấm vào \"Tìm liên hệ\"."
 
 #: enterNewPassword
 msgid "Please enter a new password and re-enter it in the confirmation field."
@@ -2488,21 +1973,15 @@ msgstr "Chủ đề là trường bắt buộc."
 
 #: errorMyCardDelete
 msgid "My Card cannot be deleted."
-msgstr "Thẻ của tôi không thể bị xoá bỏ."
+msgstr "Thiệp của tôi không thể bị xoá bỏ."
 
 #: errorMyCardMove
 msgid "My Card cannot be moved."
-msgstr "Thẻ của tôi không thể bị chuyển."
-
-#: errorEmptyTaskDueDate
-msgid "Due Date is required, when Start Date is specified."
-msgstr "Ngày đến hạn là bắt buộc, khi Ngày bắt đầu được chỉ định."
+msgstr "Thiệp của tôi không thể bị chuyển."
 
 #: errorPhoneFAQLink
 msgid "Please see the <a href=\"{1}\" target=\"_blank\">FAQ</a> for more info."
-msgstr ""
-"Vui lòng xem <a href=\"{1}\" target=\"_blank\">Hỏi đáp</a> để biết thêm "
-"thông tin."
+msgstr "Vui lòng xem <a href=\"{1}\" target=\"_blank\">FAQ</a> để biết thêm."
 
 #: errorPhoneFAQURL
 msgid "http://www.comcast.net"
@@ -2510,11 +1989,11 @@ msgstr "http://www.comcast.net"
 
 #: errorPhoneNotUnique
 msgid "The phone number is already in the list of numbers being forwarded."
-msgstr "Số điện thoại đã có trong danh sách các số được chuyển tiếp."
+msgstr "Số điện thoại đã có trong danh sách số được chuyển tiếp."
 
 #: errorPhoneNotUniqueReject
 msgid "The phone number is already in the list of numbers being screened."
-msgstr "Số điện thoại đã có trong danh sách các số được sàng lọc."
+msgstr "Số điện thoại đã có trong danh sách số được sàng lọc."
 
 #: errorPhoneIsInList
 msgid ""
@@ -2522,9 +2001,9 @@ msgid ""
 "another valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
 "telephone number and try again. SCC-0398"
 msgstr ""
-"Xin lỗi, bạn nhập vào một số điện thoại mà đã được thêm vào. Vui lòng nhập "
-"thêm 10 chữ số hợp lệ (XXX-XXX-XXXX) hoặc 11 chữ số (1-XXX-XXX-XXXX) số điện "
-"thoại Mỹ và thử lại. SCC-0398"
+"Xin lỗi, bạn đã nhập vào một số điện thoại mà đã được thêm vào. Vui lòng "
+"nhập thêm 10 chữ số hợp lệ (XXX-XXX-XXXX) hoặc 11 chữ số (1-XXX-XXX-XXXX) số "
+"điện thoại Mỹ và thử lại. SCC-0398"
 
 #: errorPhoneIsTo
 msgid ""
@@ -2603,7 +2082,7 @@ msgid ""
 "enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
 "telephone number and try again. SCC-0396"
 msgstr ""
-"Xin lỗi, tính năng này không hỗ trợ số điện thoại đã nhập. Vui lòng nhập 10 "
+"Xin lỗi, tính năng này không hỗ trợ số điện thoại nhập vào. Vui lòng nhập 10 "
 "chữ số hợp lệ (XXX-XXX-XXXX) hoặc 11 chữ số (1-XXX-XXX-XXXX) số điện thoại "
 "Mỹ và thử lại. SCC-0396"
 
@@ -2631,10 +2110,6 @@ msgstr "Nếu bất kỳ điều nào trong các điều kiện sau đây đư�
 msgid "If all of the following conditions are met:"
 msgstr "Nếu tất cả các điều kiện sau đây được đáp ứng:"
 
-#: itemModifiedByOn
-msgid "modified by {0} on {1}"
-msgstr "đã sửa bởi {0} lúc {1}"
-
 #. #URL for the favorites icon, relative to the webapp directory (eg: /zimbraAdmin)
 #: favIconUrl
 msgid "/img/logo/favicon.ico"
@@ -2651,11 +2126,6 @@ msgstr "Nguồn tin (Feed) \"{0}\" đã nạp."
 #: fileAs
 msgid "File As"
 msgstr "Tập tin như"
-
-#: files
-msgctxt "files"
-msgid "Files"
-msgstr "Tập tin"
 
 #: filterActiveHint
 msgid "active"
@@ -2738,32 +2208,32 @@ msgid ""
 "Permanently hard delete all items in this folder. This operation can not be "
 "undone."
 msgstr ""
-"Xóa cứng vĩnh viễn tất cả các mục trong thư mục này. Thao tác này không thể "
-"được hoàn tác."
+"Xóa cứng vĩnh viễn tất cả mục trong thư mục này. Thao tác này không thể được "
+"hoàn tác."
 
 #: calendarEmptyConfirmation
 msgid ""
 "Permanently delete all appointments in this calendar. This operation can not "
 "be undone."
 msgstr ""
-"Xoá vĩnh viễn tất cả các cuộc hẹn trong lịch này. Thao tác này không thể "
-"được hoàn tác."
+"Xoá vĩnh viễn tất cả cuộc hẹn trong lịch này. Thao tác này không thể được "
+"hoàn tác."
 
 #: taskListEmptyConfirmation
 msgid ""
 "Permanently delete all tasks in this task list. This operation can not be "
 "undone."
 msgstr ""
-"Xoá vĩnh viễn tất cả các công việc trong danh sách công việc này. Thao tác "
-"này không thể được hoàn tác."
+"Xoá vĩnh viễn tất cả công việc trong danh sách công việc này. Thao tác này "
+"không thể được hoàn tác."
 
 #: addressBookEmptyConfirmation
 msgid ""
 "Permanently delete all contacts in this address book. This operation can not "
 "be undone."
 msgstr ""
-"Xoá vĩnh viễn tất cả các liên hệ trong sổ địa chỉ này. Thao tác này không "
-"thể được hoàn tác."
+"Xoá vĩnh viễn tất cả liên hệ trong sổ địa chỉ này. Thao tác này không thể "
+"được hoàn tác."
 
 #: folderPermDeleteConfirmation
 msgid "Permanently delete this folder"
@@ -2846,18 +2316,9 @@ msgstr "Thư mục"
 msgid "Folders:"
 msgstr "Thư mục"
 
-#: fontSize
-msgid "Font Size"
-msgstr "Kích cỡ phông"
-
-#. # Copyright string must not be translated
 #: footerCopyright
-msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc. \"Telligent\" and \"Zimbra\"  "
-"are registered trademarks or trademarks of Telligent Systems, Inc."
-msgstr ""
-"Bản quyền © 2005 - 2013 Telligent Systems, Inc. \"Telligent\" và \"Zimbra\" "
-"là các thương hiệu được đăng ký hoặc thương hiệu của Telligent Systems, Inc."
+msgid "Copyright © 2008-2010 Zimbra, Inc."
+msgstr "Bản quyền © 2008-2010 Zimbra, Inc."
 
 #: formatDateSent
 msgid "EEE, MMM dd, yyyy hh:mm a"
@@ -2892,18 +2353,10 @@ msgstr "<Không phân mảnh>"
 msgid "Free"
 msgstr "Rảnh rỗi"
 
-#: freeBusy
-msgid "Free/Busy"
-msgstr "Rỗi/Bận"
-
 #: from
 msgctxt "from"
 msgid "From"
 msgstr "Từ"
-
-#: fromLabel
-msgid "From:"
-msgstr "Từ:"
 
 #: fromDate
 msgctxt "fromDate"
@@ -2962,10 +2415,6 @@ msgctxt "high"
 msgid "High"
 msgstr "Cao"
 
-#: hide
-msgid "Hide"
-msgstr "Ẩn"
-
 #: hideBcc
 msgid "Hide Bcc"
 msgstr "Ẩn Bcc"
@@ -2973,7 +2422,7 @@ msgstr "Ẩn Bcc"
 #: home
 msgctxt "home"
 msgid "Home"
-msgstr "Nhà riêng"
+msgstr "Trang chủ"
 
 #: htmlWelcomeMesg
 msgid "You are using the Zimbra Standard Version"
@@ -2988,15 +2437,6 @@ msgstr "Thư rác"
 msgid "KB"
 msgstr "KB"
 
-#: key
-msgid "Key"
-msgstr "Khóa"
-
-#: im
-msgctxt "im"
-msgid "IM"
-msgstr "IM"
-
 #: import
 msgid "Import"
 msgstr "Nhập"
@@ -3006,8 +2446,8 @@ msgid "in"
 msgstr "trong"
 
 #: includeJunkFolder
-msgid "Include Spam folder in searches"
-msgstr "Bao gồm thư mục Thư rác trong tìm kiếm"
+msgid "Include Junk folder in searches"
+msgstr "Bao gồm thư mục Thư rác trong việc tìm kiếm"
 
 #: includeTrashFolder
 msgid "Include Trash folder in searches"
@@ -3019,12 +2459,8 @@ msgid "Inbox"
 msgstr "Hộp thư đến"
 
 #: includeJunk
-msgid "Also search Spam"
+msgid "Also search Junk"
 msgstr "Tìm kiếm trong cả Thư rác"
-
-#: includeShared
-msgid "Include shared "
-msgstr "Bao gồm chia sẻ"
 
 #: invalidForwardNumber
 msgid "The call forwarding number is invalid"
@@ -3033,10 +2469,6 @@ msgstr "Số chuyển tiếp cuộc gọi không hợp lệ"
 #: invalidEmailAddress
 msgid "Invalid email address"
 msgstr "Địa chỉ email không hợp lệ"
-
-#: invalidAttendees
-msgid "Invalid attendees"
-msgstr "Người tham dự không hợp lệ"
 
 #: missingEmailAddress
 msgid "Missing email address"
@@ -3061,11 +2493,6 @@ msgctxt "linkToSharedCalendar"
 msgid "Link to Shared Calendar"
 msgstr "Liên kết tới Lịch chia sẻ"
 
-#: list
-msgctxt "list"
-msgid "List"
-msgstr "Danh sách"
-
 #: listen
 msgctxt "listen"
 msgid "Listen"
@@ -3074,10 +2501,6 @@ msgstr "Nghe"
 #: location
 msgid "Location"
 msgstr "Địa điểm"
-
-#: locationLabel
-msgid "Location:"
-msgstr "Địa điểm:"
 
 #: login
 msgid "Log In"
@@ -3096,31 +2519,10 @@ msgctxt "low"
 msgid "Low"
 msgstr "Thấp"
 
-#: lowBandwidth
-msgid "Thin (EDGE/GPRS)"
-msgstr "Mỏng (EDGE/GPRS)"
-
-#: labelModifiedOn
-msgid "modified on"
-msgstr "đã sửa lúc"
-
-#: labelVersion
-msgid "version"
-msgstr "phiên bản"
-
-#: labelBy
-msgctxt "labelBy"
-msgid "by"
-msgstr "bởi"
-
 #: mail
 msgctxt "mail"
 msgid "Mail"
 msgstr "Thư"
-
-#: mailHeader
-msgid "My Email Accounts"
-msgstr "Tài khoản email của tôi"
 
 #: mailSearch
 msgid "Mail/Search"
@@ -3128,7 +2530,7 @@ msgstr "Thư/Tìm kiếm"
 
 #: mailDeliveryDisabled
 msgid "Don't keep a local copy of messages"
-msgstr "Không giữ một bản sao cục bộ của các thông điệp"
+msgstr "Không giữ một bản sao cục bộ của thông điệp"
 
 #: mailFilters
 msgid "Mail Filters"
@@ -3159,10 +2561,6 @@ msgctxt "manageAddressBooks"
 msgid "Manage Address Books"
 msgstr "Quản lý sổ địa chỉ"
 
-#: manageBriefcase
-msgid "Manage Briefcases"
-msgstr "Quản lý Cặp tài liệu"
-
 #: manageCalendars
 msgctxt "manageCalendars"
 msgid "Manage Calendars"
@@ -3186,10 +2584,6 @@ msgstr "Quản lý thẻ"
 msgid "Mark as"
 msgstr "Danh dấu như"
 
-#: markAsLabel
-msgid "Mark as:"
-msgstr "Danh dấu như:"
-
 #: markFolderRead
 msgid "Mark Folder Read"
 msgstr "Đánh dấu thư mục đã đọc"
@@ -3210,130 +2604,10 @@ msgstr "Thông điệp của bạn vừa được gửi."
 msgid "Missed Calls"
 msgstr "Các cuộc gọi nhỡ"
 
-#: mimeAudio
-msgid "Audio"
-msgstr "Âm thanh"
-
-#: mimeUnknownBinaryType
-msgid "Unknown Binary Type"
-msgstr "Kiểu nhị phân chưa biết"
-
-#: mimeAdobePdfDocument
-msgid "Adobe PDF"
-msgstr "Adobe PDF"
-
-#: mimeAdobePsDocument
-msgid "Adobe Postscript"
-msgstr "Adobe Postscript"
-
-#: mimeApplication
-msgid "Application"
-msgstr "Ứng dụng"
-
-#: mimeMsDownload
-msgid "Microsoft DLL"
-msgstr "Microsoft DLL"
-
-#: mimeMsExcelDocument
-msgid "Microsoft Excel"
-msgstr "Microsoft DLL"
-
-#: mimeMsWinmailDat
-msgid "Microsoft Outlook (TNEF)"
-msgstr "Microsoft Outlook (TNEF)"
-
-#: mimeMsPPTDocument
-msgid "Microsoft PowerPoint"
-msgstr "Microsoft PowerPoint"
-
-#: mimeMsProjectDocument
-msgid "Microsoft Project"
-msgstr "Microsoft Project"
-
-#: mimeMsVisioDocument
-msgid "Microsoft Visio"
-msgstr "Microsoft Visio"
-
-#: mimeMsWMV
-msgid "Windows Media Video"
-msgstr "Windows Media Video"
-
-#: mimeMsWordDocument
-msgid "Microsoft Word"
-msgstr "Microsoft Word"
-
-#: mimeMp3Audio
-msgid "MP3 Audio"
-msgstr "Âm thanh MP3"
-
-#: mimeWaveAudio
-msgid "WAV Audio"
-msgstr "Âm thanh WAV"
-
-#: mimeZipFile
-msgid "Zip File"
-msgstr "Tập tin Zip"
-
-#: mimeVideo
-msgid "Video"
-msgstr "Video"
-
-#: mimeImage
-msgid "Image"
-msgstr "Ảnh"
-
-#: mimeGifImage
-msgid "GIF Image"
-msgstr "Ảnh GIF"
-
-#: mimeJpegImage
-msgid "JPEG Image"
-msgstr "Ảnh JPEG"
-
-#: mimePngImage
-msgid "PNG Image"
-msgstr "Ảnh PNG"
-
-#: mimeTiffImage
-msgid "TIFF Image"
-msgstr "Ảnh TIFF"
-
-#: mimeMailMessage
-msgid "Mail Message"
-msgstr "Thông điệp email"
-
-#: mimeTextDocuments
-msgid "Text Documents"
-msgstr "Văn bản Text"
-
-#: mimeTextFile
-msgid "Text File"
-msgstr "Tập tin văn bản"
-
-#: mimeEnrichedText
-msgid "Enriched Text"
-msgstr "Văn bản phong phú"
-
-#: mimeHtmlDocument
-msgid "HTML"
-msgstr "HTML"
-
-#: mimeJavaSource
-msgid "Java Source Code"
-msgstr "Mã nguồn Java"
-
-#: mimeXmlDocument
-msgid "XML"
-msgstr "XML"
-
 #: mobile
 msgctxt "mobile"
 msgid "Mobile"
 msgstr "Mobile"
-
-#: modified
-msgid "modified"
-msgstr "đã sửa"
 
 #: modify
 msgid "Modify"
@@ -3344,14 +2618,9 @@ msgctxt "month"
 msgid "Month"
 msgstr "Tháng"
 
-#: more
-msgid "More"
-msgstr "Thêm"
-
 #: moreActions
-msgctxt "moreActions"
-msgid "Actions"
-msgstr "Hành động"
+msgid "More Actions..."
+msgstr "Hành động khác..."
 
 #: moveAction
 msgid "Move to..."
@@ -3369,16 +2638,11 @@ msgstr "Thiệp của tôi"
 msgid "Name"
 msgstr "Tên"
 
-#: nameLabel
-msgid "Name:"
-msgstr "Tên:"
-
 #: nameTooLong
 msgid "The name must be at most {0} characters long"
 msgstr "Tên phải nhiều nhất dài {0} ký tự"
 
 #: new
-msgctxt "new"
 msgid "New"
 msgstr "Mới"
 
@@ -3424,14 +2688,6 @@ msgstr "Công việc mới"
 msgid "Open in new window"
 msgstr "Mở trong cửa sổ mới"
 
-#: no
-msgid "No"
-msgstr "Không"
-
-#: none
-msgid "None"
-msgstr "Không"
-
 #: normal
 msgctxt "normal"
 msgid "Normal"
@@ -3441,18 +2697,9 @@ msgstr "Thường"
 msgid "Notes"
 msgstr "Ghi chú"
 
-#: notebook
-msgctxt "notebook"
-msgid "Documents"
-msgstr "Tài liệu"
-
-#: notebooks
-msgid "Notebooks"
-msgstr "Sổ ghi chép"
-
 #: noAddresses
 msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
-msgstr "Phải có ít nhất một đị chỉ trong các trường Tới:, Cc:, hoặc Bcc:"
+msgstr "Phải có ít nhất một đị chỉ trong các trường Gửi tới:, Cc:, hoặc Bcc:"
 
 #: noContactGroupMembers
 msgid "The contact group must have at least one member."
@@ -3506,19 +2753,15 @@ msgstr "Số"
 
 #: numberOfItemsPerPage
 msgid "Number of items to display per page"
-msgstr "Số mục hiển thị trên một trang"
+msgstr "Số các mục hiển thị trên một trang"
 
 #: numberOfContactsToDisplayPerPage
 msgid "Number of contacts to display per page"
-msgstr "Số liên hệ hiển thị trên một trang"
+msgstr "Số các liên hệ hiển thị trên một trang"
 
 #: oldPassword
 msgid "Old Password"
 msgstr "Mật khẩu cũ"
-
-#: on
-msgid "on"
-msgstr "lúc"
 
 #: options
 msgid "Preferences"
@@ -3731,7 +2974,7 @@ msgstr "Như HTML"
 #: optionsComposeAsText
 msgctxt "optionsComposeAsText"
 msgid "As Text"
-msgstr "Như văn bản (Text)"
+msgstr "Như văn bản thường"
 
 #: optionsComposeFont
 msgid "Font"
@@ -3749,7 +2992,7 @@ msgstr "Màu"
 
 #: optionsContacts
 msgid "Contacts Options"
-msgstr "Các tuỳ chọn liên hệ"
+msgstr "Tuỳ chọn liên hệ"
 
 #: optionsContactsPerPage
 msgid "Contacts per page"
@@ -3757,7 +3000,7 @@ msgstr "Liên hệ trên một trang"
 
 #: optionsCreatingAppointments
 msgid "Creating Appointments"
-msgstr "Các cuộc hẹn đang tạo"
+msgstr "Đang tạo cuộc hẹn"
 
 #: optionsDayWeekView
 msgid "Day/Week View"
@@ -3772,8 +3015,8 @@ msgid "Number of Voice Mails To Display"
 msgstr "Số thư thoại để hiển thị"
 
 #: optionsDisplay
-msgid "Display"
-msgstr "Hiển thị"
+msgid "Display:"
+msgstr "Hiển thị:"
 
 #: optionsGeneral
 msgctxt "optionsGeneral"
@@ -3799,7 +3042,7 @@ msgstr "Như HTML (khi có thể)"
 #: optionsDisplayHtmlAsText
 msgctxt "optionsDisplayHtmlAsText"
 msgid "As Text"
-msgstr "Như văn bản (Text)"
+msgstr "Như văn bản thường"
 
 #: optionsRings
 msgid "Number Of Rings"
@@ -3823,15 +3066,15 @@ msgstr "Cuộc gọi đến:"
 
 #: optionsLanguageIncomingPrompt
 msgid "When someone is sent to voice mail, prompt them in:"
-msgstr "Khi một người gửi đến hộp thư thoại, nhắc nhở chúng trong:"
+msgstr "Khi ai đó gửi tới thư thoại, nhắc nhở chúng trong:"
 
 #: optionsLanguageChecking
 msgid "Checking Voice Mail:"
-msgstr "Nhận thư thoại:"
+msgstr "Kiểm tra thư thoại:"
 
 #: optionsLanguageCheckingPrompt
 msgid "When I call to check voice mail, prompt me in:"
-msgstr "Khi tôi gọi để kiểm tra thư thoại, hay nhắc nhở tôi trong:"
+msgstr "Khi tôi gọi để kiểm tra thư thoại, nhắc nhở tôi trong: "
 
 #: language_ENGLISH
 msgid "English"
@@ -3859,11 +3102,11 @@ msgstr "Tự động phát thông điệp mới của tôi"
 
 #: optionsVoicemailPrompts
 msgid "Voice Mail Prompts"
-msgstr "Nhắc nhở thư thoại"
+msgstr "Gợi nhắc thư thoại"
 
 #: optionsPromptsLength
 msgid "Voice mails prompts should be..."
-msgstr "Nhắc nhở thư thoại nên là ..."
+msgstr "Gợi nhắc thư thoại không nên là ..."
 
 #: optionsPromptsLengthShort
 msgid "Rapid (Fewer prompts)"
@@ -3879,7 +3122,7 @@ msgstr "Mở rộng (nhắc nhở nhiều)"
 
 #: optionsPromptsAnnounce
 msgid "Announce date &amp; time when playing voice message"
-msgstr "Thông báo ngày &amp; giờ khi đang phát thông điệp thư thoại"
+msgstr "Thông báo ngày & giờ khi phát thông điệp thư thoại"
 
 #: optionsVoiceSecurity
 msgid "Security"
@@ -3887,7 +3130,7 @@ msgstr "Bảo mật"
 
 #: optionsVoiceSecurityChPwd
 msgid "Change Voice Mail PIN:"
-msgstr "Thay đổi PIN thư thoại"
+msgstr "Thay đổi PIN thư thoại:"
 
 #: optionsVoiceSecurityChPwdLink
 msgid "Change your Voice Mail PIN on Comcast.net"
@@ -3895,15 +3138,15 @@ msgstr "Thay đổi PIN thư thoại của bạn trên Comcast.net"
 
 #: optionsVoiceSecurityLogin
 msgid "Voice Mail Login:"
-msgstr "Đăng nhập thư thoại"
+msgstr "Đăng nhập thư thoại:"
 
 #: optionsVoiceSecurityLoginRequire
 msgid ""
 "Require my voice mail password to access voice mail from my Comcast Digital "
 "Voice phone"
 msgstr ""
-"Yêu cầu mật khẩu thư thoại để truy cập thư thoại từ điện thoại Comcast "
-"Digital Voice của tôi"
+"Yêu cầu mật khẩu thư thoại của tôi để truy cập vào thư thoại từ điện thoại "
+"Comcast Digital Voice của tôi"
 
 #: optionsVoiceSecurityChPwdUrl
 msgid "https://customer.comcast.com/SmartUrl/Secure/VMPIN"
@@ -3911,7 +3154,7 @@ msgstr "https://customer.comcast.com/SmartUrl/Secure/VMPIN"
 
 #: optionsCallLog
 msgid "Display - Call Logs"
-msgstr "Màn hình - Lịch sử cuộc gọi"
+msgstr "Màn hình - Nhật ký cuộc gọi"
 
 #: optionsCallLogPerPage
 msgid "Calls per Page"
@@ -3923,15 +3166,15 @@ msgstr "Thông báo"
 
 #: optionsVoiceNotificationsEmail
 msgid "Email Notifications:"
-msgstr "Email thông báo :"
+msgstr "Thư thông báo :"
 
 #: optionsVoiceNotificationsActive
 msgid "Send an email notification when a new voice mail is received to:"
-msgstr "Gửi một email thông báo khi một thư thoại mới được nhận tới:"
+msgstr "Gửi một thư thông báo khi một thư thoại mới được nhận:"
 
 #: optionsVoiceNotificationsAddresses
 msgid "Email Notification Addresses"
-msgstr "Địa chỉ email thông báo"
+msgstr "Địa chỉ thư thông báo :"
 
 #: optionsVoiceNotificationsErrorMax
 msgid ""
@@ -3943,23 +3186,15 @@ msgstr ""
 
 #: optionsVoiceNotificationsErrorInvalid
 msgid "Sorry, the entered email address is invalid."
-msgstr "Xin lỗi, địa chỉ email vừa nhập không hợp lệ."
+msgstr "Xin lỗi, địa chỉ email nhập vào không hợp lệ."
 
 #: optionsVoiceNotificationsErrorLong
 msgid "Sorry, the email addresses must be 100 characters or fewer. SCC-1505"
-msgstr "Xin lỗi, địa chỉ email phải có 100 ký tự hoặc ít hơn. SCC-1505"
+msgstr "Xin lỗi, địa chỉ email phải là 100 ký tự hoặc ít hơn. SCC-1505"
 
 #: optionsVoiceNotificationsErrorNotUnique
 msgid "Sorry, the entered address is already in the list."
-msgstr "Xin lỗi, địa chỉ vừa nhập đã có trong danh sách."
-
-#: optionsVoiceNotificationsTrans
-msgid "Send notification when a voice mail is transferred"
-msgstr "Gửi thông báo khi một thư thoại được chuyển giao"
-
-#: optionsVoiceNotificationsAttach
-msgid "Send notification when a voice mail is attached"
-msgstr "Gửi thông báo khi một thư thoại được đính kèm"
+msgstr "Xin lỗi, địa chỉ nhập vào đã có trong danh sách."
 
 #: optionsCallForwarding
 msgid "Call Forwarding"
@@ -3975,7 +3210,7 @@ msgstr "Chuyển tiếp TẤT CẢ cuộc gọi tới:"
 
 #: optionsCallForwardingSelective
 msgid "Selective Forwarding:"
-msgstr "Chuyển tiếp có lựa chọn:"
+msgstr "Chuyển tiếp lựa chọn:"
 
 #: optionsCallForwardingSelectiveLabel
 msgid "Forward ONLY calls from the following number(s):"
@@ -3994,7 +3229,7 @@ msgstr "Thêm số này:"
 #: optionsCallForwardingErrorMax
 msgctxt "optionsCallForwardingErrorMax"
 msgid "You may only specify 12 numbers to forward calls from"
-msgstr "Bạn chỉ có thể xác định 12 số để chuyển tiếp cuộc gọi từ"
+msgstr "Bạn chỉ có thể chỉ định 12 số để chuyển tiếp cuộc gọi từ"
 
 #: optionsCallForwardingRules
 msgctxt "optionsCallForwardingRules"
@@ -4009,8 +3244,8 @@ msgid ""
 "Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit (1-XXX-XXX-XXXX) US "
 "telephone number and try again. SCC-0397"
 msgstr ""
-"Xin lỗi, số Chuyển tiếp tới không thể để trống với tùy chọn chuyển tiếp cuộc "
-"gọi đã chọn. Bạn phải nhập một số điện thoại hợp lệ để sử dụng tính năng "
+"Xin lỗi, Số chuyển tiếp tới không thể để trống với cuộc gọi chuyển tiếp tùy "
+"chọn được chọn. Bạn phải nhập một số điện thoại hợp lệ để sử dụng tính năng "
 "này. Vui lòng nhập 10 chữ số hợp lệ (XXX-XXX-XXXX) hoặc 11 chữ số (1-XXX-XXX-"
 "XXXX) số điện thoại Mỹ và thử lại. SCC-0397"
 
@@ -4022,8 +3257,8 @@ msgid ""
 "Please enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit (1-XXX-XXX-XXXX) US "
 "telephone number and try again. SCC-0397"
 msgstr ""
-"Xin lỗi, số Chuyển tiếp tới không thể để trống với tùy chọn chuyển tiếp cuộc "
-"gọi đã chọn. Bạn phải nhập một số điện thoại hợp lệ để sử dụng tính năng "
+"Xin lỗi, Số chuyển tiếp tới không thể để trống với cuộc gọi chuyển tiếp tùy "
+"chọn được chọn. Bạn phải nhập một số điện thoại hợp lệ để sử dụng tính năng "
 "này. Vui lòng nhập 10 chữ số hợp lệ (XXX-XXX-XXXX) hoặc 11 chữ số (1-XXX-XXX-"
 "XXXX) số điện thoại Mỹ và thử lại. SCC-0397"
 
@@ -4032,8 +3267,8 @@ msgid ""
 "To turn off this feature please remove all the &quot;From&quot; numbers or "
 "provide a valid &quot;To&quot; number"
 msgstr ""
-"Để tắt tính năng này, vui lòng loại bỏ tất gả số &quot;Từ&quot; hoặc cung "
-"cấp một số &quot;Tới&quot; hợp lệ"
+"Để tắt tính năng này vui lòng loại bỏ tất cả số &quot;Từ&quot; hoặc cung cấp "
+"một số &quot;Tới&quot; hợp lệ "
 
 #: optionsCallRejection
 msgid "Call Screening"
@@ -4048,12 +3283,12 @@ msgid ""
 "Screen ALL anonymous calls (you can also manage this feature by dialing *77/"
 "*87 from your Comcast Digital Voice Phone)"
 msgstr ""
-"Sàng lọc TẤT CẢ cuộc gọi vô danh (bạn cũng có thể quản lý tính năng này bằng "
+"Sàng lọc TẤT CẢ cuộc gọivô danh (bạn cũng có thể quản lý tính năng này bằng "
 "cách quay số * 77/87 * từ điện thoại Comcast Digital Voice của bạn)"
 
 #: optionsCallRejectionSelective
 msgid "Selective Call Rejection:"
-msgstr "Từ chối cuộc gọi có lựa chọn:"
+msgstr "Từ chối cuộc gọi có chọn lọc:"
 
 #: optionsCallRejectionSelectiveLabel
 msgid "Screen ONLY the following number(s):"
@@ -4072,19 +3307,19 @@ msgstr "Thêm số này:"
 #: optionsCallRejectionErrorMax
 msgctxt "optionsCallRejectionErrorMax"
 msgid "You may only specify 12 numbers to screen calls from"
-msgstr "Bạn chỉ có thể chỉ định 12 số để sàng lọc các cuộc gọi từ"
+msgstr "Bạn chỉ có thể chỉ định 12 số để gọi sàng lọc cuộc gọi từ"
 
 #: optionsCallRejectionRules
 msgid "(You may reject calls from up to 12 numbers)"
-msgstr "(Bạn có thể từ chối cuộc gọi lên đến 12 số)"
+msgstr "(Bạn có thể từ chối cuộc gọi lên đến 12 cuộc)"
 
 #: optionsVoiceCenterHeader
 msgid "Need more controls over your voice service?"
-msgstr "Cần nhiều kiểm soát đối với dịch vụ thoại của bạn?"
+msgstr "Cần thêm điều khiển đối với dịch vụ thoại của bạn"
 
 #: optionsVoiceCenterLinkText
 msgid "Visit the Digital Voice Center"
-msgstr "Ghé thăm Trung tâm âm kỹ thuật số"
+msgstr "Thăm trung tâm âm thanh kỹ thuật số"
 
 #: optionsVoiceCenterLinkURL
 msgid ""
@@ -4104,7 +3339,7 @@ msgstr "Tuỳ chọn đăng nhập"
 
 #: optionsMessagesFromMe
 msgid "Messages from me"
-msgstr "Thông điệp từ tôi"
+msgstr "Các thông điệp từ tôi"
 
 #: optionsMessagePreview
 msgid "Message Preview"
@@ -4114,13 +3349,9 @@ msgstr "Xem trước thông điệp"
 msgid "Add Signature"
 msgstr "Thêm chữ ký"
 
-#: optionsReadingPane
-msgid "Reading Pane"
-msgstr "Khung đọc"
-
 #: optionsReceivingMessages
 msgid "Receiving Messages"
-msgstr "Thông điệp đang nhận"
+msgstr "Các thông điệp đang nhận"
 
 #: optionsReplyReplyAll
 msgid "Reply/Reply All"
@@ -4157,7 +3388,7 @@ msgstr "Chuyển tiếp"
 
 #: optionsSaved
 msgid "Options Saved."
-msgstr "Tuỳ chọn đã lưu lại."
+msgstr "Các tuỳ chọn đã lưu lại."
 
 #: optionsSaveSent
 msgid "Save a copy to Sent folder"
@@ -4165,7 +3396,7 @@ msgstr "Lưu lại một bản sao tới thư mục Thư đã gửi"
 
 #: optionsDontSaveSent
 msgid "Do not save Sent Messages"
-msgstr "Không lưu các Thông điệp đã gửi"
+msgstr "Không lưu lại các Thông điệp đã gửi"
 
 #: optionsSearchLanguage
 msgid "Search Language"
@@ -4182,11 +3413,11 @@ msgstr "Các thư mục tìm kiếm"
 
 #: optionsSentMessages
 msgid "Sent Messages"
-msgstr "Thông điệp đã gửi"
+msgstr "Các thông điệp đã gửi"
 
 #: optionsShowFragments
-msgid "Display text of messages in email list"
-msgstr "Hiển thị văn bản của thông điệp trong danh sách email"
+msgid "Disply text of messages in email list"
+msgstr "Hiển thị văn bản của thông điệp bên trong danh sách thư"
 
 #: optionsSignatures
 msgid "Signatures"
@@ -4267,7 +3498,7 @@ msgstr "Bỏ qua thông điệp"
 
 #: optionsDedupeSecondCopy
 msgid "Place in Inbox if I'm in To: or Cc:"
-msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
+msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Gửi tới: hoặc Cc:"
 
 #: orange
 msgid "Orange"
@@ -4276,10 +3507,6 @@ msgstr "Da cam"
 #: organizer
 msgid "Organizer"
 msgstr "Tổ chức"
-
-#: organizerLabel
-msgid "Organizer:"
-msgstr "Tổ chức:"
 
 #: other
 msgctxt "other"
@@ -4311,10 +3538,6 @@ msgstr "Email của chủ sở hữu"
 msgid "Owner's Address Book Name"
 msgstr "Tên sổ địa chỉ của chủ sở hữu"
 
-#: ownersBriefcaseName
-msgid "Owner's Briefcase Name"
-msgstr "Tên chủ sở hữu Cặp tài liệu"
-
 #: ownersCalendarName
 msgid "Owner's Calendar Name"
 msgstr "Tên lịch của chủ sở hữu"
@@ -4336,11 +3559,6 @@ msgstr "{0} của {1}"
 msgctxt "pager"
 msgid "Pager"
 msgstr "Phân trang"
-
-#: pages
-msgctxt "pages"
-msgid "Pages"
-msgstr "Trang"
 
 #: parentFolder
 msgid "Parent folder"
@@ -4382,7 +3600,7 @@ msgstr "Điện thoại 2"
 #: phoneLabelCallback
 msgctxt "phoneLabelCallback"
 msgid "Callback"
-msgstr "Phản hồi"
+msgstr "Gọi lại"
 
 #: phoneLabelCar
 msgctxt "phoneLabelCar"
@@ -4397,7 +3615,7 @@ msgstr "Trình trợ giúp"
 #: phoneLabelCompany
 msgctxt "phoneLabelCompany"
 msgid "Company"
-msgstr "Cơ quan"
+msgstr "Công ty"
 
 #: phoneLabelHomeFax
 msgctxt "phoneLabelHomeFax"
@@ -4411,7 +3629,7 @@ msgstr "Nhà riêng"
 
 #: phoneLabelHome2
 msgid "Home 2"
-msgstr "Nhà riêng 2"
+msgstr "Nhà riêng"
 
 #: phoneLabelHomeAlternate
 msgid "Home Alternate"
@@ -4435,10 +3653,6 @@ msgstr "Công việc"
 #: phoneLabelWork2
 msgid "Work 2"
 msgstr "Công việc 2"
-
-#: phoneticName
-msgid "Phonetic name"
-msgstr "Phiên âm tên"
 
 #: pink
 msgid "Pink"
@@ -4465,10 +3679,6 @@ msgctxt "print"
 msgid "Print"
 msgstr "In"
 
-#: printFontSizePref
-msgid "Print Font Size"
-msgstr "Kích cỡ phông để in"
-
 #: priority
 msgctxt "priority"
 msgid "Priority"
@@ -4486,18 +3696,6 @@ msgstr "Công khai"
 msgid "Purple"
 msgstr "Màu tím"
 
-#: readingPaneAtBottom
-msgid "Reading Pane At The Bottom"
-msgstr "Khung đọc ở dưới"
-
-#: readingPaneOff
-msgid "Reading Pane Off"
-msgstr "Khung đọc tắt"
-
-#: readingPaneOnRight
-msgid "Reading Pane On The Right"
-msgstr "Khung đọc ở bên phải"
-
 #: reloadCalendar
 msgid "Reload Calendar"
 msgstr "Nạp lại lịch"
@@ -4508,7 +3706,7 @@ msgstr "Đã nhận"
 
 #: recurrence
 msgid "Recurrence"
-msgstr "Tái phát"
+msgstr "Tái diễn"
 
 #: recurFirst
 msgid "first"
@@ -4608,7 +3806,7 @@ msgstr ""
 
 #: recurComplex
 msgid "Complex repeat specification."
-msgstr "Lặp lại đặc điểm kỹ thuật phức tạp."
+msgstr "Đặc điểm kỹ thuật lặp lại phức tạp."
 
 #: recurEndNone
 msgid "No end date."
@@ -4655,8 +3853,8 @@ msgid "Refresh"
 msgstr "Làm mới"
 
 #: rememberMe
-msgid "Stay signed in"
-msgstr "Vẫn đang đăng nhập"
+msgid "Remember me on this computer"
+msgstr "Lưu thông tin của tôi trên máy này"
 
 #: remove
 msgid "Remove"
@@ -4693,10 +3891,6 @@ msgstr "Đổi tên thẻ"
 #: repeat
 msgid "Repeat"
 msgstr "Lặp lại"
-
-#: repeatLabel
-msgid "Repeat:"
-msgstr "Lặp lại:"
 
 #: repeatAdvanced
 msgid "Advanced"
@@ -4771,10 +3965,6 @@ msgstr "Hằng năm:"
 msgid "Repeats"
 msgstr "Lặp lại"
 
-#: repeatsLabel
-msgid "Repeats:"
-msgstr "Lặp lại:"
-
 #: reply
 msgctxt "reply"
 msgid "Reply"
@@ -4803,7 +3993,7 @@ msgstr "Trả lời tới"
 
 #: replyToEnabled
 msgid "Reply-to enabled"
-msgstr "Trả lời tới đã bật"
+msgstr "Trả lời tới đã được phép"
 
 #: replyToIdentity
 msgctxt "replyToIdentity"
@@ -4813,14 +4003,6 @@ msgstr "Trả lời tới"
 #: resend
 msgid "Resend"
 msgstr "Gửi lại"
-
-#: resource
-msgid "Resource"
-msgstr "Tài nguyên"
-
-#: resources
-msgid "Resources"
-msgstr "Tài nguyên"
 
 #: rootFolder
 msgid "(root folder)"
@@ -4838,10 +4020,6 @@ msgstr "Lưu lại thay đổi"
 #: saveDraft
 msgid "Save Draft"
 msgstr "Lưu thành bản nháp"
-
-#: saveSearch
-msgid "Save this search"
-msgstr "Lưu tìm kiếm này"
 
 #: saveToSent
 msgid "Save copies of messages to sent folder"
@@ -4869,11 +4047,7 @@ msgstr "Các thông điệp email"
 
 #: searchName
 msgid "Search name"
-msgstr "Tên tìm kiếm"
-
-#: searchNameLabel
-msgid "Search name:"
-msgstr "Tên tìm kiếm:"
+msgstr "Tìm kiếm tên"
 
 #: searchPersonalCalendars
 msgid "Personal Calendars"
@@ -4890,10 +4064,6 @@ msgstr "Danh sách công việc cá nhân"
 #: searchQuery
 msgid "Search query"
 msgstr "Tìm kiếm truy vấn"
-
-#: searchQueryLabel
-msgid "Search query:"
-msgstr "Truy vấn tìm kiếm :"
 
 #: searches
 msgctxt "searches"
@@ -4912,10 +4082,6 @@ msgstr "http://search.yahoo.com/search"
 msgid "p"
 msgstr "p"
 
-#: select
-msgid "Select"
-msgstr "Chọn"
-
 #: selectFilesToAttach
 msgid "Select files to attach and click \"Done\" when finished."
 msgstr "Chọn các tập tin để đính kèm và bấm \"Hoàn thành\" khi kết thúc."
@@ -4928,10 +4094,6 @@ msgstr "(Bạn có thể chuyển tiếp lên đến 12 số)"
 #: send
 msgid "Send"
 msgstr "Gửi"
-
-#: sendAsAttachments
-msgid "Send as attachment(s)"
-msgstr "Gửi dưới dạng đính kèm"
 
 #: sendEmailNotification
 msgid "Send an email notification to:"
@@ -4948,10 +4110,6 @@ msgstr "Gửi liên kết rỗi / bận"
 #: sender
 msgid "Sender"
 msgstr "Người gửi"
-
-#: senderLabel
-msgid "Sender:"
-msgstr "Người gửi:"
 
 #: sent
 msgctxt "sent"
@@ -4982,25 +4140,13 @@ msgstr "Phím tắt"
 msgid "Show timezone list in appointment view"
 msgstr "Hiển thị danh sách múi giờ trong khung hiển thị cuộc hẹn"
 
-#: showApptsFromThrough
-msgid "Show appointments from {0} through {1}"
-msgstr "Hiển thị cuộc hẹn từ {0} thông qua {1}"
-
 #: showAs
 msgid "Show as"
 msgstr "Hiển thị theo"
 
-#: showAsLabel
-msgid "Show as:"
-msgstr "Hiển thị như:"
-
 #: showConversation
 msgid "Show Conversation"
 msgstr "Hiển thị cuộc đàm thoại"
-
-#: showDeclinedMeetings
-msgid "Show declined meetings"
-msgstr "Hiển thị cuộc họp đã từ chối"
 
 #: showOrig
 msgid "Show Original"
@@ -5024,56 +4170,21 @@ msgctxt "size"
 msgid "Size"
 msgstr "Kích thước"
 
-#: slides_endSlideMsg
-msgid "End of slide show. <br> Click to run again"
-msgstr "Kết thúc trình chiếu. <br> Bấm để chạy lại"
-
-#: spellcheckNoMistakesFound
-msgid "No spelling mistakes found."
-msgstr "Không có lỗi chính tả được tìm thấy."
-
-#: spellcheckNoSuggestions
-msgid "No suggestions."
-msgstr "Không có đề nghị."
-
-#: spellcheckServiceUnavailableMessage
-msgid "The spell checking service is unavailable."
-msgstr "Dịch vụ kiểm tra chính tả không có."
-
-#: spellcheckSpellingSuggestions
-msgid "Spelling Suggestions "
-msgstr "Gợi ý chính tả"
-
-#: spellcheckSuggestionsLabel
-msgid "Suggestions:"
-msgstr "Gợi ý:"
-
-#. # Copyright string must not be translated
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-2013 Telligent Systems, Inc.  All rights reserved. "
-"Telligent and Zimbra are registered trademarks or trademarks of Telligent "
-"Systems, Inc."
+"Copyright © 2008-2010 Zimbra, Inc.     'Zimbra' and the Zimbra logos are "
+"trademarks of Zimbra, Inc."
 msgstr ""
-"Bản quyền © 2005 - 2013 Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
-"và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
-"Systems, Inc."
+"Bản quyền © 2008-2010 Zimbra, Inc.     'Zimbra' logo của Zimbra là thương "
+"hiệu của Zimbra, Inc."
 
 #: splashScreenAppName
-msgid "Web Client"
-msgstr "Trình khách web"
-
-#: splashScreenMobileAppName
-msgid "Mobile Web Client"
-msgstr "Trình khách web mobile"
+msgid "Collaboration Suite"
+msgstr "Hệ thống cộng tác"
 
 #: start
 msgid "Start"
 msgstr "Bắt đầu"
-
-#: startLabel
-msgid "Start:"
-msgstr "Bắt đầu:"
 
 #: startDate
 msgctxt "startDate"
@@ -5089,10 +4200,6 @@ msgstr "Trạng thái"
 msgctxt "subject"
 msgid "Subject"
 msgstr "Chủ đề"
-
-#: subjectLabel
-msgid "Subject:"
-msgstr "Chủ đề:"
 
 #: subscribe
 msgid "Subscribe"
@@ -5112,7 +4219,7 @@ msgstr "Phiên bản nâng cao"
 
 #: switchToOfflineClient
 msgid "Offline Version"
-msgstr "Phiên bản máy trạm"
+msgstr "Phiên bản ngoại tuyến"
 
 #: switchToOfflineURL
 msgid "http://www.zimbra.com/products/desktop.html"
@@ -5157,10 +4264,6 @@ msgstr "% Hoàn thành"
 #: taskDueDate
 msgid "Due Date"
 msgstr "Ngày đến hạn"
-
-#: taskDueDateLabel
-msgid "Due Date:"
-msgstr "Ngày đến hạn:"
 
 #: taskNew
 msgctxt "taskNew"
@@ -5223,7 +4326,6 @@ msgid "High"
 msgstr "Cao"
 
 #: task
-msgctxt "task"
 msgid "Task"
 msgstr "Công việc"
 
@@ -5231,10 +4333,6 @@ msgstr "Công việc"
 msgctxt "tasks"
 msgid "Tasks"
 msgstr "Công việc"
-
-#: tasksLabel
-msgid "Tasks:"
-msgstr "Công việc:"
 
 #: TASK_CANC
 msgid "Cancelled"
@@ -5258,7 +4356,7 @@ msgstr "Chưa bắt đầu"
 
 #: TASK_WAITING
 msgid "Waiting on someone else"
-msgstr "Chờ đợi vào người khác"
+msgstr "Chờ đợi người khác"
 
 #: tentative
 msgctxt "tentative"
@@ -5273,23 +4371,10 @@ msgstr "Thời gian"
 msgid "Time Zone"
 msgstr "Múi giờ"
 
-#: timeZonePrefLabel
-msgid "Time Zone:"
-msgstr "Múi giờ:"
-
 #: to
 msgctxt "to"
 msgid "To"
-msgstr "Tới"
-
-#: tocc
-msgctxt "tocc"
-msgid "To or Cc"
-msgstr "Tới hoặc CC"
-
-#: toLabel
-msgid "To:"
-msgstr "Tới:"
+msgstr "Gửi tới"
 
 #: today
 msgid "Today"
@@ -5317,10 +4402,6 @@ msgstr "Không chọn"
 msgid "unheard"
 msgstr "chưa nghe"
 
-#: unknown
-msgid "Unknown "
-msgstr "Không biết"
-
 #: unknownContentType
 msgid "Unknown <{0}>"
 msgstr "Không biết <{0}>"
@@ -5347,10 +4428,6 @@ msgstr "chưa đọc"
 msgid "No HTML formatter available for item"
 msgstr "Không có trình định dạng HTML có sẵn cho mục này"
 
-#: uploadNewFile
-msgid "Upload File"
-msgstr "Tải lên tập tin"
-
 #: url
 msgid "URL"
 msgstr "URL"
@@ -5365,49 +4442,16 @@ msgid "You must fill in the Username"
 msgstr "Bạn phải điền Tên đăng nhập"
 
 #: view
-msgctxt "view"
 msgid "View"
 msgstr "Xem"
-
-#: viewLabel
-msgid "View:"
-msgstr "Xem:"
 
 #: viewAsHtml
 msgid "View As Html"
 msgstr "Xem theo Html"
 
-#: viewMessage
-msgid "To view a message, click on it."
-msgstr "Để xem một thông điệp, bấm vào nó."
-
 #: voice
 msgid "Voice"
 msgstr "Tiếng nói"
-
-#: voiceErrorUnableToAuth
-msgid ""
-"Authorization Failed. Please verify that your password is set correctly in "
-"the Voice preferences or contact your administrator for further assistance."
-msgstr ""
-"Không được phép. Vui lòng xác minh rằng mật khẩu của bạn được thiết lập một "
-"cách chính xác trong tùy chọn Thư thoại hoặc liên hệ với quản trị viên của "
-"bạn để được hỗ trợ thêm."
-
-#: voiceErrorUnsupported
-msgid ""
-"Account not provisioned for Voice feature. Kindly contact your administrator."
-msgstr ""
-"Tài khoản không được dự liệu cho tính năng Thư thoại. Vui lòng liên hệ quản "
-"trị viên của bạn."
-
-#: voiceErrorGeneric
-msgid ""
-"Voice mailbox not configured correctly. Check preference settings or contact "
-"your administrator."
-msgstr ""
-"Hộp thư thoại đã cấu hình không đúng. Kiểm tra thiết lập tùy chọn hoặc liên "
-"hệ với quản trị viên của bạn."
 
 #: voiceMailsPerPage
 msgid "Voice mail messages per page"
@@ -5433,7 +4477,7 @@ msgstr ""
 "\n"
 "\n"
 "\n"
-"A tiếng nói của khách hàng đã gửi cho bạn một thông điệp thư thoại mới. Bạn "
+"A cuộc gọi của khách hàng đã gửi cho bạn một thông điệp thư thoại mới. Bạn "
 "có thể nghe thư thoại bằng cách đơn giản là mở tập tin đính kèm.\n"
 "Từ: {0}  |  Thời lượng: {1}  |  \tĐã nhận: {2}\n"
 "\n"
@@ -5457,26 +4501,6 @@ msgid ""
 "number."
 msgstr ""
 "Chọn số điện thoại bạn muốn quản lý sau đó chọn các tuỳ chọn cho số đó."
-
-#: wikiTOC
-msgid "Table of Contents"
-msgstr "Mục lục"
-
-#: wikiDocName
-msgid "Document name"
-msgstr "Tên tài liệu"
-
-#: wikiModifiedBy
-msgid "Modified by"
-msgstr "Đã sửa bởi"
-
-#: wikiModifiedOn
-msgid "Modified on"
-msgstr "Đã sửa lúc"
-
-#: wikiVersion
-msgid "Version"
-msgstr "Phiên bản"
 
 #: week
 msgid "Week"
@@ -5503,30 +4527,10 @@ msgstr "Công việc"
 msgid "Yellow"
 msgstr "Màu vàng"
 
-#: yes
-msgid "Yes"
-msgstr "Đồng ý"
-
-#: zimbraDocument
-msgid "Zimbra Document"
-msgstr "Tài liệu Zimbra"
-
-#: zimbraPresentation
-msgid "Zimbra Presentation"
-msgstr "Bản trình chiếu Zimbra"
-
-#: zimbraSpreadsheet
-msgid "Zimbra Spreadsheet"
-msgstr "Bảng tính Zimbra"
-
 #: zimbraTitle
 msgctxt "zimbraTitle"
 msgid "Zimbra"
 msgstr "Zimbra"
-
-#: zimbraTitleLabel
-msgid "Zimbra:"
-msgstr "Zimbra:"
 
 #: zeroSizedAtts
 msgid "Files of zero size and invalid path have been discarded."
@@ -5536,371 +4540,6 @@ msgstr ""
 #: uncheckToRemoveMembers
 msgid "Note: Uncheck to remove members from group."
 msgstr "Chú ý: Bỏ chọn để loại bỏ các thành viên từ nhóm."
-
-#. #error codes and description
-#: errorTryAgainLater
-msgid "Please try again later."
-msgstr "Xin vui lòng thử lại sau."
-
-#: errorGoBack
-msgid "Go back"
-msgstr "Trở lại"
-
-#: 400Title
-msgid "Bad Request"
-msgstr "Yêu cầu xấu"
-
-#: 400Msg
-msgid "The request contains bad syntax or cannot be fulfilled."
-msgstr "Yêu cầu chứa cú pháp lỗi hoặc không thể hoàn thành."
-
-#: 401Title
-msgid "Authorization Required"
-msgstr "Ủy quyền bắt buộc"
-
-#: 401Msg
-msgid ""
-"The server could not verify that you are authorized to access the requested "
-"resource.  Either you supplied the wrong credentials (e.g., bad password), "
-"or your browser doesn't understand how to supply the credentials required."
-msgstr ""
-"Máy chủ không thể xác minh rằng bạn được phép truy cập vào các tài nguyên "
-"yêu cầu. Hoặc bạn cung cấp ủy nhiệm sai (vd mật khẩu lỗi), hoặc trình duyệt "
-"của bạn không hiểu cách cung cấp các ủy nhiệm yêu cầu."
-
-#: 402Title
-msgid "Payment Required"
-msgstr "Thanh toán bắt buộc"
-
-#: 402Msg
-msgctxt "402Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-"Máy chủ vừa xảy ra một lỗi bên trong hoặc sai cấu hình và không thể hoàn "
-"thành yêu cầu của bạn."
-
-#: 403Title
-msgid "Forbidden"
-msgstr "Cấm"
-
-#: 403Msg
-msgid ""
-"You don't have enough permission to access the requested resource on the "
-"server."
-msgstr "Bạn không có đủ quyền truy cập tài nguyên được yêu cầu trên máy chủ."
-
-#: 404Title
-msgid "Not Found"
-msgstr "Không tìm thấy"
-
-#: 404Msg
-msgid "The requested URL was not found on this server."
-msgstr "URL yêu cầu đã không được tìm thấy trên máy chủ."
-
-#: 405Title
-msgid "Method Not Allowed"
-msgstr "Phương thức không được phép"
-
-#: 405Msg
-msgid "The requested method GET is not allowed for the requested URL."
-msgstr "Phương thức yêu cầu GET không được phép đối với URL đã yêu cầu."
-
-#: 406Title
-msgid "Not Acceptable"
-msgstr "Không thể chấp nhận"
-
-#: 406Msg
-msgid "No acceptable representation was found for the requested resource."
-msgstr ""
-"Không có sự trình bày có thể cấp nhận được tìm thấy cho tài nguyên được yêu "
-"cầu."
-
-#: 407Title
-msgid "Proxy Authentication Required"
-msgstr "Xác thực Proxy là bắt buộc."
-
-#: 407Msg
-msgid ""
-"The server could not verify that you are authorized to access the requested "
-"resource."
-msgstr ""
-"Máy chủ không thể xác minh rằng bạn được phép truy cập vào các tài nguyên "
-"yêu cầu."
-
-#: 408Title
-msgid "Request Time-out"
-msgstr "Yêu cầu vượt quá thời gian"
-
-#: 408Msg
-msgid ""
-"The server closed the network connection because the browser didn't finish "
-"the request within the specified time."
-msgstr ""
-"Máy chủ đóng kết nối mạng bởi vì trình duyệt không kết thục yêu cầu trong "
-"thời gian quy định."
-
-#: 409Title
-msgid "Conflict"
-msgstr "Xung đột"
-
-#: 409Msg
-msgctxt "409Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-"Máy chủ vừa xáy ra lỗi bên trong hoặc sai cấu hình và không thể hoàn thành "
-"yêu cầu của bạn."
-
-#: 410Title
-msgid "Gone"
-msgstr "Vắng mặt"
-
-#: 410Msg
-msgid ""
-"The requested URL is no longer available on this server and there is no "
-"forwarding address."
-msgstr ""
-"URL yêu cầu không còn có sẵn trên máy chủ này và không có địa chỉ chuyển "
-"tiếp."
-
-#: 411Title
-msgid "Length Required"
-msgstr "Chiều dài bắt buộc"
-
-#: 411Msg
-msgid "A request of the requested method GET requires a valid Content-length."
-msgstr ""
-"Một yêu cầu của phương thức yêu cầu GET đòi hỏi một trường Content-length "
-"hợp lệ"
-
-#: 412Title
-msgid "Precondition Failed"
-msgstr "Điều kiện tiên quyết đã hỏng"
-
-#: 412Msg
-msgid "The precondition on the request for the URL evaluated to false."
-msgstr "Điều kiện trên các yêu cầu cho URL đánh giá sai."
-
-#: 413Title
-msgid "Request Entity Too Large"
-msgstr "Thực thể yêu cầu quá lớn"
-
-#: 413Msg
-msgid ""
-"The redirect request method does not allow the data transmitted, or the data "
-"volume exceeds the capacity limit."
-msgstr ""
-"Phương thức yêu cầu chuyển hướng không cho phép dữ liệu truyền qua, hoặc "
-"dung lượng dữ liệu vượt quá giới hạn năng lực."
-
-#: 414Title
-msgid "Request-URI Too Large"
-msgstr "URL yêu cầu quá lớn"
-
-#: 414Msg
-msgid "The requested URL's length exceeds the capacity limit for this server."
-msgstr "Chiều dài URL yêu cầu vượt quá giới hạn khả năng của máy chủ này."
-
-#: 415Title
-msgid "Unsupported Media Type"
-msgstr "Kiểu Media không hỗ trợ"
-
-#: 415Msg
-msgid "The server does not support the media type transmitted in the request."
-msgstr "Máy chủ không hỗ trợ kiểu media đã truyền đi trong yêu cầu."
-
-#: 416Title
-msgid "Requested Range Not Satisfiable"
-msgstr "Phạm vi yêu cầu không đáp ứng được"
-
-#: 416Msg
-msgid ""
-"None of the range-specifier values in the range request-header field overlap "
-"the current extent of the selected resource."
-msgstr ""
-"Không có giá trị khoảng chỉ định trong phạm vi trường đầu đề yêu cầu chồng "
-"chéo trong phạm vi hiện thời của tài nguyên đã chọn."
-
-#: 417Title
-msgid "Expectation Failed"
-msgstr "Kỳ vòng thất bại"
-
-#: 417Msg
-msgid ""
-"The expectation given in the Expect request-header field could not be met by "
-"this server."
-msgstr ""
-"Kỳ vọng được đưa ra trong trường đầu đề yêu cầu Expect không thể đáp ứng bởi "
-"máy chủ này."
-
-#: 422Title
-msgid "Unprocessable Entity"
-msgstr "Thực thể không thể xử lý"
-
-#: 422Msg
-msgid ""
-"The server understands the media type of the request entity, but was unable "
-"to process the contained instructions."
-msgstr ""
-"Máy chủ hiểu được kiểu media của thực thể yêu cầu, nhưng không thể xử lý các "
-"chỉ dẫn trong đó."
-
-#: 423Title
-msgid "Locked"
-msgstr "Đã khóa"
-
-#: 423Msg
-msgid ""
-"The requested resource is currently locked. The lock must be released or "
-"proper identification given before the method can be applied."
-msgstr ""
-"Tài nguyên yêu cầu hiện thời bị khóa. Việc khóa phải được tháo hoặc nhận "
-"dạng phù hợ đưa ra trước khi phương thư có thể được áp dụng."
-
-#: 424Title
-msgid "Failed Dependency"
-msgstr "Phụ thuộc thất bại"
-
-#: 424Msg
-msgid ""
-"The method could not be performed on the resource because the requested "
-"action depended on another action and that other action failed."
-msgstr ""
-"Phương thức không thể được thực hiện trên tài nguyên bởi vì hành động yêu "
-"cầu phụ thuộc vào hành động khác và hành động khác đó thất bại."
-
-#: 425Title
-msgid "No code"
-msgstr "Không có mã"
-
-#: 425Msg
-msgctxt "425Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-"Máy chủ gặp một lỗi nội bộ hoặc sai cấu hình và không thể hoàn thành yêu cầu "
-"của bạn."
-
-#: 426Title
-msgid "Upgrade Required"
-msgstr "Nâng cấp yêu cầu"
-
-#: 426Msg
-msgid "The requested resource can only be retrieved using SSL."
-msgstr "Tài nguyên yêu cầu chỉ có thể được nhận bằng việc sử dụng SSL."
-
-#: 500Title
-msgid "Internal Server Error"
-msgstr "Lỗi bên trong máy chủ"
-
-#: 500Msg
-msgid "The server has encountered an internal error."
-msgstr "Máy chủ đã gặp lỗi nội bộ."
-
-#: 501Title
-msgid "Not Implemented"
-msgstr "Không thực hiện"
-
-#: 501Msg
-msgid ""
-"The server either does not recognise the request method, or it lacks the "
-"ability to fulfil the request."
-msgstr ""
-"Máy chủ hoặc không công nhận các phương thức yêu cầu, hoặc thiếu khả năng để "
-"thực hiện yêu cầu."
-
-#: 502Title
-msgid "Bad Gateway"
-msgstr "Gateway tồi"
-
-#: 502Msg
-msgid ""
-"The server was acting as a gateway or proxy and received an invalid response "
-"from the upstream server."
-msgstr ""
-"\tCác máy chủ được hành động như một gateway hoặc proxy và nhận một yêu cầu "
-"từ máy chủ đầu nguồn"
-
-#: 503Title
-msgid "Service Unavailable"
-msgstr "Dịch vụ không có sẵn."
-
-#: 503Msg
-msgid ""
-"The server is currently unavailable (because it is overloaded or down for "
-"maintenance)."
-msgstr "Máy chủ hiện không có (vì nó là quá tải hoặc tắt để bảo trì)."
-
-#: 504Title
-msgid "Gateway Timeout"
-msgstr "Gateway quá thời gian"
-
-#: 504Msg
-msgid ""
-"The server was acting as a gateway or proxy and did not receive a timely "
-"request from the upstream server."
-msgstr ""
-"Máy chủ được hành động như một gateway hoặc proxy và không nhận yêu cầu theo "
-"thời gian từ máy chủ đầu nguồn."
-
-#: 505Title
-msgid "HTTP Version Not Supported"
-msgstr "Phiên bạn HTTP không được hỗ trợ"
-
-#: 505Msg
-msgid ""
-"The server does not support the HTTP protocol version used in the request."
-msgstr ""
-"Máy chủ không hỗ trợ phiên bản giao thức HTTP được sử dụng trong yêu cầu."
-
-#: 506Title
-msgid "Variant Also Negotiates"
-msgstr "Ngoài bản thỏa thuận"
-
-#: 506Msg
-msgid ""
-"A variant for the requested entity is itself a negotiable resource. This "
-"indicates a configuration error."
-msgstr ""
-"Một biến thể cho thực thể đã yêu cầu là tài nguyên tự thương lượng. Điều này "
-"chỉ ra một lỗi cấu hình."
-
-#: 507Title
-msgid "Insufficient Storage (WebDAV)"
-msgstr "Lưu trữ không đủ (WebDAV)"
-
-#: 507Msg
-msgid "There is insufficient free space left in your storage allocation."
-msgstr "Không có đủ không gian trống cho việc lưu trữ của bạn."
-
-#: 509Title
-msgid "Bandwidth Limit Exceeded"
-msgstr "Băng thông vượt quá giới hạn"
-
-#: 509Msg
-msgctxt "509Msg"
-msgid ""
-"The server has encountered an internal error or misconfiguration and was "
-"unable to complete your request."
-msgstr ""
-"Máy chủ vừa xảy ra một lỗi nội bộ hoặc cấu hình sai hoặc không thể hoàn "
-"thành yêu cầu của bạn."
-
-#: 510Title
-msgid "Not Extended"
-msgstr "Không mở rộng"
-
-#: 510Msg
-msgid ""
-"A mandatory extension policy in the request is not accepted by the server "
-"for this resource."
-msgstr ""
-"Một chính sách mở rộng bắt buộc trong yêu cầu không được chấp nhận bởi các "
-"máy chủ cho các tài nguyên này."
 
 #: SKIN_uiTheme
 msgid "Theme"
@@ -5918,10 +4557,6 @@ msgstr "Beach"
 msgid "Bones"
 msgstr "Bones"
 
-#: SKIN_carbon
-msgid "Carbon"
-msgstr "Carbon"
-
 #: SKIN_froggy
 msgid "Froggy"
 msgstr "Froggy"
@@ -5934,10 +4569,6 @@ msgstr "Harvest"
 msgid "Hotrod"
 msgstr "Hotrod"
 
-#: SKIN_lake
-msgid "Lake"
-msgstr "Hồ"
-
 #: SKIN_lavender
 msgid "Lavender"
 msgstr "Lavender"
@@ -5945,14 +4576,6 @@ msgstr "Lavender"
 #: SKIN_lemongrass
 msgid "Lemongrass"
 msgstr "Lemongrass"
-
-#: SKIN_oasis
-msgid "Oasis"
-msgstr "Oasis"
-
-#: SKIN_pebble
-msgid "Pebble"
-msgstr "Pebble"
 
 #: SKIN_rose
 msgid "Rose"
@@ -5962,29 +4585,13 @@ msgstr "Rose"
 msgid "Sand"
 msgstr "Sand"
 
-#: SKIN_serenity
-msgid "Serenity"
-msgstr "Thanh bình"
-
 #: SKIN_sky
 msgid "Sky"
 msgstr "Sky"
 
-#: SKIN_smoke
-msgid "Smoke"
-msgstr "Khói thuốc"
-
 #: SKIN_steel
 msgid "Steel"
 msgstr "Steel"
-
-#: SKIN_tree
-msgid "Tree"
-msgstr "Cây"
-
-#: SKIN_twilight
-msgid "Twilight"
-msgstr "Chạng vạng"
 
 #: SKIN_vanilla
 msgid "Vanilla"
@@ -5995,7 +4602,6 @@ msgid "Waves"
 msgstr "Waves"
 
 #: SKIN_yahoo
-msgctxt "SKIN_yahoo"
 msgid "Yahoo!"
 msgstr "Yahoo!"
 
@@ -6119,18 +4725,6 @@ msgctxt "AB_FIELD_company"
 msgid "Company"
 msgstr "Công ty"
 
-#: AB_FIELD_phoneticFirstName
-msgid "Phonetic First"
-msgstr "Phiên âm đầu"
-
-#: AB_FIELD_phoneticLastName
-msgid "Phonetic Last"
-msgstr "Phiên âm cuối"
-
-#: AB_FIELD_phoneticCompany
-msgid "Phonetic Company"
-msgstr "Phiên âm công ty"
-
 #. # email addresses
 #: AB_FIELD_email
 msgctxt "AB_FIELD_email"
@@ -6148,7 +4742,7 @@ msgstr "Email 3"
 #. # work address
 #: AB_FIELD_workStreet
 msgid "Work Street"
-msgstr "Nơi làm việc"
+msgstr "Địa chỉ đường cơ quan"
 
 #: AB_FIELD_workCity
 msgid "Work City"
@@ -6160,7 +4754,7 @@ msgstr "Bang/Tỉnh"
 
 #: AB_FIELD_workPostalCode
 msgid "Work Postal Code"
-msgstr "Mã bưu chính cơ quan"
+msgstr "Mã bưu điện cơ quan"
 
 #: AB_FIELD_workCountry
 msgid "Work Country/Region"
@@ -6177,9 +4771,8 @@ msgid "Work Phone"
 msgstr "Điện thoại"
 
 #: AB_FIELD_workPhone2
-msgctxt "AB_FIELD_workPhone2"
-msgid "Alternate Phone"
-msgstr "Điện thoại khác"
+msgid "Work Phone 2"
+msgstr "Điện thoại 2"
 
 #: AB_FIELD_workFax
 msgid "Work Fax"
@@ -6196,51 +4789,15 @@ msgstr "Điện thoại công ty"
 #: AB_FIELD_callbackPhone
 msgctxt "AB_FIELD_callbackPhone"
 msgid "Callback"
-msgstr "Phản hồi"
+msgstr "Gọi lại"
 
 #: AB_FIELD_workMobile
 msgid "Work Mobile"
-msgstr "Mobile làm việc"
+msgstr "Mobile cơ quan"
 
 #: AB_FIELD_workAlternatePhone
 msgid "Work Alternate Phone"
-msgstr "Điện thoại làm việc khác"
-
-#. # IM
-#: AB_FIELD_imAddress1
-msgctxt "AB_FIELD_imAddress1"
-msgid "IM"
-msgstr "IM"
-
-#: AB_FIELD_imAddress2
-msgid "IM 2"
-msgstr "IM 2"
-
-#: AB_FIELD_imAddress3
-msgid "IM 3"
-msgstr "IM 3"
-
-#: AB_FIELD_IM_xmpp
-msgid "XMPP"
-msgstr "XMPP"
-
-#: AB_FIELD_IM_yahoo
-msgctxt "AB_FIELD_IM_yahoo"
-msgid "Yahoo!"
-msgstr "Yahoo!"
-
-#: AB_FIELD_IM_msn
-msgid "MSN"
-msgstr "MSN"
-
-#: AB_FIELD_IM_aol
-msgid "AOL"
-msgstr "AOL"
-
-#: AB_FIELD_IM_other
-msgctxt "AB_FIELD_IM_other"
-msgid "Other"
-msgstr "Khác"
+msgstr "Điện thoại thay thế"
 
 #. # home address
 #. #For Velodrome2 skin#
@@ -6280,7 +4837,6 @@ msgid "Other Work IM"
 msgstr "IM công việc khác"
 
 #: AB_FIELD_otherDepartment
-msgctxt "AB_FIELD_otherDepartment"
 msgid "Department"
 msgstr "Phòng"
 
@@ -6352,7 +4908,7 @@ msgstr "Bang/Tỉnh"
 
 #: AB_FIELD_homePostalCode
 msgid "Home Postal Code"
-msgstr "Mã bưu chính nhà riêng"
+msgstr "Mã bưu điện nhà riêng"
 
 #: AB_FIELD_homeCountry
 msgid "Home Country/Region"
@@ -6376,7 +4932,7 @@ msgstr "Điện thoại thay thế"
 #: AB_FIELD_homeFax
 msgctxt "AB_FIELD_homeFax"
 msgid "Home Fax"
-msgstr "Fax nhà riêng"
+msgstr "Số fax nhà riêng"
 
 #: AB_FIELD_mobilePhone
 msgctxt "AB_FIELD_mobilePhone"
@@ -6408,7 +4964,7 @@ msgstr "Bang/Tỉnh khác"
 
 #: AB_FIELD_otherPostalCode
 msgid "Other Postal Code"
-msgstr "Mã bưu chinhs khác"
+msgstr "Mã bưu chính khác"
 
 #: AB_FIELD_otherCountry
 msgid "Other Country/Region"
@@ -6514,11 +5070,6 @@ msgctxt "FOLDER_LABEL_15"
 msgid "Tasks"
 msgstr "Công việc"
 
-#: FOLDER_LABEL_16
-msgctxt "FOLDER_LABEL_16"
-msgid "Briefcase"
-msgstr "Cặp tài liệu"
-
 #. # calendar
 #: CAL_MINICAL_TITLE_FORMAT
 msgctxt "CAL_MINICAL_TITLE_FORMAT"
@@ -6567,10 +5118,6 @@ msgstr "T7"
 msgctxt "CAL_MONTH_TITLE_FORMAT"
 msgid "MMMMM yyyy"
 msgstr "MMMMM yyyy"
-
-#: CAL_LIST_TITLE_FORMAT
-msgid "MMM d"
-msgstr "MMM d"
 
 #: CAL_MONTH_DAY_FORMAT
 msgctxt "CAL_MONTH_DAY_FORMAT"
@@ -6621,10 +5168,6 @@ msgctxt "CAL_SCHEDULE_TB_TITLE_FORMAT"
 msgid "EEE, MMM d"
 msgstr "EEE, MMM d"
 
-#: CAL_APPT_SCHEDULE_HEADER_FORMAT
-msgid "MMM d, yyyy"
-msgstr "MMM d, yyyy"
-
 #: CAL_APPT_EDIT_DATE_FORMAT
 msgctxt "CAL_APPT_EDIT_DATE_FORMAT"
 msgid "MM/dd/yyyy"
@@ -6666,14 +5209,8 @@ msgid "Compose New Message"
 msgstr "Soạn thảo thông điệp mới"
 
 #: ALT_APP_TASK
-msgctxt "ALT_APP_TASK"
-msgid "Task"
-msgstr "Công việc"
-
-#: ALT_APP_BRIEFCASE
-msgctxt "ALT_APP_BRIEFCASE"
-msgid "Briefcase"
-msgstr "Cặp tài liệu"
+msgid "TASK"
+msgstr "TÁC VỤ"
 
 #: ALT_APP_MANAGE_TAGS
 msgctxt "ALT_APP_MANAGE_TAGS"
@@ -6694,11 +5231,6 @@ msgstr "Quản lý sổ địa chỉ"
 msgctxt "ALT_APP_MANAGE_CALENDARS"
 msgid "Manage Calendars"
 msgstr "Quản lý lịch"
-
-#: ALT_APP_NOTEBOOK
-msgctxt "ALT_APP_NOTEBOOK"
-msgid "Documents"
-msgstr "Tài liệu"
 
 #: ALT_APP_LINK_HELP
 msgctxt "ALT_APP_LINK_HELP"
@@ -6760,7 +5292,7 @@ msgstr "Làm tươi khung hiển thị lịch"
 #: ALT_CAL_SCHEDULE_VIEW
 msgctxt "ALT_CAL_SCHEDULE_VIEW"
 msgid "Schedule View"
-msgstr "Khung hiển lịch trình"
+msgstr "Khung hiển thị lịch trình"
 
 #: ALT_CAL_TODAY
 msgid "Go to today"
@@ -6872,7 +5404,7 @@ msgstr "Ưu tiên thấp"
 
 #: ALT_MSG_NEXT_MESSAGE
 msgid "go to next message"
-msgstr "go to next message"
+msgstr "tới thông điệp kế tiếp"
 
 #: ALT_MSG_PREVIOUS_MESSAGE
 msgid "go to previous message"
@@ -6896,7 +5428,7 @@ msgstr "Đã trả lời thông điệp"
 
 #: ALT_MSG_STATUS_FORWARDED
 msgid "Forwarded Message"
-msgstr "Thông điệp chuyển tiếp"
+msgstr "Thông điệp đã chuyển tiếp"
 
 #: ALT_MSG_STATUS_SENTBYME
 msgid "Sent Message"
@@ -7066,18 +5598,13 @@ msgctxt "FILT_COND_HEADER_to"
 msgid "To"
 msgstr "To"
 
-#: FILT_COND_HEADER_to,cc
-msgctxt "FILT_COND_HEADER_to,cc"
-msgid "To or Cc"
-msgstr "Tới hoặc CC"
-
 #: FILT_COND_HEADER_IS
 msgid "<b>{0}</b> matches exactly \"<b>{1}</b>\""
-msgstr "<b>{0}</b> khớp chính xác \"<b>{1}</b>\""
+msgstr "<b>{0}</b> đối sánh chính xác \"<b>{1}</b>\""
 
 #: FILT_COND_HEADER_NOT_IS
 msgid "<b>{0}</b> does <b>not</b> exactly match\"<b>{1}</b>\""
-msgstr "<b>{0}</b> <b>không</b> khớp chính xác \"<b>{1}</b>\""
+msgstr "<b>{0}</b> <b>không</b> đối sánh chính xác \"<b>{1}</b>\""
 
 #: FILT_COND_HEADER_CONTAINS
 msgid "<b>{0}</b> contains \"<b>{1}</b>\""
@@ -7105,12 +5632,12 @@ msgstr "Đầu đề (header) \"<b>{0}</b>\" <b>không</b> tồn tại"
 
 #: FILT_COND_GENERIC_HEADER_IS
 msgid "Header \"<b>{0}</b>\" matches exactly \"<b>{1}</b>\""
-msgstr "Đầu đề (header) \"<b>{0}</b>\" khớp chính xác \"<b>{1}</b>\""
+msgstr "Đầu đề (header) \"<b>{0}</b>\" đối sánh chính xác \"<b>{1}</b>\""
 
 #: FILT_COND_GENERIC_HEADER_NOT_IS
 msgid "Header \"<b>{0}</b>\" does <b>not</b> exactly match\"<b>{1}</b>\""
 msgstr ""
-"Đầu đề (header) \"<b>{0}</b>\" <b>không</b> khớp chính xác \"<b>{1}</b>\""
+"Đầu đề (header) \"<b>{0}</b>\" <b>không</b> đối sánh chính xác \"<b>{1}</b>\""
 
 #: FILT_COND_GENERIC_HEADER_CONTAINS
 msgid "Header \"<b>{0}</b>\" contains \"<b>{1}</b>\""
@@ -7203,7 +5730,7 @@ msgstr "Một địa chỉ trong đầu đề {0}"
 
 #: EFILT_COND_ADDRESS_IN
 msgid "is in Contacts"
-msgstr "ở trong Liên hệ"
+msgstr "là trong Liên hệ"
 
 #: EFILT_COND_ADDRESS_NOT_IN
 msgid "is not in Contacts"
@@ -7271,11 +5798,11 @@ msgstr "Đầu đề (header) có tên"
 
 #: EFILT_COND_HEADER_IS
 msgid "matches exactly"
-msgstr "khớp chính xác"
+msgstr "đối sánh chính xác"
 
 #: EFILT_COND_HEADER_NOT_IS
 msgid "does not exactly match"
-msgstr "không khớp chính xác"
+msgstr "không đối sánh chính xác"
 
 #: EFILT_COND_HEADER_CONTAINS
 msgid "contains"
@@ -7334,19 +5861,15 @@ msgstr "Chọn điều kiện..."
 
 #: EFILT_NEW_COND_FROM
 msgid "From..."
-msgstr "Từ..."
+msgstr "Gửi từ..."
 
 #: EFILT_NEW_COND_TO
 msgid "To..."
-msgstr "Tới..."
+msgstr "To..."
 
 #: EFILT_NEW_COND_CC
 msgid "Cc..."
 msgstr "Cc..."
-
-#: EFILT_NEW_COND_TOCC
-msgid "To or Cc..."
-msgstr "Tới hoặc Cc..."
 
 #: EFILT_NEW_COND_SUBJECT
 msgid "Subject..."
@@ -7379,10 +5902,6 @@ msgstr "Đính kèm..."
 #: EFILT_NEW_COND_ADDRESS_IN
 msgid "Address in..."
 msgstr "Địa chỉ trong..."
-
-#: EFILT_NEW_COND_ADDRESS
-msgid "Address"
-msgstr "Địa chỉ"
 
 #: EFILT_NEW_ACTION_SELECT
 msgid "Select action..."
@@ -7432,7 +5951,7 @@ msgstr "{0} - {1}"
 #: MO_MAIN
 msgctxt "MO_MAIN"
 msgid "Home"
-msgstr "Nhà riêng"
+msgstr "Trang chủ"
 
 #: MO_NEXT
 msgid "Next"
@@ -7443,7 +5962,6 @@ msgid "Prev"
 msgstr "Trước"
 
 #: MO_actions
-msgctxt "MO_actions"
 msgid "Actions"
 msgstr "Hành động"
 
@@ -7458,14 +5976,6 @@ msgstr "Loại bỏ thẻ"
 #: MO_larger
 msgid "larger"
 msgstr "lớn hơn"
-
-#: MO_flag
-msgid "Flag"
-msgstr "Cờ"
-
-#: MO_Unflag
-msgid "Unflag"
-msgstr "Bỏ cờ"
 
 #: MO_flagged
 msgctxt "MO_flagged"
@@ -7488,10 +5998,6 @@ msgstr "Tên đăng nhập"
 #: MO_quota
 msgid "Quota"
 msgstr "Hạn ngạch"
-
-#: MO_quotaLabel
-msgid "Quota:"
-msgstr "Hạn ngạch:"
 
 #: MO_quotaUsage
 msgctxt "MO_quotaUsage"
@@ -7526,65 +6032,12 @@ msgid "Tag"
 msgstr "Thẻ"
 
 #: MO_tocc
-msgctxt "MO_tocc"
-msgid "To or Cc"
-msgstr "Tới hoặc CC"
+msgid "To/Cc"
+msgstr "Gửi tới/Đồng gửi"
 
 #: MO_unread
 msgid "Unread"
 msgstr "Chưa đọc"
-
-#: MO_read
-msgid "Read"
-msgstr "Đọc"
-
-#: MO_loadingMsg
-msgid "Loading..."
-msgstr "Đang nạp..."
-
-#: MO_requestTimedOut
-msgid "Request timed out. Retry later."
-msgstr "Yêu cầu quá lâu. Thử lại sau."
-
-#: MO_sendingRequestMsg
-msgid "Sending request..."
-msgstr "Đăng gửi yêu cầu..."
-
-#: MO_view
-msgctxt "MO_view"
-msgid "View"
-msgstr "Xem"
-
-#: MO_viewList
-msgctxt "MO_viewList"
-msgid "List"
-msgstr "Danh sách"
-
-#: MO_viewExplorer
-msgid "Explorer"
-msgstr "Explorer"
-
-#: MO_pages
-msgctxt "MO_pages"
-msgid "Pages"
-msgstr "Trang"
-
-#: MO_files
-msgctxt "MO_files"
-msgid "Files"
-msgstr "Tập tin"
-
-#: MO_noAppointments
-msgid "No Appointments"
-msgstr "Không có cuộc hẹn"
-
-#: MO_showDetails
-msgid "Show Details"
-msgstr "Hiện chi tiết"
-
-#: MO_hideDetails
-msgid "Hide Details"
-msgstr "Ẩn chi tiết"
 
 #. ## contact
 #: MO_AB_email
@@ -7605,47 +6058,47 @@ msgstr "mobile"
 
 #: MO_AB_work
 msgid "work"
-msgstr "cơ quan"
+msgstr "work"
 
 #: MO_AB_work2
 msgid "work2"
-msgstr "cơ quan 2"
+msgstr "work2"
 
 #: MO_AB_workFax
 msgid "work fax"
-msgstr "fax cơ quan"
+msgstr "work fax"
 
 #: MO_AB_home
 msgid "home"
-msgstr "nhà riêng"
+msgstr "home"
 
 #: MO_AB_home2
 msgid "home2"
-msgstr "nhà riêng 2"
+msgstr "home2"
 
 #: MO_AB_homeFax
 msgid "home fax"
-msgstr "fax nhà riêng"
+msgstr "home fax"
 
 #: MO_AB_assistant
 msgid "assistant"
-msgstr "trợ lý"
+msgstr "assistant"
 
 #: MO_AB_other
 msgid "other"
-msgstr "khác"
+msgstr "other"
 
 #: MO_AB_otherFax
 msgid "other fax"
-msgstr "fax khác"
+msgstr "other fax"
 
 #: MO_AB_pager
 msgid "pager"
-msgstr "phân trang"
+msgstr "pager"
 
 #: MO_AB_car
 msgid "car"
-msgstr "xe hơi"
+msgstr "car"
 
 #: MO_AB_company
 msgid "company"
@@ -7653,48 +6106,7 @@ msgstr "company"
 
 #: MO_AB_callback
 msgid "callback"
-msgstr "gọi lại"
-
-#. # For mo max folders features
-#: MO_AddTo
-msgid "Add to"
-msgstr "Thêm tới"
-
-#: MO_SelectBriefcase
-msgid "Select Briefcase"
-msgstr "Chọn Cặp tài liệu"
-
-#: MO_SessionPrefs
-msgid "Session options"
-msgstr "tuỳ chọn phiên"
-
-#: MO_MaxFolders
-msgid "Max Folders"
-msgstr "Tối đa thư mục"
-
-#: MO_MaxFoldersInvalidValueMsg
-msgid "Invalid value for max folders. "
-msgstr "Giá trị không hợp lệ cho tối đa thư mục."
-
-#: MO_MaxFoldersAllowedNote
-msgid ""
-"Allowed value is between 1 to 1000. Your mobile browser may crash while "
-"rendering large list."
-msgstr ""
-"Giá trị cho phép là từ 1 đến 1000. Trình duyệt di động của bạn có thể trong "
-"khi dựng hình danh sách lớn."
-
-#: MO_MaxFoldersNote
-msgid ""
-"You might be seeing max {0} folders. You can change this value from "
-"Preferences."
-msgstr ""
-"Bạn có thể thấy tối đa {0} thư mục. Bạn có thể thay đổi giá trị này từ Tùy "
-"chọn."
-
-#: MO_SessionPrefsNote
-msgid "These changes are temporary (session only)."
-msgstr "Những thay đổi này là tạm thời (chỉ trong phiên)."
+msgstr "callback"
 
 #. #=======================================
 #. # these messages are really part  of the core toolkit as opposed to the app
@@ -7714,20 +6126,16 @@ msgstr "'Hôm qua,' h:mm a"
 msgid "EEE, M/d/yy, h:mm a"
 msgstr "EEE, M/d/yy, h:mm a"
 
-#: ZM_formatDocDate
-msgid "M/d/yyyy h:mm a"
-msgstr "M/d/yyyy h:mm a"
-
 #. # these are for quoting headers in ZMessageComposeBean
 #: ZM_HEADER_FROM
 msgctxt "ZM_HEADER_FROM"
 msgid "From"
-msgstr "Từ"
+msgstr "Gửi từ"
 
 #: ZM_HEADER_TO
 msgctxt "ZM_HEADER_TO"
 msgid "To"
-msgstr "Tới"
+msgstr "Gửi tới"
 
 #: ZM_HEADER_CC
 msgctxt "ZM_HEADER_CC"
@@ -7852,14 +6260,6 @@ msgstr ""
 msgid "Your password in no longer valid. Please choose a new password."
 msgstr "Mật khẩu của bạn không còn hợp lệ. Xin vui lòng chọn một mật khẩu mới."
 
-#: account.EXTERNAL_AUTH_FAILED
-msgid ""
-"The email or password is incorrect. Verify that CAPS LOCK is not on, and "
-"then retype the current email and password."
-msgstr ""
-"Email hoặc mật khẩu không đúng. Kiểm tra xem đèn CAPS LOCK không được bật, "
-"và sau đó gõ lại email và mật khẩu hiện thời."
-
 #: account.PASSWORD_LOCKED
 msgid ""
 "Password locked. User not allowed to change password. Please contact your "
@@ -7887,78 +6287,6 @@ msgid ""
 msgstr ""
 "Mật khẩu mới hiện không đáp ứng các quy định của hệ thống (ví dụ chiều dài). "
 "Liên hệ Quản trị viên hệ thống của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordAllowedChars
-msgid ""
-"New password does not meet the system's rules (i.e allowed chars). Contact "
-"your System Administrator for more information."
-msgstr ""
-"Mật khẩu mới hiện không đáp ứng các quy định của hệ thống (ví dụ ký tự cho "
-"phép). Liên hệ Quản trị viên hệ thống của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinLength
-msgid ""
-"New password must have minimum length of {0} chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có chiều dài tối thiểu là {0} ký tự. Liên hệ Quản trị viên "
-"hệ thống của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMaxLength
-msgid ""
-"New password can have maximum length of {0} chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới có thể có chiều dài tối đa {0} ký tự. Liên hệ Quản trị viên hệ "
-"thống của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinLowerCaseChars
-msgid ""
-"New password must have minimum {0} lowercase chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có tối thiểu {0} ký tự thường. Liên hệ Quản trị viên hệ "
-"thống của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinUpperCaseChars
-msgid ""
-"New password must have minimum {0} uppercase chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có tối thiểu {0} ký tự hoa. Liên hệ Quản trị viên hệ thống "
-"của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinNumericChars
-msgid ""
-"New password must have minimum {0} numeric chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có tối thiểu {0} ký từ số. Liên hệ Quản trị hệ thống của "
-"bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinAlphaChars
-msgid ""
-"New password must have minimum {0} alphabet chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có tối thiểu {0} ký tự bảng chữ cái. Liên hệ Quản trị viên "
-"hệ thống của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinPunctuationChars
-msgid ""
-"New password must have minimum {0} punctuation chars. Contact your System "
-"Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có tối thiểu {0} ký tự chấm câu. Liên hệ Quản trị hệ thống "
-"của bạn để biết thêm thông tin."
-
-#: account.INVALID_PASSWORD.zimbraPasswordMinDigitsOrPuncs
-msgid ""
-"New password must have minimum {0} numeric or punctuation chars. Contact "
-"your System Administrator for more information."
-msgstr ""
-"Mật khẩu mới phải có tối thiểu {0} ký tự số hoặc ký tự chấm câu. Liên hệ "
-"Quản trị hệ thống của bạn để biết thêm thông tin."
 
 #: account.INVALID_ATTR_NAME
 msgid "Invalid attribute name."
@@ -8282,14 +6610,6 @@ msgstr "Vui lòng thử lại."
 msgid "Too many query terms expanded."
 msgstr "Quá nhiều điều khoản yêu cầu tìm kiếm mở rộng."
 
-#: mail.MESSAGE_TOO_BIG
-msgid ""
-"This file cannot be attached because it has exceeded the maximum allowed "
-"size."
-msgstr ""
-"Tập tin này không thể được đính kèm bởi vì nó đã vượt quá kích thước tối đa "
-"cho phép."
-
 #: zclient.CLIENT_ERROR
 msgid "A network service error has occurred (zclient)."
 msgstr "Một lỗi dịch vụ mạng vừa xảy ra (zclient)."
@@ -8343,8 +6663,8 @@ msgid "No filter with that name exists."
 msgstr "Không có bộ lọc có tên này tồn tại."
 
 #: ztaglib.INVALID_CRUMB
-msgid "Your session has expired. Please log in again."
-msgstr "Phiên của bạn đã hết hạn. Vui lòng đăng nhập lại."
+msgid "Action not allowed without a valid crumb."
+msgstr "Hành động không được phép khi không có một mảnh phù hợp."
 
 #. # this one should never get displayed since we should catch and redirect
 #: ztaglib.SERVER_REDIRECT
@@ -8356,7 +6676,7 @@ msgid ""
 "The system is currently unable to complete your request. We apologize for "
 "this inconvenience."
 msgstr ""
-"Hệ thống này hiện thời không thể hoàn thành yêu cầu của bạn. Chúng tôi xin "
+"Hệ thống này hiện nay không thể hoàn thành yêu cầu của bạn. Chúng tôi xin "
 "lỗi vì bất tiện này."
 
 #: voice.UNABLE_TO_RETRIEVE_CALLLOGS
@@ -8377,8 +6697,8 @@ msgid ""
 "We are temporarily unable to forward calls. We apologize for this "
 "inconvenience."
 msgstr ""
-"Chung tôi tạm thời không thể chuyển tiếp cuộc gọi. Chúng tôi xin lỗi vì bất "
-"tiện này."
+"Chung tôi tạm thời không thể chuyển tiếp các cuộc gọi. Chúng tôi xin lỗi vì "
+"bất tiện này."
 
 #: voice.UNABLE_TO_MODIFY_CALL_FEATURES
 msgctxt "voice.UNABLE_TO_MODIFY_CALL_FEATURES"
@@ -8386,8 +6706,8 @@ msgid ""
 "We are temporarily unable to forward calls. We apologize for this "
 "inconvenience."
 msgstr ""
-"Chung tôi tạm thời không thể chuyển tiếp cuộc gọi. Chúng tôi xin lỗi vì bất "
-"tiện này."
+"Chung tôi tạm thời không thể chuyển tiếp các cuộc gọi. Chúng tôi xin lỗi vì "
+"bất tiện này."
 
 #: voice.UNABLE_TO_MODIFY_VOICEMAIL_PREFS
 msgid ""
@@ -8456,9 +6776,8 @@ msgid ""
 "Your telephone number may be out of service. We apologize for this "
 "inconvenience."
 msgstr ""
-"Một lỗi xảy ra trong khi cố gắng để lấy tùy chọn thư thoại của bạn. Số điện "
-"thoại của bạn có thể được ra khỏi dịch vụ. Chúng tôi xin lỗi vì sự bất tiện "
-"này."
+"Một lỗi đã xảy ra khi cố gắng cập nhật tuỳ chọn thư thoại của bạn. Số điện "
+"thoại của bạn có thể ra khỏi dịch vụ. Chúng tôi xin lỗi vì sự bất tiện này."
 
 #: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
 msgid ""
@@ -8532,19 +6851,19 @@ msgid ""
 "enter a valid 10 digit (XXX-XXX-XXXX) or 11 digit(1-XXX-XXX-XXXX) US "
 "telephone number and try again. SCC-0396"
 msgstr ""
-"Xin lỗi, tính năng này không hỗ trợ số điện thoại đã nhập. Vui lòng nhập 10 "
+"Xin lỗi, tính năng này không hỗ trợ số điện thoại nhập vào. Vui lòng nhập 10 "
 "chữ số hợp lệ (XXX-XXX-XXXX) hoặc 11 chữ số (1-XXX-XXX-XXXX) số điện thoại "
 "Mỹ và thử lại. SCC-0396"
 
 #: voice.SELECTIVE_CALL_FORWARD_LIST_FULL
 msgctxt "voice.SELECTIVE_CALL_FORWARD_LIST_FULL"
 msgid "You may only specify 12 numbers to forward calls from"
-msgstr "Bạn chỉ có thể chỉ định 12 số để chuyển tiếp cuộc gọi từ"
+msgstr "Bạn chỉ có thể chỉ định 12 số để gọi chuyển tiếp cuộc gọi từ"
 
 #: voice.SELECTIVE_CALL_REJECT_LIST_FULL
 msgctxt "voice.SELECTIVE_CALL_REJECT_LIST_FULL"
 msgid "You may only specify 12 numbers to screen calls from"
-msgstr "Bạn chỉ có thể chỉ định 12 số để sàng lọc cuộc gọi từ"
+msgstr "Bạn chỉ có thể chỉ định 12 số để gọi sàng lọc cuộc gọi từ"
 
 #: voice.SELECTIVE_CALL_FORWARD_ALREADY_IN_LIST
 msgctxt "voice.SELECTIVE_CALL_FORWARD_ALREADY_IN_LIST"
