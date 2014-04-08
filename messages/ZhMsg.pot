@@ -1,9 +1,9 @@
-#. extracted from ZhMsg.properties
+#. extracted from .\messages\ZhMsg.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-09 00:22+0700\n"
+"POT-Creation-Date: 2014-04-08 21:47+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -896,7 +896,6 @@ msgid "Active"
 msgstr ""
 
 #: add
-msgctxt "add"
 msgid "Add"
 msgstr ""
 
@@ -6521,13 +6520,7 @@ msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
 msgid "You are not allowed to access voice mail."
 msgstr ""
 
-#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
-msgid ""
-"An error occurred while attempting to retrieve your voice mail preferences. "
-"Your telephone number may be out of service. We apologize for this "
-"inconvenience."
-msgstr ""
-
+#. #voice.UNABLE_TO_RETRIEVE_CALL_FEATURES = An error occurred while attempting to retrieve your voice mail preferences. Your telephone number may be out of service. We apologize for this inconvenience.
 #: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
 msgid ""
 "Sorry, you cannot use your telephone number with this feature. Please enter "
