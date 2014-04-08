@@ -1,9 +1,9 @@
-#. extracted from ZhMsg.properties
+#. extracted from .\messages\ZhMsg.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:23+0700\n"
+"POT-Creation-Date: 2014-04-08 22:16+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1117,7 +1117,6 @@ msgid "Active"
 msgstr ""
 
 #: add
-msgctxt "add"
 msgid "Add"
 msgstr ""
 
@@ -1265,7 +1264,6 @@ msgid "From {0} {1} - {2}  {3}"
 msgstr ""
 
 #: apptDateBlurbAllDay
-msgctxt "apptDateBlurbAllDay"
 msgid "{0}"
 msgstr ""
 
@@ -1568,15 +1566,8 @@ msgstr ""
 msgid "By Message"
 msgstr ""
 
-#: callingPartyFormat
-msgid "{0} ({1})"
-msgstr ""
-
-#: callingPartyCallerIdFormat
-msgctxt "callingPartyCallerIdFormat"
-msgid "{0}"
-msgstr ""
-
+#. #callingPartyFormat = {0} ({1})
+#. #callingPartyCallerIdFormat = {0}
 #: calViewListShort
 msgctxt "calViewListShort"
 msgid "List"
@@ -8089,13 +8080,7 @@ msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
 msgid "You are not allowed to access voice mail."
 msgstr ""
 
-#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
-msgid ""
-"An error occurred while attempting to retrieve your voice mail preferences. "
-"Your telephone number may be out of service. We apologize for this "
-"inconvenience."
-msgstr ""
-
+#. #voice.UNABLE_TO_RETRIEVE_CALL_FEATURES = An error occurred while attempting to retrieve your voice mail preferences. Your telephone number may be out of service. We apologize for this inconvenience.
 #: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
 msgid ""
 "Sorry, you cannot use your telephone number with this feature. Please enter "
