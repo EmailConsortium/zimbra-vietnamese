@@ -9799,27 +9799,26 @@ msgid "Configure Backups"
 msgstr "Cấu hình sao lưu"
 
 #: offlineBackUpButton
-msgctxt "offlineBackUpButton"
 msgid "Backup Accounts Now"
 msgstr "Sao lưu tài khoản bây giờ"
 
 #: offlineBackUpOptionEnable
-msgctxt "offlineBackUpOptionEnable"
 msgid "Enable"
 msgstr "Bật"
 
-#: offlineBackUpOptionDisable offlineBackUpAccounts
-msgctxt "offlineBackUpAccounts"
+#: offlineBackUpOptionDisable
+msgid "Disable"
+msgstr "Bật"
+
+#: offlineBackUpAccounts
 msgid "Accounts:"
 msgstr "Tài khoản:"
 
 #: offlineBackUpEnable
-msgctxt "offlineBackUpEnable"
 msgid "Backup Accounts:"
 msgstr "Sao lưu tài khoản:"
 
 #: offlineBackUpInterval
-msgctxt "offlineBackUpInterval"
 msgid "Schedule:"
 msgstr "Lịch trình:"
 
@@ -9833,7 +9832,6 @@ msgid "Backup files per account:"
 msgstr "Tập tin sao lưu cho mỗi tài khoản"
 
 #: offlineBackUpNow
-msgctxt "offlineBackUpNow"
 msgid "Backup Now"
 msgstr "Sao lưu bây giờ"
 
@@ -9845,10 +9843,6 @@ msgstr "Sao lưu"
 msgctxt "offlineBackupHeader"
 msgid "Configure Backups"
 msgstr "Cấu hình sao lưu"
-
-#: offlineBackUpKeep
-msgid "Backup files per account"
-msgstr "Tập tin sao lưu cho mỗi tài khoản"
 
 #: offlineBackUpRestore
 msgid "Restore from Backup"
@@ -17010,3 +17004,6 @@ msgstr "chưa đọc"
 #: QUERY_IS_unreplied
 msgid "not replied to by me"
 msgstr "không trả lời tới bởi tôi"
+
+#~ msgid "Backup files per account"
+#~ msgstr "Tập tin sao lưu cho mỗi tài khoản"

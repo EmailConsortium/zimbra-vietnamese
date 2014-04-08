@@ -1,9 +1,9 @@
-#. extracted from ZmMsg.properties
+#. extracted from .\messages\ZmMsg.properties
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:23+0700\n"
+"POT-Creation-Date: 2014-04-08 22:16+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9367,31 +9367,26 @@ msgid "Configure Backups"
 msgstr ""
 
 #: offlineBackUpButton
-msgctxt "offlineBackUpButton"
 msgid "Backup Accounts Now"
 msgstr ""
 
 #: offlineBackUpOptionEnable
-msgctxt "offlineBackUpOptionEnable"
 msgid "Enable"
 msgstr ""
 
 #: offlineBackUpOptionDisable
-msgctxt "offlineBackUpOptionDisable"
-msgid "Disable"msgstr ""
+msgid "Disable"
+msgstr ""
 
 #: offlineBackUpAccounts
-msgctxt "offlineBackUpAccounts"
 msgid "Accounts:"
 msgstr ""
 
 #: offlineBackUpEnable
-msgctxt "offlineBackUpEnable"
 msgid "Backup Accounts:"
 msgstr ""
 
 #: offlineBackUpInterval
-msgctxt "offlineBackUpInterval"
 msgid "Schedule:"
 msgstr ""
 
@@ -9405,7 +9400,6 @@ msgid "Backup files per account:"
 msgstr ""
 
 #: offlineBackUpNow
-msgctxt "offlineBackUpNow"
 msgid "Backup Now"
 msgstr ""
 
@@ -9416,10 +9410,6 @@ msgstr ""
 #: offlineBackupHeader
 msgctxt "offlineBackupHeader"
 msgid "Configure Backups"
-msgstr ""
-
-#: offlineBackUpKeep
-msgid "Backup files per account"
 msgstr ""
 
 #: offlineBackUpRestore
