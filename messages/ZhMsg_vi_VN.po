@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZhMsg.vi_VN\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-06 00:46+0700\n"
+"POT-Creation-Date: 2014-04-08 21:55+0700\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
 "Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
@@ -1168,7 +1168,6 @@ msgid "Active"
 msgstr "Hoạt động"
 
 #: add
-msgctxt "add"
 msgid "Add"
 msgstr "Thêm"
 
@@ -1312,7 +1311,6 @@ msgid "From {0} {1} - {2}  {3}"
 msgstr "Từ {0} {1} - {2}  {3}"
 
 #: apptDateBlurbAllDay
-msgctxt "apptDateBlurbAllDay"
 msgid "{0}"
 msgstr "{0}"
 
@@ -1608,15 +1606,8 @@ msgstr "Theo cuộc đàm thoại"
 msgid "By Message"
 msgstr "Theo thông điệp"
 
-#: callingPartyFormat
-msgid "{0} ({1})"
-msgstr "{0} ({1}){0} - {1}"
-
-#: callingPartyCallerIdFormat
-msgctxt "callingPartyCallerIdFormat"
-msgid "{0}"
-msgstr "{0}"
-
+#. #callingPartyFormat = {0} ({1})
+#. #callingPartyCallerIdFormat = {0}
 #: calViewListShort
 msgctxt "calViewListShort"
 msgid "List"
@@ -8030,16 +8021,7 @@ msgctxt "voice.SECONDARY_NOT_ALLOWED_PREFS"
 msgid "You are not allowed to access voice mail."
 msgstr "Bạn không được phép truy cập thư thoại."
 
-#: voice.UNABLE_TO_RETRIEVE_CALL_FEATURES
-msgid ""
-"An error occurred while attempting to retrieve your voice mail preferences. "
-"Your telephone number may be out of service. We apologize for this "
-"inconvenience."
-msgstr ""
-"Một lỗi xảy ra trong khi cố gắng để lấy tùy chọn thư thoại của bạn. Số điện "
-"thoại của bạn có thể được ra khỏi dịch vụ. Chúng tôi xin lỗi vì sự bất tiện "
-"này."
-
+#. #voice.UNABLE_TO_RETRIEVE_CALL_FEATURES = An error occurred while attempting to retrieve your voice mail preferences. Your telephone number may be out of service. We apologize for this inconvenience.
 #: voice.INVALID_PHNUM_OWN_PHONE_NUMBER
 msgid ""
 "Sorry, you cannot use your telephone number with this feature. Please enter "
@@ -8135,3 +8117,19 @@ msgstr "Số điện thoại đã có trong Danh sách chuyển tiếp cuộc g�
 msgctxt "voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST"
 msgid "The phone number is already in the Call Screening List."
 msgstr "Số điện thoại đã có trong Danh sách sàng lọc cuộc gọi."
+
+#~ msgid ""
+#~ "An error occurred while attempting to retrieve your voice mail "
+#~ "preferences. Your telephone number may be out of service. We apologize "
+#~ "for this inconvenience."
+#~ msgstr ""
+#~ "Một lỗi xảy ra trong khi cố gắng để lấy tùy chọn thư thoại của bạn. Số "
+#~ "điện thoại của bạn có thể được ra khỏi dịch vụ. Chúng tôi xin lỗi vì sự "
+#~ "bất tiện này."
+
+#~ msgid "{0} ({1})"
+#~ msgstr "{0} ({1}){0} - {1}"
+
+#~ msgctxt "callingPartyCallerIdFormat"
+#~ msgid "{0}"
+#~ msgstr "{0}"
