@@ -1,6 +1,6 @@
 #bin/sh
 
-#install-lang.sh release 0.7.
+#install.sh release 0.7.
 #This script is used to install language packs to Zimbra CS 5.x or higher
 #as the instructions in:
 #http://wiki.zimbra.com/index.php?title=Translations#ZCS_5.x_.28Jetty.29
@@ -22,7 +22,7 @@
 #
 #How to use:
 #You should extract this script into the same folder as language files,
-#and use "chmod +x install-lang.sh" to set it excutable.
+#and use "sh ./install.sh" to install all language files.
 
 chown zimbra: ./keys/*vi_VN.properties
 chown zimbra: ./messages/*vi_VN.properties

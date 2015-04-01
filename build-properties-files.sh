@@ -1,3 +1,26 @@
+#bin/sh
+
+#build-properties-files.sh script release 0.1.
+#This script is used to install language packs to Zimbra CS 5.x or higher
+#as the instructions in:
+#https://wiki.zimbra.com/wiki/Translations#Converting_.po_back_to_.properties
+#
+#Copyright (C) 2009 Truong Anh Tuan - tuanta@iwayvietnam.com.
+#
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 PO2PROP_CMD=/usr/bin/po2prop
 cd messages
 $PO2PROP_CMD -t AjxMsg.properties AjxMsg_vi_VN.po AjxMsg_vi_VN.properties
