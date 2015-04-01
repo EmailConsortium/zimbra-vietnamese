@@ -1,33 +1,33 @@
-#. extracted from AjxMsg.properties, AjxMsg_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-07 23:27+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-04-01 23:12+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Poedit 1.7.5\n"
+"Last-Translator: Truong Anh Tuan <tuanta@iwayvietnam.com>\n"
+"Language-Team: \n"
+"Language: vi_VN\n"
 
-#. # 
+#. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
 #. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
-#. # 
+#. #
 #. # This program is free software: you can redistribute it and/or modify it under
 #. # the terms of the GNU General Public License as published by the Free Software Foundation,
 #. # version 2 of the License.
-#. # 
+#. #
 #. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 #. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #. # See the GNU General Public License for more details.
 #. # You should have received a copy of the GNU General Public License along with this program.
 #. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
-#. # 
+#. #
 #. # formats for calendar use
 #: formatCalDate
 msgid "EEE, MMM d"
@@ -43,10 +43,8 @@ msgstr "EEEE, MMMM d, yyyy"
 
 #. # {0} is the hour number, 0-24; {1} is a date object with the same hour
 #: formatCalHour
-msgid ""
-"{0,choice,0#Midnight|1#{1,time,h a}|12#Noon|13#{1,time,h a}|24#Midnight}"
-msgstr ""
-"{0,choice,0#Nửa đêm|1#{1,time,time,h a}|12#Trưa|13#{{1,time,h a}|24#Nửa đêm}"
+msgid "{0,choice,0#Midnight|1#{1,time,h a}|12#Noon|13#{1,time,h a}|24#Midnight}"
+msgstr "{0,chọn,0#Nửa đêm|1#{1,time,h a}|12#Trưa|13#{{1,time,h a}|24#Nửa đêm}"
 
 #: formatCalDay
 msgid "M/d "
@@ -273,11 +271,11 @@ msgstr "ngày mai"
 
 #: midnight
 msgid "Midnight"
-msgstr ""
+msgstr "Nửa đêm"
 
 #: noon
 msgid "Noon"
-msgstr ""
+msgstr "Trưa"
 
 #: cancel
 msgid "Cancel"
@@ -354,7 +352,7 @@ msgstr "Hiển thị mật khẩu"
 
 #: ellipsis
 msgid "…"
-msgstr ""
+msgstr "…"
 
 #. # tooltip
 #: loading
@@ -384,14 +382,12 @@ msgid "Close"
 msgstr "Đóng"
 
 #: weekdaySunShort
-msgctxt "weekdaySunShort"
-"weekdaySunShort"
+msgctxt "weekdaySunShortweekdaySunShort"
 msgid "S"
 msgstr "CN"
 
 #: weekdayMonShort
-msgctxt "weekdayMonShort"
-"weekdayMonShort"
+msgctxt "weekdayMonShortweekdayMonShort"
 msgid "M"
 msgstr "T2"
 
@@ -421,8 +417,7 @@ msgid "S"
 msgstr "T7"
 
 #: monthJanShort
-msgctxt "monthJanShort"
-"monthJanShort"
+msgctxt "monthJanShortmonthJanShort"
 msgid "J"
 msgstr "Thg1"
 
@@ -773,7 +768,7 @@ msgstr "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
 #: Asia/Kathmandu
 msgctxt "Asia/Kathmandu"
 msgid "GMT +05:45 Kathmandu"
-msgstr ""
+msgstr "GMT +05:45 Kathmandu"
 
 #: Asia/Colombo
 msgid "GMT +05:30 Sri Jayawardenepura"
@@ -1067,7 +1062,7 @@ msgstr "GMT -08:00 US/Canada Pacific"
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: fontSizes
 msgid "8pt 9pt 10pt 11pt 12pt 13pt 14pt 16pt 18pt 24pt 36pt 48pt"
-msgstr ""
+msgstr "8pt 9pt 10pt 11pt 12pt 13pt 14pt 16pt 18pt 24pt 36pt 48pt"
 
 #. #L10N_IGNORE_BLOCK_END# The font family options specified below are a list of fonts for# HTML compose. Each value is a comma-separated list of font names# to be used. The entries whose key ends in ".display" is used as# the name that is shown to the user; entries whose key ends in# ".css" is the CSS list of font names that is inserted into the# HTML document.## Any number of font families can be added to the list. To add a# font family, name the key "fontFamilyBase{number}.display" and# "fontFamilyBase{number}.css" for the common list of fonts; or#"fontFamilyIntl{number}.display" and "fontFamilyIntl{number].css"# for additional fonts to prefix for this specific locale. The# {number} is the next number in the list; numbers start at 1. To# end the list, leave the last values as the "###" string.## Note: Not all of the fontFamilyIntl values need to be specified!#       And you should always leave a "###" entry at the end to#       avoid accidentally include intl font families inherited#       from the less specific locale property file.
 #: fontFamilyBase1.display
@@ -1499,8 +1494,7 @@ msgid ""
 "This browser does not support copying text to the clipboard due to security "
 "reasons."
 msgstr ""
-"Trình duyệt này không hỗ trợ sao chép văn bản vào clipboard vì lý do an "
-"ninh."
+"Trình duyệt này không hỗ trợ sao chép văn bản vào clipboard vì lý do an ninh."
 
 #: clipboardCopyAlternate
 msgid "Press {0} to copy the selected text to the clipboard."
@@ -1520,4 +1514,4 @@ msgstr "Nhóm thu gọn"
 
 #: kbffTitle
 msgid "Keyboard focus field (you should never see or hear this)"
-msgstr ""
+msgstr "Keyboard focus field (you should never see or hear this)"
