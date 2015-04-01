@@ -1,33 +1,33 @@
-#. extracted from I18nMsg.properties, I18nMsg_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-07 23:27+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-04-01 17:33+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Poedit 1.7.5\n"
+"Last-Translator: Truong Anh Tuan <tuanta@iwayvietnam.com>\n"
+"Language-Team: \n"
+"Language: vi_VN\n"
 
-#. # 
+#. #
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
 #. # Copyright (C) 2008, 2009, 2010, 2011, 2013, 2014 Zimbra, Inc.
-#. # 
+#. #
 #. # This program is free software: you can redistribute it and/or modify it under
 #. # the terms of the GNU General Public License as published by the Free Software Foundation,
 #. # version 2 of the License.
-#. # 
+#. #
 #. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 #. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #. # See the GNU General Public License for more details.
 #. # You should have received a copy of the GNU General Public License along with this program.
 #. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
-#. # 
+#. #
 #. # en_US generated on Fri Jan 18 11:51:15 PST 2008
 #: currencyCode
 msgid "USD"
@@ -109,7 +109,7 @@ msgstr "h:mm a"
 
 #. # Add as many regexes as you'd like (without holes in the numbering sequence). They will in turn test the user input until a match is found.
 #. # The first capturing group of the regex is the hours, the second is the minutes, and the third (optional) specifies am or pm time. Just leave it out if you don't need it.
-#. # When the optional ampm group is present in a match, 12 hours will be converted to 0 hours, and when the matched value is present in 
+#. # When the optional ampm group is present in a match, 12 hours will be converted to 0 hours, and when the matched value is present in
 #. # the parseTimePMChars value, 12 hours will be added to the time.
 #: parseTime1
 msgid "(\\d\\d)[\\.\\:\\s]?(\\d\\d)\\s*([ap])?"
