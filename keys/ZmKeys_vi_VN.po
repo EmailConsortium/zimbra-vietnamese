@@ -795,7 +795,7 @@ msgstr "73; 86,73"
 
 #: mail.GoToInbox.description
 msgid "Inbox"
-msgstr "Hộp thư đến"
+msgstr "Thư đến"
 
 #: mail.GoToInbox.sort
 msgid "20010"

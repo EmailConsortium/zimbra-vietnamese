@@ -195,7 +195,7 @@ msgstr ""
 #: accountDownloadToInbox
 msgctxt "accountDownloadToInbox"
 msgid "Inbox"
-msgstr "Hộp thư đến"
+msgstr "Thư đến"
 
 #: accountDownloadToLabel
 msgid "Download messages to:"
@@ -350,7 +350,7 @@ msgid ""
 "your convenience."
 msgstr ""
 "Quy tắc có thể được thiết lập để khi bạn nhận được tin nhắn ít quan trọng, "
-"chúng được di chuyển ra khỏi Hộp thư đến của bạn và vào một thư mục Luồng "
+"chúng được di chuyển ra khỏi Thư đến của bạn và vào một thư mục Luồng "
 "hoạt động mà bạn có thể kiểm tra một cách thuận tiện."
 
 #: activityStreamPrompt
@@ -848,7 +848,7 @@ msgstr "Tài liệu ứng dụng"
 
 #: applyPrioritizationTitle
 msgid "Apply Prioritization Rules to Inbox"
-msgstr "Áp dụng quy tắc ưu tiên cho Hộp thư đến"
+msgstr "Áp dụng quy tắc ưu tiên cho Thư đến"
 
 #: applySignature
 msgid "Apply signature:"
@@ -3404,15 +3404,15 @@ msgstr "Bạn có chắc chắn rằng bạn muốn từ chối chia sẻ {1} t�
 
 #: dedupeNone
 msgid "Place in Inbox"
-msgstr "Đặt vào Hộp thư đến"
+msgstr "Đặt vào Thư đến"
 
 #: dedupeSecondCopy
 msgid "Place in Inbox if I'm in To: or Cc:"
-msgstr "Đặt vào Hộp thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
+msgstr "Đặt vào Thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
 
 #: dedupeMoveToInbox
 msgid "Move the sent message to Inbox"
-msgstr "Chuyển các thông điệp đã gửi tới Hộp thư đến"
+msgstr "Chuyển các thông điệp đã gửi tới Thư đến"
 
 #: dedupeAll
 msgid "Discard message automatically"
@@ -4293,11 +4293,11 @@ msgstr "Việc xoá bỏ email đã lên lịch"
 
 #: emailDeleteScheduleInboxRead
 msgid "Inbox (Read):"
-msgstr "Hộp thư đến (Đã đọc):"
+msgstr "Thư đến (Đã đọc):"
 
 #: emailDeleteScheduleInboxUnread
 msgid "Inbox (Unread):"
-msgstr "Hộp thư đến (Chưa đọc):"
+msgstr "Thư đến (Chưa đọc):"
 
 #: emailDeleteScheduleJunk
 msgid "Spam:"
@@ -7434,7 +7434,7 @@ msgstr "trong"
 #: inbox
 msgctxt "inbox"
 msgid "Inbox"
-msgstr "Hộp thư đến"
+msgstr "Thư đến"
 
 #: folderUnread
 msgctxt "folderUnread"
@@ -7918,11 +7918,11 @@ msgstr "KB"
 
 #: keepCopyInInbox
 msgid "Keep a copy in my Inbox"
-msgstr "Giữ một bản sao trong Hộp thư đến của tôi"
+msgstr "Giữ một bản sao trong Thư đến của tôi"
 
 #: keepInInbox
 msgid "Keep in Inbox"
-msgstr "Giữ trong Hộp thư đến"
+msgstr "Giữ trong Thư đến"
 
 #: keepInSent
 msgid "Keep in Sent"
@@ -8729,7 +8729,7 @@ msgid ""
 "Prioritization works and tips for managing your Inbox."
 msgstr ""
 "<a target='_blank' href=\"{0}\">Tìm hiểu thêm</a> về cách Ưu tiên thông điệp "
-"làm việc và lời khuyên cho việc quản lý Hộp thư đến của bạn."
+"làm việc và lời khuyên cho việc quản lý Thư đến của bạn."
 
 #: messageRetentionEnable
 msgid "Enable Message Retention"
@@ -9903,7 +9903,7 @@ msgstr "Thông báo cho tổ chức"
 
 #: notifyNewMailOnInbox
 msgid "Only when new mail arrives in my Inbox"
-msgstr "Chỉ khi thư mới đến trong Hộp thư đến của tôi"
+msgstr "Chỉ khi thư mới đến trong Thư đến của tôi"
 
 #: notifyNewMailOnAny
 msgid "When new mail arrives in any folder (excluding Spam and Trash)"
@@ -10911,7 +10911,7 @@ msgstr "Hoàn toàn loại bỏ thông điệp đến bị xóa. Đây là hành
 
 #: popDeleteKeep
 msgid "Leave incoming Deleted messages in the Inbox."
-msgstr "Để lại thông điệp đến đã xóa trong Hộp thư đến."
+msgstr "Để lại thông điệp đến đã xóa trong Thư đến."
 
 #: popDeleteRead
 msgid ""
@@ -10919,7 +10919,7 @@ msgid ""
 "in the Inbox."
 msgstr ""
 "Đánh dấu tất cả thông điệp đến là đã đọc, và để lại thông điệp đến đã xóa "
-"trong Hộp thư đến."
+"trong Thư đến."
 
 #: popDeleteTrash
 msgid "Move incoming Deleted messages to the Trash, and mark them as read."
@@ -13704,7 +13704,7 @@ msgstr ""
 "báo, ngay cả khi bạn không truy cập trang web của dịch vụ đó.</p> <p>Bật ứng "
 "dụng này trong Sidebar sẽ cho phép bạn:<p><ul><li>Xem thông báo email mới "
 "trong thanh công cụ trình duyệt của bạn, bao gồm cả bao nhiêu tin nhắn trong "
-"Hộp thư đến của bạn</li><li>Xem email mới nhất của bạn khi duyệt các trang "
+"Thư đến của bạn</li><li>Xem email mới nhất của bạn khi duyệt các trang "
 "web khác</li></ul>"
 
 #: socialfoxErrorLoading
@@ -13725,7 +13725,7 @@ msgid ""
 "an alert on new unread mail."
 msgstr ""
 "Phần mở rộng Zimbra Firefox Sidebar để xem hầu hết các email gần đây trong "
-"Hộp thư đến của bạn và nhận một cảnh báo về các thư chưa đọc mới."
+"Thư đến của bạn và nhận một cảnh báo về các thư chưa đọc mới."
 
 #: socialfoxServiceAuthor
 msgctxt "socialfoxServiceAuthor"

@@ -473,9 +473,9 @@ msgid ""
 "conversation has been moved to the Inbox folder|1<{0,number,integer} "
 "conversations have been moved to the Inbox folder}."
 msgstr ""
-"{0,choice,0#0 cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến|1#1 "
-"cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến|1<{0,number,integer} "
-"cuộc đàm thoại vừa được chuyển tới thư mục Hộp thư đến}."
+"{0,choice,0#0 cuộc đàm thoại vừa được chuyển tới thư mục Thư đến|1#1 "
+"cuộc đàm thoại vừa được chuyển tới thư mục Thư đến|1<{0,number,integer} "
+"cuộc đàm thoại vừa được chuyển tới thư mục Thư đến}."
 
 #: actionConvMessageMarkedNotSpam
 msgid ""
@@ -483,7 +483,7 @@ msgid ""
 "{1,choice,1#message|2#messages} have been moved to the Inbox folder."
 msgstr ""
 "{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông "
-"điệp|2#thông điệp} đã được chuyển tới thư mục Hộp thư đến."
+"điệp|2#thông điệp} đã được chuyển tới thư mục Thư đến."
 
 #: actionConvMarkedSpam
 msgid ""
@@ -766,8 +766,8 @@ msgid ""
 "been moved to the Inbox folder|1<{0,number,integer} messages have been moved "
 "to the Inbox folder}."
 msgstr ""
-"{0,choice,0#0 thông điệp vừa được chuyển tới thư mục Hộp thư đến|1#1 thông "
-"điệp vừa được chuyển tới thư mục Hộp thư đến|1<{0,number,integer} thông điệp "
+"{0,choice,0#0 thông điệp vừa được chuyển tới thư mục Thư đến|1#1 thông "
+"điệp vừa được chuyển tới thư mục Thư đến|1<{0,number,integer} thông điệp "
 "vừa được chuyển tới thư mục Hộp thư đếp}."
 
 #: actionMessageMarkedSpam
@@ -3040,7 +3040,7 @@ msgstr "Bao gồm thư mục Thùng rác trong việc tìm kiếm"
 #: inbox
 msgctxt "inbox"
 msgid "Inbox"
-msgstr "Hộp thư đến"
+msgstr "Thư đến"
 
 #: includeJunk
 msgid "Also search Spam"
@@ -4290,7 +4290,7 @@ msgstr "Trả lời/Chuyển tiếp sử dụng định dạng của thông đi�
 
 #: optionsDedupeNone
 msgid "Place in Inbox"
-msgstr "Đặt trong Hộp thư đến"
+msgstr "Đặt trong Thư đến"
 
 #: optionsDedupeAll
 msgid "Ignore message"
@@ -4298,7 +4298,7 @@ msgstr "Bỏ qua thông điệp"
 
 #: optionsDedupeSecondCopy
 msgid "Place in Inbox if I'm in To: or Cc:"
-msgstr "Đặt trong Hộp thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
+msgstr "Đặt trong Thư đến nếu Tôi ở trong trường Tới: hoặc Cc:"
 
 #: orange
 msgid "Orange"
@@ -6494,7 +6494,7 @@ msgstr "sửa đổi"
 #: FOLDER_LABEL_2
 msgctxt "FOLDER_LABEL_2"
 msgid "Inbox"
-msgstr "Hộp thư đến"
+msgstr "Thư đến"
 
 #: FOLDER_LABEL_3
 msgctxt "FOLDER_LABEL_3"
@@ -7165,7 +7165,7 @@ msgstr "<b>Không</b> có tập tin <b>đính kèm</b>"
 
 #: FILT_ACTION_KEEP
 msgid "<b>Keep</b> in Inbox"
-msgstr "<b>Giữ</b> trong Hộp thư đến"
+msgstr "<b>Giữ</b> trong Thư đến"
 
 #: FILT_ACTION_DISCARD
 msgid "<b>Discard</b>"
@@ -7318,7 +7318,7 @@ msgstr "không phù hợp với điều kiện ký tự đại diện (wildcard)
 #: EFILT_ACTION_KEEP
 msgctxt "EFILT_ACTION_KEEP"
 msgid "Keep in Inbox"
-msgstr "Giữ lại trong Hộp thư đến"
+msgstr "Giữ lại trong Thư đến"
 
 #: EFILT_ACTION_DISCARD
 msgctxt "EFILT_ACTION_DISCARD"
@@ -7413,7 +7413,7 @@ msgstr "Chọn hành động..."
 #: EFILT_NEW_ACTION_KEEP
 msgctxt "EFILT_NEW_ACTION_KEEP"
 msgid "Keep in Inbox"
-msgstr "Giữ trong Hộp thư đến"
+msgstr "Giữ trong Thư đến"
 
 #: EFILT_NEW_ACTION_DISCARD
 msgctxt "EFILT_NEW_ACTION_DISCARD"
