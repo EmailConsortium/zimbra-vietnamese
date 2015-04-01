@@ -1,33 +1,33 @@
+#. extracted from AjxMsg.properties, AjxMsg_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: AjxMsg.vi_VN\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:23+0700\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language: vi_VN\n"
+"POT-Creation-Date: 2015-03-07 23:27+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.4\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
 
-#. #
+#. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013 Zimbra Software, LLC.
-#. #
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
-#. #
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # Copyright (C) 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.
+#. # 
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. # 
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
-#. #
+#. # 
 #. # formats for calendar use
 #: formatCalDate
 msgid "EEE, MMM d"
@@ -101,6 +101,10 @@ msgstr "và"
 msgid "Forwarded Message"
 msgstr "Thông điệp đã chuyển tiếp"
 
+#: forwardedMessage1
+msgid "Begin forwarded message:"
+msgstr ""
+
 #: origMsg
 msgid "Original Message"
 msgstr "Thông điệp gốc"
@@ -133,6 +137,11 @@ msgstr "đã gửi:"
 msgid "cc:"
 msgstr "cc:"
 
+#. # used to recognize attribution such as "On Feb 5, 2013, John wrote:"
+#: on
+msgid "on"
+msgstr "vào"
+
 #: wrote
 msgid "wrote"
 msgstr "đã viết"
@@ -140,10 +149,6 @@ msgstr "đã viết"
 #: changed
 msgid "changed"
 msgstr "thay đổi"
-
-#: on
-msgid "on"
-msgstr "vào"
 
 #: colorBlue
 msgid "#5b9bf2"
@@ -266,6 +271,14 @@ msgstr "hôm nay"
 msgid "tomorrow"
 msgstr "ngày mai"
 
+#: midnight
+msgid "Midnight"
+msgstr ""
+
+#: noon
+msgid "Noon"
+msgstr ""
+
 #: cancel
 msgid "Cancel"
 msgstr "Huỷ bỏ"
@@ -339,6 +352,10 @@ msgstr "Huỷ bỏ yêu cầu"
 msgid "Show password"
 msgstr "Hiển thị mật khẩu"
 
+#: ellipsis
+msgid "…"
+msgstr ""
+
 #. # tooltip
 #: loading
 msgid "Loading..."
@@ -368,11 +385,13 @@ msgstr "Đóng"
 
 #: weekdaySunShort
 msgctxt "weekdaySunShort"
+"weekdaySunShort"
 msgid "S"
 msgstr "CN"
 
 #: weekdayMonShort
 msgctxt "weekdayMonShort"
+"weekdayMonShort"
 msgid "M"
 msgstr "T2"
 
@@ -403,6 +422,7 @@ msgstr "T7"
 
 #: monthJanShort
 msgctxt "monthJanShort"
+"monthJanShort"
 msgid "J"
 msgstr "Thg1"
 
@@ -574,11 +594,11 @@ msgstr "Giá trị phải lớn hơn hoặc bằng {0}."
 
 #: invalidDateString
 msgid ""
-"Date value must be entered in the form: MM/DD/YYYY or \"today\", \"yesterday"
-"\" or \"tomorrow\"."
+"Date value must be entered in the form: MM/DD/YYYY or \"today\", \"yesterday\" "
+"or \"tomorrow\"."
 msgstr ""
-"Giá trị ngày phải được nhập trong mẫu biểu: MM/DD/YYYY hoặc \"hôm nay\", "
-"\"hôm qua\" hoặc \"ngày mai\"."
+"Giá trị ngày phải được nhập trong mẫu biểu: MM/DD/YYYY hoặc \"hôm nay\", \"hôm "
+"qua\" hoặc \"ngày mai\"."
 
 #: invalidTimeString
 msgid "Time value must be entered in the form: HH:MM[:SS] [AM|PM]"
@@ -750,6 +770,11 @@ msgstr "GMT +02:00 Beirut"
 msgid "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
 msgstr "GMT +05:30 Chennai, Kolkata, Mumbai, New Delhi"
 
+#: Asia/Kathmandu
+msgctxt "Asia/Kathmandu"
+msgid "GMT +05:45 Kathmandu"
+msgstr ""
+
 #: Asia/Colombo
 msgid "GMT +05:30 Sri Jayawardenepura"
 msgstr "GMT +05:30 Sri Jayawardenepura"
@@ -767,7 +792,7 @@ msgid "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
 msgstr "GMT +08:00 Beijing, Chongqing, Hong Kong, Urumqi"
 
 #: Asia/Irkutsk
-msgid "GMT +09:00 Irkutsk"
+msgid "GMT +08:00 Irkutsk (RTZ 7)"
 msgstr "GMT +09:00 Irkutsk"
 
 #: Asia/Jerusalem
@@ -787,11 +812,12 @@ msgid "GMT +05:00 Islamabad, Karachi"
 msgstr "GMT +05:00 Islamabad, Karachi"
 
 #: Asia/Katmandu
+msgctxt "Asia/Katmandu"
 msgid "GMT +05:45 Kathmandu"
 msgstr "GMT +05:45 Kathmandu"
 
 #: Asia/Krasnoyarsk
-msgid "GMT +08:00 Krasnoyarsk"
+msgid "GMT +07:00 Krasnoyarsk (RTZ 6)"
 msgstr "GMT +08:00 Krasnoyarsk"
 
 #: Asia/Kuala_Lumpur
@@ -803,7 +829,7 @@ msgid "GMT +03:00 Kuwait, Riyadh"
 msgstr "GMT +03:00 Kuwait, Riyadh"
 
 #: Asia/Magadan
-msgid "GMT +11:00 Magadan, Solomon Is., New Caledonia"
+msgid "GMT +10:00 Magadan"
 msgstr "GMT +11:00 Magadan, Solomon Is., New Caledonia"
 
 #: Asia/Muscat
@@ -811,7 +837,7 @@ msgid "GMT +04:00 Abu Dhabi, Muscat"
 msgstr "GMT +04:00 Abu Dhabi, Muscat"
 
 #: Asia/Novosibirsk
-msgid "GMT +07:00 Novosibirsk"
+msgid "GMT +06:00 Novosibirsk (RTZ 5)"
 msgstr "GMT +07:00 Novosibirsk"
 
 #: Asia/Rangoon
@@ -847,15 +873,15 @@ msgid "GMT +08:00 Ulaanbaatar"
 msgstr "GMT +08:00 Ulaanbaatar"
 
 #: Asia/Vladivostok
-msgid "GMT +11:00 Vladivostok"
+msgid "GMT +10:00 Vladivostok, Magadan (RTZ 9)"
 msgstr "GMT +11:00 Vladivostok"
 
 #: Asia/Yakutsk
-msgid "GMT +10:00 Yakutsk"
+msgid "GMT +09:00 Yakutsk (RTZ 8)"
 msgstr "GMT +10:00 Yakutsk"
 
 #: Asia/Yekaterinburg
-msgid "GMT +06:00 Yekaterinburg"
+msgid "GMT +05:00 Ekaterinburg (RTZ 4)"
 msgstr "GMT +06:00 Yekaterinburg"
 
 #: Asia/Yerevan
@@ -959,7 +985,7 @@ msgid "GMT +02:00 Istanbul"
 msgstr "GMT +02:00 Istanbul"
 
 #: Europe/Kaliningrad
-msgid "GMT +03:00 Kaliningrad"
+msgid "GMT +02:00 Kaliningrad (RTZ 1)"
 msgstr "GMT +03:00 Kaliningrad"
 
 #: Europe/London
@@ -971,7 +997,7 @@ msgid "GMT +03:00 Minsk"
 msgstr "GMT +03:00 Minsk"
 
 #: Europe/Moscow
-msgid "GMT +04:00 Moscow, St. Petersburg, Volgograd"
+msgid "GMT +03:00 Moscow, St. Petersburg, Volgograd (RTZ 2)"
 msgstr "GMT +04:00 Moscow, St. Petersburg, Volgograd"
 
 #: Europe/Warsaw
@@ -991,7 +1017,7 @@ msgid "GMT +12:00 Fiji"
 msgstr "GMT +12:00 Fiji"
 
 #: Pacific/Guadalcanal
-msgid "GMT +11.00 Solomon Is. / New Caledonia"
+msgid "GMT +11:00 Solomon Is. / New Caledonia"
 msgstr "GMT +11.00 Solomon Is. / New Caledonia"
 
 #: Pacific/Guam
@@ -1038,25 +1064,12 @@ msgstr "GMT -07:00 US/Canada Mountain"
 msgid "GMT -08:00 US/Canada Pacific"
 msgstr "GMT -08:00 US/Canada Pacific"
 
-#. # The font family options specified below are a list of fonts for
-#. # HTML compose. Each value is a comma-separated list of font names
-#. # to be used. The entries whose key ends in ".display" is used as
-#. # the name that is shown to the user; entries whose key ends in
-#. # ".css" is the CSS list of font names that is inserted into the
-#. # HTML document.
-#. #
-#. # Any number of font families can be added to the list. To add a
-#. # font family, name the key "fontFamilyBase{number}.display" and
-#. # "fontFamilyBase{number}.css" for the common list of fonts; or
-#. #"fontFamilyIntl{number}.display" and "fontFamilyIntl{number].css"
-#. # for additional fonts to prefix for this specific locale. The
-#. # {number} is the next number in the list; numbers start at 1. To
-#. # end the list, leave the last values as the "###" string.
-#. #
-#. # Note: Not all of the fontFamilyIntl values need to be specified!
-#. #       And you should always leave a "###" entry at the end to
-#. #       avoid accidentally include intl font families inherited
-#. #       from the less specific locale property file.
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: fontSizes
+msgid "8pt 9pt 10pt 11pt 12pt 13pt 14pt 16pt 18pt 24pt 36pt 48pt"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END# The font family options specified below are a list of fonts for# HTML compose. Each value is a comma-separated list of font names# to be used. The entries whose key ends in ".display" is used as# the name that is shown to the user; entries whose key ends in# ".css" is the CSS list of font names that is inserted into the# HTML document.## Any number of font families can be added to the list. To add a# font family, name the key "fontFamilyBase{number}.display" and# "fontFamilyBase{number}.css" for the common list of fonts; or#"fontFamilyIntl{number}.display" and "fontFamilyIntl{number].css"# for additional fonts to prefix for this specific locale. The# {number} is the next number in the list; numbers start at 1. To# end the list, leave the last values as the "###" string.## Note: Not all of the fontFamilyIntl values need to be specified!#       And you should always leave a "###" entry at the end to#       avoid accidentally include intl font families inherited#       from the less specific locale property file.
 #: fontFamilyBase1.display
 msgid "Sans Serif"
 msgstr "Sans Serif"
@@ -1117,27 +1130,27 @@ msgid "arial, helvetica, sans-serif"
 msgstr "arial, helvetica, sans-serif"
 
 #: fontFamilyBase2.css
-msgid "times new roman, new york, times, serif"
+msgid "'times new roman', 'new york', times, serif"
 msgstr "times new roman, new york, times, serif"
 
 #: fontFamilyBase3.css
-msgid "arial black,avant garde"
+msgid "'arial black','avant garde'"
 msgstr "arial black,avant garde"
 
 #: fontFamilyBase4.css
-msgid "courier new, courier, monaco, monospace, sans-serif"
+msgid "'courier new', courier, monaco, monospace, sans-serif"
 msgstr "courier new, courier, monaco, monospace, sans-serif"
 
 #: fontFamilyBase5.css
-msgid "comic sans ms, comic sans, sans-serif"
+msgid "'comic sans ms', 'comic sans', sans-serif"
 msgstr "comic sans ms, comic sans, sans-serif"
 
 #: fontFamilyBase6.css
-msgid "lucida console, sans-serif"
+msgid "'lucida console', sans-serif"
 msgstr "lucida console, sans-serif"
 
 #: fontFamilyBase7.css
-msgid "garamond, new york, times, serif"
+msgid "garamond, 'new york', times, serif"
 msgstr "garamond, new york, times, serif"
 
 #: fontFamilyBase8.css
@@ -1145,7 +1158,7 @@ msgid "georgia,serif"
 msgstr "georgia,serif"
 
 #: fontFamilyBase9.css
-msgid "tahoma, new york, times, serif"
+msgid "tahoma, 'new york', times, serif"
 msgstr "tahoma, new york, times, serif"
 
 #: fontFamilyBase10.css
@@ -1153,7 +1166,7 @@ msgid "terminal,monaco"
 msgstr "terminal,monaco"
 
 #: fontFamilyBase11.css
-msgid "trebuchet ms,sans-serif"
+msgid "'trebuchet ms',sans-serif"
 msgstr "trebuchet ms,sans-serif"
 
 #: fontFamilyBase12.css
@@ -1486,7 +1499,8 @@ msgid ""
 "This browser does not support copying text to the clipboard due to security "
 "reasons."
 msgstr ""
-"Trình duyệt này không hỗ trợ sao chép văn bản vào clipboard vì lý do an ninh."
+"Trình duyệt này không hỗ trợ sao chép văn bản vào clipboard vì lý do an "
+"ninh."
 
 #: clipboardCopyAlternate
 msgid "Press {0} to copy the selected text to the clipboard."
@@ -1503,3 +1517,7 @@ msgstr "Cmd+C"
 #: collapsedGroup
 msgid "Collapsed Group"
 msgstr "Nhóm thu gọn"
+
+#: kbffTitle
+msgid "Keyboard focus field (you should never see or hear this)"
+msgstr ""

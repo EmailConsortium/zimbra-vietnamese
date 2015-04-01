@@ -1,31 +1,31 @@
+#. extracted from ZabMsg.properties, ZabMsg_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: ZabMsg.vi_VN\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:23+0700\n"
-"PO-Revision-Date: 2014-03-23 19:47+0700\n"
-"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
+"POT-Creation-Date: 2015-03-07 23:28+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: vi_VN\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
 
-#. #
+#. # 
 #. # ***** BEGIN LICENSE BLOCK *****
 #. # Zimbra Collaboration Suite Web Client
-#. # Copyright (C) 2011, 2012, 2013 Zimbra Software, LLC.
-#. #
-#. # The contents of this file are subject to the Zimbra Public License
-#. # Version 1.4 ("License"); you may not use this file except in
-#. # compliance with the License.  You may obtain a copy of the License at
-#. # http://www.zimbra.com/license.
-#. #
-#. # Software distributed under the License is distributed on an "AS IS"
-#. # basis, WITHOUT WARRANTY OF ANY KIND, either express or implied.
+#. # Copyright (C) 2011, 2012, 2013, 2014 Zimbra, Inc.
+#. # 
+#. # This program is free software: you can redistribute it and/or modify it under
+#. # the terms of the GNU General Public License as published by the Free Software Foundation,
+#. # version 2 of the License.
+#. # 
+#. # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+#. # without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+#. # See the GNU General Public License for more details.
+#. # You should have received a copy of the GNU General Public License along with this program.
+#. # If not, see <http://www.gnu.org/licenses/>.
 #. # ***** END LICENSE BLOCK *****
 #. #
 #: favIconUrl
@@ -62,6 +62,8 @@ msgstr ""
 "Dưới đây là các liên kết đến tài liệu và diễn đàn Zimbra, để giúp bạn tìm "
 "câu trả lời cho câu hỏi của bạn về việc sử dụng Máy chủ cộng tác Zimbra."
 
+#. # DEPRECATED
+#. # see ZaMsg.subtitle_help_center_1
 #: HELP_PAGE_2
 msgid "Zimbra Online Help"
 msgstr "Trợ giúp trực tuyến Zimbra"
@@ -160,29 +162,28 @@ msgstr "Giới thiệu Zimbra ..."
 #. # Takes in the current year as a parameter for copyright end year value
 #: aboutScreenCopyright
 msgid ""
-"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. This "
-"product is protected by U.S. and international copyright and intellectual "
-"property laws.<br /><br />\"Telligent\" and \"Zimbra\" are registered "
-"trademarks or trademarks of Telligent Systems, Inc. in the United States and "
-"other jurisdictions. All other marks and names mentioned herein may be "
-"trademarks of their respective companies.<br /><br />Telligent Systems, Inc. "
-"d/b/a Zimbra Software, LLC<br /><a href=\"http://www.zimbra.com\" target="
-"\"_blank\">www.zimbra.com</a>"
+"Zimbra {0} (build {1})<br><br> Copyright © 2005-2014 Zimbra, Inc. All rights "
+"reserved. This product is protected by U.S. and international copyright and "
+"intellectual property laws. \"Zimbra\" is a registered trademark of Zimbra, "
+"Inc. in the United States and other jurisdictions. All other marks and names "
+"mentioned herein may be trademarks of their respective companies.<br><br> "
+"Zimbra, Inc. <a href=\"http://www.zimbra.com\" "
+"target=\"_blank\">www.zimbra.com</a>"
 msgstr ""
 "Bản quyền 2005-{0} Telligent Systems, Inc. Giữ tất cả quyền. Sản phẩm này "
 "được bảo vệ bởi luật bản quyền và sở hữu trí tuệ của Mỹ và quốc tế. "
-"\"Telligent\" và \"Zimbra\" là các thương hiệu được đăng ký hoặc thương hiệu "
-"của Telligent Systems, Inc tại Hoa Kỳ và các nước khác. Tất cả các nhãn hiệu "
-"khác và tên đề cập ở đây có thể là thương hiệu của công ty tương ứng."
-"<br><br> Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br><a href="
-"\"http://www.zimbra.com\" target=\"_blank\">www.zimbra.com</a>"
+"\"Telligent\" và \"Zimbra\" là các thương hiệu được đăng ký hoặc thương hiệu của "
+"Telligent Systems, Inc tại Hoa Kỳ và các nước khác. Tất cả các nhãn hiệu "
+"khác và tên đề cập ở đây có thể là thương hiệu của công ty tương "
+"ứng.<br><br> Telligent Systems, Inc. d/b/a Zimbra Software, LLC <br><a "
+"href=\"http://www.zimbra.com\" target=\"_blank\">www.zimbra.com</a>"
 
 #. # Used for Login/Splash Screen copyright section
 #. # Takes in the current year as a parameter for copyright end year value
 #: splashScreenCopyright
 msgid ""
-"Copyright © 2005-{0} Telligent Systems, Inc. All rights reserved. Telligent "
-"and Zimbra are registered trademarks or trademarks of Telligent Systems, Inc."
+"Copyright © 2005-2014 Zimbra, Inc. All rights reserved. \"Zimbra\" is a "
+"registered trademark of Zimbra, Inc."
 msgstr ""
 "Bản quyền © 2005 - {0} Telligent Systems, Inc. Giữ tất cả quyền. Telligent "
 "và Zimbra là các thương hiệu được đăng ký hoặc thương hiệu của Telligent "
@@ -190,17 +191,17 @@ msgstr ""
 
 #: clientLevelNotice
 msgid ""
-"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader "
-"in open source messaging and collaboration :: <a target=\"_new\" href="
-"\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\"http://wiki."
-"zimbra.com\">Wiki</a> - <a target=\"_new\" href=\"http://www.zimbra.com/"
-"forums\">Forums</a>"
+"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: the leader in "
+"open source messaging and collaboration :: <a target=\"_new\" "
+"href=\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" "
+"href=\"http://wiki.zimbra.com\">Wiki</a> - <a target=\"_new\" "
+"href=\"http://www.zimbra.com/forums\">Forums</a>"
 msgstr ""
-"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: là công ty "
-"hàng đầu về lĩnh vực thư tín và cộng tác nguồn mở :: <a target=\"_new\" href="
-"\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" href=\"http://wiki."
-"zimbra.com\">Wiki</a> - <a target=\"_new\" href=\"http://www.zimbra.com/"
-"forums\">Diễn đàn</a>"
+"<a target=\"_new\" href=\"http://www.zimbra.com\">Zimbra</a> :: là công ty hàng "
+"đầu về lĩnh vực thư tín và cộng tác nguồn mở :: <a target=\"_new\" "
+"href=\"http://blog.zimbra.com\">Blog</a> - <a target=\"_new\" "
+"href=\"http://wiki.zimbra.com\">Wiki</a> - <a target=\"_new\" "
+"href=\"http://www.zimbra.com/forums\">Diễn đàn</a>"
 
 #: ZWC_END_USER_GUIDE
 msgid "ZWC End User Guide for 8.0"
@@ -222,10 +223,18 @@ msgstr "thông điệp"
 msgid "Distribution Lists"
 msgstr "Danh sách phân phối"
 
+#. # ==================================================================================
+#. # ==================================================================================
+#. # ==================================================================================
+#. #
+#. # DEPRECATED
+#. # see ZaMsg.title_help_center
 #: HELP_CENTER_TITLE
 msgid "Zimbra Administrator Help Center"
 msgstr "Trung tâm trợ giúp quản trị viên Zimbra"
 
+#. # DEPRECATED
+#. # see ZaMsg.desc_help_center_1
 #: onlineHelpDetail
 msgid ""
 "To learn how to use the administration console, click the Zimbra Online Help "
@@ -274,13 +283,13 @@ msgstr "Hỏi cộng đồng"
 
 #: HELP_askCommunityItem1
 msgid ""
-"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Zimbra Forums</a> "
-"is a great place to get answers to your questions. You can search for "
-"answers from the postings, and you can post a question."
+"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Zimbra Forums</a> is a "
+"great place to get answers to your questions. You can search for answers "
+"from the postings, and you can post a question."
 msgstr ""
-"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Diễn đàn Zimbra</a> "
-"là một nơi tuyệt vời để có được câu trả lời cho câu hỏi của bạn. Bạn có thể "
-"tìm kiếm câu trả lời từ các thông tin đăng, và bạn có thể đặt một câu hỏi."
+"<a target=\"_new\" href=\"http://www.zimbra.com/forums\">Diễn đàn Zimbra</a> là "
+"một nơi tuyệt vời để có được câu trả lời cho câu hỏi của bạn. Bạn có thể tìm "
+"kiếm câu trả lời từ các thông tin đăng, và bạn có thể đặt một câu hỏi."
 
 #: HELP_askCommunityItem2
 msgid ""
@@ -289,9 +298,9 @@ msgid ""
 "troubleshooting and administration issues that were not covered in the "
 "documentation"
 msgstr ""
-"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> bao gồm "
-"các bài báo với nhóm hỗ trợ và cộng đồng đã viết để đáp ứng với các vấn đề "
-"xử lý sự cố và quản lý mà không được nêu trong tài liệu"
+"<a target=\"_new\" href=\"http://wiki.zimbra.com\">Zimbra Wiki</a> bao gồm các "
+"bài báo với nhóm hỗ trợ và cộng đồng đã viết để đáp ứng với các vấn đề xử lý "
+"sự cố và quản lý mà không được nêu trong tài liệu"
 
 #: HELP_MIG_Q1
 msgid "How do I migrate server email accounts from Exchange into Zimbra?"
@@ -308,8 +317,7 @@ msgstr ""
 
 #: HELP_MIG_Q3
 msgid "How do I migrate server email accounts from Domino into Zimbra?"
-msgstr ""
-"Làm thế nào để Tôi di trú tài khoản email máy chủ từ Domino vào Zimbra?"
+msgstr "Làm thế nào để Tôi di trú tài khoản email máy chủ từ Domino vào Zimbra?"
 
 #: HELP_MIG_Q4
 msgid "How do I migrate calendar data over using the iCalendar Migration Tool?"

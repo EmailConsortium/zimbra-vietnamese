@@ -1,132 +1,19 @@
+#. # # ***** BEGIN LICENSE BLOCK *****# Zimbra Collaboration Suite Web Client# Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.# # This program is free software: you can redistribute it and/or modify it under# the terms of the GNU General Public License as published by the Free Software Foundation,# version 2 of the License.# # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.# See the GNU General Public License for more details.# You should have received a copy of the GNU General Public License along with this program.# If not, see <http://www.gnu.org/licenses/>.# ***** END LICENSE BLOCK *****#
+#. extracted from ZmKeys.properties, ZmKeys_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: ZmKeys.vi_VN\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
-"PO-Revision-Date: 2014-03-20 21:50+0700\n"
-"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language: vi_VN\n"
+"POT-Creation-Date: 2015-03-07 23:26+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
 
-#. # Keyboard Shortcuts for the ZCS Web Client
-#. #
-#. #
-#. # Below is a list of properties that define shortcuts. Each shortcut belongs
-#. # to a "map", which is the context in which the shortcut applies. For these
-#. # shortcuts, that is typically determined by the current view (for example,
-#. # a list of messages or a compose form).
-#. #
-#. # The property key consists of several parts joined by dots. The first part
-#. # is always the name of a map. The second part is either the name of an action,
-#. # or the name of a field. Field names are lowercase, and action names are mixed
-#. # case. The final part of the key may be a platform.
-#. #
-#. #
-#. # Maps
-#. # ----
-#. #
-#. # The map names in this properties file refer to views within the ZCS web
-#. # client. The following are valid map names:
-#. #
-#. #    global					applies to all views
-#. #    compose				a form for creating a new message
-#. #    mail					a list of mail messages or conversations
-#. #    conversation			a single conversation, which is a list of mail messages
-#. #    message				the content of a single mail message
-#. #    contacts				a set of contacts
-#. #    editContact			a form for creating or editing a contact
-#. #    calendar				any of several calendar views (week, month, etc)
-#. #    editAppointment		a form for creating or editing an appointment
-#. #    options				a set of tabs for changing personal settings
-#. #    voicemail				a list of voicemail messages
-#. #    call					a list of phone calls
-#. #    address				an address bubble
-#. #
-#. # Actions
-#. # -------
-#. #
-#. # An action is an event triggered by a shortcut. It is what the shortcut
-#. # does. Most of the time, the action invoked by a web client shortcut emulates
-#. # something that could have been done using the mouse, for example by clicking
-#. # on a particular button. To see what actions are available and what each action does,
-#. # check the documentation section below.
-#. #
-#. # The action "INHERIT" has special meaning. When it is used, the name of a
-#. # map is given rather than a key sequence. The current map will copy all the
-#. # shortcuts of the given map, and then may add or override those shortcuts.
-#. # In general, you probably do not want to change the "INHERIT" properties.
-#. #
-#. # To define a shortcut that applies only on a particular platform (Windows,
-#. # Macintosh, or Linux), add a platform identifier to the action. The platform
-#. # identifier can be one of:
-#. #
-#. #    win mac linux
-#. #
-#. # For example:
-#. #
-#. #    compose.Send.display.mac = Ctrl+Enter; Ctrl+S
-#. #    compose.Send.keycode.mac = Ctrl+13; Ctrl+83
-#. #
-#. # Key Sequences (shortcuts)
-#. # -------------
-#. #
-#. # A key sequence is a set of one or more keys that triggers an action. Each
-#. # key in the sequence may have a modifier (such as the Control or Shift key).
-#. # Most key sequences consist of just one key. The keys in multiple-key
-#. # sequences are separated with a comma. The next key in a sequence must be
-#. # struck within a short time for the sequence to continue.
-#. #
-#. # The following are valid modifiers:
-#. #
-#. #    Ctrl Alt Shift Meta
-#. #
-#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
-#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
-#. # another plus sign. For example: Ctrl+Shift+O.
-#. #
-#. # If you want to have more than one shortcut for the same action, use a
-#. # semicolon (and optional space) to separate the shortcuts. For example, to
-#. # specify three different shortcuts for the global action Foo:
-#. #
-#. #    global.Foo.display		= A; B; C
-#. #    global.Foo.keycode		= 65; 66; 67
-#. #
-#. # Key sequences have no notion of upper case or lower case. They map to what
-#. # you see on your keyboard (for example, a "T"), rather than the character it
-#. # produces when you strike it (a "t"). To specify a keystroke that requires the
-#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
-#. # key, you'd use: Shift+2.
-#. #
-#. # Each letter, number, and non-shifted printable character represents itself:
-#. #
-#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
-#. #    ` - = [ ] ' . /
-#. #
-#. # Non-printable keys are specified with special names. The following special
-#. # names are available:
-#. #
-#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
-#. #
-#. #
-#. # Documentation
-#. # -------------
-#. #
-#. # Maps and actions can be documented by appending ".description" to the map
-#. # name or the action and using that as a property name. The descriptive
-#. # text is the property's value. The descriptions below show up as content in
-#. # the Shortcuts tab on the Options page.
-#. #
-#. # The "sort" field sets the sorting order among either map names or among
-#. # the actions within a map, from low to high. There are gaps so that
-#. # properties may be inserted and given a sort order without having to
-#. # change the order of other properties.
-#. # Map: global
+#. # Keyboard Shortcuts for the ZCS Web Client### Below is a list of properties that define shortcuts. Each shortcut belongs# to a "map", which is the context in which the shortcut applies. For these# shortcuts, that is typically determined by the current view (for example,# a list of messages or a compose form).## The property key consists of several parts joined by dots. The first part# is always the name of a map. The second part is either the name of an action,# or the name of a field. Field names are lowercase, and action names are mixed# case. The final part of the key may be a platform.### Maps# ----## The map names in this properties file refer to views within the ZCS web # client. The following are valid map names:##    global					applies to all views#    compose				a form for creating a new message#    mail					a list of mail messages or conversations#    conversation			a single conversation, which is a list of mail messages#    message				the content of a single mail message#    contacts				a set of contacts#    editContact			a form for creating or editing a contact#    calendar				any of several calendar views (week, month, etc)#    editAppointment		a form for creating or editing an appointment#    options				a set of tabs for changing personal settings#    voicemail				a list of voicemail messages#    call					a list of phone calls#    address				an address bubble## Actions# -------## An action is an event triggered by a shortcut. It is what the shortcut# does. Most of the time, the action invoked by a web client shortcut emulates# something that could have been done using the mouse, for example by clicking# on a particular button. To see what actions are available and what each action does,# check the documentation section below. ## The action "INHERIT" has special meaning. When it is used, the name of a# map is given rather than a key sequence. The current map will copy all the# shortcuts of the given map, and then may add or override those shortcuts.# In general, you probably do not want to change the "INHERIT" properties.## To define a shortcut that applies only on a particular platform (Windows,# Macintosh, or Linux), add a platform identifier to the action. The platform# identifier can be one of:##    win mac linux## For example:##    compose.Send.display.mac = Ctrl+Enter; Ctrl+S#    compose.Send.keycode.mac = Ctrl+13; Ctrl+83#    # Key Sequences (shortcuts)# -------------## A key sequence is a set of one or more keys that triggers an action. Each# key in the sequence may have a modifier (such as the Control or Shift key).# Most key sequences consist of just one key. The keys in multiple-key# sequences are separated with a comma. The next key in a sequence must be# struck within a short time for the sequence to continue.## The following are valid modifiers:##    Ctrl Alt Shift Meta## To add a modifier to a key, specify the modifier, then a plus sign, then the# key. For example: Ctrl+C. If you want to add more than one modifier, use# another plus sign. For example: Ctrl+Shift+O.## If you want to have more than one shortcut for the same action, use a # semicolon (and optional space) to separate the shortcuts. For example, to# specify three different shortcuts for the global action Foo:##    global.Foo.display		= A; B; C #    global.Foo.keycode		= 65; 66; 67# # Key sequences have no notion of upper case or lower case. They map to what# you see on your keyboard (for example, a "T"), rather than the character it# produces when you strike it (a "t"). To specify a keystroke that requires the# Shift key, you must use the Shift modifier. For example, to specify the "@"# key, you'd use: Shift+2.## Each letter, number, and non-shifted printable character represents itself:##    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9#    ` - = [ ] ' . /## Non-printable keys are specified with special names. The following special# names are available:##    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space### Documentation# -------------## Maps and actions can be documented by appending ".description" to the map# name or the action and using that as a property name. The descriptive# text is the property's value. The descriptions below show up as content in# the Shortcuts tab on the Options page.## The "sort" field sets the sorting order among either map names or among# the actions within a map, from low to high. There are gaps so that# properties may be inserted and given a sort order without having to# change the order of other properties.# Map: global
 #: global.description
 msgid "All Applications"
 msgstr "Tất cả Ứng dụng"
@@ -201,7 +88,7 @@ msgid "Focus content pane"
 msgstr "Tập trung vào khung nội dung"
 
 #: global.FocusContentPane.sort
-msgid "10280"
+msgid "10063"
 msgstr "10280"
 
 #: global.FocusSearchBox.display
@@ -217,8 +104,7 @@ msgid "Focus search box"
 msgstr "Tập trung vào hộp tìm kiếm"
 
 #: global.FocusSearchBox.sort
-msgctxt "global.FocusSearchBox.sort"
-msgid "10270"
+msgid "10060"
 msgstr "10270"
 
 #: global.FocusToolbar.display
@@ -234,24 +120,8 @@ msgid "Focus toolbar"
 msgstr "Tập trung vào thanh công cụ"
 
 #: global.FocusToolbar.sort
-msgid "10275"
+msgid "10067"
 msgstr "10275"
-
-#: global.FocusWebSearchBox.display
-msgid "Alt+/"
-msgstr "Alt+/"
-
-#: global.FocusWebSearchBox.keycode
-msgid "Alt+191"
-msgstr "Alt+191"
-
-#: global.FocusWebSearchBox.description
-msgid "Focus web search box"
-msgstr "Tập trung vào hộp tìm kiếm web"
-
-#: global.FocusWebSearchBox.sort
-msgid "10277"
-msgstr "10277"
 
 #: global.GoToCalendar.display
 msgid "G,C"
@@ -314,8 +184,7 @@ msgid "Go to Briefcase"
 msgstr "Chuyển tới Cặp tài liệu"
 
 #: global.GoToBriefcase.sort
-msgctxt "global.GoToBriefcase.sort"
-msgid "10070"
+msgid "10040"
 msgstr "10070"
 
 #: global.GoToOptions.display
@@ -395,7 +264,6 @@ msgid "New item"
 msgstr "Mục mới"
 
 #: global.New.sort
-msgctxt "global.New.sort"
 msgid "10070"
 msgstr "10070"
 
@@ -529,6 +397,22 @@ msgstr "Bạn mới"
 msgid "10125"
 msgstr "10125"
 
+#: global.NewSearch.display
+msgid "N,S"
+msgstr ""
+
+#: global.NewSearch.keycode
+msgid "78,83"
+msgstr ""
+
+#: global.NewSearch.description
+msgid "Open a search tab"
+msgstr ""
+
+#: global.NewSearch.sort
+msgid "10195"
+msgstr ""
+
 #: global.NewTag.display
 msgid "N,T"
 msgstr "N,T"
@@ -560,6 +444,22 @@ msgstr "Công việc mới"
 #: global.NewTask.sort
 msgid "10115"
 msgstr "10115"
+
+#: global.NewDocument.display
+msgid "N,D"
+msgstr ""
+
+#: global.NewDocument.keycode
+msgid "78,68"
+msgstr ""
+
+#: global.NewDocument.description
+msgid "New document"
+msgstr ""
+
+#: global.NewDocument.sort
+msgid "10135"
+msgstr ""
 
 #: global.NextPage.display
 msgid "Ctrl+ArrowRight"
@@ -680,6 +580,30 @@ msgstr "Hiển thị phím tắt"
 msgctxt "global.Shortcuts.sort"
 msgid "10270"
 msgstr "10270"
+
+#: global.ContextMenu.display
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
+msgstr ""
+
+#: global.ContextMenu.keycode
+msgid "188; Ctrl+13; Ctrl+32; Shift+121"
+msgstr ""
+
+#: global.ContextMenu.display.mac
+msgid ",; Ctrl+Enter; Ctrl+Space"
+msgstr ""
+
+#: global.ContextMenu.keycode.mac
+msgid "188; Ctrl+13; Ctrl+32"
+msgstr ""
+
+#: global.ContextMenu.description
+msgid "Show right-click menu"
+msgstr ""
+
+#: global.ContextMenu.sort
+msgid "10275"
+msgstr ""
 
 #: global.Tag.display
 msgid "T"
@@ -957,24 +881,7 @@ msgstr "Chưa đọc cuối"
 msgid "20192"
 msgstr "20192"
 
-#: mail.MuteUnmuteConv.display
-msgctxt "mail.MuteUnmuteConv.display"
-msgid "E"
-msgstr "E"
-
-#: mail.MuteUnmuteConv.keycode
-msgctxt "mail.MuteUnmuteConv.keycode"
-msgid "69"
-msgstr "69"
-
-#: mail.MuteUnmuteConv.description
-msgid "Mark mute"
-msgstr "Đánh dấu tắt tiếng"
-
-#: mail.MuteUnmuteConv.sort
-msgid "20063"
-msgstr "20063"
-
+#. #mail.MuteUnmuteConv.display = E#mail.MuteUnmuteConv.keycode = 69#mail.MuteUnmuteConv.description = Mark mute#mail.MuteUnmuteConv.sort = 20063
 #: mail.MarkRead.display
 msgid "M,R; Z"
 msgstr "M,R; Z"
@@ -1257,30 +1164,7 @@ msgstr "Báo cáo (đánh dấu là) thư rác"
 msgid "20100"
 msgstr "20100"
 
-#: mail.Undo.display
-msgid "Ctrl+Z"
-msgstr "Ctrl+Z"
-
-#: mail.Undo.display.mac
-msgid "Cmd+Z"
-msgstr "Cmd+Z"
-
-#: mail.Undo.keycode
-msgid "Ctrl+90"
-msgstr "Ctrl+90"
-
-#: mail.Undo.keycode.mac
-msgid "Meta+90"
-msgstr "Meta+90"
-
-#: mail.Undo.description
-msgid "Undo"
-msgstr "Hoàn tác"
-
-#: mail.Undo.sort
-msgid "20300"
-msgstr "20300"
-
+#. #mail.Undo.display = Ctrl+Z#mail.Undo.display.mac = Cmd+Z#mail.Undo.keycode = Ctrl+90#mail.Undo.keycode.mac = Meta+90#mail.Undo.description = Undo#mail.Undo.sort = 20300
 #: mail.ViewByConversation.display
 msgid "V,C"
 msgstr "V,C"
@@ -1626,8 +1510,7 @@ msgid "Show shortcuts"
 msgstr "Hiển thị phím tắt"
 
 #: compose.Shortcuts.sort
-msgctxt "compose.Shortcuts.sort"
-msgid "10270"
+msgid "31000"
 msgstr "10270"
 
 #: compose.Spellcheck.display
@@ -1704,8 +1587,7 @@ msgstr "35010"
 #. # Map: conversation
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: conversation.INHERIT
-msgctxt "conversation.INHERIT"
-msgid "mail"
+msgid "conversationList"
 msgstr "thư"
 
 #. #L10N_IGNORE_BLOCK_END
@@ -1756,8 +1638,7 @@ msgctxt "message.INHERIT"
 msgid "mail"
 msgstr "thư"
 
-#. #L10N_IGNORE_BLOCK_END
-#. # Map: contacts
+#. #L10N_IGNORE_BLOCK_END# Map: contacts
 #. #L10N_IGNORE_BLOCK_BEGIN
 #: contacts.INHERIT
 msgctxt "contacts.INHERIT"
@@ -1923,22 +1804,6 @@ msgstr "Sửa cuộc hẹn"
 msgid "70010"
 msgstr "70010"
 
-#: calendar.Copy.display
-msgid "Ctrl+C"
-msgstr "Ctrl+C"
-
-#: calendar.Copy.keycode
-msgid "Ctrl+67"
-msgstr "Ctrl+67"
-
-#: calendar.Copy.description
-msgid "Copy appointment"
-msgstr "Sao chép cuộc hẹn"
-
-#: calendar.Copy.sort
-msgid "70110"
-msgstr "70110"
-
 #: calendar.FBView.display
 msgid "F; 2"
 msgstr "F; 2"
@@ -1954,22 +1819,6 @@ msgstr "Khung hiển thị Bận/Rỗi"
 #: calendar.FBView.sort
 msgid "70096"
 msgstr "70096"
-
-#: calendar.Paste.display
-msgid "Ctrl+V"
-msgstr "Ctrl+V"
-
-#: calendar.Paste.keycode
-msgid "Ctrl+86"
-msgstr "Ctrl+86"
-
-#: calendar.Paste.description
-msgid "Paste appointment"
-msgstr "Dán cuộc hẹn"
-
-#: calendar.Paste.sort
-msgid "70120"
-msgstr "70120"
 
 #: calendar.CalListView.display
 msgid "L; 9"
@@ -2175,9 +2024,43 @@ msgid "Show shortcuts"
 msgstr "Hiển thị phím tắt"
 
 #: editAppointment.Shortcuts.sort
-msgctxt "editAppointment.Shortcuts.sort"
-msgid "10270"
+msgid "81000"
 msgstr "10270"
+
+#. # Map: viewAppointment
+#. #L10N_IGNORE_BLOCK_BEGIN
+#: viewAppointment.INHERIT
+msgctxt "viewAppointment.INHERIT"
+msgid "global"
+msgstr ""
+
+#. #L10N_IGNORE_BLOCK_END
+#: viewAppointment.description
+msgid "View Appointment"
+msgstr ""
+
+#: viewAppointment.sort
+msgid "85000"
+msgstr ""
+
+#: viewAppointment.Cancel.display
+msgctxt "viewAppointment.Cancel.display"
+msgid "Esc"
+msgstr ""
+
+#: viewAppointment.Cancel.keycode
+msgctxt "viewAppointment.Cancel.keycode"
+msgid "27"
+msgstr ""
+
+#: viewAppointment.Cancel.description
+msgctxt "viewAppointment.Cancel.description"
+msgid "Close"
+msgstr ""
+
+#: viewAppointment.Cancel.sort
+msgid "85020"
+msgstr ""
 
 #. # Map: options
 #. #L10N_IGNORE_BLOCK_BEGIN
@@ -2738,724 +2621,3 @@ msgstr "Chọn địa chỉ ở trước"
 #: address.SelectPrevious.sort
 msgid "30130"
 msgstr "30130"
-
-#~ msgid "`"
-#~ msgstr "`"
-
-#~ msgid "192"
-#~ msgstr "192"
-
-#~ msgid "Zimbra Assistant"
-#~ msgstr "Trợ lý Zimbra"
-
-#~ msgid "G,D"
-#~ msgstr "G,D"
-
-#~ msgid "71,68"
-#~ msgstr "71,68"
-
-#~ msgid "Go to Documents"
-#~ msgstr "Chuyển tới Tài liệu"
-
-#~ msgid "10060"
-#~ msgstr "10060"
-
-#~ msgid "10150"
-#~ msgstr "10150"
-
-#~ msgid "N,W"
-#~ msgstr "N,W"
-
-#~ msgid "78,87"
-#~ msgstr "78,87"
-
-#~ msgid "New notebook"
-#~ msgstr "Sổ tay mới"
-
-#~ msgid "10140"
-#~ msgstr "10140"
-
-#~ msgid "N,P"
-#~ msgstr "N,P"
-
-#~ msgid "78,80"
-#~ msgstr "78,80"
-
-#~ msgid "New notebook page"
-#~ msgstr "Trang sổ tay mới"
-
-#~ msgid "N,D"
-#~ msgstr "N,D"
-
-#~ msgid "78,68"
-#~ msgstr "78,68"
-
-#~ msgid "New document"
-#~ msgstr "Tài liệu mới"
-
-#~ msgid "10135"
-#~ msgstr "10135"
-
-#~ msgctxt "global.QuickReminder.sort"
-#~ msgid "10230"
-#~ msgstr "10230"
-
-#~ msgid "32; 74"
-#~ msgstr "32; 74"
-
-#~ msgid "S; 0"
-#~ msgstr "S; 0"
-
-#~ msgid "83; 48"
-#~ msgstr "83; 48"
-
-#~ msgid "Scheduling view"
-#~ msgstr "Khung hiển thị lịch trình"
-
-#~ msgid "70090"
-#~ msgstr "70090"
-
-#~ msgctxt "mixed.INHERIT"
-#~ msgid "global"
-#~ msgstr "chung"
-
-#~ msgctxt "mixed.DoubleClick.display"
-#~ msgid "O"
-#~ msgstr "O"
-
-#~ msgctxt "mixed.DoubleClick.keycode"
-#~ msgid "79"
-#~ msgstr "79"
-
-#~ msgctxt "notebook.INHERIT"
-#~ msgid "global"
-#~ msgstr "chung"
-
-#~ msgid "Documents"
-#~ msgstr "Tài liệu"
-
-#~ msgid "100000"
-#~ msgstr "100000"
-
-#~ msgctxt "notebook.Edit.display"
-#~ msgid "E"
-#~ msgstr "E"
-
-#~ msgctxt "notebook.Edit.keycode"
-#~ msgid "69"
-#~ msgstr "69"
-
-#~ msgctxt "notebook.Edit.description"
-#~ msgid "Edit"
-#~ msgstr "Sửa"
-
-#~ msgid "100010"
-#~ msgstr "100010"
-
-#~ msgctxt "notebook.Refresh.display"
-#~ msgid "R"
-#~ msgstr "R"
-
-#~ msgctxt "notebook.Refresh.keycode"
-#~ msgid "82"
-#~ msgstr "82"
-
-#~ msgctxt "notebook.Refresh.description"
-#~ msgid "Refresh"
-#~ msgstr "Làm mới"
-
-#~ msgid "100020"
-#~ msgstr "100020"
-
-#~ msgid "compose"
-#~ msgstr "soạn thư"
-
-#~ msgid "M,J"
-#~ msgstr "M,J"
-
-#~ msgid "77,74"
-#~ msgstr "77,74"
-
-#~ msgid "Edit Notebook Page"
-#~ msgstr "Sửa trang sổ tay"
-
-#~ msgid "100050"
-#~ msgstr "100050"
-
-#~ msgctxt "editPage.Cancel.display"
-#~ msgid "Esc"
-#~ msgstr "Esc"
-
-#~ msgctxt "editPage.Cancel.keycode"
-#~ msgid "27"
-#~ msgstr "27"
-
-#~ msgctxt "editPage.Cancel.description"
-#~ msgid "Cancel"
-#~ msgstr "Hủy bỏ"
-
-#~ msgid "100060"
-#~ msgstr "100060"
-
-#~ msgctxt "editPage.Save.display"
-#~ msgid "Ctrl+S"
-#~ msgstr "Ctrl+S"
-
-#~ msgctxt "editPage.Save.keycode"
-#~ msgid "Ctrl+83"
-#~ msgstr "Ctrl+83"
-
-#~ msgctxt "editPage.Save.description"
-#~ msgid "Save"
-#~ msgstr "Lưu"
-
-#~ msgid "100070"
-#~ msgstr "100070"
-
-#~ msgctxt "editPage.Shortcuts.display"
-#~ msgid "Ctrl+Q"
-#~ msgstr "Ctrl+Q"
-
-#~ msgctxt "editPage.Shortcuts.keycode"
-#~ msgid "Ctrl+81"
-#~ msgstr "Ctrl+81"
-
-#~ msgctxt "editPage.Shortcuts.description"
-#~ msgid "Show shortcuts"
-#~ msgstr "Hiển thị phím tắt"
-
-#~ msgctxt "editPage.Shortcuts.sort"
-#~ msgid "10270"
-#~ msgstr "10270"
-
-#~ msgid "Shortcuts for All Applications"
-#~ msgstr "Phím tắt cho tất cả Ứng dụng"
-
-#~ msgid "Close the current view"
-#~ msgstr "Đóng khung nhìn hiện thời"
-
-#~ msgid "Move focus to the search box"
-#~ msgstr "Chuyển tập trung vào hộp tìm kiếm"
-
-#~ msgid "Move focus to the web search box"
-#~ msgstr "Chuyển tập trung vào hộp tìm kiếm web"
-
-#~ msgid "Switch to Contacts (\"address book\")"
-#~ msgstr "Chuyển tới Liên hệ (\"sổ địa chỉ\")"
-
-#~ msgid "71,73"
-#~ msgstr "71,73"
-
-#~ msgid "Switch to Chat (\"instant messaging\")"
-#~ msgstr "Chuyển tới Chat (\"tin nhắn tức thời\")"
-
-#~ msgid "10040"
-#~ msgstr "10040"
-
-#~ msgid "Switch (\"go\") to Mail"
-#~ msgstr "Chuyển (\"đi\") tới Mail"
-
-#~ msgid "Switch to Documents (\"notebook\")"
-#~ msgstr "Chuyển tới Tài liệu (\"sổ tay\")"
-
-#~ msgid "Y,NNN"
-#~ msgstr "Y,NNN"
-
-#~ msgid "89,NNN"
-#~ msgstr "89,NNN"
-
-#~ msgid ""
-#~ "Show items with specified tag (set the tag in the \"Tag Shortcuts\" tab)"
-#~ msgstr ""
-#~ "Hiển thị các mục với thẻ đã định (thiết lập thẻ trong tab \"Phím tắt thẻ"
-#~ "\")."
-
-#~ msgid "Show items with specified tag."
-#~ msgstr "Hiển thị các mục với thẻ đã định."
-
-#~ msgid "will show all items with tag {0}."
-#~ msgstr "sẽ hiển thị tất cả mục với thẻ {0}."
-
-#~ msgid "10240"
-#~ msgstr "10240"
-
-#~ msgid "Create a new item (within the current application)"
-#~ msgstr "Tạo một mục mới (trong ứng dụng hiện thời)"
-
-#~ msgid "New item (for current app)"
-#~ msgstr "Mục mới (cho ứng dụng hiện thời)"
-
-#~ msgid "New message (\"compose\")"
-#~ msgstr "Thông điệp mới (\"soạn thảo\")"
-
-#~ msgid "New message in a new window"
-#~ msgstr "Thông điếp mới trong một cửa sổ mới"
-
-#~ msgid "New notebook (\"wiki\")"
-#~ msgstr "Sổ tay mới \"wiki"
-
-#~ msgid "S,M"
-#~ msgstr "S,M"
-
-#~ msgid "83,77"
-#~ msgstr "83,77"
-
-#~ msgid "Pop up the IM status menu"
-#~ msgstr "Bật trình đơn trạng thái IM"
-
-#~ msgid "10290"
-#~ msgstr "10290"
-
-#~ msgid "Print selected items"
-#~ msgstr "In mục đã chọn"
-
-#~ msgid "S,NNN"
-#~ msgstr "S,NNN"
-
-#~ msgid "83,NNN"
-#~ msgstr "83,NNN"
-
-#~ msgid ""
-#~ "Show results of specified search (set the search in the \"Search Shortcuts"
-#~ "\" tab)"
-#~ msgstr ""
-#~ "Hiển thị kết quả của tìm kiếm đã định (thiết lập tìm kiếm trong tab "
-#~ "\"Phím tắt tìm kiếm\")"
-
-#~ msgid "Show results of specified search"
-#~ msgstr "Hiển thị kết quả của tìm kiếm đã định"
-
-#~ msgid "will show results of the {0} search."
-#~ msgstr "sẽ hiển thị kết của của tìm kiếm {0}."
-
-#~ msgid "T,NNN"
-#~ msgstr "T,NNN"
-
-#~ msgid "84,NNN"
-#~ msgstr "84,NNN"
-
-#~ msgid ""
-#~ "Tag selected items with specified tag (set the tag in the \"Tag Shortcuts"
-#~ "\" tab)"
-#~ msgstr ""
-#~ "Gắn thẻ mục đã chọn với thẻ chỉ định (thiết lập thẻ trong tab \"Phím tắt "
-#~ "thẻ\")"
-
-#~ msgid "Tag selected items with specified tag"
-#~ msgstr "Gắn thẻ mục đã chọn với thẻ chỉ định"
-
-#~ msgid "will apply tag {0} to selected items."
-#~ msgstr "sẽ áp dụng thẻ {0} tới mục đã chọn."
-
-#~ msgid "Remove all tags from selected item(s)"
-#~ msgstr "Loại bỏ tất cả thẻ từ mục đã chọn"
-
-#~ msgctxt "global.Untag.sort"
-#~ msgid "10250"
-#~ msgstr "10250"
-
-#~ msgid "Shortcuts in Mail"
-#~ msgstr "Phím tắt trong Thư"
-
-#~ msgid "Open message (or conversation)"
-#~ msgstr "Mở thông điệp (hoặc đàm thoại)"
-
-#~ msgctxt "mail.Forward.summary"
-#~ msgid "Forward message"
-#~ msgstr "Chuyển tiếp thông điệp"
-
-#~ msgid "Go to Drafts folder"
-#~ msgstr "Tới thư mục Thư nháp"
-
-#~ msgid "V,NNN"
-#~ msgstr "V,NNN"
-
-#~ msgid "86,NNN"
-#~ msgstr "V,NNN"
-
-#~ msgid ""
-#~ "Go to the specified mail folder (set the folder in the \"Mail Folder "
-#~ "Shortcuts\" tab)"
-#~ msgstr ""
-#~ "Chuyển đến thư mục chỉ định (thiếp lập thư mục trong tab \"Phím tắt thư "
-#~ "mục\")"
-
-#~ msgid "Show the specified mail folder"
-#~ msgstr "Hiển thị thư mục chỉ định"
-
-#~ msgid "will show the {0} folder."
-#~ msgstr "sẽ hiển thị thư mục {0}."
-
-#~ msgid "20050"
-#~ msgstr "20050"
-
-#~ msgid "Go to Junk folder"
-#~ msgstr "Tới thư mục Thư rác"
-
-#~ msgid ".,NNN; Shift+.,NNN"
-#~ msgstr ".,NNN; Shift+.,NNN"
-
-#~ msgid "190,NNN; Shift+190,NNN"
-#~ msgstr "190,NNN; Shift+190,NNN"
-
-#~ msgid ""
-#~ "Move messages to the specified mail folder (set the folder in the \"Mail "
-#~ "Folder Shortcuts\" tab)"
-#~ msgstr ""
-#~ "Di chuyển thông điệp tới thư mục chỉ định (thiết lập thư mục trong tab "
-#~ "\"Phím tắt thư mục\")"
-
-#~ msgid "Move messages to the specified mail folder"
-#~ msgstr "Di chuyển thông điệp tới thư mục chỉ định"
-
-#~ msgid "will move selected messages to the {0} folder."
-#~ msgstr "sẽ di chuyển thông điệp đã chọn tới thư mục {0}."
-
-#~ msgid "20140"
-#~ msgstr "20140"
-
-#~ msgctxt "mail.MoveToInbox.display"
-#~ msgid ".,I; Shift+.,I"
-#~ msgstr ".,I; Shift+.,I"
-
-#~ msgctxt "mail.MoveToInbox.keycode"
-#~ msgid "190,73; Shift+190,73"
-#~ msgstr "190,73; Shift+190,73"
-
-#~ msgid "Move messages to the Inbox folder"
-#~ msgstr "Di chuyển thông điệp vào thư mục Hộp thư"
-
-#~ msgctxt "mail.MoveToTrash.display"
-#~ msgid ".,T; Shift+.,T"
-#~ msgstr ".,T; Shift+.,T"
-
-#~ msgctxt "mail.MoveToTrash.keycode"
-#~ msgid "190,84; Shift+190,84"
-#~ msgstr "190,84; Shift+190,84"
-
-#~ msgid "Move messages to the Trash folder"
-#~ msgstr "Di chuyển thông điệp tới thư mục Thư đến"
-
-#~ msgid "M,P"
-#~ msgstr "M,P"
-
-#~ msgid "Show/Hide the message reading pane"
-#~ msgstr "Hiển thị/Ẩn khung đọc thông điệp"
-
-#~ msgid "Reply to sender"
-#~ msgstr "Trả lời người gửi"
-
-#~ msgid "Reply to all recipients"
-#~ msgstr "Trả lời tất cả người nhận"
-
-#~ msgid "Display the beginning of the selected message in a tooltip"
-#~ msgstr "Hiển thị phần đầu của thông điệp đã chọn trong một chú giải"
-
-#~ msgid "Mark messages as spam and move them to the Junk folder"
-#~ msgstr "Đánh dấu thông điệp như thư rác và chuyển chúng tới thư mục Thư rác"
-
-#~ msgid "Display (\"view\") mail as a list of expandable conversations"
-#~ msgstr "Hiển thị (\"xem\") thư như 1 danh sách cuộc đàm thoại mở rộng"
-
-#~ msgid "Display mail as a list of messages"
-#~ msgstr "Hiển thị thư như một danh sách cuộc đàm thoại"
-
-#~ msgid "List view of mail as expandable conversations"
-#~ msgstr "Khung nhìn danh sách của thư như các cuộc đàm thoại mở rộng"
-
-#~ msgid "Show or hide a conversation's messages"
-#~ msgstr "Hiển thị hoặc ẩn các thông điệp của một cuộc đàm thoại"
-
-#~ msgid "Shortcuts in Mail Compose form"
-#~ msgstr "Phím tắt trong biểu mẫu Soạn thư"
-
-#~ msgid "Choose (\"get\") recipients from Address Book"
-#~ msgstr "Chọn (\"lấy\") người nhận từ Sổ địa chỉ"
-
-#~ msgid "Cancel this message"
-#~ msgstr "Hủy thông điệp này"
-
-#~ msgid "Ctrl+P,Ctrl+H"
-#~ msgstr "Ctrl+P,Ctrl+H"
-
-#~ msgid "Ctrl+80,Ctrl+72"
-#~ msgstr "Ctrl+80,Ctrl+72"
-
-#~ msgid "Make the message high priority"
-#~ msgstr "Làm cho thông điệp ưu tiên cao"
-
-#~ msgid "30090"
-#~ msgstr "30090"
-
-#~ msgid "Switch between HTML and Text format for the body"
-#~ msgstr "Chuyển giữa định dạng HTML và Văn bản thường cho nội dung"
-
-#~ msgid "Ctrl+P,Ctrl+L"
-#~ msgstr "Ctrl+P,Ctrl+L"
-
-#~ msgid "Ctrl+80,Ctrl+76"
-#~ msgstr "Ctrl+80,Ctrl+76"
-
-#~ msgid "Make the message low priority"
-#~ msgstr "Làm cho thông điệp ưu tiên thấp"
-
-#~ msgid "Ctrl+W"
-#~ msgstr "Ctrl+W"
-
-#~ msgid "Ctrl+P,Ctrl+N"
-#~ msgstr "Ctrl+P,Ctrl+N"
-
-#~ msgid "Ctrl+80,Ctrl+78"
-#~ msgstr "Ctrl+80,Ctrl+78"
-
-#~ msgid "Make the message normal priority"
-#~ msgstr "Làm cho thông điệp ưu tiên bình thường"
-
-#~ msgid "Save the message as a draft"
-#~ msgstr "Lưu thông điệp thành bản nháp"
-
-#~ msgid "Check (\"examine\") spelling"
-#~ msgstr "Kiểm tra chính tả"
-
-#~ msgid "Shortcuts in Mail Conversation View"
-#~ msgstr "Phím tắt trong Khung nhìn cuộc đàm thoại thư"
-
-#~ msgid "Shortcuts in Address Book"
-#~ msgstr "Phím tắt trong Sổ địa chỉ"
-
-#~ msgid "Edit the selected contact"
-#~ msgstr "Sửa liên hệ đã chọn"
-
-#~ msgid "Shortcuts in Edit Contact form"
-#~ msgstr "Phím tắt trong biểu mẫu Sửa liên hệ"
-
-#~ msgid "Cancel editing the contact"
-#~ msgstr "Hủy bỏ sửa liên hệ"
-
-#~ msgid "Save the contact"
-#~ msgstr "Lưu liên hệ"
-
-#~ msgid "Shortcuts in Calendar"
-#~ msgstr "Phím tắt trong Lịch"
-
-#~ msgid "Close read-only appointment view"
-#~ msgstr "Đóng khung nhìn cuộc hẹn chỉ đọc"
-
-#~ msgid "Show single-day view"
-#~ msgstr "Hiển thị khung nhìn ngày"
-
-#~ msgid "Create a quick appointment"
-#~ msgstr "Tạo một cuộc hẹn nhanh"
-
-#~ msgid "Refresh the calendar"
-#~ msgstr "Làm mới lịch"
-
-#~ msgid "Show work-week view"
-#~ msgstr "Hiện thị khung nhìn tuần làm việc"
-
-#~ msgid "Shortcuts for Tab Views (for example, Preferences)"
-#~ msgstr "Phím tắt cho Khung nhìn dạng tab (ví dụ: Tùy chọn)"
-
-#~ msgid "Tab Views (e.g. Preferences)"
-#~ msgstr "Khung nhìn dạng tab (v.d Tùy chọn)"
-
-#~ msgid "110000"
-#~ msgstr "110000"
-
-#~ msgctxt "tabView.GoToTab.display"
-#~ msgid "Ctrl+NNN"
-#~ msgstr "Ctrl+NNN"
-
-#~ msgctxt "tabView.GoToTab.keycode"
-#~ msgid "Ctrl+NNN"
-#~ msgstr "Ctrl+NNN"
-
-#~ msgid "Show the nth tab (leftmost tab is 1)"
-#~ msgstr "Hiển thị tab thứ n (tab tận cùng bên trái là 1)"
-
-#~ msgid "110030"
-#~ msgstr "110030"
-
-#~ msgid "Ctrl+J"
-#~ msgstr "Ctrl+J"
-
-#~ msgid "Ctrl+74"
-#~ msgstr "Ctrl+74"
-
-#~ msgid "Show the next tab"
-#~ msgstr "Hiển thị tab kế tiếp"
-
-#~ msgid "110010"
-#~ msgstr "110010"
-
-#~ msgid "Ctrl+K"
-#~ msgstr "Ctrl+K"
-
-#~ msgid "Ctrl+75"
-#~ msgstr "Ctrl+75"
-
-#~ msgid "Show the previous tab"
-#~ msgstr "Hiển thị tab trước"
-
-#~ msgid "110020"
-#~ msgstr "110020"
-
-#~ msgid "Shortcuts in Edit Appointment form"
-#~ msgstr "Phím tắt trong biểu mẫu Sửa cuộc hẹn"
-
-#~ msgid "Switch between timed and all-day appointment"
-#~ msgstr "Chuyển đổi giữa cuộc hẹn theo thời gian và cuộc hẹn cả ngày"
-
-#~ msgid "80030"
-#~ msgstr "80030"
-
-#~ msgid "Cancel editing the appointment"
-#~ msgstr "Hủy bỏ sửa cuộc hẹn"
-
-#~ msgid "Switch between HTML and Text formats"
-#~ msgstr "Chuyển đổi giữa định dạng HTML và Văn bản thuần"
-
-#~ msgid "Save the appointment"
-#~ msgstr "Lưu cuộc hẹn"
-
-#~ msgid "Shortcuts in Preferences"
-#~ msgstr "Phím tắt trong Tùy chọn"
-
-#~ msgid "Save preferences for all Preferences tabs"
-#~ msgstr "Lưu các tùy chỉnh cho tất cả tab Tùy chọn"
-
-#~ msgctxt "mixed.DblClick.display"
-#~ msgid "O"
-#~ msgstr "O"
-
-#~ msgctxt "mixed.DblClick.keycode"
-#~ msgid "79"
-#~ msgstr "79"
-
-#~ msgctxt "mixed.Flag.display"
-#~ msgid "M,F"
-#~ msgstr "M,F"
-
-#~ msgctxt "mixed.Flag.keycode"
-#~ msgid "77,70"
-#~ msgstr "77,70"
-
-#~ msgctxt "mixed.Forward.display"
-#~ msgid "F"
-#~ msgstr "F"
-
-#~ msgctxt "mixed.Forward.keycode"
-#~ msgid "70"
-#~ msgstr "70"
-
-#~ msgctxt "mixed.GoToDrafts.display"
-#~ msgid "V,D"
-#~ msgstr "V,D"
-
-#~ msgctxt "mixed.GoToDrafts.keycode"
-#~ msgid "86,68"
-#~ msgstr "86,68"
-
-#~ msgid "V,I; I"
-#~ msgstr "V,I; I"
-
-#~ msgid "86,73; 73"
-#~ msgstr "86,73; 73"
-
-#~ msgctxt "mixed.GoToJunk.display"
-#~ msgid "V,J"
-#~ msgstr "V,J"
-
-#~ msgctxt "mixed.GoToJunk.keycode"
-#~ msgid "86,74"
-#~ msgstr "86,74"
-
-#~ msgctxt "mixed.GoToSent.display"
-#~ msgid "V,S"
-#~ msgstr "V,S"
-
-#~ msgctxt "mixed.GoToSent.keycode"
-#~ msgid "86,83"
-#~ msgstr "86,83"
-
-#~ msgctxt "mixed.GoToTrash.display"
-#~ msgid "V,T"
-#~ msgstr "V,T"
-
-#~ msgctxt "mixed.GoToTrash.keycode"
-#~ msgid "86,84"
-#~ msgstr "86,84"
-
-#~ msgctxt "mixed.MoveToInbox.display"
-#~ msgid ".,I; Shift+.,I"
-#~ msgstr ".,I; Shift+.,I"
-
-#~ msgctxt "mixed.MoveToInbox.keycode"
-#~ msgid "190,73; Shift+190,73"
-#~ msgstr "190,73; Shift+190,73"
-
-#~ msgctxt "mixed.MoveToTrash.display"
-#~ msgid ".,T; Shift+.,T"
-#~ msgstr ".,T; Shift+.,T"
-
-#~ msgctxt "mixed.MoveToTrash.keycode"
-#~ msgid "190,84; Shift+190,84"
-#~ msgstr "190,84; Shift+190,84"
-
-#~ msgctxt "mixed.Reply.display"
-#~ msgid "R"
-#~ msgstr "R"
-
-#~ msgctxt "mixed.Reply.keycode"
-#~ msgid "82"
-#~ msgstr "82"
-
-#~ msgctxt "mixed.ReplyAll.display"
-#~ msgid "A"
-#~ msgstr "A"
-
-#~ msgctxt "mixed.ReplyAll.keycode"
-#~ msgid "65"
-#~ msgstr "65"
-
-#~ msgid "Shortcuts for Documents"
-#~ msgstr "Phím tắt cho Tài liệu"
-
-#~ msgid "Edit this page"
-#~ msgstr "Sửa trang này"
-
-#~ msgid "Shortcuts for Tasks"
-#~ msgstr "Phím tắt cho Công việc"
-
-#~ msgid "Shortcuts in Edit Task form"
-#~ msgstr "Phím tắt trong biểu mẫu Sửa công việc"
-
-#~ msgid "Cancel editing the task"
-#~ msgstr "Hủy bỏ sửa công việc"
-
-#~ msgid "Save the task"
-#~ msgstr "Lưu công việc"
-
-#~ msgid "Save the voice mail message to your computer"
-#~ msgstr "Lưu thông điệp thư thoại tới máy tính của bạn"
-
-#~ msgid "Forward the voice mail message by email"
-#~ msgstr "Chuyển tiếp thông điệp thư thoại bằng email"
-
-#~ msgid "Mark voice mail messages as heard"
-#~ msgstr "Đánh dấu thông điệp thư thoại đã nghe"
-
-#~ msgid "Mark voice mail messages as unheard"
-#~ msgstr "Đánh dấu thông điệp thư thoại chưa nghe"
-
-#~ msgid "Play the selected voice mail message"
-#~ msgstr "Phát thông điệp thư thoại đã chọn"
-
-#~ msgid "Print the list of voice mail messages"
-#~ msgstr "In danh sách thông điệp thư thoại"
-
-#~ msgid "Reply by email to the sender of the voice mail message"
-#~ msgstr "Trả lời bằng email tới người gửi thông điệp thư thoại"
-
-#~ msgid "Print the list of calls"
-#~ msgstr "In danh sách cuộc gọi"

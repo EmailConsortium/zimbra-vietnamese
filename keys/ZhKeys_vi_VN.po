@@ -1,140 +1,19 @@
+#. # # ***** BEGIN LICENSE BLOCK *****# Zimbra Collaboration Suite Web Client# Copyright (C) 2007, 2008, 2009, 2010, 2013, 2014 Zimbra, Inc.# # This program is free software: you can redistribute it and/or modify it under# the terms of the GNU General Public License as published by the Free Software Foundation,# version 2 of the License.# # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.# See the GNU General Public License for more details.# You should have received a copy of the GNU General Public License along with this program.# If not, see <http://www.gnu.org/licenses/>.# ***** END LICENSE BLOCK *****#
+#. extracted from ZhKeys.properties, ZhKeys_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: ZhKeys.vi_VN\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
-"PO-Revision-Date: 2014-03-20 21:50+0700\n"
-"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language: vi_VN\n"
+"POT-Creation-Date: 2015-03-07 23:25+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
 
-#. # Keyboard Shortcuts for the ZCS Standard (HTML) Client
-#. #
-#. #
-#. # Below is a list of properties that define shortcuts. Each shortcut belongs
-#. # to a "map", which is the context in which the shortcut applies. For these
-#. # shortcuts, that is typically determined by the current view (for example,
-#. # a list of messages or a compose form).
-#. #
-#. # The property key consists of several parts joined by dots. The first part
-#. # is always the name of a map. The second part is either the name of an action,
-#. # or the name of a field. Field names are lowercase, and action names are mixed
-#. # case. The final part of the key may be a platform.
-#. #
-#. #
-#. # Maps
-#. # ----
-#. #
-#. # The map names in this properties file refer to views within the ZCS web
-#. # client. The following are valid map names:
-#. #
-#. #    global					applies to all views
-#. #    compose				a form for creating a new message
-#. #    mail					a list of mail messages or conversations
-#. #    conversation			a single conversation, which is a list of mail messages,
-#. #							with the content of a message displayed in the reading pane
-#. #    message				the content of a single mail message
-#. #    contacts				a set of contacts
-#. #    editContact			a form for creating or editing a contact
-#. #    calendar				any of several calendar views (week, month, etc)
-#. #    editAppointment		a form for creating or editing an appointment
-#. #    options				a set of tabs for changing personal settings
-#. #    mixed					a view of different types of items (eg Trash)
-#. #    notebook				the wiki application
-#. #    voicemail				a list of voicemail messages
-#. #    call					a list of phone calls
-#. #
-#. # Actions
-#. # -------
-#. #
-#. # An action is an event triggered by a shortcut. It is what the shortcut
-#. # does. Most of the time, the action invoked by a web client shortcut emulates
-#. # something that could have been done using the mouse, for example by clicking
-#. # on a particular button. To see what actions are available and what each action does,
-#. # check the documentation section below.
-#. #
-#. # To define a shortcut that applies only on a particular platform (Windows,
-#. # Macintosh, or Linux), add a platform identifier to the action. The platform
-#. # identifier can be one of:
-#. #
-#. #    win mac linux
-#. #
-#. # For example:
-#. #
-#. #    compose.Send.display.mac = Ctrl+Enter; Ctrl+S
-#. #    compose.Send.keycode.mac = Ctrl+13; Ctrl+83
-#. #
-#. # Key Sequences (shortcuts)
-#. # -------------
-#. #
-#. # A key sequence is a set of one or more keys that triggers an action. Each
-#. # key in the sequence may have a modifier (such as the Control or Shift key).
-#. # Most key sequences consist of just one key. The keys in multiple-key
-#. # sequences are separated with a comma. The next key in a sequence must be
-#. # struck within a short time for the sequence to continue.
-#. #
-#. # The following are valid modifiers:
-#. #
-#. #    Ctrl Alt Shift Meta
-#. #
-#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
-#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
-#. # another plus sign. For example: Ctrl+Shift+O.
-#. #
-#. # If you want to have more than one shortcut for the same action, use a
-#. # semicolon (and optional space) to separate the shortcuts. For example, to
-#. # specify three different shortcuts for the global action Foo:
-#. #
-#. #    global.Foo.display		= A; B; C
-#. #    global.Foo.keycode		= 65; 66; 67
-#. #
-#. # Key sequences have no notion of upper case or lower case. They map to what
-#. # you see on your keyboard (for example, a "T"), rather than the character it
-#. # produces when you strike it (a "t"). To specify a keystroke that requires the
-#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
-#. # key, you'd use: Shift+2.
-#. #
-#. # Each letter, number, and non-shifted printable character represents itself:
-#. #
-#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
-#. #    ` - = [ ] ' . /
-#. #
-#. # Non-printable keys are specified with special names. The following special
-#. # names are available:
-#. #
-#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
-#. #
-#. # The sequence "NNN" has a special meaning in shortcuts. It stands for "any
-#. # number". For example, with the shortcut
-#. #
-#. #    global.Tag.display = T,NNN
-#. #    global.Tag.keycode = 84,NNN
-#. #
-#. # the key sequence "T,3" will tag selected items with the tag which has
-#. # 3 as its alias. Only actions which contain "NNN" support that sort of mapping.
-#. #
-#. # Documentation
-#. # -------------
-#. #
-#. # Maps and actions can be documented by appending ".description" to the map
-#. # name or the action and using that as a property name. The descriptive
-#. # text is the property's value. The descriptions below show up as content in
-#. # the Shortcuts tab on the Options page.
-#. #
-#. # The "summary" text is used when printing the Quick Reference (not yet
-#. # implemented), or in a tooltip.
-#. #
-#. # The "sort" field sets the sorting order among either map names or among
-#. # the actions within a map, from low to high. There are gaps so that
-#. # properties may be inserted and given a sort order without having to
-#. # change the order of other properties.
-#. # Map: global
+#. # Keyboard Shortcuts for the ZCS Standard (HTML) Client### Below is a list of properties that define shortcuts. Each shortcut belongs# to a "map", which is the context in which the shortcut applies. For these# shortcuts, that is typically determined by the current view (for example,# a list of messages or a compose form).## The property key consists of several parts joined by dots. The first part# is always the name of a map. The second part is either the name of an action,# or the name of a field. Field names are lowercase, and action names are mixed# case. The final part of the key may be a platform.### Maps# ----## The map names in this properties file refer to views within the ZCS web # client. The following are valid map names:##    global					applies to all views#    compose				a form for creating a new message#    mail					a list of mail messages or conversations#    conversation			a single conversation, which is a list of mail messages,#							with the content of a message displayed in the reading pane#    message				the content of a single mail message#    contacts				a set of contacts#    editContact			a form for creating or editing a contact#    calendar				any of several calendar views (week, month, etc)#    editAppointment		a form for creating or editing an appointment#    options				a set of tabs for changing personal settings#    mixed					a view of different types of items (eg Trash)#    notebook				the wiki application#    voicemail				a list of voicemail messages#    call					a list of phone calls## Actions# -------## An action is an event triggered by a shortcut. It is what the shortcut# does. Most of the time, the action invoked by a web client shortcut emulates# something that could have been done using the mouse, for example by clicking# on a particular button. To see what actions are available and what each action does,# check the documentation section below. ## To define a shortcut that applies only on a particular platform (Windows,# Macintosh, or Linux), add a platform identifier to the action. The platform# identifier can be one of:##    win mac linux## For example:##    compose.Send.display.mac = Ctrl+Enter; Ctrl+S#    compose.Send.keycode.mac = Ctrl+13; Ctrl+83#    # Key Sequences (shortcuts)# -------------## A key sequence is a set of one or more keys that triggers an action. Each# key in the sequence may have a modifier (such as the Control or Shift key).# Most key sequences consist of just one key. The keys in multiple-key# sequences are separated with a comma. The next key in a sequence must be# struck within a short time for the sequence to continue.## The following are valid modifiers:##    Ctrl Alt Shift Meta## To add a modifier to a key, specify the modifier, then a plus sign, then the# key. For example: Ctrl+C. If you want to add more than one modifier, use# another plus sign. For example: Ctrl+Shift+O.## If you want to have more than one shortcut for the same action, use a # semicolon (and optional space) to separate the shortcuts. For example, to# specify three different shortcuts for the global action Foo:##    global.Foo.display		= A; B; C #    global.Foo.keycode		= 65; 66; 67# # Key sequences have no notion of upper case or lower case. They map to what# you see on your keyboard (for example, a "T"), rather than the character it# produces when you strike it (a "t"). To specify a keystroke that requires the# Shift key, you must use the Shift modifier. For example, to specify the "@"# key, you'd use: Shift+2.## Each letter, number, and non-shifted printable character represents itself:##    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9#    ` - = [ ] ' . /## Non-printable keys are specified with special names. The following special# names are available:##    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space## The sequence "NNN" has a special meaning in shortcuts. It stands for "any# number". For example, with the shortcut##    global.Tag.display = T,NNN#    global.Tag.keycode = 84,NNN## the key sequence "T,3" will tag selected items with the tag which has# 3 as its alias. Only actions which contain "NNN" support that sort of mapping.## Documentation# -------------## Maps and actions can be documented by appending ".description" to the map# name or the action and using that as a property name. The descriptive# text is the property's value. The descriptions below show up as content in# the Shortcuts tab on the Options page.## The "summary" text is used when printing the Quick Reference (not yet# implemented), or in a tooltip.## The "sort" field sets the sorting order among either map names or among# the actions within a map, from low to high. There are gaps so that# properties may be inserted and given a sort order without having to# change the order of other properties.# Map: global
 #: global.description
 msgid "Shortcuts for All Applications"
 msgstr "Phím tắt cho tất cả ứng dụng"
@@ -330,8 +209,7 @@ msgstr "84,NNN"
 msgid "global.NewMessage, global.GoToMail, global.GoToOptions"
 msgstr "global.NewMessage, global.GoToMail, global.GoToOptions"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: mail
+#. # L10N_IGNORE_BLOCK_END# Map: mail
 #: mail.description
 msgid "Shortcuts in Mail"
 msgstr "Phím tắt trong Thư"
@@ -580,18 +458,17 @@ msgstr "Bỏ gắn cờ thông điệp"
 #. # L10N_IGNORE_BLOCK_BEGIN
 #: mail.keys
 msgid ""
-"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, mail."
-"GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, mail."
-"UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, mail."
-"ShowExternalImages, overview.folders, overview.tags"
+"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, "
+"mail.GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, "
+"mail.UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, "
+"mail.ShowExternalImages, overview.folders, overview.tags"
 msgstr ""
-"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, mail."
-"GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, mail."
-"UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, mail."
-"ShowExternalImages, overview.folders, overview.tags"
+"mail.Open, mail.Close, mail.Delete,mail.GoToInbox, mail.GoToDrafts, "
+"mail.GoToSent, mail.GoToTrash, mail.MarkRead, mail.MarkUnread, mail.Flag, "
+"mail.UnFlag, mail.Spam, mail.Reply, mail.ReplyAll, mail.Forward, "
+"mail.ShowExternalImages, overview.folders, overview.tags"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: compose
+#. # L10N_IGNORE_BLOCK_END# Map: compose
 #: compose.description
 msgid "Shortcuts in Mail Compose form"
 msgstr "Phím tắt cho biểu mẫu Soạn thư"
@@ -725,8 +602,7 @@ msgstr ""
 "compose.Send, compose.Save, compose.Attachment, compose.AddressPicker, "
 "compose.HighPriority, compose.NormalPriority, compose.LowPriority"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: conversation
+#. # L10N_IGNORE_BLOCK_END# Map: conversation
 #: conversation.description
 msgid "Shortcuts in Mail Conversation View"
 msgstr "Phím tắt trong Khung hiển thị Cuộc đàm thoại của Thư"
@@ -772,8 +648,7 @@ msgid ""
 msgstr ""
 "conversation.NextConversationPage, conversation.PreviousConversationPage"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: contacts
+#. # L10N_IGNORE_BLOCK_END# Map: contacts
 #: contacts.description
 msgid "Shortcuts for Address Book"
 msgstr "Phím tắt cho Sổ địa chỉ"
@@ -851,8 +726,7 @@ msgstr ""
 "contacts.GoToContacts, contacts.NewContact, contacts.Delete, contacts.Edit, "
 "contacts.NewGroup, overview.addressbooks"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: editContact
+#. # L10N_IGNORE_BLOCK_END# Map: editContact
 #: editContact.description
 msgid "Shortcuts in Edit Contact form"
 msgstr "Phím tắt trong biểu mẫu Sửa liên hệ"
@@ -1063,18 +937,17 @@ msgstr "Hiện khung hiển thị tuần làm việc"
 #. # L10N_IGNORE_BLOCK_BEGIN
 #: calendar.keys
 msgid ""
-"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, calendar."
-"WeekView, calendar.WorkWeekView, calendar.MonthView, calendar.ScheduleView, "
-"calendar.Today, calendar.Refresh, global.NextPage, global.PreviousPage, "
-"overview.calendars"
+"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, "
+"calendar.WeekView, calendar.WorkWeekView, calendar.MonthView, "
+"calendar.ScheduleView, calendar.Today, calendar.Refresh, global.NextPage, "
+"global.PreviousPage, overview.calendars"
 msgstr ""
-"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, calendar."
-"WeekView, calendar.WorkWeekView, calendar.MonthView, calendar.ScheduleView, "
-"calendar.Today, calendar.Refresh, global.NextPage, global.PreviousPage, "
-"overview.calendars"
+"calendar.GoToCalendar, calendar.NewAppointment, calendar.DayView, "
+"calendar.WeekView, calendar.WorkWeekView, calendar.MonthView, "
+"calendar.ScheduleView, calendar.Today, calendar.Refresh, global.NextPage, "
+"global.PreviousPage, overview.calendars"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: overview
+#. # L10N_IGNORE_BLOCK_END# Map: overview
 #: overview.addressbooks.display
 msgid "E,A"
 msgstr "E,A"
@@ -1210,14 +1083,13 @@ msgstr "Lưu các thay đổi"
 #. # L10N_IGNORE_BLOCK_BEGIN
 #: mfolders.keys
 msgid ""
-"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, mfolders."
-"NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
+"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, "
+"mfolders.NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
 msgstr ""
-"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, mfolders."
-"NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
+"global.Cancel, mfolders.NewFolder, mfolders.NewSearchFolder, "
+"mfolders.NewRssFeed, mail.MarkAllRead, mfolders.EmptyFolder, mfolders.Save"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: maddrbooks
+#. # L10N_IGNORE_BLOCK_END# Map: maddrbooks
 #: maddrbooks.description
 msgid "Manage Address Books"
 msgstr "Quản lý sổ địa chỉ"
@@ -1257,8 +1129,7 @@ msgid ""
 msgstr ""
 "global.Cancel, maddrbooks.NewAddressBook, maddrbooks.NewLink, mfolders.Save"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: mtags
+#. # L10N_IGNORE_BLOCK_END# Map: mtags
 #: mtags.description
 msgid "Manage Tags"
 msgstr "Quản lý thẻ"
@@ -1305,8 +1176,7 @@ msgstr "Lưu thay đổi"
 msgid "global.Cancel, mtags.NewTag, mail.MarkAllRead, mtags.Save"
 msgstr "global.Cancel, mtags.NewTag, mail.MarkAllRead, mtags.Save"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: mcalendars
+#. # L10N_IGNORE_BLOCK_END# Map: mcalendars
 #: mcalendars.description
 msgid "Manage Calendars"
 msgstr "Quản lý Lịch"
@@ -1362,8 +1232,7 @@ msgstr ""
 "global.Cancel, mcalendars.NewCalendar, mcalendars.NewSubscription, "
 "mcalendars.NewLink, mfolders.Save"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: voicemail
+#. # L10N_IGNORE_BLOCK_END# Map: voicemail
 #: voicemail.description
 msgid "Shortcuts in Voice Mail View"
 msgstr "Phím tắt trong Khung hiển thị thư thoại"
@@ -1495,8 +1364,7 @@ msgstr ""
 "voicemail.Delete, voicemail.Reply, voicemail.Forward, voicemail.MarkHeard, "
 "voicemail.MarkUnheard, voicemail.Print, voicemail.CallManager"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: call
+#. # L10N_IGNORE_BLOCK_END# Map: call
 #: call.description
 msgid "Shortcuts in Call List View"
 msgstr "Phím tắt cho Khung hiển thị danh sách cuộc gọi"
@@ -1535,8 +1403,7 @@ msgstr "In danh sách cuộc gọi"
 msgid "call.Print, call.CallManager"
 msgstr "call.Print, call.CallManager"
 
-#. # L10N_IGNORE_BLOCK_END
-#. # Map: key
+#. # L10N_IGNORE_BLOCK_END# Map: key
 #: key.Alt
 msgid "alt"
 msgstr "alt"

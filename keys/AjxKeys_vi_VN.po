@@ -1,146 +1,19 @@
+#. # # ***** BEGIN LICENSE BLOCK *****# Zimbra Collaboration Suite Web Client# Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.# # This program is free software: you can redistribute it and/or modify it under# the terms of the GNU General Public License as published by the Free Software Foundation,# version 2 of the License.# # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.# See the GNU General Public License for more details.# You should have received a copy of the GNU General Public License along with this program.# If not, see <http://www.gnu.org/licenses/>.# ***** END LICENSE BLOCK *****#
+#. extracted from AjxKeys.properties, AjxKeys_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: AjxKeys.vi_VN\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-16 21:20+0700\n"
-"PO-Revision-Date: 2014-03-20 21:49+0700\n"
-"Last-Translator: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language-Team: Nguyen Van Nguyen <nguyennv1981@gmail.com>\n"
-"Language: vi_VN\n"
+"POT-Creation-Date: 2015-03-07 23:25+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
 
-#. # Keyboard Shortcuts for the Zimbra Ajax Toolkit
-#. #
-#. # Below is a list of properties that define shortcuts. Each shortcut belongs
-#. # to a "map", which is the context in which the shortcut applies. For these
-#. # shortcuts, that is typically determined by which widget (a button or a list,
-#. # for example) currently has focus.
-#. #
-#. # The property key consists of several parts joined by dots. The first part
-#. # is always the name of a map. The second part is either the name of an action,
-#. # or the name of a field. Field names are lowercase, and action names are mixed
-#. # case. The final part of the key may be a platform.
-#. #
-#. # Maps
-#. # ----
-#. #
-#. # The map names in this properties file refer to widgets (basic UI pieces)
-#. # in the toolkit. The map name is the first part of the property name and
-#. # comes before the period. The following are valid map names:
-#. #
-#. #	dialog					a dialog box (typically has OK/Cancel buttons)
-#. #	button					a pressable button, which may have a dropdown submenu
-#. #	list					a list view of a set of items
-#. #	menu					a menu of possible choices, may have submenus
-#. #	toolbarHorizontal		a horizontal set of widgets (usually buttons)
-#. #	toolbarVertical			a vertical set of widgets (usually buttons)
-#. #
-#. # There is a special map called "keys" that provides information about the
-#. # keyboard being used. It does not define any actual shortcuts.
-#. #
-#. # Fields
-#. # ------
-#. #
-#. #	display			What the user must type to run the shortcut
-#. #	keycode			Keyboard codes for the shortcut
-#. #	description		Explanatory text
-#. #
-#. # Actions
-#. # -------
-#. #
-#. # An action is an event triggered by a shortcut. It is what the shortcut
-#. # does. Most of the time, the action invoked by a toolkit shortcut emulates
-#. # something that could have been done using the mouse. Note that an action
-#. # may be implemented by more than one widget; exactly what happens depends
-#. # on the widget. To see what actions are available and what each action does,
-#. # check the documentation within the shortcut definitions below.
-#. #
-#. # The action "INHERIT" has special meaning. When it is used, the name of a
-#. # map is given rather than a key sequence. The current map will copy all the
-#. # shortcuts of the given map, and then may add or override those shortcuts.
-#. # In general, you probably do not want to change those properties.
-#. #
-#. # To define a shortcut that applies only on a particular platform (Windows,
-#. # Macintosh, or Linux), add a platform identifier to the action. The platform
-#. # identifier can be one of:
-#. #
-#. #    win mac linux
-#. #
-#. # For example:
-#. #
-#. #    list.ContextMenu.display.mac = ,; Shift+,; Ctrl+M
-#. #    list.ContextMenu.keycode.mac = 188; Shift+188; Ctrl+77
-#. #
-#. # Key Sequences (shortcuts)
-#. # -------------
-#. #
-#. # A key sequence is a set of one or more keys that triggers an action. Each
-#. # key in the sequence may have a modifier (such as the Control or Shift key).
-#. # Most key sequences consist of just one key. The keys in multiple-key
-#. # sequences are separated with a comma. The next key in a sequence must be
-#. # struck within a short time for the sequence to continue.
-#. #
-#. # The following are valid modifiers:
-#. #
-#. #    Ctrl Alt Shift Meta
-#. #
-#. # To add a modifier to a key, specify the modifier, then a plus sign, then the
-#. # key. For example: Ctrl+C. If you want to add more than one modifier, use
-#. # another plus sign. For example: Ctrl+Alt+Del.
-#. #
-#. # If you want to have more than one shortcut for the same action, use a
-#. # semicolon (and optional space) to separate the shortcuts. For example, to
-#. # specify three different shortcuts for the list action Foo:
-#. #
-#. #    list.Foo.display 		= A; B; C
-#. #    list.Foo.keycode		= 65; 66; 67
-#. #
-#. # Each key sequence must be defined in two ways. The 'display' version is used
-#. # on the Shortcuts page to tell the user how to run the shortcut:
-#. #
-#. #    dialog.Cancel.display = Esc
-#. #
-#. # The 'keycode' version is used to match the keystroke to the shortcut by looking
-#. # at the numeric keycode sent by the keyboard:
-#. #
-#. #    dialog.Cancel.keycode = 27
-#. #
-#. # Key sequences have no notion of upper case or lower case. They map to what
-#. # you see on your keyboard (for example, a "T"), rather than the character it
-#. # produces when you strike it (a "t"). To specify a keystroke that requires the
-#. # Shift key, you must use the Shift modifier. For example, to specify the "@"
-#. # key, you'd use: Shift+2.
-#. #
-#. # Each letter, number, and non-shifted printable character represents itself:
-#. #
-#. #    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9
-#. #    ` - = [ ] ; ' , . /
-#. #
-#. # Non-printable keys are specified with special names. The following special
-#. # keys are available:
-#. #
-#. #    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space
-#. #
-#. #
-#. # Documentation
-#. # -------------
-#. #
-#. # Maps and actions can be documented by appending ".description" to the map
-#. # name or the action and using that as a property name. The descriptive
-#. # text is the property's value. The descriptions below show up as content in
-#. # the Shortcuts tab on the Options page.
-#. #
-#. # Since properties are unordered, we need to provide a hint about the order in
-#. # which we want them to appear. They will appear in low-to-high order of the value
-#. # for the ".sort" version of the property. That applies to both maps and
-#. # actions. By default, the sort values increment by ten so that it's easy
-#. # to insert a new item between two others without a ripple effect.
-#. # Map: keys
+#. # Keyboard Shortcuts for the Zimbra Ajax Toolkit## Below is a list of properties that define shortcuts. Each shortcut belongs# to a "map", which is the context in which the shortcut applies. For these# shortcuts, that is typically determined by which widget (a button or a list,# for example) currently has focus.## The property key consists of several parts joined by dots. The first part# is always the name of a map. The second part is either the name of an action,# or the name of a field. Field names are lowercase, and action names are mixed# case. The final part of the key may be a platform.## Maps# ----## The map names in this properties file refer to widgets (basic UI pieces)# in the toolkit. The map name is the first part of the property name and# comes before the period. The following are valid map names:##	dialog					a dialog box (typically has OK/Cancel buttons)#	button					a pressable button, which may have a dropdown submenu#	list					a list view of a set of items#	menu					a menu of possible choices, may have submenus#	toolbarHorizontal		a horizontal set of widgets (usually buttons)#	toolbarVertical			a vertical set of widgets (usually buttons)## There is a special map called "keys" that provides information about the# keyboard being used. It does not define any actual shortcuts.## Fields# ------##	display			What the user must type to run the shortcut#	keycode			Keyboard codes for the shortcut#	description		Explanatory text## Actions# -------## An action is an event triggered by a shortcut. It is what the shortcut# does. Most of the time, the action invoked by a toolkit shortcut emulates# something that could have been done using the mouse. Note that an action# may be implemented by more than one widget; exactly what happens depends# on the widget. To see what actions are available and what each action does,# check the documentation within the shortcut definitions below.## The action "INHERIT" has special meaning. When it is used, the name of a# map is given rather than a key sequence. The current map will copy all the# shortcuts of the given map, and then may add or override those shortcuts.# In general, you probably do not want to change those properties.#    # To define a shortcut that applies only on a particular platform (Windows,# Macintosh, or Linux), add a platform identifier to the action. The platform# identifier can be one of:##    win mac linux## For example:##    list.ContextMenu.display.mac = ,; Shift+,; Ctrl+M#    list.ContextMenu.keycode.mac = 188; Shift+188; Ctrl+77#    # Key Sequences (shortcuts)# -------------## A key sequence is a set of one or more keys that triggers an action. Each# key in the sequence may have a modifier (such as the Control or Shift key).# Most key sequences consist of just one key. The keys in multiple-key# sequences are separated with a comma. The next key in a sequence must be# struck within a short time for the sequence to continue.## The following are valid modifiers:##    Ctrl Alt Shift Meta## To add a modifier to a key, specify the modifier, then a plus sign, then the# key. For example: Ctrl+C. If you want to add more than one modifier, use# another plus sign. For example: Ctrl+Alt+Del.## If you want to have more than one shortcut for the same action, use a # semicolon (and optional space) to separate the shortcuts. For example, to# specify three different shortcuts for the list action Foo:##    list.Foo.display 		= A; B; C #    list.Foo.keycode		= 65; 66; 67# # Each key sequence must be defined in two ways. The 'display' version is used# on the Shortcuts page to tell the user how to run the shortcut:##    dialog.Cancel.display = Esc## The 'keycode' version is used to match the keystroke to the shortcut by looking# at the numeric keycode sent by the keyboard:##    dialog.Cancel.keycode = 27## Key sequences have no notion of upper case or lower case. They map to what# you see on your keyboard (for example, a "T"), rather than the character it# produces when you strike it (a "t"). To specify a keystroke that requires the# Shift key, you must use the Shift modifier. For example, to specify the "@"# key, you'd use: Shift+2.## Each letter, number, and non-shifted printable character represents itself:##    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9#    ` - = [ ] ; ' , . /## Non-printable keys are specified with special names. The following special# keys are available:##    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space### Documentation# -------------## Maps and actions can be documented by appending ".description" to the map# name or the action and using that as a property name. The descriptive# text is the property's value. The descriptions below show up as content in# the Shortcuts tab on the Options page.## Since properties are unordered, we need to provide a hint about the order in# which we want them to appear. They will appear in low-to-high order of the value# for the ".sort" version of the property. That applies to both maps and# actions. By default, the sort values increment by ten so that it's easy# to insert a new item between two others without a ripple effect.# Map: keys
 #: keys.shift.display
 msgid "Shift"
 msgstr "Shift"
@@ -205,11 +78,14 @@ msgid "40020"
 msgstr "40020"
 
 #: dialog.Enter.display
+msgctxt "dialog.Enter.display"
+"dialog.Enter.display"
 msgid "Enter; Space"
 msgstr "Enter; Space"
 
 #: dialog.Enter.keycode
 msgctxt "dialog.Enter.keycode"
+"dialog.Enter.keycode"
 msgid "13; 32"
 msgstr "13; 32"
 
@@ -264,12 +140,12 @@ msgstr "10000"
 
 #: button.Select.display
 msgctxt "button.Select.display"
-msgid "Enter"
+msgid "Enter; Space"
 msgstr "Enter"
 
 #: button.Select.keycode
 msgctxt "button.Select.keycode"
-msgid "13"
+msgid "13; 32"
 msgstr "13"
 
 #: button.Select.description
@@ -281,16 +157,24 @@ msgid "10010"
 msgstr "10010"
 
 #: button.SubMenu.display
-msgctxt "button.SubMenu.display"
-msgid "ArrowDown"
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10; ArrowDown"
 msgstr "ArrowDown"
 
 #: button.SubMenu.keycode
-msgctxt "button.SubMenu.keycode"
-msgid "40"
+msgid "188; Ctrl+13; Ctrl+32; Shift+121; 40"
 msgstr "40"
 
+#: button.SubMenu.display.mac
+msgid ",; Ctrl+Enter; Ctrl+Space; ArrowDown"
+msgstr ""
+
+#: button.SubMenu.keycode.mac
+msgid "188; Ctrl+13; Ctrl+32; 40"
+msgstr ""
+
 #: button.SubMenu.description
+msgctxt "button.SubMenu.description"
+"button.SubMenu.description"
 msgid "Display menu"
 msgstr "Hiển thị trình đơn"
 
@@ -339,42 +223,12 @@ msgstr "Thêm mục trước"
 msgid "30100"
 msgstr "30100"
 
-#: list.ContextMenu.display
-msgctxt "list.ContextMenu.display"
-msgid ",; Ctrl+Enter"
-msgstr ",; Ctrl+Enter"
-
-#: list.ContextMenu.keycode
-msgctxt "list.ContextMenu.keycode"
-msgid "188; Ctrl+13"
-msgstr "188; Ctrl+13"
-
-#: list.ContextMenu.display.mac
-msgctxt "list.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
-msgstr ",; Ctrl+M"
-
-#: list.ContextMenu.keycode.mac
-msgctxt "list.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
-msgstr "188; Ctrl+77"
-
-#: list.ContextMenu.description
-msgctxt "list.ContextMenu.description"
-msgid "Show right-click menu"
-msgstr "Hiển thị trình đơn chuột phải"
-
-#: list.ContextMenu.sort
-msgid "30080"
-msgstr "30080"
-
 #: list.DoubleClick.display
 msgctxt "list.DoubleClick.display"
 msgid "Enter"
 msgstr "Enter"
 
 #: list.DoubleClick.keycode
-msgctxt "list.DoubleClick.keycode"
 msgid "13"
 msgstr "13"
 
@@ -451,22 +305,27 @@ msgid "30060"
 msgstr "30060"
 
 #: list.SelectFirst.display
+msgctxt "list.SelectFirst.display"
 msgid "Home"
 msgstr "Home"
 
 #: list.SelectFirst.display.mac
+msgctxt "list.SelectFirst.display.mac"
 msgid "Home; Meta+ArrowUp"
 msgstr "Home; Meta+ArrowUp"
 
 #: list.SelectFirst.keycode
+msgctxt "list.SelectFirst.keycode"
 msgid "36"
 msgstr "36"
 
 #: list.SelectFirst.keycode.mac
+msgctxt "list.SelectFirst.keycode.mac"
 msgid "36; Meta+38"
 msgstr "36; Meta+38"
 
 #: list.SelectFirst.description
+msgctxt "list.SelectFirst.description"
 msgid "Select first item"
 msgstr "Chọn mục đầu tiên"
 
@@ -475,22 +334,27 @@ msgid "30040"
 msgstr "30040"
 
 #: list.SelectLast.display
+msgctxt "list.SelectLast.display"
 msgid "End"
 msgstr "End"
 
 #: list.SelectLast.display.mac
+msgctxt "list.SelectLast.display.mac"
 msgid "End; Meta+ArrowDown"
 msgstr "End; Meta+ArrowDown"
 
 #: list.SelectLast.keycode
+msgctxt "list.SelectLast.keycode"
 msgid "35"
 msgstr "35"
 
 #: list.SelectLast.keycode.mac
+msgctxt "list.SelectLast.keycode.mac"
 msgid "36; Meta+40"
 msgstr "36; Meta+40"
 
 #: list.SelectLast.description
+msgctxt "list.SelectLast.description"
 msgid "Select last item"
 msgstr "Chọn mục cuối cùng"
 
@@ -584,6 +448,35 @@ msgstr "Cuộn xuống một trang"
 msgid "30027"
 msgstr "30027"
 
+#: list.SubMenu.display
+msgctxt "list.SubMenu.display"
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
+msgstr ""
+
+#: list.SubMenu.keycode
+msgctxt "list.SubMenu.keycode"
+msgid "188; Ctrl+13; Ctrl+32; Shift+121"
+msgstr ""
+
+#: list.SubMenu.display.mac
+msgctxt "list.SubMenu.display.mac"
+msgid ",; Ctrl+Enter; Ctrl+Space"
+msgstr ""
+
+#: list.SubMenu.keycode.mac
+msgctxt "list.SubMenu.keycode.mac"
+msgid "188; Ctrl+13; Ctrl+32"
+msgstr ""
+
+#: list.SubMenu.description
+msgctxt "list.SubMenu.description"
+msgid "Display menu"
+msgstr ""
+
+#: list.SubMenu.sort
+msgid "30065;"
+msgstr ""
+
 #. # Map: tree
 #: tree.description
 msgid "Trees"
@@ -609,7 +502,6 @@ msgid "Next item"
 msgstr "Mục kế tiếp"
 
 #: tree.Next.sort
-msgctxt "tree.Next.sort"
 msgid "30510"
 msgstr "30510"
 
@@ -628,8 +520,7 @@ msgid "Select (in drop-down)"
 msgstr "Chọn (trong trình đơn sổ xuống)"
 
 #: tree.Enter.sort
-msgctxt "tree.Enter.sort"
-msgid "30510"
+msgid "30580"
 msgstr "30510"
 
 #: tree.Previous.display
@@ -687,34 +578,92 @@ msgstr "Thu gọn"
 msgid "30540"
 msgstr "30540"
 
-#: tree.ContextMenu.display
-msgctxt "tree.ContextMenu.display"
-msgid ",; Ctrl+Enter"
-msgstr ",; Ctrl+Enter"
+#: tree.SelectFirst.display
+msgctxt "tree.SelectFirst.display"
+msgid "Home"
+msgstr ""
 
-#: tree.ContextMenu.keycode
-msgctxt "tree.ContextMenu.keycode"
-msgid "188; Ctrl+13"
-msgstr "188; Ctrl+13"
+#: tree.SelectFirst.display.mac
+msgctxt "tree.SelectFirst.display.mac"
+msgid "Home; Meta+ArrowUp"
+msgstr ""
 
-#: tree.ContextMenu.display.mac
-msgctxt "tree.ContextMenu.display.mac"
-msgid ",; Ctrl+M"
-msgstr ",; Ctrl+M"
+#: tree.SelectFirst.keycode
+msgctxt "tree.SelectFirst.keycode"
+msgid "36"
+msgstr ""
 
-#: tree.ContextMenu.keycode.mac
-msgctxt "tree.ContextMenu.keycode.mac"
-msgid "188; Ctrl+77"
-msgstr "188; Ctrl+77"
+#: tree.SelectFirst.keycode.mac
+msgctxt "tree.SelectFirst.keycode.mac"
+msgid "36; Meta+38"
+msgstr ""
 
-#: tree.ContextMenu.description
-msgctxt "tree.ContextMenu.description"
-msgid "Show right-click menu"
-msgstr "Hiển thị trình đơn chuột phải"
+#: tree.SelectFirst.description
+msgctxt "tree.SelectFirst.description"
+msgid "Select first item"
+msgstr ""
 
-#: tree.ContextMenu.sort
-msgid "30550"
-msgstr "30550"
+#: tree.SelectFirst.sort
+msgid "30560"
+msgstr ""
+
+#: tree.SelectLast.display
+msgctxt "tree.SelectLast.display"
+msgid "End"
+msgstr ""
+
+#: tree.SelectLast.display.mac
+msgctxt "tree.SelectLast.display.mac"
+msgid "End; Meta+ArrowDown"
+msgstr ""
+
+#: tree.SelectLast.keycode
+msgctxt "tree.SelectLast.keycode"
+msgid "35"
+msgstr ""
+
+#: tree.SelectLast.keycode.mac
+msgctxt "tree.SelectLast.keycode.mac"
+msgid "36; Meta+40"
+msgstr ""
+
+#: tree.SelectLast.description
+msgctxt "tree.SelectLast.description"
+msgid "Select last item"
+msgstr ""
+
+#: tree.SelectLast.sort
+msgid "30570"
+msgstr ""
+
+#: tree.SubMenu.display
+msgctxt "tree.SubMenu.display"
+msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
+msgstr ""
+
+#: tree.SubMenu.keycode
+msgctxt "tree.SubMenu.keycode"
+msgid "188; Ctrl+13; Ctrl+32; Shift+121"
+msgstr ""
+
+#: tree.SubMenu.display.mac
+msgctxt "tree.SubMenu.display.mac"
+msgid ",; Ctrl+Enter; Ctrl+Space"
+msgstr ""
+
+#: tree.SubMenu.keycode.mac
+msgctxt "tree.SubMenu.keycode.mac"
+msgid "188; Ctrl+13; Ctrl+32"
+msgstr ""
+
+#: tree.SubMenu.description
+msgctxt "tree.SubMenu.description"
+msgid "Display menu"
+msgstr ""
+
+#: tree.SubMenu.sort
+msgid "30550;"
+msgstr ""
 
 #. # Map: menu
 #: menu.description
@@ -763,12 +712,12 @@ msgstr "20060"
 
 #: menu.Select.display
 msgctxt "menu.Select.display"
-msgid "Enter"
+msgid "Enter; Space"
 msgstr "Enter"
 
 #: menu.Select.keycode
 msgctxt "menu.Select.keycode"
-msgid "13"
+msgid "13; 32"
 msgstr "13"
 
 #: menu.Select.description
@@ -1292,151 +1241,3 @@ msgstr "Tab trước"
 #: tabView.PreviousTab.sort
 msgid "110020"
 msgstr "110020"
-
-#~ msgctxt "menu.PageUp.display.mac"
-#~ msgid "Alt + ArrowUp"
-#~ msgstr "Alt + ArrowUp"
-
-#~ msgctxt "menu.PageUp.keycode.mac"
-#~ msgid "Alt+38"
-#~ msgstr "Alt+38"
-
-#~ msgctxt "menu.PageDown.display.mac"
-#~ msgid "Alt + ArrowDown"
-#~ msgstr "Alt + ArrowDown"
-
-#~ msgctxt "menu.PageDown.keycode.mac"
-#~ msgid "Alt+40"
-#~ msgstr "Alt+40"
-
-#~ msgid "Shortcuts in Dialog Boxes"
-#~ msgstr "Phím tắt trong hộp thoại"
-
-#~ msgid "Cancel changes in the dialog (same as \"Cancel\" button)"
-#~ msgstr "Hủy bỏ những thay đổi trong hộp thoại (tương tự như nút \"Hủy bỏ\")"
-
-#~ msgid "Save changes in the dialog (same as \"OK\" button)"
-#~ msgstr "Lưu các thay đổi trong hộp thoại (tương tự như nút \"OK\")"
-
-#~ msgid "Shortcuts for Buttons"
-#~ msgstr "Phím tắt cho nút"
-
-#~ msgid "Display the pop-up menu for the button"
-#~ msgstr "Hiển thị trình đơn pop-up cho nút"
-
-#~ msgid "Shortcuts in Lists"
-#~ msgstr "Phím tắt trong danh sách"
-
-#~ msgid "Add the next item to the selection"
-#~ msgstr "Thêm mục tiếp theo để lựa chọn"
-
-#~ msgid "Add the previous item to the selection"
-#~ msgstr "Thêm mục trước đó để lựa chọn"
-
-#~ msgid "Show a menu to act on the selected items (same as right-click)"
-#~ msgstr ""
-#~ "Hiển thị một trình đơn để hoạt động trên các mục đã chọn (giống như nhấp "
-#~ "chuột phải)"
-
-#~ msgid "Double-click the selected item"
-#~ msgstr "Nhấn đúp vào mục được chọn"
-
-#~ msgid "Focus on the next item without selecting"
-#~ msgstr "Tập trung vào các mục tiếp theo mà không chọn"
-
-#~ msgid "Focus on the previous item without selecting"
-#~ msgstr "Tập trung vào các mục trước mà không chọn"
-
-#~ msgid "Select all visible items"
-#~ msgstr "Chọn tất cả các mục nhìn thấy"
-
-#~ msgid "Home; Meta+ArrowRight"
-#~ msgstr "Home; Meta+ArrowRight"
-
-#~ msgid "36; Meta+39"
-#~ msgstr "36; Meta+39"
-
-#~ msgid "Select the current item"
-#~ msgstr "Chọn mục hiện tại"
-
-#~ msgid "Move to the next item"
-#~ msgstr "Di chuyển đến mục kế tiếp"
-
-#~ msgid "Move to the previous item"
-#~ msgstr "Di chuyển sang mục trước đó"
-
-#~ msgid "Show the sub-menu of the current item"
-#~ msgstr "Hiển thị trình đơn con cho mục hiện thời"
-
-#~ msgid "Shortcuts for Horizontal Toolbars"
-#~ msgstr "Phím tắt cho Thanh công cụ ngang"
-
-#~ msgctxt "toolbarHorizontal.Next.description"
-#~ msgid "Focus on the next button"
-#~ msgstr "Tập trung vào nút tiếp theo"
-
-#~ msgctxt "toolbarHorizontal.Previous.description"
-#~ msgid "Focus on the previous button"
-#~ msgstr "Tập trung vào nút trước"
-
-#~ msgctxt "toolbarVertical.Next.description"
-#~ msgid "Focus on the next button"
-#~ msgstr "Tập trung vào nút tiếp theo"
-
-#~ msgctxt "toolbarVertical.Previous.description"
-#~ msgid "Focus on the previous button"
-#~ msgstr "Tập trung vào nút trước"
-
-#~ msgid "Shortcuts within an HTML Editor"
-#~ msgstr "Phím tắt trong một trình biên tập HTML"
-
-#~ msgid "Make text bold"
-#~ msgstr "Làm cho văn bản đậm"
-
-#~ msgid "Bold (Ctrl+B)"
-#~ msgstr "Đậm (Ctrl+B)"
-
-#~ msgid "Align text in the middle"
-#~ msgstr "Căn lề văn bản ở giữa"
-
-#~ msgid "Align text so that text lines up on both sides"
-#~ msgstr "Căn lề văn bản để các dòng văn bản đều trên cả hai phía"
-
-#~ msgid "Justify (Ctrl+J)"
-#~ msgstr "Canh lề đều (Ctrl+J)"
-
-#~ msgid "60080"
-#~ msgstr "60080"
-
-#~ msgid "Make text italicized"
-#~ msgstr "Làm cho văn bản in nghiêng"
-
-#~ msgid "Italic (Ctrl+I)"
-#~ msgstr "Nghiêng (Ctrl+I)"
-
-#~ msgid "Align Left (Ctrl+L)"
-#~ msgstr "Canh lề trái (Ctrl+L)"
-
-#~ msgid "Align Right (Ctrl+R)"
-#~ msgstr "Canh lề phải (Ctrl+R)"
-
-#~ msgid "Ctrl+83"
-#~ msgstr "Ctrl+83"
-
-#~ msgid "Add line through middle of text"
-#~ msgstr "Thêm đường xuyên qua giữa văn bản"
-
-#~ msgid "Ctrl+0"
-#~ msgstr "Ctrl+0"
-
-#~ msgid "Ctrl+48"
-#~ msgstr "Ctrl+48"
-
-#~ msgid "Switch between HTML and text modes"
-#~ msgstr "Chuyển đổi giữa chế độ HTML và văn bản"
-
-#~ msgid "60150"
-#~ msgstr "60150"
-
-#~ msgid "Underline (Ctrl+U)"
-#~ msgstr "Gạch chân (Ctrl+U)"
