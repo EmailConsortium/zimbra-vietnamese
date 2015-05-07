@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-07 23:27+0700\n"
-"PO-Revision-Date: 2015-04-01 23:12+0700\n"
+"PO-Revision-Date: 2015-05-07 22:52+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,7 +44,7 @@ msgstr "EEEE, MMMM d, yyyy"
 #. # {0} is the hour number, 0-24; {1} is a date object with the same hour
 #: formatCalHour
 msgid "{0,choice,0#Midnight|1#{1,time,h a}|12#Noon|13#{1,time,h a}|24#Midnight}"
-msgstr "{0,chọn,0#Nửa đêm|1#{1,time,h a}|12#Trưa|13#{{1,time,h a}|24#Nửa đêm}"
+msgstr "{0,choice,0#Midnight|1#{1,time,h a}|12#Trưa|13#{1,time,h a}|24#Midnight}"
 
 #: formatCalDay
 msgid "M/d "
@@ -101,7 +101,7 @@ msgstr "Thông điệp đã chuyển tiếp"
 
 #: forwardedMessage1
 msgid "Begin forwarded message:"
-msgstr ""
+msgstr "Bắt đầu thư chuyển tiếp:"
 
 #: origMsg
 msgid "Original Message"
