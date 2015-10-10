@@ -1,17 +1,16 @@
-#. # # ***** BEGIN LICENSE BLOCK *****# Zimbra Collaboration Suite Web Client# Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014 Zimbra, Inc.# # This program is free software: you can redistribute it and/or modify it under# the terms of the GNU General Public License as published by the Free Software Foundation,# version 2 of the License.# # This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.# See the GNU General Public License for more details.# You should have received a copy of the GNU General Public License along with this program.# If not, see <http://www.gnu.org/licenses/>.# ***** END LICENSE BLOCK *****#
-#. extracted from ZmKeys.properties, ZmKeys_vi_VN.properties
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-07 23:26+0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2015-10-10 11:05+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 1.9.0\n"
+"X-Generator: Poedit 1.8.5\n"
+"Last-Translator: Truong Anh Tuan <tuanta@iwayvietnam.com>\n"
+"Language-Team: \n"
+"Language: vi_VN\n"
 
 #. # Keyboard Shortcuts for the ZCS Web Client### Below is a list of properties that define shortcuts. Each shortcut belongs# to a "map", which is the context in which the shortcut applies. For these# shortcuts, that is typically determined by the current view (for example,# a list of messages or a compose form).## The property key consists of several parts joined by dots. The first part# is always the name of a map. The second part is either the name of an action,# or the name of a field. Field names are lowercase, and action names are mixed# case. The final part of the key may be a platform.### Maps# ----## The map names in this properties file refer to views within the ZCS web # client. The following are valid map names:##    global					applies to all views#    compose				a form for creating a new message#    mail					a list of mail messages or conversations#    conversation			a single conversation, which is a list of mail messages#    message				the content of a single mail message#    contacts				a set of contacts#    editContact			a form for creating or editing a contact#    calendar				any of several calendar views (week, month, etc)#    editAppointment		a form for creating or editing an appointment#    options				a set of tabs for changing personal settings#    voicemail				a list of voicemail messages#    call					a list of phone calls#    address				an address bubble## Actions# -------## An action is an event triggered by a shortcut. It is what the shortcut# does. Most of the time, the action invoked by a web client shortcut emulates# something that could have been done using the mouse, for example by clicking# on a particular button. To see what actions are available and what each action does,# check the documentation section below. ## The action "INHERIT" has special meaning. When it is used, the name of a# map is given rather than a key sequence. The current map will copy all the# shortcuts of the given map, and then may add or override those shortcuts.# In general, you probably do not want to change the "INHERIT" properties.## To define a shortcut that applies only on a particular platform (Windows,# Macintosh, or Linux), add a platform identifier to the action. The platform# identifier can be one of:##    win mac linux## For example:##    compose.Send.display.mac = Ctrl+Enter; Ctrl+S#    compose.Send.keycode.mac = Ctrl+13; Ctrl+83#    # Key Sequences (shortcuts)# -------------## A key sequence is a set of one or more keys that triggers an action. Each# key in the sequence may have a modifier (such as the Control or Shift key).# Most key sequences consist of just one key. The keys in multiple-key# sequences are separated with a comma. The next key in a sequence must be# struck within a short time for the sequence to continue.## The following are valid modifiers:##    Ctrl Alt Shift Meta## To add a modifier to a key, specify the modifier, then a plus sign, then the# key. For example: Ctrl+C. If you want to add more than one modifier, use# another plus sign. For example: Ctrl+Shift+O.## If you want to have more than one shortcut for the same action, use a # semicolon (and optional space) to separate the shortcuts. For example, to# specify three different shortcuts for the global action Foo:##    global.Foo.display		= A; B; C #    global.Foo.keycode		= 65; 66; 67# # Key sequences have no notion of upper case or lower case. They map to what# you see on your keyboard (for example, a "T"), rather than the character it# produces when you strike it (a "t"). To specify a keystroke that requires the# Shift key, you must use the Shift modifier. For example, to specify the "@"# key, you'd use: Shift+2.## Each letter, number, and non-shifted printable character represents itself:##    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9#    ` - = [ ] ' . /## Non-printable keys are specified with special names. The following special# names are available:##    Home End Esc Del Backspace Enter ArrowUp ArrowDown ArrowLeft ArrowRight Space### Documentation# -------------## Maps and actions can be documented by appending ".description" to the map# name or the action and using that as a property name. The descriptive# text is the property's value. The descriptions below show up as content in# the Shortcuts tab on the Options page.## The "sort" field sets the sorting order among either map names or among# the actions within a map, from low to high. There are gaps so that# properties may be inserted and given a sort order without having to# change the order of other properties.# Map: global
 #: global.description
@@ -399,19 +398,19 @@ msgstr "10125"
 
 #: global.NewSearch.display
 msgid "N,S"
-msgstr ""
+msgstr "N,S"
 
 #: global.NewSearch.keycode
 msgid "78,83"
-msgstr ""
+msgstr "78,83"
 
 #: global.NewSearch.description
 msgid "Open a search tab"
-msgstr ""
+msgstr "Mở thẻ tìm kiếm"
 
 #: global.NewSearch.sort
 msgid "10195"
-msgstr ""
+msgstr "10195"
 
 #: global.NewTag.display
 msgid "N,T"
@@ -447,19 +446,19 @@ msgstr "10115"
 
 #: global.NewDocument.display
 msgid "N,D"
-msgstr ""
+msgstr "N,D"
 
 #: global.NewDocument.keycode
 msgid "78,68"
-msgstr ""
+msgstr "78,68"
 
 #: global.NewDocument.description
 msgid "New document"
-msgstr ""
+msgstr "Tài liệu mới"
 
 #: global.NewDocument.sort
 msgid "10135"
-msgstr ""
+msgstr "10135"
 
 #: global.NextPage.display
 msgid "Ctrl+ArrowRight"
@@ -583,27 +582,27 @@ msgstr "10270"
 
 #: global.ContextMenu.display
 msgid ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
-msgstr ""
+msgstr ",; Ctrl+Enter; Ctrl+Space; Shift+F10"
 
 #: global.ContextMenu.keycode
 msgid "188; Ctrl+13; Ctrl+32; Shift+121"
-msgstr ""
+msgstr "188; Ctrl+13; Ctrl+32; Shift+121"
 
 #: global.ContextMenu.display.mac
 msgid ",; Ctrl+Enter; Ctrl+Space"
-msgstr ""
+msgstr ",; Ctrl+Enter; Ctrl+Space"
 
 #: global.ContextMenu.keycode.mac
 msgid "188; Ctrl+13; Ctrl+32"
-msgstr ""
+msgstr "188; Ctrl+13; Ctrl+32"
 
 #: global.ContextMenu.description
 msgid "Show right-click menu"
-msgstr ""
+msgstr "Hiện trình đơn chuột phải"
 
 #: global.ContextMenu.sort
 msgid "10275"
-msgstr ""
+msgstr "10275"
 
 #: global.Tag.display
 msgid "T"
@@ -2032,35 +2031,35 @@ msgstr "10270"
 #: viewAppointment.INHERIT
 msgctxt "viewAppointment.INHERIT"
 msgid "global"
-msgstr ""
+msgstr "chung"
 
 #. #L10N_IGNORE_BLOCK_END
 #: viewAppointment.description
 msgid "View Appointment"
-msgstr ""
+msgstr "Xem lịch hẹn"
 
 #: viewAppointment.sort
 msgid "85000"
-msgstr ""
+msgstr "85000"
 
 #: viewAppointment.Cancel.display
 msgctxt "viewAppointment.Cancel.display"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 #: viewAppointment.Cancel.keycode
 msgctxt "viewAppointment.Cancel.keycode"
 msgid "27"
-msgstr ""
+msgstr "27"
 
 #: viewAppointment.Cancel.description
 msgctxt "viewAppointment.Cancel.description"
 msgid "Close"
-msgstr ""
+msgstr "Close"
 
 #: viewAppointment.Cancel.sort
 msgid "85020"
-msgstr ""
+msgstr "85020"
 
 #. # Map: options
 #. #L10N_IGNORE_BLOCK_BEGIN
