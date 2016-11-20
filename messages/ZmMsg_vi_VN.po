@@ -9537,11 +9537,11 @@ msgstr "Thư mới gửi từ: {0} ({1})"
 
 #: newMessage
 msgid "New Message"
-msgstr "Thông điệp mới"
+msgstr "Soạn thư"
 
 #: newMessages
 msgid "New Messages"
-msgstr "Thông điệp mới"
+msgstr "Soạn thư"
 
 #: newMessageFormat
 msgid "New message format:"
@@ -10205,7 +10205,7 @@ msgstr "Không thể kết nối đến máy chủ. Hiện tại bạn đang off
 
 #: offlineSettings
 msgid "Offline Mode"
-msgstr "Chế độ offline"
+msgstr "Chế độ Offline"
 
 #: offlineSignOutWarning
 msgid ""
