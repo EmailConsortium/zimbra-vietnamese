@@ -3628,7 +3628,7 @@ msgstr ""
 
 #: delegateSendSettings
 msgid "Delegate Send Settings:"
-msgstr "Ủy quyền cấu hình g"
+msgstr "Ủy quyền cấu hình gửi:"
 
 #: delegatesLabel
 msgid "Delegates:"
@@ -12239,26 +12239,26 @@ msgstr "Lưu một bản sao vào thư mục Thư đã gửi"
 
 #: saveToSentDelegatedSender
 msgid "Save a copy of sent messages to delegate's Sent folder"
-msgstr "Lưu một bản sao của tin nhắn gửi vào thư mục Đã gửi"
+msgstr "Lưu một bản sao của thư đã gửi vào thư mục Thư đã gửi của người được ủy quyền"
 
 #: saveToSentDelegatedOwner
 msgid "Save a copy of sent messages to my Sent folder"
-msgstr "Lưu một bản sao của thư gửi đến thư mục Đã gửi"
+msgstr "Lưu một bản sao của thư đã gửi vào thư mục Thư đã gửi của tôi"
 
 #: saveToSentDelegatedNone
 msgid "Don't save a copy of sent messages"
-msgstr "Không lưu bản sao tin nhắn đã gửi"
+msgstr "Không lưu một bản sao của thư đã gửi"
 
 #: saveToSentDelegatedBoth
 msgid ""
 "Save a copy of sent messages to delegate's Sent folder and my Sent folder"
 msgstr ""
-"Lưu một bản sao của tin nhắn đã gửi vào thư mục Đã gửi ủy quyền và thư mục "
-"Đã gửi của tôi"
+"Lưu một bản sao của thư đã gửi vào thư mục Thư đã gửi của người được ủy quyền và thư mục "
+"Thư đã gửi của tôi"
 
 #: saveToSentNOT
 msgid "Do not save sent messages"
-msgstr "Không lưu các thông điệp đã gửi"
+msgstr "Không lưu các thư đã gửi"
 
 #: saveToSentWarning
 msgid ""
