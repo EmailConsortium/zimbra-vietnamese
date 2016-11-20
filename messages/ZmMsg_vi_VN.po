@@ -2663,7 +2663,7 @@ msgstr "Đã hoàn thành"
 
 #: compose
 msgid "Compose"
-msgstr "Soản thảo"
+msgstr "Soạn thảo"
 
 #: composeMoreOptions
 msgid ""
