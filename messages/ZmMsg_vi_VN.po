@@ -8336,8 +8336,8 @@ msgid ""
 "The username or password is incorrect. Verify that CAPS LOCK is not on, and "
 "then retype the current username and password"
 msgstr ""
-"Tên truy cập và mật khẩu không đúng. Xác minh rằng đèn CAPS LOCK không bật, "
-"và sau đó gõ lịa tên truy cập và mật khẩu"
+"Tên truy cập hoặc mật khẩu không đúng. Đảm bảo rằng CAPS LOCK không bật, và "
+"sau đó gõ lại tên truy cập và mật khẩu"
 
 #: loginAsDiff
 msgctxt "loginAsDiff"
