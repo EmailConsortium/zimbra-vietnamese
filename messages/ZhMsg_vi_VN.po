@@ -3,11 +3,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-07 23:28+0700\n"
-"PO-Revision-Date: 2015-04-01 23:18+0700\n"
+"PO-Revision-Date: 2017-07-31 09:35+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 2.0.3\n"
 "Last-Translator: Truong Anh Tuan <tuanta@iwayvietnam.com>\n"
 "Language-Team: \n"
 "Language: vi_VN\n"
@@ -38,7 +38,7 @@ msgstr "Chấp nhận chia sẻ"
 
 #: actionAddCallerToForward
 msgid "Add to Call Forwarding List"
-msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi :"
+msgstr "Thêm vào Danh sách chuyển tiếp cuộc gọi"
 
 #: actionAddCallerToReject
 msgid "Add to Call Screening List"
@@ -311,7 +311,7 @@ msgstr "{0,choice,0#0 cuộc đàm thoại vừa được xoá|1#1 cuộc đàm 
 
 #: actionConvMessageHardDeleted
 msgid "{0} {0,choice,1#conversation|2#conversations} and {1} {1,choice,1#message|2#messages} have been deleted. "
-msgstr "{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông điệp|2#thông điệp} đã được xóa."
+msgstr "{0} {0,choice,1#cuộc đàm thoại|2#cuộc đàm thoại} và {1} {1,choice,1#thông điệp|2#thông điệp} đã được xóa "
 
 #: actionConvFlag
 msgid "{0,choice,0#0 conversations have been flagged|1#1 conversation has been flagged|1<{0,number,integer} conversations have been flagged}."
@@ -579,7 +579,7 @@ msgstr "{0,choice,0#0 thông điệp vừa được chuyển tới thư mục Th
 
 #: actionMessageDeleted
 msgid "Message has been moved to Trash folder."
-msgstr "thông điệp vừa được chuyển tới thư mục Thùng rác."
+msgstr "Thông điệp vừa được chuyển tới thư mục Thùng rác."
 
 #: actionMove
 msgid "Move"
@@ -1350,7 +1350,7 @@ msgstr "Đã cập nhật cặp tài liệu"
 
 #: briefcaseEmptied
 msgid "Briefcase folder \"{0}\" emptied"
-msgstr "Thư mục cặp tài liệu \"{0}\" đã rỗng."
+msgstr "Thư mục cặp tài liệu \"{0}\" đã rỗng"
 
 #: briefcaseDeleteConfirmation
 msgid "Delete this briefcase (move to trash)"
@@ -2065,7 +2065,7 @@ msgstr "Bản nháp"
 
 #: draftSavedAuto
 msgid "Draft Autosaved."
-msgstr "Thư nháp tự động lưu"
+msgstr "Thư nháp tự động lưu."
 
 #: duration
 msgid "Duration"
@@ -2127,7 +2127,7 @@ msgstr "Làm trống Thư rác"
 
 #: emptyMessage
 msgid "Click to view."
-msgstr "Bấm để xem"
+msgstr "Bấm để xem."
 
 #: emptyPassword
 msgid "Empty passwords are not allowed."
@@ -2477,7 +2477,7 @@ msgstr "Thư mục"
 
 #: foldersLabel
 msgid "Folders:"
-msgstr "Thư mục"
+msgstr "Thư mục:"
 
 #: fontSize
 msgid "Font Size"
@@ -2654,7 +2654,7 @@ msgstr "Tìm kiếm trong cả Thư rác"
 
 #: includeShared
 msgid "Include shared "
-msgstr "Bao gồm chia sẻ"
+msgstr "Bao gồm chia sẻ "
 
 #: invalidForwardNumber
 msgid "The call forwarding number is invalid"
@@ -3081,7 +3081,7 @@ msgstr "Sổ ghi chép"
 
 #: noAddresses
 msgid "There must be at least one address in the To:, Cc:, or Bcc: fields"
-msgstr "Phải có ít nhất một đị chỉ trong các trường Tới:, Cc:, hoặc Bcc:"
+msgstr "Phải có ít nhất một đị chỉ trong các trường Tới:, Cc:, hoặc Bcc"
 
 #: noContactGroupMembers
 msgid "The contact group must have at least one member."
@@ -3426,11 +3426,10 @@ msgctxt "optionsDisplayHtmlAsText"
 msgid "As Text"
 msgstr "Như văn bản (Text)"
 
-##: add
-#msgctxt "add"
-#msgid "Add"
-#msgstr "Thêm"
-
+# #: add
+# msgctxt "add"
+# msgid "Add"
+# msgstr "Thêm"
 #: optionsRings
 msgid "Number Of Rings"
 msgstr "Số lần chuông"
@@ -3517,7 +3516,7 @@ msgstr "Bảo mật"
 
 #: optionsVoiceSecurityChPwd
 msgid "Change Voice Mail PIN:"
-msgstr "Thay đổi PIN thư thoại"
+msgstr "Thay đổi PIN thư thoại:"
 
 #: optionsVoiceSecurityChPwdLink
 msgid "Change your Voice Mail PIN on Comcast.net"
@@ -3525,7 +3524,7 @@ msgstr "Thay đổi PIN thư thoại của bạn trên Comcast.net"
 
 #: optionsVoiceSecurityLogin
 msgid "Voice Mail Login:"
-msgstr "Đăng nhập thư thoại"
+msgstr "Đăng nhập thư thoại:"
 
 #: optionsVoiceSecurityLoginRequire
 msgid "Require my voice mail password to access voice mail from my Comcast Digital Voice phone"
@@ -4619,7 +4618,7 @@ msgstr "Dịch vụ kiểm tra chính tả không có."
 
 #: spellcheckSpellingSuggestions
 msgid "Spelling Suggestions "
-msgstr "Gợi ý chính tả"
+msgstr "Gợi ý chính tả "
 
 #: spellcheckSuggestionsLabel
 msgid "Suggestions:"
@@ -4890,7 +4889,7 @@ msgstr "chưa nghe"
 
 #: unknown
 msgid "Unknown "
-msgstr "Không biết"
+msgstr "Không xác định "
 
 #: unknownContentType
 msgid "Unknown <{0}>"
@@ -4998,7 +4997,7 @@ msgstr ""
 "A tiếng nói của khách hàng đã gửi cho bạn một thông điệp thư thoại mới. Bạn có thể nghe thư thoại bằng cách đơn giản là mở tập tin đính kèm.\n"
 "Từ: {0}  |  Thời lượng: {1}  |  \tĐã nhận: {2}\n"
 "\n"
-"http://www.zimbra.com"
+"http://www.zimbra.com "
 
 #: voiceMailForwardSubject
 msgid "Listen to this voice mail I received"
@@ -5142,7 +5141,7 @@ msgstr "Không có sự trình bày có thể cấp nhận được tìm thấy 
 
 #: 407Title
 msgid "Proxy Authentication Required"
-msgstr "Xác thực Proxy là bắt buộc."
+msgstr "Xác thực Proxy là bắt buộc"
 
 #: 407Msg
 msgid "The server could not verify that you are authorized to access the requested resource."
@@ -5179,7 +5178,7 @@ msgstr "Chiều dài bắt buộc"
 
 #: 411Msg
 msgid "A request of the requested method GET requires a valid Content-length."
-msgstr "Một yêu cầu của phương thức yêu cầu GET đòi hỏi một trường Content-length hợp lệ"
+msgstr "Một yêu cầu của phương thức yêu cầu GET đòi hỏi một trường Content-length hợp lệ."
 
 #: 412Title
 msgid "Precondition Failed"
@@ -5292,11 +5291,11 @@ msgstr "Gateway tồi"
 
 #: 502Msg
 msgid "The server was acting as a gateway or proxy and received an invalid response from the upstream server."
-msgstr "\tCác máy chủ được hành động như một gateway hoặc proxy và nhận một yêu cầu từ máy chủ đầu nguồn"
+msgstr "Các máy chủ được hành động như một gateway hoặc proxy và nhận một yêu cầu từ máy chủ đầu nguồn."
 
 #: 503Title
 msgid "Service Unavailable"
-msgstr "Dịch vụ không có sẵn."
+msgstr "Dịch vụ không có sẵn"
 
 #: 503Msg
 msgid "The server is currently unavailable (because it is overloaded or down for maintenance)."
@@ -7112,7 +7111,7 @@ msgstr "Chọn Cặp tài liệu"
 
 #: MO_SessionPrefs
 msgid "Session options"
-msgstr "tuỳ chọn phiên"
+msgstr "Tuỳ chọn phiên làm việc"
 
 #: MO_MaxFolders
 msgid "Max Folders"
@@ -7120,7 +7119,7 @@ msgstr "Tối đa thư mục"
 
 #: MO_MaxFoldersInvalidValueMsg
 msgid "Invalid value for max folders. "
-msgstr "Giá trị không hợp lệ cho tối đa thư mục."
+msgstr "Giá trị không hợp lệ cho tối đa thư mục "
 
 #: MO_MaxFoldersAllowedNote
 msgid "Allowed value is between 1 to 1000. Your mobile browser may crash while rendering large list."
@@ -7230,7 +7229,7 @@ msgstr "Quyền bị từ chối."
 
 #: service.AUTH_REQUIRED
 msgid "Authentication Required"
-msgstr "Yêu cầu xác thực."
+msgstr "Yêu cầu xác thực"
 
 #: service.AUTH_EXPIRED
 msgid "Your session has expired. Please login again."
@@ -7552,7 +7551,7 @@ msgstr "Tên không hợp lệ. Nó chứa ít nhất một ký tự không hợ
 
 #: mail.INVALID_TYPE
 msgid "Invalid type."
-msgstr "Kiểu không hợp lệ"
+msgstr "Kiểu không hợp lệ."
 
 #: mail.INVALID_CONTENT_TYPE
 msgid "Invalid contact type."
@@ -7604,15 +7603,15 @@ msgstr "Không thể phân tích truy vấn tìm kiếm."
 
 #: mail.MESSAGE_PARSE_ERROR
 msgid "Unable to parse message."
-msgstr "hông thể phân tích thông điệp."
+msgstr "Không thể phân tích thông điệp."
 
 #: mail.ADDRESS_PARSE_ERROR
 msgid "Unable to parse address."
-msgstr "hông thể phân tích địa chỉ."
+msgstr "Không thể phân tích địa chỉ."
 
 #: mail.ICALENDAR_PARSE_ERROR
 msgid "Unable to parse iCalendar."
-msgstr "hông thể phân tích iCalendar."
+msgstr "Không thể phân tích iCalendar."
 
 #: mail.MUST_BE_ORGANIZER
 msgid "Must be the appointment organizer."
@@ -7845,4 +7844,3 @@ msgstr "Số điện thoại đã có trong Danh sách chuyển tiếp cuộc g�
 msgctxt "voice.SELECTIVE_CALL_REJECT_ALREADY_IN_LIST"
 msgid "The phone number is already in the Call Screening List."
 msgstr "Số điện thoại đã có trong Danh sách sàng lọc cuộc gọi."
-
